@@ -946,3 +946,24 @@
 [2024-04-26 00:57:54] INFO root fetch - processPackages [py-ssd]: Remove: archive file [/home/abi/fetcher/tmp/py_ssd-0.20.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-04-26 00:57:54] INFO root fetch - main [MainThread]: End processing [py-ssd]: success
 [2024-04-26 00:57:54] INFO root fetch - main [MainThread]: Store serial: [22939193]
+[2024-04-26 00:59:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22939193]
+[2024-04-26 01:00:03] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-26 01:00:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: turbodinwriter
+[2024-04-26 01:00:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fgo-api-types
+[2024-04-26 01:00:03] INFO root fetch - processPackages [turbodinwriter]: New version: [0.4.1] Old Version: [0.3.1]
+[2024-04-26 01:00:03] INFO root fetch - processPackages [turbodinwriter]: Downloading https://files.pythonhosted.org/packages/cc/a8/96baac06f3b7f365083b45da3cdb5fb5eb0edaa3551e527fd9a03c494830/turbodinwriter-0.3.1.tar.gz
+[2024-04-26 01:00:03] INFO root fetch - processPackages [turbodinwriter]: Downloading https://files.pythonhosted.org/packages/19/1b/766afaaa29eedc8e88e5426b4e5814075fe06c1816670be09d934c4d3245/turbodinwriter-0.4.1.tar.gz
+[2024-04-26 01:00:03] INFO root fetch - processPackages [fgo-api-types]: New version: [2024.4.6.2.22.3] Old Version: [2024.4.25.22.59.52]
+[2024-04-26 01:00:03] INFO root fetch - processPackages [turbodinwriter]: executing diffoscope
+[2024-04-26 01:00:03] INFO root fetch - processPackages [turbodinwriter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/turbodinwriter-0.3.1.tar.gz tmp/turbodinwriter-0.4.1.tar.gz --markdown 20240426/t/turbodinwriter/0.3.1-0.4.1/README.md --exclude *.pyd
+[2024-04-26 01:00:03] INFO root fetch - processPackages [fgo-api-types]: Downloading https://files.pythonhosted.org/packages/19/84/f70b5bac7e94a6c048851eeb5860dfb77c5e7d6025c833a9ee41c89dfd33/fgo_api_types-2024.4.25.22.59.52.tar.gz
+[2024-04-26 01:00:04] INFO root fetch - processPackages [turbodinwriter]: Remove: archive file [/home/abi/fetcher/tmp/turbodinwriter-0.3.1.tar.gz]
+[2024-04-26 01:00:04] INFO root fetch - processPackages [turbodinwriter]: Remove: archive file [/home/abi/fetcher/tmp/turbodinwriter-0.4.1.tar.gz]
+[2024-04-26 01:00:04] INFO root fetch - main [MainThread]: End processing [turbodinwriter]: success
+[2024-04-26 01:00:04] INFO root fetch - processPackages [fgo-api-types]: Downloading https://files.pythonhosted.org/packages/b9/41/3dbb26f0f980c564a1e8ae75299afc724991934ffaf1a8a59ab70aafb784/fgo_api_types-2024.4.6.2.22.3.tar.gz
+[2024-04-26 01:00:04] INFO root fetch - processPackages [fgo-api-types]: executing diffoscope
+[2024-04-26 01:00:04] INFO root fetch - processPackages [fgo-api-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fgo_api_types-2024.4.25.22.59.52.tar.gz tmp/fgo_api_types-2024.4.6.2.22.3.tar.gz --markdown 20240426/f/fgo-api-types/2024.4.25.22.59.52-2024.4.6.2.22.3/README.md --exclude *.pyd
+[2024-04-26 01:00:05] INFO root fetch - processPackages [fgo-api-types]: Remove: archive file [/home/abi/fetcher/tmp/fgo_api_types-2024.4.25.22.59.52.tar.gz]
+[2024-04-26 01:00:05] INFO root fetch - processPackages [fgo-api-types]: Remove: archive file [/home/abi/fetcher/tmp/fgo_api_types-2024.4.6.2.22.3.tar.gz]
+[2024-04-26 01:00:05] INFO root fetch - main [MainThread]: End processing [fgo-api-types]: success
+[2024-04-26 01:00:05] INFO root fetch - main [MainThread]: Store serial: [22939249]
