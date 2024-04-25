@@ -1222,3 +1222,23 @@
 [2024-04-26 01:16:35] INFO root fetch - processPackages [pr-pilot]: Remove: archive file [/home/abi/fetcher/tmp/pr_pilot-1.3.2.tar.gz]
 [2024-04-26 01:16:35] INFO root fetch - main [MainThread]: End processing [pr-pilot]: success
 [2024-04-26 01:16:35] INFO root fetch - main [MainThread]: Store serial: [22939418]
+[2024-04-26 01:18:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22939418]
+[2024-04-26 01:18:44] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-26 01:18:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gradio
+[2024-04-26 01:18:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kfre
+[2024-04-26 01:18:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gradio-client
+[2024-04-26 01:18:44] WARNING root fetch - processPackages [kfre]: Skipping, unable to determine old version
+[2024-04-26 01:18:44] INFO root fetch - main [MainThread]: End processing [kfre] error
+[2024-04-26 01:18:44] INFO root fetch - processPackages [gradio-client]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-04-26 01:18:44] INFO root fetch - processPackages [gradio]: New version: [4.9.1] Old Version: [4.9.0]
+[2024-04-26 01:18:45] INFO root fetch - processPackages [gradio-client]: Downloading https://files.pythonhosted.org/packages/43/8a/1e90ee2bfd602ae3eed6e043d256b754a13d9c26462260e83d0dab39a31e/gradio_client-0.8.1.tar.gz
+[2024-04-26 01:18:45] INFO root fetch - processPackages [gradio]: Downloading https://files.pythonhosted.org/packages/eb/a2/56c39c590c6c0e5d2583115b6e478de4bf1c9aa42b45cc47d81d88f93665/gradio-4.9.0.tar.gz
+[2024-04-26 01:18:45] WARNING root fetch - processPackages [gradio]: Skipping package: exceeds size limit 26124496>=10485760
+[2024-04-26 01:18:45] INFO root fetch - main [MainThread]: End processing [gradio] error
+[2024-04-26 01:18:45] INFO root fetch - processPackages [gradio-client]: Downloading https://files.pythonhosted.org/packages/7b/af/4443670ba46252320607429d325bd5b202b6b6c3d90edb8ac851405a0aef/gradio_client-0.9.0.tar.gz
+[2024-04-26 01:18:45] INFO root fetch - processPackages [gradio-client]: executing diffoscope
+[2024-04-26 01:18:45] INFO root fetch - processPackages [gradio-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gradio_client-0.8.1.tar.gz tmp/gradio_client-0.9.0.tar.gz --markdown 20240426/g/gradio-client/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-04-26 01:18:46] INFO root fetch - processPackages [gradio-client]: Remove: archive file [/home/abi/fetcher/tmp/gradio_client-0.8.1.tar.gz]
+[2024-04-26 01:18:46] INFO root fetch - processPackages [gradio-client]: Remove: archive file [/home/abi/fetcher/tmp/gradio_client-0.9.0.tar.gz]
+[2024-04-26 01:18:46] INFO root fetch - main [MainThread]: End processing [gradio-client]: success
+[2024-04-26 01:18:46] INFO root fetch - main [MainThread]: Store serial: [22939428]
