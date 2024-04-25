@@ -967,3 +967,24 @@
 [2024-04-26 01:00:05] INFO root fetch - processPackages [fgo-api-types]: Remove: archive file [/home/abi/fetcher/tmp/fgo_api_types-2024.4.6.2.22.3.tar.gz]
 [2024-04-26 01:00:05] INFO root fetch - main [MainThread]: End processing [fgo-api-types]: success
 [2024-04-26 01:00:05] INFO root fetch - main [MainThread]: Store serial: [22939249]
+[2024-04-26 01:02:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22939249]
+[2024-04-26 01:02:13] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-26 01:02:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pf-azuredb
+[2024-04-26 01:02:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: monit-agd
+[2024-04-26 01:02:13] INFO root fetch - processPackages [monit-agd]: New version: [1.3.4] Old Version: [1.3.2]
+[2024-04-26 01:02:13] INFO root fetch - processPackages [pf-azuredb]: New version: [1.0.0] Old Version: [0.0.5]
+[2024-04-26 01:02:13] INFO root fetch - processPackages [monit-agd]: Downloading https://files.pythonhosted.org/packages/fc/b0/553c2443525ec698309c08f6c84b534033031cb098a12d0a3bb26aa9a7f6/monit-agd-1.3.2.tar.gz
+[2024-04-26 01:02:13] INFO root fetch - processPackages [pf-azuredb]: Downloading https://files.pythonhosted.org/packages/82/29/64d797e5db71643b0cd3ee0c7eff2e977c1b7a24d16d2bf8dda3a19157e9/pf-azuredb-0.0.5.tar.gz
+[2024-04-26 01:02:14] INFO root fetch - processPackages [monit-agd]: Downloading https://files.pythonhosted.org/packages/ce/ad/76bc01196ca3a907b9458669ff87cc6003fd1de13c4e2392657a16c76129/monit-agd-1.3.4.tar.gz
+[2024-04-26 01:02:14] INFO root fetch - processPackages [pf-azuredb]: Downloading https://files.pythonhosted.org/packages/ab/65/9b7fdb93f5c017945fb1c73c5bb77ead2f97fd4e78996388f638cec0c7a2/pf_azuredb-1.0.0.tar.gz
+[2024-04-26 01:02:14] INFO root fetch - processPackages [monit-agd]: executing diffoscope
+[2024-04-26 01:02:14] INFO root fetch - processPackages [monit-agd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monit-agd-1.3.2.tar.gz tmp/monit-agd-1.3.4.tar.gz --markdown 20240426/m/monit-agd/1.3.2-1.3.4/README.md --exclude *.pyd
+[2024-04-26 01:02:14] INFO root fetch - processPackages [pf-azuredb]: executing diffoscope
+[2024-04-26 01:02:14] INFO root fetch - processPackages [pf-azuredb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pf-azuredb-0.0.5.tar.gz tmp/pf_azuredb-1.0.0.tar.gz --markdown 20240426/p/pf-azuredb/0.0.5-1.0.0/README.md --exclude *.pyd
+[2024-04-26 01:02:14] INFO root fetch - processPackages [monit-agd]: Remove: archive file [/home/abi/fetcher/tmp/monit-agd-1.3.2.tar.gz]
+[2024-04-26 01:02:14] INFO root fetch - processPackages [monit-agd]: Remove: archive file [/home/abi/fetcher/tmp/monit-agd-1.3.4.tar.gz]
+[2024-04-26 01:02:14] INFO root fetch - main [MainThread]: End processing [monit-agd]: success
+[2024-04-26 01:02:14] INFO root fetch - processPackages [pf-azuredb]: Remove: archive file [/home/abi/fetcher/tmp/pf-azuredb-0.0.5.tar.gz]
+[2024-04-26 01:02:14] INFO root fetch - processPackages [pf-azuredb]: Remove: archive file [/home/abi/fetcher/tmp/pf_azuredb-1.0.0.tar.gz]
+[2024-04-26 01:02:14] INFO root fetch - main [MainThread]: End processing [pf-azuredb]: success
+[2024-04-26 01:02:14] INFO root fetch - main [MainThread]: Store serial: [22939256]
