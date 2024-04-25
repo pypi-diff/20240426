@@ -595,3 +595,33 @@
 [2024-04-26 00:40:26] INFO root fetch - processPackages [eva4-controller-py]: Remove: archive file [/home/abi/fetcher/tmp/eva4-controller-py-0.1.4.tar.gz]
 [2024-04-26 00:40:26] INFO root fetch - main [MainThread]: End processing [eva4-controller-py]: success
 [2024-04-26 00:40:26] INFO root fetch - main [MainThread]: Store serial: [22939044]
+[2024-04-26 00:42:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22939044]
+[2024-04-26 00:42:34] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-26 00:42:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: referrers
+[2024-04-26 00:42:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: h5analysis
+[2024-04-26 00:42:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: onstats
+[2024-04-26 00:42:34] INFO root fetch - processPackages [referrers]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-04-26 00:42:34] INFO root fetch - processPackages [onstats]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-04-26 00:42:34] INFO root fetch - processPackages [h5analysis]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-26 00:42:34] INFO root fetch - processPackages [referrers]: Downloading https://files.pythonhosted.org/packages/55/6c/e31da70d85e3b9ea82d543457b4cf63b8d73134180d61ab79d6f016d21a6/referrers-0.4.1.tar.gz
+[2024-04-26 00:42:34] INFO root fetch - processPackages [onstats]: Downloading https://files.pythonhosted.org/packages/41/16/b3f203235e6c4abc0baf8f608b385c1c540985869e4b4c9523e7af656134/onstats-0.9.1.tar.gz
+[2024-04-26 00:42:34] INFO root fetch - processPackages [h5analysis]: Downloading https://files.pythonhosted.org/packages/7f/06/223f03a9b5227e2cabcdf1f98cc947fba9598187d96356c06382b85286c8/h5analysis-0.0.8.tar.gz
+[2024-04-26 00:42:35] INFO root fetch - processPackages [h5analysis]: Downloading https://files.pythonhosted.org/packages/87/86/17cc06879d035e5f154ecad9530c7c01df2439dd1eb54378379f99ee122f/h5analysis-0.0.9.tar.gz
+[2024-04-26 00:42:35] INFO root fetch - processPackages [h5analysis]: executing diffoscope
+[2024-04-26 00:42:35] INFO root fetch - processPackages [h5analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/h5analysis-0.0.8.tar.gz tmp/h5analysis-0.0.9.tar.gz --markdown 20240426/h/h5analysis/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-26 00:42:35] INFO root fetch - processPackages [referrers]: Downloading https://files.pythonhosted.org/packages/30/b0/d2864f2af9f6b5e276acc2cbb35863d83fe49fa81c243d5d043de70fdccc/referrers-0.4.2.tar.gz
+[2024-04-26 00:42:35] INFO root fetch - processPackages [onstats]: Downloading https://files.pythonhosted.org/packages/b9/d7/3f99b99d222b364691a16b62619ae300eb1f62f4a982236ec81ee6ca5dfe/onstats-0.9.2.tar.gz
+[2024-04-26 00:42:35] INFO root fetch - processPackages [referrers]: executing diffoscope
+[2024-04-26 00:42:35] INFO root fetch - processPackages [referrers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/referrers-0.4.1.tar.gz tmp/referrers-0.4.2.tar.gz --markdown 20240426/r/referrers/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-04-26 00:42:35] INFO root fetch - processPackages [onstats]: executing diffoscope
+[2024-04-26 00:42:35] INFO root fetch - processPackages [onstats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onstats-0.9.1.tar.gz tmp/onstats-0.9.2.tar.gz --markdown 20240426/o/onstats/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-04-26 00:42:35] INFO root fetch - processPackages [h5analysis]: Remove: archive file [/home/abi/fetcher/tmp/h5analysis-0.0.8.tar.gz]
+[2024-04-26 00:42:35] INFO root fetch - processPackages [h5analysis]: Remove: archive file [/home/abi/fetcher/tmp/h5analysis-0.0.9.tar.gz]
+[2024-04-26 00:42:35] INFO root fetch - main [MainThread]: End processing [h5analysis]: success
+[2024-04-26 00:42:35] INFO root fetch - processPackages [referrers]: Remove: archive file [/home/abi/fetcher/tmp/referrers-0.4.1.tar.gz]
+[2024-04-26 00:42:35] INFO root fetch - processPackages [referrers]: Remove: archive file [/home/abi/fetcher/tmp/referrers-0.4.2.tar.gz]
+[2024-04-26 00:42:35] INFO root fetch - main [MainThread]: End processing [referrers]: success
+[2024-04-26 00:42:35] INFO root fetch - processPackages [onstats]: Remove: archive file [/home/abi/fetcher/tmp/onstats-0.9.1.tar.gz]
+[2024-04-26 00:42:35] INFO root fetch - processPackages [onstats]: Remove: archive file [/home/abi/fetcher/tmp/onstats-0.9.2.tar.gz]
+[2024-04-26 00:42:35] INFO root fetch - main [MainThread]: End processing [onstats]: success
+[2024-04-26 00:42:35] INFO root fetch - main [MainThread]: Store serial: [22939053]
