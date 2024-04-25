@@ -504,3 +504,61 @@
 [2024-04-26 00:36:05] INFO root fetch - processPackages [strawberry-graphql-django]: Remove: archive file [/home/abi/fetcher/tmp/strawberry_graphql_django-0.9.5.tar.gz]
 [2024-04-26 00:36:05] INFO root fetch - main [MainThread]: End processing [strawberry-graphql-django]: success
 [2024-04-26 00:36:05] INFO root fetch - main [MainThread]: Store serial: [22939013]
+[2024-04-26 00:38:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22939013]
+[2024-04-26 00:38:14] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-26 00:38:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pkscreener
+[2024-04-26 00:38:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: caustic.cst
+[2024-04-26 00:38:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: caustic.cst
+[2024-04-26 00:38:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: CTK-Desert
+[2024-04-26 00:38:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mauritstest.namespacepackage
+[2024-04-26 00:38:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: echowarp
+[2024-04-26 00:38:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pySigma
+[2024-04-26 00:38:14] INFO root fetch - processPackages [CTK-Desert]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-26 00:38:14] INFO root fetch - processPackages [caustic.cst]: New version: [1.3.1] Old Version: [1.3.0]
+[2024-04-26 00:38:14] WARNING root fetch - processPackages [mauritstest.namespacepackage]: Skipping, unable to determine old version
+[2024-04-26 00:38:14] INFO root fetch - main [MainThread]: End processing [mauritstest.namespacepackage] error
+[2024-04-26 00:38:14] INFO root fetch - processPackages [caustic.cst]: New version: [1.3.1] Old Version: [1.3.0]
+[2024-04-26 00:38:14] INFO root fetch - processPackages [CTK-Desert]: Downloading https://files.pythonhosted.org/packages/9a/73/c7239044a3b6edf571c3f5feded6aab241cff792f7acd98dd42652e44c95/CTK_Desert-0.0.8.tar.gz
+[2024-04-26 00:38:14] INFO root fetch - processPackages [echowarp]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-26 00:38:14] INFO root fetch - processPackages [pySigma]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-26 00:38:14] INFO root fetch - processPackages [pkscreener]: New version: [0.44.20240425.292] Old Version: [0.44.20240424.291]
+[2024-04-26 00:38:14] INFO root fetch - processPackages [caustic.cst]: Downloading https://files.pythonhosted.org/packages/60/b5/c300be5a583a387c0084ef69efec215a640800f62a56a598aee367954d6d/caustic.cst-1.3.0.tar.gz
+[2024-04-26 00:38:14] INFO root fetch - processPackages [caustic.cst]: Downloading https://files.pythonhosted.org/packages/60/b5/c300be5a583a387c0084ef69efec215a640800f62a56a598aee367954d6d/caustic.cst-1.3.0.tar.gz
+[2024-04-26 00:38:14] INFO root fetch - processPackages [echowarp]: Downloading https://files.pythonhosted.org/packages/e7/73/133bbfc36e8f960066704ef18dcba3a52560e54f06973f9b736341e2a020/echowarp-0.2.8-py3-none-any.whl
+[2024-04-26 00:38:14] INFO root fetch - processPackages [pySigma]: Downloading https://files.pythonhosted.org/packages/13/9f/3e47b8bafe9f9f1ac348eb375abc3cb48231485e88682c0a7b64a12388b2/pysigma-0.9.8.tar.gz
+[2024-04-26 00:38:14] INFO root fetch - processPackages [CTK-Desert]: Downloading https://files.pythonhosted.org/packages/6d/b4/d3af97e7bf9ae492dceb1aad8191e260b603096af0a9755ffd707156f69f/CTK_Desert-0.0.9.tar.gz
+[2024-04-26 00:38:14] INFO root fetch - processPackages [pkscreener]: Downloading https://files.pythonhosted.org/packages/17/ca/c101c0059c67cddfdcd6ff3b0b63a41ece3ce3e92101f50c140b86dc5e8f/pkscreener-0.44.20240424.291.tar.gz
+[2024-04-26 00:38:14] INFO root fetch - processPackages [CTK-Desert]: executing diffoscope
+[2024-04-26 00:38:14] INFO root fetch - processPackages [CTK-Desert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CTK_Desert-0.0.8.tar.gz tmp/CTK_Desert-0.0.9.tar.gz --markdown 20240426/C/CTK-Desert/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-26 00:38:14] INFO root fetch - processPackages [caustic.cst]: Downloading https://files.pythonhosted.org/packages/35/c5/82b1e6d043c1a746718ba4f03d79691a1f102b5034026926caa1af2c104f/caustic.cst-1.3.1.tar.gz
+[2024-04-26 00:38:14] INFO root fetch - processPackages [caustic.cst]: Downloading https://files.pythonhosted.org/packages/35/c5/82b1e6d043c1a746718ba4f03d79691a1f102b5034026926caa1af2c104f/caustic.cst-1.3.1.tar.gz
+[2024-04-26 00:38:14] INFO root fetch - processPackages [echowarp]: Downloading https://files.pythonhosted.org/packages/19/4b/ad6567ce913fff1c9f9fc6b429f5305acebcd573bfe2031f972e4d71baba/echowarp-0.2.9-py3-none-any.whl
+[2024-04-26 00:38:15] INFO root fetch - processPackages [pySigma]: Downloading https://files.pythonhosted.org/packages/8e/fa/8c4e57eb26fbd769f9195ad94a4b9bf648124b5a8918e82bbc5aead98940/pysigma-0.9.9.tar.gz
+[2024-04-26 00:38:15] INFO root fetch - processPackages [caustic.cst]: executing diffoscope
+[2024-04-26 00:38:15] INFO root fetch - processPackages [caustic.cst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caustic.cst-1.3.0.tar.gz tmp/caustic.cst-1.3.1.tar.gz --markdown 20240426/c/caustic.cst/1.3.0-1.3.1/README.md --exclude *.pyd
+[2024-04-26 00:38:15] INFO root fetch - processPackages [caustic.cst]: executing diffoscope
+[2024-04-26 00:38:15] INFO root fetch - processPackages [caustic.cst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caustic.cst-1.3.0.tar.gz tmp/caustic.cst-1.3.1.tar.gz --markdown 20240426/c/caustic.cst/1.3.0-1.3.1/README.md --exclude *.pyd
+[2024-04-26 00:38:15] INFO root fetch - processPackages [pkscreener]: Downloading https://files.pythonhosted.org/packages/f2/5d/a4fb11ad72ea2a690c319ab4640d8a1bdebb76c5afee3bdd3c745773af49/pkscreener-0.44.20240425.292.tar.gz
+[2024-04-26 00:38:15] INFO root fetch - processPackages [echowarp]: executing diffoscope
+[2024-04-26 00:38:15] INFO root fetch - processPackages [echowarp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/echowarp-0.2.8-py3-none-any.whl.zip tmp/echowarp-0.2.9-py3-none-any.whl.zip --markdown 20240426/e/echowarp/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-26 00:38:15] INFO root fetch - processPackages [pySigma]: executing diffoscope
+[2024-04-26 00:38:15] INFO root fetch - processPackages [pySigma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysigma-0.9.8.tar.gz tmp/pysigma-0.9.9.tar.gz --markdown 20240426/p/pySigma/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-26 00:38:15] INFO root fetch - processPackages [pkscreener]: executing diffoscope
+[2024-04-26 00:38:15] INFO root fetch - processPackages [pkscreener]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkscreener-0.44.20240424.291.tar.gz tmp/pkscreener-0.44.20240425.292.tar.gz --markdown 20240426/p/pkscreener/0.44.20240424.291-0.44.20240425.292/README.md --exclude *.pyd
+[2024-04-26 00:38:15] INFO root fetch - processPackages [CTK-Desert]: Remove: archive file [/home/abi/fetcher/tmp/CTK_Desert-0.0.8.tar.gz]
+[2024-04-26 00:38:15] INFO root fetch - processPackages [CTK-Desert]: Remove: archive file [/home/abi/fetcher/tmp/CTK_Desert-0.0.9.tar.gz]
+[2024-04-26 00:38:15] INFO root fetch - main [MainThread]: End processing [CTK-Desert]: success
+[2024-04-26 00:38:15] INFO root fetch - processPackages [echowarp]: Remove: archive file [/home/abi/fetcher/tmp/echowarp-0.2.8-py3-none-any.whl.zip]
+[2024-04-26 00:38:15] INFO root fetch - processPackages [echowarp]: Remove: archive file [/home/abi/fetcher/tmp/echowarp-0.2.9-py3-none-any.whl.zip]
+[2024-04-26 00:38:15] INFO root fetch - main [MainThread]: End processing [echowarp]: success
+[2024-04-26 00:38:15] INFO root fetch - processPackages [caustic.cst]: Remove: archive file [/home/abi/fetcher/tmp/caustic.cst-1.3.0.tar.gz]
+[2024-04-26 00:38:15] INFO root fetch - processPackages [caustic.cst]: Remove: archive file [/home/abi/fetcher/tmp/caustic.cst-1.3.1.tar.gz]
+[2024-04-26 00:38:15] INFO root fetch - main [MainThread]: End processing [caustic.cst]: success
+[2024-04-26 00:38:15] INFO root fetch - main [MainThread]: End processing [caustic.cst]: success
+[2024-04-26 00:38:15] INFO root fetch - processPackages [pySigma]: Remove: archive file [/home/abi/fetcher/tmp/pysigma-0.9.8.tar.gz]
+[2024-04-26 00:38:15] INFO root fetch - processPackages [pySigma]: Remove: archive file [/home/abi/fetcher/tmp/pysigma-0.9.9.tar.gz]
+[2024-04-26 00:38:15] INFO root fetch - main [MainThread]: End processing [pySigma]: success
+[2024-04-26 00:38:16] INFO root fetch - processPackages [pkscreener]: Remove: archive file [/home/abi/fetcher/tmp/pkscreener-0.44.20240424.291.tar.gz]
+[2024-04-26 00:38:16] INFO root fetch - processPackages [pkscreener]: Remove: archive file [/home/abi/fetcher/tmp/pkscreener-0.44.20240425.292.tar.gz]
+[2024-04-26 00:38:16] INFO root fetch - main [MainThread]: End processing [pkscreener]: success
+[2024-04-26 00:38:16] INFO root fetch - main [MainThread]: Store serial: [22939032]
