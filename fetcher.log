@@ -1841,3 +1841,25 @@
 [2024-04-26 01:56:45] INFO root fetch - processPackages [np-upload-validation]: Remove: archive file [/home/abi/fetcher/tmp/np-upload-validation-0.1.9.tar.gz]
 [2024-04-26 01:56:45] INFO root fetch - main [MainThread]: End processing [np-upload-validation]: success
 [2024-04-26 01:56:45] INFO root fetch - main [MainThread]: Store serial: [22939700]
+[2024-04-26 01:58:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22939700]
+[2024-04-26 01:58:54] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-26 01:58:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: omnivoreql
+[2024-04-26 01:58:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pylinweb
+[2024-04-26 01:58:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gpcam
+[2024-04-26 01:58:54] INFO root fetch - processPackages [pylinweb]: New version: [0.5] Old Version: [0.4]
+[2024-04-26 01:58:54] INFO root fetch - processPackages [omnivoreql]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-26 01:58:54] INFO root fetch - processPackages [gpcam]: New version: [8.0.6] Old Version: [8.0.5]
+[2024-04-26 01:58:54] INFO root fetch - processPackages [pylinweb]: Downloading https://files.pythonhosted.org/packages/8e/ae/2e4993fa0a0b7db6960cd5410c67fd1878bdc9d8716a45d01ac9191f11c1/pylinweb-0.4.tar.gz
+[2024-04-26 01:58:54] WARNING root fetch - processPackages [pylinweb]: Skipping package: exceeds size limit 45141922>=10485760
+[2024-04-26 01:58:54] INFO root fetch - main [MainThread]: End processing [pylinweb] error
+[2024-04-26 01:58:54] INFO root fetch - processPackages [omnivoreql]: Downloading https://files.pythonhosted.org/packages/10/2c/b021dd54b940d531828db308cc036cde1a35a8297fd43dedab487f5169e5/omnivoreql-0.2.1-py3-none-any.whl
+[2024-04-26 01:58:54] INFO root fetch - processPackages [gpcam]: Downloading https://files.pythonhosted.org/packages/da/3a/c48df26f0c718a4e79ce9729c6fca33d9298f10c02992a7c0801ebe810c5/gpcam-8.0.5.tar.gz
+[2024-04-26 01:58:54] WARNING root fetch - processPackages [gpcam]: Skipping package: exceeds size limit 11871005>=10485760
+[2024-04-26 01:58:54] INFO root fetch - main [MainThread]: End processing [gpcam] error
+[2024-04-26 01:58:55] INFO root fetch - processPackages [omnivoreql]: Downloading https://files.pythonhosted.org/packages/67/12/42ebc525f042e36dfbd1d498088d7d5e727eae2fdf6f43ba3d78e8d8c5b3/omnivoreql-0.2.2-py3-none-any.whl
+[2024-04-26 01:58:55] INFO root fetch - processPackages [omnivoreql]: executing diffoscope
+[2024-04-26 01:58:55] INFO root fetch - processPackages [omnivoreql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnivoreql-0.2.1-py3-none-any.whl.zip tmp/omnivoreql-0.2.2-py3-none-any.whl.zip --markdown 20240426/o/omnivoreql/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-04-26 01:58:55] INFO root fetch - processPackages [omnivoreql]: Remove: archive file [/home/abi/fetcher/tmp/omnivoreql-0.2.1-py3-none-any.whl.zip]
+[2024-04-26 01:58:55] INFO root fetch - processPackages [omnivoreql]: Remove: archive file [/home/abi/fetcher/tmp/omnivoreql-0.2.2-py3-none-any.whl.zip]
+[2024-04-26 01:58:55] INFO root fetch - main [MainThread]: End processing [omnivoreql]: success
+[2024-04-26 01:58:55] INFO root fetch - main [MainThread]: Store serial: [22939707]
