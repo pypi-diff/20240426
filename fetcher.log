@@ -1192,3 +1192,33 @@
 [2024-04-26 01:14:24] INFO root fetch - processPackages [pyspedas]: Remove: archive file [/home/abi/fetcher/tmp/pyspedas-1.5.9.tar.gz]
 [2024-04-26 01:14:24] INFO root fetch - main [MainThread]: End processing [pyspedas]: success
 [2024-04-26 01:14:24] INFO root fetch - main [MainThread]: Store serial: [22939409]
+[2024-04-26 01:16:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22939409]
+[2024-04-26 01:16:33] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-26 01:16:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: plotly3d
+[2024-04-26 01:16:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pr-pilot
+[2024-04-26 01:16:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: caustic.parser
+[2024-04-26 01:16:33] INFO root fetch - processPackages [plotly3d]: New version: [0.4.6] Old Version: [0.4.5]
+[2024-04-26 01:16:33] INFO root fetch - processPackages [caustic.parser]: New version: [2.2.5] Old Version: [2.2.4]
+[2024-04-26 01:16:33] INFO root fetch - processPackages [plotly3d]: Downloading https://files.pythonhosted.org/packages/86/8d/18a890a791e9b3f3fb7a38363b931b0c9681db02ed04edfe608152714dc5/plotly3d-0.4.5.tar.gz
+[2024-04-26 01:16:33] INFO root fetch - processPackages [pr-pilot]: New version: [1.3.2] Old Version: [1.3.1]
+[2024-04-26 01:16:34] INFO root fetch - processPackages [caustic.parser]: Downloading https://files.pythonhosted.org/packages/62/7d/a7fe41c6156efc03471d99ef8b1f1c07183c5a01afae6e4f8a340286fead/caustic.parser-2.2.4.tar.gz
+[2024-04-26 01:16:34] INFO root fetch - processPackages [pr-pilot]: Downloading https://files.pythonhosted.org/packages/ac/57/373045ebc69b87b41dafa5b3ae2340108fcd0b5f019076336a0e2232c5a3/pr_pilot-1.3.1.tar.gz
+[2024-04-26 01:16:34] INFO root fetch - processPackages [plotly3d]: Downloading https://files.pythonhosted.org/packages/f6/70/4f0f5245fe1cf335bfc0f99ce76a08594e02f07dbe6e5f0e0fca7b16000d/plotly3d-0.4.6.tar.gz
+[2024-04-26 01:16:34] INFO root fetch - processPackages [plotly3d]: executing diffoscope
+[2024-04-26 01:16:34] INFO root fetch - processPackages [plotly3d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plotly3d-0.4.5.tar.gz tmp/plotly3d-0.4.6.tar.gz --markdown 20240426/p/plotly3d/0.4.5-0.4.6/README.md --exclude *.pyd
+[2024-04-26 01:16:34] INFO root fetch - processPackages [pr-pilot]: Downloading https://files.pythonhosted.org/packages/82/72/113d0d95d5e490d49e470621cd264887cfb45c281e90c0ed68d8f32537c4/pr_pilot-1.3.2.tar.gz
+[2024-04-26 01:16:34] INFO root fetch - processPackages [caustic.parser]: Downloading https://files.pythonhosted.org/packages/e6/73/35e6378dab5f42a45f9ee736be20eafff663cf996c7ece5e7dc6d77a0d32/caustic.parser-2.2.5.tar.gz
+[2024-04-26 01:16:34] INFO root fetch - processPackages [pr-pilot]: executing diffoscope
+[2024-04-26 01:16:34] INFO root fetch - processPackages [pr-pilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pr_pilot-1.3.1.tar.gz tmp/pr_pilot-1.3.2.tar.gz --markdown 20240426/p/pr-pilot/1.3.1-1.3.2/README.md --exclude *.pyd
+[2024-04-26 01:16:34] INFO root fetch - processPackages [caustic.parser]: executing diffoscope
+[2024-04-26 01:16:34] INFO root fetch - processPackages [caustic.parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caustic.parser-2.2.4.tar.gz tmp/caustic.parser-2.2.5.tar.gz --markdown 20240426/c/caustic.parser/2.2.4-2.2.5/README.md --exclude *.pyd
+[2024-04-26 01:16:34] INFO root fetch - processPackages [plotly3d]: Remove: archive file [/home/abi/fetcher/tmp/plotly3d-0.4.5.tar.gz]
+[2024-04-26 01:16:34] INFO root fetch - processPackages [plotly3d]: Remove: archive file [/home/abi/fetcher/tmp/plotly3d-0.4.6.tar.gz]
+[2024-04-26 01:16:34] INFO root fetch - main [MainThread]: End processing [plotly3d]: success
+[2024-04-26 01:16:35] INFO root fetch - processPackages [caustic.parser]: Remove: archive file [/home/abi/fetcher/tmp/caustic.parser-2.2.4.tar.gz]
+[2024-04-26 01:16:35] INFO root fetch - processPackages [caustic.parser]: Remove: archive file [/home/abi/fetcher/tmp/caustic.parser-2.2.5.tar.gz]
+[2024-04-26 01:16:35] INFO root fetch - main [MainThread]: End processing [caustic.parser]: success
+[2024-04-26 01:16:35] INFO root fetch - processPackages [pr-pilot]: Remove: archive file [/home/abi/fetcher/tmp/pr_pilot-1.3.1.tar.gz]
+[2024-04-26 01:16:35] INFO root fetch - processPackages [pr-pilot]: Remove: archive file [/home/abi/fetcher/tmp/pr_pilot-1.3.2.tar.gz]
+[2024-04-26 01:16:35] INFO root fetch - main [MainThread]: End processing [pr-pilot]: success
+[2024-04-26 01:16:35] INFO root fetch - main [MainThread]: Store serial: [22939418]
