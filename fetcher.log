@@ -387,3 +387,33 @@
 [2024-04-26 00:27:22] INFO root fetch - processPackages [dagworks-sdk]: Remove: archive file [/home/abi/fetcher/tmp/dagworks_sdk-0.5.2.tar.gz]
 [2024-04-26 00:27:22] INFO root fetch - main [MainThread]: End processing [dagworks-sdk]: success
 [2024-04-26 00:27:22] INFO root fetch - main [MainThread]: Store serial: [22938976]
+[2024-04-26 00:29:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22938976]
+[2024-04-26 00:29:31] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-26 00:29:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: taskara
+[2024-04-26 00:29:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: plotly3d
+[2024-04-26 00:29:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chipsec
+[2024-04-26 00:29:31] INFO root fetch - processPackages [chipsec]: New version: [1.5.1] Old Version: [1.4.4]
+[2024-04-26 00:29:31] INFO root fetch - processPackages [plotly3d]: New version: [0.4.3] Old Version: [0.4.2]
+[2024-04-26 00:29:31] INFO root fetch - processPackages [taskara]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-26 00:29:31] INFO root fetch - processPackages [taskara]: Downloading https://files.pythonhosted.org/packages/d6/1e/172ae85d48722a1e28b9526c0bb34465bd7920d0c8e6858e25a3f8c528a9/taskara-0.1.7.tar.gz
+[2024-04-26 00:29:31] INFO root fetch - processPackages [chipsec]: Downloading https://files.pythonhosted.org/packages/90/90/81c7673faccad48b106f78c884101c12f6f7f5e4effdab101f89779cd4ab/chipsec-1.4.4.0.tar.gz
+[2024-04-26 00:29:31] INFO root fetch - processPackages [plotly3d]: Downloading https://files.pythonhosted.org/packages/b1/67/7ee461abb853c1dd33a16b6a26f65dafad306af71758cb39e0ca69f0e28e/plotly3d-0.4.2.tar.gz
+[2024-04-26 00:29:31] INFO root fetch - processPackages [taskara]: Downloading https://files.pythonhosted.org/packages/c0/4f/e9467a6dd755091e2fe2294b58569b289c5252fd70463791829fd99fbfd7/taskara-0.1.8.tar.gz
+[2024-04-26 00:29:32] INFO root fetch - processPackages [taskara]: executing diffoscope
+[2024-04-26 00:29:32] INFO root fetch - processPackages [taskara]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taskara-0.1.7.tar.gz tmp/taskara-0.1.8.tar.gz --markdown 20240426/t/taskara/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-26 00:29:32] INFO root fetch - processPackages [plotly3d]: Downloading https://files.pythonhosted.org/packages/53/3f/51d1549a2b76569199362f8316682076060e9962cdef397d50c1c6d8c07f/plotly3d-0.4.3.tar.gz
+[2024-04-26 00:29:32] INFO root fetch - processPackages [plotly3d]: executing diffoscope
+[2024-04-26 00:29:32] INFO root fetch - processPackages [plotly3d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plotly3d-0.4.2.tar.gz tmp/plotly3d-0.4.3.tar.gz --markdown 20240426/p/plotly3d/0.4.2-0.4.3/README.md --exclude *.pyd
+[2024-04-26 00:29:32] INFO root fetch - processPackages [chipsec]: Downloading https://files.pythonhosted.org/packages/44/9e/fa63ce34fd9536c609d4af25c06adb42adb9199ed0d0e9e3931d9ad7c45a/chipsec-1.5.1.tar.gz
+[2024-04-26 00:29:32] INFO root fetch - processPackages [taskara]: Remove: archive file [/home/abi/fetcher/tmp/taskara-0.1.7.tar.gz]
+[2024-04-26 00:29:32] INFO root fetch - processPackages [taskara]: Remove: archive file [/home/abi/fetcher/tmp/taskara-0.1.8.tar.gz]
+[2024-04-26 00:29:32] INFO root fetch - main [MainThread]: End processing [taskara]: success
+[2024-04-26 00:29:32] INFO root fetch - processPackages [plotly3d]: Remove: archive file [/home/abi/fetcher/tmp/plotly3d-0.4.2.tar.gz]
+[2024-04-26 00:29:32] INFO root fetch - processPackages [plotly3d]: Remove: archive file [/home/abi/fetcher/tmp/plotly3d-0.4.3.tar.gz]
+[2024-04-26 00:29:32] INFO root fetch - main [MainThread]: End processing [plotly3d]: success
+[2024-04-26 00:29:33] INFO root fetch - processPackages [chipsec]: executing diffoscope
+[2024-04-26 00:29:33] INFO root fetch - processPackages [chipsec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chipsec-1.4.4.0.tar.gz tmp/chipsec-1.5.1.tar.gz --markdown 20240426/c/chipsec/1.4.4-1.5.1/README.md --exclude *.pyd
+[2024-04-26 00:29:35] INFO root fetch - processPackages [chipsec]: Remove: archive file [/home/abi/fetcher/tmp/chipsec-1.4.4.0.tar.gz]
+[2024-04-26 00:29:35] INFO root fetch - processPackages [chipsec]: Remove: archive file [/home/abi/fetcher/tmp/chipsec-1.5.1.tar.gz]
+[2024-04-26 00:29:35] INFO root fetch - main [MainThread]: End processing [chipsec]: success
+[2024-04-26 00:29:35] INFO root fetch - main [MainThread]: Store serial: [22938984]
