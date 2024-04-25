@@ -1470,3 +1470,68 @@
 [2024-04-26 01:32:34] INFO root fetch - processPackages [bed-reader]: Remove: archive file [/home/abi/fetcher/tmp/bed_reader-1.0.4b2-cp312-none-win_amd64.whl.zip]
 [2024-04-26 01:32:34] INFO root fetch - main [MainThread]: End processing [bed-reader]: success
 [2024-04-26 01:32:34] INFO root fetch - main [MainThread]: Store serial: [22939534]
+[2024-04-26 01:34:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22939534]
+[2024-04-26 01:34:42] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-26 01:34:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gcr_chat
+[2024-04-26 01:34:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ecoviewer
+[2024-04-26 01:34:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kyutils
+[2024-04-26 01:34:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: langkit
+[2024-04-26 01:34:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gcr_chat
+[2024-04-26 01:34:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: redhat-assisted-installer
+[2024-04-26 01:34:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kyutils
+[2024-04-26 01:34:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pkscreener
+[2024-04-26 01:34:42] INFO root fetch - processPackages [gcr_chat]: New version: [0.1.1.dev1] Old Version: [0.1.1]
+[2024-04-26 01:34:42] INFO root fetch - processPackages [gcr_chat]: New version: [0.1.1.dev1] Old Version: [0.1.1]
+[2024-04-26 01:34:42] INFO root fetch - processPackages [kyutils]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-26 01:34:42] INFO root fetch - processPackages [kyutils]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-26 01:34:42] INFO root fetch - processPackages [pkscreener]: New version: [0.44.20240425.292] Old Version: [0.44.20240424.291]
+[2024-04-26 01:34:42] INFO root fetch - processPackages [langkit]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-26 01:34:42] WARNING root fetch - processPackages [redhat-assisted-installer]: Skipping, unable to determine old version
+[2024-04-26 01:34:42] INFO root fetch - main [MainThread]: End processing [redhat-assisted-installer] error
+[2024-04-26 01:34:42] INFO root fetch - processPackages [gcr_chat]: Downloading https://files.pythonhosted.org/packages/4b/cf/1dd2f19fece1597355cfe8ff02ea829feb673bf9eef73aee369f354b07d3/gcr_chat-0.1.1.tar.gz
+[2024-04-26 01:34:42] INFO root fetch - processPackages [ecoviewer]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-26 01:34:42] INFO root fetch - processPackages [kyutils]: Downloading https://files.pythonhosted.org/packages/0f/ea/d45838cd81aec74ddac9abaffe008e748749f47c13c7a245d398e04959c7/kyutils-0.1.8.tar.gz
+[2024-04-26 01:34:42] INFO root fetch - processPackages [gcr_chat]: Downloading https://files.pythonhosted.org/packages/4b/cf/1dd2f19fece1597355cfe8ff02ea829feb673bf9eef73aee369f354b07d3/gcr_chat-0.1.1.tar.gz
+[2024-04-26 01:34:42] INFO root fetch - processPackages [kyutils]: Downloading https://files.pythonhosted.org/packages/0f/ea/d45838cd81aec74ddac9abaffe008e748749f47c13c7a245d398e04959c7/kyutils-0.1.8.tar.gz
+[2024-04-26 01:34:42] INFO root fetch - processPackages [pkscreener]: Downloading https://files.pythonhosted.org/packages/17/ca/c101c0059c67cddfdcd6ff3b0b63a41ece3ce3e92101f50c140b86dc5e8f/pkscreener-0.44.20240424.291.tar.gz
+[2024-04-26 01:34:43] INFO root fetch - processPackages [langkit]: Downloading https://files.pythonhosted.org/packages/ce/e3/7969ef4cda66f7a8d2dc2a61af3bb067c395b8fc3c8bf9e6777139afa351/langkit-0.0.8.tar.gz
+[2024-04-26 01:34:43] INFO root fetch - processPackages [kyutils]: Downloading https://files.pythonhosted.org/packages/2d/78/86c3d121c7ace4c77754448df9f9265e090ccbc4647d65e8cdef1dfa7866/kyutils-0.1.9.tar.gz
+[2024-04-26 01:34:43] INFO root fetch - processPackages [gcr_chat]: Downloading https://files.pythonhosted.org/packages/6b/68/8c483e185b784fe6b91a7ece73df486e0b740afe17fd8c6f6d5a34d2f25b/gcr_chat-0.1.1.dev1.tar.gz
+[2024-04-26 01:34:43] INFO root fetch - processPackages [ecoviewer]: Downloading https://files.pythonhosted.org/packages/5a/db/1257a31257fe07a1edd658486ce3fa8cc227c830a6ee9d7dc10bd0793a7b/ecoviewer-0.0.8.tar.gz
+[2024-04-26 01:34:43] INFO root fetch - processPackages [kyutils]: Downloading https://files.pythonhosted.org/packages/2d/78/86c3d121c7ace4c77754448df9f9265e090ccbc4647d65e8cdef1dfa7866/kyutils-0.1.9.tar.gz
+[2024-04-26 01:34:43] INFO root fetch - processPackages [gcr_chat]: Downloading https://files.pythonhosted.org/packages/6b/68/8c483e185b784fe6b91a7ece73df486e0b740afe17fd8c6f6d5a34d2f25b/gcr_chat-0.1.1.dev1.tar.gz
+[2024-04-26 01:34:43] INFO root fetch - processPackages [gcr_chat]: executing diffoscope
+[2024-04-26 01:34:43] INFO root fetch - processPackages [gcr_chat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gcr_chat-0.1.1.tar.gz tmp/gcr_chat-0.1.1.dev1.tar.gz --markdown 20240426/g/gcr_chat/0.1.1-0.1.1.dev1/README.md --exclude *.pyd
+[2024-04-26 01:34:43] INFO root fetch - processPackages [kyutils]: executing diffoscope
+[2024-04-26 01:34:43] INFO root fetch - processPackages [kyutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kyutils-0.1.8.tar.gz tmp/kyutils-0.1.9.tar.gz --markdown 20240426/k/kyutils/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-26 01:34:43] INFO root fetch - processPackages [gcr_chat]: executing diffoscope
+[2024-04-26 01:34:43] INFO root fetch - processPackages [gcr_chat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gcr_chat-0.1.1.tar.gz tmp/gcr_chat-0.1.1.dev1.tar.gz --markdown 20240426/g/gcr_chat/0.1.1-0.1.1.dev1/README.md --exclude *.pyd
+[2024-04-26 01:34:43] INFO root fetch - processPackages [kyutils]: executing diffoscope
+[2024-04-26 01:34:43] INFO root fetch - processPackages [kyutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kyutils-0.1.8.tar.gz tmp/kyutils-0.1.9.tar.gz --markdown 20240426/k/kyutils/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-26 01:34:43] INFO root fetch - processPackages [pkscreener]: Downloading https://files.pythonhosted.org/packages/f2/5d/a4fb11ad72ea2a690c319ab4640d8a1bdebb76c5afee3bdd3c745773af49/pkscreener-0.44.20240425.292.tar.gz
+[2024-04-26 01:34:43] INFO root fetch - processPackages [langkit]: Downloading https://files.pythonhosted.org/packages/32/28/704a6d98bd58a324050772e6b9dc1479ab2f09c77c3a83a38e3697af8ef3/langkit-0.0.9.tar.gz
+[2024-04-26 01:34:43] INFO root fetch - processPackages [pkscreener]: executing diffoscope
+[2024-04-26 01:34:43] INFO root fetch - processPackages [pkscreener]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkscreener-0.44.20240424.291.tar.gz tmp/pkscreener-0.44.20240425.292.tar.gz --markdown 20240426/p/pkscreener/0.44.20240424.291-0.44.20240425.292/README.md --exclude *.pyd
+[2024-04-26 01:34:43] INFO root fetch - processPackages [ecoviewer]: Downloading https://files.pythonhosted.org/packages/06/3f/42d55bc5efad13fbdf611e7ddc9203d6ac154bbb5bcf95ad9d2409609a62/ecoviewer-0.0.9.tar.gz
+[2024-04-26 01:34:43] INFO root fetch - processPackages [langkit]: executing diffoscope
+[2024-04-26 01:34:43] INFO root fetch - processPackages [langkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langkit-0.0.8.tar.gz tmp/langkit-0.0.9.tar.gz --markdown 20240426/l/langkit/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-26 01:34:43] INFO root fetch - processPackages [ecoviewer]: executing diffoscope
+[2024-04-26 01:34:43] INFO root fetch - processPackages [ecoviewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecoviewer-0.0.8.tar.gz tmp/ecoviewer-0.0.9.tar.gz --markdown 20240426/e/ecoviewer/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-26 01:34:44] INFO root fetch - processPackages [gcr_chat]: Remove: archive file [/home/abi/fetcher/tmp/gcr_chat-0.1.1.tar.gz]
+[2024-04-26 01:34:44] INFO root fetch - processPackages [gcr_chat]: Remove: archive file [/home/abi/fetcher/tmp/gcr_chat-0.1.1.dev1.tar.gz]
+[2024-04-26 01:34:44] INFO root fetch - main [MainThread]: End processing [gcr_chat]: success
+[2024-04-26 01:34:44] INFO root fetch - processPackages [kyutils]: Remove: archive file [/home/abi/fetcher/tmp/kyutils-0.1.8.tar.gz]
+[2024-04-26 01:34:44] INFO root fetch - processPackages [kyutils]: Remove: archive file [/home/abi/fetcher/tmp/kyutils-0.1.9.tar.gz]
+[2024-04-26 01:34:44] INFO root fetch - main [MainThread]: End processing [kyutils]: success
+[2024-04-26 01:34:44] INFO root fetch - main [MainThread]: End processing [gcr_chat]: success
+[2024-04-26 01:34:44] INFO root fetch - main [MainThread]: End processing [kyutils]: success
+[2024-04-26 01:34:44] INFO root fetch - processPackages [ecoviewer]: Remove: archive file [/home/abi/fetcher/tmp/ecoviewer-0.0.8.tar.gz]
+[2024-04-26 01:34:44] INFO root fetch - processPackages [ecoviewer]: Remove: archive file [/home/abi/fetcher/tmp/ecoviewer-0.0.9.tar.gz]
+[2024-04-26 01:34:44] INFO root fetch - main [MainThread]: End processing [ecoviewer]: success
+[2024-04-26 01:34:44] INFO root fetch - processPackages [langkit]: Remove: archive file [/home/abi/fetcher/tmp/langkit-0.0.8.tar.gz]
+[2024-04-26 01:34:44] INFO root fetch - processPackages [langkit]: Remove: archive file [/home/abi/fetcher/tmp/langkit-0.0.9.tar.gz]
+[2024-04-26 01:34:44] INFO root fetch - main [MainThread]: End processing [langkit]: success
+[2024-04-26 01:34:44] INFO root fetch - processPackages [pkscreener]: Remove: archive file [/home/abi/fetcher/tmp/pkscreener-0.44.20240424.291.tar.gz]
+[2024-04-26 01:34:44] INFO root fetch - processPackages [pkscreener]: Remove: archive file [/home/abi/fetcher/tmp/pkscreener-0.44.20240425.292.tar.gz]
+[2024-04-26 01:34:44] INFO root fetch - main [MainThread]: End processing [pkscreener]: success
+[2024-04-26 01:34:44] INFO root fetch - main [MainThread]: Store serial: [22939578]
