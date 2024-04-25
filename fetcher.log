@@ -58,3 +58,42 @@
 [2024-04-26 00:01:06] INFO root fetch - processPackages [pykickstart]: Remove: archive file [/home/abi/fetcher/tmp/pykickstart-3.7.tar.gz]
 [2024-04-26 00:01:06] INFO root fetch - main [MainThread]: End processing [pykickstart]: success
 [2024-04-26 00:01:06] INFO root fetch - main [MainThread]: Store serial: [22938845]
+[2024-04-26 00:03:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22938845]
+[2024-04-26 00:03:14] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-26 00:03:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dbt-oracle
+[2024-04-26 00:03:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jupyter-ai
+[2024-04-26 00:03:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jupyter-ai-magics
+[2024-04-26 00:03:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: esinet
+[2024-04-26 00:03:14] INFO root fetch - processPackages [jupyter-ai]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-04-26 00:03:14] INFO root fetch - processPackages [jupyter-ai-magics]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-04-26 00:03:15] INFO root fetch - processPackages [jupyter-ai]: Downloading https://files.pythonhosted.org/packages/37/82/310f93972ebcfed1716a151e1517e7a2d0448e677a2f5f0b18ab72578264/jupyter_ai-2.9.0.tar.gz
+[2024-04-26 00:03:15] INFO root fetch - processPackages [esinet]: New version: [0.3.0] Old Version: [0.2.5]
+[2024-04-26 00:03:15] INFO root fetch - processPackages [jupyter-ai-magics]: Downloading https://files.pythonhosted.org/packages/5c/82/b9fec8e8bd26f144f73e0ea913306dad065a83c874392cd805e42314c96b/jupyter_ai_magics-2.9.0.tar.gz
+[2024-04-26 00:03:15] INFO root fetch - processPackages [dbt-oracle]: New version: [1.7.5rc1] Old Version: [1.7.4rc1]
+[2024-04-26 00:03:15] INFO root fetch - processPackages [jupyter-ai-magics]: Downloading https://files.pythonhosted.org/packages/92/e2/cff5a094dc2175fc664fe31c75325663f93e19ab059ec133fb99c706ec40/jupyter_ai_magics-2.9.1.tar.gz
+[2024-04-26 00:03:15] INFO root fetch - processPackages [dbt-oracle]: Downloading https://files.pythonhosted.org/packages/56/4a/79897d90a14470f01c0cde10878e29e1f6ff7f7d5cf173c24b2a9faa06b7/dbt_oracle-1.7.4rc1.tar.gz
+[2024-04-26 00:03:15] INFO root fetch - processPackages [esinet]: Downloading https://files.pythonhosted.org/packages/9e/26/a6f62f986feb5baece2242d91f413160fb69bf2283c30ae3cb4fc2b15af2/esinet-0.2.5-py3-none-any.whl
+[2024-04-26 00:03:15] INFO root fetch - processPackages [jupyter-ai-magics]: executing diffoscope
+[2024-04-26 00:03:15] INFO root fetch - processPackages [jupyter-ai-magics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter_ai_magics-2.9.0.tar.gz tmp/jupyter_ai_magics-2.9.1.tar.gz --markdown 20240426/j/jupyter-ai-magics/2.9.0-2.9.1/README.md --exclude *.pyd
+[2024-04-26 00:03:15] INFO root fetch - processPackages [jupyter-ai]: Downloading https://files.pythonhosted.org/packages/f3/e8/d74488780293d9f34a193447c002a290122ea69a64176d351e2a3f36e1b6/jupyter_ai-2.9.1.tar.gz
+[2024-04-26 00:03:15] INFO root fetch - processPackages [jupyter-ai]: executing diffoscope
+[2024-04-26 00:03:15] INFO root fetch - processPackages [jupyter-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter_ai-2.9.0.tar.gz tmp/jupyter_ai-2.9.1.tar.gz --markdown 20240426/j/jupyter-ai/2.9.0-2.9.1/README.md --exclude *.pyd
+[2024-04-26 00:03:15] INFO root fetch - processPackages [dbt-oracle]: Downloading https://files.pythonhosted.org/packages/dd/71/9381ec35ac4666e115341ef77e21db4fbe946ef64916273e111663674bf7/dbt_oracle-1.7.5rc1.tar.gz
+[2024-04-26 00:03:15] INFO root fetch - processPackages [esinet]: Downloading https://files.pythonhosted.org/packages/5f/4a/adfbd2a39d895ed385fba57d02be81742aff304a2b4d61f74f8118ec4891/esinet-0.3.0-py3-none-any.whl
+[2024-04-26 00:03:15] INFO root fetch - processPackages [esinet]: executing diffoscope
+[2024-04-26 00:03:15] INFO root fetch - processPackages [esinet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esinet-0.2.5-py3-none-any.whl.zip tmp/esinet-0.3.0-py3-none-any.whl.zip --markdown 20240426/e/esinet/0.2.5-0.3.0/README.md --exclude *.pyd
+[2024-04-26 00:03:15] INFO root fetch - processPackages [dbt-oracle]: executing diffoscope
+[2024-04-26 00:03:15] INFO root fetch - processPackages [dbt-oracle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_oracle-1.7.4rc1.tar.gz tmp/dbt_oracle-1.7.5rc1.tar.gz --markdown 20240426/d/dbt-oracle/1.7.4rc1-1.7.5rc1/README.md --exclude *.pyd
+[2024-04-26 00:03:16] INFO root fetch - processPackages [jupyter-ai-magics]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_ai_magics-2.9.0.tar.gz]
+[2024-04-26 00:03:16] INFO root fetch - processPackages [jupyter-ai-magics]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_ai_magics-2.9.1.tar.gz]
+[2024-04-26 00:03:16] INFO root fetch - main [MainThread]: End processing [jupyter-ai-magics]: success
+[2024-04-26 00:03:16] INFO root fetch - processPackages [esinet]: Remove: archive file [/home/abi/fetcher/tmp/esinet-0.2.5-py3-none-any.whl.zip]
+[2024-04-26 00:03:16] INFO root fetch - processPackages [esinet]: Remove: archive file [/home/abi/fetcher/tmp/esinet-0.3.0-py3-none-any.whl.zip]
+[2024-04-26 00:03:16] INFO root fetch - main [MainThread]: End processing [esinet]: success
+[2024-04-26 00:03:16] INFO root fetch - processPackages [dbt-oracle]: Remove: archive file [/home/abi/fetcher/tmp/dbt_oracle-1.7.4rc1.tar.gz]
+[2024-04-26 00:03:16] INFO root fetch - processPackages [dbt-oracle]: Remove: archive file [/home/abi/fetcher/tmp/dbt_oracle-1.7.5rc1.tar.gz]
+[2024-04-26 00:03:16] INFO root fetch - main [MainThread]: End processing [dbt-oracle]: success
+[2024-04-26 00:03:17] INFO root fetch - processPackages [jupyter-ai]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_ai-2.9.0.tar.gz]
+[2024-04-26 00:03:17] INFO root fetch - processPackages [jupyter-ai]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_ai-2.9.1.tar.gz]
+[2024-04-26 00:03:17] INFO root fetch - main [MainThread]: End processing [jupyter-ai]: success
+[2024-04-26 00:03:17] INFO root fetch - main [MainThread]: Store serial: [22938858]
