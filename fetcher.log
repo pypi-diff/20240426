@@ -790,3 +790,36 @@
 [2024-04-26 00:51:20] INFO root fetch - processPackages [PyScaffolder]: Remove: archive file [/home/abi/fetcher/tmp/PyScaffolder-1.5.2.post2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-04-26 00:51:20] INFO root fetch - main [MainThread]: End processing [PyScaffolder]: success
 [2024-04-26 00:51:20] INFO root fetch - main [MainThread]: Store serial: [22939104]
+[2024-04-26 00:53:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22939104]
+[2024-04-26 00:53:29] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-26 00:53:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pieplinepy
+[2024-04-26 00:53:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: threefive
+[2024-04-26 00:53:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: neon-skill-fallback-unknown
+[2024-04-26 00:53:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pysros
+[2024-04-26 00:53:29] WARNING root fetch - processPackages [pieplinepy]: Skipping, unable to determine old version
+[2024-04-26 00:53:29] INFO root fetch - main [MainThread]: End processing [pieplinepy] error
+[2024-04-26 00:53:29] INFO root fetch - processPackages [neon-skill-fallback-unknown]: New version: [2.0.1a1] Old Version: [2.0.0]
+[2024-04-26 00:53:29] INFO root fetch - processPackages [threefive]: New version: [2.4.9] Old Version: [2.4.7]
+[2024-04-26 00:53:29] INFO root fetch - processPackages [pysros]: New version: [24.3.2] Old Version: [24.3.1]
+[2024-04-26 00:53:29] INFO root fetch - processPackages [neon-skill-fallback-unknown]: Downloading https://files.pythonhosted.org/packages/fa/7a/ec528f1b3f6257b412033191858843285932fad67285bb55feb7905baecf/neon-skill-fallback_unknown-2.0.0.tar.gz
+[2024-04-26 00:53:29] INFO root fetch - processPackages [threefive]: Downloading https://files.pythonhosted.org/packages/2d/d0/1ea2944da1866d7c7b2f474f0d31e193758c5e8bd7054c4e77d35f6f9ca5/threefive-2.4.7.tar.gz
+[2024-04-26 00:53:29] INFO root fetch - processPackages [pysros]: Downloading https://files.pythonhosted.org/packages/5a/4a/00dcf8165b2100385ad624e831fe8c6f18bb3d08715b0d0fefbb264b9d44/pysros-24.3.1.tar.gz
+[2024-04-26 00:53:30] INFO root fetch - processPackages [neon-skill-fallback-unknown]: Downloading https://files.pythonhosted.org/packages/50/07/e44a00b054b89ceedb427c1e656bd090ed281138b12d74e8945df51a2352/neon-skill-fallback_unknown-2.0.1a1.tar.gz
+[2024-04-26 00:53:30] INFO root fetch - processPackages [pysros]: Downloading https://files.pythonhosted.org/packages/ec/c2/212f251a23fb9dc07a9d2c5edce70cf0eab0a05dcf3c934a6e60c30a91bc/pysros-24.3.2.tar.gz
+[2024-04-26 00:53:30] INFO root fetch - processPackages [neon-skill-fallback-unknown]: executing diffoscope
+[2024-04-26 00:53:30] INFO root fetch - processPackages [neon-skill-fallback-unknown]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon-skill-fallback_unknown-2.0.0.tar.gz tmp/neon-skill-fallback_unknown-2.0.1a1.tar.gz --markdown 20240426/n/neon-skill-fallback-unknown/2.0.0-2.0.1a1/README.md --exclude *.pyd
+[2024-04-26 00:53:30] INFO root fetch - processPackages [pysros]: executing diffoscope
+[2024-04-26 00:53:30] INFO root fetch - processPackages [pysros]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysros-24.3.1.tar.gz tmp/pysros-24.3.2.tar.gz --markdown 20240426/p/pysros/24.3.1-24.3.2/README.md --exclude *.pyd
+[2024-04-26 00:53:30] INFO root fetch - processPackages [threefive]: Downloading https://files.pythonhosted.org/packages/35/10/73b24116a3d8b6b0fb51f093dd46b666de87d42bfb9ed03ea5a5ccba28a5/threefive-2.4.9.tar.gz
+[2024-04-26 00:53:30] INFO root fetch - processPackages [threefive]: executing diffoscope
+[2024-04-26 00:53:30] INFO root fetch - processPackages [threefive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threefive-2.4.7.tar.gz tmp/threefive-2.4.9.tar.gz --markdown 20240426/t/threefive/2.4.7-2.4.9/README.md --exclude *.pyd
+[2024-04-26 00:53:30] INFO root fetch - processPackages [neon-skill-fallback-unknown]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-fallback_unknown-2.0.0.tar.gz]
+[2024-04-26 00:53:30] INFO root fetch - processPackages [neon-skill-fallback-unknown]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-fallback_unknown-2.0.1a1.tar.gz]
+[2024-04-26 00:53:30] INFO root fetch - main [MainThread]: End processing [neon-skill-fallback-unknown]: success
+[2024-04-26 00:53:31] INFO root fetch - processPackages [pysros]: Remove: archive file [/home/abi/fetcher/tmp/pysros-24.3.1.tar.gz]
+[2024-04-26 00:53:31] INFO root fetch - processPackages [pysros]: Remove: archive file [/home/abi/fetcher/tmp/pysros-24.3.2.tar.gz]
+[2024-04-26 00:53:31] INFO root fetch - main [MainThread]: End processing [pysros]: success
+[2024-04-26 00:53:31] INFO root fetch - processPackages [threefive]: Remove: archive file [/home/abi/fetcher/tmp/threefive-2.4.7.tar.gz]
+[2024-04-26 00:53:31] INFO root fetch - processPackages [threefive]: Remove: archive file [/home/abi/fetcher/tmp/threefive-2.4.9.tar.gz]
+[2024-04-26 00:53:31] INFO root fetch - main [MainThread]: End processing [threefive]: success
+[2024-04-26 00:53:31] INFO root fetch - main [MainThread]: Store serial: [22939139]
