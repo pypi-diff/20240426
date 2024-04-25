@@ -1727,3 +1727,51 @@
 [2024-04-26 01:47:45] INFO root fetch - processPackages [lute3]: Remove: archive file [/home/abi/fetcher/tmp/lute3-3.3.2b1.tar.gz]
 [2024-04-26 01:47:45] INFO root fetch - main [MainThread]: End processing [lute3]: success
 [2024-04-26 01:47:45] INFO root fetch - main [MainThread]: Store serial: [22939663]
+[2024-04-26 01:49:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22939663]
+[2024-04-26 01:49:53] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-26 01:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: neon-transformers
+[2024-04-26 01:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: model-explorer
+[2024-04-26 01:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gingerai
+[2024-04-26 01:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dir2prompt
+[2024-04-26 01:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dbcfg
+[2024-04-26 01:49:53] INFO root fetch - processPackages [neon-transformers]: New version: [0.2.1a4] Old Version: [0.2.1a3]
+[2024-04-26 01:49:53] INFO root fetch - processPackages [dir2prompt]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-26 01:49:53] INFO root fetch - processPackages [gingerai]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-26 01:49:53] INFO root fetch - processPackages [neon-transformers]: Downloading https://files.pythonhosted.org/packages/49/ef/033ec89807841693df2d285666889f210fb30abbbf30150ee5359e972f11/neon_transformers-0.2.1a3-py3-none-any.whl
+[2024-04-26 01:49:53] INFO root fetch - processPackages [dir2prompt]: Downloading https://files.pythonhosted.org/packages/5d/ea/97454783ccb3669a8a4484b605df48ff161c32b364fefacb7fe6c78729e2/dir2prompt-1.0.8.tar.gz
+[2024-04-26 01:49:53] INFO root fetch - processPackages [dbcfg]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-26 01:49:53] INFO root fetch - processPackages [gingerai]: Downloading https://files.pythonhosted.org/packages/93/63/5f4a6d2549870026eff659d1fc9aac0f6c9532ea741f07ac2083cd3a1cfe/gingerai-0.1.8.tar.gz
+[2024-04-26 01:49:53] INFO root fetch - processPackages [model-explorer]: New version: [0.0.74] Old Version: [0.0.73]
+[2024-04-26 01:49:54] INFO root fetch - processPackages [dbcfg]: Downloading https://files.pythonhosted.org/packages/22/ee/c1700dfc5873489dfe8f05a938cf8dbbae6b5ded1d11c36463db36854cb0/dbcfg-0.0.1.tar.gz
+[2024-04-26 01:49:54] INFO root fetch - processPackages [neon-transformers]: Downloading https://files.pythonhosted.org/packages/25/9d/2a4a9342c9a098ed77262a101d861421837510132b764b306868fb39dba9/neon_transformers-0.2.1a4.tar.gz
+[2024-04-26 01:49:54] INFO root fetch - processPackages [dir2prompt]: Downloading https://files.pythonhosted.org/packages/8b/66/855e378fc0e68825f0f6711d5ce83fd1f7e186beca51b4014709558d78f2/dir2prompt-1.0.9.tar.gz
+[2024-04-26 01:49:54] INFO root fetch - processPackages [gingerai]: Downloading https://files.pythonhosted.org/packages/33/65/a59be7a360a71da6fb875287e72120e252018dc037eef33b15ac50759b89/gingerai-0.1.9.tar.gz
+[2024-04-26 01:49:54] INFO root fetch - processPackages [model-explorer]: Downloading https://files.pythonhosted.org/packages/75/a9/23b7a299ffef6e2d62e03490659635790e8511f0911e777c227103072ec4/model_explorer-0.0.73.tar.gz
+[2024-04-26 01:49:54] INFO root fetch - processPackages [neon-transformers]: executing diffoscope
+[2024-04-26 01:49:54] INFO root fetch - processPackages [neon-transformers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_transformers-0.2.1a3-py3-none-any.whl.zip tmp/neon_transformers-0.2.1a4.tar.gz --markdown 20240426/n/neon-transformers/0.2.1a3-0.2.1a4/README.md --exclude *.pyd
+[2024-04-26 01:49:54] INFO root fetch - processPackages [dir2prompt]: executing diffoscope
+[2024-04-26 01:49:54] INFO root fetch - processPackages [dir2prompt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dir2prompt-1.0.8.tar.gz tmp/dir2prompt-1.0.9.tar.gz --markdown 20240426/d/dir2prompt/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-26 01:49:54] INFO root fetch - processPackages [gingerai]: executing diffoscope
+[2024-04-26 01:49:54] INFO root fetch - processPackages [gingerai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gingerai-0.1.8.tar.gz tmp/gingerai-0.1.9.tar.gz --markdown 20240426/g/gingerai/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-26 01:49:54] INFO root fetch - processPackages [dbcfg]: Downloading https://files.pythonhosted.org/packages/ce/d5/b5894555cb2be67da85b55c96cfa9cef86f915aca0e148db628618cf2090/dbcfg-0.0.2.tar.gz
+[2024-04-26 01:49:54] INFO root fetch - processPackages [dbcfg]: executing diffoscope
+[2024-04-26 01:49:54] INFO root fetch - processPackages [dbcfg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbcfg-0.0.1.tar.gz tmp/dbcfg-0.0.2.tar.gz --markdown 20240426/d/dbcfg/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-26 01:49:54] INFO root fetch - processPackages [model-explorer]: Downloading https://files.pythonhosted.org/packages/c1/6f/92b9af39b77942ca418eb8612f109e448849b71fee4780b5904e79cdd057/model_explorer-0.0.74.tar.gz
+[2024-04-26 01:49:54] INFO root fetch - processPackages [dir2prompt]: Remove: archive file [/home/abi/fetcher/tmp/dir2prompt-1.0.8.tar.gz]
+[2024-04-26 01:49:54] INFO root fetch - processPackages [dir2prompt]: Remove: archive file [/home/abi/fetcher/tmp/dir2prompt-1.0.9.tar.gz]
+[2024-04-26 01:49:54] INFO root fetch - main [MainThread]: End processing [dir2prompt]: success
+[2024-04-26 01:49:54] INFO root fetch - processPackages [gingerai]: Remove: archive file [/home/abi/fetcher/tmp/gingerai-0.1.8.tar.gz]
+[2024-04-26 01:49:54] INFO root fetch - processPackages [gingerai]: Remove: archive file [/home/abi/fetcher/tmp/gingerai-0.1.9.tar.gz]
+[2024-04-26 01:49:54] INFO root fetch - main [MainThread]: End processing [gingerai]: success
+[2024-04-26 01:49:54] INFO root fetch - processPackages [neon-transformers]: Remove: archive file [/home/abi/fetcher/tmp/neon_transformers-0.2.1a3-py3-none-any.whl.zip]
+[2024-04-26 01:49:54] INFO root fetch - processPackages [neon-transformers]: Remove: archive file [/home/abi/fetcher/tmp/neon_transformers-0.2.1a4.tar.gz]
+[2024-04-26 01:49:54] INFO root fetch - main [MainThread]: End processing [neon-transformers]: success
+[2024-04-26 01:49:54] INFO root fetch - processPackages [model-explorer]: executing diffoscope
+[2024-04-26 01:49:54] INFO root fetch - processPackages [model-explorer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/model_explorer-0.0.73.tar.gz tmp/model_explorer-0.0.74.tar.gz --markdown 20240426/m/model-explorer/0.0.73-0.0.74/README.md --exclude *.pyd
+[2024-04-26 01:49:55] INFO root fetch - processPackages [dbcfg]: Remove: archive file [/home/abi/fetcher/tmp/dbcfg-0.0.1.tar.gz]
+[2024-04-26 01:49:55] INFO root fetch - processPackages [dbcfg]: Remove: archive file [/home/abi/fetcher/tmp/dbcfg-0.0.2.tar.gz]
+[2024-04-26 01:49:55] INFO root fetch - main [MainThread]: End processing [dbcfg]: success
+[2024-04-26 01:50:13] INFO root fetch - processPackages [model-explorer]: Remove: archive file [/home/abi/fetcher/tmp/model_explorer-0.0.73.tar.gz]
+[2024-04-26 01:50:13] INFO root fetch - processPackages [model-explorer]: Remove: archive file [/home/abi/fetcher/tmp/model_explorer-0.0.74.tar.gz]
+[2024-04-26 01:50:13] INFO root fetch - main [MainThread]: End processing [model-explorer]: success
+[2024-04-26 01:50:13] INFO root fetch - main [MainThread]: Store serial: [22939677]
