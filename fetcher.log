@@ -1101,3 +1101,51 @@
 [2024-04-26 01:09:56] INFO root fetch - processPackages [deterministic-zip-go]: Remove: archive file [/home/abi/fetcher/tmp/deterministic_zip_go-3.0.0-py3-none-manylinux_2_12_x86_64.manylinux2010_x86_64.whl.zip]
 [2024-04-26 01:09:56] INFO root fetch - main [MainThread]: End processing [deterministic-zip-go]: success
 [2024-04-26 01:09:56] INFO root fetch - main [MainThread]: Store serial: [22939357]
+[2024-04-26 01:12:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22939357]
+[2024-04-26 01:12:07] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-26 01:12:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: plotly3d
+[2024-04-26 01:12:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ez-a-sync
+[2024-04-26 01:12:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ralf-jhuapl
+[2024-04-26 01:12:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tastytrade
+[2024-04-26 01:12:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: orso
+[2024-04-26 01:12:07] INFO root fetch - processPackages [plotly3d]: New version: [0.4.4] Old Version: [0.4.3]
+[2024-04-26 01:12:07] INFO root fetch - processPackages [tastytrade]: New version: [7.2] Old Version: [7.1]
+[2024-04-26 01:12:07] INFO root fetch - processPackages [orso]: New version: [0.0.99] Old Version: [0.0.97]
+[2024-04-26 01:12:07] INFO root fetch - processPackages [ralf-jhuapl]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-26 01:12:07] INFO root fetch - processPackages [plotly3d]: Downloading https://files.pythonhosted.org/packages/53/3f/51d1549a2b76569199362f8316682076060e9962cdef397d50c1c6d8c07f/plotly3d-0.4.3.tar.gz
+[2024-04-26 01:12:07] INFO root fetch - processPackages [tastytrade]: Downloading https://files.pythonhosted.org/packages/56/05/269506761b010dc78e1ea3719ed3696512b8aaa3c64907059eede534443b/tastytrade-7.1.tar.gz
+[2024-04-26 01:12:07] INFO root fetch - processPackages [ez-a-sync]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-04-26 01:12:07] INFO root fetch - processPackages [orso]: Downloading https://files.pythonhosted.org/packages/7f/44/c9b678951273a9e9d68f6792efdb0a6d7c20d4d59015b193b974dd2cc5f3/orso-0.0.97.tar.gz
+[2024-04-26 01:12:07] INFO root fetch - processPackages [ralf-jhuapl]: Downloading https://files.pythonhosted.org/packages/d9/bc/1544a3f917bceb847df17031b4b29465b3db721e4ba3e43736fb0791fe4a/ralf-jhuapl-0.0.5.tar.gz
+[2024-04-26 01:12:07] INFO root fetch - processPackages [ez-a-sync]: Downloading https://files.pythonhosted.org/packages/79/96/435db21d769b668a77c8c5d9f4cc5e215ebeeffd9d5daa274e7f0e166e92/ez-a-sync-0.9.2.tar.gz
+[2024-04-26 01:12:07] INFO root fetch - processPackages [orso]: Downloading https://files.pythonhosted.org/packages/03/62/532b5a6178cc484d36c6b124c65d4de27ba7fd3af10850166b93c9a661cd/orso-0.0.99.tar.gz
+[2024-04-26 01:12:08] INFO root fetch - processPackages [plotly3d]: Downloading https://files.pythonhosted.org/packages/ca/c1/be09e39b371c0028f5eb05bdefda9d98d76cb9f7443aeb44ecc33d9fd7bb/plotly3d-0.4.4.tar.gz
+[2024-04-26 01:12:08] INFO root fetch - processPackages [tastytrade]: Downloading https://files.pythonhosted.org/packages/b1/e9/3cb33616f83ee8fb7359d31e92eda258b24c339be9c05e0f5ffcf30e512a/tastytrade-7.2.tar.gz
+[2024-04-26 01:12:08] INFO root fetch - processPackages [orso]: executing diffoscope
+[2024-04-26 01:12:08] INFO root fetch - processPackages [orso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orso-0.0.97.tar.gz tmp/orso-0.0.99.tar.gz --markdown 20240426/o/orso/0.0.97-0.0.99/README.md --exclude *.pyd
+[2024-04-26 01:12:08] INFO root fetch - processPackages [plotly3d]: executing diffoscope
+[2024-04-26 01:12:08] INFO root fetch - processPackages [plotly3d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plotly3d-0.4.3.tar.gz tmp/plotly3d-0.4.4.tar.gz --markdown 20240426/p/plotly3d/0.4.3-0.4.4/README.md --exclude *.pyd
+[2024-04-26 01:12:08] INFO root fetch - processPackages [tastytrade]: executing diffoscope
+[2024-04-26 01:12:08] INFO root fetch - processPackages [tastytrade]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tastytrade-7.1.tar.gz tmp/tastytrade-7.2.tar.gz --markdown 20240426/t/tastytrade/7.1-7.2/README.md --exclude *.pyd
+[2024-04-26 01:12:08] INFO root fetch - processPackages [ralf-jhuapl]: Downloading https://files.pythonhosted.org/packages/fd/83/f3f82993999c9bef47a8e26c3699f8acceac61696c734ba31006ec4f19cd/ralf-jhuapl-0.0.6.tar.gz
+[2024-04-26 01:12:08] INFO root fetch - processPackages [ez-a-sync]: Downloading https://files.pythonhosted.org/packages/f4/19/7b1bac3b3ef8f548fcfcd916ecaf6c392d75ff5997e785d688f5270478f1/ez-a-sync-0.9.3.tar.gz
+[2024-04-26 01:12:08] INFO root fetch - processPackages [ralf-jhuapl]: executing diffoscope
+[2024-04-26 01:12:08] INFO root fetch - processPackages [ralf-jhuapl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ralf-jhuapl-0.0.5.tar.gz tmp/ralf-jhuapl-0.0.6.tar.gz --markdown 20240426/r/ralf-jhuapl/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-26 01:12:08] INFO root fetch - processPackages [ez-a-sync]: executing diffoscope
+[2024-04-26 01:12:08] INFO root fetch - processPackages [ez-a-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ez-a-sync-0.9.2.tar.gz tmp/ez-a-sync-0.9.3.tar.gz --markdown 20240426/e/ez-a-sync/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-04-26 01:12:08] INFO root fetch - processPackages [plotly3d]: Remove: archive file [/home/abi/fetcher/tmp/plotly3d-0.4.3.tar.gz]
+[2024-04-26 01:12:08] INFO root fetch - processPackages [plotly3d]: Remove: archive file [/home/abi/fetcher/tmp/plotly3d-0.4.4.tar.gz]
+[2024-04-26 01:12:08] INFO root fetch - main [MainThread]: End processing [plotly3d]: success
+[2024-04-26 01:12:08] INFO root fetch - processPackages [orso]: Remove: archive file [/home/abi/fetcher/tmp/orso-0.0.97.tar.gz]
+[2024-04-26 01:12:08] INFO root fetch - processPackages [orso]: Remove: archive file [/home/abi/fetcher/tmp/orso-0.0.99.tar.gz]
+[2024-04-26 01:12:08] INFO root fetch - main [MainThread]: End processing [orso]: success
+[2024-04-26 01:12:08] INFO root fetch - processPackages [tastytrade]: Remove: archive file [/home/abi/fetcher/tmp/tastytrade-7.1.tar.gz]
+[2024-04-26 01:12:08] INFO root fetch - processPackages [tastytrade]: Remove: archive file [/home/abi/fetcher/tmp/tastytrade-7.2.tar.gz]
+[2024-04-26 01:12:08] INFO root fetch - main [MainThread]: End processing [tastytrade]: success
+[2024-04-26 01:12:09] INFO root fetch - processPackages [ralf-jhuapl]: Remove: archive file [/home/abi/fetcher/tmp/ralf-jhuapl-0.0.5.tar.gz]
+[2024-04-26 01:12:09] INFO root fetch - processPackages [ralf-jhuapl]: Remove: archive file [/home/abi/fetcher/tmp/ralf-jhuapl-0.0.6.tar.gz]
+[2024-04-26 01:12:09] INFO root fetch - main [MainThread]: End processing [ralf-jhuapl]: success
+[2024-04-26 01:12:09] INFO root fetch - processPackages [ez-a-sync]: Remove: archive file [/home/abi/fetcher/tmp/ez-a-sync-0.9.2.tar.gz]
+[2024-04-26 01:12:09] INFO root fetch - processPackages [ez-a-sync]: Remove: archive file [/home/abi/fetcher/tmp/ez-a-sync-0.9.3.tar.gz]
+[2024-04-26 01:12:09] INFO root fetch - main [MainThread]: End processing [ez-a-sync]: success
+[2024-04-26 01:12:09] INFO root fetch - main [MainThread]: Store serial: [22939387]
