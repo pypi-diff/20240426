@@ -823,3 +823,51 @@
 [2024-04-26 00:53:31] INFO root fetch - processPackages [threefive]: Remove: archive file [/home/abi/fetcher/tmp/threefive-2.4.9.tar.gz]
 [2024-04-26 00:53:31] INFO root fetch - main [MainThread]: End processing [threefive]: success
 [2024-04-26 00:53:31] INFO root fetch - main [MainThread]: Store serial: [22939139]
+[2024-04-26 00:55:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22939139]
+[2024-04-26 00:55:40] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-26 00:55:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aikicore
+[2024-04-26 00:55:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-ssi-rma
+[2024-04-26 00:55:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-ssi-rma-account
+[2024-04-26 00:55:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: objective-sdk
+[2024-04-26 00:55:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytplot-mpl-temp
+[2024-04-26 00:55:40] INFO root fetch - processPackages [odoo14-addon-ssi-rma]: New version: [14.0.1.9.0] Old Version: [14.0.1.8.0]
+[2024-04-26 00:55:40] INFO root fetch - processPackages [odoo14-addon-ssi-rma-account]: New version: [14.0.1.4.0] Old Version: [14.0.1.3.0]
+[2024-04-26 00:55:40] INFO root fetch - processPackages [pytplot-mpl-temp]: New version: [2.2.9] Old Version: [2.2.8]
+[2024-04-26 00:55:40] INFO root fetch - processPackages [objective-sdk]: New version: [4.0.3] Old Version: [4.0.2]
+[2024-04-26 00:55:40] INFO root fetch - processPackages [aikicore]: New version: [1.0.0a4] Old Version: [1.0.0a3]
+[2024-04-26 00:55:41] INFO root fetch - processPackages [odoo14-addon-ssi-rma]: Downloading https://files.pythonhosted.org/packages/7f/6c/45bf34c093ec0e701823c3f002259330b45e9e99dd7a4e99b23ac65a0885/odoo14_addon_ssi_rma-14.0.1.8.0-py3-none-any.whl
+[2024-04-26 00:55:41] INFO root fetch - processPackages [odoo14-addon-ssi-rma-account]: Downloading https://files.pythonhosted.org/packages/37/a4/f9a5f73de024eef64694e359101cb4c86ac167ae5c9c3dccfe892ad39bac/odoo14_addon_ssi_rma_account-14.0.1.3.0-py3-none-any.whl
+[2024-04-26 00:55:41] INFO root fetch - processPackages [aikicore]: Downloading https://files.pythonhosted.org/packages/5c/a0/685d0532011fc3a9f941e4530f0b71cb4538aed93a35fe98548d6fcb98eb/aikicore-1.0.0a3.tar.gz
+[2024-04-26 00:55:41] INFO root fetch - processPackages [pytplot-mpl-temp]: Downloading https://files.pythonhosted.org/packages/4a/3e/a5a5f1bb38b468da3d376ee81f842f2f8433d02dd89bf1e410d1a15a98e0/pytplot-mpl-temp-2.2.8.tar.gz
+[2024-04-26 00:55:41] INFO root fetch - processPackages [objective-sdk]: Downloading https://files.pythonhosted.org/packages/8e/e6/bdedccbd9b0f5f0faced7e74991346098ac7697d12cf6fc45dc5421cbd99/objective_sdk-4.0.2.tar.gz
+[2024-04-26 00:55:41] INFO root fetch - processPackages [odoo14-addon-ssi-rma-account]: Downloading https://files.pythonhosted.org/packages/e7/3e/effefd523d4f03c897814c475709675ee31296ded3ca55ff8979b513f1db/odoo14_addon_ssi_rma_account-14.0.1.4.0-py3-none-any.whl
+[2024-04-26 00:55:41] INFO root fetch - processPackages [objective-sdk]: Downloading https://files.pythonhosted.org/packages/4d/92/8aa6c3f6410f8a5f8b01cccc3a264387ca37d72b65a6cc1c5de54a9c2037/objective_sdk-4.0.3.tar.gz
+[2024-04-26 00:55:41] INFO root fetch - processPackages [aikicore]: Downloading https://files.pythonhosted.org/packages/4c/3e/2db76ab44129deda5a82f46c9b2dfc37d62ac478bc2e9920696886f8a145/aikicore-1.0.0a4.tar.gz
+[2024-04-26 00:55:41] INFO root fetch - processPackages [odoo14-addon-ssi-rma]: Downloading https://files.pythonhosted.org/packages/cc/da/f593cbc8c07f74456fc4966dfd097fb8be50bbcd58747f934bbd72c84f34/odoo14_addon_ssi_rma-14.0.1.9.0-py3-none-any.whl
+[2024-04-26 00:55:41] INFO root fetch - processPackages [objective-sdk]: executing diffoscope
+[2024-04-26 00:55:41] INFO root fetch - processPackages [objective-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/objective_sdk-4.0.2.tar.gz tmp/objective_sdk-4.0.3.tar.gz --markdown 20240426/o/objective-sdk/4.0.2-4.0.3/README.md --exclude *.pyd
+[2024-04-26 00:55:41] INFO root fetch - processPackages [odoo14-addon-ssi-rma-account]: executing diffoscope
+[2024-04-26 00:55:41] INFO root fetch - processPackages [odoo14-addon-ssi-rma-account]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_ssi_rma_account-14.0.1.3.0-py3-none-any.whl.zip tmp/odoo14_addon_ssi_rma_account-14.0.1.4.0-py3-none-any.whl.zip --markdown 20240426/o/odoo14-addon-ssi-rma-account/14.0.1.3.0-14.0.1.4.0/README.md --exclude *.pyd
+[2024-04-26 00:55:41] INFO root fetch - processPackages [aikicore]: executing diffoscope
+[2024-04-26 00:55:41] INFO root fetch - processPackages [aikicore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aikicore-1.0.0a3.tar.gz tmp/aikicore-1.0.0a4.tar.gz --markdown 20240426/a/aikicore/1.0.0a3-1.0.0a4/README.md --exclude *.pyd
+[2024-04-26 00:55:41] INFO root fetch - processPackages [odoo14-addon-ssi-rma]: executing diffoscope
+[2024-04-26 00:55:41] INFO root fetch - processPackages [odoo14-addon-ssi-rma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_ssi_rma-14.0.1.8.0-py3-none-any.whl.zip tmp/odoo14_addon_ssi_rma-14.0.1.9.0-py3-none-any.whl.zip --markdown 20240426/o/odoo14-addon-ssi-rma/14.0.1.8.0-14.0.1.9.0/README.md --exclude *.pyd
+[2024-04-26 00:55:41] INFO root fetch - processPackages [pytplot-mpl-temp]: Downloading https://files.pythonhosted.org/packages/21/aa/38c2164a03950b9adf6f62c59343823fefd067961a6402ad1c2311ef1a3a/pytplot-mpl-temp-2.2.9.tar.gz
+[2024-04-26 00:55:41] INFO root fetch - processPackages [pytplot-mpl-temp]: executing diffoscope
+[2024-04-26 00:55:41] INFO root fetch - processPackages [pytplot-mpl-temp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytplot-mpl-temp-2.2.8.tar.gz tmp/pytplot-mpl-temp-2.2.9.tar.gz --markdown 20240426/p/pytplot-mpl-temp/2.2.8-2.2.9/README.md --exclude *.pyd
+[2024-04-26 00:55:42] INFO root fetch - processPackages [objective-sdk]: Remove: archive file [/home/abi/fetcher/tmp/objective_sdk-4.0.2.tar.gz]
+[2024-04-26 00:55:42] INFO root fetch - processPackages [objective-sdk]: Remove: archive file [/home/abi/fetcher/tmp/objective_sdk-4.0.3.tar.gz]
+[2024-04-26 00:55:42] INFO root fetch - main [MainThread]: End processing [objective-sdk]: success
+[2024-04-26 00:55:42] INFO root fetch - processPackages [aikicore]: Remove: archive file [/home/abi/fetcher/tmp/aikicore-1.0.0a3.tar.gz]
+[2024-04-26 00:55:42] INFO root fetch - processPackages [aikicore]: Remove: archive file [/home/abi/fetcher/tmp/aikicore-1.0.0a4.tar.gz]
+[2024-04-26 00:55:42] INFO root fetch - main [MainThread]: End processing [aikicore]: success
+[2024-04-26 00:55:42] INFO root fetch - processPackages [odoo14-addon-ssi-rma-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_rma_account-14.0.1.3.0-py3-none-any.whl.zip]
+[2024-04-26 00:55:42] INFO root fetch - processPackages [odoo14-addon-ssi-rma-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_rma_account-14.0.1.4.0-py3-none-any.whl.zip]
+[2024-04-26 00:55:42] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-rma-account]: success
+[2024-04-26 00:55:42] INFO root fetch - processPackages [odoo14-addon-ssi-rma]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_rma-14.0.1.8.0-py3-none-any.whl.zip]
+[2024-04-26 00:55:42] INFO root fetch - processPackages [odoo14-addon-ssi-rma]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_rma-14.0.1.9.0-py3-none-any.whl.zip]
+[2024-04-26 00:55:42] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-rma]: success
+[2024-04-26 00:55:43] INFO root fetch - processPackages [pytplot-mpl-temp]: Remove: archive file [/home/abi/fetcher/tmp/pytplot-mpl-temp-2.2.8.tar.gz]
+[2024-04-26 00:55:43] INFO root fetch - processPackages [pytplot-mpl-temp]: Remove: archive file [/home/abi/fetcher/tmp/pytplot-mpl-temp-2.2.9.tar.gz]
+[2024-04-26 00:55:43] INFO root fetch - main [MainThread]: End processing [pytplot-mpl-temp]: success
+[2024-04-26 00:55:43] INFO root fetch - main [MainThread]: Store serial: [22939153]
