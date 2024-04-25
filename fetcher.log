@@ -1331,3 +1331,55 @@
 [2024-04-26 01:25:53] INFO root fetch - processPackages [pyfaust-torch]: Remove: archive file [/home/abi/fetcher/tmp/pyfaust_torch-3.39.9-cp310-cp310-macosx_10_9_x86_64.whl.zip]
 [2024-04-26 01:25:53] INFO root fetch - main [MainThread]: End processing [pyfaust-torch]: success
 [2024-04-26 01:25:53] INFO root fetch - main [MainThread]: Store serial: [22939464]
+[2024-04-26 01:28:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22939464]
+[2024-04-26 01:28:09] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-26 01:28:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tfra-nightly
+[2024-04-26 01:28:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tfra-nightly-gpu
+[2024-04-26 01:28:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kfre
+[2024-04-26 01:28:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pymobiledevice3
+[2024-04-26 01:28:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-labs-accounts
+[2024-04-26 01:28:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tcp-modbus-aio
+[2024-04-26 01:28:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: libsrg
+[2024-04-26 01:28:09] INFO root fetch - processPackages [django-labs-accounts]: New version: [1.0.0] Old Version: [0.9.5]
+[2024-04-26 01:28:09] INFO root fetch - processPackages [tcp-modbus-aio]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-26 01:28:09] WARNING root fetch - processPackages [kfre]: Skipping, unable to determine old version
+[2024-04-26 01:28:09] INFO root fetch - main [MainThread]: End processing [kfre] error
+[2024-04-26 01:28:09] INFO root fetch - processPackages [tfra-nightly-gpu]: New version: [0.6.1.dev20240424022116] Old Version: [0.6.1.dev20240325081401]
+[2024-04-26 01:28:09] INFO root fetch - processPackages [libsrg]: New version: [4.3.0] Old Version: [4.2.3]
+[2024-04-26 01:28:09] INFO root fetch - processPackages [tfra-nightly]: New version: [0.6.1.dev20240424022116] Old Version: [0.6.1.dev20240325081401]
+[2024-04-26 01:28:09] INFO root fetch - processPackages [pymobiledevice3]: New version: [4.4.0] Old Version: [4.3.1]
+[2024-04-26 01:28:09] INFO root fetch - processPackages [django-labs-accounts]: Downloading https://files.pythonhosted.org/packages/32/79/fa926826906ef063c49bff7c291d02c96d16d942f917dcc3f1b859d310c4/django_labs_accounts-0.9.5.tar.gz
+[2024-04-26 01:28:09] INFO root fetch - processPackages [tcp-modbus-aio]: Downloading https://files.pythonhosted.org/packages/19/af/7597c4f655f2cce58fb012e1cc14d70a6fbe34334e5e94be1fb2c27b3788/tcp_modbus_aio-0.2.0.tar.gz
+[2024-04-26 01:28:09] INFO root fetch - processPackages [tfra-nightly-gpu]: Downloading https://files.pythonhosted.org/packages/51/b4/8f1f505db7811a967bbd8a3b99cc2b602e97803c483b7d2cfcd3a992357b/tfra_nightly_gpu-0.6.1.dev20240325081401-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-26 01:28:09] INFO root fetch - processPackages [tfra-nightly]: Downloading https://files.pythonhosted.org/packages/bc/57/53e842650c723686865eab2fec4b443514f77776738e100f0f4b63f09f00/tfra_nightly-0.6.1.dev20240325081401-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-26 01:28:09] INFO root fetch - processPackages [libsrg]: Downloading https://files.pythonhosted.org/packages/df/43/1938c12eca919c212c8d630c9f5b6d3bb0ae54f1c3b2e428a9fc4f7e0b9b/libsrg-4.2.3-py3-none-any.whl
+[2024-04-26 01:28:09] WARNING root fetch - processPackages [tfra-nightly-gpu]: Skipping package: exceeds size limit 29695719>=10485760
+[2024-04-26 01:28:09] INFO root fetch - main [MainThread]: End processing [tfra-nightly-gpu] error
+[2024-04-26 01:28:09] INFO root fetch - processPackages [pymobiledevice3]: Downloading https://files.pythonhosted.org/packages/ed/94/84302c2297ebb65f5579068bc9a3edef7240eadfdfa0da7d35e23f50f5d8/pymobiledevice3-4.3.1.tar.gz
+[2024-04-26 01:28:09] WARNING root fetch - processPackages [pymobiledevice3]: Skipping package: exceeds size limit 31544523>=10485760
+[2024-04-26 01:28:09] INFO root fetch - main [MainThread]: End processing [pymobiledevice3] error
+[2024-04-26 01:28:10] INFO root fetch - processPackages [django-labs-accounts]: Downloading https://files.pythonhosted.org/packages/e0/ba/f0c17cbd8b14c38084c50b9fdc96474153e605eb017562d0ca1f82e57674/django_labs_accounts-1.0.0.tar.gz
+[2024-04-26 01:28:10] INFO root fetch - processPackages [tcp-modbus-aio]: Downloading https://files.pythonhosted.org/packages/08/38/209051a675120e5e8f4d4f7e33e63743fa48a780d0162e74e2d9ebb6e9db/tcp_modbus_aio-0.2.1.tar.gz
+[2024-04-26 01:28:10] INFO root fetch - processPackages [libsrg]: Downloading https://files.pythonhosted.org/packages/10/df/3c4863cd40fcec1ccc6b5b763a753b38b883fec8012c185e09be25e01812/libsrg-4.3.0-py3-none-any.whl
+[2024-04-26 01:28:10] INFO root fetch - processPackages [django-labs-accounts]: executing diffoscope
+[2024-04-26 01:28:10] INFO root fetch - processPackages [django-labs-accounts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_labs_accounts-0.9.5.tar.gz tmp/django_labs_accounts-1.0.0.tar.gz --markdown 20240426/d/django-labs-accounts/0.9.5-1.0.0/README.md --exclude *.pyd
+[2024-04-26 01:28:10] INFO root fetch - processPackages [tcp-modbus-aio]: executing diffoscope
+[2024-04-26 01:28:10] INFO root fetch - processPackages [tcp-modbus-aio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tcp_modbus_aio-0.2.0.tar.gz tmp/tcp_modbus_aio-0.2.1.tar.gz --markdown 20240426/t/tcp-modbus-aio/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-04-26 01:28:10] INFO root fetch - processPackages [libsrg]: executing diffoscope
+[2024-04-26 01:28:10] INFO root fetch - processPackages [libsrg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libsrg-4.2.3-py3-none-any.whl.zip tmp/libsrg-4.3.0-py3-none-any.whl.zip --markdown 20240426/l/libsrg/4.2.3-4.3.0/README.md --exclude *.pyd
+[2024-04-26 01:28:10] INFO root fetch - processPackages [tfra-nightly]: Downloading https://files.pythonhosted.org/packages/42/4d/3055ebfc0e6fe2efb15e08910e2d600eac0440a1bd85270e0a8ec70f19cc/tfra_nightly-0.6.1.dev20240424022116-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-26 01:28:10] INFO root fetch - processPackages [django-labs-accounts]: Remove: archive file [/home/abi/fetcher/tmp/django_labs_accounts-0.9.5.tar.gz]
+[2024-04-26 01:28:10] INFO root fetch - processPackages [django-labs-accounts]: Remove: archive file [/home/abi/fetcher/tmp/django_labs_accounts-1.0.0.tar.gz]
+[2024-04-26 01:28:10] INFO root fetch - main [MainThread]: End processing [django-labs-accounts]: success
+[2024-04-26 01:28:10] INFO root fetch - processPackages [tcp-modbus-aio]: Remove: archive file [/home/abi/fetcher/tmp/tcp_modbus_aio-0.2.0.tar.gz]
+[2024-04-26 01:28:10] INFO root fetch - processPackages [tcp-modbus-aio]: Remove: archive file [/home/abi/fetcher/tmp/tcp_modbus_aio-0.2.1.tar.gz]
+[2024-04-26 01:28:10] INFO root fetch - main [MainThread]: End processing [tcp-modbus-aio]: success
+[2024-04-26 01:28:10] INFO root fetch - processPackages [libsrg]: Remove: archive file [/home/abi/fetcher/tmp/libsrg-4.2.3-py3-none-any.whl.zip]
+[2024-04-26 01:28:10] INFO root fetch - processPackages [libsrg]: Remove: archive file [/home/abi/fetcher/tmp/libsrg-4.3.0-py3-none-any.whl.zip]
+[2024-04-26 01:28:10] INFO root fetch - main [MainThread]: End processing [libsrg]: success
+[2024-04-26 01:28:11] INFO root fetch - processPackages [tfra-nightly]: executing diffoscope
+[2024-04-26 01:28:11] INFO root fetch - processPackages [tfra-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfra_nightly-0.6.1.dev20240325081401-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/tfra_nightly-0.6.1.dev20240424022116-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240426/t/tfra-nightly/0.6.1.dev20240325081401-0.6.1.dev20240424022116/README.md --exclude *.pyd
+[2024-04-26 01:28:12] INFO root fetch - processPackages [tfra-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfra_nightly-0.6.1.dev20240325081401-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-26 01:28:12] INFO root fetch - processPackages [tfra-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfra_nightly-0.6.1.dev20240424022116-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-26 01:28:12] INFO root fetch - main [MainThread]: End processing [tfra-nightly]: success
+[2024-04-26 01:28:12] INFO root fetch - main [MainThread]: Store serial: [22939490]
