@@ -1275,3 +1275,59 @@
 [2024-04-26 01:23:07] INFO root fetch - processPackages [descarteslabs-dynamic-compute]: Remove: archive file [/home/abi/fetcher/tmp/descarteslabs_dynamic_compute-1.1.4.tar.gz]
 [2024-04-26 01:23:07] INFO root fetch - main [MainThread]: End processing [descarteslabs-dynamic-compute]: success
 [2024-04-26 01:23:07] INFO root fetch - main [MainThread]: Store serial: [22939439]
+[2024-04-26 01:25:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22939439]
+[2024-04-26 01:25:15] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-26 01:25:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nlp-tir
+[2024-04-26 01:25:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PokemonMax
+[2024-04-26 01:25:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-unfold-admin-list-filter-dropdown
+[2024-04-26 01:25:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyfaust
+[2024-04-26 01:25:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyfaust-openblaso
+[2024-04-26 01:25:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyfaust-torch
+[2024-04-26 01:25:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: marcuslion
+[2024-04-26 01:25:15] INFO root fetch - processPackages [pyfaust-torch]: New version: [3.39.9] Old Version: [3.39.8]
+[2024-04-26 01:25:15] INFO root fetch - processPackages [marcuslion]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-26 01:25:15] INFO root fetch - processPackages [pyfaust-openblaso]: New version: [3.39.9] Old Version: [3.39.8]
+[2024-04-26 01:25:15] INFO root fetch - processPackages [nlp-tir]: New version: [0.1.0a1] Old Version: [0.1.0a0]
+[2024-04-26 01:25:15] INFO root fetch - processPackages [django-unfold-admin-list-filter-dropdown]: New version: [1.0.2] Old Version: [1.0.0]
+[2024-04-26 01:25:15] WARNING root fetch - processPackages [PokemonMax]: Skipping, unable to determine old version
+[2024-04-26 01:25:15] INFO root fetch - main [MainThread]: End processing [PokemonMax] error
+[2024-04-26 01:25:15] INFO root fetch - processPackages [pyfaust-torch]: Downloading https://files.pythonhosted.org/packages/ec/8f/ba7f4d26fba041d1f2e0fcd7ad415753bc01056605693666bd5bd220da77/pyfaust_torch-3.39.8-cp310-cp310-macosx_10_9_x86_64.whl
+[2024-04-26 01:25:15] INFO root fetch - processPackages [pyfaust-openblaso]: Downloading https://files.pythonhosted.org/packages/11/3d/5ca945542bb2d8bd9c9639260036cd02a9b0120e957db14b0348cd0bd2f2/pyfaust_openblaso-3.39.8-cp310-cp310-manylinux1_x86_64.whl
+[2024-04-26 01:25:15] INFO root fetch - processPackages [marcuslion]: Downloading https://files.pythonhosted.org/packages/9e/1b/35d713162681f4b6a508ca2f0abe84f28934e251febf83a312e0978d0135/marcuslion-0.2.8.tar.gz
+[2024-04-26 01:25:15] WARNING root fetch - processPackages [pyfaust-openblaso]: Skipping package: exceeds size limit 21341166>=10485760
+[2024-04-26 01:25:15] INFO root fetch - main [MainThread]: End processing [pyfaust-openblaso] error
+[2024-04-26 01:25:15] INFO root fetch - processPackages [pyfaust]: New version: [3.9.1] Old Version: [3.9.0]
+[2024-04-26 01:25:15] INFO root fetch - processPackages [django-unfold-admin-list-filter-dropdown]: Downloading https://files.pythonhosted.org/packages/c3/0c/587fcc7f1aca9a6c9ade2c1aab31269d4940b03ae78cac76e220ffff829e/django_unfold_admin_list_filter_dropdown-1.0.0.tar.gz
+[2024-04-26 01:25:15] INFO root fetch - processPackages [nlp-tir]: Downloading https://files.pythonhosted.org/packages/ff/91/8d7d21829bba58b0bbd46ce9b4a199379144f40b346b82ad215b1be4425a/nlp_tir-0.1.0a0.tar.gz
+[2024-04-26 01:25:15] INFO root fetch - processPackages [marcuslion]: Downloading https://files.pythonhosted.org/packages/73/74/371dc6066e1b5614cacf5b247114099a910b32ff470c7e0515f1a376d74d/marcuslion-0.2.9.tar.gz
+[2024-04-26 01:25:16] INFO root fetch - processPackages [pyfaust-torch]: Downloading https://files.pythonhosted.org/packages/f3/1b/27f94659b8f7005771f16841c4b1ceaedef913f0c5c5e2f235a299e23975/pyfaust_torch-3.39.9-cp310-cp310-macosx_10_9_x86_64.whl
+[2024-04-26 01:25:16] INFO root fetch - processPackages [marcuslion]: executing diffoscope
+[2024-04-26 01:25:16] INFO root fetch - processPackages [marcuslion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/marcuslion-0.2.8.tar.gz tmp/marcuslion-0.2.9.tar.gz --markdown 20240426/m/marcuslion/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-26 01:25:16] INFO root fetch - processPackages [pyfaust]: Downloading https://files.pythonhosted.org/packages/18/b5/0740195b9ccd0e43e427280344d5fb3706996ff6f66655fe6f79cd230aaa/pyfaust-3.9.0-cp39-cp39-win_amd64.whl
+[2024-04-26 01:25:16] INFO root fetch - processPackages [django-unfold-admin-list-filter-dropdown]: Downloading https://files.pythonhosted.org/packages/36/c2/10b972eeb80e5839f9c905b0a19826fc2266ded6281adbcc7d7eacf27694/django_unfold_admin_list_filter_dropdown-1.0.2.tar.gz
+[2024-04-26 01:25:16] INFO root fetch - processPackages [nlp-tir]: Downloading https://files.pythonhosted.org/packages/c0/9f/dc2348fa7ade1689615e3ce1038a8ee98a78778389c1b1b684b9e6ca6e6c/nlp_tir-0.1.0a1.tar.gz
+[2024-04-26 01:25:16] INFO root fetch - processPackages [django-unfold-admin-list-filter-dropdown]: executing diffoscope
+[2024-04-26 01:25:16] INFO root fetch - processPackages [django-unfold-admin-list-filter-dropdown]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_unfold_admin_list_filter_dropdown-1.0.0.tar.gz tmp/django_unfold_admin_list_filter_dropdown-1.0.2.tar.gz --markdown 20240426/d/django-unfold-admin-list-filter-dropdown/1.0.0-1.0.2/README.md --exclude *.pyd
+[2024-04-26 01:25:16] INFO root fetch - processPackages [nlp-tir]: executing diffoscope
+[2024-04-26 01:25:16] INFO root fetch - processPackages [nlp-tir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nlp_tir-0.1.0a0.tar.gz tmp/nlp_tir-0.1.0a1.tar.gz --markdown 20240426/n/nlp-tir/0.1.0a0-0.1.0a1/README.md --exclude *.pyd
+[2024-04-26 01:25:16] INFO root fetch - processPackages [pyfaust-torch]: executing diffoscope
+[2024-04-26 01:25:16] INFO root fetch - processPackages [pyfaust-torch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfaust_torch-3.39.8-cp310-cp310-macosx_10_9_x86_64.whl.zip tmp/pyfaust_torch-3.39.9-cp310-cp310-macosx_10_9_x86_64.whl.zip --markdown 20240426/p/pyfaust-torch/3.39.8-3.39.9/README.md --exclude *.pyd
+[2024-04-26 01:25:16] INFO root fetch - processPackages [marcuslion]: Remove: archive file [/home/abi/fetcher/tmp/marcuslion-0.2.8.tar.gz]
+[2024-04-26 01:25:16] INFO root fetch - processPackages [marcuslion]: Remove: archive file [/home/abi/fetcher/tmp/marcuslion-0.2.9.tar.gz]
+[2024-04-26 01:25:16] INFO root fetch - main [MainThread]: End processing [marcuslion]: success
+[2024-04-26 01:25:16] INFO root fetch - processPackages [pyfaust]: Downloading https://files.pythonhosted.org/packages/34/28/ab7cd91f9611bbe2d9ff5bfc6934eb6af283249b75ac68c9d0b6befcd0b5/pyfaust-3.9.1-cp39-cp39-win_amd64.whl
+[2024-04-26 01:25:16] INFO root fetch - processPackages [django-unfold-admin-list-filter-dropdown]: Remove: archive file [/home/abi/fetcher/tmp/django_unfold_admin_list_filter_dropdown-1.0.0.tar.gz]
+[2024-04-26 01:25:16] INFO root fetch - processPackages [django-unfold-admin-list-filter-dropdown]: Remove: archive file [/home/abi/fetcher/tmp/django_unfold_admin_list_filter_dropdown-1.0.2.tar.gz]
+[2024-04-26 01:25:16] INFO root fetch - main [MainThread]: End processing [django-unfold-admin-list-filter-dropdown]: success
+[2024-04-26 01:25:17] INFO root fetch - processPackages [nlp-tir]: Remove: archive file [/home/abi/fetcher/tmp/nlp_tir-0.1.0a0.tar.gz]
+[2024-04-26 01:25:17] INFO root fetch - processPackages [nlp-tir]: Remove: archive file [/home/abi/fetcher/tmp/nlp_tir-0.1.0a1.tar.gz]
+[2024-04-26 01:25:17] INFO root fetch - main [MainThread]: End processing [nlp-tir]: success
+[2024-04-26 01:25:17] INFO root fetch - processPackages [pyfaust]: executing diffoscope
+[2024-04-26 01:25:17] INFO root fetch - processPackages [pyfaust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfaust-3.9.0-cp39-cp39-win_amd64.whl.zip tmp/pyfaust-3.9.1-cp39-cp39-win_amd64.whl.zip --markdown 20240426/p/pyfaust/3.9.0-3.9.1/README.md --exclude *.pyd
+[2024-04-26 01:25:50] INFO root fetch - processPackages [pyfaust]: Remove: archive file [/home/abi/fetcher/tmp/pyfaust-3.9.0-cp39-cp39-win_amd64.whl.zip]
+[2024-04-26 01:25:50] INFO root fetch - processPackages [pyfaust]: Remove: archive file [/home/abi/fetcher/tmp/pyfaust-3.9.1-cp39-cp39-win_amd64.whl.zip]
+[2024-04-26 01:25:50] INFO root fetch - main [MainThread]: End processing [pyfaust]: success
+[2024-04-26 01:25:53] INFO root fetch - processPackages [pyfaust-torch]: Remove: archive file [/home/abi/fetcher/tmp/pyfaust_torch-3.39.8-cp310-cp310-macosx_10_9_x86_64.whl.zip]
+[2024-04-26 01:25:53] INFO root fetch - processPackages [pyfaust-torch]: Remove: archive file [/home/abi/fetcher/tmp/pyfaust_torch-3.39.9-cp310-cp310-macosx_10_9_x86_64.whl.zip]
+[2024-04-26 01:25:53] INFO root fetch - main [MainThread]: End processing [pyfaust-torch]: success
+[2024-04-26 01:25:53] INFO root fetch - main [MainThread]: Store serial: [22939464]
