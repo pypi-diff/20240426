@@ -625,3 +625,42 @@
 [2024-04-26 00:42:35] INFO root fetch - processPackages [onstats]: Remove: archive file [/home/abi/fetcher/tmp/onstats-0.9.2.tar.gz]
 [2024-04-26 00:42:35] INFO root fetch - main [MainThread]: End processing [onstats]: success
 [2024-04-26 00:42:35] INFO root fetch - main [MainThread]: Store serial: [22939053]
+[2024-04-26 00:44:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22939053]
+[2024-04-26 00:44:44] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-26 00:44:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rel
+[2024-04-26 00:44:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: schematicpy
+[2024-04-26 00:44:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: attack-lookup
+[2024-04-26 00:44:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tastytrade
+[2024-04-26 00:44:44] INFO root fetch - processPackages [attack-lookup]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-26 00:44:44] INFO root fetch - processPackages [rel]: New version: [0.4.9.9] Old Version: [0.4.9.8]
+[2024-04-26 00:44:44] INFO root fetch - processPackages [schematicpy]: New version: [24.4.1] Old Version: [24.2.1]
+[2024-04-26 00:44:44] INFO root fetch - processPackages [tastytrade]: New version: [7.2] Old Version: [7.1]
+[2024-04-26 00:44:44] INFO root fetch - processPackages [attack-lookup]: Downloading https://files.pythonhosted.org/packages/42/3b/e33a4793164f9ae630f3e2ec734914fc4f945d6941094a50052b2fe48b56/attack-lookup-1.0.2.tar.gz
+[2024-04-26 00:44:44] INFO root fetch - processPackages [rel]: Downloading https://files.pythonhosted.org/packages/e4/e3/10318da1c90cf22ae6b178342946d3e614a0f467dce98225a6ca78f84c39/rel-0.4.9.8-py3-none-any.whl
+[2024-04-26 00:44:44] INFO root fetch - processPackages [schematicpy]: Downloading https://files.pythonhosted.org/packages/6d/b9/7115201134c387f2e6f4bf10d0a62f1d1f4e608cb1f12f2c92fb3f552ef1/schematicpy-24.2.1.tar.gz
+[2024-04-26 00:44:44] INFO root fetch - processPackages [tastytrade]: Downloading https://files.pythonhosted.org/packages/56/05/269506761b010dc78e1ea3719ed3696512b8aaa3c64907059eede534443b/tastytrade-7.1.tar.gz
+[2024-04-26 00:44:45] INFO root fetch - processPackages [schematicpy]: Downloading https://files.pythonhosted.org/packages/fb/8b/881a00418000f1d40dc02306f093668bd30e96313afe1a0725cc0d97b168/schematicpy-24.4.1.tar.gz
+[2024-04-26 00:44:45] INFO root fetch - processPackages [rel]: Downloading https://files.pythonhosted.org/packages/9e/20/2e43dfac115c1784bfbb18a0f141215d27e937046a4115b2d3988d889c19/rel-0.4.9.9-py3-none-any.whl
+[2024-04-26 00:44:45] INFO root fetch - processPackages [tastytrade]: Downloading https://files.pythonhosted.org/packages/b1/e9/3cb33616f83ee8fb7359d31e92eda258b24c339be9c05e0f5ffcf30e512a/tastytrade-7.2.tar.gz
+[2024-04-26 00:44:45] INFO root fetch - processPackages [rel]: executing diffoscope
+[2024-04-26 00:44:45] INFO root fetch - processPackages [rel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rel-0.4.9.8-py3-none-any.whl.zip tmp/rel-0.4.9.9-py3-none-any.whl.zip --markdown 20240426/r/rel/0.4.9.8-0.4.9.9/README.md --exclude *.pyd
+[2024-04-26 00:44:45] INFO root fetch - processPackages [attack-lookup]: Downloading https://files.pythonhosted.org/packages/cd/0f/736c2b3b21e56ba2f096b7845cba4c6a05218390bd03056d34cb8cb272ca/attack_lookup-1.0.3.tar.gz
+[2024-04-26 00:44:45] INFO root fetch - processPackages [schematicpy]: executing diffoscope
+[2024-04-26 00:44:45] INFO root fetch - processPackages [schematicpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/schematicpy-24.2.1.tar.gz tmp/schematicpy-24.4.1.tar.gz --markdown 20240426/s/schematicpy/24.2.1-24.4.1/README.md --exclude *.pyd
+[2024-04-26 00:44:45] INFO root fetch - processPackages [rel]: Remove: archive file [/home/abi/fetcher/tmp/rel-0.4.9.8-py3-none-any.whl.zip]
+[2024-04-26 00:44:45] INFO root fetch - processPackages [rel]: Remove: archive file [/home/abi/fetcher/tmp/rel-0.4.9.9-py3-none-any.whl.zip]
+[2024-04-26 00:44:45] INFO root fetch - main [MainThread]: End processing [rel]: success
+[2024-04-26 00:44:45] INFO root fetch - processPackages [tastytrade]: executing diffoscope
+[2024-04-26 00:44:45] INFO root fetch - processPackages [tastytrade]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tastytrade-7.1.tar.gz tmp/tastytrade-7.2.tar.gz --markdown 20240426/t/tastytrade/7.1-7.2/README.md --exclude *.pyd
+[2024-04-26 00:44:46] INFO root fetch - processPackages [attack-lookup]: executing diffoscope
+[2024-04-26 00:44:46] INFO root fetch - processPackages [attack-lookup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/attack-lookup-1.0.2.tar.gz tmp/attack_lookup-1.0.3.tar.gz --markdown 20240426/a/attack-lookup/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-04-26 00:44:46] INFO root fetch - processPackages [tastytrade]: Remove: archive file [/home/abi/fetcher/tmp/tastytrade-7.1.tar.gz]
+[2024-04-26 00:44:46] INFO root fetch - processPackages [tastytrade]: Remove: archive file [/home/abi/fetcher/tmp/tastytrade-7.2.tar.gz]
+[2024-04-26 00:44:46] INFO root fetch - main [MainThread]: End processing [tastytrade]: success
+[2024-04-26 00:44:46] INFO root fetch - processPackages [schematicpy]: Remove: archive file [/home/abi/fetcher/tmp/schematicpy-24.2.1.tar.gz]
+[2024-04-26 00:44:46] INFO root fetch - processPackages [schematicpy]: Remove: archive file [/home/abi/fetcher/tmp/schematicpy-24.4.1.tar.gz]
+[2024-04-26 00:44:46] INFO root fetch - main [MainThread]: End processing [schematicpy]: success
+[2024-04-26 00:44:48] INFO root fetch - processPackages [attack-lookup]: Remove: archive file [/home/abi/fetcher/tmp/attack-lookup-1.0.2.tar.gz]
+[2024-04-26 00:44:48] INFO root fetch - processPackages [attack-lookup]: Remove: archive file [/home/abi/fetcher/tmp/attack_lookup-1.0.3.tar.gz]
+[2024-04-26 00:44:48] INFO root fetch - main [MainThread]: End processing [attack-lookup]: success
+[2024-04-26 00:44:48] INFO root fetch - main [MainThread]: Store serial: [22939061]
