@@ -1787,3 +1787,45 @@
 [2024-04-26 01:52:24] INFO root fetch - processPackages [pyDolarVenezuela]: Remove: archive file [/home/abi/fetcher/tmp/pydolarvenezuela-1.4.6.tar.gz]
 [2024-04-26 01:52:24] INFO root fetch - main [MainThread]: End processing [pyDolarVenezuela]: success
 [2024-04-26 01:52:24] INFO root fetch - main [MainThread]: Store serial: [22939680]
+[2024-04-26 01:54:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22939680]
+[2024-04-26 01:54:32] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-26 01:54:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: exopie
+[2024-04-26 01:54:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: data-repo-client
+[2024-04-26 01:54:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: redhat-assisted-installer
+[2024-04-26 01:54:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: whylogs-container-client
+[2024-04-26 01:54:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: athenademo
+[2024-04-26 01:54:33] INFO root fetch - processPackages [athenademo]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-04-26 01:54:33] INFO root fetch - processPackages [redhat-assisted-installer]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-26 01:54:33] WARNING root fetch - processPackages [exopie]: Skipping, unable to determine old version
+[2024-04-26 01:54:33] INFO root fetch - main [MainThread]: End processing [exopie] error
+[2024-04-26 01:54:33] INFO root fetch - processPackages [whylogs-container-client]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-26 01:54:33] INFO root fetch - processPackages [data-repo-client]: New version: [2.49.0] Old Version: [2.48.0]
+[2024-04-26 01:54:33] INFO root fetch - processPackages [redhat-assisted-installer]: Downloading https://files.pythonhosted.org/packages/b8/ae/492c8f6bdeaa06471ee8379e59383fcb1c9e600d2ce3cc8cf1cf9d30aafd/redhat_assisted_installer-0.0.1.tar.gz
+[2024-04-26 01:54:33] INFO root fetch - processPackages [athenademo]: Downloading https://files.pythonhosted.org/packages/40/15/906395f77997e25af7e2803ea1d690f61b1596391f02be9388b78e2efb21/athenademo-0.1.0.tar.gz
+[2024-04-26 01:54:33] INFO root fetch - processPackages [whylogs-container-client]: Downloading https://files.pythonhosted.org/packages/7b/f3/90916c4830aa168ef810ac1f9396bb5f7131049ced86dda7a220c13604f1/whylogs_container_client-1.0.8.tar.gz
+[2024-04-26 01:54:33] INFO root fetch - processPackages [data-repo-client]: Downloading https://files.pythonhosted.org/packages/d4/ae/444bf6a5dfd17992349f4b970c5cf1bb6ca83f55e2b8fdcbf717e99fb68a/data-repo-client-2.48.0.tar.gz
+[2024-04-26 01:54:33] INFO root fetch - processPackages [redhat-assisted-installer]: Downloading https://files.pythonhosted.org/packages/e8/02/59654539cff19785c1964301b8f89d29fd1a298d3bb20360ee5659db2843/redhat_assisted_installer-0.0.2.tar.gz
+[2024-04-26 01:54:33] INFO root fetch - processPackages [athenademo]: Downloading https://files.pythonhosted.org/packages/f8/11/1e1248d08b07d4e4d543b9472ab337a0134647169687906a979f7436e185/athenademo-0.2.0.tar.gz
+[2024-04-26 01:54:33] INFO root fetch - processPackages [whylogs-container-client]: Downloading https://files.pythonhosted.org/packages/e9/4d/6386d41bbae74c8626b1c6076e3f268c005d1e9e437287f3febebf7213ef/whylogs_container_client-1.0.9.tar.gz
+[2024-04-26 01:54:33] INFO root fetch - processPackages [redhat-assisted-installer]: executing diffoscope
+[2024-04-26 01:54:33] INFO root fetch - processPackages [redhat-assisted-installer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redhat_assisted_installer-0.0.1.tar.gz tmp/redhat_assisted_installer-0.0.2.tar.gz --markdown 20240426/r/redhat-assisted-installer/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-26 01:54:33] INFO root fetch - processPackages [athenademo]: executing diffoscope
+[2024-04-26 01:54:33] INFO root fetch - processPackages [athenademo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/athenademo-0.1.0.tar.gz tmp/athenademo-0.2.0.tar.gz --markdown 20240426/a/athenademo/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-04-26 01:54:33] INFO root fetch - processPackages [data-repo-client]: Downloading https://files.pythonhosted.org/packages/91/cd/f16d022d5d9cd607adc28c976e2bfaefa31047a117ac54d042d514305cc9/data-repo-client-2.49.0.tar.gz
+[2024-04-26 01:54:33] INFO root fetch - processPackages [whylogs-container-client]: executing diffoscope
+[2024-04-26 01:54:33] INFO root fetch - processPackages [whylogs-container-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whylogs_container_client-1.0.8.tar.gz tmp/whylogs_container_client-1.0.9.tar.gz --markdown 20240426/w/whylogs-container-client/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-26 01:54:33] INFO root fetch - processPackages [data-repo-client]: executing diffoscope
+[2024-04-26 01:54:33] INFO root fetch - processPackages [data-repo-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data-repo-client-2.48.0.tar.gz tmp/data-repo-client-2.49.0.tar.gz --markdown 20240426/d/data-repo-client/2.48.0-2.49.0/README.md --exclude *.pyd
+[2024-04-26 01:54:34] INFO root fetch - processPackages [redhat-assisted-installer]: Remove: archive file [/home/abi/fetcher/tmp/redhat_assisted_installer-0.0.1.tar.gz]
+[2024-04-26 01:54:34] INFO root fetch - processPackages [redhat-assisted-installer]: Remove: archive file [/home/abi/fetcher/tmp/redhat_assisted_installer-0.0.2.tar.gz]
+[2024-04-26 01:54:34] INFO root fetch - main [MainThread]: End processing [redhat-assisted-installer]: success
+[2024-04-26 01:54:34] INFO root fetch - processPackages [athenademo]: Remove: archive file [/home/abi/fetcher/tmp/athenademo-0.1.0.tar.gz]
+[2024-04-26 01:54:34] INFO root fetch - processPackages [athenademo]: Remove: archive file [/home/abi/fetcher/tmp/athenademo-0.2.0.tar.gz]
+[2024-04-26 01:54:34] INFO root fetch - main [MainThread]: End processing [athenademo]: success
+[2024-04-26 01:54:34] INFO root fetch - processPackages [whylogs-container-client]: Remove: archive file [/home/abi/fetcher/tmp/whylogs_container_client-1.0.8.tar.gz]
+[2024-04-26 01:54:34] INFO root fetch - processPackages [whylogs-container-client]: Remove: archive file [/home/abi/fetcher/tmp/whylogs_container_client-1.0.9.tar.gz]
+[2024-04-26 01:54:34] INFO root fetch - main [MainThread]: End processing [whylogs-container-client]: success
+[2024-04-26 01:54:35] INFO root fetch - processPackages [data-repo-client]: Remove: archive file [/home/abi/fetcher/tmp/data-repo-client-2.48.0.tar.gz]
+[2024-04-26 01:54:35] INFO root fetch - processPackages [data-repo-client]: Remove: archive file [/home/abi/fetcher/tmp/data-repo-client-2.49.0.tar.gz]
+[2024-04-26 01:54:35] INFO root fetch - main [MainThread]: End processing [data-repo-client]: success
+[2024-04-26 01:54:35] INFO root fetch - main [MainThread]: Store serial: [22939697]
