@@ -1580,3 +1580,36 @@
 [2024-04-26 01:39:03] WARNING root fetch - processPackages [aspose-barcode-for-python-via-net]: Skipping package: exceeds size limit 40552374>=10485760
 [2024-04-26 01:39:03] INFO root fetch - main [MainThread]: End processing [aspose-barcode-for-python-via-net] error
 [2024-04-26 01:39:03] INFO root fetch - main [MainThread]: Store serial: [22939605]
+[2024-04-26 01:41:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22939605]
+[2024-04-26 01:41:11] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-26 01:41:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: e2b
+[2024-04-26 01:41:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyDolarVenezuela
+[2024-04-26 01:41:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ovos-listener
+[2024-04-26 01:41:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: athenademo
+[2024-04-26 01:41:11] INFO root fetch - processPackages [ovos-listener]: New version: [0.0.3a1] Old Version: [0.0.2a9]
+[2024-04-26 01:41:11] INFO root fetch - processPackages [pyDolarVenezuela]: New version: [1.4.3] Old Version: [1.4.2]
+[2024-04-26 01:41:11] INFO root fetch - processPackages [ovos-listener]: Downloading https://files.pythonhosted.org/packages/90/ad/89c5a31ad9c1f97aae5fc96e27e8b04c825a20ca0e6d534eae08fe89c8f4/ovos_listener-0.0.2a9-py3-none-any.whl
+[2024-04-26 01:41:11] INFO root fetch - processPackages [pyDolarVenezuela]: Downloading https://files.pythonhosted.org/packages/1e/b4/0cd1c8a71e210f3a470d185ea6926a16ad2c910e8b20e1561950d77bd993/pyDolarVenezuela-1.4.2.tar.gz
+[2024-04-26 01:41:11] WARNING root fetch - processPackages [athenademo]: Skipping, unable to determine old version
+[2024-04-26 01:41:11] INFO root fetch - main [MainThread]: End processing [athenademo] error
+[2024-04-26 01:41:11] INFO root fetch - processPackages [e2b]: New version: [0.9.7] Old Version: [0.9.6]
+[2024-04-26 01:41:11] INFO root fetch - processPackages [ovos-listener]: Downloading https://files.pythonhosted.org/packages/8c/22/f96366a9acf2a960c66dbbe6e61476e724469d199c4e611571d9e0cfca09/ovos_listener-0.0.3a1-py3-none-any.whl
+[2024-04-26 01:41:11] INFO root fetch - processPackages [pyDolarVenezuela]: Downloading https://files.pythonhosted.org/packages/ec/e1/85d8ca868cf7c074ce1b849395c4369d838f4c1ae1f1ad4f292b41d9509c/pydolarvenezuela-1.4.3.tar.gz
+[2024-04-26 01:41:11] INFO root fetch - processPackages [e2b]: Downloading https://files.pythonhosted.org/packages/1a/e1/7d8dabb6aec21fb6f0f2ba8d50e6b15954150f88b9165be6672e515b5743/e2b-0.9.6.tar.gz
+[2024-04-26 01:41:11] INFO root fetch - processPackages [pyDolarVenezuela]: executing diffoscope
+[2024-04-26 01:41:11] INFO root fetch - processPackages [pyDolarVenezuela]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyDolarVenezuela-1.4.2.tar.gz tmp/pydolarvenezuela-1.4.3.tar.gz --markdown 20240426/p/pyDolarVenezuela/1.4.2-1.4.3/README.md --exclude *.pyd
+[2024-04-26 01:41:11] INFO root fetch - processPackages [ovos-listener]: executing diffoscope
+[2024-04-26 01:41:11] INFO root fetch - processPackages [ovos-listener]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_listener-0.0.2a9-py3-none-any.whl.zip tmp/ovos_listener-0.0.3a1-py3-none-any.whl.zip --markdown 20240426/o/ovos-listener/0.0.2a9-0.0.3a1/README.md --exclude *.pyd
+[2024-04-26 01:41:12] INFO root fetch - processPackages [e2b]: Downloading https://files.pythonhosted.org/packages/12/97/8baccc64ce0664cccbd82d6b4190193beb6b7513a26751e9019aa4339c95/e2b-0.9.7.tar.gz
+[2024-04-26 01:41:12] INFO root fetch - processPackages [e2b]: executing diffoscope
+[2024-04-26 01:41:12] INFO root fetch - processPackages [e2b]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/e2b-0.9.6.tar.gz tmp/e2b-0.9.7.tar.gz --markdown 20240426/e/e2b/0.9.6-0.9.7/README.md --exclude *.pyd
+[2024-04-26 01:41:12] INFO root fetch - processPackages [ovos-listener]: Remove: archive file [/home/abi/fetcher/tmp/ovos_listener-0.0.2a9-py3-none-any.whl.zip]
+[2024-04-26 01:41:12] INFO root fetch - processPackages [ovos-listener]: Remove: archive file [/home/abi/fetcher/tmp/ovos_listener-0.0.3a1-py3-none-any.whl.zip]
+[2024-04-26 01:41:12] INFO root fetch - main [MainThread]: End processing [ovos-listener]: success
+[2024-04-26 01:41:12] INFO root fetch - processPackages [pyDolarVenezuela]: Remove: archive file [/home/abi/fetcher/tmp/pyDolarVenezuela-1.4.2.tar.gz]
+[2024-04-26 01:41:12] INFO root fetch - processPackages [pyDolarVenezuela]: Remove: archive file [/home/abi/fetcher/tmp/pydolarvenezuela-1.4.3.tar.gz]
+[2024-04-26 01:41:12] INFO root fetch - main [MainThread]: End processing [pyDolarVenezuela]: success
+[2024-04-26 01:41:13] INFO root fetch - processPackages [e2b]: Remove: archive file [/home/abi/fetcher/tmp/e2b-0.9.6.tar.gz]
+[2024-04-26 01:41:13] INFO root fetch - processPackages [e2b]: Remove: archive file [/home/abi/fetcher/tmp/e2b-0.9.7.tar.gz]
+[2024-04-26 01:41:13] INFO root fetch - main [MainThread]: End processing [e2b]: success
+[2024-04-26 01:41:13] INFO root fetch - main [MainThread]: Store serial: [22939619]
