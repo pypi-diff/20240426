@@ -1667,3 +1667,63 @@
 [2024-04-26 01:45:33] INFO root fetch - processPackages [gingerai]: Remove: archive file [/home/abi/fetcher/tmp/gingerai-0.1.9.tar.gz]
 [2024-04-26 01:45:33] INFO root fetch - main [MainThread]: End processing [gingerai]: success
 [2024-04-26 01:45:33] INFO root fetch - main [MainThread]: Store serial: [22939646]
+[2024-04-26 01:47:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22939646]
+[2024-04-26 01:47:41] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-26 01:47:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gingerai
+[2024-04-26 01:47:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyDolarVenezuela
+[2024-04-26 01:47:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wkregister
+[2024-04-26 01:47:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rubpy
+[2024-04-26 01:47:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lute3
+[2024-04-26 01:47:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: athenademo
+[2024-04-26 01:47:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: neon-transformers
+[2024-04-26 01:47:41] INFO root fetch - processPackages [gingerai]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-26 01:47:41] INFO root fetch - processPackages [wkregister]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-26 01:47:41] WARNING root fetch - processPackages [athenademo]: Skipping, unable to determine old version
+[2024-04-26 01:47:41] INFO root fetch - main [MainThread]: End processing [athenademo] error
+[2024-04-26 01:47:41] INFO root fetch - processPackages [pyDolarVenezuela]: New version: [1.4.4] Old Version: [1.4.3]
+[2024-04-26 01:47:41] INFO root fetch - processPackages [gingerai]: Downloading https://files.pythonhosted.org/packages/93/63/5f4a6d2549870026eff659d1fc9aac0f6c9532ea741f07ac2083cd3a1cfe/gingerai-0.1.8.tar.gz
+[2024-04-26 01:47:41] INFO root fetch - processPackages [rubpy]: New version: [7.0.2b1] Old Version: [7.0.2b0]
+[2024-04-26 01:47:41] INFO root fetch - processPackages [lute3]: New version: [3.3.2b1] Old Version: [3.3.1]
+[2024-04-26 01:47:41] INFO root fetch - processPackages [neon-transformers]: New version: [0.2.1a4] Old Version: [0.2.1a3]
+[2024-04-26 01:47:41] INFO root fetch - processPackages [pyDolarVenezuela]: Downloading https://files.pythonhosted.org/packages/ec/e1/85d8ca868cf7c074ce1b849395c4369d838f4c1ae1f1ad4f292b41d9509c/pydolarvenezuela-1.4.3.tar.gz
+[2024-04-26 01:47:41] INFO root fetch - processPackages [wkregister]: Downloading https://files.pythonhosted.org/packages/c3/89/8be56afb049c6ec1835c02e0a5b9c1affd162c8c43cf7178017e6176614a/wkregister-0.0.6.tar.gz
+[2024-04-26 01:47:41] INFO root fetch - processPackages [rubpy]: Downloading https://files.pythonhosted.org/packages/ac/13/8a6dd7e48f253402c20a1c346e159e64dfa8d775323af6b484ec23d86eb5/rubpy-7.0.2b0.tar.gz
+[2024-04-26 01:47:41] INFO root fetch - processPackages [gingerai]: Downloading https://files.pythonhosted.org/packages/33/65/a59be7a360a71da6fb875287e72120e252018dc037eef33b15ac50759b89/gingerai-0.1.9.tar.gz
+[2024-04-26 01:47:41] INFO root fetch - processPackages [lute3]: Downloading https://files.pythonhosted.org/packages/7d/2d/3268f995ce242f946bc008c90972b902392d93a6c90b4107f387f214b933/lute3-3.3.1.tar.gz
+[2024-04-26 01:47:42] INFO root fetch - processPackages [neon-transformers]: Downloading https://files.pythonhosted.org/packages/49/ef/033ec89807841693df2d285666889f210fb30abbbf30150ee5359e972f11/neon_transformers-0.2.1a3-py3-none-any.whl
+[2024-04-26 01:47:42] INFO root fetch - processPackages [gingerai]: executing diffoscope
+[2024-04-26 01:47:42] INFO root fetch - processPackages [gingerai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gingerai-0.1.8.tar.gz tmp/gingerai-0.1.9.tar.gz --markdown 20240426/g/gingerai/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-26 01:47:42] INFO root fetch - processPackages [wkregister]: Downloading https://files.pythonhosted.org/packages/a0/b1/bddb3de3258269f02464de7ed03d370933ecf0e9121f10fc90339aa2201a/wkregister-0.0.7.tar.gz
+[2024-04-26 01:47:42] INFO root fetch - processPackages [wkregister]: executing diffoscope
+[2024-04-26 01:47:42] INFO root fetch - processPackages [wkregister]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wkregister-0.0.6.tar.gz tmp/wkregister-0.0.7.tar.gz --markdown 20240426/w/wkregister/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-26 01:47:42] INFO root fetch - processPackages [pyDolarVenezuela]: Downloading https://files.pythonhosted.org/packages/91/ea/d9e5cc3848b573c81edcd73190802131c1ef5ab0c6dae8d39a4c82dbd82c/pydolarvenezuela-1.4.4.tar.gz
+[2024-04-26 01:47:42] INFO root fetch - processPackages [rubpy]: Downloading https://files.pythonhosted.org/packages/3f/63/9a73bb6736be5bc6a54863cf985d76bd5e9d14157247fea27bb2923d9137/rubpy-7.0.2b1.tar.gz
+[2024-04-26 01:47:42] INFO root fetch - processPackages [neon-transformers]: Downloading https://files.pythonhosted.org/packages/25/9d/2a4a9342c9a098ed77262a101d861421837510132b764b306868fb39dba9/neon_transformers-0.2.1a4.tar.gz
+[2024-04-26 01:47:42] INFO root fetch - processPackages [lute3]: Downloading https://files.pythonhosted.org/packages/92/31/a7cc8b15e977b0c1d4d7af56ad2cc04cf90bec2f628ffe2a4a717d8b9593/lute3-3.3.2b1.tar.gz
+[2024-04-26 01:47:42] INFO root fetch - processPackages [pyDolarVenezuela]: executing diffoscope
+[2024-04-26 01:47:42] INFO root fetch - processPackages [pyDolarVenezuela]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydolarvenezuela-1.4.3.tar.gz tmp/pydolarvenezuela-1.4.4.tar.gz --markdown 20240426/p/pyDolarVenezuela/1.4.3-1.4.4/README.md --exclude *.pyd
+[2024-04-26 01:47:42] INFO root fetch - processPackages [rubpy]: executing diffoscope
+[2024-04-26 01:47:42] INFO root fetch - processPackages [rubpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rubpy-7.0.2b0.tar.gz tmp/rubpy-7.0.2b1.tar.gz --markdown 20240426/r/rubpy/7.0.2b0-7.0.2b1/README.md --exclude *.pyd
+[2024-04-26 01:47:42] INFO root fetch - processPackages [gingerai]: Remove: archive file [/home/abi/fetcher/tmp/gingerai-0.1.8.tar.gz]
+[2024-04-26 01:47:42] INFO root fetch - processPackages [gingerai]: Remove: archive file [/home/abi/fetcher/tmp/gingerai-0.1.9.tar.gz]
+[2024-04-26 01:47:42] INFO root fetch - main [MainThread]: End processing [gingerai]: success
+[2024-04-26 01:47:42] INFO root fetch - processPackages [lute3]: executing diffoscope
+[2024-04-26 01:47:42] INFO root fetch - processPackages [lute3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lute3-3.3.1.tar.gz tmp/lute3-3.3.2b1.tar.gz --markdown 20240426/l/lute3/3.3.1-3.3.2b1/README.md --exclude *.pyd
+[2024-04-26 01:47:42] INFO root fetch - processPackages [wkregister]: Remove: archive file [/home/abi/fetcher/tmp/wkregister-0.0.6.tar.gz]
+[2024-04-26 01:47:42] INFO root fetch - processPackages [wkregister]: Remove: archive file [/home/abi/fetcher/tmp/wkregister-0.0.7.tar.gz]
+[2024-04-26 01:47:42] INFO root fetch - main [MainThread]: End processing [wkregister]: success
+[2024-04-26 01:47:42] INFO root fetch - processPackages [neon-transformers]: executing diffoscope
+[2024-04-26 01:47:42] INFO root fetch - processPackages [neon-transformers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_transformers-0.2.1a3-py3-none-any.whl.zip tmp/neon_transformers-0.2.1a4.tar.gz --markdown 20240426/n/neon-transformers/0.2.1a3-0.2.1a4/README.md --exclude *.pyd
+[2024-04-26 01:47:43] INFO root fetch - processPackages [pyDolarVenezuela]: Remove: archive file [/home/abi/fetcher/tmp/pydolarvenezuela-1.4.3.tar.gz]
+[2024-04-26 01:47:43] INFO root fetch - processPackages [pyDolarVenezuela]: Remove: archive file [/home/abi/fetcher/tmp/pydolarvenezuela-1.4.4.tar.gz]
+[2024-04-26 01:47:43] INFO root fetch - main [MainThread]: End processing [pyDolarVenezuela]: success
+[2024-04-26 01:47:43] INFO root fetch - processPackages [neon-transformers]: Remove: archive file [/home/abi/fetcher/tmp/neon_transformers-0.2.1a3-py3-none-any.whl.zip]
+[2024-04-26 01:47:43] INFO root fetch - processPackages [neon-transformers]: Remove: archive file [/home/abi/fetcher/tmp/neon_transformers-0.2.1a4.tar.gz]
+[2024-04-26 01:47:43] INFO root fetch - main [MainThread]: End processing [neon-transformers]: success
+[2024-04-26 01:47:43] INFO root fetch - processPackages [rubpy]: Remove: archive file [/home/abi/fetcher/tmp/rubpy-7.0.2b0.tar.gz]
+[2024-04-26 01:47:43] INFO root fetch - processPackages [rubpy]: Remove: archive file [/home/abi/fetcher/tmp/rubpy-7.0.2b1.tar.gz]
+[2024-04-26 01:47:43] INFO root fetch - main [MainThread]: End processing [rubpy]: success
+[2024-04-26 01:47:45] INFO root fetch - processPackages [lute3]: Remove: archive file [/home/abi/fetcher/tmp/lute3-3.3.1.tar.gz]
+[2024-04-26 01:47:45] INFO root fetch - processPackages [lute3]: Remove: archive file [/home/abi/fetcher/tmp/lute3-3.3.2b1.tar.gz]
+[2024-04-26 01:47:45] INFO root fetch - main [MainThread]: End processing [lute3]: success
+[2024-04-26 01:47:45] INFO root fetch - main [MainThread]: Store serial: [22939663]
