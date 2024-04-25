@@ -1535,3 +1535,34 @@
 [2024-04-26 01:34:44] INFO root fetch - processPackages [pkscreener]: Remove: archive file [/home/abi/fetcher/tmp/pkscreener-0.44.20240425.292.tar.gz]
 [2024-04-26 01:34:44] INFO root fetch - main [MainThread]: End processing [pkscreener]: success
 [2024-04-26 01:34:44] INFO root fetch - main [MainThread]: Store serial: [22939578]
+[2024-04-26 01:36:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22939578]
+[2024-04-26 01:36:52] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-26 01:36:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gingerai
+[2024-04-26 01:36:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gingerai
+[2024-04-26 01:36:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: me-cli
+[2024-04-26 01:36:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: RedVert
+[2024-04-26 01:36:53] INFO root fetch - processPackages [gingerai]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-26 01:36:53] INFO root fetch - processPackages [RedVert]: New version: [1.2.3] Old Version: [1.2.2]
+[2024-04-26 01:36:53] INFO root fetch - processPackages [gingerai]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-26 01:36:53] INFO root fetch - processPackages [gingerai]: Downloading https://files.pythonhosted.org/packages/3d/d8/7d9de8d494b26ab87ec73aac54ac7f24f67e6d761731b239cda8139ffc85/gingerai-0.1.7.tar.gz
+[2024-04-26 01:36:53] WARNING root fetch - processPackages [me-cli]: Skipping, unable to determine old version
+[2024-04-26 01:36:53] INFO root fetch - main [MainThread]: End processing [me-cli] error
+[2024-04-26 01:36:53] INFO root fetch - processPackages [RedVert]: Downloading https://files.pythonhosted.org/packages/aa/93/a3c8b8ea015276f2a07da78ee6a372501e3d73bd5979b522fa77578fff58/redvert-1.2.2.tar.gz
+[2024-04-26 01:36:53] INFO root fetch - processPackages [gingerai]: Downloading https://files.pythonhosted.org/packages/3d/d8/7d9de8d494b26ab87ec73aac54ac7f24f67e6d761731b239cda8139ffc85/gingerai-0.1.7.tar.gz
+[2024-04-26 01:36:53] INFO root fetch - processPackages [gingerai]: Downloading https://files.pythonhosted.org/packages/93/63/5f4a6d2549870026eff659d1fc9aac0f6c9532ea741f07ac2083cd3a1cfe/gingerai-0.1.8.tar.gz
+[2024-04-26 01:36:53] INFO root fetch - processPackages [gingerai]: Downloading https://files.pythonhosted.org/packages/93/63/5f4a6d2549870026eff659d1fc9aac0f6c9532ea741f07ac2083cd3a1cfe/gingerai-0.1.8.tar.gz
+[2024-04-26 01:36:53] INFO root fetch - processPackages [RedVert]: Downloading https://files.pythonhosted.org/packages/01/71/1db88a4c5cefe0247806479991f405859961659ac49c8676d6d4a41e75ff/redvert-1.2.3.tar.gz
+[2024-04-26 01:36:53] INFO root fetch - processPackages [gingerai]: executing diffoscope
+[2024-04-26 01:36:53] INFO root fetch - processPackages [gingerai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gingerai-0.1.7.tar.gz tmp/gingerai-0.1.8.tar.gz --markdown 20240426/g/gingerai/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-26 01:36:53] INFO root fetch - processPackages [gingerai]: executing diffoscope
+[2024-04-26 01:36:53] INFO root fetch - processPackages [gingerai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gingerai-0.1.7.tar.gz tmp/gingerai-0.1.8.tar.gz --markdown 20240426/g/gingerai/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-26 01:36:53] INFO root fetch - processPackages [RedVert]: executing diffoscope
+[2024-04-26 01:36:53] INFO root fetch - processPackages [RedVert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redvert-1.2.2.tar.gz tmp/redvert-1.2.3.tar.gz --markdown 20240426/R/RedVert/1.2.2-1.2.3/README.md --exclude *.pyd
+[2024-04-26 01:36:54] INFO root fetch - processPackages [gingerai]: Remove: archive file [/home/abi/fetcher/tmp/gingerai-0.1.7.tar.gz]
+[2024-04-26 01:36:54] INFO root fetch - processPackages [gingerai]: Remove: archive file [/home/abi/fetcher/tmp/gingerai-0.1.8.tar.gz]
+[2024-04-26 01:36:54] INFO root fetch - main [MainThread]: End processing [gingerai]: success
+[2024-04-26 01:36:54] INFO root fetch - processPackages [RedVert]: Remove: archive file [/home/abi/fetcher/tmp/redvert-1.2.2.tar.gz]
+[2024-04-26 01:36:54] INFO root fetch - processPackages [RedVert]: Remove: archive file [/home/abi/fetcher/tmp/redvert-1.2.3.tar.gz]
+[2024-04-26 01:36:54] INFO root fetch - main [MainThread]: End processing [RedVert]: success
+[2024-04-26 01:36:54] INFO root fetch - main [MainThread]: End processing [gingerai]: success
+[2024-04-26 01:36:54] INFO root fetch - main [MainThread]: Store serial: [22939592]
