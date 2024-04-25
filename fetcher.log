@@ -1829,3 +1829,15 @@
 [2024-04-26 01:54:35] INFO root fetch - processPackages [data-repo-client]: Remove: archive file [/home/abi/fetcher/tmp/data-repo-client-2.49.0.tar.gz]
 [2024-04-26 01:54:35] INFO root fetch - main [MainThread]: End processing [data-repo-client]: success
 [2024-04-26 01:54:35] INFO root fetch - main [MainThread]: Store serial: [22939697]
+[2024-04-26 01:56:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22939697]
+[2024-04-26 01:56:43] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-26 01:56:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: np-upload-validation
+[2024-04-26 01:56:43] INFO root fetch - processPackages [np-upload-validation]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-26 01:56:44] INFO root fetch - processPackages [np-upload-validation]: Downloading https://files.pythonhosted.org/packages/b6/29/d8fb2b696a31e4be1d8e71956536b38ea7ed6e3380d09b3f7d4df575472a/np-upload-validation-0.1.8.tar.gz
+[2024-04-26 01:56:44] INFO root fetch - processPackages [np-upload-validation]: Downloading https://files.pythonhosted.org/packages/8a/89/f82f5990ad6b4f7b36cb54d7dc8fad449bf676147908f0ec63adffeac914/np-upload-validation-0.1.9.tar.gz
+[2024-04-26 01:56:44] INFO root fetch - processPackages [np-upload-validation]: executing diffoscope
+[2024-04-26 01:56:44] INFO root fetch - processPackages [np-upload-validation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/np-upload-validation-0.1.8.tar.gz tmp/np-upload-validation-0.1.9.tar.gz --markdown 20240426/n/np-upload-validation/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-26 01:56:45] INFO root fetch - processPackages [np-upload-validation]: Remove: archive file [/home/abi/fetcher/tmp/np-upload-validation-0.1.8.tar.gz]
+[2024-04-26 01:56:45] INFO root fetch - processPackages [np-upload-validation]: Remove: archive file [/home/abi/fetcher/tmp/np-upload-validation-0.1.9.tar.gz]
+[2024-04-26 01:56:45] INFO root fetch - main [MainThread]: End processing [np-upload-validation]: success
+[2024-04-26 01:56:45] INFO root fetch - main [MainThread]: Store serial: [22939700]
