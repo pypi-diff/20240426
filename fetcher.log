@@ -1263,3 +1263,15 @@
 [2024-04-26 01:20:56] INFO root fetch - processPackages [pyDolarVenezuela]: Remove: archive file [/home/abi/fetcher/tmp/pydolarvenezuela-1.4.3.tar.gz]
 [2024-04-26 01:20:56] INFO root fetch - main [MainThread]: End processing [pyDolarVenezuela]: success
 [2024-04-26 01:20:56] INFO root fetch - main [MainThread]: Store serial: [22939435]
+[2024-04-26 01:23:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22939435]
+[2024-04-26 01:23:05] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-26 01:23:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: descarteslabs-dynamic-compute
+[2024-04-26 01:23:05] INFO root fetch - processPackages [descarteslabs-dynamic-compute]: New version: [1.1.4] Old Version: [1.1.2]
+[2024-04-26 01:23:05] INFO root fetch - processPackages [descarteslabs-dynamic-compute]: Downloading https://files.pythonhosted.org/packages/8f/11/635eb93a5ae0f216d7c3d1a75d8976729d50a9b49a6b3f28fd7c7e3faeb3/descarteslabs_dynamic_compute-1.1.2.tar.gz
+[2024-04-26 01:23:06] INFO root fetch - processPackages [descarteslabs-dynamic-compute]: Downloading https://files.pythonhosted.org/packages/4d/f7/00897bb1558c18a49543d42bc6acd67d425828180850d28317f0089e49ca/descarteslabs_dynamic_compute-1.1.4.tar.gz
+[2024-04-26 01:23:06] INFO root fetch - processPackages [descarteslabs-dynamic-compute]: executing diffoscope
+[2024-04-26 01:23:06] INFO root fetch - processPackages [descarteslabs-dynamic-compute]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/descarteslabs_dynamic_compute-1.1.2.tar.gz tmp/descarteslabs_dynamic_compute-1.1.4.tar.gz --markdown 20240426/d/descarteslabs-dynamic-compute/1.1.2-1.1.4/README.md --exclude *.pyd
+[2024-04-26 01:23:07] INFO root fetch - processPackages [descarteslabs-dynamic-compute]: Remove: archive file [/home/abi/fetcher/tmp/descarteslabs_dynamic_compute-1.1.2.tar.gz]
+[2024-04-26 01:23:07] INFO root fetch - processPackages [descarteslabs-dynamic-compute]: Remove: archive file [/home/abi/fetcher/tmp/descarteslabs_dynamic_compute-1.1.4.tar.gz]
+[2024-04-26 01:23:07] INFO root fetch - main [MainThread]: End processing [descarteslabs-dynamic-compute]: success
+[2024-04-26 01:23:07] INFO root fetch - main [MainThread]: Store serial: [22939439]
