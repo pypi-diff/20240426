@@ -417,3 +417,20 @@
 [2024-04-26 00:29:35] INFO root fetch - processPackages [chipsec]: Remove: archive file [/home/abi/fetcher/tmp/chipsec-1.5.1.tar.gz]
 [2024-04-26 00:29:35] INFO root fetch - main [MainThread]: End processing [chipsec]: success
 [2024-04-26 00:29:35] INFO root fetch - main [MainThread]: Store serial: [22938984]
+[2024-04-26 00:31:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22938984]
+[2024-04-26 00:31:43] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-26 00:31:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: minivectordb
+[2024-04-26 00:31:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: NEMO-reports
+[2024-04-26 00:31:44] INFO root fetch - processPackages [NEMO-reports]: New version: [1.7.3] Old Version: [1.7.2]
+[2024-04-26 00:31:44] INFO root fetch - processPackages [minivectordb]: New version: [1.4.1] Old Version: [1.4.0]
+[2024-04-26 00:31:44] INFO root fetch - processPackages [NEMO-reports]: Downloading https://files.pythonhosted.org/packages/9d/19/dde584db5821b4ffd6c6cb6496a4336aa4d069f2a2663b886f799e267e3c/NEMO_reports-1.7.2-py3-none-any.whl
+[2024-04-26 00:31:44] INFO root fetch - processPackages [minivectordb]: Downloading https://files.pythonhosted.org/packages/9a/9f/b41b0de590b861ed03db37d278c8ca8b07139cfffe0d27c091c007b5c3c5/minivectordb-1.4.0.tar.gz
+[2024-04-26 00:31:44] WARNING root fetch - processPackages [minivectordb]: Skipping package: exceeds size limit 45076842>=10485760
+[2024-04-26 00:31:44] INFO root fetch - main [MainThread]: End processing [minivectordb] error
+[2024-04-26 00:31:44] INFO root fetch - processPackages [NEMO-reports]: Downloading https://files.pythonhosted.org/packages/eb/ce/7a602739cf1842fb6e1438b70d59c96340696770b9cf551412a3394fb89e/NEMO_reports-1.7.3-py3-none-any.whl
+[2024-04-26 00:31:44] INFO root fetch - processPackages [NEMO-reports]: executing diffoscope
+[2024-04-26 00:31:44] INFO root fetch - processPackages [NEMO-reports]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NEMO_reports-1.7.2-py3-none-any.whl.zip tmp/NEMO_reports-1.7.3-py3-none-any.whl.zip --markdown 20240426/N/NEMO-reports/1.7.2-1.7.3/README.md --exclude *.pyd
+[2024-04-26 00:31:45] INFO root fetch - processPackages [NEMO-reports]: Remove: archive file [/home/abi/fetcher/tmp/NEMO_reports-1.7.2-py3-none-any.whl.zip]
+[2024-04-26 00:31:45] INFO root fetch - processPackages [NEMO-reports]: Remove: archive file [/home/abi/fetcher/tmp/NEMO_reports-1.7.3-py3-none-any.whl.zip]
+[2024-04-26 00:31:45] INFO root fetch - main [MainThread]: End processing [NEMO-reports]: success
+[2024-04-26 00:31:45] INFO root fetch - main [MainThread]: Store serial: [22938989]
