@@ -1149,3 +1149,46 @@
 [2024-04-26 01:12:09] INFO root fetch - processPackages [ez-a-sync]: Remove: archive file [/home/abi/fetcher/tmp/ez-a-sync-0.9.3.tar.gz]
 [2024-04-26 01:12:09] INFO root fetch - main [MainThread]: End processing [ez-a-sync]: success
 [2024-04-26 01:12:09] INFO root fetch - main [MainThread]: Store serial: [22939387]
+[2024-04-26 01:14:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22939387]
+[2024-04-26 01:14:18] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-26 01:14:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pylinweb
+[2024-04-26 01:14:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: plotly3d
+[2024-04-26 01:14:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: SimpleProxyManager
+[2024-04-26 01:14:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: certora-cli-alpha-master
+[2024-04-26 01:14:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: druida
+[2024-04-26 01:14:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyspedas
+[2024-04-26 01:14:18] INFO root fetch - processPackages [plotly3d]: New version: [0.4.5] Old Version: [0.4.4]
+[2024-04-26 01:14:18] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20240425.4.35.436567] Old Version: [20240425.2.6.16987]
+[2024-04-26 01:14:18] INFO root fetch - processPackages [pylinweb]: New version: [0.4] Old Version: [0.3]
+[2024-04-26 01:14:18] INFO root fetch - processPackages [plotly3d]: Downloading https://files.pythonhosted.org/packages/ca/c1/be09e39b371c0028f5eb05bdefda9d98d76cb9f7443aeb44ecc33d9fd7bb/plotly3d-0.4.4.tar.gz
+[2024-04-26 01:14:18] WARNING root fetch - processPackages [SimpleProxyManager]: Skipping, unable to determine old version
+[2024-04-26 01:14:18] INFO root fetch - main [MainThread]: End processing [SimpleProxyManager] error
+[2024-04-26 01:14:18] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/51/7e/76913b19335d680fc31b64f9f1080a21d45352820ab351eb366f7983e11b/certora-cli-alpha-master-20240425.2.6.16987.tar.gz
+[2024-04-26 01:14:18] INFO root fetch - processPackages [druida]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-26 01:14:18] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 14530686>=10485760
+[2024-04-26 01:14:18] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2024-04-26 01:14:18] INFO root fetch - processPackages [pyspedas]: New version: [1.5.9] Old Version: [1.5.8]
+[2024-04-26 01:14:18] INFO root fetch - processPackages [pylinweb]: Downloading https://files.pythonhosted.org/packages/f2/0c/e94fa4a950ac56ceb611e8bad673cd572dbe74670a2ca37f0cfe48d5faaf/pylinweb-0.3.tar.gz
+[2024-04-26 01:14:19] WARNING root fetch - processPackages [pylinweb]: Skipping package: exceeds size limit 45141855>=10485760
+[2024-04-26 01:14:19] INFO root fetch - main [MainThread]: End processing [pylinweb] error
+[2024-04-26 01:14:19] INFO root fetch - processPackages [druida]: Downloading https://files.pythonhosted.org/packages/54/4a/598451ade8bde7f369deba69feb62cde24693585acb81aed1eb62547c114/druida-0.0.8.tar.gz
+[2024-04-26 01:14:19] INFO root fetch - processPackages [plotly3d]: Downloading https://files.pythonhosted.org/packages/86/8d/18a890a791e9b3f3fb7a38363b931b0c9681db02ed04edfe608152714dc5/plotly3d-0.4.5.tar.gz
+[2024-04-26 01:14:19] INFO root fetch - processPackages [pyspedas]: Downloading https://files.pythonhosted.org/packages/f7/71/126b10f68c3b471dee01f3ae6432869af3b7a2b9e04df9fa791cdfe4015a/pyspedas-1.5.8.tar.gz
+[2024-04-26 01:14:19] INFO root fetch - processPackages [plotly3d]: executing diffoscope
+[2024-04-26 01:14:19] INFO root fetch - processPackages [plotly3d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plotly3d-0.4.4.tar.gz tmp/plotly3d-0.4.5.tar.gz --markdown 20240426/p/plotly3d/0.4.4-0.4.5/README.md --exclude *.pyd
+[2024-04-26 01:14:19] INFO root fetch - processPackages [druida]: Downloading https://files.pythonhosted.org/packages/c2/fc/04f7092cb544ce2c35e3be2dd5ff20bee19fcc5ba5378898e0f03e15b8a9/druida-0.0.9.tar.gz
+[2024-04-26 01:14:19] INFO root fetch - processPackages [druida]: executing diffoscope
+[2024-04-26 01:14:19] INFO root fetch - processPackages [druida]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/druida-0.0.8.tar.gz tmp/druida-0.0.9.tar.gz --markdown 20240426/d/druida/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-26 01:14:19] INFO root fetch - processPackages [pyspedas]: Downloading https://files.pythonhosted.org/packages/a7/c3/f005711a33f6b1f49781d7d10af4e3a10f7113f3a8b2b2e4cca1cae9bf9c/pyspedas-1.5.9.tar.gz
+[2024-04-26 01:14:19] INFO root fetch - processPackages [plotly3d]: Remove: archive file [/home/abi/fetcher/tmp/plotly3d-0.4.4.tar.gz]
+[2024-04-26 01:14:19] INFO root fetch - processPackages [plotly3d]: Remove: archive file [/home/abi/fetcher/tmp/plotly3d-0.4.5.tar.gz]
+[2024-04-26 01:14:19] INFO root fetch - main [MainThread]: End processing [plotly3d]: success
+[2024-04-26 01:14:19] INFO root fetch - processPackages [pyspedas]: executing diffoscope
+[2024-04-26 01:14:19] INFO root fetch - processPackages [pyspedas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyspedas-1.5.8.tar.gz tmp/pyspedas-1.5.9.tar.gz --markdown 20240426/p/pyspedas/1.5.8-1.5.9/README.md --exclude *.pyd
+[2024-04-26 01:14:20] INFO root fetch - processPackages [druida]: Remove: archive file [/home/abi/fetcher/tmp/druida-0.0.8.tar.gz]
+[2024-04-26 01:14:20] INFO root fetch - processPackages [druida]: Remove: archive file [/home/abi/fetcher/tmp/druida-0.0.9.tar.gz]
+[2024-04-26 01:14:20] INFO root fetch - main [MainThread]: End processing [druida]: success
+[2024-04-26 01:14:24] INFO root fetch - processPackages [pyspedas]: Remove: archive file [/home/abi/fetcher/tmp/pyspedas-1.5.8.tar.gz]
+[2024-04-26 01:14:24] INFO root fetch - processPackages [pyspedas]: Remove: archive file [/home/abi/fetcher/tmp/pyspedas-1.5.9.tar.gz]
+[2024-04-26 01:14:24] INFO root fetch - main [MainThread]: End processing [pyspedas]: success
+[2024-04-26 01:14:24] INFO root fetch - main [MainThread]: Store serial: [22939409]
