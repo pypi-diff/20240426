@@ -434,3 +434,27 @@
 [2024-04-26 00:31:45] INFO root fetch - processPackages [NEMO-reports]: Remove: archive file [/home/abi/fetcher/tmp/NEMO_reports-1.7.3-py3-none-any.whl.zip]
 [2024-04-26 00:31:45] INFO root fetch - main [MainThread]: End processing [NEMO-reports]: success
 [2024-04-26 00:31:45] INFO root fetch - main [MainThread]: Store serial: [22938989]
+[2024-04-26 00:33:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22938989]
+[2024-04-26 00:33:53] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-26 00:33:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bamboost
+[2024-04-26 00:33:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: prelude-sdk
+[2024-04-26 00:33:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gradescope-tool
+[2024-04-26 00:33:53] WARNING root fetch - processPackages [gradescope-tool]: Skipping, unable to determine old version
+[2024-04-26 00:33:53] INFO root fetch - main [MainThread]: End processing [gradescope-tool] error
+[2024-04-26 00:33:54] INFO root fetch - processPackages [bamboost]: New version: [0.6.0] Old Version: [0.5.1]
+[2024-04-26 00:33:54] INFO root fetch - processPackages [prelude-sdk]: New version: [1.7.3] Old Version: [1.7.2]
+[2024-04-26 00:33:54] INFO root fetch - processPackages [prelude-sdk]: Downloading https://files.pythonhosted.org/packages/2a/2f/fc09f3dbeb97a00111b1c55007203cc89772d3b6280aeee3ecf74a6124ae/prelude_sdk-1.7.2.tar.gz
+[2024-04-26 00:33:54] INFO root fetch - processPackages [bamboost]: Downloading https://files.pythonhosted.org/packages/a7/7d/06b45d2c8510f9ac40ab6a2d3ef57dc8f4f462099580d1e3b6fd63cd4b24/bamboost-0.5.1.tar.gz
+[2024-04-26 00:33:54] INFO root fetch - processPackages [prelude-sdk]: Downloading https://files.pythonhosted.org/packages/12/81/fcf524e510e1c6f8c45c1d20d52b3a784bc0c50a48861af15a0f8c4f2ba7/prelude_sdk-1.7.3.tar.gz
+[2024-04-26 00:33:54] INFO root fetch - processPackages [bamboost]: Downloading https://files.pythonhosted.org/packages/39/1c/1bd8518400b2a621858e278bbe3a2e6efa7013b7d63ca35e94e27a3bd128/bamboost-0.6.0.tar.gz
+[2024-04-26 00:33:54] INFO root fetch - processPackages [prelude-sdk]: executing diffoscope
+[2024-04-26 00:33:54] INFO root fetch - processPackages [prelude-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prelude_sdk-1.7.2.tar.gz tmp/prelude_sdk-1.7.3.tar.gz --markdown 20240426/p/prelude-sdk/1.7.2-1.7.3/README.md --exclude *.pyd
+[2024-04-26 00:33:54] INFO root fetch - processPackages [bamboost]: executing diffoscope
+[2024-04-26 00:33:54] INFO root fetch - processPackages [bamboost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bamboost-0.5.1.tar.gz tmp/bamboost-0.6.0.tar.gz --markdown 20240426/b/bamboost/0.5.1-0.6.0/README.md --exclude *.pyd
+[2024-04-26 00:33:55] INFO root fetch - processPackages [prelude-sdk]: Remove: archive file [/home/abi/fetcher/tmp/prelude_sdk-1.7.2.tar.gz]
+[2024-04-26 00:33:55] INFO root fetch - processPackages [prelude-sdk]: Remove: archive file [/home/abi/fetcher/tmp/prelude_sdk-1.7.3.tar.gz]
+[2024-04-26 00:33:55] INFO root fetch - main [MainThread]: End processing [prelude-sdk]: success
+[2024-04-26 00:33:55] INFO root fetch - processPackages [bamboost]: Remove: archive file [/home/abi/fetcher/tmp/bamboost-0.5.1.tar.gz]
+[2024-04-26 00:33:55] INFO root fetch - processPackages [bamboost]: Remove: archive file [/home/abi/fetcher/tmp/bamboost-0.6.0.tar.gz]
+[2024-04-26 00:33:55] INFO root fetch - main [MainThread]: End processing [bamboost]: success
+[2024-04-26 00:33:55] INFO root fetch - main [MainThread]: Store serial: [22938998]
