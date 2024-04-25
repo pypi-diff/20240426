@@ -321,3 +321,15 @@
 [2024-04-26 00:20:50] INFO root fetch - main [MainThread]: End processing [caustic.parser]: success
 [2024-04-26 00:20:50] INFO root fetch - main [MainThread]: End processing [caustic.parser]: success
 [2024-04-26 00:20:50] INFO root fetch - main [MainThread]: Store serial: [22938952]
+[2024-04-26 00:22:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22938952]
+[2024-04-26 00:22:58] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-26 00:22:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: RedVert
+[2024-04-26 00:22:58] INFO root fetch - processPackages [RedVert]: New version: [1.2.0] Old Version: [1.0.4]
+[2024-04-26 00:22:58] INFO root fetch - processPackages [RedVert]: Downloading https://files.pythonhosted.org/packages/98/ee/8cfa6584a2c752c012c23fd4ac21f942a1add83cf61783b5bc462687cfb2/redvert-1.0.4.tar.gz
+[2024-04-26 00:22:59] INFO root fetch - processPackages [RedVert]: Downloading https://files.pythonhosted.org/packages/95/20/da1b76d5bbdb6f0fdf1c0779c7c34230736951745aff4c222325abb9aed4/redvert-1.2.0.tar.gz
+[2024-04-26 00:22:59] INFO root fetch - processPackages [RedVert]: executing diffoscope
+[2024-04-26 00:22:59] INFO root fetch - processPackages [RedVert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redvert-1.0.4.tar.gz tmp/redvert-1.2.0.tar.gz --markdown 20240426/R/RedVert/1.0.4-1.2.0/README.md --exclude *.pyd
+[2024-04-26 00:23:00] INFO root fetch - processPackages [RedVert]: Remove: archive file [/home/abi/fetcher/tmp/redvert-1.0.4.tar.gz]
+[2024-04-26 00:23:00] INFO root fetch - processPackages [RedVert]: Remove: archive file [/home/abi/fetcher/tmp/redvert-1.2.0.tar.gz]
+[2024-04-26 00:23:00] INFO root fetch - main [MainThread]: End processing [RedVert]: success
+[2024-04-26 00:23:00] INFO root fetch - main [MainThread]: Store serial: [22938955]
