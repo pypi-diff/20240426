@@ -228,3 +228,35 @@
 [2024-04-26 00:12:12] INFO root fetch - processPackages [latch]: Remove: archive file [/home/abi/fetcher/tmp/latch-2.9.6.tar.gz]
 [2024-04-26 00:12:12] INFO root fetch - main [MainThread]: End processing [latch]: success
 [2024-04-26 00:12:12] INFO root fetch - main [MainThread]: Store serial: [22938907]
+[2024-04-26 00:14:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22938907]
+[2024-04-26 00:14:22] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-26 00:16:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22938917]
+[2024-04-26 00:16:27] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-26 00:16:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dbt2looker-bigquery
+[2024-04-26 00:16:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: parea-ai
+[2024-04-26 00:16:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: daxa
+[2024-04-26 00:16:27] INFO root fetch - processPackages [daxa]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-26 00:16:27] INFO root fetch - processPackages [dbt2looker-bigquery]: New version: [0.12.9] Old Version: [0.12.8]
+[2024-04-26 00:16:27] INFO root fetch - processPackages [parea-ai]: New version: [0.2.99] Old Version: [0.2.98]
+[2024-04-26 00:16:27] INFO root fetch - processPackages [daxa]: Downloading https://files.pythonhosted.org/packages/10/df/5dfe1be8a100ccdcd9617d0b3064a3746ffaeb19203166d3b1f70d389dd9/daxa-0.0.2.tar.gz
+[2024-04-26 00:16:28] INFO root fetch - processPackages [dbt2looker-bigquery]: Downloading https://files.pythonhosted.org/packages/a2/5e/47d9a54dcbb9c570b32f148922b1d5fd6ff37025e967603c427d53d688f5/dbt2looker_bigquery-0.12.8.tar.gz
+[2024-04-26 00:16:28] INFO root fetch - processPackages [parea-ai]: Downloading https://files.pythonhosted.org/packages/cd/80/fcef2226405a0fb8e3a9a7fbda2b47a712f63d9294eac7e3fc336bbf5b0f/parea_ai-0.2.98.tar.gz
+[2024-04-26 00:16:28] INFO root fetch - processPackages [daxa]: Downloading https://files.pythonhosted.org/packages/d1/cc/a0a21dc288d5a1c03c31401a044ef96e31ec1b323aaa9d5a79cf919aa132/daxa-0.0.3.tar.gz
+[2024-04-26 00:16:28] INFO root fetch - processPackages [dbt2looker-bigquery]: Downloading https://files.pythonhosted.org/packages/b6/3b/96d5c8ec5203143a9bd03c856f7b8a75f6f5f119206cec2d3a5ac52f1b3f/dbt2looker_bigquery-0.12.9.tar.gz
+[2024-04-26 00:16:28] INFO root fetch - processPackages [daxa]: executing diffoscope
+[2024-04-26 00:16:28] INFO root fetch - processPackages [daxa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/daxa-0.0.2.tar.gz tmp/daxa-0.0.3.tar.gz --markdown 20240426/d/daxa/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-26 00:16:28] INFO root fetch - processPackages [parea-ai]: Downloading https://files.pythonhosted.org/packages/9d/1c/c389e28a1a12c54ff1c8111a2f00058e77ba07333943eb06d3592659a691/parea_ai-0.2.99.tar.gz
+[2024-04-26 00:16:28] INFO root fetch - processPackages [dbt2looker-bigquery]: executing diffoscope
+[2024-04-26 00:16:28] INFO root fetch - processPackages [dbt2looker-bigquery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt2looker_bigquery-0.12.8.tar.gz tmp/dbt2looker_bigquery-0.12.9.tar.gz --markdown 20240426/d/dbt2looker-bigquery/0.12.8-0.12.9/README.md --exclude *.pyd
+[2024-04-26 00:16:28] INFO root fetch - processPackages [parea-ai]: executing diffoscope
+[2024-04-26 00:16:28] INFO root fetch - processPackages [parea-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parea_ai-0.2.98.tar.gz tmp/parea_ai-0.2.99.tar.gz --markdown 20240426/p/parea-ai/0.2.98-0.2.99/README.md --exclude *.pyd
+[2024-04-26 00:16:29] INFO root fetch - processPackages [dbt2looker-bigquery]: Remove: archive file [/home/abi/fetcher/tmp/dbt2looker_bigquery-0.12.8.tar.gz]
+[2024-04-26 00:16:29] INFO root fetch - processPackages [dbt2looker-bigquery]: Remove: archive file [/home/abi/fetcher/tmp/dbt2looker_bigquery-0.12.9.tar.gz]
+[2024-04-26 00:16:29] INFO root fetch - main [MainThread]: End processing [dbt2looker-bigquery]: success
+[2024-04-26 00:16:29] INFO root fetch - processPackages [daxa]: Remove: archive file [/home/abi/fetcher/tmp/daxa-0.0.2.tar.gz]
+[2024-04-26 00:16:29] INFO root fetch - processPackages [daxa]: Remove: archive file [/home/abi/fetcher/tmp/daxa-0.0.3.tar.gz]
+[2024-04-26 00:16:29] INFO root fetch - main [MainThread]: End processing [daxa]: success
+[2024-04-26 00:16:29] INFO root fetch - processPackages [parea-ai]: Remove: archive file [/home/abi/fetcher/tmp/parea_ai-0.2.98.tar.gz]
+[2024-04-26 00:16:29] INFO root fetch - processPackages [parea-ai]: Remove: archive file [/home/abi/fetcher/tmp/parea_ai-0.2.99.tar.gz]
+[2024-04-26 00:16:29] INFO root fetch - main [MainThread]: End processing [parea-ai]: success
+[2024-04-26 00:16:29] INFO root fetch - main [MainThread]: Store serial: [22938928]
