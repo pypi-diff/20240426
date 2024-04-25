@@ -132,3 +132,36 @@
 [2024-04-26 00:05:27] INFO root fetch - processPackages [lilyponddist]: Remove: archive file [/home/abi/fetcher/tmp/lilyponddist-1.0.0.tar.gz]
 [2024-04-26 00:05:27] INFO root fetch - main [MainThread]: End processing [lilyponddist]: success
 [2024-04-26 00:05:27] INFO root fetch - main [MainThread]: Store serial: [22938872]
+[2024-04-26 00:07:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22938872]
+[2024-04-26 00:07:37] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-26 00:07:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: moto
+[2024-04-26 00:07:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hatch-pyinstaller
+[2024-04-26 00:07:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: instill-sdk
+[2024-04-26 00:07:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: onstats
+[2024-04-26 00:07:37] INFO root fetch - processPackages [instill-sdk]: New version: [0.8.0rc9] Old Version: [0.8.0rc8]
+[2024-04-26 00:07:37] INFO root fetch - processPackages [moto]: New version: [5.0.6.dev9] Old Version: [5.0.6.dev8]
+[2024-04-26 00:07:37] INFO root fetch - processPackages [hatch-pyinstaller]: New version: [1.0.1] Old Version: [1.0]
+[2024-04-26 00:07:37] INFO root fetch - processPackages [instill-sdk]: Downloading https://files.pythonhosted.org/packages/08/4e/2909c481e5a1b81f74763adb7582ecea123e5d7f50d1c2e738fc6a771054/instill_sdk-0.8.0rc8.tar.gz
+[2024-04-26 00:07:37] WARNING root fetch - processPackages [onstats]: Skipping, unable to determine old version
+[2024-04-26 00:07:37] INFO root fetch - main [MainThread]: End processing [onstats] error
+[2024-04-26 00:07:37] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/cc/b5/00faf7a32b2d43303224e4c85e6ca1586aa38ed6bd7c49336b7ac8cebea7/moto-5.0.6.dev8.tar.gz
+[2024-04-26 00:07:37] INFO root fetch - processPackages [hatch-pyinstaller]: Downloading https://files.pythonhosted.org/packages/cd/3d/e97969759bcbd3f19dad2ceb18a9bc70648b03b3708d3e4955242c903054/hatch_pyinstaller-1.0.tar.gz
+[2024-04-26 00:07:37] INFO root fetch - processPackages [instill-sdk]: Downloading https://files.pythonhosted.org/packages/c8/aa/8f204c74111a46608b3945576f70ebf0eb2a5bba5585b5b6e2b8fcb48b54/instill_sdk-0.8.0rc9.tar.gz
+[2024-04-26 00:07:37] INFO root fetch - processPackages [instill-sdk]: executing diffoscope
+[2024-04-26 00:07:37] INFO root fetch - processPackages [instill-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/instill_sdk-0.8.0rc8.tar.gz tmp/instill_sdk-0.8.0rc9.tar.gz --markdown 20240426/i/instill-sdk/0.8.0rc8-0.8.0rc9/README.md --exclude *.pyd
+[2024-04-26 00:07:37] INFO root fetch - processPackages [hatch-pyinstaller]: Downloading https://files.pythonhosted.org/packages/ce/6c/76be49b1f1ab527b3a06236d343664892640eaa636e822f8d0eb81c67308/hatch_pyinstaller-1.0.1.tar.gz
+[2024-04-26 00:07:37] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/67/63/03d8401d8574b4b96cd00404b9b4b0f0791e6dc794bc44ad3730b7dd8e46/moto-5.0.6.dev9.tar.gz
+[2024-04-26 00:07:38] INFO root fetch - processPackages [hatch-pyinstaller]: executing diffoscope
+[2024-04-26 00:07:38] INFO root fetch - processPackages [hatch-pyinstaller]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hatch_pyinstaller-1.0.tar.gz tmp/hatch_pyinstaller-1.0.1.tar.gz --markdown 20240426/h/hatch-pyinstaller/1.0-1.0.1/README.md --exclude *.pyd
+[2024-04-26 00:07:38] INFO root fetch - processPackages [moto]: executing diffoscope
+[2024-04-26 00:07:38] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-5.0.6.dev8.tar.gz tmp/moto-5.0.6.dev9.tar.gz --markdown 20240426/m/moto/5.0.6.dev8-5.0.6.dev9/README.md --exclude *.pyd
+[2024-04-26 00:07:38] INFO root fetch - processPackages [hatch-pyinstaller]: Remove: archive file [/home/abi/fetcher/tmp/hatch_pyinstaller-1.0.tar.gz]
+[2024-04-26 00:07:38] INFO root fetch - processPackages [hatch-pyinstaller]: Remove: archive file [/home/abi/fetcher/tmp/hatch_pyinstaller-1.0.1.tar.gz]
+[2024-04-26 00:07:38] INFO root fetch - main [MainThread]: End processing [hatch-pyinstaller]: success
+[2024-04-26 00:07:39] INFO root fetch - processPackages [instill-sdk]: Remove: archive file [/home/abi/fetcher/tmp/instill_sdk-0.8.0rc8.tar.gz]
+[2024-04-26 00:07:39] INFO root fetch - processPackages [instill-sdk]: Remove: archive file [/home/abi/fetcher/tmp/instill_sdk-0.8.0rc9.tar.gz]
+[2024-04-26 00:07:39] INFO root fetch - main [MainThread]: End processing [instill-sdk]: success
+[2024-04-26 00:07:48] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-5.0.6.dev8.tar.gz]
+[2024-04-26 00:07:48] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-5.0.6.dev9.tar.gz]
+[2024-04-26 00:07:48] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2024-04-26 00:07:48] INFO root fetch - main [MainThread]: Store serial: [22938888]
