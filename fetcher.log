@@ -1431,3 +1431,42 @@
 [2024-04-26 01:30:22] INFO root fetch - processPackages [ez]: Remove: archive file [/home/abi/fetcher/tmp/ez-9.9.9.tar.gz]
 [2024-04-26 01:30:22] INFO root fetch - main [MainThread]: End processing [ez]: success
 [2024-04-26 01:30:22] INFO root fetch - main [MainThread]: Store serial: [22939512]
+[2024-04-26 01:32:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22939512]
+[2024-04-26 01:32:31] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-26 01:32:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kyutils
+[2024-04-26 01:32:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: eirStru
+[2024-04-26 01:32:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bed-reader
+[2024-04-26 01:32:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: RedVert
+[2024-04-26 01:32:31] INFO root fetch - processPackages [RedVert]: New version: [1.2.2] Old Version: [1.2.1]
+[2024-04-26 01:32:31] INFO root fetch - processPackages [eirStru]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-26 01:32:31] INFO root fetch - processPackages [kyutils]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-26 01:32:31] INFO root fetch - processPackages [eirStru]: Downloading https://files.pythonhosted.org/packages/b5/2a/25fb95363a9110b32ccbc230c8a5f6207e35c7c5906b6f63320a4ca71535/eirStru-0.3.8.tar.gz
+[2024-04-26 01:32:31] INFO root fetch - processPackages [bed-reader]: New version: [1.0.4b2] Old Version: [1.0.4b1]
+[2024-04-26 01:32:31] INFO root fetch - processPackages [RedVert]: Downloading https://files.pythonhosted.org/packages/70/fe/a926f3052dfdbe8aec38db64482351739c6f89fd76c7b9ed267d6f20db84/redvert-1.2.1.tar.gz
+[2024-04-26 01:32:31] INFO root fetch - processPackages [kyutils]: Downloading https://files.pythonhosted.org/packages/0f/ea/d45838cd81aec74ddac9abaffe008e748749f47c13c7a245d398e04959c7/kyutils-0.1.8.tar.gz
+[2024-04-26 01:32:31] INFO root fetch - processPackages [bed-reader]: Downloading https://files.pythonhosted.org/packages/27/2f/dd987be51738f5cd3668488f8c507ce75a48e7a2abf4655f2b6ed8db9060/bed_reader-1.0.4b1.tar.gz
+[2024-04-26 01:32:31] INFO root fetch - processPackages [eirStru]: Downloading https://files.pythonhosted.org/packages/26/ce/8cae1a6c9a510bd827a325862ceb832b9e593422dff66af06aa3bdda4f40/eirStru-0.3.9.tar.gz
+[2024-04-26 01:32:32] INFO root fetch - processPackages [eirStru]: executing diffoscope
+[2024-04-26 01:32:32] INFO root fetch - processPackages [eirStru]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eirStru-0.3.8.tar.gz tmp/eirStru-0.3.9.tar.gz --markdown 20240426/e/eirStru/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-04-26 01:32:32] INFO root fetch - processPackages [RedVert]: Downloading https://files.pythonhosted.org/packages/aa/93/a3c8b8ea015276f2a07da78ee6a372501e3d73bd5979b522fa77578fff58/redvert-1.2.2.tar.gz
+[2024-04-26 01:32:32] INFO root fetch - processPackages [kyutils]: Downloading https://files.pythonhosted.org/packages/2d/78/86c3d121c7ace4c77754448df9f9265e090ccbc4647d65e8cdef1dfa7866/kyutils-0.1.9.tar.gz
+[2024-04-26 01:32:32] INFO root fetch - processPackages [RedVert]: executing diffoscope
+[2024-04-26 01:32:32] INFO root fetch - processPackages [RedVert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redvert-1.2.1.tar.gz tmp/redvert-1.2.2.tar.gz --markdown 20240426/R/RedVert/1.2.1-1.2.2/README.md --exclude *.pyd
+[2024-04-26 01:32:32] INFO root fetch - processPackages [kyutils]: executing diffoscope
+[2024-04-26 01:32:32] INFO root fetch - processPackages [kyutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kyutils-0.1.8.tar.gz tmp/kyutils-0.1.9.tar.gz --markdown 20240426/k/kyutils/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-26 01:32:32] INFO root fetch - processPackages [bed-reader]: Downloading https://files.pythonhosted.org/packages/87/bb/7a0cb616ca08154f82386033581f593893b763c281af651d252680fe0b25/bed_reader-1.0.4b2-cp312-none-win_amd64.whl
+[2024-04-26 01:32:32] INFO root fetch - processPackages [eirStru]: Remove: archive file [/home/abi/fetcher/tmp/eirStru-0.3.8.tar.gz]
+[2024-04-26 01:32:32] INFO root fetch - processPackages [eirStru]: Remove: archive file [/home/abi/fetcher/tmp/eirStru-0.3.9.tar.gz]
+[2024-04-26 01:32:32] INFO root fetch - main [MainThread]: End processing [eirStru]: success
+[2024-04-26 01:32:32] INFO root fetch - processPackages [RedVert]: Remove: archive file [/home/abi/fetcher/tmp/redvert-1.2.1.tar.gz]
+[2024-04-26 01:32:32] INFO root fetch - processPackages [RedVert]: Remove: archive file [/home/abi/fetcher/tmp/redvert-1.2.2.tar.gz]
+[2024-04-26 01:32:32] INFO root fetch - main [MainThread]: End processing [RedVert]: success
+[2024-04-26 01:32:32] INFO root fetch - processPackages [kyutils]: Remove: archive file [/home/abi/fetcher/tmp/kyutils-0.1.8.tar.gz]
+[2024-04-26 01:32:32] INFO root fetch - processPackages [kyutils]: Remove: archive file [/home/abi/fetcher/tmp/kyutils-0.1.9.tar.gz]
+[2024-04-26 01:32:32] INFO root fetch - main [MainThread]: End processing [kyutils]: success
+[2024-04-26 01:32:33] INFO root fetch - processPackages [bed-reader]: executing diffoscope
+[2024-04-26 01:32:33] INFO root fetch - processPackages [bed-reader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bed_reader-1.0.4b1.tar.gz tmp/bed_reader-1.0.4b2-cp312-none-win_amd64.whl.zip --markdown 20240426/b/bed-reader/1.0.4b1-1.0.4b2/README.md --exclude *.pyd
+[2024-04-26 01:32:34] INFO root fetch - processPackages [bed-reader]: Remove: archive file [/home/abi/fetcher/tmp/bed_reader-1.0.4b1.tar.gz]
+[2024-04-26 01:32:34] INFO root fetch - processPackages [bed-reader]: Remove: archive file [/home/abi/fetcher/tmp/bed_reader-1.0.4b2-cp312-none-win_amd64.whl.zip]
+[2024-04-26 01:32:34] INFO root fetch - main [MainThread]: End processing [bed-reader]: success
+[2024-04-26 01:32:34] INFO root fetch - main [MainThread]: Store serial: [22939534]
