@@ -1,0 +1,60 @@
+[2024-04-26 00:00:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22938797]
+[2024-04-26 00:01:00] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-26 00:01:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: stardist
+[2024-04-26 00:01:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: athena-intelligence
+[2024-04-26 00:01:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: eqsolver
+[2024-04-26 00:01:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tecton
+[2024-04-26 00:01:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pykickstart
+[2024-04-26 00:01:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: daxa
+[2024-04-26 00:01:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: glpic
+[2024-04-26 00:01:00] INFO root fetch - processPackages [athena-intelligence]: New version: [0.1.53] Old Version: [0.1.52]
+[2024-04-26 00:01:00] INFO root fetch - processPackages [eqsolver]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-04-26 00:01:00] WARNING root fetch - processPackages [daxa]: Skipping, unable to determine old version
+[2024-04-26 00:01:00] INFO root fetch - main [MainThread]: End processing [daxa] error
+[2024-04-26 00:01:00] INFO root fetch - processPackages [glpic]: New version: [99.0.202404252110] Old Version: [99.0.202404252106]
+[2024-04-26 00:01:00] INFO root fetch - processPackages [athena-intelligence]: Downloading https://files.pythonhosted.org/packages/c4/9e/6ab1106459d767ed5819755329e139352abe1815fa18b3ae3f53f9341478/athena_intelligence-0.1.52.tar.gz
+[2024-04-26 00:01:00] INFO root fetch - processPackages [tecton]: New version: [0.9.1] Old Version: [0.9.0rc4]
+[2024-04-26 00:01:00] INFO root fetch - processPackages [pykickstart]: New version: [3.7] Old Version: [3.54]
+[2024-04-26 00:01:00] INFO root fetch - processPackages [glpic]: Downloading https://files.pythonhosted.org/packages/07/d8/8f1fdcefbeccd76e8ddb4064fa6b43ee7bd78a029aae71bb53ad61c7a51f/glpic-99.0.202404252106.tar.gz
+[2024-04-26 00:01:00] INFO root fetch - processPackages [eqsolver]: Downloading https://files.pythonhosted.org/packages/f6/d7/e7819fd210b88f651ec3613b4d3f3a985929cbb6e862f753c81f208116e6/eqsolver-0.1.0.tar.gz
+[2024-04-26 00:01:00] INFO root fetch - processPackages [stardist]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-26 00:01:00] INFO root fetch - processPackages [tecton]: Downloading https://files.pythonhosted.org/packages/ee/f8/5fe3af4429cd4d8c6e3c285d58e482c6e4a15f2ffd28bd9c32075939d341/tecton-0.9.0rc4.tar.gz
+[2024-04-26 00:01:01] INFO root fetch - processPackages [pykickstart]: Downloading https://files.pythonhosted.org/packages/ba/03/139f21d4238663e4db0955a66e7dc9dd91c0bc3f7aa29eef7b6b9b250292/pykickstart-3.54.tar.gz
+[2024-04-26 00:01:01] INFO root fetch - processPackages [eqsolver]: Downloading https://files.pythonhosted.org/packages/20/80/0d4ff8275ad5e95098b70835ced959f998f989c44eb0b957ca6f256ab9fe/eqsolver-0.2.0-py3-none-any.whl
+[2024-04-26 00:01:01] INFO root fetch - processPackages [stardist]: Downloading https://files.pythonhosted.org/packages/2a/67/76acd6427e82d9277cedf6549f9c7ce5aac4901eaaba3d9049fd55bee674/stardist-0.9.0.tar.gz
+[2024-04-26 00:01:01] INFO root fetch - processPackages [athena-intelligence]: Downloading https://files.pythonhosted.org/packages/19/49/592a8339d57b390e04ae3857720df44e8ede362c17c225297b5d9e04a684/athena_intelligence-0.1.53.tar.gz
+[2024-04-26 00:01:01] INFO root fetch - processPackages [glpic]: Downloading https://files.pythonhosted.org/packages/0e/e9/c660a22c6ac2a2b5375db3c4b3e6cf85c03596567d7c65a6600a5e123317/glpic-99.0.202404252110.tar.gz
+[2024-04-26 00:01:01] INFO root fetch - processPackages [eqsolver]: executing diffoscope
+[2024-04-26 00:01:01] INFO root fetch - processPackages [eqsolver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eqsolver-0.1.0.tar.gz tmp/eqsolver-0.2.0-py3-none-any.whl.zip --markdown 20240426/e/eqsolver/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-04-26 00:01:01] INFO root fetch - processPackages [athena-intelligence]: executing diffoscope
+[2024-04-26 00:01:01] INFO root fetch - processPackages [athena-intelligence]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/athena_intelligence-0.1.52.tar.gz tmp/athena_intelligence-0.1.53.tar.gz --markdown 20240426/a/athena-intelligence/0.1.52-0.1.53/README.md --exclude *.pyd
+[2024-04-26 00:01:01] INFO root fetch - processPackages [glpic]: executing diffoscope
+[2024-04-26 00:01:01] INFO root fetch - processPackages [glpic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glpic-99.0.202404252106.tar.gz tmp/glpic-99.0.202404252110.tar.gz --markdown 20240426/g/glpic/99.0.202404252106-99.0.202404252110/README.md --exclude *.pyd
+[2024-04-26 00:01:01] INFO root fetch - processPackages [stardist]: Downloading https://files.pythonhosted.org/packages/1f/99/f1d73061a663bfa66d92fcf6d4d696cc1a64a5d23be8f8667aecbe2490fe/stardist-0.9.1.tar.gz
+[2024-04-26 00:01:01] INFO root fetch - processPackages [pykickstart]: Downloading https://files.pythonhosted.org/packages/09/6e/496644854ddb2fe1385ab64538b33af9daa3902a5748e0266e5dc6387c30/pykickstart-3.7.tar.gz
+[2024-04-26 00:01:01] INFO root fetch - processPackages [tecton]: Downloading https://files.pythonhosted.org/packages/0e/50/41f7a143a330546c34da5bb1444a41303a7c23f7b6f3b04c179781666859/tecton-0.9.1.tar.gz
+[2024-04-26 00:01:01] INFO root fetch - processPackages [stardist]: executing diffoscope
+[2024-04-26 00:01:01] INFO root fetch - processPackages [stardist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stardist-0.9.0.tar.gz tmp/stardist-0.9.1.tar.gz --markdown 20240426/s/stardist/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-26 00:01:01] INFO root fetch - processPackages [pykickstart]: executing diffoscope
+[2024-04-26 00:01:01] INFO root fetch - processPackages [pykickstart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pykickstart-3.54.tar.gz tmp/pykickstart-3.7.tar.gz --markdown 20240426/p/pykickstart/3.54-3.7/README.md --exclude *.pyd
+[2024-04-26 00:01:02] INFO root fetch - processPackages [tecton]: executing diffoscope
+[2024-04-26 00:01:02] INFO root fetch - processPackages [tecton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tecton-0.9.0rc4.tar.gz tmp/tecton-0.9.1.tar.gz --markdown 20240426/t/tecton/0.9.0rc4-0.9.1/README.md --exclude *.pyd
+[2024-04-26 00:01:02] INFO root fetch - processPackages [glpic]: Remove: archive file [/home/abi/fetcher/tmp/glpic-99.0.202404252106.tar.gz]
+[2024-04-26 00:01:02] INFO root fetch - processPackages [glpic]: Remove: archive file [/home/abi/fetcher/tmp/glpic-99.0.202404252110.tar.gz]
+[2024-04-26 00:01:02] INFO root fetch - main [MainThread]: End processing [glpic]: success
+[2024-04-26 00:01:02] INFO root fetch - processPackages [eqsolver]: Remove: archive file [/home/abi/fetcher/tmp/eqsolver-0.1.0.tar.gz]
+[2024-04-26 00:01:02] INFO root fetch - processPackages [eqsolver]: Remove: archive file [/home/abi/fetcher/tmp/eqsolver-0.2.0-py3-none-any.whl.zip]
+[2024-04-26 00:01:02] INFO root fetch - main [MainThread]: End processing [eqsolver]: success
+[2024-04-26 00:01:02] INFO root fetch - processPackages [athena-intelligence]: Remove: archive file [/home/abi/fetcher/tmp/athena_intelligence-0.1.52.tar.gz]
+[2024-04-26 00:01:02] INFO root fetch - processPackages [athena-intelligence]: Remove: archive file [/home/abi/fetcher/tmp/athena_intelligence-0.1.53.tar.gz]
+[2024-04-26 00:01:02] INFO root fetch - main [MainThread]: End processing [athena-intelligence]: success
+[2024-04-26 00:01:03] INFO root fetch - processPackages [stardist]: Remove: archive file [/home/abi/fetcher/tmp/stardist-0.9.0.tar.gz]
+[2024-04-26 00:01:03] INFO root fetch - processPackages [stardist]: Remove: archive file [/home/abi/fetcher/tmp/stardist-0.9.1.tar.gz]
+[2024-04-26 00:01:03] INFO root fetch - main [MainThread]: End processing [stardist]: success
+[2024-04-26 00:01:05] INFO root fetch - processPackages [tecton]: Remove: archive file [/home/abi/fetcher/tmp/tecton-0.9.0rc4.tar.gz]
+[2024-04-26 00:01:05] INFO root fetch - processPackages [tecton]: Remove: archive file [/home/abi/fetcher/tmp/tecton-0.9.1.tar.gz]
+[2024-04-26 00:01:05] INFO root fetch - main [MainThread]: End processing [tecton]: success
+[2024-04-26 00:01:06] INFO root fetch - processPackages [pykickstart]: Remove: archive file [/home/abi/fetcher/tmp/pykickstart-3.54.tar.gz]
+[2024-04-26 00:01:06] INFO root fetch - processPackages [pykickstart]: Remove: archive file [/home/abi/fetcher/tmp/pykickstart-3.7.tar.gz]
+[2024-04-26 00:01:06] INFO root fetch - main [MainThread]: End processing [pykickstart]: success
+[2024-04-26 00:01:06] INFO root fetch - main [MainThread]: Store serial: [22938845]
