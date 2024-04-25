@@ -664,3 +664,42 @@
 [2024-04-26 00:44:48] INFO root fetch - processPackages [attack-lookup]: Remove: archive file [/home/abi/fetcher/tmp/attack_lookup-1.0.3.tar.gz]
 [2024-04-26 00:44:48] INFO root fetch - main [MainThread]: End processing [attack-lookup]: success
 [2024-04-26 00:44:48] INFO root fetch - main [MainThread]: Store serial: [22939061]
+[2024-04-26 00:46:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22939061]
+[2024-04-26 00:46:56] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-26 00:46:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tastytrade
+[2024-04-26 00:46:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: polars-ts
+[2024-04-26 00:46:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qnngds
+[2024-04-26 00:46:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: harlequin
+[2024-04-26 00:46:57] INFO root fetch - processPackages [tastytrade]: New version: [7.2] Old Version: [7.1]
+[2024-04-26 00:46:57] INFO root fetch - processPackages [tastytrade]: Downloading https://files.pythonhosted.org/packages/56/05/269506761b010dc78e1ea3719ed3696512b8aaa3c64907059eede534443b/tastytrade-7.1.tar.gz
+[2024-04-26 00:46:57] INFO root fetch - processPackages [qnngds]: New version: [2.1.1] Old Version: [2.1.0]
+[2024-04-26 00:46:57] INFO root fetch - processPackages [polars-ts]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-26 00:46:57] INFO root fetch - processPackages [harlequin]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-04-26 00:46:57] INFO root fetch - processPackages [tastytrade]: Downloading https://files.pythonhosted.org/packages/b1/e9/3cb33616f83ee8fb7359d31e92eda258b24c339be9c05e0f5ffcf30e512a/tastytrade-7.2.tar.gz
+[2024-04-26 00:46:57] INFO root fetch - processPackages [qnngds]: Downloading https://files.pythonhosted.org/packages/5e/a0/7b991feb71cf46946f16acb84f4a5d73e144ca9eb6c2b1f985d189f87fb2/qnngds-2.1.0.tar.gz
+[2024-04-26 00:46:57] INFO root fetch - processPackages [harlequin]: Downloading https://files.pythonhosted.org/packages/61/dc/a7bb9b779a85ccadcc2b480028eb123959a3c9e467cdf206a606cfa9b6ca/harlequin-1.9.1.tar.gz
+[2024-04-26 00:46:57] INFO root fetch - processPackages [polars-ts]: Downloading https://files.pythonhosted.org/packages/41/ae/bc26c91c5a3e657908608ab9e0f2d4a87db55402d4e9c7ace8694fb7fc37/polars_ts-0.0.8.tar.gz
+[2024-04-26 00:46:57] INFO root fetch - processPackages [tastytrade]: executing diffoscope
+[2024-04-26 00:46:57] INFO root fetch - processPackages [tastytrade]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tastytrade-7.1.tar.gz tmp/tastytrade-7.2.tar.gz --markdown 20240426/t/tastytrade/7.1-7.2/README.md --exclude *.pyd
+[2024-04-26 00:46:57] INFO root fetch - processPackages [qnngds]: Downloading https://files.pythonhosted.org/packages/be/82/93188f07b003673b89830a2e7590426e66938ccd69ca33dae44b2fd28907/qnngds-2.1.1.tar.gz
+[2024-04-26 00:46:57] INFO root fetch - processPackages [polars-ts]: Downloading https://files.pythonhosted.org/packages/3d/00/6c67ba95ac3f8321ef4f02cdb1e25af40432c16ca5bed04d0532c90d499f/polars_ts-0.0.9.tar.gz
+[2024-04-26 00:46:57] INFO root fetch - processPackages [harlequin]: Downloading https://files.pythonhosted.org/packages/67/06/d45bbc87d611fd0c2ab7fd85bf27768144a55c968995a94b03ce960d66fa/harlequin-1.9.2.tar.gz
+[2024-04-26 00:46:57] INFO root fetch - processPackages [qnngds]: executing diffoscope
+[2024-04-26 00:46:57] INFO root fetch - processPackages [qnngds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qnngds-2.1.0.tar.gz tmp/qnngds-2.1.1.tar.gz --markdown 20240426/q/qnngds/2.1.0-2.1.1/README.md --exclude *.pyd
+[2024-04-26 00:46:57] INFO root fetch - processPackages [harlequin]: executing diffoscope
+[2024-04-26 00:46:57] INFO root fetch - processPackages [harlequin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/harlequin-1.9.1.tar.gz tmp/harlequin-1.9.2.tar.gz --markdown 20240426/h/harlequin/1.9.1-1.9.2/README.md --exclude *.pyd
+[2024-04-26 00:46:57] INFO root fetch - processPackages [polars-ts]: executing diffoscope
+[2024-04-26 00:46:57] INFO root fetch - processPackages [polars-ts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polars_ts-0.0.8.tar.gz tmp/polars_ts-0.0.9.tar.gz --markdown 20240426/p/polars-ts/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-26 00:46:58] INFO root fetch - processPackages [tastytrade]: Remove: archive file [/home/abi/fetcher/tmp/tastytrade-7.1.tar.gz]
+[2024-04-26 00:46:58] INFO root fetch - processPackages [tastytrade]: Remove: archive file [/home/abi/fetcher/tmp/tastytrade-7.2.tar.gz]
+[2024-04-26 00:46:58] INFO root fetch - main [MainThread]: End processing [tastytrade]: success
+[2024-04-26 00:46:58] INFO root fetch - processPackages [qnngds]: Remove: archive file [/home/abi/fetcher/tmp/qnngds-2.1.0.tar.gz]
+[2024-04-26 00:46:58] INFO root fetch - processPackages [qnngds]: Remove: archive file [/home/abi/fetcher/tmp/qnngds-2.1.1.tar.gz]
+[2024-04-26 00:46:58] INFO root fetch - main [MainThread]: End processing [qnngds]: success
+[2024-04-26 00:46:58] INFO root fetch - processPackages [harlequin]: Remove: archive file [/home/abi/fetcher/tmp/harlequin-1.9.1.tar.gz]
+[2024-04-26 00:46:58] INFO root fetch - processPackages [harlequin]: Remove: archive file [/home/abi/fetcher/tmp/harlequin-1.9.2.tar.gz]
+[2024-04-26 00:46:58] INFO root fetch - main [MainThread]: End processing [harlequin]: success
+[2024-04-26 00:46:58] INFO root fetch - processPackages [polars-ts]: Remove: archive file [/home/abi/fetcher/tmp/polars_ts-0.0.8.tar.gz]
+[2024-04-26 00:46:58] INFO root fetch - processPackages [polars-ts]: Remove: archive file [/home/abi/fetcher/tmp/polars_ts-0.0.9.tar.gz]
+[2024-04-26 00:46:58] INFO root fetch - main [MainThread]: End processing [polars-ts]: success
+[2024-04-26 00:46:58] INFO root fetch - main [MainThread]: Store serial: [22939077]
