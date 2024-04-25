@@ -988,3 +988,42 @@
 [2024-04-26 01:02:14] INFO root fetch - processPackages [pf-azuredb]: Remove: archive file [/home/abi/fetcher/tmp/pf_azuredb-1.0.0.tar.gz]
 [2024-04-26 01:02:14] INFO root fetch - main [MainThread]: End processing [pf-azuredb]: success
 [2024-04-26 01:02:14] INFO root fetch - main [MainThread]: Store serial: [22939256]
+[2024-04-26 01:04:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22939256]
+[2024-04-26 01:04:23] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-26 01:04:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: neon-speech
+[2024-04-26 01:04:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py-ssd
+[2024-04-26 01:04:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: relationalai
+[2024-04-26 01:04:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bauplan
+[2024-04-26 01:04:23] INFO root fetch - processPackages [bauplan]: New version: [0.0.3a91] Old Version: [0.0.3a90]
+[2024-04-26 01:04:23] INFO root fetch - processPackages [relationalai]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-04-26 01:04:23] INFO root fetch - processPackages [neon-speech]: New version: [4.4.1a1] Old Version: [4.4.0]
+[2024-04-26 01:04:23] INFO root fetch - processPackages [bauplan]: Downloading https://files.pythonhosted.org/packages/dc/ee/45cbd857f59613eb64c28dc19a0311b09b99cde1ab24061bdb339907e42d/bauplan-0.0.3a90-py3-none-win_amd64.whl
+[2024-04-26 01:04:23] INFO root fetch - processPackages [neon-speech]: Downloading https://files.pythonhosted.org/packages/5c/bc/c829f602ffd1407d9dc2851e8076bf02a020c5a81d3885bc0e51f89fd3a8/neon_speech-4.4.0.tar.gz
+[2024-04-26 01:04:23] INFO root fetch - processPackages [relationalai]: Downloading https://files.pythonhosted.org/packages/32/7e/03cf228e7879e43ed5ac1bf732fc32e4147ed8b03f55efba9350f425cff0/relationalai-0.2.4.tar.gz
+[2024-04-26 01:04:23] INFO root fetch - processPackages [py-ssd]: New version: [0.20.1] Old Version: [0.20.0]
+[2024-04-26 01:04:23] INFO root fetch - processPackages [neon-speech]: Downloading https://files.pythonhosted.org/packages/8f/35/b3dae8ff30579728a4536f4ee6a55d0d22171aaf875ef224496c8b304d5f/neon_speech-4.4.1a1.tar.gz
+[2024-04-26 01:04:23] INFO root fetch - processPackages [bauplan]: Downloading https://files.pythonhosted.org/packages/82/ca/490a89a5b650e3b3a32435a3bb27379cc78e9ef2b986881438bc45930d82/bauplan-0.0.3a91-py3-none-win_amd64.whl
+[2024-04-26 01:04:23] INFO root fetch - processPackages [relationalai]: Downloading https://files.pythonhosted.org/packages/1a/42/453098d6f14236f353482cb0841be15d12807afe05f86ae465252c5dd951/relationalai-0.2.5.tar.gz
+[2024-04-26 01:04:23] INFO root fetch - processPackages [neon-speech]: executing diffoscope
+[2024-04-26 01:04:23] INFO root fetch - processPackages [neon-speech]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_speech-4.4.0.tar.gz tmp/neon_speech-4.4.1a1.tar.gz --markdown 20240426/n/neon-speech/4.4.0-4.4.1a1/README.md --exclude *.pyd
+[2024-04-26 01:04:23] INFO root fetch - processPackages [py-ssd]: Downloading https://files.pythonhosted.org/packages/f4/3d/215f08ea90a3e06fafff51df26999b59b055dceab3f755d8e6eb27487918/py_ssd-0.20.0.tar.gz
+[2024-04-26 01:04:24] INFO root fetch - processPackages [relationalai]: executing diffoscope
+[2024-04-26 01:04:24] INFO root fetch - processPackages [relationalai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/relationalai-0.2.4.tar.gz tmp/relationalai-0.2.5.tar.gz --markdown 20240426/r/relationalai/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-04-26 01:04:24] INFO root fetch - processPackages [bauplan]: executing diffoscope
+[2024-04-26 01:04:24] INFO root fetch - processPackages [bauplan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bauplan-0.0.3a90-py3-none-win_amd64.whl.zip tmp/bauplan-0.0.3a91-py3-none-win_amd64.whl.zip --markdown 20240426/b/bauplan/0.0.3a90-0.0.3a91/README.md --exclude *.pyd
+[2024-04-26 01:04:24] INFO root fetch - processPackages [py-ssd]: Downloading https://files.pythonhosted.org/packages/47/92/fb9bbee4e32fc8e27911e57aa595874768de1edc4bf63433da5cf7e5e69d/py_ssd-0.20.1-cp39-cp39-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl
+[2024-04-26 01:04:24] INFO root fetch - processPackages [neon-speech]: Remove: archive file [/home/abi/fetcher/tmp/neon_speech-4.4.0.tar.gz]
+[2024-04-26 01:04:24] INFO root fetch - processPackages [neon-speech]: Remove: archive file [/home/abi/fetcher/tmp/neon_speech-4.4.1a1.tar.gz]
+[2024-04-26 01:04:24] INFO root fetch - main [MainThread]: End processing [neon-speech]: success
+[2024-04-26 01:04:25] INFO root fetch - processPackages [py-ssd]: executing diffoscope
+[2024-04-26 01:04:25] INFO root fetch - processPackages [py-ssd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_ssd-0.20.0.tar.gz tmp/py_ssd-0.20.1-cp39-cp39-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl.zip --markdown 20240426/p/py-ssd/0.20.0-0.20.1/README.md --exclude *.pyd
+[2024-04-26 01:04:26] INFO root fetch - processPackages [py-ssd]: Remove: archive file [/home/abi/fetcher/tmp/py_ssd-0.20.0.tar.gz]
+[2024-04-26 01:04:26] INFO root fetch - processPackages [py-ssd]: Remove: archive file [/home/abi/fetcher/tmp/py_ssd-0.20.1-cp39-cp39-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl.zip]
+[2024-04-26 01:04:26] INFO root fetch - main [MainThread]: End processing [py-ssd]: success
+[2024-04-26 01:04:26] INFO root fetch - processPackages [relationalai]: Remove: archive file [/home/abi/fetcher/tmp/relationalai-0.2.4.tar.gz]
+[2024-04-26 01:04:26] INFO root fetch - processPackages [relationalai]: Remove: archive file [/home/abi/fetcher/tmp/relationalai-0.2.5.tar.gz]
+[2024-04-26 01:04:26] INFO root fetch - main [MainThread]: End processing [relationalai]: success
+[2024-04-26 01:05:19] INFO root fetch - processPackages [bauplan]: Remove: archive file [/home/abi/fetcher/tmp/bauplan-0.0.3a90-py3-none-win_amd64.whl.zip]
+[2024-04-26 01:05:19] INFO root fetch - processPackages [bauplan]: Remove: archive file [/home/abi/fetcher/tmp/bauplan-0.0.3a91-py3-none-win_amd64.whl.zip]
+[2024-04-26 01:05:19] INFO root fetch - main [MainThread]: End processing [bauplan]: success
+[2024-04-26 01:05:19] INFO root fetch - main [MainThread]: Store serial: [22939307]
