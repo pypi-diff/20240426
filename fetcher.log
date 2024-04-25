@@ -751,3 +751,42 @@
 [2024-04-26 00:49:10] INFO root fetch - processPackages [ofscraper]: Remove: archive file [/home/abi/fetcher/tmp/ofscraper-3.9.2.tar.gz]
 [2024-04-26 00:49:10] INFO root fetch - main [MainThread]: End processing [ofscraper]: success
 [2024-04-26 00:49:10] INFO root fetch - main [MainThread]: Store serial: [22939092]
+[2024-04-26 00:51:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22939092]
+[2024-04-26 00:51:18] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-26 00:51:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: turbodinwriter
+[2024-04-26 00:51:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ciou
+[2024-04-26 00:51:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PyScaffolder
+[2024-04-26 00:51:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hdx-python-utilities
+[2024-04-26 00:51:18] INFO root fetch - processPackages [ciou]: New version: [0.6.0] Old Version: [0.5.0]
+[2024-04-26 00:51:18] INFO root fetch - processPackages [turbodinwriter]: New version: [0.4.1] Old Version: [0.3.1]
+[2024-04-26 00:51:18] INFO root fetch - processPackages [turbodinwriter]: Downloading https://files.pythonhosted.org/packages/cc/a8/96baac06f3b7f365083b45da3cdb5fb5eb0edaa3551e527fd9a03c494830/turbodinwriter-0.3.1.tar.gz
+[2024-04-26 00:51:18] INFO root fetch - processPackages [hdx-python-utilities]: New version: [3.6.8] Old Version: [3.6.7]
+[2024-04-26 00:51:18] INFO root fetch - processPackages [ciou]: Downloading https://files.pythonhosted.org/packages/7a/f0/9b02d99a3032fb407d75ae82725205d2de949fc230549ef26299195e2965/ciou-0.5.0.tar.gz
+[2024-04-26 00:51:18] INFO root fetch - processPackages [PyScaffolder]: New version: [1.5.2.post2] Old Version: [1.5.2.post1]
+[2024-04-26 00:51:18] INFO root fetch - processPackages [turbodinwriter]: Downloading https://files.pythonhosted.org/packages/19/1b/766afaaa29eedc8e88e5426b4e5814075fe06c1816670be09d934c4d3245/turbodinwriter-0.4.1.tar.gz
+[2024-04-26 00:51:18] INFO root fetch - processPackages [hdx-python-utilities]: Downloading https://files.pythonhosted.org/packages/5b/d4/8457950a2eed0f95f2842d73058f78d79653bd7e9d0fa3d189c8d8309be5/hdx_python_utilities-3.6.7.tar.gz
+[2024-04-26 00:51:19] INFO root fetch - processPackages [PyScaffolder]: Downloading https://files.pythonhosted.org/packages/9b/42/13febeb309d5476e02cfdd65b46e27463eb97b57f0a9acf82329caeafc1a/PyScaffolder-1.5.2.post1.tar.gz
+[2024-04-26 00:51:19] INFO root fetch - processPackages [ciou]: Downloading https://files.pythonhosted.org/packages/67/ec/b3b2c6dde64b0ea6a81fa4843ec3a74c36c2348565710411592c379529c9/ciou-0.6.0.tar.gz
+[2024-04-26 00:51:19] INFO root fetch - processPackages [turbodinwriter]: executing diffoscope
+[2024-04-26 00:51:19] INFO root fetch - processPackages [turbodinwriter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/turbodinwriter-0.3.1.tar.gz tmp/turbodinwriter-0.4.1.tar.gz --markdown 20240426/t/turbodinwriter/0.3.1-0.4.1/README.md --exclude *.pyd
+[2024-04-26 00:51:19] INFO root fetch - processPackages [ciou]: executing diffoscope
+[2024-04-26 00:51:19] INFO root fetch - processPackages [ciou]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ciou-0.5.0.tar.gz tmp/ciou-0.6.0.tar.gz --markdown 20240426/c/ciou/0.5.0-0.6.0/README.md --exclude *.pyd
+[2024-04-26 00:51:19] INFO root fetch - processPackages [PyScaffolder]: Downloading https://files.pythonhosted.org/packages/a0/27/fc63dc179472b9500c8102fc917a1dcf739688d120c5c6ff0020b803865c/PyScaffolder-1.5.2.post2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-26 00:51:19] INFO root fetch - processPackages [hdx-python-utilities]: Downloading https://files.pythonhosted.org/packages/16/ba/e08579bf75386734b02ee21c1ace7c0a37ccd087f36c082743c6718b0272/hdx_python_utilities-3.6.8.tar.gz
+[2024-04-26 00:51:19] INFO root fetch - processPackages [turbodinwriter]: Remove: archive file [/home/abi/fetcher/tmp/turbodinwriter-0.3.1.tar.gz]
+[2024-04-26 00:51:19] INFO root fetch - processPackages [turbodinwriter]: Remove: archive file [/home/abi/fetcher/tmp/turbodinwriter-0.4.1.tar.gz]
+[2024-04-26 00:51:19] INFO root fetch - main [MainThread]: End processing [turbodinwriter]: success
+[2024-04-26 00:51:19] INFO root fetch - processPackages [ciou]: Remove: archive file [/home/abi/fetcher/tmp/ciou-0.5.0.tar.gz]
+[2024-04-26 00:51:19] INFO root fetch - processPackages [ciou]: Remove: archive file [/home/abi/fetcher/tmp/ciou-0.6.0.tar.gz]
+[2024-04-26 00:51:19] INFO root fetch - main [MainThread]: End processing [ciou]: success
+[2024-04-26 00:51:19] INFO root fetch - processPackages [hdx-python-utilities]: executing diffoscope
+[2024-04-26 00:51:19] INFO root fetch - processPackages [hdx-python-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hdx_python_utilities-3.6.7.tar.gz tmp/hdx_python_utilities-3.6.8.tar.gz --markdown 20240426/h/hdx-python-utilities/3.6.7-3.6.8/README.md --exclude *.pyd
+[2024-04-26 00:51:20] INFO root fetch - processPackages [PyScaffolder]: executing diffoscope
+[2024-04-26 00:51:20] INFO root fetch - processPackages [PyScaffolder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyScaffolder-1.5.2.post1.tar.gz tmp/PyScaffolder-1.5.2.post2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240426/P/PyScaffolder/1.5.2.post1-1.5.2.post2/README.md --exclude *.pyd
+[2024-04-26 00:51:20] INFO root fetch - processPackages [hdx-python-utilities]: Remove: archive file [/home/abi/fetcher/tmp/hdx_python_utilities-3.6.7.tar.gz]
+[2024-04-26 00:51:20] INFO root fetch - processPackages [hdx-python-utilities]: Remove: archive file [/home/abi/fetcher/tmp/hdx_python_utilities-3.6.8.tar.gz]
+[2024-04-26 00:51:20] INFO root fetch - main [MainThread]: End processing [hdx-python-utilities]: success
+[2024-04-26 00:51:20] INFO root fetch - processPackages [PyScaffolder]: Remove: archive file [/home/abi/fetcher/tmp/PyScaffolder-1.5.2.post1.tar.gz]
+[2024-04-26 00:51:20] INFO root fetch - processPackages [PyScaffolder]: Remove: archive file [/home/abi/fetcher/tmp/PyScaffolder-1.5.2.post2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-26 00:51:20] INFO root fetch - main [MainThread]: End processing [PyScaffolder]: success
+[2024-04-26 00:51:20] INFO root fetch - main [MainThread]: Store serial: [22939104]
