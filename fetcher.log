@@ -165,3 +165,27 @@
 [2024-04-26 00:07:48] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-5.0.6.dev9.tar.gz]
 [2024-04-26 00:07:48] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2024-04-26 00:07:48] INFO root fetch - main [MainThread]: Store serial: [22938888]
+[2024-04-26 00:09:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22938888]
+[2024-04-26 00:09:57] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-26 00:09:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: taegis-sdk-python
+[2024-04-26 00:09:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chalkpy
+[2024-04-26 00:09:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: onstats
+[2024-04-26 00:09:57] WARNING root fetch - processPackages [onstats]: Skipping, unable to determine old version
+[2024-04-26 00:09:57] INFO root fetch - main [MainThread]: End processing [onstats] error
+[2024-04-26 00:09:57] INFO root fetch - processPackages [taegis-sdk-python]: New version: [1.2.6] Old Version: [1.2.5]
+[2024-04-26 00:09:57] INFO root fetch - processPackages [chalkpy]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-04-26 00:09:57] INFO root fetch - processPackages [taegis-sdk-python]: Downloading https://files.pythonhosted.org/packages/f4/b9/ebfdf18f6a70454c0bee3aa0fa920353b92e1d607c5c01f603e89c46675f/taegis-sdk-python-1.2.5.tar.gz
+[2024-04-26 00:09:58] INFO root fetch - processPackages [chalkpy]: Downloading https://files.pythonhosted.org/packages/37/52/5c69a74a70d94d61d88e81cf17862496f7cd9ebd0725d75f357f252f3052/chalkpy-2.9.8.tar.gz
+[2024-04-26 00:09:58] INFO root fetch - processPackages [chalkpy]: Downloading https://files.pythonhosted.org/packages/f1/ff/9cdb492bac7076766dffbc16bbff1773bfc5635cfb81b130f720883912c7/chalkpy-2.9.9.tar.gz
+[2024-04-26 00:09:58] INFO root fetch - processPackages [taegis-sdk-python]: Downloading https://files.pythonhosted.org/packages/17/e8/b3ecf5be7b89eb6f5d68a974ed34120620ddb3e90548f1cacca95956a698/taegis_sdk_python-1.2.6.tar.gz
+[2024-04-26 00:09:58] INFO root fetch - processPackages [chalkpy]: executing diffoscope
+[2024-04-26 00:09:58] INFO root fetch - processPackages [chalkpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalkpy-2.9.8.tar.gz tmp/chalkpy-2.9.9.tar.gz --markdown 20240426/c/chalkpy/2.9.8-2.9.9/README.md --exclude *.pyd
+[2024-04-26 00:09:58] INFO root fetch - processPackages [taegis-sdk-python]: executing diffoscope
+[2024-04-26 00:09:58] INFO root fetch - processPackages [taegis-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taegis-sdk-python-1.2.5.tar.gz tmp/taegis_sdk_python-1.2.6.tar.gz --markdown 20240426/t/taegis-sdk-python/1.2.5-1.2.6/README.md --exclude *.pyd
+[2024-04-26 00:09:59] INFO root fetch - processPackages [taegis-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/taegis-sdk-python-1.2.5.tar.gz]
+[2024-04-26 00:09:59] INFO root fetch - processPackages [taegis-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/taegis_sdk_python-1.2.6.tar.gz]
+[2024-04-26 00:09:59] INFO root fetch - main [MainThread]: End processing [taegis-sdk-python]: success
+[2024-04-26 00:10:00] INFO root fetch - processPackages [chalkpy]: Remove: archive file [/home/abi/fetcher/tmp/chalkpy-2.9.8.tar.gz]
+[2024-04-26 00:10:00] INFO root fetch - processPackages [chalkpy]: Remove: archive file [/home/abi/fetcher/tmp/chalkpy-2.9.9.tar.gz]
+[2024-04-26 00:10:00] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
+[2024-04-26 00:10:00] INFO root fetch - main [MainThread]: Store serial: [22938897]
