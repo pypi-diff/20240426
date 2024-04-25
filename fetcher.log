@@ -1649,3 +1649,21 @@
 [2024-04-26 01:43:24] INFO root fetch - processPackages [l2mac]: Remove: archive file [/home/abi/fetcher/tmp/l2mac-0.0.2.tar.gz]
 [2024-04-26 01:43:24] INFO root fetch - main [MainThread]: End processing [l2mac]: success
 [2024-04-26 01:43:24] INFO root fetch - main [MainThread]: Store serial: [22939639]
+[2024-04-26 01:45:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22939639]
+[2024-04-26 01:45:32] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-26 01:45:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: redhat-assisted-installer
+[2024-04-26 01:45:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kfre
+[2024-04-26 01:45:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gingerai
+[2024-04-26 01:45:32] INFO root fetch - processPackages [gingerai]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-26 01:45:32] WARNING root fetch - processPackages [redhat-assisted-installer]: Skipping, unable to determine old version
+[2024-04-26 01:45:32] INFO root fetch - main [MainThread]: End processing [redhat-assisted-installer] error
+[2024-04-26 01:45:32] INFO root fetch - processPackages [gingerai]: Downloading https://files.pythonhosted.org/packages/93/63/5f4a6d2549870026eff659d1fc9aac0f6c9532ea741f07ac2083cd3a1cfe/gingerai-0.1.8.tar.gz
+[2024-04-26 01:45:32] ERROR root fetch - processPackages [kfre]: Unable to get metadata: No such project 'kfre'
+[2024-04-26 01:45:32] INFO root fetch - main [MainThread]: End processing [kfre] error
+[2024-04-26 01:45:32] INFO root fetch - processPackages [gingerai]: Downloading https://files.pythonhosted.org/packages/33/65/a59be7a360a71da6fb875287e72120e252018dc037eef33b15ac50759b89/gingerai-0.1.9.tar.gz
+[2024-04-26 01:45:32] INFO root fetch - processPackages [gingerai]: executing diffoscope
+[2024-04-26 01:45:32] INFO root fetch - processPackages [gingerai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gingerai-0.1.8.tar.gz tmp/gingerai-0.1.9.tar.gz --markdown 20240426/g/gingerai/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-26 01:45:33] INFO root fetch - processPackages [gingerai]: Remove: archive file [/home/abi/fetcher/tmp/gingerai-0.1.8.tar.gz]
+[2024-04-26 01:45:33] INFO root fetch - processPackages [gingerai]: Remove: archive file [/home/abi/fetcher/tmp/gingerai-0.1.9.tar.gz]
+[2024-04-26 01:45:33] INFO root fetch - main [MainThread]: End processing [gingerai]: success
+[2024-04-26 01:45:33] INFO root fetch - main [MainThread]: Store serial: [22939646]
