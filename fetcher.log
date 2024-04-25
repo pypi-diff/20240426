@@ -1566,3 +1566,17 @@
 [2024-04-26 01:36:54] INFO root fetch - main [MainThread]: End processing [RedVert]: success
 [2024-04-26 01:36:54] INFO root fetch - main [MainThread]: End processing [gingerai]: success
 [2024-04-26 01:36:54] INFO root fetch - main [MainThread]: Store serial: [22939592]
+[2024-04-26 01:38:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22939592]
+[2024-04-26 01:39:02] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-26 01:39:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qs-codec
+[2024-04-26 01:39:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: me-cli
+[2024-04-26 01:39:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aspose-barcode-for-python-via-net
+[2024-04-26 01:39:02] WARNING root fetch - processPackages [me-cli]: Skipping, unable to determine old version
+[2024-04-26 01:39:02] INFO root fetch - main [MainThread]: End processing [me-cli] error
+[2024-04-26 01:39:02] WARNING root fetch - processPackages [qs-codec]: Skipping, unable to determine old version
+[2024-04-26 01:39:02] INFO root fetch - main [MainThread]: End processing [qs-codec] error
+[2024-04-26 01:39:02] INFO root fetch - processPackages [aspose-barcode-for-python-via-net]: New version: [24.4] Old Version: [24.3]
+[2024-04-26 01:39:03] INFO root fetch - processPackages [aspose-barcode-for-python-via-net]: Downloading https://files.pythonhosted.org/packages/74/b2/b8704ba614cbbabd2a2edff83328f4c47392315597d6d9dd2d312b20736a/aspose_barcode_for_python_via_net-24.3-py3-none-win_amd64.whl
+[2024-04-26 01:39:03] WARNING root fetch - processPackages [aspose-barcode-for-python-via-net]: Skipping package: exceeds size limit 40552374>=10485760
+[2024-04-26 01:39:03] INFO root fetch - main [MainThread]: End processing [aspose-barcode-for-python-via-net] error
+[2024-04-26 01:39:03] INFO root fetch - main [MainThread]: Store serial: [22939605]
