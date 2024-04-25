@@ -333,3 +333,15 @@
 [2024-04-26 00:23:00] INFO root fetch - processPackages [RedVert]: Remove: archive file [/home/abi/fetcher/tmp/redvert-1.2.0.tar.gz]
 [2024-04-26 00:23:00] INFO root fetch - main [MainThread]: End processing [RedVert]: success
 [2024-04-26 00:23:00] INFO root fetch - main [MainThread]: Store serial: [22938955]
+[2024-04-26 00:25:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22938955]
+[2024-04-26 00:25:09] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-26 00:25:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: switch-model
+[2024-04-26 00:25:09] INFO root fetch - processPackages [switch-model]: New version: [2.0.8] Old Version: [2.0.7]
+[2024-04-26 00:25:09] INFO root fetch - processPackages [switch-model]: Downloading https://files.pythonhosted.org/packages/84/cd/85c52f4bca5b6470916257559341b1d963862cd7cefaf836e11c25dccac6/switch_model-2.0.7.tar.gz
+[2024-04-26 00:25:10] INFO root fetch - processPackages [switch-model]: Downloading https://files.pythonhosted.org/packages/90/10/4fede5471c82e445361b188b30227c795393c3e79953ab48e748b084ea7a/switch_model-2.0.8.tar.gz
+[2024-04-26 00:25:10] INFO root fetch - processPackages [switch-model]: executing diffoscope
+[2024-04-26 00:25:10] INFO root fetch - processPackages [switch-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/switch_model-2.0.7.tar.gz tmp/switch_model-2.0.8.tar.gz --markdown 20240426/s/switch-model/2.0.7-2.0.8/README.md --exclude *.pyd
+[2024-04-26 00:25:12] INFO root fetch - processPackages [switch-model]: Remove: archive file [/home/abi/fetcher/tmp/switch_model-2.0.7.tar.gz]
+[2024-04-26 00:25:12] INFO root fetch - processPackages [switch-model]: Remove: archive file [/home/abi/fetcher/tmp/switch_model-2.0.8.tar.gz]
+[2024-04-26 00:25:12] INFO root fetch - main [MainThread]: End processing [switch-model]: success
+[2024-04-26 00:25:12] INFO root fetch - main [MainThread]: Store serial: [22938958]
