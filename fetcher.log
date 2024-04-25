@@ -1027,3 +1027,51 @@
 [2024-04-26 01:05:19] INFO root fetch - processPackages [bauplan]: Remove: archive file [/home/abi/fetcher/tmp/bauplan-0.0.3a91-py3-none-win_amd64.whl.zip]
 [2024-04-26 01:05:19] INFO root fetch - main [MainThread]: End processing [bauplan]: success
 [2024-04-26 01:05:19] INFO root fetch - main [MainThread]: Store serial: [22939307]
+[2024-04-26 01:07:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22939307]
+[2024-04-26 01:07:38] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-26 01:07:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spleenseg
+[2024-04-26 01:07:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tmnt
+[2024-04-26 01:07:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gcp-pal
+[2024-04-26 01:07:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flwr-nightly
+[2024-04-26 01:07:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sdss-target-selection
+[2024-04-26 01:07:38] INFO root fetch - processPackages [flwr-nightly]: New version: [1.9.0.dev20240424] Old Version: [1.9.0.dev20240423]
+[2024-04-26 01:07:38] INFO root fetch - processPackages [tmnt]: New version: [0.7.52b20240424] Old Version: [0.7.52b20240423]
+[2024-04-26 01:07:38] INFO root fetch - processPackages [spleenseg]: New version: [1.2.0] Old Version: [1.0.12]
+[2024-04-26 01:07:38] INFO root fetch - processPackages [sdss-target-selection]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-04-26 01:07:38] INFO root fetch - processPackages [gcp-pal]: New version: [1.0.3] Old Version: [1.0.1]
+[2024-04-26 01:07:38] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/03/21/ff875211479a8c52a4e658702daa0ca2e788108837f650bbad17688d8e2a/flwr_nightly-1.9.0.dev20240423.tar.gz
+[2024-04-26 01:07:38] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/b3/f6/0511997370508e0432b6fd19b1d674db73e13540a42fc7b4a5049ad9a935/tmnt-0.7.52b20240423.tar.gz
+[2024-04-26 01:07:39] INFO root fetch - processPackages [sdss-target-selection]: Downloading https://files.pythonhosted.org/packages/7d/50/74ecb7865e446fff9e104081c44d516593770c52300fa3ef9f85b3a9e1dc/sdss_target_selection-1.2.0.tar.gz
+[2024-04-26 01:07:39] INFO root fetch - processPackages [gcp-pal]: Downloading https://files.pythonhosted.org/packages/91/84/6d022c26474cbd2435b783fd9be014f5e8d1b30cff6d301253f3e3a608ff/gcp_pal-1.0.1.tar.gz
+[2024-04-26 01:07:39] INFO root fetch - processPackages [spleenseg]: Downloading https://files.pythonhosted.org/packages/5b/dc/99298dccec79e4f4f70e11a802fe2d818d635eb3cd53a5e71ba4670815ab/spleenseg-1.0.12.tar.gz
+[2024-04-26 01:07:39] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/ac/f5/a8866a9cfe6edb79978edf5b5daf21bac9168e19c4d4ee01bd640d895cf4/flwr_nightly-1.9.0.dev20240424.tar.gz
+[2024-04-26 01:07:39] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/0f/54/41766dd4a1b695da9feb3da561615bb6e33db93354c3939295d9a231fd5c/tmnt-0.7.52b20240424.tar.gz
+[2024-04-26 01:07:39] INFO root fetch - processPackages [flwr-nightly]: executing diffoscope
+[2024-04-26 01:07:39] INFO root fetch - processPackages [flwr-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flwr_nightly-1.9.0.dev20240423.tar.gz tmp/flwr_nightly-1.9.0.dev20240424.tar.gz --markdown 20240426/f/flwr-nightly/1.9.0.dev20240423-1.9.0.dev20240424/README.md --exclude *.pyd
+[2024-04-26 01:07:39] INFO root fetch - processPackages [sdss-target-selection]: Downloading https://files.pythonhosted.org/packages/81/f1/cd55fda848a57cbe50a1fdf4dc947e2796cb831d52f9644872bf4d0e188a/sdss_target_selection-1.2.1.tar.gz
+[2024-04-26 01:07:39] INFO root fetch - processPackages [spleenseg]: Downloading https://files.pythonhosted.org/packages/f8/85/82ee9f3ebcdc358dc340215eaa91cdfec6b2b2dc21cba96815809aeb08db/spleenseg-1.2.0.tar.gz
+[2024-04-26 01:07:39] INFO root fetch - processPackages [gcp-pal]: Downloading https://files.pythonhosted.org/packages/f1/0e/69322baba0fdc5da3fc0e4ea2a8b2596886dbd9de56e12577854d223d22f/gcp_pal-1.0.3.tar.gz
+[2024-04-26 01:07:39] INFO root fetch - processPackages [spleenseg]: executing diffoscope
+[2024-04-26 01:07:39] INFO root fetch - processPackages [spleenseg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spleenseg-1.0.12.tar.gz tmp/spleenseg-1.2.0.tar.gz --markdown 20240426/s/spleenseg/1.0.12-1.2.0/README.md --exclude *.pyd
+[2024-04-26 01:07:39] INFO root fetch - processPackages [gcp-pal]: executing diffoscope
+[2024-04-26 01:07:39] INFO root fetch - processPackages [gcp-pal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gcp_pal-1.0.1.tar.gz tmp/gcp_pal-1.0.3.tar.gz --markdown 20240426/g/gcp-pal/1.0.1-1.0.3/README.md --exclude *.pyd
+[2024-04-26 01:07:39] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2024-04-26 01:07:39] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.52b20240423.tar.gz tmp/tmnt-0.7.52b20240424.tar.gz --markdown 20240426/t/tmnt/0.7.52b20240423-0.7.52b20240424/README.md --exclude *.pyd
+[2024-04-26 01:07:39] INFO root fetch - processPackages [sdss-target-selection]: executing diffoscope
+[2024-04-26 01:07:39] INFO root fetch - processPackages [sdss-target-selection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdss_target_selection-1.2.0.tar.gz tmp/sdss_target_selection-1.2.1.tar.gz --markdown 20240426/s/sdss-target-selection/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-04-26 01:07:40] INFO root fetch - processPackages [spleenseg]: Remove: archive file [/home/abi/fetcher/tmp/spleenseg-1.0.12.tar.gz]
+[2024-04-26 01:07:40] INFO root fetch - processPackages [spleenseg]: Remove: archive file [/home/abi/fetcher/tmp/spleenseg-1.2.0.tar.gz]
+[2024-04-26 01:07:40] INFO root fetch - main [MainThread]: End processing [spleenseg]: success
+[2024-04-26 01:07:40] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.52b20240423.tar.gz]
+[2024-04-26 01:07:40] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.52b20240424.tar.gz]
+[2024-04-26 01:07:40] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2024-04-26 01:07:40] INFO root fetch - processPackages [gcp-pal]: Remove: archive file [/home/abi/fetcher/tmp/gcp_pal-1.0.1.tar.gz]
+[2024-04-26 01:07:40] INFO root fetch - processPackages [gcp-pal]: Remove: archive file [/home/abi/fetcher/tmp/gcp_pal-1.0.3.tar.gz]
+[2024-04-26 01:07:40] INFO root fetch - main [MainThread]: End processing [gcp-pal]: success
+[2024-04-26 01:07:40] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.9.0.dev20240423.tar.gz]
+[2024-04-26 01:07:40] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.9.0.dev20240424.tar.gz]
+[2024-04-26 01:07:40] INFO root fetch - main [MainThread]: End processing [flwr-nightly]: success
+[2024-04-26 01:07:40] INFO root fetch - processPackages [sdss-target-selection]: Remove: archive file [/home/abi/fetcher/tmp/sdss_target_selection-1.2.0.tar.gz]
+[2024-04-26 01:07:40] INFO root fetch - processPackages [sdss-target-selection]: Remove: archive file [/home/abi/fetcher/tmp/sdss_target_selection-1.2.1.tar.gz]
+[2024-04-26 01:07:40] INFO root fetch - main [MainThread]: End processing [sdss-target-selection]: success
+[2024-04-26 01:07:40] INFO root fetch - main [MainThread]: Store serial: [22939348]
