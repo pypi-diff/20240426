@@ -299,3 +299,25 @@
 [2024-04-26 00:18:39] INFO root fetch - processPackages [cognee]: Remove: archive file [/home/abi/fetcher/tmp/cognee-0.1.5.tar.gz]
 [2024-04-26 00:18:39] INFO root fetch - main [MainThread]: End processing [cognee]: success
 [2024-04-26 00:18:39] INFO root fetch - main [MainThread]: Store serial: [22938940]
+[2024-04-26 00:20:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22938940]
+[2024-04-26 00:20:49] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-26 00:20:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: caustic.parser
+[2024-04-26 00:20:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: caustic.parser
+[2024-04-26 00:20:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mauritstest.namespacepackage
+[2024-04-26 00:20:49] INFO root fetch - processPackages [caustic.parser]: New version: [2.2.3] Old Version: [2.2.2]
+[2024-04-26 00:20:49] INFO root fetch - processPackages [caustic.parser]: New version: [2.2.3] Old Version: [2.2.2]
+[2024-04-26 00:20:49] WARNING root fetch - processPackages [mauritstest.namespacepackage]: Skipping, unable to determine old version
+[2024-04-26 00:20:49] INFO root fetch - main [MainThread]: End processing [mauritstest.namespacepackage] error
+[2024-04-26 00:20:49] INFO root fetch - processPackages [caustic.parser]: Downloading https://files.pythonhosted.org/packages/68/11/13a472c56a911f0d76cedf96183177ffa4449862094ad295bbd718ef75df/caustic.parser-2.2.2.tar.gz
+[2024-04-26 00:20:49] INFO root fetch - processPackages [caustic.parser]: Downloading https://files.pythonhosted.org/packages/68/11/13a472c56a911f0d76cedf96183177ffa4449862094ad295bbd718ef75df/caustic.parser-2.2.2.tar.gz
+[2024-04-26 00:20:49] INFO root fetch - processPackages [caustic.parser]: Downloading https://files.pythonhosted.org/packages/5c/61/7f3429fa8828382a00ce6b82bf074a47539a9aa3756bac8e12af424cb1c6/caustic.parser-2.2.3.tar.gz
+[2024-04-26 00:20:49] INFO root fetch - processPackages [caustic.parser]: Downloading https://files.pythonhosted.org/packages/5c/61/7f3429fa8828382a00ce6b82bf074a47539a9aa3756bac8e12af424cb1c6/caustic.parser-2.2.3.tar.gz
+[2024-04-26 00:20:50] INFO root fetch - processPackages [caustic.parser]: executing diffoscope
+[2024-04-26 00:20:50] INFO root fetch - processPackages [caustic.parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caustic.parser-2.2.2.tar.gz tmp/caustic.parser-2.2.3.tar.gz --markdown 20240426/c/caustic.parser/2.2.2-2.2.3/README.md --exclude *.pyd
+[2024-04-26 00:20:50] INFO root fetch - processPackages [caustic.parser]: executing diffoscope
+[2024-04-26 00:20:50] INFO root fetch - processPackages [caustic.parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caustic.parser-2.2.2.tar.gz tmp/caustic.parser-2.2.3.tar.gz --markdown 20240426/c/caustic.parser/2.2.2-2.2.3/README.md --exclude *.pyd
+[2024-04-26 00:20:50] INFO root fetch - processPackages [caustic.parser]: Remove: archive file [/home/abi/fetcher/tmp/caustic.parser-2.2.2.tar.gz]
+[2024-04-26 00:20:50] INFO root fetch - processPackages [caustic.parser]: Remove: archive file [/home/abi/fetcher/tmp/caustic.parser-2.2.3.tar.gz]
+[2024-04-26 00:20:50] INFO root fetch - main [MainThread]: End processing [caustic.parser]: success
+[2024-04-26 00:20:50] INFO root fetch - main [MainThread]: End processing [caustic.parser]: success
+[2024-04-26 00:20:50] INFO root fetch - main [MainThread]: Store serial: [22938952]
