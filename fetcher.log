@@ -1383,3 +1383,51 @@
 [2024-04-26 01:28:12] INFO root fetch - processPackages [tfra-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfra_nightly-0.6.1.dev20240424022116-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-04-26 01:28:12] INFO root fetch - main [MainThread]: End processing [tfra-nightly]: success
 [2024-04-26 01:28:12] INFO root fetch - main [MainThread]: Store serial: [22939490]
+[2024-04-26 01:30:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22939490]
+[2024-04-26 01:30:20] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-26 01:30:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: stream-pose-ml
+[2024-04-26 01:30:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gingerai
+[2024-04-26 01:30:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: RedVert
+[2024-04-26 01:30:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gcr_chat
+[2024-04-26 01:30:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pydantic-settings-export
+[2024-04-26 01:30:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ez
+[2024-04-26 01:30:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gcr_chat
+[2024-04-26 01:30:21] WARNING root fetch - processPackages [RedVert]: Skipping, unable to determine old version
+[2024-04-26 01:30:21] INFO root fetch - processPackages [gingerai]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-04-26 01:30:21] INFO root fetch - main [MainThread]: End processing [RedVert] error
+[2024-04-26 01:30:21] INFO root fetch - processPackages [stream-pose-ml]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-26 01:30:21] INFO root fetch - processPackages [gcr_chat]: New version: [0.1.1.dev1] Old Version: [0.1.1]
+[2024-04-26 01:30:21] INFO root fetch - processPackages [gcr_chat]: New version: [0.1.1.dev1] Old Version: [0.1.1]
+[2024-04-26 01:30:21] WARNING root fetch - processPackages [pydantic-settings-export]: Skipping, unable to determine old version
+[2024-04-26 01:30:21] INFO root fetch - main [MainThread]: End processing [pydantic-settings-export] error
+[2024-04-26 01:30:21] INFO root fetch - processPackages [gingerai]: Downloading https://files.pythonhosted.org/packages/39/7c/79c4bb34c77eabefd8179ea9d2545a4002b5e16b6191a236cbced14b7940/gingerai-0.1.6.tar.gz
+[2024-04-26 01:30:21] INFO root fetch - processPackages [ez]: New version: [9.9.9] Old Version: [9.9.8]
+[2024-04-26 01:30:21] INFO root fetch - processPackages [stream-pose-ml]: Downloading https://files.pythonhosted.org/packages/26/8f/2e5c7407cb23cc034b29f2d4784850d1f793ec4f0fdadf303a138a181b6c/stream_pose_ml-0.1.3.tar.gz
+[2024-04-26 01:30:21] INFO root fetch - processPackages [gcr_chat]: Downloading https://files.pythonhosted.org/packages/4b/cf/1dd2f19fece1597355cfe8ff02ea829feb673bf9eef73aee369f354b07d3/gcr_chat-0.1.1.tar.gz
+[2024-04-26 01:30:21] INFO root fetch - processPackages [gcr_chat]: Downloading https://files.pythonhosted.org/packages/4b/cf/1dd2f19fece1597355cfe8ff02ea829feb673bf9eef73aee369f354b07d3/gcr_chat-0.1.1.tar.gz
+[2024-04-26 01:30:21] WARNING root fetch - processPackages [stream-pose-ml]: Skipping package: exceeds size limit 21658632>=10485760
+[2024-04-26 01:30:21] INFO root fetch - main [MainThread]: End processing [stream-pose-ml] error
+[2024-04-26 01:30:21] INFO root fetch - processPackages [gingerai]: Downloading https://files.pythonhosted.org/packages/3d/d8/7d9de8d494b26ab87ec73aac54ac7f24f67e6d761731b239cda8139ffc85/gingerai-0.1.7.tar.gz
+[2024-04-26 01:30:21] INFO root fetch - processPackages [ez]: Downloading https://files.pythonhosted.org/packages/65/94/8dfdf6fbb7911824c63768183b5ad04a7a20f0337059a3fdfe43760872cd/ez-9.9.8.tar.gz
+[2024-04-26 01:30:21] INFO root fetch - processPackages [gingerai]: executing diffoscope
+[2024-04-26 01:30:21] INFO root fetch - processPackages [gingerai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gingerai-0.1.6.tar.gz tmp/gingerai-0.1.7.tar.gz --markdown 20240426/g/gingerai/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-04-26 01:30:22] INFO root fetch - processPackages [ez]: Downloading https://files.pythonhosted.org/packages/90/c1/ca054042c9827c052772e8ed4ad49a29de99e78a3f110a585c9266ed2987/ez-9.9.9.tar.gz
+[2024-04-26 01:30:22] INFO root fetch - processPackages [ez]: executing diffoscope
+[2024-04-26 01:30:22] INFO root fetch - processPackages [ez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ez-9.9.8.tar.gz tmp/ez-9.9.9.tar.gz --markdown 20240426/e/ez/9.9.8-9.9.9/README.md --exclude *.pyd
+[2024-04-26 01:30:22] INFO root fetch - processPackages [gcr_chat]: Downloading https://files.pythonhosted.org/packages/6b/68/8c483e185b784fe6b91a7ece73df486e0b740afe17fd8c6f6d5a34d2f25b/gcr_chat-0.1.1.dev1.tar.gz
+[2024-04-26 01:30:22] INFO root fetch - processPackages [gcr_chat]: Downloading https://files.pythonhosted.org/packages/6b/68/8c483e185b784fe6b91a7ece73df486e0b740afe17fd8c6f6d5a34d2f25b/gcr_chat-0.1.1.dev1.tar.gz
+[2024-04-26 01:30:22] INFO root fetch - processPackages [gingerai]: Remove: archive file [/home/abi/fetcher/tmp/gingerai-0.1.6.tar.gz]
+[2024-04-26 01:30:22] INFO root fetch - processPackages [gingerai]: Remove: archive file [/home/abi/fetcher/tmp/gingerai-0.1.7.tar.gz]
+[2024-04-26 01:30:22] INFO root fetch - main [MainThread]: End processing [gingerai]: success
+[2024-04-26 01:30:22] INFO root fetch - processPackages [gcr_chat]: executing diffoscope
+[2024-04-26 01:30:22] INFO root fetch - processPackages [gcr_chat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gcr_chat-0.1.1.tar.gz tmp/gcr_chat-0.1.1.dev1.tar.gz --markdown 20240426/g/gcr_chat/0.1.1-0.1.1.dev1/README.md --exclude *.pyd
+[2024-04-26 01:30:22] INFO root fetch - processPackages [gcr_chat]: executing diffoscope
+[2024-04-26 01:30:22] INFO root fetch - processPackages [gcr_chat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gcr_chat-0.1.1.tar.gz tmp/gcr_chat-0.1.1.dev1.tar.gz --markdown 20240426/g/gcr_chat/0.1.1-0.1.1.dev1/README.md --exclude *.pyd
+[2024-04-26 01:30:22] INFO root fetch - processPackages [gcr_chat]: Remove: archive file [/home/abi/fetcher/tmp/gcr_chat-0.1.1.tar.gz]
+[2024-04-26 01:30:22] INFO root fetch - processPackages [gcr_chat]: Remove: archive file [/home/abi/fetcher/tmp/gcr_chat-0.1.1.dev1.tar.gz]
+[2024-04-26 01:30:22] INFO root fetch - main [MainThread]: End processing [gcr_chat]: success
+[2024-04-26 01:30:22] INFO root fetch - main [MainThread]: End processing [gcr_chat]: success
+[2024-04-26 01:30:22] INFO root fetch - processPackages [ez]: Remove: archive file [/home/abi/fetcher/tmp/ez-9.9.8.tar.gz]
+[2024-04-26 01:30:22] INFO root fetch - processPackages [ez]: Remove: archive file [/home/abi/fetcher/tmp/ez-9.9.9.tar.gz]
+[2024-04-26 01:30:22] INFO root fetch - main [MainThread]: End processing [ez]: success
+[2024-04-26 01:30:22] INFO root fetch - main [MainThread]: Store serial: [22939512]
