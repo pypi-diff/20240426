@@ -260,3 +260,42 @@
 [2024-04-26 00:16:29] INFO root fetch - processPackages [parea-ai]: Remove: archive file [/home/abi/fetcher/tmp/parea_ai-0.2.99.tar.gz]
 [2024-04-26 00:16:29] INFO root fetch - main [MainThread]: End processing [parea-ai]: success
 [2024-04-26 00:16:29] INFO root fetch - main [MainThread]: Store serial: [22938928]
+[2024-04-26 00:18:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22938928]
+[2024-04-26 00:18:37] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-26 00:18:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: onstats
+[2024-04-26 00:18:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lghorizon
+[2024-04-26 00:18:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: surfkit
+[2024-04-26 00:18:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cognee
+[2024-04-26 00:18:38] INFO root fetch - processPackages [onstats]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-26 00:18:38] INFO root fetch - processPackages [surfkit]: New version: [0.1.9] Old Version: [0.1.88]
+[2024-04-26 00:18:38] INFO root fetch - processPackages [cognee]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-26 00:18:38] INFO root fetch - processPackages [surfkit]: Downloading https://files.pythonhosted.org/packages/14/85/44a0d1142588f82a657ffdfee8e6cdf59a170e961f8c143d71ffe0c58bb0/surfkit-0.1.88.tar.gz
+[2024-04-26 00:18:38] INFO root fetch - processPackages [lghorizon]: New version: [0.6.9] Old Version: [0.6.8]
+[2024-04-26 00:18:38] INFO root fetch - processPackages [onstats]: Downloading https://files.pythonhosted.org/packages/58/d6/0e49261ab6f2a14a2cf258db5605fd9322565da9b391740c416836da72d8/onstats-0.9.0.tar.gz
+[2024-04-26 00:18:38] INFO root fetch - processPackages [cognee]: Downloading https://files.pythonhosted.org/packages/be/e8/8614a012be7d61182c2834aafe476ff9b10db47b37f1283580d113d869b8/cognee-0.1.4.tar.gz
+[2024-04-26 00:18:38] INFO root fetch - processPackages [lghorizon]: Downloading https://files.pythonhosted.org/packages/5c/b7/d968f303a69268ec74d33517f89b0e3445a009b59af159036296daeb150b/lghorizon-0.6.8.tar.gz
+[2024-04-26 00:18:38] INFO root fetch - processPackages [surfkit]: Downloading https://files.pythonhosted.org/packages/e2/bd/4b842eb12eca8c3a3ea5d2915b52f91a3259c7e0160d2a0a88aeb13ae4a7/surfkit-0.1.9.tar.gz
+[2024-04-26 00:18:38] INFO root fetch - processPackages [surfkit]: executing diffoscope
+[2024-04-26 00:18:38] INFO root fetch - processPackages [surfkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/surfkit-0.1.88.tar.gz tmp/surfkit-0.1.9.tar.gz --markdown 20240426/s/surfkit/0.1.88-0.1.9/README.md --exclude *.pyd
+[2024-04-26 00:18:38] INFO root fetch - processPackages [onstats]: Downloading https://files.pythonhosted.org/packages/41/16/b3f203235e6c4abc0baf8f608b385c1c540985869e4b4c9523e7af656134/onstats-0.9.1.tar.gz
+[2024-04-26 00:18:38] INFO root fetch - processPackages [cognee]: Downloading https://files.pythonhosted.org/packages/ed/10/c870481fbdea9d3c1c1d02027750c655a03879094b59ba49bf77b09e3f30/cognee-0.1.5.tar.gz
+[2024-04-26 00:18:38] INFO root fetch - processPackages [onstats]: executing diffoscope
+[2024-04-26 00:18:38] INFO root fetch - processPackages [onstats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onstats-0.9.0.tar.gz tmp/onstats-0.9.1.tar.gz --markdown 20240426/o/onstats/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-26 00:18:38] INFO root fetch - processPackages [lghorizon]: Downloading https://files.pythonhosted.org/packages/cc/80/1af75e79edc4c4db703b132477bb191a5db9117dc89b2ad363ee50f9a5a0/lghorizon-0.6.9.tar.gz
+[2024-04-26 00:18:38] INFO root fetch - processPackages [cognee]: executing diffoscope
+[2024-04-26 00:18:38] INFO root fetch - processPackages [cognee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognee-0.1.4.tar.gz tmp/cognee-0.1.5.tar.gz --markdown 20240426/c/cognee/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-26 00:18:39] INFO root fetch - processPackages [lghorizon]: executing diffoscope
+[2024-04-26 00:18:39] INFO root fetch - processPackages [lghorizon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lghorizon-0.6.8.tar.gz tmp/lghorizon-0.6.9.tar.gz --markdown 20240426/l/lghorizon/0.6.8-0.6.9/README.md --exclude *.pyd
+[2024-04-26 00:18:39] INFO root fetch - processPackages [surfkit]: Remove: archive file [/home/abi/fetcher/tmp/surfkit-0.1.88.tar.gz]
+[2024-04-26 00:18:39] INFO root fetch - processPackages [surfkit]: Remove: archive file [/home/abi/fetcher/tmp/surfkit-0.1.9.tar.gz]
+[2024-04-26 00:18:39] INFO root fetch - main [MainThread]: End processing [surfkit]: success
+[2024-04-26 00:18:39] INFO root fetch - processPackages [onstats]: Remove: archive file [/home/abi/fetcher/tmp/onstats-0.9.0.tar.gz]
+[2024-04-26 00:18:39] INFO root fetch - processPackages [onstats]: Remove: archive file [/home/abi/fetcher/tmp/onstats-0.9.1.tar.gz]
+[2024-04-26 00:18:39] INFO root fetch - main [MainThread]: End processing [onstats]: success
+[2024-04-26 00:18:39] INFO root fetch - processPackages [lghorizon]: Remove: archive file [/home/abi/fetcher/tmp/lghorizon-0.6.8.tar.gz]
+[2024-04-26 00:18:39] INFO root fetch - processPackages [lghorizon]: Remove: archive file [/home/abi/fetcher/tmp/lghorizon-0.6.9.tar.gz]
+[2024-04-26 00:18:39] INFO root fetch - main [MainThread]: End processing [lghorizon]: success
+[2024-04-26 00:18:39] INFO root fetch - processPackages [cognee]: Remove: archive file [/home/abi/fetcher/tmp/cognee-0.1.4.tar.gz]
+[2024-04-26 00:18:39] INFO root fetch - processPackages [cognee]: Remove: archive file [/home/abi/fetcher/tmp/cognee-0.1.5.tar.gz]
+[2024-04-26 00:18:39] INFO root fetch - main [MainThread]: End processing [cognee]: success
+[2024-04-26 00:18:39] INFO root fetch - main [MainThread]: Store serial: [22938940]
