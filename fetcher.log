@@ -7128,3 +7128,29 @@
 [2024-04-26 03:52:35] INFO root fetch - processPackages [svtter-template-creator]: Remove: archive file [/home/abi/fetcher/tmp/svtter_template_creator-0.6.0.tar.gz]
 [2024-04-26 03:52:35] INFO root fetch - main [MainThread]: End processing [svtter-template-creator]: success
 [2024-04-26 03:52:35] INFO root fetch - main [MainThread]: Store serial: [22941759]
+[2024-04-26 03:54:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22941759]
+[2024-04-26 03:54:43] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-26 03:54:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bed-reader
+[2024-04-26 03:54:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sdtfile
+[2024-04-26 03:54:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: language_toolkit
+[2024-04-26 03:54:43] INFO root fetch - processPackages [language_toolkit]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-04-26 03:54:44] INFO root fetch - processPackages [sdtfile]: New version: [2024.4.24] Old Version: [2023.9.28]
+[2024-04-26 03:54:44] INFO root fetch - processPackages [bed-reader]: New version: [1.0.4b2] Old Version: [1.0.4b1]
+[2024-04-26 03:54:44] INFO root fetch - processPackages [language_toolkit]: Downloading https://files.pythonhosted.org/packages/e3/f1/ec60660a22ac834fa2518d6af708cea4353aa366098af16cccbe61409911/language_toolkit-0.3.0.tar.gz
+[2024-04-26 03:54:44] WARNING root fetch - processPackages [language_toolkit]: Skipping package: exceeds size limit 12735140>=10485760
+[2024-04-26 03:54:44] INFO root fetch - main [MainThread]: End processing [language_toolkit] error
+[2024-04-26 03:54:44] INFO root fetch - processPackages [bed-reader]: Downloading https://files.pythonhosted.org/packages/27/2f/dd987be51738f5cd3668488f8c507ce75a48e7a2abf4655f2b6ed8db9060/bed_reader-1.0.4b1.tar.gz
+[2024-04-26 03:54:44] INFO root fetch - processPackages [sdtfile]: Downloading https://files.pythonhosted.org/packages/88/fd/973c458f20d7300ab31601e1ffc423542b43e815c9f09de0ad77d2cc30cd/sdtfile-2023.9.28.tar.gz
+[2024-04-26 03:54:44] INFO root fetch - processPackages [sdtfile]: Downloading https://files.pythonhosted.org/packages/55/51/c5a190812ce73adaaf8afdeb550c0c536d0b9fd777a4a64a333c81070509/sdtfile-2024.4.24.tar.gz
+[2024-04-26 03:54:44] INFO root fetch - processPackages [sdtfile]: executing diffoscope
+[2024-04-26 03:54:44] INFO root fetch - processPackages [sdtfile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdtfile-2023.9.28.tar.gz tmp/sdtfile-2024.4.24.tar.gz --markdown 20240426/s/sdtfile/2023.9.28-2024.4.24/README.md --exclude *.pyd
+[2024-04-26 03:54:44] INFO root fetch - processPackages [bed-reader]: Downloading https://files.pythonhosted.org/packages/5c/04/db285752cfa079a1399645e2b73a29fc406da93acb79df0b468f20252ead/bed_reader-1.0.4b2.tar.gz
+[2024-04-26 03:54:45] INFO root fetch - processPackages [bed-reader]: executing diffoscope
+[2024-04-26 03:54:45] INFO root fetch - processPackages [bed-reader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bed_reader-1.0.4b1.tar.gz tmp/bed_reader-1.0.4b2.tar.gz --markdown 20240426/b/bed-reader/1.0.4b1-1.0.4b2/README.md --exclude *.pyd
+[2024-04-26 03:54:45] INFO root fetch - processPackages [sdtfile]: Remove: archive file [/home/abi/fetcher/tmp/sdtfile-2023.9.28.tar.gz]
+[2024-04-26 03:54:45] INFO root fetch - processPackages [sdtfile]: Remove: archive file [/home/abi/fetcher/tmp/sdtfile-2024.4.24.tar.gz]
+[2024-04-26 03:54:45] INFO root fetch - main [MainThread]: End processing [sdtfile]: success
+[2024-04-26 03:54:46] INFO root fetch - processPackages [bed-reader]: Remove: archive file [/home/abi/fetcher/tmp/bed_reader-1.0.4b1.tar.gz]
+[2024-04-26 03:54:46] INFO root fetch - processPackages [bed-reader]: Remove: archive file [/home/abi/fetcher/tmp/bed_reader-1.0.4b2.tar.gz]
+[2024-04-26 03:54:46] INFO root fetch - main [MainThread]: End processing [bed-reader]: success
+[2024-04-26 03:54:46] INFO root fetch - main [MainThread]: Store serial: [22941795]
