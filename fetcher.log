@@ -23652,3 +23652,72 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 16:53:15] INFO root fetch - processPackages [abstra]: Remove: archive file [/home/abi/fetcher/tmp/abstra-2.9.0.tar.gz]
 [2024-04-26 16:53:15] INFO root fetch - main [MainThread]: End processing [abstra]: success
 [2024-04-26 16:53:15] INFO root fetch - main [MainThread]: Store serial: [22948881]
+[2024-04-26 16:55:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22948881]
+[2024-04-26 16:55:24] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-26 16:55:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: development-tool
+[2024-04-26 16:55:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: illumio-pylo
+[2024-04-26 16:55:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: feasytools
+[2024-04-26 16:55:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qaml
+[2024-04-26 16:55:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mlx-llm
+[2024-04-26 16:55:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: alphaz-next
+[2024-04-26 16:55:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: arnav
+[2024-04-26 16:55:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sortingview
+[2024-04-26 16:55:25] INFO root fetch - processPackages [alphaz-next]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-04-26 16:55:25] INFO root fetch - processPackages [development-tool]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-04-26 16:55:25] INFO root fetch - processPackages [illumio-pylo]: New version: [0.3.5] Old Version: [0.3.4]
+[2024-04-26 16:55:25] WARNING root fetch - processPackages [arnav]: Skipping, unable to determine old version
+[2024-04-26 16:55:25] INFO root fetch - main [MainThread]: End processing [arnav] error
+[2024-04-26 16:55:25] INFO root fetch - processPackages [qaml]: New version: [0.0.8] Old Version: [0.0.7.9]
+[2024-04-26 16:55:25] INFO root fetch - processPackages [sortingview]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-26 16:55:25] INFO root fetch - processPackages [mlx-llm]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-26 16:55:25] INFO root fetch - processPackages [feasytools]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-26 16:55:25] INFO root fetch - processPackages [alphaz-next]: Downloading https://files.pythonhosted.org/packages/e6/e6/7a4622de728066dabee091925d2d468f0162e085d8ac81d1386db32e66f0/alphaz-next-0.5.8.tar.gz
+[2024-04-26 16:55:25] INFO root fetch - processPackages [development-tool]: Downloading https://files.pythonhosted.org/packages/9f/39/c50f945da4fce5a30fe1cc1819cd1386c78114b487ccb2d7c85422c3d118/development-tool-0.4.1.tar.gz
+[2024-04-26 16:55:25] INFO root fetch - processPackages [illumio-pylo]: Downloading https://files.pythonhosted.org/packages/53/8d/eb32a30030afcfa10ed8aebf48c7b188525385a24b49e608ef27b912bc15/illumio_pylo-0.3.4.tar.gz
+[2024-04-26 16:55:25] INFO root fetch - processPackages [qaml]: Downloading https://files.pythonhosted.org/packages/b5/d6/89a8d4aaecc845122a9eb3cc14241c00ab94eb4e89575d325e9452a5ab99/qaml-0.0.7.9.tar.gz
+[2024-04-26 16:55:25] INFO root fetch - processPackages [feasytools]: Downloading https://files.pythonhosted.org/packages/db/a3/c1d02b7c5103966962d91918fa012afe453693d9708730a475b736302649/feasytools-0.0.8.tar.gz
+[2024-04-26 16:55:25] INFO root fetch - processPackages [mlx-llm]: Downloading https://files.pythonhosted.org/packages/a5/8d/89bf9139c90fe297b85255d50cf6faa3d614ba037be882dd46894e7caa31/mlx_llm-1.0.1.tar.gz
+[2024-04-26 16:55:25] INFO root fetch - processPackages [sortingview]: Downloading https://files.pythonhosted.org/packages/06/0e/569ec7ac0ae9b36ab7587b91d26778666500e2ac4c094e08a232cff72936/sortingview-0.9.8.tar.gz
+[2024-04-26 16:55:25] INFO root fetch - processPackages [alphaz-next]: Downloading https://files.pythonhosted.org/packages/2d/91/9df6de73be4b53c78f4548229962e1314c10d2c7234b83aeddfa578f1fb1/alphaz-next-0.5.9.tar.gz
+[2024-04-26 16:55:25] INFO root fetch - processPackages [alphaz-next]: executing diffoscope
+[2024-04-26 16:55:25] INFO root fetch - processPackages [alphaz-next]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alphaz-next-0.5.8.tar.gz tmp/alphaz-next-0.5.9.tar.gz --markdown 20240426/a/alphaz-next/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-04-26 16:55:25] INFO root fetch - processPackages [illumio-pylo]: Downloading https://files.pythonhosted.org/packages/8a/e3/d3641b6bdb2f226ecebe0bd8398ea601feff4e0531c526e495e460f0328a/illumio_pylo-0.3.5.tar.gz
+[2024-04-26 16:55:25] INFO root fetch - processPackages [qaml]: Downloading https://files.pythonhosted.org/packages/16/22/900e4c9b3c9d4a2afbe2db132e3bad7768d4979e9f3bdd14f35c90e28b2e/qaml-0.0.8.tar.gz
+[2024-04-26 16:55:25] INFO root fetch - processPackages [mlx-llm]: Downloading https://files.pythonhosted.org/packages/97/b0/afb5fd23ce29b5e44b79d7c7d06ff738fbd15ec5855442a0754875e0689d/mlx_llm-1.0.2.tar.gz
+[2024-04-26 16:55:25] INFO root fetch - processPackages [feasytools]: Downloading https://files.pythonhosted.org/packages/4f/10/29ae7e35fa67def1e68f2ec67a32736ed190a03b22110929da0937e75708/feasytools-0.0.9.tar.gz
+[2024-04-26 16:55:25] INFO root fetch - processPackages [development-tool]: Downloading https://files.pythonhosted.org/packages/ba/a0/73c5c8fb1d0bf6e26c005390057ee59658ed8961b768588c379c56db9768/development-tool-0.4.2.tar.gz
+[2024-04-26 16:55:25] INFO root fetch - processPackages [illumio-pylo]: executing diffoscope
+[2024-04-26 16:55:25] INFO root fetch - processPackages [illumio-pylo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/illumio_pylo-0.3.4.tar.gz tmp/illumio_pylo-0.3.5.tar.gz --markdown 20240426/i/illumio-pylo/0.3.4-0.3.5/README.md --exclude *.pyd
+[2024-04-26 16:55:25] INFO root fetch - processPackages [sortingview]: Downloading https://files.pythonhosted.org/packages/4b/07/67fbcd511f4e01f1589547589a339d77b2ac0864f280ea220a3ec5a8b1ec/sortingview-0.9.9.tar.gz
+[2024-04-26 16:55:25] INFO root fetch - processPackages [qaml]: executing diffoscope
+[2024-04-26 16:55:25] INFO root fetch - processPackages [qaml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qaml-0.0.7.9.tar.gz tmp/qaml-0.0.8.tar.gz --markdown 20240426/q/qaml/0.0.7.9-0.0.8/README.md --exclude *.pyd
+[2024-04-26 16:55:25] INFO root fetch - processPackages [mlx-llm]: executing diffoscope
+[2024-04-26 16:55:25] INFO root fetch - processPackages [mlx-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlx_llm-1.0.1.tar.gz tmp/mlx_llm-1.0.2.tar.gz --markdown 20240426/m/mlx-llm/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-26 16:55:25] INFO root fetch - processPackages [feasytools]: executing diffoscope
+[2024-04-26 16:55:25] INFO root fetch - processPackages [feasytools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feasytools-0.0.8.tar.gz tmp/feasytools-0.0.9.tar.gz --markdown 20240426/f/feasytools/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-26 16:55:26] INFO root fetch - processPackages [development-tool]: executing diffoscope
+[2024-04-26 16:55:26] INFO root fetch - processPackages [development-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/development-tool-0.4.1.tar.gz tmp/development-tool-0.4.2.tar.gz --markdown 20240426/d/development-tool/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-04-26 16:55:26] INFO root fetch - processPackages [sortingview]: executing diffoscope
+[2024-04-26 16:55:26] INFO root fetch - processPackages [sortingview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sortingview-0.9.8.tar.gz tmp/sortingview-0.9.9.tar.gz --markdown 20240426/s/sortingview/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-26 16:55:26] INFO root fetch - processPackages [alphaz-next]: Remove: archive file [/home/abi/fetcher/tmp/alphaz-next-0.5.8.tar.gz]
+[2024-04-26 16:55:26] INFO root fetch - processPackages [alphaz-next]: Remove: archive file [/home/abi/fetcher/tmp/alphaz-next-0.5.9.tar.gz]
+[2024-04-26 16:55:26] INFO root fetch - main [MainThread]: End processing [alphaz-next]: success
+[2024-04-26 16:55:26] INFO root fetch - processPackages [feasytools]: Remove: archive file [/home/abi/fetcher/tmp/feasytools-0.0.8.tar.gz]
+[2024-04-26 16:55:26] INFO root fetch - processPackages [feasytools]: Remove: archive file [/home/abi/fetcher/tmp/feasytools-0.0.9.tar.gz]
+[2024-04-26 16:55:26] INFO root fetch - main [MainThread]: End processing [feasytools]: success
+[2024-04-26 16:55:26] INFO root fetch - processPackages [qaml]: Remove: archive file [/home/abi/fetcher/tmp/qaml-0.0.7.9.tar.gz]
+[2024-04-26 16:55:26] INFO root fetch - processPackages [qaml]: Remove: archive file [/home/abi/fetcher/tmp/qaml-0.0.8.tar.gz]
+[2024-04-26 16:55:26] INFO root fetch - main [MainThread]: End processing [qaml]: success
+[2024-04-26 16:55:26] INFO root fetch - processPackages [mlx-llm]: Remove: archive file [/home/abi/fetcher/tmp/mlx_llm-1.0.1.tar.gz]
+[2024-04-26 16:55:26] INFO root fetch - processPackages [mlx-llm]: Remove: archive file [/home/abi/fetcher/tmp/mlx_llm-1.0.2.tar.gz]
+[2024-04-26 16:55:26] INFO root fetch - main [MainThread]: End processing [mlx-llm]: success
+[2024-04-26 16:55:27] INFO root fetch - processPackages [development-tool]: Remove: archive file [/home/abi/fetcher/tmp/development-tool-0.4.1.tar.gz]
+[2024-04-26 16:55:27] INFO root fetch - processPackages [development-tool]: Remove: archive file [/home/abi/fetcher/tmp/development-tool-0.4.2.tar.gz]
+[2024-04-26 16:55:27] INFO root fetch - main [MainThread]: End processing [development-tool]: success
+[2024-04-26 16:55:27] INFO root fetch - processPackages [sortingview]: Remove: archive file [/home/abi/fetcher/tmp/sortingview-0.9.8.tar.gz]
+[2024-04-26 16:55:27] INFO root fetch - processPackages [sortingview]: Remove: archive file [/home/abi/fetcher/tmp/sortingview-0.9.9.tar.gz]
+[2024-04-26 16:55:27] INFO root fetch - main [MainThread]: End processing [sortingview]: success
+[2024-04-26 16:55:27] INFO root fetch - processPackages [illumio-pylo]: Remove: archive file [/home/abi/fetcher/tmp/illumio_pylo-0.3.4.tar.gz]
+[2024-04-26 16:55:27] INFO root fetch - processPackages [illumio-pylo]: Remove: archive file [/home/abi/fetcher/tmp/illumio_pylo-0.3.5.tar.gz]
+[2024-04-26 16:55:27] INFO root fetch - main [MainThread]: End processing [illumio-pylo]: success
+[2024-04-26 16:55:27] INFO root fetch - main [MainThread]: Store serial: [22948904]
