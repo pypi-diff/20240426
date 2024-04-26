@@ -11412,3 +11412,68 @@
 [2024-04-26 08:38:17] INFO root fetch - processPackages [pulumi-okta]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_okta-4.9.0a1714111506.tar.gz]
 [2024-04-26 08:38:17] INFO root fetch - main [MainThread]: End processing [pulumi-okta]: success
 [2024-04-26 08:38:17] INFO root fetch - main [MainThread]: Store serial: [22943541]
+[2024-04-26 08:40:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22943541]
+[2024-04-26 08:40:25] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-26 08:40:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: simo
+[2024-04-26 08:40:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fosslight-source
+[2024-04-26 08:40:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyplotlib
+[2024-04-26 08:40:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: onpy
+[2024-04-26 08:40:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: antchain-realperson
+[2024-04-26 08:40:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kfre
+[2024-04-26 08:40:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dbt-bytehouse
+[2024-04-26 08:40:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: GaiaScript
+[2024-04-26 08:40:25] INFO root fetch - processPackages [GaiaScript]: New version: [0.1.1.3] Old Version: [0.1.1.2]
+[2024-04-26 08:40:25] INFO root fetch - processPackages [simo]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-04-26 08:40:25] INFO root fetch - processPackages [kfre]: New version: [0.1.1a6] Old Version: [0.1.1a5]
+[2024-04-26 08:40:25] INFO root fetch - processPackages [pyplotlib]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-26 08:40:25] INFO root fetch - processPackages [GaiaScript]: Downloading https://files.pythonhosted.org/packages/79/6c/eeee6b576ef153155c7b3a90775bb1aaa4f2b8cef180f63a015128a6f65d/GaiaScript-0.1.1.2.tar.gz
+[2024-04-26 08:40:25] INFO root fetch - processPackages [simo]: Downloading https://files.pythonhosted.org/packages/9c/3e/85c97e5462a3125c0189f179fa275e8a0cf69dce695c9a637286581a09a0/simo-2.0.8.tar.gz
+[2024-04-26 08:40:25] WARNING root fetch - processPackages [onpy]: Skipping, unable to determine old version
+[2024-04-26 08:40:25] INFO root fetch - main [MainThread]: End processing [onpy] error
+[2024-04-26 08:40:25] INFO root fetch - processPackages [dbt-bytehouse]: New version: [1.7.2] Old Version: [1.7.1]
+[2024-04-26 08:40:25] INFO root fetch - processPackages [antchain-realperson]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-26 08:40:25] INFO root fetch - processPackages [fosslight-source]: New version: [1.7.7] Old Version: [1.7.6]
+[2024-04-26 08:40:25] INFO root fetch - processPackages [kfre]: Downloading https://files.pythonhosted.org/packages/e7/82/7f4e589412e614e2ffc2b8041432449e3dfd35f6a6b4c8c2e5841ce18d7b/kfre-0.1.1a5.tar.gz
+[2024-04-26 08:40:25] INFO root fetch - processPackages [pyplotlib]: Downloading https://files.pythonhosted.org/packages/28/bb/58ba19c8fed8024ef2c0efd0523dded73560d64857fcd7916d35aa6aa8af/pyplotlib-0.0.8.tar.gz
+[2024-04-26 08:40:25] WARNING root fetch - processPackages [simo]: Skipping package: exceeds size limit 20582813>=10485760
+[2024-04-26 08:40:25] INFO root fetch - main [MainThread]: End processing [simo] error
+[2024-04-26 08:40:25] INFO root fetch - processPackages [dbt-bytehouse]: Downloading https://files.pythonhosted.org/packages/69/a7/9b39ccb2d65709ac459d83056f92b7b8c0119563dfef6a62610095192cec/dbt-bytehouse-1.7.1.tar.gz
+[2024-04-26 08:40:25] INFO root fetch - processPackages [fosslight-source]: Downloading https://files.pythonhosted.org/packages/0b/a2/f0dcce4d0ce251aba0af85e49204b988174ed6062cbb0a7c01e9f14d7b6c/fosslight_source-1.7.6.tar.gz
+[2024-04-26 08:40:25] INFO root fetch - processPackages [antchain-realperson]: Downloading https://files.pythonhosted.org/packages/eb/a2/3f01d4e32b37abcbd4203da7171764d82654cdcc3c5345c10e16c8cc1026/antchain_realperson-1.8.0.tar.gz
+[2024-04-26 08:40:25] INFO root fetch - processPackages [pyplotlib]: Downloading https://files.pythonhosted.org/packages/8b/f8/1cec6ba77c9aee645ad1564c6fe928db135b36bec387a9574c6422edd191/pyplotlib-0.0.9.tar.gz
+[2024-04-26 08:40:26] INFO root fetch - processPackages [GaiaScript]: Downloading https://files.pythonhosted.org/packages/04/7d/2d8e40b7880ef8bebfc3f332a8b9c3928690339fb80d5db0537af82016dc/GaiaScript-0.1.1.3.tar.gz
+[2024-04-26 08:40:26] INFO root fetch - processPackages [kfre]: Downloading https://files.pythonhosted.org/packages/e8/b9/463cf861200ce5dea0a07aec40048731bd0d3b4ce09af6726fae757863cb/kfre-0.1.1a6.tar.gz
+[2024-04-26 08:40:26] INFO root fetch - processPackages [pyplotlib]: executing diffoscope
+[2024-04-26 08:40:26] INFO root fetch - processPackages [pyplotlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyplotlib-0.0.8.tar.gz tmp/pyplotlib-0.0.9.tar.gz --markdown 20240426/p/pyplotlib/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-26 08:40:26] INFO root fetch - processPackages [GaiaScript]: executing diffoscope
+[2024-04-26 08:40:26] INFO root fetch - processPackages [GaiaScript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GaiaScript-0.1.1.2.tar.gz tmp/GaiaScript-0.1.1.3.tar.gz --markdown 20240426/G/GaiaScript/0.1.1.2-0.1.1.3/README.md --exclude *.pyd
+[2024-04-26 08:40:26] INFO root fetch - processPackages [fosslight-source]: Downloading https://files.pythonhosted.org/packages/c9/67/9da954aa35c16bf5faa4203c5df2012f00c04edf61fdbbfbff65c7bbdb34/fosslight_source-1.7.7.tar.gz
+[2024-04-26 08:40:26] INFO root fetch - processPackages [kfre]: executing diffoscope
+[2024-04-26 08:40:26] INFO root fetch - processPackages [kfre]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfre-0.1.1a5.tar.gz tmp/kfre-0.1.1a6.tar.gz --markdown 20240426/k/kfre/0.1.1a5-0.1.1a6/README.md --exclude *.pyd
+[2024-04-26 08:40:26] INFO root fetch - processPackages [antchain-realperson]: Downloading https://files.pythonhosted.org/packages/4a/82/aad5948d1047eab3b05c7870556ffed9533375a00479896aaaa7ac706ece/antchain_realperson-1.9.0.tar.gz
+[2024-04-26 08:40:26] INFO root fetch - processPackages [dbt-bytehouse]: Downloading https://files.pythonhosted.org/packages/50/a4/09a767bf41dbfa3b5a1d2f063fe5683754d4bd90aea1deff557c7d4cb51a/dbt-bytehouse-1.7.2.tar.gz
+[2024-04-26 08:40:26] INFO root fetch - processPackages [fosslight-source]: executing diffoscope
+[2024-04-26 08:40:26] INFO root fetch - processPackages [fosslight-source]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fosslight_source-1.7.6.tar.gz tmp/fosslight_source-1.7.7.tar.gz --markdown 20240426/f/fosslight-source/1.7.6-1.7.7/README.md --exclude *.pyd
+[2024-04-26 08:40:26] INFO root fetch - processPackages [antchain-realperson]: executing diffoscope
+[2024-04-26 08:40:26] INFO root fetch - processPackages [antchain-realperson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_realperson-1.8.0.tar.gz tmp/antchain_realperson-1.9.0.tar.gz --markdown 20240426/a/antchain-realperson/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-04-26 08:40:26] INFO root fetch - processPackages [dbt-bytehouse]: executing diffoscope
+[2024-04-26 08:40:26] INFO root fetch - processPackages [dbt-bytehouse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-bytehouse-1.7.1.tar.gz tmp/dbt-bytehouse-1.7.2.tar.gz --markdown 20240426/d/dbt-bytehouse/1.7.1-1.7.2/README.md --exclude *.pyd
+[2024-04-26 08:40:26] INFO root fetch - processPackages [pyplotlib]: Remove: archive file [/home/abi/fetcher/tmp/pyplotlib-0.0.8.tar.gz]
+[2024-04-26 08:40:26] INFO root fetch - processPackages [pyplotlib]: Remove: archive file [/home/abi/fetcher/tmp/pyplotlib-0.0.9.tar.gz]
+[2024-04-26 08:40:26] INFO root fetch - main [MainThread]: End processing [pyplotlib]: success
+[2024-04-26 08:40:26] INFO root fetch - processPackages [GaiaScript]: Remove: archive file [/home/abi/fetcher/tmp/GaiaScript-0.1.1.2.tar.gz]
+[2024-04-26 08:40:26] INFO root fetch - processPackages [GaiaScript]: Remove: archive file [/home/abi/fetcher/tmp/GaiaScript-0.1.1.3.tar.gz]
+[2024-04-26 08:40:26] INFO root fetch - main [MainThread]: End processing [GaiaScript]: success
+[2024-04-26 08:40:26] INFO root fetch - processPackages [kfre]: Remove: archive file [/home/abi/fetcher/tmp/kfre-0.1.1a5.tar.gz]
+[2024-04-26 08:40:26] INFO root fetch - processPackages [kfre]: Remove: archive file [/home/abi/fetcher/tmp/kfre-0.1.1a6.tar.gz]
+[2024-04-26 08:40:26] INFO root fetch - main [MainThread]: End processing [kfre]: success
+[2024-04-26 08:40:27] INFO root fetch - processPackages [antchain-realperson]: Remove: archive file [/home/abi/fetcher/tmp/antchain_realperson-1.8.0.tar.gz]
+[2024-04-26 08:40:27] INFO root fetch - processPackages [antchain-realperson]: Remove: archive file [/home/abi/fetcher/tmp/antchain_realperson-1.9.0.tar.gz]
+[2024-04-26 08:40:27] INFO root fetch - main [MainThread]: End processing [antchain-realperson]: success
+[2024-04-26 08:40:27] INFO root fetch - processPackages [fosslight-source]: Remove: archive file [/home/abi/fetcher/tmp/fosslight_source-1.7.6.tar.gz]
+[2024-04-26 08:40:27] INFO root fetch - processPackages [fosslight-source]: Remove: archive file [/home/abi/fetcher/tmp/fosslight_source-1.7.7.tar.gz]
+[2024-04-26 08:40:27] INFO root fetch - main [MainThread]: End processing [fosslight-source]: success
+[2024-04-26 08:40:27] INFO root fetch - processPackages [dbt-bytehouse]: Remove: archive file [/home/abi/fetcher/tmp/dbt-bytehouse-1.7.1.tar.gz]
+[2024-04-26 08:40:27] INFO root fetch - processPackages [dbt-bytehouse]: Remove: archive file [/home/abi/fetcher/tmp/dbt-bytehouse-1.7.2.tar.gz]
+[2024-04-26 08:40:27] INFO root fetch - main [MainThread]: End processing [dbt-bytehouse]: success
+[2024-04-26 08:40:27] INFO root fetch - main [MainThread]: Store serial: [22943565]
