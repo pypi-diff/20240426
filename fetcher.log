@@ -20577,3 +20577,40 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 14:51:33] INFO root fetch - processPackages [byteblower-test-cases-rfc-2544]: Remove: archive file [/home/abi/fetcher/tmp/byteblower_test_cases_rfc_2544-1.0.1.tar.gz]
 [2024-04-26 14:51:33] INFO root fetch - main [MainThread]: End processing [byteblower-test-cases-rfc-2544]: success
 [2024-04-26 14:51:33] INFO root fetch - main [MainThread]: Store serial: [22947596]
+[2024-04-26 14:53:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22947596]
+[2024-04-26 14:53:42] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-26 14:53:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: syft
+[2024-04-26 14:53:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autocortext-py
+[2024-04-26 14:53:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: framelib
+[2024-04-26 14:53:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: e2enetworks
+[2024-04-26 14:53:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sema-toolchain
+[2024-04-26 14:53:42] INFO root fetch - processPackages [framelib]: New version: [0.0.4b1] Old Version: [0.0.4b0]
+[2024-04-26 14:53:42] INFO root fetch - processPackages [autocortext-py]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-04-26 14:53:42] INFO root fetch - processPackages [syft]: New version: [0.8.7b4] Old Version: [0.8.7b3]
+[2024-04-26 14:53:42] INFO root fetch - processPackages [framelib]: Downloading https://files.pythonhosted.org/packages/df/a0/fbc3c7858a849bef6561c72061d19e7e35af39e244b2c4962a3958f30572/framelib-0.0.4b0.tar.gz
+[2024-04-26 14:53:42] INFO root fetch - processPackages [e2enetworks]: New version: [1.2.3] Old Version: [1.2.2]
+[2024-04-26 14:53:42] INFO root fetch - processPackages [syft]: Downloading https://files.pythonhosted.org/packages/e5/0e/54c68aeaec34bd23ff1d84b6e50286db059a23d0b9124f5c42c877f624ca/syft-0.8.7b3.tar.gz
+[2024-04-26 14:53:42] ERROR root fetch - processPackages [autocortext-py]: Unable to fetch info: No such project/version 'autocortext-py' 0.2.0
+[2024-04-26 14:53:42] INFO root fetch - main [MainThread]: End processing [autocortext-py] error
+[2024-04-26 14:53:43] WARNING root fetch - processPackages [sema-toolchain]: Skipping, unable to determine old version
+[2024-04-26 14:53:43] INFO root fetch - main [MainThread]: End processing [sema-toolchain] error
+[2024-04-26 14:53:43] INFO root fetch - processPackages [e2enetworks]: Downloading https://files.pythonhosted.org/packages/1a/0f/5a40e784a13aa1f107065ef4c5ab150a4c9f9049081661dbfa32e7d1f3b3/e2enetworks-1.2.2.tar.gz
+[2024-04-26 14:53:43] INFO root fetch - processPackages [framelib]: Downloading https://files.pythonhosted.org/packages/b3/0a/fceabd6118605d63193e15af18203a6b99b385d1f1a4c58f688330e21aa1/framelib-0.0.4b1.tar.gz
+[2024-04-26 14:53:43] INFO root fetch - processPackages [syft]: Downloading https://files.pythonhosted.org/packages/31/fc/2ddf5e8516efda6a464ba09a555081439030998d2eb8e7d11728efd6f1af/syft-0.8.7b4.tar.gz
+[2024-04-26 14:53:43] INFO root fetch - processPackages [framelib]: executing diffoscope
+[2024-04-26 14:53:43] INFO root fetch - processPackages [framelib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/framelib-0.0.4b0.tar.gz tmp/framelib-0.0.4b1.tar.gz --markdown 20240426/f/framelib/0.0.4b0-0.0.4b1/README.md --exclude *.pyd
+[2024-04-26 14:53:43] INFO root fetch - processPackages [e2enetworks]: Downloading https://files.pythonhosted.org/packages/f6/c3/ea8b7707b017075a12ef0e42f039129053720da2f041a145c9ba58c414da/e2enetworks-1.2.3.tar.gz
+[2024-04-26 14:53:43] INFO root fetch - processPackages [syft]: executing diffoscope
+[2024-04-26 14:53:43] INFO root fetch - processPackages [syft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syft-0.8.7b3.tar.gz tmp/syft-0.8.7b4.tar.gz --markdown 20240426/s/syft/0.8.7b3-0.8.7b4/README.md --exclude *.pyd
+[2024-04-26 14:53:43] INFO root fetch - processPackages [e2enetworks]: executing diffoscope
+[2024-04-26 14:53:43] INFO root fetch - processPackages [e2enetworks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/e2enetworks-1.2.2.tar.gz tmp/e2enetworks-1.2.3.tar.gz --markdown 20240426/e/e2enetworks/1.2.2-1.2.3/README.md --exclude *.pyd
+[2024-04-26 14:53:43] INFO root fetch - processPackages [framelib]: Remove: archive file [/home/abi/fetcher/tmp/framelib-0.0.4b0.tar.gz]
+[2024-04-26 14:53:43] INFO root fetch - processPackages [framelib]: Remove: archive file [/home/abi/fetcher/tmp/framelib-0.0.4b1.tar.gz]
+[2024-04-26 14:53:43] INFO root fetch - main [MainThread]: End processing [framelib]: success
+[2024-04-26 14:53:44] INFO root fetch - processPackages [e2enetworks]: Remove: archive file [/home/abi/fetcher/tmp/e2enetworks-1.2.2.tar.gz]
+[2024-04-26 14:53:44] INFO root fetch - processPackages [e2enetworks]: Remove: archive file [/home/abi/fetcher/tmp/e2enetworks-1.2.3.tar.gz]
+[2024-04-26 14:53:44] INFO root fetch - main [MainThread]: End processing [e2enetworks]: success
+[2024-04-26 14:53:44] INFO root fetch - processPackages [syft]: Remove: archive file [/home/abi/fetcher/tmp/syft-0.8.7b3.tar.gz]
+[2024-04-26 14:53:44] INFO root fetch - processPackages [syft]: Remove: archive file [/home/abi/fetcher/tmp/syft-0.8.7b4.tar.gz]
+[2024-04-26 14:53:44] INFO root fetch - main [MainThread]: End processing [syft]: success
+[2024-04-26 14:53:44] INFO root fetch - main [MainThread]: Store serial: [22947613]
