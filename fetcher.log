@@ -14571,3 +14571,144 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 10:35:29] INFO root fetch - processPackages [pywb]: Remove: archive file [/home/abi/fetcher/tmp/pywb-2.8.3.tar.gz]
 [2024-04-26 10:35:29] INFO root fetch - main [MainThread]: End processing [pywb]: success
 [2024-04-26 10:35:29] INFO root fetch - main [MainThread]: Store serial: [22945051]
+[2024-04-26 10:37:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22945051]
+[2024-04-26 10:37:38] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2024-04-26 10:37:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PyQt6-3D
+[2024-04-26 10:37:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PyQt6-Charts
+[2024-04-26 10:37:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: holytools
+[2024-04-26 10:37:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PyQt6-DataVisualization
+[2024-04-26 10:37:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tidypath
+[2024-04-26 10:37:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: CUQIpy
+[2024-04-26 10:37:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PyQt6-NetworkAuth
+[2024-04-26 10:37:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: PyQt6-WebEngine
+[2024-04-26 10:37:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lukasdata
+[2024-04-26 10:37:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: PyQt6
+[2024-04-26 10:37:38] WARNING root fetch - processPackages [holytools]: Skipping, unable to determine old version
+[2024-04-26 10:37:38] INFO root fetch - processPackages [holytools]: Start processing: gardener-cicd-base
+[2024-04-26 10:37:38] INFO root fetch - main [MainThread]: End processing [holytools] error
+[2024-04-26 10:37:38] INFO root fetch - processPackages [tidypath]: New version: [1.3.5] Old Version: [1.3.4]
+[2024-04-26 10:37:38] INFO root fetch - processPackages [lukasdata]: New version: [1.2.2] Old Version: [1.2.1]
+[2024-04-26 10:37:38] INFO root fetch - processPackages [tidypath]: Downloading https://files.pythonhosted.org/packages/0f/af/5167e069d307481096f61e5140810b525692fff852c599b39ee5f7a232cb/tidypath-1.3.4.tar.gz
+[2024-04-26 10:37:38] INFO root fetch - processPackages [PyQt6-Charts]: New version: [6.7.0] Old Version: [6.6.0]
+[2024-04-26 10:37:38] INFO root fetch - processPackages [lukasdata]: Downloading https://files.pythonhosted.org/packages/e2/04/9f0bb61dc5f4a1e08a0be2cb768f580c3fd688a1bd9cc3d407bb2c922cba/lukasdata-1.2.1.tar.gz
+[2024-04-26 10:37:38] INFO root fetch - processPackages [PyQt6-NetworkAuth]: New version: [6.7.0] Old Version: [6.6.0]
+[2024-04-26 10:37:38] INFO root fetch - processPackages [PyQt6-WebEngine]: New version: [6.7.0] Old Version: [6.6.0]
+[2024-04-26 10:37:38] INFO root fetch - processPackages [PyQt6-3D]: New version: [6.7.0] Old Version: [6.6.0]
+[2024-04-26 10:37:38] INFO root fetch - processPackages [PyQt6-DataVisualization]: New version: [6.7.0] Old Version: [6.6.0]
+[2024-04-26 10:37:38] INFO root fetch - processPackages [PyQt6]: New version: [6.7.0] Old Version: [6.6.1]
+[2024-04-26 10:37:38] INFO root fetch - processPackages [CUQIpy]: New version: [1.0.0.post0.dev91] Old Version: [1.0.0.post0.dev84]
+[2024-04-26 10:37:38] INFO root fetch - processPackages [gardener-cicd-base]: New version: [1.2385.0] Old Version: [1.2384.0]
+[2024-04-26 10:37:38] INFO root fetch - processPackages [PyQt6-WebEngine]: Downloading https://files.pythonhosted.org/packages/49/9a/69db3a2ab1ba43f762144a66f0375540e195e107a1049d7263ab48ebc9cc/PyQt6_WebEngine-6.6.0.tar.gz
+[2024-04-26 10:37:38] INFO root fetch - processPackages [PyQt6-Charts]: Downloading https://files.pythonhosted.org/packages/ef/7e/88d25f0c34a795744d8b87d0bdb5c76ce0e28f4070568e763442973c3e2c/PyQt6_Charts-6.6.0.tar.gz
+[2024-04-26 10:37:38] INFO root fetch - processPackages [PyQt6]: Downloading https://files.pythonhosted.org/packages/8c/2b/6fe0409501798abc780a70cab48c39599742ab5a8168e682107eaab78fca/PyQt6-6.6.1.tar.gz
+[2024-04-26 10:37:38] INFO root fetch - processPackages [CUQIpy]: Downloading https://files.pythonhosted.org/packages/a3/7a/3055a8605b15ec5a340925b0806d2098b023cdcdfbce3a64efc80ac9b179/CUQIpy-1.0.0.post0.dev84.tar.gz
+[2024-04-26 10:37:38] INFO root fetch - processPackages [PyQt6-3D]: Downloading https://files.pythonhosted.org/packages/3c/3f/7909d2886f500b9512a544c46c4e3e213a7624229a1dd1f417b885dedd6e/PyQt6_3D-6.6.0.tar.gz
+[2024-04-26 10:37:38] INFO root fetch - processPackages [PyQt6-NetworkAuth]: Downloading https://files.pythonhosted.org/packages/c4/db/b4a4ec7c0566b247410a0371a91050592b76480ca7581ebeb2c537f4596b/PyQt6_NetworkAuth-6.6.0.tar.gz
+[2024-04-26 10:37:38] INFO root fetch - processPackages [PyQt6-DataVisualization]: Downloading https://files.pythonhosted.org/packages/e1/ca/8b4a4ba040ecfa4fa0859ee8dcb99095f19c4ca5e42255821c9a6feafde8/PyQt6_DataVisualization-6.6.0.tar.gz
+[2024-04-26 10:37:38] INFO root fetch - processPackages [gardener-cicd-base]: Downloading https://files.pythonhosted.org/packages/7f/1b/3a63e0da0702af91438ff023edeeecc70ffb346be5ed789e58d64d1c7911/gardener_cicd_base-1.2384.0.tar.gz
+[2024-04-26 10:37:39] INFO root fetch - processPackages [tidypath]: Downloading https://files.pythonhosted.org/packages/ad/8b/bcc3ab037d0382e5aae8cbde5fd9f4fe1e4e9bdad2fe1e69efbe9fd32489/tidypath-1.3.5.tar.gz
+[2024-04-26 10:37:39] INFO root fetch - processPackages [lukasdata]: Downloading https://files.pythonhosted.org/packages/00/3a/be2524b7ba95750baa3624440f17ae30c685c98e09088e690df2efd1e3e0/lukasdata-1.2.2.tar.gz
+[2024-04-26 10:37:39] INFO root fetch - processPackages [lukasdata]: executing diffoscope
+[2024-04-26 10:37:39] INFO root fetch - processPackages [lukasdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lukasdata-1.2.1.tar.gz tmp/lukasdata-1.2.2.tar.gz --markdown 20240426/l/lukasdata/1.2.1-1.2.2/README.md --exclude *.pyd
+[2024-04-26 10:37:39] INFO root fetch - processPackages [tidypath]: executing diffoscope
+[2024-04-26 10:37:39] INFO root fetch - processPackages [tidypath]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tidypath-1.3.4.tar.gz tmp/tidypath-1.3.5.tar.gz --markdown 20240426/t/tidypath/1.3.4-1.3.5/README.md --exclude *.pyd
+[2024-04-26 10:37:39] INFO root fetch - processPackages [PyQt6-WebEngine]: Downloading https://files.pythonhosted.org/packages/87/88/230ec599944edf941f4cca8d1439e3a9c8c546715434eee05dce7ff032ed/PyQt6_WebEngine-6.7.0.tar.gz
+[2024-04-26 10:37:39] INFO root fetch - processPackages [PyQt6-Charts]: Downloading https://files.pythonhosted.org/packages/db/45/e60ba544339c81c879ab61e914010051ae8695cd7ffaafebf0a9adbd8bd4/PyQt6_Charts-6.7.0.tar.gz
+[2024-04-26 10:37:39] INFO root fetch - processPackages [gardener-cicd-base]: Downloading https://files.pythonhosted.org/packages/6a/d6/0bfeefffc2b42ba133f0167c193a2a3d0df9e6c445697429e0858e99061d/gardener_cicd_base-1.2385.0.tar.gz
+[2024-04-26 10:37:39] INFO root fetch - processPackages [PyQt6-NetworkAuth]: Downloading https://files.pythonhosted.org/packages/bc/c5/fd594dec201471ccf99c27ad65a40a0c4965503f89ff798ca785b2e7c5ee/PyQt6_NetworkAuth-6.7.0.tar.gz
+[2024-04-26 10:37:39] INFO root fetch - processPackages [PyQt6-DataVisualization]: Downloading https://files.pythonhosted.org/packages/4c/18/c4e02ea4340490f05c93307847c94debecba9510cc49af2fe913cf67869f/PyQt6_DataVisualization-6.7.0.tar.gz
+[2024-04-26 10:37:39] INFO root fetch - processPackages [PyQt6]: Downloading https://files.pythonhosted.org/packages/ce/c6/99127e39e62f0c887a39d9644012867874a68983bd0fe641f00aa796de88/PyQt6-6.7.0.tar.gz
+[2024-04-26 10:37:39] INFO root fetch - processPackages [PyQt6-Charts]: executing diffoscope
+[2024-04-26 10:37:39] INFO root fetch - processPackages [PyQt6-Charts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyQt6_Charts-6.6.0.tar.gz tmp/PyQt6_Charts-6.7.0.tar.gz --markdown 20240426/P/PyQt6-Charts/6.6.0-6.7.0/README.md --exclude *.pyd
+[2024-04-26 10:37:39] INFO root fetch - processPackages [PyQt6-WebEngine]: executing diffoscope
+[2024-04-26 10:37:39] INFO root fetch - processPackages [PyQt6-WebEngine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyQt6_WebEngine-6.6.0.tar.gz tmp/PyQt6_WebEngine-6.7.0.tar.gz --markdown 20240426/P/PyQt6-WebEngine/6.6.0-6.7.0/README.md --exclude *.pyd
+[2024-04-26 10:37:39] INFO root fetch - processPackages [CUQIpy]: Downloading https://files.pythonhosted.org/packages/20/73/290e5c26c332d440fb4538f8ec866910cfe4be75fbfeb121b4d47fcd6a21/CUQIpy-1.0.0.post0.dev91.tar.gz
+[2024-04-26 10:37:39] INFO root fetch - processPackages [gardener-cicd-base]: executing diffoscope
+[2024-04-26 10:37:39] INFO root fetch - processPackages [gardener-cicd-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener_cicd_base-1.2384.0.tar.gz tmp/gardener_cicd_base-1.2385.0.tar.gz --markdown 20240426/g/gardener-cicd-base/1.2384.0-1.2385.0/README.md --exclude *.pyd
+[2024-04-26 10:37:39] INFO root fetch - processPackages [PyQt6-NetworkAuth]: executing diffoscope
+[2024-04-26 10:37:39] INFO root fetch - processPackages [PyQt6-NetworkAuth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyQt6_NetworkAuth-6.6.0.tar.gz tmp/PyQt6_NetworkAuth-6.7.0.tar.gz --markdown 20240426/P/PyQt6-NetworkAuth/6.6.0-6.7.0/README.md --exclude *.pyd
+[2024-04-26 10:37:39] INFO root fetch - processPackages [PyQt6-DataVisualization]: executing diffoscope
+[2024-04-26 10:37:39] INFO root fetch - processPackages [PyQt6-DataVisualization]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyQt6_DataVisualization-6.6.0.tar.gz tmp/PyQt6_DataVisualization-6.7.0.tar.gz --markdown 20240426/P/PyQt6-DataVisualization/6.6.0-6.7.0/README.md --exclude *.pyd
+[2024-04-26 10:37:39] INFO root fetch - processPackages [PyQt6-3D]: Downloading https://files.pythonhosted.org/packages/d4/4c/fdc69a29e733e2f6fdb9a9d3f6321702502405e45cef632be4d73c1cd501/PyQt6_3D-6.7.0.tar.gz
+[2024-04-26 10:37:39] INFO root fetch - processPackages [PyQt6]: executing diffoscope
+[2024-04-26 10:37:39] INFO root fetch - processPackages [PyQt6]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyQt6-6.6.1.tar.gz tmp/PyQt6-6.7.0.tar.gz --markdown 20240426/P/PyQt6/6.6.1-6.7.0/README.md --exclude *.pyd
+[2024-04-26 10:37:39] INFO root fetch - processPackages [CUQIpy]: executing diffoscope
+[2024-04-26 10:37:39] INFO root fetch - processPackages [CUQIpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CUQIpy-1.0.0.post0.dev84.tar.gz tmp/CUQIpy-1.0.0.post0.dev91.tar.gz --markdown 20240426/C/CUQIpy/1.0.0.post0.dev84-1.0.0.post0.dev91/README.md --exclude *.pyd
+[2024-04-26 10:37:40] INFO root fetch - processPackages [lukasdata]: Remove: archive file [/home/abi/fetcher/tmp/lukasdata-1.2.1.tar.gz]
+[2024-04-26 10:37:40] INFO root fetch - processPackages [lukasdata]: Remove: archive file [/home/abi/fetcher/tmp/lukasdata-1.2.2.tar.gz]
+[2024-04-26 10:37:40] INFO root fetch - processPackages [lukasdata]: Start processing: gardener-cicd-cli
+[2024-04-26 10:37:40] INFO root fetch - main [MainThread]: End processing [lukasdata]: success
+[2024-04-26 10:37:40] INFO root fetch - processPackages [tidypath]: Remove: archive file [/home/abi/fetcher/tmp/tidypath-1.3.4.tar.gz]
+[2024-04-26 10:37:40] INFO root fetch - processPackages [tidypath]: Remove: archive file [/home/abi/fetcher/tmp/tidypath-1.3.5.tar.gz]
+[2024-04-26 10:37:40] INFO root fetch - processPackages [tidypath]: Start processing: gardener-cicd-dso
+[2024-04-26 10:37:40] INFO root fetch - main [MainThread]: End processing [tidypath]: success
+[2024-04-26 10:37:40] INFO root fetch - processPackages [gardener-cicd-cli]: New version: [1.2385.0] Old Version: [1.2384.0]
+[2024-04-26 10:37:40] INFO root fetch - processPackages [gardener-cicd-dso]: New version: [1.2385.0] Old Version: [1.2384.0]
+[2024-04-26 10:37:40] INFO root fetch - processPackages [gardener-cicd-cli]: Downloading https://files.pythonhosted.org/packages/4b/3f/70b6f43496c84fdbfc9478b2a0905ce42a9c9600a9637ab5ed114e6ad774/gardener_cicd_cli-1.2384.0.tar.gz
+[2024-04-26 10:37:40] INFO root fetch - processPackages [PyQt6-NetworkAuth]: Remove: archive file [/home/abi/fetcher/tmp/PyQt6_NetworkAuth-6.6.0.tar.gz]
+[2024-04-26 10:37:40] INFO root fetch - processPackages [PyQt6-NetworkAuth]: Remove: archive file [/home/abi/fetcher/tmp/PyQt6_NetworkAuth-6.7.0.tar.gz]
+[2024-04-26 10:37:40] INFO root fetch - processPackages [PyQt6-NetworkAuth]: Start processing: gardener-cicd-libs
+[2024-04-26 10:37:40] INFO root fetch - main [MainThread]: End processing [PyQt6-NetworkAuth]: success
+[2024-04-26 10:37:40] INFO root fetch - processPackages [gardener-cicd-dso]: Downloading https://files.pythonhosted.org/packages/a0/25/cf264abc45409323442f6b7b898288bf60977a8d70380d081371b191df7f/gardener_cicd_dso-1.2384.0.tar.gz
+[2024-04-26 10:37:40] INFO root fetch - processPackages [gardener-cicd-base]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_base-1.2384.0.tar.gz]
+[2024-04-26 10:37:40] INFO root fetch - processPackages [gardener-cicd-base]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_base-1.2385.0.tar.gz]
+[2024-04-26 10:37:40] INFO root fetch - processPackages [gardener-cicd-base]: Start processing: gardener-cicd-whd
+[2024-04-26 10:37:40] INFO root fetch - main [MainThread]: End processing [gardener-cicd-base]: success
+[2024-04-26 10:37:40] INFO root fetch - processPackages [PyQt6-WebEngine]: Remove: archive file [/home/abi/fetcher/tmp/PyQt6_WebEngine-6.6.0.tar.gz]
+[2024-04-26 10:37:40] INFO root fetch - processPackages [PyQt6-WebEngine]: Remove: archive file [/home/abi/fetcher/tmp/PyQt6_WebEngine-6.7.0.tar.gz]
+[2024-04-26 10:37:40] INFO root fetch - processPackages [PyQt6-WebEngine]: Start processing: gardener-oci
+[2024-04-26 10:37:40] INFO root fetch - main [MainThread]: End processing [PyQt6-WebEngine]: success
+[2024-04-26 10:37:40] INFO root fetch - processPackages [gardener-cicd-libs]: New version: [1.2385.0] Old Version: [1.2384.0]
+[2024-04-26 10:37:40] INFO root fetch - processPackages [PyQt6-Charts]: Remove: archive file [/home/abi/fetcher/tmp/PyQt6_Charts-6.6.0.tar.gz]
+[2024-04-26 10:37:40] INFO root fetch - processPackages [PyQt6-Charts]: Remove: archive file [/home/abi/fetcher/tmp/PyQt6_Charts-6.7.0.tar.gz]
+[2024-04-26 10:37:40] INFO root fetch - main [MainThread]: End processing [PyQt6-Charts]: success
+[2024-04-26 10:37:40] INFO root fetch - processPackages [gardener-cicd-whd]: New version: [1.2385.0] Old Version: [1.2384.0]
+[2024-04-26 10:37:40] INFO root fetch - processPackages [gardener-cicd-cli]: Downloading https://files.pythonhosted.org/packages/24/ab/ef7965e7f133e7501b113f46a7ee294676912b17dbc99b6c3d32814d2212/gardener_cicd_cli-1.2385.0.tar.gz
+[2024-04-26 10:37:40] INFO root fetch - processPackages [PyQt6-3D]: executing diffoscope
+[2024-04-26 10:37:40] INFO root fetch - processPackages [PyQt6-3D]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyQt6_3D-6.6.0.tar.gz tmp/PyQt6_3D-6.7.0.tar.gz --markdown 20240426/P/PyQt6-3D/6.6.0-6.7.0/README.md --exclude *.pyd
+[2024-04-26 10:37:40] INFO root fetch - processPackages [gardener-cicd-dso]: Downloading https://files.pythonhosted.org/packages/d1/01/5eaeac1e3d8ea756628608c2bc7ad67fb0c2eabd02e113ed6ab0f7f2cbc9/gardener_cicd_dso-1.2385.0.tar.gz
+[2024-04-26 10:37:40] INFO root fetch - processPackages [gardener-cicd-libs]: Downloading https://files.pythonhosted.org/packages/28/8c/5c4a52fe5f9d63a6d8665143fd763d8fc4907ba18e3198a97e31131300f9/gardener_cicd_libs-1.2384.0.tar.gz
+[2024-04-26 10:37:40] INFO root fetch - processPackages [gardener-cicd-whd]: Downloading https://files.pythonhosted.org/packages/31/3e/df2e228db27873a36db227c4fd8480188485c2d5a47424ace396edbea49e/gardener_cicd_whd-1.2384.0.tar.gz
+[2024-04-26 10:37:40] INFO root fetch - processPackages [gardener-cicd-dso]: executing diffoscope
+[2024-04-26 10:37:40] INFO root fetch - processPackages [gardener-cicd-dso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener_cicd_dso-1.2384.0.tar.gz tmp/gardener_cicd_dso-1.2385.0.tar.gz --markdown 20240426/g/gardener-cicd-dso/1.2384.0-1.2385.0/README.md --exclude *.pyd
+[2024-04-26 10:37:41] INFO root fetch - processPackages [gardener-cicd-cli]: executing diffoscope
+[2024-04-26 10:37:41] INFO root fetch - processPackages [gardener-cicd-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener_cicd_cli-1.2384.0.tar.gz tmp/gardener_cicd_cli-1.2385.0.tar.gz --markdown 20240426/g/gardener-cicd-cli/1.2384.0-1.2385.0/README.md --exclude *.pyd
+[2024-04-26 10:37:41] INFO root fetch - processPackages [PyQt6-DataVisualization]: Remove: archive file [/home/abi/fetcher/tmp/PyQt6_DataVisualization-6.6.0.tar.gz]
+[2024-04-26 10:37:41] INFO root fetch - processPackages [PyQt6-DataVisualization]: Remove: archive file [/home/abi/fetcher/tmp/PyQt6_DataVisualization-6.7.0.tar.gz]
+[2024-04-26 10:37:41] INFO root fetch - main [MainThread]: End processing [PyQt6-DataVisualization]: success
+[2024-04-26 10:37:41] INFO root fetch - processPackages [gardener-oci]: New version: [1.999.0] Old Version: [1.998.0]
+[2024-04-26 10:37:41] INFO root fetch - processPackages [CUQIpy]: Remove: archive file [/home/abi/fetcher/tmp/CUQIpy-1.0.0.post0.dev84.tar.gz]
+[2024-04-26 10:37:41] INFO root fetch - processPackages [CUQIpy]: Remove: archive file [/home/abi/fetcher/tmp/CUQIpy-1.0.0.post0.dev91.tar.gz]
+[2024-04-26 10:37:41] INFO root fetch - main [MainThread]: End processing [CUQIpy]: success
+[2024-04-26 10:37:41] INFO root fetch - processPackages [gardener-cicd-libs]: Downloading https://files.pythonhosted.org/packages/be/34/951e3a683b3ceac39448eee0f7162aa2d9c2d069146bd8d3ba22c22d57cd/gardener_cicd_libs-1.2385.0.tar.gz
+[2024-04-26 10:37:41] INFO root fetch - processPackages [gardener-oci]: Downloading https://files.pythonhosted.org/packages/65/8d/87469d533eb661d280b5bb3eb778421053cbe6438908abdc1d79b2921522/gardener-oci-1.998.0.tar.gz
+[2024-04-26 10:37:41] INFO root fetch - processPackages [gardener-cicd-whd]: Downloading https://files.pythonhosted.org/packages/f8/9f/1de3d971c1f28b8b3d6ad80b0fa3d49ab95a3df1dc7009f4a06484591471/gardener_cicd_whd-1.2385.0.tar.gz
+[2024-04-26 10:37:41] INFO root fetch - processPackages [gardener-cicd-libs]: executing diffoscope
+[2024-04-26 10:37:41] INFO root fetch - processPackages [gardener-cicd-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener_cicd_libs-1.2384.0.tar.gz tmp/gardener_cicd_libs-1.2385.0.tar.gz --markdown 20240426/g/gardener-cicd-libs/1.2384.0-1.2385.0/README.md --exclude *.pyd
+[2024-04-26 10:37:41] INFO root fetch - processPackages [gardener-cicd-whd]: executing diffoscope
+[2024-04-26 10:37:41] INFO root fetch - processPackages [gardener-cicd-whd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener_cicd_whd-1.2384.0.tar.gz tmp/gardener_cicd_whd-1.2385.0.tar.gz --markdown 20240426/g/gardener-cicd-whd/1.2384.0-1.2385.0/README.md --exclude *.pyd
+[2024-04-26 10:37:41] INFO root fetch - processPackages [gardener-oci]: Downloading https://files.pythonhosted.org/packages/f8/de/c6930b025944729e4655e337193e76592dfc15653c0cde84790cb8650df4/gardener-oci-1.999.0.tar.gz
+[2024-04-26 10:37:41] INFO root fetch - processPackages [gardener-cicd-dso]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_dso-1.2384.0.tar.gz]
+[2024-04-26 10:37:41] INFO root fetch - processPackages [gardener-cicd-dso]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_dso-1.2385.0.tar.gz]
+[2024-04-26 10:37:41] INFO root fetch - main [MainThread]: End processing [gardener-cicd-dso]: success
+[2024-04-26 10:37:41] INFO root fetch - processPackages [gardener-oci]: executing diffoscope
+[2024-04-26 10:37:41] INFO root fetch - processPackages [gardener-oci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-oci-1.998.0.tar.gz tmp/gardener-oci-1.999.0.tar.gz --markdown 20240426/g/gardener-oci/1.998.0-1.999.0/README.md --exclude *.pyd
+[2024-04-26 10:37:41] INFO root fetch - processPackages [gardener-cicd-cli]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_cli-1.2384.0.tar.gz]
+[2024-04-26 10:37:41] INFO root fetch - processPackages [gardener-cicd-cli]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_cli-1.2385.0.tar.gz]
+[2024-04-26 10:37:41] INFO root fetch - main [MainThread]: End processing [gardener-cicd-cli]: success
+[2024-04-26 10:37:42] INFO root fetch - processPackages [gardener-cicd-whd]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_whd-1.2384.0.tar.gz]
+[2024-04-26 10:37:42] INFO root fetch - processPackages [gardener-cicd-whd]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_whd-1.2385.0.tar.gz]
+[2024-04-26 10:37:42] INFO root fetch - main [MainThread]: End processing [gardener-cicd-whd]: success
+[2024-04-26 10:37:42] INFO root fetch - processPackages [gardener-oci]: Remove: archive file [/home/abi/fetcher/tmp/gardener-oci-1.998.0.tar.gz]
+[2024-04-26 10:37:42] INFO root fetch - processPackages [gardener-oci]: Remove: archive file [/home/abi/fetcher/tmp/gardener-oci-1.999.0.tar.gz]
+[2024-04-26 10:37:42] INFO root fetch - main [MainThread]: End processing [gardener-oci]: success
+[2024-04-26 10:37:42] INFO root fetch - processPackages [gardener-cicd-libs]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_libs-1.2384.0.tar.gz]
+[2024-04-26 10:37:42] INFO root fetch - processPackages [gardener-cicd-libs]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_libs-1.2385.0.tar.gz]
+[2024-04-26 10:37:42] INFO root fetch - main [MainThread]: End processing [gardener-cicd-libs]: success
+[2024-04-26 10:37:43] INFO root fetch - processPackages [PyQt6-3D]: Remove: archive file [/home/abi/fetcher/tmp/PyQt6_3D-6.6.0.tar.gz]
+[2024-04-26 10:37:43] INFO root fetch - processPackages [PyQt6-3D]: Remove: archive file [/home/abi/fetcher/tmp/PyQt6_3D-6.7.0.tar.gz]
+[2024-04-26 10:37:43] INFO root fetch - main [MainThread]: End processing [PyQt6-3D]: success
+[2024-04-26 10:37:48] INFO root fetch - processPackages [PyQt6]: Remove: archive file [/home/abi/fetcher/tmp/PyQt6-6.6.1.tar.gz]
+[2024-04-26 10:37:48] INFO root fetch - processPackages [PyQt6]: Remove: archive file [/home/abi/fetcher/tmp/PyQt6-6.7.0.tar.gz]
+[2024-04-26 10:37:48] INFO root fetch - main [MainThread]: End processing [PyQt6]: success
+[2024-04-26 10:37:48] INFO root fetch - main [MainThread]: Store serial: [22945167]
