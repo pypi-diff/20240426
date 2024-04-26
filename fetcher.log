@@ -23721,3 +23721,87 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 16:55:27] INFO root fetch - processPackages [illumio-pylo]: Remove: archive file [/home/abi/fetcher/tmp/illumio_pylo-0.3.5.tar.gz]
 [2024-04-26 16:55:27] INFO root fetch - main [MainThread]: End processing [illumio-pylo]: success
 [2024-04-26 16:55:27] INFO root fetch - main [MainThread]: Store serial: [22948904]
+[2024-04-26 16:57:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22948904]
+[2024-04-26 16:57:35] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-26 16:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: symusic
+[2024-04-26 16:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: blportopt
+[2024-04-26 16:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cada
+[2024-04-26 16:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: doupand
+[2024-04-26 16:57:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: audio-separator
+[2024-04-26 16:57:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lindi
+[2024-04-26 16:57:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: macal
+[2024-04-26 16:57:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Flask-MonitoringDashboard
+[2024-04-26 16:57:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: doupand
+[2024-04-26 16:57:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: prodigy-lig
+[2024-04-26 16:57:36] INFO root fetch - processPackages [doupand]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-04-26 16:57:36] INFO root fetch - processPackages [doupand]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-04-26 16:57:36] INFO root fetch - processPackages [cada]: New version: [1.0.1.dev160] Old Version: [1.0.1.dev146]
+[2024-04-26 16:57:36] WARNING root fetch - processPackages [prodigy-lig]: Skipping, unable to determine old version
+[2024-04-26 16:57:36] INFO root fetch - processPackages [prodigy-lig]: Start processing: kywy
+[2024-04-26 16:57:36] INFO root fetch - main [MainThread]: End processing [prodigy-lig] error
+[2024-04-26 16:57:36] INFO root fetch - processPackages [audio-separator]: New version: [0.9.6] Old Version: [0.9.5]
+[2024-04-26 16:57:36] INFO root fetch - processPackages [macal]: New version: [5.5.0a7] Old Version: [5.5.0a6]
+[2024-04-26 16:57:36] WARNING root fetch - processPackages [blportopt]: Skipping, unable to determine old version
+[2024-04-26 16:57:36] INFO root fetch - main [MainThread]: End processing [blportopt] error
+[2024-04-26 16:57:36] INFO root fetch - processPackages [lindi]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-26 16:57:36] INFO root fetch - processPackages [Flask-MonitoringDashboard]: New version: [3.3.1] Old Version: [3.3.0]
+[2024-04-26 16:57:36] INFO root fetch - processPackages [symusic]: New version: [0.4.6] Old Version: [0.4.5]
+[2024-04-26 16:57:36] INFO root fetch - processPackages [cada]: Downloading https://files.pythonhosted.org/packages/99/bd/2ef2a30a112d3f98d215abab0e65609b39e8c063dd45af29827c042b24ef/cada-1.0.1.dev146-py3-none-any.whl
+[2024-04-26 16:57:36] INFO root fetch - processPackages [doupand]: Downloading https://files.pythonhosted.org/packages/b0/3c/dce7185c485447365ebd971d2dd2bf28d48c75a753a244fcf24a2774cabe/doupand-1.0.5.tar.gz
+[2024-04-26 16:57:36] INFO root fetch - processPackages [doupand]: Downloading https://files.pythonhosted.org/packages/b0/3c/dce7185c485447365ebd971d2dd2bf28d48c75a753a244fcf24a2774cabe/doupand-1.0.5.tar.gz
+[2024-04-26 16:57:36] INFO root fetch - processPackages [audio-separator]: Downloading https://files.pythonhosted.org/packages/db/93/9c9e5a71855de5f6721cb632a8b7f39c2222b6d91fa786832444797fc220/audio_separator-0.9.5.tar.gz
+[2024-04-26 16:57:36] INFO root fetch - processPackages [macal]: Downloading https://files.pythonhosted.org/packages/76/0e/99153d33007b1f08f13da6c65565b5254dc39312ebcf2aab7fc9f015067c/macal-5.5.0a6.tar.gz
+[2024-04-26 16:57:36] INFO root fetch - processPackages [kywy]: New version: [0.18.0b9] Old Version: [0.18.0b8]
+[2024-04-26 16:57:36] INFO root fetch - processPackages [lindi]: Downloading https://files.pythonhosted.org/packages/f0/f8/2b98961aed4569009b43c3a8d18ecb84dee642372c62794ccb9367ead9dd/lindi-0.3.0.tar.gz
+[2024-04-26 16:57:36] INFO root fetch - processPackages [Flask-MonitoringDashboard]: Downloading https://files.pythonhosted.org/packages/ea/1b/f082ab101b8f826899b4d3c22a842d0487c76b780f2fb8d19d0069691634/Flask-MonitoringDashboard-3.3.0.tar.gz
+[2024-04-26 16:57:36] INFO root fetch - processPackages [symusic]: Downloading https://files.pythonhosted.org/packages/ba/0b/b7ad81a26f08b4d1f45f59b22b30402819bc6542e19737e9a7b006927bc7/symusic-0.4.5.tar.gz
+[2024-04-26 16:57:36] INFO root fetch - processPackages [doupand]: Downloading https://files.pythonhosted.org/packages/d7/04/f4a8e02714903536bf912f216f35d7328a46db4377a3937f3c05e38437d8/doupand-1.0.6.tar.gz
+[2024-04-26 16:57:36] INFO root fetch - processPackages [kywy]: Downloading https://files.pythonhosted.org/packages/5a/35/d09681ca4dba675cb340afcda2294f700aa776e80bb79d04f8b902d66c14/kywy-0.18.0b8-py3-none-any.whl
+[2024-04-26 16:57:36] INFO root fetch - processPackages [doupand]: Downloading https://files.pythonhosted.org/packages/d7/04/f4a8e02714903536bf912f216f35d7328a46db4377a3937f3c05e38437d8/doupand-1.0.6.tar.gz
+[2024-04-26 16:57:36] INFO root fetch - processPackages [audio-separator]: Downloading https://files.pythonhosted.org/packages/02/e0/802f0c370b87eb4898db0bdf70f01171a743a04bc86cd3bbdda9c242f6cd/audio_separator-0.9.6.tar.gz
+[2024-04-26 16:57:36] INFO root fetch - processPackages [cada]: Downloading https://files.pythonhosted.org/packages/44/62/5cbe14c08945bcb0b889d7a999ff4c8b1ed7cd41e2cfa70c9cf78c4a331c/cada-1.0.1.dev160-py3-none-any.whl
+[2024-04-26 16:57:36] INFO root fetch - processPackages [macal]: Downloading https://files.pythonhosted.org/packages/af/65/43050a22a0754948265c24d76b23d25cb59f7f1525cc4e99874a87608a99/macal-5.5.0a7.tar.gz
+[2024-04-26 16:57:36] WARNING root fetch - processPackages [symusic]: Skipping package: exceeds size limit 13478024>=10485760
+[2024-04-26 16:57:36] INFO root fetch - main [MainThread]: End processing [symusic] error
+[2024-04-26 16:57:36] INFO root fetch - processPackages [doupand]: executing diffoscope
+[2024-04-26 16:57:36] INFO root fetch - processPackages [doupand]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/doupand-1.0.5.tar.gz tmp/doupand-1.0.6.tar.gz --markdown 20240426/d/doupand/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-04-26 16:57:36] INFO root fetch - processPackages [doupand]: executing diffoscope
+[2024-04-26 16:57:36] INFO root fetch - processPackages [doupand]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/doupand-1.0.5.tar.gz tmp/doupand-1.0.6.tar.gz --markdown 20240426/d/doupand/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-04-26 16:57:36] INFO root fetch - processPackages [audio-separator]: executing diffoscope
+[2024-04-26 16:57:36] INFO root fetch - processPackages [audio-separator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audio_separator-0.9.5.tar.gz tmp/audio_separator-0.9.6.tar.gz --markdown 20240426/a/audio-separator/0.9.5-0.9.6/README.md --exclude *.pyd
+[2024-04-26 16:57:36] INFO root fetch - processPackages [macal]: executing diffoscope
+[2024-04-26 16:57:36] INFO root fetch - processPackages [macal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macal-5.5.0a6.tar.gz tmp/macal-5.5.0a7.tar.gz --markdown 20240426/m/macal/5.5.0a6-5.5.0a7/README.md --exclude *.pyd
+[2024-04-26 16:57:36] INFO root fetch - processPackages [cada]: executing diffoscope
+[2024-04-26 16:57:36] INFO root fetch - processPackages [cada]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cada-1.0.1.dev146-py3-none-any.whl.zip tmp/cada-1.0.1.dev160-py3-none-any.whl.zip --markdown 20240426/c/cada/1.0.1.dev146-1.0.1.dev160/README.md --exclude *.pyd
+[2024-04-26 16:57:37] INFO root fetch - processPackages [lindi]: Downloading https://files.pythonhosted.org/packages/c3/6a/7c8fc5dbaa8ab83e49c3612b6b425eb33694e899143566b354565a4c6222/lindi-0.3.1.tar.gz
+[2024-04-26 16:57:37] INFO root fetch - processPackages [kywy]: Downloading https://files.pythonhosted.org/packages/9a/f8/24411333415c7d5a41eb0b9f0ad87d2cd2123835ebc09f94853b04aca91c/kywy-0.18.0b9-py3-none-any.whl
+[2024-04-26 16:57:37] INFO root fetch - processPackages [kywy]: executing diffoscope
+[2024-04-26 16:57:37] INFO root fetch - processPackages [kywy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kywy-0.18.0b8-py3-none-any.whl.zip tmp/kywy-0.18.0b9-py3-none-any.whl.zip --markdown 20240426/k/kywy/0.18.0b8-0.18.0b9/README.md --exclude *.pyd
+[2024-04-26 16:57:37] INFO root fetch - processPackages [lindi]: executing diffoscope
+[2024-04-26 16:57:37] INFO root fetch - processPackages [lindi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lindi-0.3.0.tar.gz tmp/lindi-0.3.1.tar.gz --markdown 20240426/l/lindi/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-04-26 16:57:37] INFO root fetch - processPackages [Flask-MonitoringDashboard]: Downloading https://files.pythonhosted.org/packages/6b/04/8733668ad8bf522cde9e28a8b2f36e9d4057cf9a8b59f300efcd66ad0ae0/flask_monitoringdashboard-3.3.1.tar.gz
+[2024-04-26 16:57:37] INFO root fetch - processPackages [doupand]: Remove: archive file [/home/abi/fetcher/tmp/doupand-1.0.5.tar.gz]
+[2024-04-26 16:57:37] INFO root fetch - processPackages [doupand]: Remove: archive file [/home/abi/fetcher/tmp/doupand-1.0.6.tar.gz]
+[2024-04-26 16:57:37] INFO root fetch - main [MainThread]: End processing [doupand]: success
+[2024-04-26 16:57:37] INFO root fetch - main [MainThread]: End processing [doupand]: success
+[2024-04-26 16:57:37] INFO root fetch - processPackages [audio-separator]: Remove: archive file [/home/abi/fetcher/tmp/audio_separator-0.9.5.tar.gz]
+[2024-04-26 16:57:37] INFO root fetch - processPackages [audio-separator]: Remove: archive file [/home/abi/fetcher/tmp/audio_separator-0.9.6.tar.gz]
+[2024-04-26 16:57:37] INFO root fetch - main [MainThread]: End processing [audio-separator]: success
+[2024-04-26 16:57:37] INFO root fetch - processPackages [macal]: Remove: archive file [/home/abi/fetcher/tmp/macal-5.5.0a6.tar.gz]
+[2024-04-26 16:57:37] INFO root fetch - processPackages [macal]: Remove: archive file [/home/abi/fetcher/tmp/macal-5.5.0a7.tar.gz]
+[2024-04-26 16:57:37] INFO root fetch - main [MainThread]: End processing [macal]: success
+[2024-04-26 16:57:38] INFO root fetch - processPackages [lindi]: Remove: archive file [/home/abi/fetcher/tmp/lindi-0.3.0.tar.gz]
+[2024-04-26 16:57:38] INFO root fetch - processPackages [lindi]: Remove: archive file [/home/abi/fetcher/tmp/lindi-0.3.1.tar.gz]
+[2024-04-26 16:57:38] INFO root fetch - main [MainThread]: End processing [lindi]: success
+[2024-04-26 16:57:38] INFO root fetch - processPackages [cada]: Remove: archive file [/home/abi/fetcher/tmp/cada-1.0.1.dev146-py3-none-any.whl.zip]
+[2024-04-26 16:57:38] INFO root fetch - processPackages [cada]: Remove: archive file [/home/abi/fetcher/tmp/cada-1.0.1.dev160-py3-none-any.whl.zip]
+[2024-04-26 16:57:38] INFO root fetch - main [MainThread]: End processing [cada]: success
+[2024-04-26 16:57:38] INFO root fetch - processPackages [kywy]: Remove: archive file [/home/abi/fetcher/tmp/kywy-0.18.0b8-py3-none-any.whl.zip]
+[2024-04-26 16:57:38] INFO root fetch - processPackages [kywy]: Remove: archive file [/home/abi/fetcher/tmp/kywy-0.18.0b9-py3-none-any.whl.zip]
+[2024-04-26 16:57:38] INFO root fetch - main [MainThread]: End processing [kywy]: success
+[2024-04-26 16:57:38] INFO root fetch - processPackages [Flask-MonitoringDashboard]: executing diffoscope
+[2024-04-26 16:57:38] INFO root fetch - processPackages [Flask-MonitoringDashboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Flask-MonitoringDashboard-3.3.0.tar.gz tmp/flask_monitoringdashboard-3.3.1.tar.gz --markdown 20240426/F/Flask-MonitoringDashboard/3.3.0-3.3.1/README.md --exclude *.pyd
+[2024-04-26 16:57:49] INFO root fetch - processPackages [Flask-MonitoringDashboard]: Remove: archive file [/home/abi/fetcher/tmp/Flask-MonitoringDashboard-3.3.0.tar.gz]
+[2024-04-26 16:57:49] INFO root fetch - processPackages [Flask-MonitoringDashboard]: Remove: archive file [/home/abi/fetcher/tmp/flask_monitoringdashboard-3.3.1.tar.gz]
+[2024-04-26 16:57:49] INFO root fetch - main [MainThread]: End processing [Flask-MonitoringDashboard]: success
+[2024-04-26 16:57:49] INFO root fetch - main [MainThread]: Store serial: [22948978]
