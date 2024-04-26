@@ -12289,3 +12289,104 @@
 [2024-04-26 09:13:36] INFO root fetch - processPackages [KratosCableNetApplication]: Remove: archive file [/home/abi/fetcher/tmp/KratosCableNetApplication-9.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-04-26 09:13:36] INFO root fetch - main [MainThread]: End processing [KratosCableNetApplication]: success
 [2024-04-26 09:13:36] INFO root fetch - main [MainThread]: Store serial: [22943902]
+[2024-04-26 09:15:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22943902]
+[2024-04-26 09:15:45] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-04-26 09:15:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: KratosChimeraApplication
+[2024-04-26 09:15:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: KratosCompressiblePotentialFlowApplication
+[2024-04-26 09:15:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: windmill-api
+[2024-04-26 09:15:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wmill
+[2024-04-26 09:15:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: KratosConstitutiveLawsApplication
+[2024-04-26 09:15:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wmill-pg
+[2024-04-26 09:15:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: caen-hv-python
+[2024-04-26 09:15:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: py2docfx
+[2024-04-26 09:15:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: KratosContactStructuralMechanicsApplication
+[2024-04-26 09:15:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-base-search-custom-field-filter
+[2024-04-26 09:15:45] INFO root fetch - processPackages [py2docfx]: New version: [0.1.5rc1706277] Old Version: [0.1.5rc1704966]
+[2024-04-26 09:15:46] INFO root fetch - processPackages [KratosChimeraApplication]: New version: [9.5] Old Version: [9.4.5]
+[2024-04-26 09:15:46] WARNING root fetch - processPackages [caen-hv-python]: Skipping, unable to determine old version
+[2024-04-26 09:15:46] INFO root fetch - processPackages [caen-hv-python]: Start processing: KratosConvectionDiffusionApplication
+[2024-04-26 09:15:46] INFO root fetch - main [MainThread]: End processing [caen-hv-python] error
+[2024-04-26 09:15:46] INFO root fetch - processPackages [wmill]: New version: [1.99.0] Old Version: [1.98.0]
+[2024-04-26 09:15:46] INFO root fetch - processPackages [odoo-addon-base-search-custom-field-filter]: New version: [17.0.1.0.0.2] Old Version: [16.0.1.0.0.5]
+[2024-04-26 09:15:46] INFO root fetch - processPackages [KratosCompressiblePotentialFlowApplication]: New version: [9.5] Old Version: [9.4.6]
+[2024-04-26 09:15:46] INFO root fetch - processPackages [KratosConstitutiveLawsApplication]: New version: [9.5] Old Version: [9.4.6]
+[2024-04-26 09:15:46] INFO root fetch - processPackages [KratosContactStructuralMechanicsApplication]: New version: [9.5] Old Version: [9.4.6]
+[2024-04-26 09:15:46] INFO root fetch - processPackages [windmill-api]: New version: [1.99.0] Old Version: [1.98.0]
+[2024-04-26 09:15:46] INFO root fetch - processPackages [wmill-pg]: New version: [1.99.0] Old Version: [1.98.0]
+[2024-04-26 09:15:46] INFO root fetch - processPackages [py2docfx]: Downloading https://files.pythonhosted.org/packages/f7/c2/d4bd2ca9855cc2078537e54ece7d1522d78240960cac73d26ce097c9d8dc/py2docfx-0.1.5rc1704966-py3-none-any.whl
+[2024-04-26 09:15:46] INFO root fetch - processPackages [KratosConvectionDiffusionApplication]: New version: [9.5] Old Version: [9.4.6]
+[2024-04-26 09:15:46] INFO root fetch - processPackages [KratosChimeraApplication]: Downloading https://files.pythonhosted.org/packages/ee/65/090cef9243887bda10ff46a46e2c858907c87a0fe0b9e3c8dcd0c8edb6f0/KratosChimeraApplication-9.4.5-cp39-cp39-win_amd64.whl
+[2024-04-26 09:15:46] INFO root fetch - processPackages [wmill]: Downloading https://files.pythonhosted.org/packages/6d/91/6b6052c80b8d367e051cc2905d1d921bf9a11f63e27a0f802b5c1277aa20/wmill-1.98.0.tar.gz
+[2024-04-26 09:15:46] INFO root fetch - processPackages [KratosConstitutiveLawsApplication]: Downloading https://files.pythonhosted.org/packages/ab/b2/7e10dde8a89c8808789cea70c6f159a020cd686423ed185f591364f55b29/KratosConstitutiveLawsApplication-9.4.6-cp39-cp39-win_amd64.whl
+[2024-04-26 09:15:46] INFO root fetch - processPackages [odoo-addon-base-search-custom-field-filter]: Downloading https://files.pythonhosted.org/packages/34/58/5a9a19a39a50147cb69fa07f8f4511d9dfb1d2ded852f95f7b495fae666e/odoo_addon_base_search_custom_field_filter-16.0.1.0.0.5-py3-none-any.whl
+[2024-04-26 09:15:46] INFO root fetch - processPackages [KratosCompressiblePotentialFlowApplication]: Downloading https://files.pythonhosted.org/packages/e9/1b/762a887d2830f97e2d526e247c1c2a4e48a18994292816fc7f22ef401855/KratosCompressiblePotentialFlowApplication-9.4.6-cp39-cp39-win_amd64.whl
+[2024-04-26 09:15:46] INFO root fetch - processPackages [windmill-api]: Downloading https://files.pythonhosted.org/packages/bd/de/5d29ca258adee967295dbf926ab306c480527c234336f0725d4c2bc1d718/windmill_api-1.98.0.tar.gz
+[2024-04-26 09:15:46] INFO root fetch - processPackages [KratosContactStructuralMechanicsApplication]: Downloading https://files.pythonhosted.org/packages/d7/d4/e95ee65f711d05f235cfabdfe4814f3fabc2c8c8963d81446242fbce0427/KratosContactStructuralMechanicsApplication-9.4.6-cp39-cp39-win_amd64.whl
+[2024-04-26 09:15:46] INFO root fetch - processPackages [wmill-pg]: Downloading https://files.pythonhosted.org/packages/a1/22/f7655b5ea090afc59651b874c61bf7bea4694e3fa9720a46058fa34c71ef/wmill_pg-1.98.0.tar.gz
+[2024-04-26 09:15:46] INFO root fetch - processPackages [KratosConvectionDiffusionApplication]: Downloading https://files.pythonhosted.org/packages/63/66/5e960beae7c61ba3fe8913b6603d6b23b0ab5d2ecf9c4ad7ae4d497569e7/KratosConvectionDiffusionApplication-9.4.6-cp39-cp39-win_amd64.whl
+[2024-04-26 09:15:46] INFO root fetch - processPackages [py2docfx]: Downloading https://files.pythonhosted.org/packages/6d/fd/2ee1dbdcb0431d14994e51aa2cc18b78f1c0e5a8e8fc4b3eea6f478b35d9/py2docfx-0.1.5rc1706277-py3-none-any.whl
+[2024-04-26 09:15:46] WARNING root fetch - processPackages [KratosContactStructuralMechanicsApplication]: Skipping package: exceeds size limit 11945400>=10485760
+[2024-04-26 09:15:46] INFO root fetch - processPackages [KratosContactStructuralMechanicsApplication]: Start processing: KratosCoSimulationApplication
+[2024-04-26 09:15:46] INFO root fetch - main [MainThread]: End processing [KratosContactStructuralMechanicsApplication] error
+[2024-04-26 09:15:46] INFO root fetch - processPackages [py2docfx]: executing diffoscope
+[2024-04-26 09:15:46] INFO root fetch - processPackages [py2docfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py2docfx-0.1.5rc1704966-py3-none-any.whl.zip tmp/py2docfx-0.1.5rc1706277-py3-none-any.whl.zip --markdown 20240426/p/py2docfx/0.1.5rc1704966-0.1.5rc1706277/README.md --exclude *.pyd
+[2024-04-26 09:15:46] INFO root fetch - processPackages [KratosChimeraApplication]: Downloading https://files.pythonhosted.org/packages/ea/86/67b0e7f81c377d664341d3249b24f8d810abb6c2ca4427ef7e46cfb10a67/KratosChimeraApplication-9.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-26 09:15:46] INFO root fetch - processPackages [wmill]: Downloading https://files.pythonhosted.org/packages/f1/d1/eb5b4c7d25f969fc3603441c8e90a5a8e00688be43ce0631166287977a65/wmill-1.99.0.tar.gz
+[2024-04-26 09:15:46] INFO root fetch - processPackages [odoo-addon-base-search-custom-field-filter]: Downloading https://files.pythonhosted.org/packages/b7/f7/08a5bb697f4ecddbc6906b7b97a59d0ad58027b141536a10df5b10f708e8/odoo_addon_base_search_custom_field_filter-17.0.1.0.0.2-py3-none-any.whl
+[2024-04-26 09:15:46] INFO root fetch - processPackages [wmill-pg]: Downloading https://files.pythonhosted.org/packages/26/ac/296bc5f7193d111c826ef99b60bf75fe1605158a73d728a5fad8aa771331/wmill_pg-1.99.0.tar.gz
+[2024-04-26 09:15:46] INFO root fetch - processPackages [KratosCoSimulationApplication]: New version: [9.5] Old Version: [9.4.6]
+[2024-04-26 09:15:46] INFO root fetch - processPackages [windmill-api]: Downloading https://files.pythonhosted.org/packages/32/94/9431b41ce6b9c2670fbc125624f7ebc3d186482c80c271e3d7acde511319/windmill_api-1.99.0.tar.gz
+[2024-04-26 09:15:46] INFO root fetch - processPackages [wmill]: executing diffoscope
+[2024-04-26 09:15:46] INFO root fetch - processPackages [wmill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill-1.98.0.tar.gz tmp/wmill-1.99.0.tar.gz --markdown 20240426/w/wmill/1.98.0-1.99.0/README.md --exclude *.pyd
+[2024-04-26 09:15:46] WARNING root fetch - processPackages [KratosChimeraApplication]: Skipping package: exceeds size limit 14122349>=10485760
+[2024-04-26 09:15:46] INFO root fetch - processPackages [KratosChimeraApplication]: Start processing: KratosCSharpWrapperApplication
+[2024-04-26 09:15:46] INFO root fetch - main [MainThread]: End processing [KratosChimeraApplication] error
+[2024-04-26 09:15:46] INFO root fetch - processPackages [KratosConstitutiveLawsApplication]: Downloading https://files.pythonhosted.org/packages/59/72/eaaca348682f963fbea799f21eabaacb8f162461bc35adf8d7d55b6da258/KratosConstitutiveLawsApplication-9.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-26 09:15:47] INFO root fetch - processPackages [wmill-pg]: executing diffoscope
+[2024-04-26 09:15:47] INFO root fetch - processPackages [wmill-pg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill_pg-1.98.0.tar.gz tmp/wmill_pg-1.99.0.tar.gz --markdown 20240426/w/wmill-pg/1.98.0-1.99.0/README.md --exclude *.pyd
+[2024-04-26 09:15:47] INFO root fetch - processPackages [KratosConvectionDiffusionApplication]: Downloading https://files.pythonhosted.org/packages/19/e1/efc6a3bf696d6ff683e66d85a136fd12972ef22edf5b88e39f3653cdc58d/KratosConvectionDiffusionApplication-9.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-26 09:15:47] INFO root fetch - processPackages [odoo-addon-base-search-custom-field-filter]: executing diffoscope
+[2024-04-26 09:15:47] INFO root fetch - processPackages [odoo-addon-base-search-custom-field-filter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_search_custom_field_filter-16.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_base_search_custom_field_filter-17.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240426/o/odoo-addon-base-search-custom-field-filter/16.0.1.0.0.5-17.0.1.0.0.2/README.md --exclude *.pyd
+[2024-04-26 09:15:47] INFO root fetch - processPackages [KratosCompressiblePotentialFlowApplication]: Downloading https://files.pythonhosted.org/packages/6a/bc/e65db9864ffc77dc5c851664dfb2f95d587e61558a2db7202b74ef1b483c/KratosCompressiblePotentialFlowApplication-9.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-26 09:15:47] INFO root fetch - processPackages [windmill-api]: executing diffoscope
+[2024-04-26 09:15:47] INFO root fetch - processPackages [windmill-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windmill_api-1.98.0.tar.gz tmp/windmill_api-1.99.0.tar.gz --markdown 20240426/w/windmill-api/1.98.0-1.99.0/README.md --exclude *.pyd
+[2024-04-26 09:15:47] INFO root fetch - processPackages [KratosCoSimulationApplication]: Downloading https://files.pythonhosted.org/packages/75/66/0248c850ff0b555ebf20109e1e7ab578da2ca7aec7afc89fc428898b9654/KratosCoSimulationApplication-9.4.6-cp39-cp39-win_amd64.whl
+[2024-04-26 09:15:47] WARNING root fetch - processPackages [KratosConstitutiveLawsApplication]: Skipping package: exceeds size limit 14682123>=10485760
+[2024-04-26 09:15:47] INFO root fetch - main [MainThread]: End processing [KratosConstitutiveLawsApplication] error
+[2024-04-26 09:15:47] INFO root fetch - processPackages [KratosCSharpWrapperApplication]: New version: [9.5] Old Version: [9.4.6]
+[2024-04-26 09:15:47] WARNING root fetch - processPackages [KratosCompressiblePotentialFlowApplication]: Skipping package: exceeds size limit 16565128>=10485760
+[2024-04-26 09:15:47] INFO root fetch - main [MainThread]: End processing [KratosCompressiblePotentialFlowApplication] error
+[2024-04-26 09:15:47] INFO root fetch - processPackages [KratosCSharpWrapperApplication]: Downloading https://files.pythonhosted.org/packages/e8/55/c458cfcadd483a0c2d2c528a13deecbf0be3bd4b16d7ee8c972d669c395a/KratosCSharpWrapperApplication-9.4.6-cp39-cp39-win_amd64.whl
+[2024-04-26 09:15:47] INFO root fetch - processPackages [KratosCoSimulationApplication]: Downloading https://files.pythonhosted.org/packages/2c/79/d18d3584c70862b3fabc571d571fab11dc591d8828e085b72726891b38a4/KratosCoSimulationApplication-9.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-26 09:15:47] INFO root fetch - processPackages [wmill-pg]: Remove: archive file [/home/abi/fetcher/tmp/wmill_pg-1.98.0.tar.gz]
+[2024-04-26 09:15:47] INFO root fetch - processPackages [wmill-pg]: Remove: archive file [/home/abi/fetcher/tmp/wmill_pg-1.99.0.tar.gz]
+[2024-04-26 09:15:47] INFO root fetch - main [MainThread]: End processing [wmill-pg]: success
+[2024-04-26 09:15:47] INFO root fetch - processPackages [wmill]: Remove: archive file [/home/abi/fetcher/tmp/wmill-1.98.0.tar.gz]
+[2024-04-26 09:15:47] INFO root fetch - processPackages [wmill]: Remove: archive file [/home/abi/fetcher/tmp/wmill-1.99.0.tar.gz]
+[2024-04-26 09:15:47] INFO root fetch - main [MainThread]: End processing [wmill]: success
+[2024-04-26 09:15:47] INFO root fetch - processPackages [py2docfx]: Remove: archive file [/home/abi/fetcher/tmp/py2docfx-0.1.5rc1704966-py3-none-any.whl.zip]
+[2024-04-26 09:15:47] INFO root fetch - processPackages [py2docfx]: Remove: archive file [/home/abi/fetcher/tmp/py2docfx-0.1.5rc1706277-py3-none-any.whl.zip]
+[2024-04-26 09:15:47] INFO root fetch - main [MainThread]: End processing [py2docfx]: success
+[2024-04-26 09:15:47] INFO root fetch - processPackages [odoo-addon-base-search-custom-field-filter]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_search_custom_field_filter-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-04-26 09:15:47] INFO root fetch - processPackages [odoo-addon-base-search-custom-field-filter]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_search_custom_field_filter-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-26 09:15:47] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-search-custom-field-filter]: success
+[2024-04-26 09:15:47] INFO root fetch - processPackages [KratosConvectionDiffusionApplication]: executing diffoscope
+[2024-04-26 09:15:47] INFO root fetch - processPackages [KratosConvectionDiffusionApplication]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KratosConvectionDiffusionApplication-9.4.6-cp39-cp39-win_amd64.whl.zip tmp/KratosConvectionDiffusionApplication-9.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240426/K/KratosConvectionDiffusionApplication/9.4.6-9.5/README.md --exclude *.pyd
+[2024-04-26 09:15:47] INFO root fetch - processPackages [KratosCSharpWrapperApplication]: Downloading https://files.pythonhosted.org/packages/94/74/5f1ad2a7d47594f115413a06dccf0aa1b9c6e738f394b815d8f7d9c7b8ee/KratosCSharpWrapperApplication-9.5-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-26 09:15:48] INFO root fetch - processPackages [KratosCoSimulationApplication]: executing diffoscope
+[2024-04-26 09:15:48] INFO root fetch - processPackages [KratosCoSimulationApplication]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KratosCoSimulationApplication-9.4.6-cp39-cp39-win_amd64.whl.zip tmp/KratosCoSimulationApplication-9.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240426/K/KratosCoSimulationApplication/9.4.6-9.5/README.md --exclude *.pyd
+[2024-04-26 09:15:48] INFO root fetch - processPackages [KratosConvectionDiffusionApplication]: Remove: archive file [/home/abi/fetcher/tmp/KratosConvectionDiffusionApplication-9.4.6-cp39-cp39-win_amd64.whl.zip]
+[2024-04-26 09:15:48] INFO root fetch - processPackages [KratosConvectionDiffusionApplication]: Remove: archive file [/home/abi/fetcher/tmp/KratosConvectionDiffusionApplication-9.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-26 09:15:48] INFO root fetch - main [MainThread]: End processing [KratosConvectionDiffusionApplication]: success
+[2024-04-26 09:15:49] INFO root fetch - processPackages [KratosCoSimulationApplication]: Remove: archive file [/home/abi/fetcher/tmp/KratosCoSimulationApplication-9.4.6-cp39-cp39-win_amd64.whl.zip]
+[2024-04-26 09:15:49] INFO root fetch - processPackages [KratosCoSimulationApplication]: Remove: archive file [/home/abi/fetcher/tmp/KratosCoSimulationApplication-9.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-26 09:15:49] INFO root fetch - main [MainThread]: End processing [KratosCoSimulationApplication]: success
+[2024-04-26 09:15:51] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.98.0.tar.gz]
+[2024-04-26 09:15:51] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.99.0.tar.gz]
+[2024-04-26 09:15:51] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
+[2024-04-26 09:15:51] INFO root fetch - processPackages [KratosCSharpWrapperApplication]: executing diffoscope
+[2024-04-26 09:15:51] INFO root fetch - processPackages [KratosCSharpWrapperApplication]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KratosCSharpWrapperApplication-9.4.6-cp39-cp39-win_amd64.whl.zip tmp/KratosCSharpWrapperApplication-9.5-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240426/K/KratosCSharpWrapperApplication/9.4.6-9.5/README.md --exclude *.pyd
+[2024-04-26 09:15:52] INFO root fetch - processPackages [KratosCSharpWrapperApplication]: Remove: archive file [/home/abi/fetcher/tmp/KratosCSharpWrapperApplication-9.4.6-cp39-cp39-win_amd64.whl.zip]
+[2024-04-26 09:15:52] INFO root fetch - processPackages [KratosCSharpWrapperApplication]: Remove: archive file [/home/abi/fetcher/tmp/KratosCSharpWrapperApplication-9.5-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-26 09:15:52] INFO root fetch - main [MainThread]: End processing [KratosCSharpWrapperApplication]: success
+[2024-04-26 09:15:52] INFO root fetch - main [MainThread]: Store serial: [22943990]
