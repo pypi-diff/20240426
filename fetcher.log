@@ -9521,3 +9521,47 @@
 [2024-04-26 07:07:24] INFO root fetch - processPackages [spark-ai-python]: Remove: archive file [/home/abi/fetcher/tmp/spark_ai_python-0.3.9.tar.gz]
 [2024-04-26 07:07:24] INFO root fetch - main [MainThread]: End processing [spark-ai-python]: success
 [2024-04-26 07:07:24] INFO root fetch - main [MainThread]: Store serial: [22942814]
+[2024-04-26 07:09:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22942814]
+[2024-04-26 07:09:33] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-26 07:09:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-osubot
+[2024-04-26 07:09:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-pms
+[2024-04-26 07:09:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: npc_sessions
+[2024-04-26 07:09:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: foundationdb
+[2024-04-26 07:09:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: neon-enclosure
+[2024-04-26 07:09:33] INFO root fetch - processPackages [foundationdb]: New version: [7.3.9] Old Version: [7.3.8]
+[2024-04-26 07:09:33] INFO root fetch - processPackages [foundationdb]: Downloading https://files.pythonhosted.org/packages/36/96/36db8b7aba7d9fb4662c1a3a88b362801e73bb1c0d469e8c291a11b74c97/foundationdb-7.3.8.tar.gz
+[2024-04-26 07:09:33] INFO root fetch - processPackages [neon-enclosure]: New version: [1.7.1a1] Old Version: [1.7.0]
+[2024-04-26 07:09:33] INFO root fetch - processPackages [odoo14-addon-pms]: New version: [14.0.2.9.0] Old Version: [14.0.2.8.0]
+[2024-04-26 07:09:33] INFO root fetch - processPackages [nonebot-plugin-osubot]: New version: [5.8.0] Old Version: [5.7.3]
+[2024-04-26 07:09:33] INFO root fetch - processPackages [npc_sessions]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-26 07:09:33] INFO root fetch - processPackages [foundationdb]: Downloading https://files.pythonhosted.org/packages/5b/02/44abfcfdcc2abd0e108e45890ed5a02185aceeb90e378a8531fc45597dd9/foundationdb-7.3.9.tar.gz
+[2024-04-26 07:09:33] INFO root fetch - processPackages [odoo14-addon-pms]: Downloading https://files.pythonhosted.org/packages/35/dd/9ca9ec4be1214b080d690d035081114d6c68515ac18307d8cb5edc8c7664/odoo14_addon_pms-14.0.2.8.0-py3-none-any.whl
+[2024-04-26 07:09:33] INFO root fetch - processPackages [nonebot-plugin-osubot]: Downloading https://files.pythonhosted.org/packages/a0/5e/b6dcd801e10113ada584fa12468371b2bef8f674c85b428567f364a5623a/nonebot-plugin-osubot-5.7.3.tar.gz
+[2024-04-26 07:09:33] INFO root fetch - processPackages [neon-enclosure]: Downloading https://files.pythonhosted.org/packages/50/7a/2ebb251c205397ca86d2aadd7f0b5b11711c6655b07988fb920096cff0fd/neon-enclosure-1.7.0.tar.gz
+[2024-04-26 07:09:33] INFO root fetch - processPackages [npc_sessions]: Downloading https://files.pythonhosted.org/packages/b8/93/bc9b7a7dd0ef6f49e1a89dbd69042819d6a945d3ccc9906feb172a29ba15/npc_sessions-0.0.98.tar.gz
+[2024-04-26 07:09:33] WARNING root fetch - processPackages [nonebot-plugin-osubot]: Skipping package: exceeds size limit 29381438>=10485760
+[2024-04-26 07:09:33] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-osubot] error
+[2024-04-26 07:09:33] INFO root fetch - processPackages [foundationdb]: executing diffoscope
+[2024-04-26 07:09:33] INFO root fetch - processPackages [foundationdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foundationdb-7.3.8.tar.gz tmp/foundationdb-7.3.9.tar.gz --markdown 20240426/f/foundationdb/7.3.8-7.3.9/README.md --exclude *.pyd
+[2024-04-26 07:09:34] INFO root fetch - processPackages [odoo14-addon-pms]: Downloading https://files.pythonhosted.org/packages/6b/d2/872d4271026f02e164cdf6773633ee7c39723165f305fdf11e37a2224677/odoo14_addon_pms-14.0.2.9.0-py3-none-any.whl
+[2024-04-26 07:09:34] INFO root fetch - processPackages [npc_sessions]: Downloading https://files.pythonhosted.org/packages/1b/65/bf57b9c6ee648973d846c99ebd5e2954d44af7aee6a3272e3710494205b1/npc_sessions-0.0.99.tar.gz
+[2024-04-26 07:09:34] INFO root fetch - processPackages [neon-enclosure]: Downloading https://files.pythonhosted.org/packages/70/ec/f8f560b1e80cea5bd8a1bc991a7537ca298df17e9cb957e392cbdbb96529/neon-enclosure-1.7.1a1.tar.gz
+[2024-04-26 07:09:34] INFO root fetch - processPackages [odoo14-addon-pms]: executing diffoscope
+[2024-04-26 07:09:34] INFO root fetch - processPackages [odoo14-addon-pms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_pms-14.0.2.8.0-py3-none-any.whl.zip tmp/odoo14_addon_pms-14.0.2.9.0-py3-none-any.whl.zip --markdown 20240426/o/odoo14-addon-pms/14.0.2.8.0-14.0.2.9.0/README.md --exclude *.pyd
+[2024-04-26 07:09:34] INFO root fetch - processPackages [neon-enclosure]: executing diffoscope
+[2024-04-26 07:09:34] INFO root fetch - processPackages [neon-enclosure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon-enclosure-1.7.0.tar.gz tmp/neon-enclosure-1.7.1a1.tar.gz --markdown 20240426/n/neon-enclosure/1.7.0-1.7.1a1/README.md --exclude *.pyd
+[2024-04-26 07:09:34] INFO root fetch - processPackages [npc_sessions]: executing diffoscope
+[2024-04-26 07:09:34] INFO root fetch - processPackages [npc_sessions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/npc_sessions-0.0.98.tar.gz tmp/npc_sessions-0.0.99.tar.gz --markdown 20240426/n/npc_sessions/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-04-26 07:09:34] INFO root fetch - processPackages [foundationdb]: Remove: archive file [/home/abi/fetcher/tmp/foundationdb-7.3.8.tar.gz]
+[2024-04-26 07:09:34] INFO root fetch - processPackages [foundationdb]: Remove: archive file [/home/abi/fetcher/tmp/foundationdb-7.3.9.tar.gz]
+[2024-04-26 07:09:34] INFO root fetch - main [MainThread]: End processing [foundationdb]: success
+[2024-04-26 07:09:34] INFO root fetch - processPackages [neon-enclosure]: Remove: archive file [/home/abi/fetcher/tmp/neon-enclosure-1.7.0.tar.gz]
+[2024-04-26 07:09:34] INFO root fetch - processPackages [neon-enclosure]: Remove: archive file [/home/abi/fetcher/tmp/neon-enclosure-1.7.1a1.tar.gz]
+[2024-04-26 07:09:34] INFO root fetch - main [MainThread]: End processing [neon-enclosure]: success
+[2024-04-26 07:09:34] INFO root fetch - processPackages [npc_sessions]: Remove: archive file [/home/abi/fetcher/tmp/npc_sessions-0.0.98.tar.gz]
+[2024-04-26 07:09:34] INFO root fetch - processPackages [npc_sessions]: Remove: archive file [/home/abi/fetcher/tmp/npc_sessions-0.0.99.tar.gz]
+[2024-04-26 07:09:34] INFO root fetch - main [MainThread]: End processing [npc_sessions]: success
+[2024-04-26 07:09:35] INFO root fetch - processPackages [odoo14-addon-pms]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_pms-14.0.2.8.0-py3-none-any.whl.zip]
+[2024-04-26 07:09:35] INFO root fetch - processPackages [odoo14-addon-pms]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_pms-14.0.2.9.0-py3-none-any.whl.zip]
+[2024-04-26 07:09:35] INFO root fetch - main [MainThread]: End processing [odoo14-addon-pms]: success
+[2024-04-26 07:09:35] INFO root fetch - main [MainThread]: Store serial: [22942828]
