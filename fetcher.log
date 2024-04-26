@@ -15359,3 +15359,81 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 11:02:04] INFO root fetch - processPackages [ctapipe]: Remove: archive file [/home/abi/fetcher/tmp/ctapipe-0.9.1.tar.gz]
 [2024-04-26 11:02:04] INFO root fetch - main [MainThread]: End processing [ctapipe]: success
 [2024-04-26 11:02:04] INFO root fetch - main [MainThread]: Store serial: [22945465]
+[2024-04-26 11:04:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22945465]
+[2024-04-26 11:04:13] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-26 11:04:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: linktest
+[2024-04-26 11:04:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-l10n-es-aeat-mod347
+[2024-04-26 11:04:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: langchain-xiao
+[2024-04-26 11:04:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ep-stats
+[2024-04-26 11:04:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sastadev
+[2024-04-26 11:04:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pynchon
+[2024-04-26 11:04:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sirji-tools
+[2024-04-26 11:04:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: inni
+[2024-04-26 11:04:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyZlBus
+[2024-04-26 11:04:13] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod347]: New version: [17.0.1.0.0.4] Old Version: [17.0.1.0.0.2]
+[2024-04-26 11:04:13] INFO root fetch - processPackages [sirji-tools]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-26 11:04:13] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod347]: Downloading https://files.pythonhosted.org/packages/1b/18/9a98130c75a3cde2e8817d35c0826bcf1840fa70b81c87f46906464b32af/odoo_addon_l10n_es_aeat_mod347-17.0.1.0.0.2-py3-none-any.whl
+[2024-04-26 11:04:13] WARNING root fetch - processPackages [langchain-xiao]: Skipping, unable to determine old version
+[2024-04-26 11:04:13] INFO root fetch - main [MainThread]: End processing [langchain-xiao] error
+[2024-04-26 11:04:13] INFO root fetch - processPackages [linktest]: New version: [2.6.5] Old Version: [2.6.4]
+[2024-04-26 11:04:13] INFO root fetch - processPackages [sastadev]: New version: [0.2.0] Old Version: [0.1.5]
+[2024-04-26 11:04:13] INFO root fetch - processPackages [inni]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-04-26 11:04:13] INFO root fetch - processPackages [ep-stats]: New version: [2.3.3] Old Version: [2.3.2]
+[2024-04-26 11:04:13] INFO root fetch - processPackages [pynchon]: New version: [2024.4.5.14.1] Old Version: [2024.4.3.17.15]
+[2024-04-26 11:04:13] INFO root fetch - processPackages [pyZlBus]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-26 11:04:13] INFO root fetch - processPackages [linktest]: Downloading https://files.pythonhosted.org/packages/06/be/869aa01fdd5a8d14c4eabbce2236804fc6b093143b4a89d6c41a9ab89835/linktest-2.6.4.tar.gz
+[2024-04-26 11:04:13] INFO root fetch - processPackages [sastadev]: Downloading https://files.pythonhosted.org/packages/79/ca/73fae0eebcb5c3c558fb59413162c5f9b0685e948d89406d0e69697417ea/sastadev-0.1.5.tar.gz
+[2024-04-26 11:04:13] INFO root fetch - processPackages [sirji-tools]: Downloading https://files.pythonhosted.org/packages/32/34/244a14b40b0f989418fb462877e777b8f1086eb5baebcde6e9f5e2e785e4/sirji-tools-0.0.8.tar.gz
+[2024-04-26 11:04:13] INFO root fetch - processPackages [inni]: Downloading https://files.pythonhosted.org/packages/1f/87/c7495f34a24ec1b857a002bf714ef9070f208a1fe64afc44e775e7e015c4/inni-0.4.1.tar.gz
+[2024-04-26 11:04:13] INFO root fetch - processPackages [pynchon]: Downloading https://files.pythonhosted.org/packages/48/37/00ccc5dd7aa83879903e0d0e2628f063102cfde24c253ae20e9f857b8276/pynchon-2024.4.3.17.15.tar.gz
+[2024-04-26 11:04:13] INFO root fetch - processPackages [ep-stats]: Downloading https://files.pythonhosted.org/packages/20/32/04ba4d7a9577b1f5514fbd2b0a2b37e8503963984c41de0845bb33e06827/ep-stats-2.3.2.tar.gz
+[2024-04-26 11:04:13] INFO root fetch - processPackages [pyZlBus]: Downloading https://files.pythonhosted.org/packages/aa/3d/3c2df5816cb20c17157925cadc04072f02f2da3de169278dde04689de208/pyZlBus-0.1.8-py3-none-any.whl
+[2024-04-26 11:04:13] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod347]: Downloading https://files.pythonhosted.org/packages/8a/93/f85f1d660f1ec50f43eb52231409dfaf04d14358ba11505b3e26381108bb/odoo_addon_l10n_es_aeat_mod347-17.0.1.0.0.4-py3-none-any.whl
+[2024-04-26 11:04:14] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod347]: executing diffoscope
+[2024-04-26 11:04:14] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod347]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_aeat_mod347-17.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_aeat_mod347-17.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240426/o/odoo-addon-l10n-es-aeat-mod347/17.0.1.0.0.2-17.0.1.0.0.4/README.md --exclude *.pyd
+[2024-04-26 11:04:14] INFO root fetch - processPackages [linktest]: Downloading https://files.pythonhosted.org/packages/58/c4/8cc8a01d6628b3f228fb95858ff7f0983c74e09717d413176ecf1a991f11/linktest-2.6.5.tar.gz
+[2024-04-26 11:04:14] INFO root fetch - processPackages [inni]: Downloading https://files.pythonhosted.org/packages/33/78/d0464da61ea2ffa9dc5c54448044d7078d0403bd5a0b5cc51542c4e36d9b/inni-0.4.2.tar.gz
+[2024-04-26 11:04:14] INFO root fetch - processPackages [sirji-tools]: Downloading https://files.pythonhosted.org/packages/b0/a8/280918ca7aa18d468ac226d03fda95f27e22120fa32f570c9484c36ad723/sirji-tools-0.0.9.tar.gz
+[2024-04-26 11:04:14] INFO root fetch - processPackages [linktest]: executing diffoscope
+[2024-04-26 11:04:14] INFO root fetch - processPackages [linktest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linktest-2.6.4.tar.gz tmp/linktest-2.6.5.tar.gz --markdown 20240426/l/linktest/2.6.4-2.6.5/README.md --exclude *.pyd
+[2024-04-26 11:04:14] INFO root fetch - processPackages [ep-stats]: Downloading https://files.pythonhosted.org/packages/e0/7d/d51be3f7b397406af6060731cf0effe4313a2b9f305df8d274079b21c3f4/ep-stats-2.3.3.tar.gz
+[2024-04-26 11:04:14] INFO root fetch - processPackages [pynchon]: Downloading https://files.pythonhosted.org/packages/01/95/0d5a1e1aac3a22d200845a04815e53b0e2081b169ffeaeb2cfe3766c30d6/pynchon-2024.4.5.14.1.tar.gz
+[2024-04-26 11:04:14] INFO root fetch - processPackages [inni]: executing diffoscope
+[2024-04-26 11:04:14] INFO root fetch - processPackages [inni]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inni-0.4.1.tar.gz tmp/inni-0.4.2.tar.gz --markdown 20240426/i/inni/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-04-26 11:04:14] INFO root fetch - processPackages [sirji-tools]: executing diffoscope
+[2024-04-26 11:04:14] INFO root fetch - processPackages [sirji-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sirji-tools-0.0.8.tar.gz tmp/sirji-tools-0.0.9.tar.gz --markdown 20240426/s/sirji-tools/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-26 11:04:14] INFO root fetch - processPackages [ep-stats]: executing diffoscope
+[2024-04-26 11:04:14] INFO root fetch - processPackages [ep-stats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ep-stats-2.3.2.tar.gz tmp/ep-stats-2.3.3.tar.gz --markdown 20240426/e/ep-stats/2.3.2-2.3.3/README.md --exclude *.pyd
+[2024-04-26 11:04:14] INFO root fetch - processPackages [pynchon]: executing diffoscope
+[2024-04-26 11:04:14] INFO root fetch - processPackages [pynchon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynchon-2024.4.3.17.15.tar.gz tmp/pynchon-2024.4.5.14.1.tar.gz --markdown 20240426/p/pynchon/2024.4.3.17.15-2024.4.5.14.1/README.md --exclude *.pyd
+[2024-04-26 11:04:14] INFO root fetch - processPackages [sastadev]: Downloading https://files.pythonhosted.org/packages/5c/21/db2c1775a77df4cb94c904c580cf5d7b0b3def78434b1c0f25647cbe3871/sastadev-0.2.0.tar.gz
+[2024-04-26 11:04:14] INFO root fetch - processPackages [pyZlBus]: Downloading https://files.pythonhosted.org/packages/b9/0b/3dd6a7cafb698360ced9274fb7c514e638e7c089b41871b8a85aa12e2605/pyZlBus-0.1.9-py3-none-any.whl
+[2024-04-26 11:04:15] INFO root fetch - processPackages [pyZlBus]: executing diffoscope
+[2024-04-26 11:04:15] INFO root fetch - processPackages [pyZlBus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyZlBus-0.1.8-py3-none-any.whl.zip tmp/pyZlBus-0.1.9-py3-none-any.whl.zip --markdown 20240426/p/pyZlBus/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-26 11:04:15] INFO root fetch - processPackages [sastadev]: executing diffoscope
+[2024-04-26 11:04:15] INFO root fetch - processPackages [sastadev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sastadev-0.1.5.tar.gz tmp/sastadev-0.2.0.tar.gz --markdown 20240426/s/sastadev/0.1.5-0.2.0/README.md --exclude *.pyd
+[2024-04-26 11:04:15] INFO root fetch - processPackages [sirji-tools]: Remove: archive file [/home/abi/fetcher/tmp/sirji-tools-0.0.8.tar.gz]
+[2024-04-26 11:04:15] INFO root fetch - processPackages [sirji-tools]: Remove: archive file [/home/abi/fetcher/tmp/sirji-tools-0.0.9.tar.gz]
+[2024-04-26 11:04:15] INFO root fetch - main [MainThread]: End processing [sirji-tools]: success
+[2024-04-26 11:04:15] INFO root fetch - processPackages [linktest]: Remove: archive file [/home/abi/fetcher/tmp/linktest-2.6.4.tar.gz]
+[2024-04-26 11:04:15] INFO root fetch - processPackages [linktest]: Remove: archive file [/home/abi/fetcher/tmp/linktest-2.6.5.tar.gz]
+[2024-04-26 11:04:15] INFO root fetch - main [MainThread]: End processing [linktest]: success
+[2024-04-26 11:04:15] INFO root fetch - processPackages [inni]: Remove: archive file [/home/abi/fetcher/tmp/inni-0.4.1.tar.gz]
+[2024-04-26 11:04:15] INFO root fetch - processPackages [inni]: Remove: archive file [/home/abi/fetcher/tmp/inni-0.4.2.tar.gz]
+[2024-04-26 11:04:15] INFO root fetch - main [MainThread]: End processing [inni]: success
+[2024-04-26 11:04:15] INFO root fetch - processPackages [ep-stats]: Remove: archive file [/home/abi/fetcher/tmp/ep-stats-2.3.2.tar.gz]
+[2024-04-26 11:04:15] INFO root fetch - processPackages [ep-stats]: Remove: archive file [/home/abi/fetcher/tmp/ep-stats-2.3.3.tar.gz]
+[2024-04-26 11:04:15] INFO root fetch - main [MainThread]: End processing [ep-stats]: success
+[2024-04-26 11:04:15] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod347]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat_mod347-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-26 11:04:15] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod347]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat_mod347-17.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-04-26 11:04:15] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-aeat-mod347]: success
+[2024-04-26 11:04:15] INFO root fetch - processPackages [pynchon]: Remove: archive file [/home/abi/fetcher/tmp/pynchon-2024.4.3.17.15.tar.gz]
+[2024-04-26 11:04:15] INFO root fetch - processPackages [pynchon]: Remove: archive file [/home/abi/fetcher/tmp/pynchon-2024.4.5.14.1.tar.gz]
+[2024-04-26 11:04:15] INFO root fetch - main [MainThread]: End processing [pynchon]: success
+[2024-04-26 11:04:16] INFO root fetch - processPackages [pyZlBus]: Remove: archive file [/home/abi/fetcher/tmp/pyZlBus-0.1.8-py3-none-any.whl.zip]
+[2024-04-26 11:04:16] INFO root fetch - processPackages [pyZlBus]: Remove: archive file [/home/abi/fetcher/tmp/pyZlBus-0.1.9-py3-none-any.whl.zip]
+[2024-04-26 11:04:16] INFO root fetch - main [MainThread]: End processing [pyZlBus]: success
+[2024-04-26 11:04:20] INFO root fetch - processPackages [sastadev]: Remove: archive file [/home/abi/fetcher/tmp/sastadev-0.1.5.tar.gz]
+[2024-04-26 11:04:20] INFO root fetch - processPackages [sastadev]: Remove: archive file [/home/abi/fetcher/tmp/sastadev-0.2.0.tar.gz]
+[2024-04-26 11:04:20] INFO root fetch - main [MainThread]: End processing [sastadev]: success
+[2024-04-26 11:04:20] INFO root fetch - main [MainThread]: Store serial: [22945491]
