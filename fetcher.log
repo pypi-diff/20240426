@@ -10978,3 +10978,36 @@
 [2024-04-26 08:18:26] INFO root fetch - processPackages [fake-bpy-module]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module-20240426.tar.gz]
 [2024-04-26 08:18:26] INFO root fetch - main [MainThread]: End processing [fake-bpy-module]: success
 [2024-04-26 08:18:26] INFO root fetch - main [MainThread]: Store serial: [22943382]
+[2024-04-26 08:20:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22943382]
+[2024-04-26 08:20:42] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-26 08:20:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ccml2021
+[2024-04-26 08:20:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-linode
+[2024-04-26 08:20:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-ns1
+[2024-04-26 08:20:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: uac-cli
+[2024-04-26 08:20:42] INFO root fetch - processPackages [ccml2021]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-04-26 08:20:42] INFO root fetch - processPackages [ccml2021]: Downloading https://files.pythonhosted.org/packages/53/88/3aac5483b90117a4e2e3605cba4b4881738fe289bbcf062849a1371bed43/ccml2021-0.2.5.tar.gz
+[2024-04-26 08:20:42] ERROR root fetch - processPackages [uac-cli]: Unable to get metadata: No such project 'uac-cli'
+[2024-04-26 08:20:42] INFO root fetch - main [MainThread]: End processing [uac-cli] error
+[2024-04-26 08:20:42] INFO root fetch - processPackages [pulumi-ns1]: New version: [3.3.0a1714110968] Old Version: [3.3.0a1713900531]
+[2024-04-26 08:20:42] INFO root fetch - processPackages [pulumi-linode]: New version: [4.9.1] Old Version: [4.9.0a1700248892]
+[2024-04-26 08:20:43] INFO root fetch - processPackages [ccml2021]: Downloading https://files.pythonhosted.org/packages/f2/db/6cb802e1da4db926776226a0cb6db9957a184aa0ad0d2dd051bfc11b6111/ccml2021-0.2.6.tar.gz
+[2024-04-26 08:20:43] INFO root fetch - processPackages [pulumi-ns1]: Downloading https://files.pythonhosted.org/packages/c9/33/03aaaa2dcbaf9fcd837ab774ed46a170906491c5a3f4bf7b42f59e532d6d/pulumi_ns1-3.3.0a1713900531.tar.gz
+[2024-04-26 08:20:43] INFO root fetch - processPackages [pulumi-linode]: Downloading https://files.pythonhosted.org/packages/df/eb/e8d27e31574126cebb3db17960087d6e1cf94c88143b981d26b7b94fef71/pulumi_linode-4.9.0a1700248892.tar.gz
+[2024-04-26 08:20:43] INFO root fetch - processPackages [ccml2021]: executing diffoscope
+[2024-04-26 08:20:43] INFO root fetch - processPackages [ccml2021]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccml2021-0.2.5.tar.gz tmp/ccml2021-0.2.6.tar.gz --markdown 20240426/c/ccml2021/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-04-26 08:20:43] INFO root fetch - processPackages [pulumi-ns1]: Downloading https://files.pythonhosted.org/packages/3b/8d/7efe3a7a47646c13c1adb8b628579cea9504d5d6154b63ae7280f4e98c94/pulumi_ns1-3.3.0a1714110968.tar.gz
+[2024-04-26 08:20:43] INFO root fetch - processPackages [pulumi-linode]: Downloading https://files.pythonhosted.org/packages/1d/8f/908b3d1b357dcb4b00198e9afd3e1c31b7f20023adddd41e8a53a4577ee0/pulumi_linode-4.9.1.tar.gz
+[2024-04-26 08:20:43] INFO root fetch - processPackages [pulumi-ns1]: executing diffoscope
+[2024-04-26 08:20:43] INFO root fetch - processPackages [pulumi-ns1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_ns1-3.3.0a1713900531.tar.gz tmp/pulumi_ns1-3.3.0a1714110968.tar.gz --markdown 20240426/p/pulumi-ns1/3.3.0a1713900531-3.3.0a1714110968/README.md --exclude *.pyd
+[2024-04-26 08:20:43] INFO root fetch - processPackages [ccml2021]: Remove: archive file [/home/abi/fetcher/tmp/ccml2021-0.2.5.tar.gz]
+[2024-04-26 08:20:43] INFO root fetch - processPackages [ccml2021]: Remove: archive file [/home/abi/fetcher/tmp/ccml2021-0.2.6.tar.gz]
+[2024-04-26 08:20:43] INFO root fetch - main [MainThread]: End processing [ccml2021]: success
+[2024-04-26 08:20:43] INFO root fetch - processPackages [pulumi-linode]: executing diffoscope
+[2024-04-26 08:20:43] INFO root fetch - processPackages [pulumi-linode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_linode-4.9.0a1700248892.tar.gz tmp/pulumi_linode-4.9.1.tar.gz --markdown 20240426/p/pulumi-linode/4.9.0a1700248892-4.9.1/README.md --exclude *.pyd
+[2024-04-26 08:20:44] INFO root fetch - processPackages [pulumi-ns1]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ns1-3.3.0a1713900531.tar.gz]
+[2024-04-26 08:20:44] INFO root fetch - processPackages [pulumi-ns1]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ns1-3.3.0a1714110968.tar.gz]
+[2024-04-26 08:20:44] INFO root fetch - main [MainThread]: End processing [pulumi-ns1]: success
+[2024-04-26 08:20:44] INFO root fetch - processPackages [pulumi-linode]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_linode-4.9.0a1700248892.tar.gz]
+[2024-04-26 08:20:44] INFO root fetch - processPackages [pulumi-linode]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_linode-4.9.1.tar.gz]
+[2024-04-26 08:20:44] INFO root fetch - main [MainThread]: End processing [pulumi-linode]: success
+[2024-04-26 08:20:44] INFO root fetch - main [MainThread]: Store serial: [22943399]
