@@ -10201,3 +10201,42 @@
 [2024-04-26 07:42:57] INFO root fetch - processPackages [lute3]: Remove: archive file [/home/abi/fetcher/tmp/lute3-3.3.2b1.tar.gz]
 [2024-04-26 07:42:57] INFO root fetch - main [MainThread]: End processing [lute3]: success
 [2024-04-26 07:42:57] INFO root fetch - main [MainThread]: Store serial: [22943052]
+[2024-04-26 07:45:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22943052]
+[2024-04-26 07:45:06] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-26 07:45:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-confluentcloud
+[2024-04-26 07:45:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bbo-bbo
+[2024-04-26 07:45:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyvisigraph
+[2024-04-26 07:45:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bbo-labelgui
+[2024-04-26 07:45:06] INFO root fetch - processPackages [pulumi-confluentcloud]: New version: [1.9.0a1675887560] Old Version: [1.9.0]
+[2024-04-26 07:45:06] INFO root fetch - processPackages [bbo-labelgui]: New version: [0.15.2] Old Version: [0.15.1]
+[2024-04-26 07:45:06] INFO root fetch - processPackages [bbo-bbo]: New version: [0.2.9] Old Version: [0.2.6]
+[2024-04-26 07:45:06] INFO root fetch - processPackages [pyvisigraph]: New version: [2.0.4] Old Version: [2.0.3]
+[2024-04-26 07:45:06] INFO root fetch - processPackages [pulumi-confluentcloud]: Downloading https://files.pythonhosted.org/packages/ee/5c/83ab7b1cf2467d8b22165c469862d15e131885dbf277da0d1bb686af03fe/pulumi_confluentcloud-1.9.0.tar.gz
+[2024-04-26 07:45:06] INFO root fetch - processPackages [bbo-bbo]: Downloading https://files.pythonhosted.org/packages/84/10/86db2a6e25fc19f1a55454ce2fc576726a207d516394963fed8e7abfe1fe/bbo_bbo-0.2.6.tar.gz
+[2024-04-26 07:45:06] INFO root fetch - processPackages [bbo-labelgui]: Downloading https://files.pythonhosted.org/packages/1f/4b/372f1e8ce8d220029d55f98c0574ae9bd5ba30668bd42f1caf0863191c95/bbo-labelgui-0.15.1.tar.gz
+[2024-04-26 07:45:06] INFO root fetch - processPackages [pulumi-confluentcloud]: Downloading https://files.pythonhosted.org/packages/ec/f6/4c3900e97797a3f84c4c58458a6334035e702bd96d9ed3ec48d8e6e20f4e/pulumi_confluentcloud-1.9.0a1675887560.tar.gz
+[2024-04-26 07:45:06] INFO root fetch - processPackages [pyvisigraph]: Downloading https://files.pythonhosted.org/packages/85/32/a2f24c7c08bb612439b85c599e0ac6e40b9125ff9b3f0030f2a296cc0807/pyvisigraph-2.0.3.tar.gz
+[2024-04-26 07:45:06] INFO root fetch - processPackages [pulumi-confluentcloud]: executing diffoscope
+[2024-04-26 07:45:06] INFO root fetch - processPackages [pulumi-confluentcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_confluentcloud-1.9.0.tar.gz tmp/pulumi_confluentcloud-1.9.0a1675887560.tar.gz --markdown 20240426/p/pulumi-confluentcloud/1.9.0-1.9.0a1675887560/README.md --exclude *.pyd
+[2024-04-26 07:45:07] INFO root fetch - processPackages [bbo-bbo]: Downloading https://files.pythonhosted.org/packages/23/34/fdfac43f0a3e78ceb13e6d9976813c7791d6828a8625b5cd65d93a10db63/bbo_bbo-0.2.9.tar.gz
+[2024-04-26 07:45:07] INFO root fetch - processPackages [bbo-labelgui]: Downloading https://files.pythonhosted.org/packages/aa/c4/71698d5aebb5bae0fc68ec6d9b8df8c1cc85b78cfd94258ca5d1bdb7f20b/bbo-labelgui-0.15.2.tar.gz
+[2024-04-26 07:45:07] INFO root fetch - processPackages [pyvisigraph]: Downloading https://files.pythonhosted.org/packages/aa/c4/eeaae2d99fd10325e0b14285f1317f655c5c406f6055bbdd3b3adbef20ce/pyvisigraph-2.0.4.tar.gz
+[2024-04-26 07:45:07] INFO root fetch - processPackages [pyvisigraph]: executing diffoscope
+[2024-04-26 07:45:07] INFO root fetch - processPackages [pyvisigraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyvisigraph-2.0.3.tar.gz tmp/pyvisigraph-2.0.4.tar.gz --markdown 20240426/p/pyvisigraph/2.0.3-2.0.4/README.md --exclude *.pyd
+[2024-04-26 07:45:07] INFO root fetch - processPackages [bbo-bbo]: executing diffoscope
+[2024-04-26 07:45:07] INFO root fetch - processPackages [bbo-bbo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bbo_bbo-0.2.6.tar.gz tmp/bbo_bbo-0.2.9.tar.gz --markdown 20240426/b/bbo-bbo/0.2.6-0.2.9/README.md --exclude *.pyd
+[2024-04-26 07:45:07] INFO root fetch - processPackages [bbo-labelgui]: executing diffoscope
+[2024-04-26 07:45:07] INFO root fetch - processPackages [bbo-labelgui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bbo-labelgui-0.15.1.tar.gz tmp/bbo-labelgui-0.15.2.tar.gz --markdown 20240426/b/bbo-labelgui/0.15.1-0.15.2/README.md --exclude *.pyd
+[2024-04-26 07:45:07] INFO root fetch - processPackages [pulumi-confluentcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_confluentcloud-1.9.0.tar.gz]
+[2024-04-26 07:45:07] INFO root fetch - processPackages [pulumi-confluentcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_confluentcloud-1.9.0a1675887560.tar.gz]
+[2024-04-26 07:45:07] INFO root fetch - main [MainThread]: End processing [pulumi-confluentcloud]: success
+[2024-04-26 07:45:07] INFO root fetch - processPackages [bbo-bbo]: Remove: archive file [/home/abi/fetcher/tmp/bbo_bbo-0.2.6.tar.gz]
+[2024-04-26 07:45:07] INFO root fetch - processPackages [bbo-bbo]: Remove: archive file [/home/abi/fetcher/tmp/bbo_bbo-0.2.9.tar.gz]
+[2024-04-26 07:45:07] INFO root fetch - main [MainThread]: End processing [bbo-bbo]: success
+[2024-04-26 07:45:07] INFO root fetch - processPackages [pyvisigraph]: Remove: archive file [/home/abi/fetcher/tmp/pyvisigraph-2.0.3.tar.gz]
+[2024-04-26 07:45:07] INFO root fetch - processPackages [pyvisigraph]: Remove: archive file [/home/abi/fetcher/tmp/pyvisigraph-2.0.4.tar.gz]
+[2024-04-26 07:45:07] INFO root fetch - main [MainThread]: End processing [pyvisigraph]: success
+[2024-04-26 07:45:07] INFO root fetch - processPackages [bbo-labelgui]: Remove: archive file [/home/abi/fetcher/tmp/bbo-labelgui-0.15.1.tar.gz]
+[2024-04-26 07:45:07] INFO root fetch - processPackages [bbo-labelgui]: Remove: archive file [/home/abi/fetcher/tmp/bbo-labelgui-0.15.2.tar.gz]
+[2024-04-26 07:45:07] INFO root fetch - main [MainThread]: End processing [bbo-labelgui]: success
+[2024-04-26 07:45:07] INFO root fetch - main [MainThread]: Store serial: [22943064]
