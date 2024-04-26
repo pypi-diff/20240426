@@ -7619,3 +7619,11 @@
 [2024-04-26 04:42:48] INFO root fetch - processPackages [alibabacloud-dingtalk]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dingtalk-2.0.99.tar.gz]
 [2024-04-26 04:42:48] INFO root fetch - main [MainThread]: End processing [alibabacloud-dingtalk]: success
 [2024-04-26 04:42:48] INFO root fetch - main [MainThread]: Store serial: [22942001]
+[2024-04-26 04:44:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22942001]
+[2024-04-26 04:44:56] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-26 04:44:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: forbiditerative
+[2024-04-26 04:44:56] INFO root fetch - processPackages [forbiditerative]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-26 04:44:57] INFO root fetch - processPackages [forbiditerative]: Downloading https://files.pythonhosted.org/packages/fc/34/aa2d7a08f1c0676caafe4f3e8769d209148dd2e5a25410ba5d2d1b46f5b6/forbiditerative-1.0.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-26 04:44:57] WARNING root fetch - processPackages [forbiditerative]: Skipping package: exceeds size limit 64816026>=10485760
+[2024-04-26 04:44:57] INFO root fetch - main [MainThread]: End processing [forbiditerative] error
+[2024-04-26 04:44:57] INFO root fetch - main [MainThread]: Store serial: [22942010]
