@@ -13898,3 +13898,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 10:13:24] INFO root fetch - processPackages [cars]: Remove: archive file [/home/abi/fetcher/tmp/cars-0.7.6.tar.gz]
 [2024-04-26 10:13:24] INFO root fetch - main [MainThread]: End processing [cars]: success
 [2024-04-26 10:13:24] INFO root fetch - main [MainThread]: Store serial: [22944721]
+[2024-04-26 10:15:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22944721]
+[2024-04-26 10:15:34] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-26 10:15:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: secretscraper
+[2024-04-26 10:15:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alpaca-py
+[2024-04-26 10:15:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chat-bot-sea
+[2024-04-26 10:15:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: izihawa-textutils
+[2024-04-26 10:15:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: omni-cv-rules
+[2024-04-26 10:15:34] INFO root fetch - processPackages [izihawa-textutils]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-26 10:15:34] INFO root fetch - processPackages [secretscraper]: New version: [1.2] Old Version: [1.1]
+[2024-04-26 10:15:34] INFO root fetch - processPackages [alpaca-py]: New version: [0.9.0] Old Version: [0.8.2]
+[2024-04-26 10:15:34] INFO root fetch - processPackages [chat-bot-sea]: New version: [0.0.1] Old Version: [0.0.0]
+[2024-04-26 10:15:34] INFO root fetch - processPackages [izihawa-textutils]: Downloading https://files.pythonhosted.org/packages/fb/ed/589e9c3d98360955cf2fee14ed272bb7b490bdd1eeaa693eeb3959746e3c/izihawa_textutils-1.0.8.tar.gz
+[2024-04-26 10:15:34] INFO root fetch - processPackages [omni-cv-rules]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-26 10:15:34] INFO root fetch - processPackages [secretscraper]: Downloading https://files.pythonhosted.org/packages/61/53/d1d2706308843fa4e0dc8b602efc3517d64b527d7e07a08a4d1c6ae857d0/secretscraper-1.1.tar.gz
+[2024-04-26 10:15:34] INFO root fetch - processPackages [alpaca-py]: Downloading https://files.pythonhosted.org/packages/95/9a/c866d3091981080489f14171b69712fa22c65dcb09c2888eca936fa89cd8/alpaca_py-0.8.2.tar.gz
+[2024-04-26 10:15:35] INFO root fetch - processPackages [chat-bot-sea]: Downloading https://files.pythonhosted.org/packages/09/59/56373b6f75eec7b70cd092443dae2af404b8cbb5d5b91b64a17e272da6d4/chat_bot_sea-0.0.0.tar.gz
+[2024-04-26 10:15:35] INFO root fetch - processPackages [izihawa-textutils]: Downloading https://files.pythonhosted.org/packages/79/a9/1558e720494ea1096837a90ef420db701b90c1bb2856c96580b4facfb4df/izihawa_textutils-1.0.9.tar.gz
+[2024-04-26 10:15:35] INFO root fetch - processPackages [secretscraper]: Downloading https://files.pythonhosted.org/packages/de/06/ef08acda351f22f2137bdd9cd1668c7e130ada9a713fa450da2aa49c074b/secretscraper-1.2.tar.gz
+[2024-04-26 10:15:35] INFO root fetch - processPackages [omni-cv-rules]: Downloading https://files.pythonhosted.org/packages/9c/7f/fdd10532b39f5b86dab9a7d0e43c73e34d1e043a956e1ab97d8a5ddbbc01/omni-cv-rules-0.1.8.tar.gz
+[2024-04-26 10:15:35] INFO root fetch - processPackages [alpaca-py]: Downloading https://files.pythonhosted.org/packages/f0/0d/64596c95696d0c4774ba900e386ec14586cf4f85b8e395258caa1bb90e61/alpaca_py-0.9.0.tar.gz
+[2024-04-26 10:15:35] INFO root fetch - processPackages [izihawa-textutils]: executing diffoscope
+[2024-04-26 10:15:35] INFO root fetch - processPackages [izihawa-textutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/izihawa_textutils-1.0.8.tar.gz tmp/izihawa_textutils-1.0.9.tar.gz --markdown 20240426/i/izihawa-textutils/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-26 10:15:35] INFO root fetch - processPackages [secretscraper]: executing diffoscope
+[2024-04-26 10:15:35] INFO root fetch - processPackages [secretscraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secretscraper-1.1.tar.gz tmp/secretscraper-1.2.tar.gz --markdown 20240426/s/secretscraper/1.1-1.2/README.md --exclude *.pyd
+[2024-04-26 10:15:35] INFO root fetch - processPackages [alpaca-py]: executing diffoscope
+[2024-04-26 10:15:35] INFO root fetch - processPackages [alpaca-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alpaca_py-0.8.2.tar.gz tmp/alpaca_py-0.9.0.tar.gz --markdown 20240426/a/alpaca-py/0.8.2-0.9.0/README.md --exclude *.pyd
+[2024-04-26 10:15:35] INFO root fetch - processPackages [chat-bot-sea]: Downloading https://files.pythonhosted.org/packages/c5/a8/976c863223d3af845f59ee6b4d2622a89218389858586f856febce31d7e8/chat_bot_sea-0.0.1.tar.gz
+[2024-04-26 10:15:35] INFO root fetch - processPackages [chat-bot-sea]: executing diffoscope
+[2024-04-26 10:15:35] INFO root fetch - processPackages [chat-bot-sea]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chat_bot_sea-0.0.0.tar.gz tmp/chat_bot_sea-0.0.1.tar.gz --markdown 20240426/c/chat-bot-sea/0.0.0-0.0.1/README.md --exclude *.pyd
+[2024-04-26 10:15:35] INFO root fetch - processPackages [omni-cv-rules]: Downloading https://files.pythonhosted.org/packages/cc/b1/7366b8cf36d20a58f30a955d799d0b1aa2a07bff2f2cc03ed571cd25e58d/omni-cv-rules-0.1.9.tar.gz
+[2024-04-26 10:15:35] INFO root fetch - processPackages [izihawa-textutils]: Remove: archive file [/home/abi/fetcher/tmp/izihawa_textutils-1.0.8.tar.gz]
+[2024-04-26 10:15:35] INFO root fetch - processPackages [izihawa-textutils]: Remove: archive file [/home/abi/fetcher/tmp/izihawa_textutils-1.0.9.tar.gz]
+[2024-04-26 10:15:35] INFO root fetch - main [MainThread]: End processing [izihawa-textutils]: success
+[2024-04-26 10:15:36] INFO root fetch - processPackages [omni-cv-rules]: executing diffoscope
+[2024-04-26 10:15:36] INFO root fetch - processPackages [omni-cv-rules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omni-cv-rules-0.1.8.tar.gz tmp/omni-cv-rules-0.1.9.tar.gz --markdown 20240426/o/omni-cv-rules/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-26 10:15:36] INFO root fetch - processPackages [secretscraper]: Remove: archive file [/home/abi/fetcher/tmp/secretscraper-1.1.tar.gz]
+[2024-04-26 10:15:36] INFO root fetch - processPackages [secretscraper]: Remove: archive file [/home/abi/fetcher/tmp/secretscraper-1.2.tar.gz]
+[2024-04-26 10:15:36] INFO root fetch - main [MainThread]: End processing [secretscraper]: success
+[2024-04-26 10:15:36] INFO root fetch - processPackages [alpaca-py]: Remove: archive file [/home/abi/fetcher/tmp/alpaca_py-0.8.2.tar.gz]
+[2024-04-26 10:15:36] INFO root fetch - processPackages [alpaca-py]: Remove: archive file [/home/abi/fetcher/tmp/alpaca_py-0.9.0.tar.gz]
+[2024-04-26 10:15:36] INFO root fetch - main [MainThread]: End processing [alpaca-py]: success
+[2024-04-26 10:15:36] INFO root fetch - processPackages [chat-bot-sea]: Remove: archive file [/home/abi/fetcher/tmp/chat_bot_sea-0.0.0.tar.gz]
+[2024-04-26 10:15:36] INFO root fetch - processPackages [chat-bot-sea]: Remove: archive file [/home/abi/fetcher/tmp/chat_bot_sea-0.0.1.tar.gz]
+[2024-04-26 10:15:36] INFO root fetch - main [MainThread]: End processing [chat-bot-sea]: success
+[2024-04-26 10:15:36] INFO root fetch - processPackages [omni-cv-rules]: Remove: archive file [/home/abi/fetcher/tmp/omni-cv-rules-0.1.8.tar.gz]
+[2024-04-26 10:15:36] INFO root fetch - processPackages [omni-cv-rules]: Remove: archive file [/home/abi/fetcher/tmp/omni-cv-rules-0.1.9.tar.gz]
+[2024-04-26 10:15:36] INFO root fetch - main [MainThread]: End processing [omni-cv-rules]: success
+[2024-04-26 10:15:36] INFO root fetch - main [MainThread]: Store serial: [22944738]
