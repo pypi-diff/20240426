@@ -6770,3 +6770,47 @@
 [2024-04-26 03:25:53] INFO root fetch - processPackages [anycrc]: Remove: archive file [/home/abi/fetcher/tmp/anycrc-0.5.0-cp310-cp310-manylinux_2_17_i686.manylinux2014_i686.whl.zip]
 [2024-04-26 03:25:53] INFO root fetch - main [MainThread]: End processing [anycrc]: success
 [2024-04-26 03:25:53] INFO root fetch - main [MainThread]: Store serial: [22941386]
+[2024-04-26 03:27:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22941386]
+[2024-04-26 03:28:01] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-26 03:28:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mechanize
+[2024-04-26 03:28:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: onediff
+[2024-04-26 03:28:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: language-toolkit
+[2024-04-26 03:28:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: onediffx
+[2024-04-26 03:28:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: es-testbed
+[2024-04-26 03:28:01] INFO root fetch - processPackages [language-toolkit]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-04-26 03:28:01] INFO root fetch - processPackages [onediffx]: New version: [1.0.0.dev202404250127] Old Version: [1.0.0.dev202404240127]
+[2024-04-26 03:28:01] INFO root fetch - processPackages [onediff]: New version: [1.0.0.dev202404250127] Old Version: [1.0.0.dev202404240127]
+[2024-04-26 03:28:01] INFO root fetch - processPackages [es-testbed]: New version: [0.5.3] Old Version: [0.5.0]
+[2024-04-26 03:28:01] INFO root fetch - processPackages [mechanize]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-04-26 03:28:01] INFO root fetch - processPackages [onediff]: Downloading https://files.pythonhosted.org/packages/b4/97/3fb609b270618c2be76b5ffda6b4188ac589318ef4280c895c4eecbd9ed7/onediff-1.0.0.dev202404240127.tar.gz
+[2024-04-26 03:28:01] INFO root fetch - processPackages [onediffx]: Downloading https://files.pythonhosted.org/packages/87/95/10fc82dc0899d286a81d680ad912e07c0a813911d547ef8a20e54524071e/onediffx-1.0.0.dev202404240127.tar.gz
+[2024-04-26 03:28:02] INFO root fetch - processPackages [language-toolkit]: Downloading https://files.pythonhosted.org/packages/4b/5d/9ac43b599011952279bdf414cb58b6da97a9cc8fe631339e2ec8c78ba17d/language_toolkit-0.1.0.tar.gz
+[2024-04-26 03:28:02] WARNING root fetch - processPackages [language-toolkit]: Skipping package: exceeds size limit 12735154>=10485760
+[2024-04-26 03:28:02] INFO root fetch - main [MainThread]: End processing [language-toolkit] error
+[2024-04-26 03:28:02] INFO root fetch - processPackages [es-testbed]: Downloading https://files.pythonhosted.org/packages/ef/62/175a01f1bafe4dce387ca81a0e08c4726f7e7de298986e6140fbb24a0cb9/es_testbed-0.5.0.tar.gz
+[2024-04-26 03:28:02] INFO root fetch - processPackages [onediffx]: Downloading https://files.pythonhosted.org/packages/60/ea/912b909217eb95d92a50c5a423275f4f27e22dff1a2362de14a7f040cf7e/onediffx-1.0.0.dev202404250127.tar.gz
+[2024-04-26 03:28:02] INFO root fetch - processPackages [mechanize]: Downloading https://files.pythonhosted.org/packages/b0/02/6c3d393c72db98e8732ec85020a525494fdbb076c7511e3d331188a48154/mechanize-0.4.8.tar.gz
+[2024-04-26 03:28:02] INFO root fetch - processPackages [onediff]: Downloading https://files.pythonhosted.org/packages/8d/a4/788b8e796e8a5b3e8d6fd44e76ec7220c5accfa53760f7a845773b3137d2/onediff-1.0.0.dev202404250127.tar.gz
+[2024-04-26 03:28:02] INFO root fetch - processPackages [es-testbed]: Downloading https://files.pythonhosted.org/packages/34/5f/12b9c2082a3128c12cd5ef37b0cdcc8aaa739ba6defe857a90ca7c1c227f/es_testbed-0.5.3.tar.gz
+[2024-04-26 03:28:02] INFO root fetch - processPackages [onediff]: executing diffoscope
+[2024-04-26 03:28:02] INFO root fetch - processPackages [onediff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onediff-1.0.0.dev202404240127.tar.gz tmp/onediff-1.0.0.dev202404250127.tar.gz --markdown 20240426/o/onediff/1.0.0.dev202404240127-1.0.0.dev202404250127/README.md --exclude *.pyd
+[2024-04-26 03:28:02] INFO root fetch - processPackages [onediffx]: executing diffoscope
+[2024-04-26 03:28:02] INFO root fetch - processPackages [onediffx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onediffx-1.0.0.dev202404240127.tar.gz tmp/onediffx-1.0.0.dev202404250127.tar.gz --markdown 20240426/o/onediffx/1.0.0.dev202404240127-1.0.0.dev202404250127/README.md --exclude *.pyd
+[2024-04-26 03:28:02] INFO root fetch - processPackages [es-testbed]: executing diffoscope
+[2024-04-26 03:28:02] INFO root fetch - processPackages [es-testbed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/es_testbed-0.5.0.tar.gz tmp/es_testbed-0.5.3.tar.gz --markdown 20240426/e/es-testbed/0.5.0-0.5.3/README.md --exclude *.pyd
+[2024-04-26 03:28:02] INFO root fetch - processPackages [mechanize]: Downloading https://files.pythonhosted.org/packages/33/e6/bb760d200e895a9d1d2b8187d572726249e3c6fe8554388a20911ba30363/mechanize-0.4.9.tar.gz
+[2024-04-26 03:28:02] INFO root fetch - processPackages [mechanize]: executing diffoscope
+[2024-04-26 03:28:02] INFO root fetch - processPackages [mechanize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mechanize-0.4.8.tar.gz tmp/mechanize-0.4.9.tar.gz --markdown 20240426/m/mechanize/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-04-26 03:28:03] INFO root fetch - processPackages [onediffx]: Remove: archive file [/home/abi/fetcher/tmp/onediffx-1.0.0.dev202404240127.tar.gz]
+[2024-04-26 03:28:03] INFO root fetch - processPackages [onediffx]: Remove: archive file [/home/abi/fetcher/tmp/onediffx-1.0.0.dev202404250127.tar.gz]
+[2024-04-26 03:28:03] INFO root fetch - main [MainThread]: End processing [onediffx]: success
+[2024-04-26 03:28:03] INFO root fetch - processPackages [onediff]: Remove: archive file [/home/abi/fetcher/tmp/onediff-1.0.0.dev202404240127.tar.gz]
+[2024-04-26 03:28:03] INFO root fetch - processPackages [onediff]: Remove: archive file [/home/abi/fetcher/tmp/onediff-1.0.0.dev202404250127.tar.gz]
+[2024-04-26 03:28:03] INFO root fetch - main [MainThread]: End processing [onediff]: success
+[2024-04-26 03:28:03] INFO root fetch - processPackages [mechanize]: Remove: archive file [/home/abi/fetcher/tmp/mechanize-0.4.8.tar.gz]
+[2024-04-26 03:28:03] INFO root fetch - processPackages [mechanize]: Remove: archive file [/home/abi/fetcher/tmp/mechanize-0.4.9.tar.gz]
+[2024-04-26 03:28:03] INFO root fetch - main [MainThread]: End processing [mechanize]: success
+[2024-04-26 03:28:04] INFO root fetch - processPackages [es-testbed]: Remove: archive file [/home/abi/fetcher/tmp/es_testbed-0.5.0.tar.gz]
+[2024-04-26 03:28:04] INFO root fetch - processPackages [es-testbed]: Remove: archive file [/home/abi/fetcher/tmp/es_testbed-0.5.3.tar.gz]
+[2024-04-26 03:28:04] INFO root fetch - main [MainThread]: End processing [es-testbed]: success
+[2024-04-26 03:28:04] INFO root fetch - main [MainThread]: Store serial: [22941507]
