@@ -23033,3 +23033,42 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 16:29:23] INFO root fetch - processPackages [syft]: Remove: archive file [/home/abi/fetcher/tmp/syft-0.8.7b5.tar.gz]
 [2024-04-26 16:29:23] INFO root fetch - main [MainThread]: End processing [syft]: success
 [2024-04-26 16:29:23] INFO root fetch - main [MainThread]: Store serial: [22948664]
+[2024-04-26 16:31:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22948664]
+[2024-04-26 16:31:32] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-26 16:31:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quickstart-vdk
+[2024-04-26 16:31:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: BicycleParameters
+[2024-04-26 16:31:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: AgentX
+[2024-04-26 16:31:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: markdown-grid-tables
+[2024-04-26 16:31:32] INFO root fetch - processPackages [AgentX]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-26 16:31:32] INFO root fetch - processPackages [BicycleParameters]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-04-26 16:31:32] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.999091100.dev13356] Old Version: [0.2.998635022.dev13355]
+[2024-04-26 16:31:32] INFO root fetch - processPackages [AgentX]: Downloading https://files.pythonhosted.org/packages/7b/dc/95c4910cdcc7b8ba4e7b91ffded992773eb9cf3ca3fcf9b526fe9fab535e/AgentX-0.0.7.tar.gz
+[2024-04-26 16:31:32] INFO root fetch - processPackages [BicycleParameters]: Downloading https://files.pythonhosted.org/packages/60/dd/46265bfe27954e77d49b0b0a6d9c0765f9f1bc195a389691987f30f07cfc/BicycleParameters-1.0.0.tar.gz
+[2024-04-26 16:31:32] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/e3/a6/b7424a3be777980068df32f41ef9085422b79289fef725cba5cabf2b502e/quickstart-vdk-0.2.998635022.dev13355.tar.gz
+[2024-04-26 16:31:32] INFO root fetch - processPackages [markdown-grid-tables]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-04-26 16:31:32] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/fa/72/2a48eb94b876fa0c01eda0450a3e80c80101dd5fdfe10124d5474b64f5fd/quickstart-vdk-0.2.999091100.dev13356.tar.gz
+[2024-04-26 16:31:32] INFO root fetch - processPackages [AgentX]: Downloading https://files.pythonhosted.org/packages/8f/3c/862e3b4f85cf0508b06ed94220ce32f352d24e2dc10cab5e3b9f64884c2d/agentx-0.0.8.tar.gz
+[2024-04-26 16:31:32] INFO root fetch - processPackages [BicycleParameters]: Downloading https://files.pythonhosted.org/packages/92/eb/4f91c351cdbd25634f0ff97d5d1952ae96b6943fd47fe4f2fc3ffeeeefcd/bicycleparameters-1.1.0.tar.gz
+[2024-04-26 16:31:32] INFO root fetch - processPackages [markdown-grid-tables]: Downloading https://files.pythonhosted.org/packages/26/fe/b86230e8402d2591dbe520d967aa353b3bda6e4aa2d5b1d73b861d23e9a5/markdown_grid_tables-0.3.1-py3-none-any.whl
+[2024-04-26 16:31:32] INFO root fetch - processPackages [AgentX]: executing diffoscope
+[2024-04-26 16:31:32] INFO root fetch - processPackages [AgentX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AgentX-0.0.7.tar.gz tmp/agentx-0.0.8.tar.gz --markdown 20240426/A/AgentX/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-26 16:31:32] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2024-04-26 16:31:32] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz --markdown 20240426/q/quickstart-vdk/0.2.998635022.dev13355-0.2.999091100.dev13356/README.md --exclude *.pyd
+[2024-04-26 16:31:32] INFO root fetch - processPackages [BicycleParameters]: executing diffoscope
+[2024-04-26 16:31:32] INFO root fetch - processPackages [BicycleParameters]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BicycleParameters-1.0.0.tar.gz tmp/bicycleparameters-1.1.0.tar.gz --markdown 20240426/B/BicycleParameters/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-04-26 16:31:32] INFO root fetch - processPackages [markdown-grid-tables]: Downloading https://files.pythonhosted.org/packages/a4/e2/01ef72402235d2d3c028c881af7aafadd0de13b2d1f4ab50e81c0618ff0e/markdown_grid_tables-0.3.2-py3-none-any.whl
+[2024-04-26 16:31:33] INFO root fetch - processPackages [markdown-grid-tables]: executing diffoscope
+[2024-04-26 16:31:33] INFO root fetch - processPackages [markdown-grid-tables]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/markdown_grid_tables-0.3.1-py3-none-any.whl.zip tmp/markdown_grid_tables-0.3.2-py3-none-any.whl.zip --markdown 20240426/m/markdown-grid-tables/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-04-26 16:31:33] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz]
+[2024-04-26 16:31:33] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz]
+[2024-04-26 16:31:33] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2024-04-26 16:31:33] INFO root fetch - processPackages [AgentX]: Remove: archive file [/home/abi/fetcher/tmp/AgentX-0.0.7.tar.gz]
+[2024-04-26 16:31:33] INFO root fetch - processPackages [AgentX]: Remove: archive file [/home/abi/fetcher/tmp/agentx-0.0.8.tar.gz]
+[2024-04-26 16:31:33] INFO root fetch - main [MainThread]: End processing [AgentX]: success
+[2024-04-26 16:31:33] INFO root fetch - processPackages [BicycleParameters]: Remove: archive file [/home/abi/fetcher/tmp/BicycleParameters-1.0.0.tar.gz]
+[2024-04-26 16:31:33] INFO root fetch - processPackages [BicycleParameters]: Remove: archive file [/home/abi/fetcher/tmp/bicycleparameters-1.1.0.tar.gz]
+[2024-04-26 16:31:33] INFO root fetch - main [MainThread]: End processing [BicycleParameters]: success
+[2024-04-26 16:31:33] INFO root fetch - processPackages [markdown-grid-tables]: Remove: archive file [/home/abi/fetcher/tmp/markdown_grid_tables-0.3.1-py3-none-any.whl.zip]
+[2024-04-26 16:31:33] INFO root fetch - processPackages [markdown-grid-tables]: Remove: archive file [/home/abi/fetcher/tmp/markdown_grid_tables-0.3.2-py3-none-any.whl.zip]
+[2024-04-26 16:31:33] INFO root fetch - main [MainThread]: End processing [markdown-grid-tables]: success
+[2024-04-26 16:31:33] INFO root fetch - main [MainThread]: Store serial: [22948673]
