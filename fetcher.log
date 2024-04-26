@@ -13771,3 +13771,55 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 10:09:02] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.5.dev20240425.tar.gz]
 [2024-04-26 10:09:02] INFO root fetch - main [MainThread]: End processing [pyglove]: success
 [2024-04-26 10:09:02] INFO root fetch - main [MainThread]: Store serial: [22944679]
+[2024-04-26 10:11:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22944679]
+[2024-04-26 10:11:10] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-26 10:11:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ctrip-app-ui
+[2024-04-26 10:11:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bioimageio.core
+[2024-04-26 10:11:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Table2Latex
+[2024-04-26 10:11:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Table2Latex
+[2024-04-26 10:11:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Table2Tex
+[2024-04-26 10:11:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mlx-llm
+[2024-04-26 10:11:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vistafetch
+[2024-04-26 10:11:10] WARNING root fetch - processPackages [mlx-llm]: Skipping, unable to determine old version
+[2024-04-26 10:11:10] INFO root fetch - main [MainThread]: End processing [mlx-llm] error
+[2024-04-26 10:11:10] INFO root fetch - processPackages [ctrip-app-ui]: New version: [0.2.0] Old Version: [0.1.9]
+[2024-04-26 10:11:10] INFO root fetch - processPackages [ctrip-app-ui]: Downloading https://files.pythonhosted.org/packages/98/19/690d6d58715eaf50db4632aa219a5b8aaa253937b9399b28f088989d288a/ctrip-app-ui-0.1.9.tar.gz
+[2024-04-26 10:11:10] WARNING root fetch - processPackages [Table2Tex]: Skipping, unable to determine old version
+[2024-04-26 10:11:10] INFO root fetch - main [MainThread]: End processing [Table2Tex] error
+[2024-04-26 10:11:10] INFO root fetch - processPackages [vistafetch]: New version: [1.2.4] Old Version: [1.2.3]
+[2024-04-26 10:11:10] INFO root fetch - processPackages [bioimageio.core]: New version: [0.6.1] Old Version: [0.6.0]
+[2024-04-26 10:11:10] INFO root fetch - processPackages [Table2Latex]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-26 10:11:10] INFO root fetch - processPackages [Table2Latex]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-26 10:11:11] INFO root fetch - processPackages [Table2Latex]: Downloading https://files.pythonhosted.org/packages/6f/89/1f5c99ba86fdf6336bfa4887e80c2068065748f1ac932985bb26434e6331/Table2Latex-0.0.1-py3-none-any.whl
+[2024-04-26 10:11:11] INFO root fetch - processPackages [bioimageio.core]: Downloading https://files.pythonhosted.org/packages/4f/dc/b76be54378b5e67031285cbef702020349e91e289da514ebb0c2d70a8810/bioimageio.core-0.6.0.tar.gz
+[2024-04-26 10:11:11] INFO root fetch - processPackages [Table2Latex]: Downloading https://files.pythonhosted.org/packages/6f/89/1f5c99ba86fdf6336bfa4887e80c2068065748f1ac932985bb26434e6331/Table2Latex-0.0.1-py3-none-any.whl
+[2024-04-26 10:11:11] INFO root fetch - processPackages [vistafetch]: Downloading https://files.pythonhosted.org/packages/7e/05/4c65caf807d6880ec50f796c23209272c465109e4540598bdb1d73e89113/vistafetch-1.2.3.tar.gz
+[2024-04-26 10:11:11] INFO root fetch - processPackages [ctrip-app-ui]: Downloading https://files.pythonhosted.org/packages/e3/8b/f182e6c6310bcb8f712af8a06c15afd0761f79169a3371689a46d5f89f99/ctrip-app-ui-0.2.0.tar.gz
+[2024-04-26 10:11:11] INFO root fetch - processPackages [ctrip-app-ui]: executing diffoscope
+[2024-04-26 10:11:11] INFO root fetch - processPackages [ctrip-app-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctrip-app-ui-0.1.9.tar.gz tmp/ctrip-app-ui-0.2.0.tar.gz --markdown 20240426/c/ctrip-app-ui/0.1.9-0.2.0/README.md --exclude *.pyd
+[2024-04-26 10:11:11] INFO root fetch - processPackages [Table2Latex]: Downloading https://files.pythonhosted.org/packages/fd/82/99f07ea33caf67aba5c5b1f083e04e8f967db34c76ca5be8b696074d5eca/Table2Latex-0.0.2-py3-none-any.whl
+[2024-04-26 10:11:11] INFO root fetch - processPackages [Table2Latex]: Downloading https://files.pythonhosted.org/packages/fd/82/99f07ea33caf67aba5c5b1f083e04e8f967db34c76ca5be8b696074d5eca/Table2Latex-0.0.2-py3-none-any.whl
+[2024-04-26 10:11:11] INFO root fetch - processPackages [vistafetch]: Downloading https://files.pythonhosted.org/packages/9b/f5/ba9db145bf6aa598f172523bd54797973873f72084cccbbd784aaef29bd8/vistafetch-1.2.4.tar.gz
+[2024-04-26 10:11:11] INFO root fetch - processPackages [bioimageio.core]: Downloading https://files.pythonhosted.org/packages/fa/6a/c066c0ddc0b5a8055d5ba9897417611b43d6d658d109508290ef6a91f2e1/bioimageio.core-0.6.1.tar.gz
+[2024-04-26 10:11:11] INFO root fetch - processPackages [Table2Latex]: executing diffoscope
+[2024-04-26 10:11:11] INFO root fetch - processPackages [Table2Latex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Table2Latex-0.0.1-py3-none-any.whl.zip tmp/Table2Latex-0.0.2-py3-none-any.whl.zip --markdown 20240426/T/Table2Latex/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-26 10:11:11] INFO root fetch - processPackages [Table2Latex]: executing diffoscope
+[2024-04-26 10:11:11] INFO root fetch - processPackages [Table2Latex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Table2Latex-0.0.1-py3-none-any.whl.zip tmp/Table2Latex-0.0.2-py3-none-any.whl.zip --markdown 20240426/T/Table2Latex/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-26 10:11:11] INFO root fetch - processPackages [bioimageio.core]: executing diffoscope
+[2024-04-26 10:11:11] INFO root fetch - processPackages [bioimageio.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioimageio.core-0.6.0.tar.gz tmp/bioimageio.core-0.6.1.tar.gz --markdown 20240426/b/bioimageio.core/0.6.0-0.6.1/README.md --exclude *.pyd
+[2024-04-26 10:11:11] INFO root fetch - processPackages [vistafetch]: executing diffoscope
+[2024-04-26 10:11:11] INFO root fetch - processPackages [vistafetch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vistafetch-1.2.3.tar.gz tmp/vistafetch-1.2.4.tar.gz --markdown 20240426/v/vistafetch/1.2.3-1.2.4/README.md --exclude *.pyd
+[2024-04-26 10:11:11] INFO root fetch - processPackages [ctrip-app-ui]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-app-ui-0.1.9.tar.gz]
+[2024-04-26 10:11:11] INFO root fetch - processPackages [ctrip-app-ui]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-app-ui-0.2.0.tar.gz]
+[2024-04-26 10:11:11] INFO root fetch - main [MainThread]: End processing [ctrip-app-ui]: success
+[2024-04-26 10:11:12] INFO root fetch - processPackages [Table2Latex]: Remove: archive file [/home/abi/fetcher/tmp/Table2Latex-0.0.1-py3-none-any.whl.zip]
+[2024-04-26 10:11:12] INFO root fetch - processPackages [Table2Latex]: Remove: archive file [/home/abi/fetcher/tmp/Table2Latex-0.0.2-py3-none-any.whl.zip]
+[2024-04-26 10:11:12] INFO root fetch - main [MainThread]: End processing [Table2Latex]: success
+[2024-04-26 10:11:12] INFO root fetch - processPackages [vistafetch]: Remove: archive file [/home/abi/fetcher/tmp/vistafetch-1.2.3.tar.gz]
+[2024-04-26 10:11:12] INFO root fetch - processPackages [vistafetch]: Remove: archive file [/home/abi/fetcher/tmp/vistafetch-1.2.4.tar.gz]
+[2024-04-26 10:11:12] INFO root fetch - main [MainThread]: End processing [vistafetch]: success
+[2024-04-26 10:11:12] INFO root fetch - main [MainThread]: End processing [Table2Latex]: success
+[2024-04-26 10:11:12] INFO root fetch - processPackages [bioimageio.core]: Remove: archive file [/home/abi/fetcher/tmp/bioimageio.core-0.6.0.tar.gz]
+[2024-04-26 10:11:12] INFO root fetch - processPackages [bioimageio.core]: Remove: archive file [/home/abi/fetcher/tmp/bioimageio.core-0.6.1.tar.gz]
+[2024-04-26 10:11:12] INFO root fetch - main [MainThread]: End processing [bioimageio.core]: success
+[2024-04-26 10:11:12] INFO root fetch - main [MainThread]: Store serial: [22944701]
