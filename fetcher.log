@@ -22904,3 +22904,42 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 16:22:43] INFO root fetch - processPackages [quantconnect-stubs]: Remove: archive file [/home/abi/fetcher/tmp/quantconnect-stubs-9998.tar.gz]
 [2024-04-26 16:22:43] INFO root fetch - main [MainThread]: End processing [quantconnect-stubs]: success
 [2024-04-26 16:22:43] INFO root fetch - main [MainThread]: Store serial: [22948623]
+[2024-04-26 16:24:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22948623]
+[2024-04-26 16:24:53] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-26 16:24:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: libreflow.flows
+[2024-04-26 16:24:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: logik
+[2024-04-26 16:24:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: close-dot-io
+[2024-04-26 16:24:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: elevenlabs
+[2024-04-26 16:24:53] INFO root fetch - processPackages [libreflow.flows]: New version: [2.1.2.1] Old Version: [2.1.2]
+[2024-04-26 16:24:53] INFO root fetch - processPackages [logik]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-26 16:24:53] INFO root fetch - processPackages [elevenlabs]: New version: [1.2.0] Old Version: [1.1.2]
+[2024-04-26 16:24:53] INFO root fetch - processPackages [close-dot-io]: New version: [0.0.913] Old Version: [0.0.912]
+[2024-04-26 16:24:53] INFO root fetch - processPackages [libreflow.flows]: Downloading https://files.pythonhosted.org/packages/f1/9e/6988d1b4cf5510c8d975a4f40c783f3088d0a623ae289669fbba55d2d32f/libreflow_flows-2.1.2.tar.gz
+[2024-04-26 16:24:53] INFO root fetch - processPackages [logik]: Downloading https://files.pythonhosted.org/packages/92/e0/d59dd47faf05b997d52f075fc03d3d29860de11b5c9080a7f01eeb20f437/logik-0.0.2.tar.gz
+[2024-04-26 16:24:53] INFO root fetch - processPackages [close-dot-io]: Downloading https://files.pythonhosted.org/packages/0c/57/abe8c8abf1fee4f027311dda0509973a70e24336f98d9e8a44b868c2f21a/close_dot_io-0.0.912.tar.gz
+[2024-04-26 16:24:53] INFO root fetch - processPackages [elevenlabs]: Downloading https://files.pythonhosted.org/packages/a8/36/e9fe0f2e48686a1ec6c26402e4b519f3344d931c67fe510ff54fc80eebc9/elevenlabs-1.1.2.tar.gz
+[2024-04-26 16:24:53] INFO root fetch - processPackages [libreflow.flows]: Downloading https://files.pythonhosted.org/packages/ab/24/a3004eee357e037bfda87c56db39c3cec5c1f5e1f3f3730abf78477b114b/libreflow_flows-2.1.2.1.tar.gz
+[2024-04-26 16:24:53] INFO root fetch - processPackages [close-dot-io]: Downloading https://files.pythonhosted.org/packages/0f/54/faa3f0f7eb4d63ba3d43cfa306493ba1487a9c105a8f7b67be8e8864278b/close_dot_io-0.0.913.tar.gz
+[2024-04-26 16:24:53] INFO root fetch - processPackages [elevenlabs]: Downloading https://files.pythonhosted.org/packages/5f/1e/6b6c3e7b79fceb62fb36c512d6061c3392f0bc366e857f610e217ea2e59d/elevenlabs-1.2.0.tar.gz
+[2024-04-26 16:24:54] INFO root fetch - processPackages [logik]: Downloading https://files.pythonhosted.org/packages/71/26/e0f401136c26cb3949a30c13246d8fb97a5982e7e4a9be2e77eebb1bc4ac/logik-0.0.3.tar.gz
+[2024-04-26 16:24:54] INFO root fetch - processPackages [libreflow.flows]: executing diffoscope
+[2024-04-26 16:24:54] INFO root fetch - processPackages [libreflow.flows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libreflow_flows-2.1.2.tar.gz tmp/libreflow_flows-2.1.2.1.tar.gz --markdown 20240426/l/libreflow.flows/2.1.2-2.1.2.1/README.md --exclude *.pyd
+[2024-04-26 16:24:54] INFO root fetch - processPackages [close-dot-io]: executing diffoscope
+[2024-04-26 16:24:54] INFO root fetch - processPackages [close-dot-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/close_dot_io-0.0.912.tar.gz tmp/close_dot_io-0.0.913.tar.gz --markdown 20240426/c/close-dot-io/0.0.912-0.0.913/README.md --exclude *.pyd
+[2024-04-26 16:24:54] INFO root fetch - processPackages [elevenlabs]: executing diffoscope
+[2024-04-26 16:24:54] INFO root fetch - processPackages [elevenlabs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elevenlabs-1.1.2.tar.gz tmp/elevenlabs-1.2.0.tar.gz --markdown 20240426/e/elevenlabs/1.1.2-1.2.0/README.md --exclude *.pyd
+[2024-04-26 16:24:54] INFO root fetch - processPackages [logik]: executing diffoscope
+[2024-04-26 16:24:54] INFO root fetch - processPackages [logik]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logik-0.0.2.tar.gz tmp/logik-0.0.3.tar.gz --markdown 20240426/l/logik/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-26 16:24:54] INFO root fetch - processPackages [logik]: Remove: archive file [/home/abi/fetcher/tmp/logik-0.0.2.tar.gz]
+[2024-04-26 16:24:54] INFO root fetch - processPackages [logik]: Remove: archive file [/home/abi/fetcher/tmp/logik-0.0.3.tar.gz]
+[2024-04-26 16:24:54] INFO root fetch - main [MainThread]: End processing [logik]: success
+[2024-04-26 16:24:54] INFO root fetch - processPackages [close-dot-io]: Remove: archive file [/home/abi/fetcher/tmp/close_dot_io-0.0.912.tar.gz]
+[2024-04-26 16:24:54] INFO root fetch - processPackages [close-dot-io]: Remove: archive file [/home/abi/fetcher/tmp/close_dot_io-0.0.913.tar.gz]
+[2024-04-26 16:24:54] INFO root fetch - main [MainThread]: End processing [close-dot-io]: success
+[2024-04-26 16:24:54] INFO root fetch - processPackages [libreflow.flows]: Remove: archive file [/home/abi/fetcher/tmp/libreflow_flows-2.1.2.tar.gz]
+[2024-04-26 16:24:54] INFO root fetch - processPackages [libreflow.flows]: Remove: archive file [/home/abi/fetcher/tmp/libreflow_flows-2.1.2.1.tar.gz]
+[2024-04-26 16:24:54] INFO root fetch - main [MainThread]: End processing [libreflow.flows]: success
+[2024-04-26 16:24:55] INFO root fetch - processPackages [elevenlabs]: Remove: archive file [/home/abi/fetcher/tmp/elevenlabs-1.1.2.tar.gz]
+[2024-04-26 16:24:55] INFO root fetch - processPackages [elevenlabs]: Remove: archive file [/home/abi/fetcher/tmp/elevenlabs-1.2.0.tar.gz]
+[2024-04-26 16:24:55] INFO root fetch - main [MainThread]: End processing [elevenlabs]: success
+[2024-04-26 16:24:55] INFO root fetch - main [MainThread]: Store serial: [22948634]
