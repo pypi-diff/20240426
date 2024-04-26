@@ -10375,3 +10375,42 @@
 [2024-04-26 07:53:48] INFO root fetch - processPackages [scarcc]: Remove: archive file [/home/abi/fetcher/tmp/scarcc-0.1.7.tar.gz]
 [2024-04-26 07:53:48] INFO root fetch - main [MainThread]: End processing [scarcc]: success
 [2024-04-26 07:53:48] INFO root fetch - main [MainThread]: Store serial: [22943112]
+[2024-04-26 07:55:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22943112]
+[2024-04-26 07:55:57] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-26 07:55:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jetline
+[2024-04-26 07:55:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pure-cv
+[2024-04-26 07:55:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-fastly
+[2024-04-26 07:55:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyvisigraph
+[2024-04-26 07:55:57] INFO root fetch - processPackages [pyvisigraph]: New version: [2.0.4] Old Version: [2.0.3]
+[2024-04-26 07:55:57] INFO root fetch - processPackages [pyvisigraph]: Downloading https://files.pythonhosted.org/packages/85/32/a2f24c7c08bb612439b85c599e0ac6e40b9125ff9b3f0030f2a296cc0807/pyvisigraph-2.0.3.tar.gz
+[2024-04-26 07:55:57] INFO root fetch - processPackages [jetline]: New version: [0.1.0] Old Version: [0.0.53]
+[2024-04-26 07:55:57] INFO root fetch - processPackages [pure-cv]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-26 07:55:57] INFO root fetch - processPackages [pulumi-fastly]: New version: [8.7.0a1714109672] Old Version: [8.7.0a1713897687]
+[2024-04-26 07:55:57] INFO root fetch - processPackages [jetline]: Downloading https://files.pythonhosted.org/packages/69/08/9609c1620ff023eeac9473e9894c490767af297a0827c198ac6d4e9b47fa/jetline-0.0.53.tar.gz
+[2024-04-26 07:55:57] INFO root fetch - processPackages [pure-cv]: Downloading https://files.pythonhosted.org/packages/a1/d6/b74bd499875e6643f4a97d72098432e12c0b957837f5163b1ebc266d6b71/pure_cv-0.1.8.tar.gz
+[2024-04-26 07:55:57] INFO root fetch - processPackages [pyvisigraph]: Downloading https://files.pythonhosted.org/packages/aa/c4/eeaae2d99fd10325e0b14285f1317f655c5c406f6055bbdd3b3adbef20ce/pyvisigraph-2.0.4.tar.gz
+[2024-04-26 07:55:57] INFO root fetch - processPackages [pulumi-fastly]: Downloading https://files.pythonhosted.org/packages/b1/5c/1a7c07d6516e393ec21065cb986b34076698766eab755f5e65d47b50dc9a/pulumi_fastly-8.7.0a1713897687.tar.gz
+[2024-04-26 07:55:58] INFO root fetch - processPackages [pyvisigraph]: executing diffoscope
+[2024-04-26 07:55:58] INFO root fetch - processPackages [pyvisigraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyvisigraph-2.0.3.tar.gz tmp/pyvisigraph-2.0.4.tar.gz --markdown 20240426/p/pyvisigraph/2.0.3-2.0.4/README.md --exclude *.pyd
+[2024-04-26 07:55:58] INFO root fetch - processPackages [jetline]: Downloading https://files.pythonhosted.org/packages/e3/f4/b5802ae490072c74e48aa7eaf1f13a54a04217824821a8c3dd9d0ff31617/jetline-0.1.0.tar.gz
+[2024-04-26 07:55:58] INFO root fetch - processPackages [pure-cv]: Downloading https://files.pythonhosted.org/packages/05/1f/42a69fcafdcdddda1f19b187fdc4d1895eebefd62a93b5be218beccaac06/pure_cv-0.1.9.tar.gz
+[2024-04-26 07:55:58] INFO root fetch - processPackages [pulumi-fastly]: Downloading https://files.pythonhosted.org/packages/96/db/bcce02fe0ad3423ec491b54db6ff67f383477e7fac97a9b6e3f3d1c89020/pulumi_fastly-8.7.0a1714109672.tar.gz
+[2024-04-26 07:55:58] INFO root fetch - processPackages [jetline]: executing diffoscope
+[2024-04-26 07:55:58] INFO root fetch - processPackages [jetline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jetline-0.0.53.tar.gz tmp/jetline-0.1.0.tar.gz --markdown 20240426/j/jetline/0.0.53-0.1.0/README.md --exclude *.pyd
+[2024-04-26 07:55:58] INFO root fetch - processPackages [pure-cv]: executing diffoscope
+[2024-04-26 07:55:58] INFO root fetch - processPackages [pure-cv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pure_cv-0.1.8.tar.gz tmp/pure_cv-0.1.9.tar.gz --markdown 20240426/p/pure-cv/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-26 07:55:58] INFO root fetch - processPackages [pulumi-fastly]: executing diffoscope
+[2024-04-26 07:55:58] INFO root fetch - processPackages [pulumi-fastly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_fastly-8.7.0a1713897687.tar.gz tmp/pulumi_fastly-8.7.0a1714109672.tar.gz --markdown 20240426/p/pulumi-fastly/8.7.0a1713897687-8.7.0a1714109672/README.md --exclude *.pyd
+[2024-04-26 07:55:58] INFO root fetch - processPackages [pyvisigraph]: Remove: archive file [/home/abi/fetcher/tmp/pyvisigraph-2.0.3.tar.gz]
+[2024-04-26 07:55:58] INFO root fetch - processPackages [pyvisigraph]: Remove: archive file [/home/abi/fetcher/tmp/pyvisigraph-2.0.4.tar.gz]
+[2024-04-26 07:55:58] INFO root fetch - main [MainThread]: End processing [pyvisigraph]: success
+[2024-04-26 07:55:58] INFO root fetch - processPackages [pure-cv]: Remove: archive file [/home/abi/fetcher/tmp/pure_cv-0.1.8.tar.gz]
+[2024-04-26 07:55:58] INFO root fetch - processPackages [pure-cv]: Remove: archive file [/home/abi/fetcher/tmp/pure_cv-0.1.9.tar.gz]
+[2024-04-26 07:55:58] INFO root fetch - main [MainThread]: End processing [pure-cv]: success
+[2024-04-26 07:55:58] INFO root fetch - processPackages [jetline]: Remove: archive file [/home/abi/fetcher/tmp/jetline-0.0.53.tar.gz]
+[2024-04-26 07:55:58] INFO root fetch - processPackages [jetline]: Remove: archive file [/home/abi/fetcher/tmp/jetline-0.1.0.tar.gz]
+[2024-04-26 07:55:58] INFO root fetch - main [MainThread]: End processing [jetline]: success
+[2024-04-26 07:55:59] INFO root fetch - processPackages [pulumi-fastly]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_fastly-8.7.0a1713897687.tar.gz]
+[2024-04-26 07:55:59] INFO root fetch - processPackages [pulumi-fastly]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_fastly-8.7.0a1714109672.tar.gz]
+[2024-04-26 07:55:59] INFO root fetch - main [MainThread]: End processing [pulumi-fastly]: success
+[2024-04-26 07:55:59] INFO root fetch - main [MainThread]: Store serial: [22943124]
