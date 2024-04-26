@@ -6904,3 +6904,24 @@
 [2024-04-26 03:34:37] INFO root fetch - processPackages [milvus-api]: Remove: archive file [/home/abi/fetcher/tmp/milvus_api-0.1.1.tar.gz]
 [2024-04-26 03:34:37] INFO root fetch - main [MainThread]: End processing [milvus-api]: success
 [2024-04-26 03:34:37] INFO root fetch - main [MainThread]: Store serial: [22941680]
+[2024-04-26 03:36:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22941680]
+[2024-04-26 03:36:45] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-26 03:36:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sbcli-dev
+[2024-04-26 03:36:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: typedmongo
+[2024-04-26 03:36:45] INFO root fetch - processPackages [sbcli-dev]: New version: [2.3.8] Old Version: [2.3.7]
+[2024-04-26 03:36:45] INFO root fetch - processPackages [sbcli-dev]: Downloading https://files.pythonhosted.org/packages/5e/75/3b79336920288a60535827821439871a4da451ae0659fb040334bfee1627/sbcli_dev-2.3.7.zip
+[2024-04-26 03:36:45] INFO root fetch - processPackages [typedmongo]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-26 03:36:45] INFO root fetch - processPackages [typedmongo]: Downloading https://files.pythonhosted.org/packages/03/63/a9d712f3c24edf00e19910c563f254fa6757b76bf4f1424025dbe831df0f/typedmongo-1.0.0.tar.gz
+[2024-04-26 03:36:46] INFO root fetch - processPackages [sbcli-dev]: Downloading https://files.pythonhosted.org/packages/d1/dd/0d36e223832aed137a737ec371a09a4c73a1997b26c8589350dd6f6035bc/sbcli_dev-2.3.8.zip
+[2024-04-26 03:36:46] INFO root fetch - processPackages [typedmongo]: Downloading https://files.pythonhosted.org/packages/03/74/8e66ba950109543f9a1f1f8d8bcbb15b7d8de7e8b8078b1215db00f51b9b/typedmongo-1.0.1.tar.gz
+[2024-04-26 03:36:46] INFO root fetch - processPackages [typedmongo]: executing diffoscope
+[2024-04-26 03:36:46] INFO root fetch - processPackages [typedmongo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typedmongo-1.0.0.tar.gz tmp/typedmongo-1.0.1.tar.gz --markdown 20240426/t/typedmongo/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-26 03:36:46] INFO root fetch - processPackages [sbcli-dev]: executing diffoscope
+[2024-04-26 03:36:46] INFO root fetch - processPackages [sbcli-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbcli_dev-2.3.7.zip tmp/sbcli_dev-2.3.8.zip --markdown 20240426/s/sbcli-dev/2.3.7-2.3.8/README.md --exclude *.pyd
+[2024-04-26 03:36:46] INFO root fetch - processPackages [typedmongo]: Remove: archive file [/home/abi/fetcher/tmp/typedmongo-1.0.0.tar.gz]
+[2024-04-26 03:36:46] INFO root fetch - processPackages [typedmongo]: Remove: archive file [/home/abi/fetcher/tmp/typedmongo-1.0.1.tar.gz]
+[2024-04-26 03:36:46] INFO root fetch - main [MainThread]: End processing [typedmongo]: success
+[2024-04-26 03:36:47] INFO root fetch - processPackages [sbcli-dev]: Remove: archive file [/home/abi/fetcher/tmp/sbcli_dev-2.3.7.zip]
+[2024-04-26 03:36:47] INFO root fetch - processPackages [sbcli-dev]: Remove: archive file [/home/abi/fetcher/tmp/sbcli_dev-2.3.8.zip]
+[2024-04-26 03:36:47] INFO root fetch - main [MainThread]: End processing [sbcli-dev]: success
+[2024-04-26 03:36:47] INFO root fetch - main [MainThread]: Store serial: [22941688]
