@@ -9491,3 +9491,33 @@
 [2024-04-26 07:05:14] INFO root fetch - processPackages [mtdata]: Remove: archive file [/home/abi/fetcher/tmp/mtdata-0.4.1.tar.gz]
 [2024-04-26 07:05:14] INFO root fetch - main [MainThread]: End processing [mtdata]: success
 [2024-04-26 07:05:14] INFO root fetch - main [MainThread]: Store serial: [22942802]
+[2024-04-26 07:07:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22942802]
+[2024-04-26 07:07:23] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-26 07:07:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rapid-pe
+[2024-04-26 07:07:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spark-ai-python
+[2024-04-26 07:07:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: simc-support
+[2024-04-26 07:07:23] INFO root fetch - processPackages [simc-support]: New version: [9.2.5.3] Old Version: [9.2.5.2]
+[2024-04-26 07:07:23] INFO root fetch - processPackages [spark-ai-python]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-26 07:07:23] INFO root fetch - processPackages [rapid-pe]: New version: [0.1.2.dev20240425] Old Version: [0.1.2.dev20240424]
+[2024-04-26 07:07:23] INFO root fetch - processPackages [simc-support]: Downloading https://files.pythonhosted.org/packages/f2/2a/7c51939ccb108431387a296bc5c850bc5de94d88f9f5349f20368b0d95e5/simc_support-9.2.5.2.tar.gz
+[2024-04-26 07:07:23] INFO root fetch - processPackages [spark-ai-python]: Downloading https://files.pythonhosted.org/packages/f4/fb/add24d391c9e74bdc54b217e18d2a6003fb4db73d26fd757acf24fc284b0/spark_ai_python-0.3.8.tar.gz
+[2024-04-26 07:07:23] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/36/d9/6f45af64c57e40a33c04949e474dc5d1979e654c9479b2fe63f1453aa2d0/rapid_pe-0.1.2.dev20240424.tar.gz
+[2024-04-26 07:07:23] INFO root fetch - processPackages [spark-ai-python]: Downloading https://files.pythonhosted.org/packages/9c/8f/839a31dcb40a663647214e2c2a849dd29aba055b051276318cae0b879c67/spark_ai_python-0.3.9.tar.gz
+[2024-04-26 07:07:23] INFO root fetch - processPackages [simc-support]: Downloading https://files.pythonhosted.org/packages/7f/f2/94679bd3aff7cfce75541c456a83745c5be1b451e014726a9dceb888be9e/simc_support-9.2.5.3.tar.gz
+[2024-04-26 07:07:23] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/57/67/bb5ac50370edf110045fd32e97d8acd8f86f276b0cfd369953abf45f023f/rapid_pe-0.1.2.dev20240425.tar.gz
+[2024-04-26 07:07:23] INFO root fetch - processPackages [spark-ai-python]: executing diffoscope
+[2024-04-26 07:07:23] INFO root fetch - processPackages [spark-ai-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spark_ai_python-0.3.8.tar.gz tmp/spark_ai_python-0.3.9.tar.gz --markdown 20240426/s/spark-ai-python/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-04-26 07:07:23] INFO root fetch - processPackages [simc-support]: executing diffoscope
+[2024-04-26 07:07:23] INFO root fetch - processPackages [simc-support]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simc_support-9.2.5.2.tar.gz tmp/simc_support-9.2.5.3.tar.gz --markdown 20240426/s/simc-support/9.2.5.2-9.2.5.3/README.md --exclude *.pyd
+[2024-04-26 07:07:23] INFO root fetch - processPackages [rapid-pe]: executing diffoscope
+[2024-04-26 07:07:23] INFO root fetch - processPackages [rapid-pe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_pe-0.1.2.dev20240424.tar.gz tmp/rapid_pe-0.1.2.dev20240425.tar.gz --markdown 20240426/r/rapid-pe/0.1.2.dev20240424-0.1.2.dev20240425/README.md --exclude *.pyd
+[2024-04-26 07:07:24] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.2.dev20240424.tar.gz]
+[2024-04-26 07:07:24] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.2.dev20240425.tar.gz]
+[2024-04-26 07:07:24] INFO root fetch - main [MainThread]: End processing [rapid-pe]: success
+[2024-04-26 07:07:24] INFO root fetch - processPackages [simc-support]: Remove: archive file [/home/abi/fetcher/tmp/simc_support-9.2.5.2.tar.gz]
+[2024-04-26 07:07:24] INFO root fetch - processPackages [simc-support]: Remove: archive file [/home/abi/fetcher/tmp/simc_support-9.2.5.3.tar.gz]
+[2024-04-26 07:07:24] INFO root fetch - main [MainThread]: End processing [simc-support]: success
+[2024-04-26 07:07:24] INFO root fetch - processPackages [spark-ai-python]: Remove: archive file [/home/abi/fetcher/tmp/spark_ai_python-0.3.8.tar.gz]
+[2024-04-26 07:07:24] INFO root fetch - processPackages [spark-ai-python]: Remove: archive file [/home/abi/fetcher/tmp/spark_ai_python-0.3.9.tar.gz]
+[2024-04-26 07:07:24] INFO root fetch - main [MainThread]: End processing [spark-ai-python]: success
+[2024-04-26 07:07:24] INFO root fetch - main [MainThread]: Store serial: [22942814]
