@@ -20499,3 +20499,81 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 14:49:19] INFO root fetch - processPackages [byteblower-test-framework]: Remove: archive file [/home/abi/fetcher/tmp/byteblower_test_framework-1.3.1.tar.gz]
 [2024-04-26 14:49:19] INFO root fetch - main [MainThread]: End processing [byteblower-test-framework]: success
 [2024-04-26 14:49:19] INFO root fetch - main [MainThread]: Store serial: [22947569]
+[2024-04-26 14:51:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22947569]
+[2024-04-26 14:51:29] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-26 14:51:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: clovers-leafgame
+[2024-04-26 14:51:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mlsauce
+[2024-04-26 14:51:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: framelib
+[2024-04-26 14:51:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: byteblower-test-cases-rfc-2544
+[2024-04-26 14:51:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tmpack
+[2024-04-26 14:51:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: setga
+[2024-04-26 14:51:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rats-pipelines
+[2024-04-26 14:51:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rats-processors
+[2024-04-26 14:51:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nhl-api-py
+[2024-04-26 14:51:29] INFO root fetch - processPackages [mlsauce]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-26 14:51:29] INFO root fetch - processPackages [framelib]: New version: [0.0.4b0] Old Version: [0.0.3b2]
+[2024-04-26 14:51:29] INFO root fetch - processPackages [setga]: New version: [1.4.1] Old Version: [1.4]
+[2024-04-26 14:51:29] INFO root fetch - processPackages [rats-processors]: New version: [0.1.3.dev9] Old Version: [0.1.3.dev8]
+[2024-04-26 14:51:29] INFO root fetch - processPackages [rats-pipelines]: New version: [0.1.3.dev9] Old Version: [0.1.3.dev8]
+[2024-04-26 14:51:29] INFO root fetch - processPackages [byteblower-test-cases-rfc-2544]: New version: [1.0.1] Old Version: [1.0.0b5]
+[2024-04-26 14:51:29] INFO root fetch - processPackages [clovers-leafgame]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-26 14:51:30] WARNING root fetch - processPackages [tmpack]: Skipping, unable to determine old version
+[2024-04-26 14:51:30] INFO root fetch - main [MainThread]: End processing [tmpack] error
+[2024-04-26 14:51:30] INFO root fetch - processPackages [mlsauce]: Downloading https://files.pythonhosted.org/packages/09/f7/2b520a477f7710396348e4b9d582826758d5b083fe9b79613abe9c1435dd/mlsauce-0.9.0.tar.gz
+[2024-04-26 14:51:30] INFO root fetch - processPackages [framelib]: Downloading https://files.pythonhosted.org/packages/3b/51/b0eba864dd152406acc042994d714eb4a20b8d7c280d4bc5f1b7ddaedbbe/framelib-0.0.3b2.tar.gz
+[2024-04-26 14:51:30] INFO root fetch - processPackages [rats-processors]: Downloading https://files.pythonhosted.org/packages/ee/14/9e43a65d4c611c1fd72f73131b77c7f2d0b9dec99834658b01571114c849/rats_processors-0.1.3.dev8-py3-none-any.whl
+[2024-04-26 14:51:30] INFO root fetch - processPackages [setga]: Downloading https://files.pythonhosted.org/packages/cd/38/3500939a23c5aa598f04d4f941adc678479e4b451b21e8071e7bba133b1f/setga-1.4.tar.gz
+[2024-04-26 14:51:30] INFO root fetch - processPackages [rats-pipelines]: Downloading https://files.pythonhosted.org/packages/ec/dd/e1571a4a4be4a6e8a24f82ab1b058ced7ac30426c5fa734e21c3bb791cd1/rats_pipelines-0.1.3.dev8-py3-none-any.whl
+[2024-04-26 14:51:30] INFO root fetch - processPackages [nhl-api-py]: New version: [2.6.0] Old Version: [2.5.1]
+[2024-04-26 14:51:30] INFO root fetch - processPackages [byteblower-test-cases-rfc-2544]: Downloading https://files.pythonhosted.org/packages/e5/7e/7b27a2c3b6e0d91ca023225ea659aab761211564c51504b820104e31af97/byteblower_test_cases_rfc_2544-1.0.0b5.tar.gz
+[2024-04-26 14:51:30] INFO root fetch - processPackages [clovers-leafgame]: Downloading https://files.pythonhosted.org/packages/4c/8f/244a719a9dd232f5f5ba366cb402e76bb73566aa187a1e8115c4374bc0eb/clovers_leafgame-0.1.4.tar.gz
+[2024-04-26 14:51:30] INFO root fetch - processPackages [framelib]: Downloading https://files.pythonhosted.org/packages/df/a0/fbc3c7858a849bef6561c72061d19e7e35af39e244b2c4962a3958f30572/framelib-0.0.4b0.tar.gz
+[2024-04-26 14:51:30] INFO root fetch - processPackages [mlsauce]: Downloading https://files.pythonhosted.org/packages/34/94/ecad26410f10cd9ffb719f2bc235ed21c44541226f01a963cd37706f4b37/mlsauce-0.9.1.tar.gz
+[2024-04-26 14:51:30] INFO root fetch - processPackages [nhl-api-py]: Downloading https://files.pythonhosted.org/packages/85/28/dc9ff6a7c31a66bc33ce635bb31d9309337a7093aed9ad6c163830f5cde6/nhl_api_py-2.5.1.tar.gz
+[2024-04-26 14:51:30] INFO root fetch - processPackages [rats-processors]: Downloading https://files.pythonhosted.org/packages/83/b6/122ea8648f16d78861cb7c33e0f599e2421b03f295f46bbf34d66c3d399a/rats_processors-0.1.3.dev9-py3-none-any.whl
+[2024-04-26 14:51:30] INFO root fetch - processPackages [rats-pipelines]: Downloading https://files.pythonhosted.org/packages/b8/2d/79bd6c94d590e76f61506daaf64bbb07726287dd538e4b8a5d5a3fd64ad7/rats_pipelines-0.1.3.dev9-py3-none-any.whl
+[2024-04-26 14:51:30] INFO root fetch - processPackages [setga]: Downloading https://files.pythonhosted.org/packages/3b/0b/dca84af9d3bfe0d7de0670010c8a5e44f53666d357ecdd5443dcad089b08/setga-1.4.1.tar.gz
+[2024-04-26 14:51:30] INFO root fetch - processPackages [framelib]: executing diffoscope
+[2024-04-26 14:51:30] INFO root fetch - processPackages [framelib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/framelib-0.0.3b2.tar.gz tmp/framelib-0.0.4b0.tar.gz --markdown 20240426/f/framelib/0.0.3b2-0.0.4b0/README.md --exclude *.pyd
+[2024-04-26 14:51:30] INFO root fetch - processPackages [mlsauce]: executing diffoscope
+[2024-04-26 14:51:30] INFO root fetch - processPackages [mlsauce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlsauce-0.9.0.tar.gz tmp/mlsauce-0.9.1.tar.gz --markdown 20240426/m/mlsauce/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-26 14:51:30] INFO root fetch - processPackages [rats-processors]: executing diffoscope
+[2024-04-26 14:51:30] INFO root fetch - processPackages [rats-processors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rats_processors-0.1.3.dev8-py3-none-any.whl.zip tmp/rats_processors-0.1.3.dev9-py3-none-any.whl.zip --markdown 20240426/r/rats-processors/0.1.3.dev8-0.1.3.dev9/README.md --exclude *.pyd
+[2024-04-26 14:51:30] INFO root fetch - processPackages [rats-pipelines]: executing diffoscope
+[2024-04-26 14:51:30] INFO root fetch - processPackages [rats-pipelines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rats_pipelines-0.1.3.dev8-py3-none-any.whl.zip tmp/rats_pipelines-0.1.3.dev9-py3-none-any.whl.zip --markdown 20240426/r/rats-pipelines/0.1.3.dev8-0.1.3.dev9/README.md --exclude *.pyd
+[2024-04-26 14:51:30] INFO root fetch - processPackages [setga]: executing diffoscope
+[2024-04-26 14:51:30] INFO root fetch - processPackages [setga]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/setga-1.4.tar.gz tmp/setga-1.4.1.tar.gz --markdown 20240426/s/setga/1.4-1.4.1/README.md --exclude *.pyd
+[2024-04-26 14:51:30] INFO root fetch - processPackages [clovers-leafgame]: Downloading https://files.pythonhosted.org/packages/a1/20/7110f905f639b994debee6b0bb27343ad3917103848beee5abc05f90cd8c/clovers_leafgame-0.1.5.tar.gz
+[2024-04-26 14:51:30] INFO root fetch - processPackages [nhl-api-py]: Downloading https://files.pythonhosted.org/packages/de/c2/c0009966266e0b6247e73e6a20254d887fecf06d4c7647a145a328afdecc/nhl_api_py-2.6.0.tar.gz
+[2024-04-26 14:51:30] INFO root fetch - processPackages [clovers-leafgame]: executing diffoscope
+[2024-04-26 14:51:30] INFO root fetch - processPackages [clovers-leafgame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clovers_leafgame-0.1.4.tar.gz tmp/clovers_leafgame-0.1.5.tar.gz --markdown 20240426/c/clovers-leafgame/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-26 14:51:30] INFO root fetch - processPackages [nhl-api-py]: executing diffoscope
+[2024-04-26 14:51:30] INFO root fetch - processPackages [nhl-api-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nhl_api_py-2.5.1.tar.gz tmp/nhl_api_py-2.6.0.tar.gz --markdown 20240426/n/nhl-api-py/2.5.1-2.6.0/README.md --exclude *.pyd
+[2024-04-26 14:51:31] INFO root fetch - processPackages [framelib]: Remove: archive file [/home/abi/fetcher/tmp/framelib-0.0.3b2.tar.gz]
+[2024-04-26 14:51:31] INFO root fetch - processPackages [framelib]: Remove: archive file [/home/abi/fetcher/tmp/framelib-0.0.4b0.tar.gz]
+[2024-04-26 14:51:31] INFO root fetch - main [MainThread]: End processing [framelib]: success
+[2024-04-26 14:51:31] INFO root fetch - processPackages [mlsauce]: Remove: archive file [/home/abi/fetcher/tmp/mlsauce-0.9.0.tar.gz]
+[2024-04-26 14:51:31] INFO root fetch - processPackages [mlsauce]: Remove: archive file [/home/abi/fetcher/tmp/mlsauce-0.9.1.tar.gz]
+[2024-04-26 14:51:31] INFO root fetch - main [MainThread]: End processing [mlsauce]: success
+[2024-04-26 14:51:31] INFO root fetch - processPackages [setga]: Remove: archive file [/home/abi/fetcher/tmp/setga-1.4.tar.gz]
+[2024-04-26 14:51:31] INFO root fetch - processPackages [setga]: Remove: archive file [/home/abi/fetcher/tmp/setga-1.4.1.tar.gz]
+[2024-04-26 14:51:31] INFO root fetch - main [MainThread]: End processing [setga]: success
+[2024-04-26 14:51:31] INFO root fetch - processPackages [rats-processors]: Remove: archive file [/home/abi/fetcher/tmp/rats_processors-0.1.3.dev8-py3-none-any.whl.zip]
+[2024-04-26 14:51:31] INFO root fetch - processPackages [rats-processors]: Remove: archive file [/home/abi/fetcher/tmp/rats_processors-0.1.3.dev9-py3-none-any.whl.zip]
+[2024-04-26 14:51:31] INFO root fetch - main [MainThread]: End processing [rats-processors]: success
+[2024-04-26 14:51:31] INFO root fetch - processPackages [nhl-api-py]: Remove: archive file [/home/abi/fetcher/tmp/nhl_api_py-2.5.1.tar.gz]
+[2024-04-26 14:51:31] INFO root fetch - processPackages [nhl-api-py]: Remove: archive file [/home/abi/fetcher/tmp/nhl_api_py-2.6.0.tar.gz]
+[2024-04-26 14:51:31] INFO root fetch - main [MainThread]: End processing [nhl-api-py]: success
+[2024-04-26 14:51:31] INFO root fetch - processPackages [clovers-leafgame]: Remove: archive file [/home/abi/fetcher/tmp/clovers_leafgame-0.1.4.tar.gz]
+[2024-04-26 14:51:31] INFO root fetch - processPackages [clovers-leafgame]: Remove: archive file [/home/abi/fetcher/tmp/clovers_leafgame-0.1.5.tar.gz]
+[2024-04-26 14:51:31] INFO root fetch - main [MainThread]: End processing [clovers-leafgame]: success
+[2024-04-26 14:51:31] INFO root fetch - processPackages [rats-pipelines]: Remove: archive file [/home/abi/fetcher/tmp/rats_pipelines-0.1.3.dev8-py3-none-any.whl.zip]
+[2024-04-26 14:51:31] INFO root fetch - processPackages [rats-pipelines]: Remove: archive file [/home/abi/fetcher/tmp/rats_pipelines-0.1.3.dev9-py3-none-any.whl.zip]
+[2024-04-26 14:51:31] INFO root fetch - main [MainThread]: End processing [rats-pipelines]: success
+[2024-04-26 14:51:32] INFO root fetch - processPackages [byteblower-test-cases-rfc-2544]: Downloading https://files.pythonhosted.org/packages/81/66/5e53ac3dcad333348be86dea19eadb6f1aeb8d42c7754449598c5b75b40e/byteblower_test_cases_rfc_2544-1.0.1.tar.gz
+[2024-04-26 14:51:32] INFO root fetch - processPackages [byteblower-test-cases-rfc-2544]: executing diffoscope
+[2024-04-26 14:51:32] INFO root fetch - processPackages [byteblower-test-cases-rfc-2544]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/byteblower_test_cases_rfc_2544-1.0.0b5.tar.gz tmp/byteblower_test_cases_rfc_2544-1.0.1.tar.gz --markdown 20240426/b/byteblower-test-cases-rfc-2544/1.0.0b5-1.0.1/README.md --exclude *.pyd
+[2024-04-26 14:51:33] INFO root fetch - processPackages [byteblower-test-cases-rfc-2544]: Remove: archive file [/home/abi/fetcher/tmp/byteblower_test_cases_rfc_2544-1.0.0b5.tar.gz]
+[2024-04-26 14:51:33] INFO root fetch - processPackages [byteblower-test-cases-rfc-2544]: Remove: archive file [/home/abi/fetcher/tmp/byteblower_test_cases_rfc_2544-1.0.1.tar.gz]
+[2024-04-26 14:51:33] INFO root fetch - main [MainThread]: End processing [byteblower-test-cases-rfc-2544]: success
+[2024-04-26 14:51:33] INFO root fetch - main [MainThread]: Store serial: [22947596]
