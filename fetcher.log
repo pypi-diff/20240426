@@ -11251,3 +11251,62 @@
 [2024-04-26 08:29:33] INFO root fetch - processPackages [pulumi-newrelic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_newrelic-5.9.1.tar.gz]
 [2024-04-26 08:29:33] INFO root fetch - main [MainThread]: End processing [pulumi-newrelic]: success
 [2024-04-26 08:29:33] INFO root fetch - main [MainThread]: Store serial: [22943473]
+[2024-04-26 08:31:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22943473]
+[2024-04-26 08:31:41] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-26 08:31:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gingerai
+[2024-04-26 08:31:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dbgpt
+[2024-04-26 08:31:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: think-sql
+[2024-04-26 08:31:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xmonkey-namonica
+[2024-04-26 08:31:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: khoj-assistant
+[2024-04-26 08:31:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kservehelper
+[2024-04-26 08:31:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pms-onpremise-encoder
+[2024-04-26 08:31:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pdf-tools-sdk
+[2024-04-26 08:31:42] INFO root fetch - processPackages [gingerai]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-26 08:31:42] INFO root fetch - processPackages [khoj-assistant]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev74]
+[2024-04-26 08:31:42] WARNING root fetch - processPackages [xmonkey-namonica]: Skipping, unable to determine old version
+[2024-04-26 08:31:42] INFO root fetch - main [MainThread]: End processing [xmonkey-namonica] error
+[2024-04-26 08:31:42] INFO root fetch - processPackages [pdf-tools-sdk]: New version: [1.5.0.dev3] Old Version: [1.5.0.dev2]
+[2024-04-26 08:31:42] ERROR root fetch - processPackages [pms-onpremise-encoder]: Unable to get metadata: No such project 'pms-onpremise-encoder'
+[2024-04-26 08:31:42] INFO root fetch - main [MainThread]: End processing [pms-onpremise-encoder] error
+[2024-04-26 08:31:42] INFO root fetch - processPackages [think-sql]: New version: [0.7.4] Old Version: [0.7.3]
+[2024-04-26 08:31:42] INFO root fetch - processPackages [gingerai]: Downloading https://files.pythonhosted.org/packages/93/63/5f4a6d2549870026eff659d1fc9aac0f6c9532ea741f07ac2083cd3a1cfe/gingerai-0.1.8.tar.gz
+[2024-04-26 08:31:42] INFO root fetch - processPackages [kservehelper]: New version: [1.2.3] Old Version: [1.2.2]
+[2024-04-26 08:31:42] INFO root fetch - processPackages [dbgpt]: New version: [0.5.5rc0] Old Version: [0.5.5]
+[2024-04-26 08:31:42] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/fc/89/bbf1c812c39a0f341fea130ae430c11fcdd5fdcc5ca61fbaed2682cc4df7/khoj_assistant-1.9.1.dev74.tar.gz
+[2024-04-26 08:31:42] INFO root fetch - processPackages [pdf-tools-sdk]: Downloading https://files.pythonhosted.org/packages/2e/7f/c06e2c955978d2846079b258628daf4c93bace4784c1946262d8dcebe27a/pdf_tools_sdk-1.5.0.dev2.tar.gz
+[2024-04-26 08:31:42] INFO root fetch - processPackages [think-sql]: Downloading https://files.pythonhosted.org/packages/a0/15/0a86a476b8e30c708231d6c0d97242bbcc800009a87403a4fbefc2052ecf/think_sql-0.7.3.tar.gz
+[2024-04-26 08:31:42] INFO root fetch - processPackages [gingerai]: Downloading https://files.pythonhosted.org/packages/33/65/a59be7a360a71da6fb875287e72120e252018dc037eef33b15ac50759b89/gingerai-0.1.9.tar.gz
+[2024-04-26 08:31:42] INFO root fetch - processPackages [dbgpt]: Downloading https://files.pythonhosted.org/packages/a7/3f/c1575e1095fb881cf3151ac069f70cebacd1a56b290fd8ac00b8436c2174/dbgpt-0.5.5.tar.gz
+[2024-04-26 08:31:42] WARNING root fetch - processPackages [pdf-tools-sdk]: Skipping package: exceeds size limit 47680884>=10485760
+[2024-04-26 08:31:42] INFO root fetch - main [MainThread]: End processing [pdf-tools-sdk] error
+[2024-04-26 08:31:42] INFO root fetch - processPackages [kservehelper]: Downloading https://files.pythonhosted.org/packages/cc/d6/70b096b0087a34d58b58d6234c86835652d00b8ea69f28e401ef7e94089c/kservehelper-1.2.2.tar.gz
+[2024-04-26 08:31:42] INFO root fetch - processPackages [gingerai]: executing diffoscope
+[2024-04-26 08:31:42] INFO root fetch - processPackages [gingerai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gingerai-0.1.8.tar.gz tmp/gingerai-0.1.9.tar.gz --markdown 20240426/g/gingerai/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-26 08:31:42] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/47/ae/446626ff585bb336b70b59402ea6a46bf52326a51b81fd9ead920cde4c8a/khoj_assistant-1.9.1.dev8.tar.gz
+[2024-04-26 08:31:42] INFO root fetch - processPackages [kservehelper]: Downloading https://files.pythonhosted.org/packages/b1/b3/0b4dcd73f8d9edd3fb4a6146878e9e7828021a59ff48f957ded2a027fe81/kservehelper-1.2.3.tar.gz
+[2024-04-26 08:31:42] INFO root fetch - processPackages [think-sql]: Downloading https://files.pythonhosted.org/packages/02/2e/9ef78d662f3cd5fcaba55dcc7ff7225b914eef45682bce3778df37130a14/think_sql-0.7.4.tar.gz
+[2024-04-26 08:31:42] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2024-04-26 08:31:42] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-1.9.1.dev74.tar.gz tmp/khoj_assistant-1.9.1.dev8.tar.gz --markdown 20240426/k/khoj-assistant/1.9.1.dev74-1.9.1.dev8/README.md --exclude *.pyd
+[2024-04-26 08:31:42] INFO root fetch - processPackages [dbgpt]: Downloading https://files.pythonhosted.org/packages/75/ea/2a7bab181806ff0e9bf6d960734d70dcb20d88189d339bd4083b0a022479/dbgpt-0.5.5rc0.tar.gz
+[2024-04-26 08:31:42] INFO root fetch - processPackages [think-sql]: executing diffoscope
+[2024-04-26 08:31:43] INFO root fetch - processPackages [think-sql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/think_sql-0.7.3.tar.gz tmp/think_sql-0.7.4.tar.gz --markdown 20240426/t/think-sql/0.7.3-0.7.4/README.md --exclude *.pyd
+[2024-04-26 08:31:43] INFO root fetch - processPackages [kservehelper]: executing diffoscope
+[2024-04-26 08:31:43] INFO root fetch - processPackages [kservehelper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kservehelper-1.2.2.tar.gz tmp/kservehelper-1.2.3.tar.gz --markdown 20240426/k/kservehelper/1.2.2-1.2.3/README.md --exclude *.pyd
+[2024-04-26 08:31:43] INFO root fetch - processPackages [dbgpt]: executing diffoscope
+[2024-04-26 08:31:43] INFO root fetch - processPackages [dbgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbgpt-0.5.5.tar.gz tmp/dbgpt-0.5.5rc0.tar.gz --markdown 20240426/d/dbgpt/0.5.5-0.5.5rc0/README.md --exclude *.pyd
+[2024-04-26 08:31:43] INFO root fetch - processPackages [gingerai]: Remove: archive file [/home/abi/fetcher/tmp/gingerai-0.1.8.tar.gz]
+[2024-04-26 08:31:43] INFO root fetch - processPackages [gingerai]: Remove: archive file [/home/abi/fetcher/tmp/gingerai-0.1.9.tar.gz]
+[2024-04-26 08:31:43] INFO root fetch - main [MainThread]: End processing [gingerai]: success
+[2024-04-26 08:31:43] INFO root fetch - processPackages [think-sql]: Remove: archive file [/home/abi/fetcher/tmp/think_sql-0.7.3.tar.gz]
+[2024-04-26 08:31:43] INFO root fetch - processPackages [think-sql]: Remove: archive file [/home/abi/fetcher/tmp/think_sql-0.7.4.tar.gz]
+[2024-04-26 08:31:43] INFO root fetch - main [MainThread]: End processing [think-sql]: success
+[2024-04-26 08:31:43] INFO root fetch - processPackages [kservehelper]: Remove: archive file [/home/abi/fetcher/tmp/kservehelper-1.2.2.tar.gz]
+[2024-04-26 08:31:43] INFO root fetch - processPackages [kservehelper]: Remove: archive file [/home/abi/fetcher/tmp/kservehelper-1.2.3.tar.gz]
+[2024-04-26 08:31:43] INFO root fetch - main [MainThread]: End processing [kservehelper]: success
+[2024-04-26 08:31:44] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev74.tar.gz]
+[2024-04-26 08:31:44] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev8.tar.gz]
+[2024-04-26 08:31:44] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2024-04-26 08:31:44] INFO root fetch - processPackages [dbgpt]: Remove: archive file [/home/abi/fetcher/tmp/dbgpt-0.5.5.tar.gz]
+[2024-04-26 08:31:44] INFO root fetch - processPackages [dbgpt]: Remove: archive file [/home/abi/fetcher/tmp/dbgpt-0.5.5rc0.tar.gz]
+[2024-04-26 08:31:44] INFO root fetch - main [MainThread]: End processing [dbgpt]: success
+[2024-04-26 08:31:44] INFO root fetch - main [MainThread]: Store serial: [22943505]
