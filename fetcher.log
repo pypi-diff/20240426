@@ -9003,3 +9003,18 @@
 [2024-04-26 06:21:27] INFO root fetch - processPackages [pwrdrvr.microapps.cdk]: Remove: archive file [/home/abi/fetcher/tmp/pwrdrvr.microapps.cdk-1.0.1.tar.gz]
 [2024-04-26 06:21:27] INFO root fetch - main [MainThread]: End processing [pwrdrvr.microapps.cdk]: success
 [2024-04-26 06:21:27] INFO root fetch - main [MainThread]: Store serial: [22942602]
+[2024-04-26 06:23:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22942602]
+[2024-04-26 06:23:35] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-26 06:23:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ecv-python-development
+[2024-04-26 06:23:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: common-tools-ai-bnq
+[2024-04-26 06:23:35] WARNING root fetch - processPackages [common-tools-ai-bnq]: Skipping, unable to determine old version
+[2024-04-26 06:23:35] INFO root fetch - main [MainThread]: End processing [common-tools-ai-bnq] error
+[2024-04-26 06:23:35] INFO root fetch - processPackages [ecv-python-development]: New version: [0.0.53] Old Version: [0.0.52]
+[2024-04-26 06:23:35] INFO root fetch - processPackages [ecv-python-development]: Downloading https://files.pythonhosted.org/packages/01/50/4b5487d1fa28ae273edae1e950f04e3a0bfaec9cf888bd644bebf0fcc2ab/ecv-python-development-0.0.52.tar.gz
+[2024-04-26 06:23:36] INFO root fetch - processPackages [ecv-python-development]: Downloading https://files.pythonhosted.org/packages/cf/dd/1c7c614800cdcafd825ee91fef0e2055211101b1f725f7b40aadbc7ea91f/ecv-python-development-0.0.53.tar.gz
+[2024-04-26 06:23:36] INFO root fetch - processPackages [ecv-python-development]: executing diffoscope
+[2024-04-26 06:23:36] INFO root fetch - processPackages [ecv-python-development]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecv-python-development-0.0.52.tar.gz tmp/ecv-python-development-0.0.53.tar.gz --markdown 20240426/e/ecv-python-development/0.0.52-0.0.53/README.md --exclude *.pyd
+[2024-04-26 06:23:36] INFO root fetch - processPackages [ecv-python-development]: Remove: archive file [/home/abi/fetcher/tmp/ecv-python-development-0.0.52.tar.gz]
+[2024-04-26 06:23:36] INFO root fetch - processPackages [ecv-python-development]: Remove: archive file [/home/abi/fetcher/tmp/ecv-python-development-0.0.53.tar.gz]
+[2024-04-26 06:23:36] INFO root fetch - main [MainThread]: End processing [ecv-python-development]: success
+[2024-04-26 06:23:36] INFO root fetch - main [MainThread]: Store serial: [22942609]
