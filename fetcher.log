@@ -14865,3 +14865,114 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 10:42:13] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202404260721.tar.gz]
 [2024-04-26 10:42:13] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2024-04-26 10:42:13] INFO root fetch - main [MainThread]: Store serial: [22945213]
+[2024-04-26 10:44:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22945213]
+[2024-04-26 10:44:23] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-04-26 10:44:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wodoo
+[2024-04-26 10:44:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: logfire-sdk
+[2024-04-26 10:44:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fenics-beat
+[2024-04-26 10:44:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pysalesforceutils
+[2024-04-26 10:44:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kafka-broker
+[2024-04-26 10:44:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pydantic-logfire
+[2024-04-26 10:44:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: llm-monitoring-sascha
+[2024-04-26 10:44:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kfish
+[2024-04-26 10:44:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: allocmd
+[2024-04-26 10:44:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: kuzu
+[2024-04-26 10:44:24] INFO root fetch - processPackages [logfire-sdk]: New version: [0.0.1] Old Version: [0.0.0]
+[2024-04-26 10:44:24] INFO root fetch - processPackages [llm-monitoring-sascha]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-26 10:44:24] INFO root fetch - processPackages [allocmd]: New version: [2.0.0] Old Version: [1.0.1]
+[2024-04-26 10:44:24] INFO root fetch - processPackages [kafka-broker]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-04-26 10:44:24] INFO root fetch - processPackages [wodoo]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-04-26 10:44:24] INFO root fetch - processPackages [kfish]: New version: [99.0.202404260724] Old Version: [99.0.202404251552]
+[2024-04-26 10:44:24] INFO root fetch - processPackages [pysalesforceutils]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-26 10:44:24] INFO root fetch - processPackages [fenics-beat]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-26 10:44:24] INFO root fetch - processPackages [logfire-sdk]: Downloading https://files.pythonhosted.org/packages/39/57/5d5b56c2247c06adeffbe3abefcc6d2f165d20fe6ed28289ae97262213d9/logfire_sdk-0.0.0.tar.gz
+[2024-04-26 10:44:24] INFO root fetch - processPackages [pydantic-logfire]: New version: [0.0.1] Old Version: [0.0.0]
+[2024-04-26 10:44:24] INFO root fetch - processPackages [kafka-broker]: Downloading https://files.pythonhosted.org/packages/ca/7f/d64ae77062d760997d0f6d750541eddee9f2a6a602b07e1b59c65790d985/kafka-broker-0.4.1.tar.gz
+[2024-04-26 10:44:24] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/7a/95/4f7d6ac6245a68027ce6c1147812fb986182834673978233f1675ba0e481/kfish-99.0.202404251552-py3-none-any.whl
+[2024-04-26 10:44:24] INFO root fetch - processPackages [wodoo]: Downloading https://files.pythonhosted.org/packages/53/68/7b6f7e95cfdfbd466ca0193157764107728485da639a0b0d073256be29a3/wodoo-0.5.8.tar.gz
+[2024-04-26 10:44:24] INFO root fetch - processPackages [llm-monitoring-sascha]: Downloading https://files.pythonhosted.org/packages/fa/43/03816fe45047971f66859ca18a00e7d9e88f0ba3a439cd464093e24f9e01/llm_monitoring_sascha-0.0.3.tar.gz
+[2024-04-26 10:44:24] INFO root fetch - processPackages [allocmd]: Downloading https://files.pythonhosted.org/packages/ed/b4/93fb89382773a246e07e03934c4cb7bfc27c2d2fd8288fb581eacfd9bd7a/allocmd-1.0.1.tar.gz
+[2024-04-26 10:44:24] INFO root fetch - processPackages [pysalesforceutils]: Downloading https://files.pythonhosted.org/packages/bb/5d/fe6d5f98f5708c179a7e05bd891ed031adc9d9877b2f4304ab338bc2d00b/pysalesforceutils-1.0.8.tar.gz
+[2024-04-26 10:44:24] INFO root fetch - processPackages [fenics-beat]: Downloading https://files.pythonhosted.org/packages/19/ac/2ae73b667b19b5e0312efe936a6257be805227d8e03cbe69f59d78477f49/fenics-beat-0.0.3.tar.gz
+[2024-04-26 10:44:24] INFO root fetch - processPackages [pydantic-logfire]: Downloading https://files.pythonhosted.org/packages/f0/87/f7a619d7df247c8b6281416c3e408cce2d27228f8c3963749a598c9cf76f/pydantic_logfire-0.0.0.tar.gz
+[2024-04-26 10:44:24] INFO root fetch - processPackages [logfire-sdk]: Downloading https://files.pythonhosted.org/packages/0b/49/839ee65bc851ff79bcba28e5786c581b0f159a5afe3f492d04f1b9c5505a/logfire_sdk-0.0.1.tar.gz
+[2024-04-26 10:44:24] INFO root fetch - processPackages [wodoo]: Downloading https://files.pythonhosted.org/packages/b7/a1/0b22b9a96e05c35661083fcac67ec4c2f1d13c9c0ac55214e82b196d393b/wodoo-0.5.9.tar.gz
+[2024-04-26 10:44:24] INFO root fetch - processPackages [kuzu]: New version: [0.3.3.dev47] Old Version: [0.3.3.dev46]
+[2024-04-26 10:44:24] INFO root fetch - processPackages [kafka-broker]: Downloading https://files.pythonhosted.org/packages/7c/9a/a82bb5e10b1157a886d1c0a17eafd355f00a205cd5bf11fcb41d681a34f5/kafka-broker-0.4.2.tar.gz
+[2024-04-26 10:44:24] INFO root fetch - processPackages [logfire-sdk]: executing diffoscope
+[2024-04-26 10:44:24] INFO root fetch - processPackages [logfire-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logfire_sdk-0.0.0.tar.gz tmp/logfire_sdk-0.0.1.tar.gz --markdown 20240426/l/logfire-sdk/0.0.0-0.0.1/README.md --exclude *.pyd
+[2024-04-26 10:44:24] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/4a/74/f9f0c075b08908ea4bee195fc47545d98baac328480f3b9424cf94d1ca2a/kfish-99.0.202404260724-py3-none-any.whl
+[2024-04-26 10:44:24] INFO root fetch - processPackages [allocmd]: Downloading https://files.pythonhosted.org/packages/53/e4/d4a408526ca094d62dcb94d028b9b7378dec4d83040a67517151ac586dbb/allocmd-2.0.0.tar.gz
+[2024-04-26 10:44:24] INFO root fetch - processPackages [kuzu]: Downloading https://files.pythonhosted.org/packages/fe/54/beea7a0fa4c6e9b05fec592d1ab3b3ebba9440910571a82c22d2fb4fdde5/kuzu-0.3.3.dev46.tar.gz
+[2024-04-26 10:44:24] INFO root fetch - processPackages [llm-monitoring-sascha]: Downloading https://files.pythonhosted.org/packages/35/79/1a9fe83e85ba36882c747844a00611d48f91f6666068a5b34749a070b035/llm_monitoring_sascha-0.0.4.tar.gz
+[2024-04-26 10:44:24] INFO root fetch - processPackages [wodoo]: executing diffoscope
+[2024-04-26 10:44:24] INFO root fetch - processPackages [wodoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wodoo-0.5.8.tar.gz tmp/wodoo-0.5.9.tar.gz --markdown 20240426/w/wodoo/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-04-26 10:44:24] INFO root fetch - processPackages [kafka-broker]: executing diffoscope
+[2024-04-26 10:44:24] INFO root fetch - processPackages [kafka-broker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kafka-broker-0.4.1.tar.gz tmp/kafka-broker-0.4.2.tar.gz --markdown 20240426/k/kafka-broker/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-04-26 10:44:24] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2024-04-26 10:44:24] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202404251552-py3-none-any.whl.zip tmp/kfish-99.0.202404260724-py3-none-any.whl.zip --markdown 20240426/k/kfish/99.0.202404251552-99.0.202404260724/README.md --exclude *.pyd
+[2024-04-26 10:44:24] INFO root fetch - processPackages [pydantic-logfire]: Downloading https://files.pythonhosted.org/packages/39/05/7b8700df9f5e700f2b3f20f84760f87f7e4f3ade4ac4f9dcfe7448d718bd/pydantic_logfire-0.0.1.tar.gz
+[2024-04-26 10:44:24] INFO root fetch - processPackages [allocmd]: executing diffoscope
+[2024-04-26 10:44:24] INFO root fetch - processPackages [allocmd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/allocmd-1.0.1.tar.gz tmp/allocmd-2.0.0.tar.gz --markdown 20240426/a/allocmd/1.0.1-2.0.0/README.md --exclude *.pyd
+[2024-04-26 10:44:24] INFO root fetch - processPackages [fenics-beat]: Downloading https://files.pythonhosted.org/packages/c3/02/0999db9777a7ee5b7887176d69859164b1e1238f692948ca8a9c3a530fef/fenics_beat-0.0.4.tar.gz
+[2024-04-26 10:44:25] INFO root fetch - processPackages [llm-monitoring-sascha]: executing diffoscope
+[2024-04-26 10:44:25] INFO root fetch - processPackages [llm-monitoring-sascha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm_monitoring_sascha-0.0.3.tar.gz tmp/llm_monitoring_sascha-0.0.4.tar.gz --markdown 20240426/l/llm-monitoring-sascha/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-26 10:44:25] INFO root fetch - processPackages [pysalesforceutils]: Downloading https://files.pythonhosted.org/packages/0e/d7/121f905afe4cdb7cce7680a81234902a55dbde8c2201e2501a9ee90dfcfc/pysalesforceutils-1.0.9.tar.gz
+[2024-04-26 10:44:25] INFO root fetch - processPackages [pydantic-logfire]: executing diffoscope
+[2024-04-26 10:44:25] INFO root fetch - processPackages [pydantic-logfire]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic_logfire-0.0.0.tar.gz tmp/pydantic_logfire-0.0.1.tar.gz --markdown 20240426/p/pydantic-logfire/0.0.0-0.0.1/README.md --exclude *.pyd
+[2024-04-26 10:44:25] INFO root fetch - processPackages [fenics-beat]: executing diffoscope
+[2024-04-26 10:44:25] INFO root fetch - processPackages [fenics-beat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fenics-beat-0.0.3.tar.gz tmp/fenics_beat-0.0.4.tar.gz --markdown 20240426/f/fenics-beat/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-26 10:44:25] INFO root fetch - processPackages [pysalesforceutils]: executing diffoscope
+[2024-04-26 10:44:25] INFO root fetch - processPackages [pysalesforceutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysalesforceutils-1.0.8.tar.gz tmp/pysalesforceutils-1.0.9.tar.gz --markdown 20240426/p/pysalesforceutils/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-26 10:44:25] INFO root fetch - processPackages [kuzu]: Downloading https://files.pythonhosted.org/packages/62/17/53487345ec06b84487a71e66ac8842ea2838d7847ed379d17cbd1807d7d6/kuzu-0.3.3.dev47-cp37-cp37m-win_amd64.whl
+[2024-04-26 10:44:25] INFO root fetch - processPackages [logfire-sdk]: Remove: archive file [/home/abi/fetcher/tmp/logfire_sdk-0.0.0.tar.gz]
+[2024-04-26 10:44:25] INFO root fetch - processPackages [logfire-sdk]: Remove: archive file [/home/abi/fetcher/tmp/logfire_sdk-0.0.1.tar.gz]
+[2024-04-26 10:44:25] INFO root fetch - processPackages [logfire-sdk]: Start processing: ubitlogger
+[2024-04-26 10:44:25] INFO root fetch - main [MainThread]: End processing [logfire-sdk]: success
+[2024-04-26 10:44:25] INFO root fetch - processPackages [ubitlogger]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-04-26 10:44:25] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202404251552-py3-none-any.whl.zip]
+[2024-04-26 10:44:25] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202404260724-py3-none-any.whl.zip]
+[2024-04-26 10:44:25] INFO root fetch - processPackages [kfish]: Start processing: vector-database
+[2024-04-26 10:44:25] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2024-04-26 10:44:25] INFO root fetch - processPackages [llm-monitoring-sascha]: Remove: archive file [/home/abi/fetcher/tmp/llm_monitoring_sascha-0.0.3.tar.gz]
+[2024-04-26 10:44:25] INFO root fetch - processPackages [llm-monitoring-sascha]: Remove: archive file [/home/abi/fetcher/tmp/llm_monitoring_sascha-0.0.4.tar.gz]
+[2024-04-26 10:44:25] INFO root fetch - main [MainThread]: End processing [llm-monitoring-sascha]: success
+[2024-04-26 10:44:25] INFO root fetch - processPackages [vector-database]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-26 10:44:25] INFO root fetch - processPackages [allocmd]: Remove: archive file [/home/abi/fetcher/tmp/allocmd-1.0.1.tar.gz]
+[2024-04-26 10:44:25] INFO root fetch - processPackages [allocmd]: Remove: archive file [/home/abi/fetcher/tmp/allocmd-2.0.0.tar.gz]
+[2024-04-26 10:44:25] INFO root fetch - main [MainThread]: End processing [allocmd]: success
+[2024-04-26 10:44:25] INFO root fetch - processPackages [pydantic-logfire]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_logfire-0.0.0.tar.gz]
+[2024-04-26 10:44:25] INFO root fetch - processPackages [pydantic-logfire]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_logfire-0.0.1.tar.gz]
+[2024-04-26 10:44:25] INFO root fetch - main [MainThread]: End processing [pydantic-logfire]: success
+[2024-04-26 10:44:25] INFO root fetch - processPackages [ubitlogger]: Downloading https://files.pythonhosted.org/packages/6c/c9/9d574b27afa8c4c5fa8f976b0bb271ad37d0c6c6a587cb745bc9ed30bdca/ubitlogger-0.5.0.tar.gz
+[2024-04-26 10:44:26] INFO root fetch - processPackages [pysalesforceutils]: Remove: archive file [/home/abi/fetcher/tmp/pysalesforceutils-1.0.8.tar.gz]
+[2024-04-26 10:44:26] INFO root fetch - processPackages [pysalesforceutils]: Remove: archive file [/home/abi/fetcher/tmp/pysalesforceutils-1.0.9.tar.gz]
+[2024-04-26 10:44:26] INFO root fetch - main [MainThread]: End processing [pysalesforceutils]: success
+[2024-04-26 10:44:26] INFO root fetch - processPackages [kafka-broker]: Remove: archive file [/home/abi/fetcher/tmp/kafka-broker-0.4.1.tar.gz]
+[2024-04-26 10:44:26] INFO root fetch - processPackages [kafka-broker]: Remove: archive file [/home/abi/fetcher/tmp/kafka-broker-0.4.2.tar.gz]
+[2024-04-26 10:44:26] INFO root fetch - main [MainThread]: End processing [kafka-broker]: success
+[2024-04-26 10:44:26] INFO root fetch - processPackages [vector-database]: Downloading https://files.pythonhosted.org/packages/74/a3/5ee09a9c1d1e13947f51764bd22fd4efd04441530096034db6db89eb5dec/vector_database-0.0.2.tar.gz
+[2024-04-26 10:44:26] INFO root fetch - processPackages [wodoo]: Remove: archive file [/home/abi/fetcher/tmp/wodoo-0.5.8.tar.gz]
+[2024-04-26 10:44:26] INFO root fetch - processPackages [wodoo]: Remove: archive file [/home/abi/fetcher/tmp/wodoo-0.5.9.tar.gz]
+[2024-04-26 10:44:26] INFO root fetch - main [MainThread]: End processing [wodoo]: success
+[2024-04-26 10:44:26] INFO root fetch - processPackages [ubitlogger]: Downloading https://files.pythonhosted.org/packages/3b/06/9f26fd0a12043beed09f0aa0f27ac57615b71f25f7e04123c3a2409adcb2/ubitlogger-0.5.1.tar.gz
+[2024-04-26 10:44:26] INFO root fetch - processPackages [ubitlogger]: executing diffoscope
+[2024-04-26 10:44:26] INFO root fetch - processPackages [ubitlogger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ubitlogger-0.5.0.tar.gz tmp/ubitlogger-0.5.1.tar.gz --markdown 20240426/u/ubitlogger/0.5.0-0.5.1/README.md --exclude *.pyd
+[2024-04-26 10:44:26] INFO root fetch - processPackages [vector-database]: Downloading https://files.pythonhosted.org/packages/f4/dd/75f2df9636b814b4535a2a199acdb0e13248747f8f2078ba3f7b0705fd08/vector_database-0.0.3.tar.gz
+[2024-04-26 10:44:26] INFO root fetch - processPackages [fenics-beat]: Remove: archive file [/home/abi/fetcher/tmp/fenics-beat-0.0.3.tar.gz]
+[2024-04-26 10:44:26] INFO root fetch - processPackages [fenics-beat]: Remove: archive file [/home/abi/fetcher/tmp/fenics_beat-0.0.4.tar.gz]
+[2024-04-26 10:44:26] INFO root fetch - main [MainThread]: End processing [fenics-beat]: success
+[2024-04-26 10:44:26] INFO root fetch - processPackages [vector-database]: executing diffoscope
+[2024-04-26 10:44:26] INFO root fetch - processPackages [vector-database]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vector_database-0.0.2.tar.gz tmp/vector_database-0.0.3.tar.gz --markdown 20240426/v/vector-database/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-26 10:44:27] INFO root fetch - processPackages [kuzu]: executing diffoscope
+[2024-04-26 10:44:27] INFO root fetch - processPackages [kuzu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuzu-0.3.3.dev46.tar.gz tmp/kuzu-0.3.3.dev47-cp37-cp37m-win_amd64.whl.zip --markdown 20240426/k/kuzu/0.3.3.dev46-0.3.3.dev47/README.md --exclude *.pyd
+[2024-04-26 10:44:27] INFO root fetch - processPackages [ubitlogger]: Remove: archive file [/home/abi/fetcher/tmp/ubitlogger-0.5.0.tar.gz]
+[2024-04-26 10:44:27] INFO root fetch - processPackages [ubitlogger]: Remove: archive file [/home/abi/fetcher/tmp/ubitlogger-0.5.1.tar.gz]
+[2024-04-26 10:44:27] INFO root fetch - main [MainThread]: End processing [ubitlogger]: success
+[2024-04-26 10:44:27] INFO root fetch - processPackages [vector-database]: Remove: archive file [/home/abi/fetcher/tmp/vector_database-0.0.2.tar.gz]
+[2024-04-26 10:44:27] INFO root fetch - processPackages [vector-database]: Remove: archive file [/home/abi/fetcher/tmp/vector_database-0.0.3.tar.gz]
+[2024-04-26 10:44:27] INFO root fetch - main [MainThread]: End processing [vector-database]: success
+[2024-04-26 10:44:28] INFO root fetch - processPackages [kuzu]: Remove: archive file [/home/abi/fetcher/tmp/kuzu-0.3.3.dev46.tar.gz]
+[2024-04-26 10:44:28] INFO root fetch - processPackages [kuzu]: Remove: archive file [/home/abi/fetcher/tmp/kuzu-0.3.3.dev47-cp37-cp37m-win_amd64.whl.zip]
+[2024-04-26 10:44:28] INFO root fetch - main [MainThread]: End processing [kuzu]: success
+[2024-04-26 10:44:28] INFO root fetch - main [MainThread]: Store serial: [22945262]
