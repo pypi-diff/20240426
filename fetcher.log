@@ -9018,3 +9018,11 @@
 [2024-04-26 06:23:36] INFO root fetch - processPackages [ecv-python-development]: Remove: archive file [/home/abi/fetcher/tmp/ecv-python-development-0.0.53.tar.gz]
 [2024-04-26 06:23:36] INFO root fetch - main [MainThread]: End processing [ecv-python-development]: success
 [2024-04-26 06:23:36] INFO root fetch - main [MainThread]: Store serial: [22942609]
+[2024-04-26 06:25:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22942609]
+[2024-04-26 06:25:45] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-26 06:25:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hashtray
+[2024-04-26 06:25:45] INFO root fetch - processPackages [hashtray]: New version: [0.0.1b4] Old Version: [0.0.1b3]
+[2024-04-26 06:25:45] INFO root fetch - processPackages [hashtray]: Downloading https://files.pythonhosted.org/packages/f6/4c/7778d5b397213d42ec936d741411d518e6eb2b761e3ce05dfc5979b1a59b/hashtray-0.0.1b3.tar.gz
+[2024-04-26 06:25:46] WARNING root fetch - processPackages [hashtray]: Skipping package: exceeds size limit 14806709>=10485760
+[2024-04-26 06:25:46] INFO root fetch - main [MainThread]: End processing [hashtray] error
+[2024-04-26 06:25:46] INFO root fetch - main [MainThread]: Store serial: [22942613]
