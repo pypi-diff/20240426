@@ -15190,3 +15190,50 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 10:55:28] INFO root fetch - processPackages [flet-iconoir]: Remove: archive file [/home/abi/fetcher/tmp/flet_iconoir-0.2.1.tar.gz]
 [2024-04-26 10:55:28] INFO root fetch - main [MainThread]: End processing [flet-iconoir]: success
 [2024-04-26 10:55:28] INFO root fetch - main [MainThread]: Store serial: [22945405]
+[2024-04-26 10:57:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22945405]
+[2024-04-26 10:57:38] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-26 10:57:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: llm-monitoring-sascha
+[2024-04-26 10:57:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: heiwa4126.hello
+[2024-04-26 10:57:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alphaz-next
+[2024-04-26 10:57:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hddm-s
+[2024-04-26 10:57:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: smartieee
+[2024-04-26 10:57:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: resistify
+[2024-04-26 10:57:38] WARNING root fetch - processPackages [smartieee]: Skipping, unable to determine old version
+[2024-04-26 10:57:38] INFO root fetch - main [MainThread]: End processing [smartieee] error
+[2024-04-26 10:57:38] INFO root fetch - processPackages [hddm-s]: New version: [1.0.9] Old Version: [1.0.7]
+[2024-04-26 10:57:38] INFO root fetch - processPackages [llm-monitoring-sascha]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-26 10:57:38] INFO root fetch - processPackages [alphaz-next]: New version: [0.5.5] Old Version: [0.5.4]
+[2024-04-26 10:57:38] INFO root fetch - processPackages [hddm-s]: Downloading https://files.pythonhosted.org/packages/c7/15/051d8248dd680cc83687b776c06944bb75f8bcddabc05f270b5c65549a26/hddm_s-1.0.7.tar.gz
+[2024-04-26 10:57:38] INFO root fetch - processPackages [resistify]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-26 10:57:38] INFO root fetch - processPackages [llm-monitoring-sascha]: Downloading https://files.pythonhosted.org/packages/cd/2c/b9f79253bef919de96e61516f481b25586f0cd1f0dfba52161e6ac204d20/llm_monitoring_sascha-0.0.5.tar.gz
+[2024-04-26 10:57:38] INFO root fetch - processPackages [heiwa4126.hello]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-26 10:57:38] INFO root fetch - processPackages [alphaz-next]: Downloading https://files.pythonhosted.org/packages/c7/1c/34082b38d7f6b8816cc75974b12f980347fe3fbd68fb8a25f900e7301edf/alphaz-next-0.5.4.tar.gz
+[2024-04-26 10:57:38] INFO root fetch - processPackages [heiwa4126.hello]: Downloading https://files.pythonhosted.org/packages/a4/07/fb027804d79360c902333151754ca730d822ee3c1dbcbfd11f2550a17d7a/heiwa4126_hello-0.0.6.tar.gz
+[2024-04-26 10:57:38] INFO root fetch - processPackages [resistify]: Downloading https://files.pythonhosted.org/packages/75/e2/918ed54ebf9a9a1efe543b9450734dd8c8f160c363f227aecc356c2f13a8/resistify-0.1.0.tar.gz
+[2024-04-26 10:57:38] INFO root fetch - processPackages [hddm-s]: Downloading https://files.pythonhosted.org/packages/d2/24/0bac70948a0f916016590dddfc7e17148c466fa4b02e8bd2d4f3119e1816/hddm_s-1.0.9.tar.gz
+[2024-04-26 10:57:38] WARNING root fetch - processPackages [resistify]: Skipping package: exceeds size limit 78165874>=10485760
+[2024-04-26 10:57:38] INFO root fetch - main [MainThread]: End processing [resistify] error
+[2024-04-26 10:57:38] INFO root fetch - processPackages [alphaz-next]: Downloading https://files.pythonhosted.org/packages/a8/dd/5633d65c630d345cfc49744bdc4b4f7c6e2cd6faca4022ce04eeca554cf9/alphaz-next-0.5.5.tar.gz
+[2024-04-26 10:57:38] INFO root fetch - processPackages [llm-monitoring-sascha]: Downloading https://files.pythonhosted.org/packages/e9/3d/6aea9a113ce637642fb8e2a5be04f1edad8b64333d061c2d0b393db35c9b/llm_monitoring_sascha-0.0.6.tar.gz
+[2024-04-26 10:57:38] INFO root fetch - processPackages [hddm-s]: executing diffoscope
+[2024-04-26 10:57:38] INFO root fetch - processPackages [hddm-s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hddm_s-1.0.7.tar.gz tmp/hddm_s-1.0.9.tar.gz --markdown 20240426/h/hddm-s/1.0.7-1.0.9/README.md --exclude *.pyd
+[2024-04-26 10:57:38] INFO root fetch - processPackages [alphaz-next]: executing diffoscope
+[2024-04-26 10:57:38] INFO root fetch - processPackages [alphaz-next]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alphaz-next-0.5.4.tar.gz tmp/alphaz-next-0.5.5.tar.gz --markdown 20240426/a/alphaz-next/0.5.4-0.5.5/README.md --exclude *.pyd
+[2024-04-26 10:57:38] INFO root fetch - processPackages [llm-monitoring-sascha]: executing diffoscope
+[2024-04-26 10:57:38] INFO root fetch - processPackages [llm-monitoring-sascha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm_monitoring_sascha-0.0.5.tar.gz tmp/llm_monitoring_sascha-0.0.6.tar.gz --markdown 20240426/l/llm-monitoring-sascha/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-26 10:57:38] INFO root fetch - processPackages [heiwa4126.hello]: Downloading https://files.pythonhosted.org/packages/2d/6b/945e293e6cda2f31792ae4cebd321e87c119e7f9518ea7fd7e9a80893312/heiwa4126_hello-0.0.7.tar.gz
+[2024-04-26 10:57:38] INFO root fetch - processPackages [heiwa4126.hello]: executing diffoscope
+[2024-04-26 10:57:38] INFO root fetch - processPackages [heiwa4126.hello]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heiwa4126_hello-0.0.6.tar.gz tmp/heiwa4126_hello-0.0.7.tar.gz --markdown 20240426/h/heiwa4126.hello/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-26 10:57:39] INFO root fetch - processPackages [hddm-s]: Remove: archive file [/home/abi/fetcher/tmp/hddm_s-1.0.7.tar.gz]
+[2024-04-26 10:57:39] INFO root fetch - processPackages [hddm-s]: Remove: archive file [/home/abi/fetcher/tmp/hddm_s-1.0.9.tar.gz]
+[2024-04-26 10:57:39] INFO root fetch - main [MainThread]: End processing [hddm-s]: success
+[2024-04-26 10:57:39] INFO root fetch - processPackages [llm-monitoring-sascha]: Remove: archive file [/home/abi/fetcher/tmp/llm_monitoring_sascha-0.0.5.tar.gz]
+[2024-04-26 10:57:39] INFO root fetch - processPackages [llm-monitoring-sascha]: Remove: archive file [/home/abi/fetcher/tmp/llm_monitoring_sascha-0.0.6.tar.gz]
+[2024-04-26 10:57:39] INFO root fetch - main [MainThread]: End processing [llm-monitoring-sascha]: success
+[2024-04-26 10:57:39] INFO root fetch - processPackages [alphaz-next]: Remove: archive file [/home/abi/fetcher/tmp/alphaz-next-0.5.4.tar.gz]
+[2024-04-26 10:57:39] INFO root fetch - processPackages [alphaz-next]: Remove: archive file [/home/abi/fetcher/tmp/alphaz-next-0.5.5.tar.gz]
+[2024-04-26 10:57:39] INFO root fetch - main [MainThread]: End processing [alphaz-next]: success
+[2024-04-26 10:57:39] INFO root fetch - processPackages [heiwa4126.hello]: Remove: archive file [/home/abi/fetcher/tmp/heiwa4126_hello-0.0.6.tar.gz]
+[2024-04-26 10:57:39] INFO root fetch - processPackages [heiwa4126.hello]: Remove: archive file [/home/abi/fetcher/tmp/heiwa4126_hello-0.0.7.tar.gz]
+[2024-04-26 10:57:39] INFO root fetch - main [MainThread]: End processing [heiwa4126.hello]: success
+[2024-04-26 10:57:39] INFO root fetch - main [MainThread]: Store serial: [22945423]
