@@ -9959,3 +9959,72 @@
 [2024-04-26 07:36:18] INFO root fetch - processPackages [ScreenPro2]: Remove: archive file [/home/abi/fetcher/tmp/ScreenPro2-0.2.9-py2.py3-none-any.whl.zip]
 [2024-04-26 07:36:18] INFO root fetch - main [MainThread]: End processing [ScreenPro2]: success
 [2024-04-26 07:36:18] INFO root fetch - main [MainThread]: Store serial: [22942974]
+[2024-04-26 07:38:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22942974]
+[2024-04-26 07:38:27] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-26 07:38:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: finter
+[2024-04-26 07:38:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-azuredevops
+[2024-04-26 07:38:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-azuread
+[2024-04-26 07:38:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sphinx-rust
+[2024-04-26 07:38:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-civo
+[2024-04-26 07:38:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dxrt
+[2024-04-26 07:38:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyssh-util
+[2024-04-26 07:38:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-aiven
+[2024-04-26 07:38:27] INFO root fetch - processPackages [dxrt]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-26 07:38:27] INFO root fetch - processPackages [pulumi-azuredevops]: New version: [3.1.0a1714108792] Old Version: [3.1.0a1713897504]
+[2024-04-26 07:38:28] INFO root fetch - processPackages [dxrt]: Downloading https://files.pythonhosted.org/packages/79/6d/7417465a2bbee67e784be6040eafbc2acb04337073c69e3f7b98fe9dc350/dxrt-1.0.2.tar.gz
+[2024-04-26 07:38:28] WARNING root fetch - processPackages [sphinx-rust]: Skipping, unable to determine old version
+[2024-04-26 07:38:28] INFO root fetch - processPackages [pyssh-util]: New version: [1.0.2] Old Version: [1.0.0]
+[2024-04-26 07:38:28] INFO root fetch - main [MainThread]: End processing [sphinx-rust] error
+[2024-04-26 07:38:28] INFO root fetch - processPackages [finter]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-04-26 07:38:28] INFO root fetch - processPackages [pulumi-civo]: New version: [2.4.0a1714108777] Old Version: [2.4.0a1713897269]
+[2024-04-26 07:38:28] INFO root fetch - processPackages [pulumi-aiven]: New version: [6.9.0a1704274395] Old Version: [6.9.0a1704258951]
+[2024-04-26 07:38:28] INFO root fetch - processPackages [pulumi-azuread]: New version: [5.9.0a1637590268] Old Version: [5.9.0]
+[2024-04-26 07:38:28] INFO root fetch - processPackages [pulumi-azuredevops]: Downloading https://files.pythonhosted.org/packages/9d/fa/728cdd2483f063990dc9f02ef1a74893b3b25b7369306af3cf7250a9d7b2/pulumi_azuredevops-3.1.0a1713897504.tar.gz
+[2024-04-26 07:38:28] INFO root fetch - processPackages [finter]: Downloading https://files.pythonhosted.org/packages/25/f3/03b55fb255c3df6ec737eeda4aac2e689a0a2fce218faf5b9a5e170d1c1f/finter-0.2.5-py3-none-any.whl
+[2024-04-26 07:38:28] INFO root fetch - processPackages [pyssh-util]: Downloading https://files.pythonhosted.org/packages/fd/d4/d11d64a5380416aa7e64ebe79f143e0ca0039b803ddd8e19320d82c22e0f/pyssh_util-1.0.0.tar.gz
+[2024-04-26 07:38:28] INFO root fetch - processPackages [pulumi-civo]: Downloading https://files.pythonhosted.org/packages/ab/79/a75ac592de1ea26c1723e22c6d4b2da1311060bf147d8ffe9017c9529c39/pulumi_civo-2.4.0a1713897269.tar.gz
+[2024-04-26 07:38:28] INFO root fetch - processPackages [pulumi-aiven]: Downloading https://files.pythonhosted.org/packages/89/fb/adacc179c277b4328f00f1483cac3f1c2227c33318802c8f88e0ee8e93c3/pulumi_aiven-6.9.0a1704258951.tar.gz
+[2024-04-26 07:38:28] INFO root fetch - processPackages [pulumi-azuread]: Downloading https://files.pythonhosted.org/packages/f4/f7/ac3012c15949ee976d13803f93ece9979adca66c4e8ad22f982d9ef2bd26/pulumi_azuread-5.9.0.tar.gz
+[2024-04-26 07:38:28] INFO root fetch - processPackages [dxrt]: Downloading https://files.pythonhosted.org/packages/22/90/4a0f9035df7aa8d01efac0e109dd5167ab9055432ea19bff8126f0ada996/dxrt-1.0.3.tar.gz
+[2024-04-26 07:38:28] INFO root fetch - processPackages [pulumi-azuredevops]: Downloading https://files.pythonhosted.org/packages/9f/57/6cf77585a613dd19c046aa7ad3de864c4165192b4bcdce3c5c25683a1982/pulumi_azuredevops-3.1.0a1714108792.tar.gz
+[2024-04-26 07:38:28] INFO root fetch - processPackages [dxrt]: executing diffoscope
+[2024-04-26 07:38:28] INFO root fetch - processPackages [dxrt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dxrt-1.0.2.tar.gz tmp/dxrt-1.0.3.tar.gz --markdown 20240426/d/dxrt/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-04-26 07:38:28] INFO root fetch - processPackages [pyssh-util]: Downloading https://files.pythonhosted.org/packages/da/80/c41765da939544d907900e6d0fda2b1f942d26fb37b4a846d63eed2fcf61/pyssh_util-1.0.2.tar.gz
+[2024-04-26 07:38:28] INFO root fetch - processPackages [finter]: Downloading https://files.pythonhosted.org/packages/d3/6c/f43cf80e97c2dbd6ba9dcc139ec0c3634de02a13b6a1a243ed58eddcaefb/finter-0.2.6-py3-none-any.whl
+[2024-04-26 07:38:28] INFO root fetch - processPackages [pulumi-civo]: Downloading https://files.pythonhosted.org/packages/ea/17/d56ee840be7fa683e89cba2ce16ae7d522a3a55650503f0c761ace505cf2/pulumi_civo-2.4.0a1714108777.tar.gz
+[2024-04-26 07:38:28] INFO root fetch - processPackages [pulumi-azuredevops]: executing diffoscope
+[2024-04-26 07:38:28] INFO root fetch - processPackages [pulumi-azuredevops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_azuredevops-3.1.0a1713897504.tar.gz tmp/pulumi_azuredevops-3.1.0a1714108792.tar.gz --markdown 20240426/p/pulumi-azuredevops/3.1.0a1713897504-3.1.0a1714108792/README.md --exclude *.pyd
+[2024-04-26 07:38:28] INFO root fetch - processPackages [pulumi-azuread]: Downloading https://files.pythonhosted.org/packages/80/14/c6fa237dd848e602cd45db3de0b2cd017ce8857a3e21b8e9a3802d60ebbb/pulumi_azuread-5.9.0a1637590268.tar.gz
+[2024-04-26 07:38:28] INFO root fetch - processPackages [pyssh-util]: executing diffoscope
+[2024-04-26 07:38:28] INFO root fetch - processPackages [pyssh-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyssh_util-1.0.0.tar.gz tmp/pyssh_util-1.0.2.tar.gz --markdown 20240426/p/pyssh-util/1.0.0-1.0.2/README.md --exclude *.pyd
+[2024-04-26 07:38:28] INFO root fetch - processPackages [finter]: executing diffoscope
+[2024-04-26 07:38:28] INFO root fetch - processPackages [pulumi-aiven]: Downloading https://files.pythonhosted.org/packages/58/4d/df63cee14469cb3bb5ff7e2a4af56d19adf0cd17ce9192b84188dc240736/pulumi_aiven-6.9.0a1704274395.tar.gz
+[2024-04-26 07:38:28] INFO root fetch - processPackages [finter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finter-0.2.5-py3-none-any.whl.zip tmp/finter-0.2.6-py3-none-any.whl.zip --markdown 20240426/f/finter/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-04-26 07:38:28] INFO root fetch - processPackages [pulumi-civo]: executing diffoscope
+[2024-04-26 07:38:28] INFO root fetch - processPackages [pulumi-civo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_civo-2.4.0a1713897269.tar.gz tmp/pulumi_civo-2.4.0a1714108777.tar.gz --markdown 20240426/p/pulumi-civo/2.4.0a1713897269-2.4.0a1714108777/README.md --exclude *.pyd
+[2024-04-26 07:38:28] INFO root fetch - processPackages [pulumi-aiven]: executing diffoscope
+[2024-04-26 07:38:28] INFO root fetch - processPackages [pulumi-aiven]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aiven-6.9.0a1704258951.tar.gz tmp/pulumi_aiven-6.9.0a1704274395.tar.gz --markdown 20240426/p/pulumi-aiven/6.9.0a1704258951-6.9.0a1704274395/README.md --exclude *.pyd
+[2024-04-26 07:38:28] INFO root fetch - processPackages [pulumi-azuread]: executing diffoscope
+[2024-04-26 07:38:28] INFO root fetch - processPackages [pulumi-azuread]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_azuread-5.9.0.tar.gz tmp/pulumi_azuread-5.9.0a1637590268.tar.gz --markdown 20240426/p/pulumi-azuread/5.9.0-5.9.0a1637590268/README.md --exclude *.pyd
+[2024-04-26 07:38:29] INFO root fetch - processPackages [dxrt]: Remove: archive file [/home/abi/fetcher/tmp/dxrt-1.0.2.tar.gz]
+[2024-04-26 07:38:29] INFO root fetch - processPackages [dxrt]: Remove: archive file [/home/abi/fetcher/tmp/dxrt-1.0.3.tar.gz]
+[2024-04-26 07:38:29] INFO root fetch - main [MainThread]: End processing [dxrt]: success
+[2024-04-26 07:38:29] INFO root fetch - processPackages [pyssh-util]: Remove: archive file [/home/abi/fetcher/tmp/pyssh_util-1.0.0.tar.gz]
+[2024-04-26 07:38:29] INFO root fetch - processPackages [pyssh-util]: Remove: archive file [/home/abi/fetcher/tmp/pyssh_util-1.0.2.tar.gz]
+[2024-04-26 07:38:29] INFO root fetch - main [MainThread]: End processing [pyssh-util]: success
+[2024-04-26 07:38:29] INFO root fetch - processPackages [pulumi-civo]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_civo-2.4.0a1713897269.tar.gz]
+[2024-04-26 07:38:29] INFO root fetch - processPackages [pulumi-civo]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_civo-2.4.0a1714108777.tar.gz]
+[2024-04-26 07:38:29] INFO root fetch - main [MainThread]: End processing [pulumi-civo]: success
+[2024-04-26 07:38:29] INFO root fetch - processPackages [pulumi-azuredevops]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azuredevops-3.1.0a1713897504.tar.gz]
+[2024-04-26 07:38:29] INFO root fetch - processPackages [pulumi-azuredevops]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azuredevops-3.1.0a1714108792.tar.gz]
+[2024-04-26 07:38:29] INFO root fetch - main [MainThread]: End processing [pulumi-azuredevops]: success
+[2024-04-26 07:38:29] INFO root fetch - processPackages [pulumi-azuread]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azuread-5.9.0.tar.gz]
+[2024-04-26 07:38:29] INFO root fetch - processPackages [pulumi-azuread]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azuread-5.9.0a1637590268.tar.gz]
+[2024-04-26 07:38:29] INFO root fetch - main [MainThread]: End processing [pulumi-azuread]: success
+[2024-04-26 07:38:30] INFO root fetch - processPackages [finter]: Remove: archive file [/home/abi/fetcher/tmp/finter-0.2.5-py3-none-any.whl.zip]
+[2024-04-26 07:38:30] INFO root fetch - processPackages [finter]: Remove: archive file [/home/abi/fetcher/tmp/finter-0.2.6-py3-none-any.whl.zip]
+[2024-04-26 07:38:30] INFO root fetch - main [MainThread]: End processing [finter]: success
+[2024-04-26 07:38:30] INFO root fetch - processPackages [pulumi-aiven]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aiven-6.9.0a1704258951.tar.gz]
+[2024-04-26 07:38:30] INFO root fetch - processPackages [pulumi-aiven]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aiven-6.9.0a1704274395.tar.gz]
+[2024-04-26 07:38:30] INFO root fetch - main [MainThread]: End processing [pulumi-aiven]: success
+[2024-04-26 07:38:30] INFO root fetch - main [MainThread]: Store serial: [22942999]
