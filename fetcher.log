@@ -17540,3 +17540,72 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 12:29:56] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.4.4.tar.gz]
 [2024-04-26 12:29:56] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2024-04-26 12:29:56] INFO root fetch - main [MainThread]: Store serial: [22946285]
+[2024-04-26 12:32:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22946285]
+[2024-04-26 12:32:05] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-26 12:32:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alipay-faas-client-sdk
+[2024-04-26 12:32:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ansio
+[2024-04-26 12:32:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rocketmq-wise
+[2024-04-26 12:32:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dekvenv
+[2024-04-26 12:32:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mongodb-orm
+[2024-04-26 12:32:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulp-glue-gem
+[2024-04-26 12:32:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulp-cli-gem
+[2024-04-26 12:32:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: zhijiang
+[2024-04-26 12:32:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: giant-search
+[2024-04-26 12:32:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pother
+[2024-04-26 12:32:05] INFO root fetch - processPackages [mongodb-orm]: New version: [0.0.117] Old Version: [0.0.116]
+[2024-04-26 12:32:05] INFO root fetch - processPackages [mongodb-orm]: Downloading https://files.pythonhosted.org/packages/92/b5/185130e047b81041948f9afacc3b2870bb1abea3c9ba5de05f378ab335a8/mongodb_orm-0.0.116.tar.gz
+[2024-04-26 12:32:05] WARNING root fetch - processPackages [rocketmq-wise]: Skipping, unable to determine old version
+[2024-04-26 12:32:05] INFO root fetch - main [MainThread]: End processing [rocketmq-wise] error
+[2024-04-26 12:32:05] INFO root fetch - processPackages [dekvenv]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-26 12:32:05] WARNING root fetch - processPackages [alipay-faas-client-sdk]: Skipping, unable to determine old version
+[2024-04-26 12:32:05] INFO root fetch - main [MainThread]: End processing [alipay-faas-client-sdk] error
+[2024-04-26 12:32:05] WARNING root fetch - processPackages [ansio]: Skipping, unable to determine old version
+[2024-04-26 12:32:05] INFO root fetch - main [MainThread]: End processing [ansio] error
+[2024-04-26 12:32:05] INFO root fetch - processPackages [giant-search]: New version: [1.0.0] Old Version: [0.0.5]
+[2024-04-26 12:32:05] INFO root fetch - processPackages [pulp-glue-gem]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-04-26 12:32:05] INFO root fetch - processPackages [zhijiang]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-04-26 12:32:05] WARNING root fetch - processPackages [pother]: Skipping, unable to determine old version
+[2024-04-26 12:32:05] INFO root fetch - main [MainThread]: End processing [pother] error
+[2024-04-26 12:32:05] INFO root fetch - processPackages [pulp-cli-gem]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-04-26 12:32:06] INFO root fetch - processPackages [giant-search]: Downloading https://files.pythonhosted.org/packages/c5/15/ed3a7cdfa0b91a41e14d0b281b9fa09ad609cb9d958f9d995ea2ca666b40/giant_search-0.0.5.tar.gz
+[2024-04-26 12:32:06] INFO root fetch - processPackages [dekvenv]: Downloading https://files.pythonhosted.org/packages/4f/0b/06902f2f4ceee290cfab39fc5e233eaa2bb642fa6b79c9a76349ffa49eac/dekvenv-0.1.8.tar.gz
+[2024-04-26 12:32:06] INFO root fetch - processPackages [zhijiang]: Downloading https://files.pythonhosted.org/packages/26/2b/3b52e8f559267bad8b17821e8e89f41e2252b1ce785ab75849cedf0c7646/zhijiang-0.7.8-py3-none-any.whl
+[2024-04-26 12:32:06] INFO root fetch - processPackages [pulp-glue-gem]: Downloading https://files.pythonhosted.org/packages/6d/e7/e7974dad5e3a0f7c71ba45d3d634b4c27096aab1d6e8a6d3bc9130be34c5/pulp-glue-gem-0.4.0.tar.gz
+[2024-04-26 12:32:06] INFO root fetch - processPackages [pulp-cli-gem]: Downloading https://files.pythonhosted.org/packages/78/1a/c29e2efc3e979ec65e1317ba71755fa19cffbdcf66c99133cdf31b9b0a96/pulp-cli-gem-0.4.0.tar.gz
+[2024-04-26 12:32:06] INFO root fetch - processPackages [giant-search]: Downloading https://files.pythonhosted.org/packages/c1/76/412b6293de4533121a1b3ad93aff5f3c6b80e411cd87dcc89231be2a7603/giant_search-1.0.0.tar.gz
+[2024-04-26 12:32:06] INFO root fetch - processPackages [pulp-glue-gem]: Downloading https://files.pythonhosted.org/packages/c2/29/ac85d86f8e47fffd560c6ca8684b33f25ac0afad41c198e23cdcea6f780a/pulp-glue-gem-0.5.0.tar.gz
+[2024-04-26 12:32:06] INFO root fetch - processPackages [mongodb-orm]: Downloading https://files.pythonhosted.org/packages/13/70/1a2405374aeafc5247c99e86190d2c32e5a18b4db8466d4be331e5bb8527/mongodb_orm-0.0.117.tar.gz
+[2024-04-26 12:32:06] INFO root fetch - processPackages [dekvenv]: Downloading https://files.pythonhosted.org/packages/89/c5/ae26e7ab62e243bef554710c58d728eba22e25ad33a5e2f25b45dcb001d1/dekvenv-0.1.9.tar.gz
+[2024-04-26 12:32:06] INFO root fetch - processPackages [pulp-cli-gem]: Downloading https://files.pythonhosted.org/packages/56/fb/42b9dec1d241235092c487ad83205a0add48e956875bbb30ecdf5a1326a2/pulp-cli-gem-0.5.0.tar.gz
+[2024-04-26 12:32:06] INFO root fetch - processPackages [pulp-glue-gem]: executing diffoscope
+[2024-04-26 12:32:06] INFO root fetch - processPackages [pulp-glue-gem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulp-glue-gem-0.4.0.tar.gz tmp/pulp-glue-gem-0.5.0.tar.gz --markdown 20240426/p/pulp-glue-gem/0.4.0-0.5.0/README.md --exclude *.pyd
+[2024-04-26 12:32:06] INFO root fetch - processPackages [dekvenv]: executing diffoscope
+[2024-04-26 12:32:06] INFO root fetch - processPackages [dekvenv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dekvenv-0.1.8.tar.gz tmp/dekvenv-0.1.9.tar.gz --markdown 20240426/d/dekvenv/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-26 12:32:06] INFO root fetch - processPackages [mongodb-orm]: executing diffoscope
+[2024-04-26 12:32:06] INFO root fetch - processPackages [mongodb-orm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mongodb_orm-0.0.116.tar.gz tmp/mongodb_orm-0.0.117.tar.gz --markdown 20240426/m/mongodb-orm/0.0.116-0.0.117/README.md --exclude *.pyd
+[2024-04-26 12:32:06] INFO root fetch - processPackages [pulp-cli-gem]: executing diffoscope
+[2024-04-26 12:32:06] INFO root fetch - processPackages [pulp-cli-gem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulp-cli-gem-0.4.0.tar.gz tmp/pulp-cli-gem-0.5.0.tar.gz --markdown 20240426/p/pulp-cli-gem/0.4.0-0.5.0/README.md --exclude *.pyd
+[2024-04-26 12:32:06] INFO root fetch - processPackages [zhijiang]: Downloading https://files.pythonhosted.org/packages/05/cf/ace85687f35b8c78491564744658a0392ee9c2b6187d7bd6d001fcc18b2c/zhijiang-0.7.9-py3-none-any.whl
+[2024-04-26 12:32:06] INFO root fetch - processPackages [giant-search]: executing diffoscope
+[2024-04-26 12:32:06] INFO root fetch - processPackages [giant-search]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/giant_search-0.0.5.tar.gz tmp/giant_search-1.0.0.tar.gz --markdown 20240426/g/giant-search/0.0.5-1.0.0/README.md --exclude *.pyd
+[2024-04-26 12:32:06] INFO root fetch - processPackages [zhijiang]: executing diffoscope
+[2024-04-26 12:32:06] INFO root fetch - processPackages [zhijiang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhijiang-0.7.8-py3-none-any.whl.zip tmp/zhijiang-0.7.9-py3-none-any.whl.zip --markdown 20240426/z/zhijiang/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-04-26 12:32:07] INFO root fetch - processPackages [giant-search]: Remove: archive file [/home/abi/fetcher/tmp/giant_search-0.0.5.tar.gz]
+[2024-04-26 12:32:07] INFO root fetch - processPackages [giant-search]: Remove: archive file [/home/abi/fetcher/tmp/giant_search-1.0.0.tar.gz]
+[2024-04-26 12:32:07] INFO root fetch - main [MainThread]: End processing [giant-search]: success
+[2024-04-26 12:32:07] INFO root fetch - processPackages [dekvenv]: Remove: archive file [/home/abi/fetcher/tmp/dekvenv-0.1.8.tar.gz]
+[2024-04-26 12:32:07] INFO root fetch - processPackages [dekvenv]: Remove: archive file [/home/abi/fetcher/tmp/dekvenv-0.1.9.tar.gz]
+[2024-04-26 12:32:07] INFO root fetch - main [MainThread]: End processing [dekvenv]: success
+[2024-04-26 12:32:07] INFO root fetch - processPackages [pulp-glue-gem]: Remove: archive file [/home/abi/fetcher/tmp/pulp-glue-gem-0.4.0.tar.gz]
+[2024-04-26 12:32:07] INFO root fetch - processPackages [pulp-glue-gem]: Remove: archive file [/home/abi/fetcher/tmp/pulp-glue-gem-0.5.0.tar.gz]
+[2024-04-26 12:32:07] INFO root fetch - main [MainThread]: End processing [pulp-glue-gem]: success
+[2024-04-26 12:32:07] INFO root fetch - processPackages [pulp-cli-gem]: Remove: archive file [/home/abi/fetcher/tmp/pulp-cli-gem-0.4.0.tar.gz]
+[2024-04-26 12:32:07] INFO root fetch - processPackages [pulp-cli-gem]: Remove: archive file [/home/abi/fetcher/tmp/pulp-cli-gem-0.5.0.tar.gz]
+[2024-04-26 12:32:07] INFO root fetch - main [MainThread]: End processing [pulp-cli-gem]: success
+[2024-04-26 12:32:07] INFO root fetch - processPackages [mongodb-orm]: Remove: archive file [/home/abi/fetcher/tmp/mongodb_orm-0.0.116.tar.gz]
+[2024-04-26 12:32:07] INFO root fetch - processPackages [mongodb-orm]: Remove: archive file [/home/abi/fetcher/tmp/mongodb_orm-0.0.117.tar.gz]
+[2024-04-26 12:32:07] INFO root fetch - main [MainThread]: End processing [mongodb-orm]: success
+[2024-04-26 12:32:08] INFO root fetch - processPackages [zhijiang]: Remove: archive file [/home/abi/fetcher/tmp/zhijiang-0.7.8-py3-none-any.whl.zip]
+[2024-04-26 12:32:08] INFO root fetch - processPackages [zhijiang]: Remove: archive file [/home/abi/fetcher/tmp/zhijiang-0.7.9-py3-none-any.whl.zip]
+[2024-04-26 12:32:08] INFO root fetch - main [MainThread]: End processing [zhijiang]: success
+[2024-04-26 12:32:08] INFO root fetch - main [MainThread]: Store serial: [22946322]
