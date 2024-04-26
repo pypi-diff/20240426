@@ -16811,3 +16811,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 11:56:15] INFO root fetch - processPackages [scikit-mol]: Remove: archive file [/home/abi/fetcher/tmp/scikit_mol-0.3.1.tar.gz]
 [2024-04-26 11:56:15] INFO root fetch - main [MainThread]: End processing [scikit-mol]: success
 [2024-04-26 11:56:15] INFO root fetch - main [MainThread]: Store serial: [22946023]
+[2024-04-26 11:58:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22946023]
+[2024-04-26 11:58:24] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-26 11:58:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pkg-hello-suraj
+[2024-04-26 11:58:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mlsteam-model-sdk
+[2024-04-26 11:58:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: macal
+[2024-04-26 11:58:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cloudvision
+[2024-04-26 11:58:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aquacrop
+[2024-04-26 11:58:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: python-trading212
+[2024-04-26 11:58:24] INFO root fetch - processPackages [python-trading212]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-26 11:58:24] INFO root fetch - processPackages [python-trading212]: Downloading https://files.pythonhosted.org/packages/cc/85/2da794a5dab49b53b3773d43b6578be5c2cba4331ab3b3f10860f715d7b9/python_trading212-0.1.0.tar.gz
+[2024-04-26 11:58:24] INFO root fetch - processPackages [cloudvision]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-04-26 11:58:24] WARNING root fetch - processPackages [pkg-hello-suraj]: Skipping, unable to determine old version
+[2024-04-26 11:58:24] INFO root fetch - processPackages [macal]: New version: [5.5.0a7] Old Version: [5.5.0a6]
+[2024-04-26 11:58:24] INFO root fetch - main [MainThread]: End processing [pkg-hello-suraj] error
+[2024-04-26 11:58:24] INFO root fetch - processPackages [aquacrop]: New version: [3.0.5] Old Version: [3.0.4]
+[2024-04-26 11:58:24] INFO root fetch - processPackages [mlsteam-model-sdk]: New version: [0.7.0] Old Version: [0.6.0]
+[2024-04-26 11:58:24] INFO root fetch - processPackages [python-trading212]: Downloading https://files.pythonhosted.org/packages/df/9b/5385337da64c3a1951c376fab98c7a045e043f713d9b72dccf3f2448b674/python_trading212-0.1.1.tar.gz
+[2024-04-26 11:58:24] INFO root fetch - processPackages [cloudvision]: Downloading https://files.pythonhosted.org/packages/5f/1b/3cf9dde35b10912690b9df24e16110fc94a6787b00776ca57606da0da628/cloudvision-1.9.0.tar.gz
+[2024-04-26 11:58:24] INFO root fetch - processPackages [macal]: Downloading https://files.pythonhosted.org/packages/76/0e/99153d33007b1f08f13da6c65565b5254dc39312ebcf2aab7fc9f015067c/macal-5.5.0a6.tar.gz
+[2024-04-26 11:58:24] INFO root fetch - processPackages [aquacrop]: Downloading https://files.pythonhosted.org/packages/f2/fa/2bb801ed31a748791af60a76460a150c2ae7113ee8e0bda3021387029184/aquacrop-3.0.4.tar.gz
+[2024-04-26 11:58:24] INFO root fetch - processPackages [mlsteam-model-sdk]: Downloading https://files.pythonhosted.org/packages/9d/03/df3449b1297e86493e4d92ca808861f451fb1e055251fd9590cae6280978/mlsteam_model_sdk-0.6.0-cp39-none-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-26 11:58:24] INFO root fetch - processPackages [python-trading212]: executing diffoscope
+[2024-04-26 11:58:24] INFO root fetch - processPackages [python-trading212]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_trading212-0.1.0.tar.gz tmp/python_trading212-0.1.1.tar.gz --markdown 20240426/p/python-trading212/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-26 11:58:25] INFO root fetch - processPackages [macal]: Downloading https://files.pythonhosted.org/packages/af/65/43050a22a0754948265c24d76b23d25cb59f7f1525cc4e99874a87608a99/macal-5.5.0a7.tar.gz
+[2024-04-26 11:58:25] INFO root fetch - processPackages [cloudvision]: Downloading https://files.pythonhosted.org/packages/08/38/784b150ba7e1f44287952e9c4a92ae3a982b1489575e8eea93681f9d323a/cloudvision-1.9.1.tar.gz
+[2024-04-26 11:58:25] INFO root fetch - processPackages [mlsteam-model-sdk]: Downloading https://files.pythonhosted.org/packages/61/18/9b341d45f93b0c8573a00f3361956bf20225bea650b1508173fff6e75963/mlsteam_model_sdk-0.7.0-cp312-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-26 11:58:25] INFO root fetch - processPackages [macal]: executing diffoscope
+[2024-04-26 11:58:25] INFO root fetch - processPackages [macal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macal-5.5.0a6.tar.gz tmp/macal-5.5.0a7.tar.gz --markdown 20240426/m/macal/5.5.0a6-5.5.0a7/README.md --exclude *.pyd
+[2024-04-26 11:58:25] INFO root fetch - processPackages [aquacrop]: Downloading https://files.pythonhosted.org/packages/21/9a/9c8de467dd559713f695c73a762dd133dcaa4bbe43b5b64ef312a6108b81/aquacrop-3.0.5.tar.gz
+[2024-04-26 11:58:25] WARNING root fetch - processPackages [aquacrop]: Skipping package: exceeds size limit 10619293>=10485760
+[2024-04-26 11:58:25] INFO root fetch - main [MainThread]: End processing [aquacrop] error
+[2024-04-26 11:58:25] INFO root fetch - processPackages [python-trading212]: Remove: archive file [/home/abi/fetcher/tmp/python_trading212-0.1.0.tar.gz]
+[2024-04-26 11:58:25] INFO root fetch - processPackages [python-trading212]: Remove: archive file [/home/abi/fetcher/tmp/python_trading212-0.1.1.tar.gz]
+[2024-04-26 11:58:25] INFO root fetch - main [MainThread]: End processing [python-trading212]: success
+[2024-04-26 11:58:25] INFO root fetch - processPackages [cloudvision]: executing diffoscope
+[2024-04-26 11:58:25] INFO root fetch - processPackages [cloudvision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudvision-1.9.0.tar.gz tmp/cloudvision-1.9.1.tar.gz --markdown 20240426/c/cloudvision/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-04-26 11:58:25] INFO root fetch - processPackages [macal]: Remove: archive file [/home/abi/fetcher/tmp/macal-5.5.0a6.tar.gz]
+[2024-04-26 11:58:25] INFO root fetch - processPackages [macal]: Remove: archive file [/home/abi/fetcher/tmp/macal-5.5.0a7.tar.gz]
+[2024-04-26 11:58:25] INFO root fetch - main [MainThread]: End processing [macal]: success
+[2024-04-26 11:58:25] INFO root fetch - processPackages [mlsteam-model-sdk]: executing diffoscope
+[2024-04-26 11:58:25] INFO root fetch - processPackages [mlsteam-model-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlsteam_model_sdk-0.6.0-cp39-none-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/mlsteam_model_sdk-0.7.0-cp312-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240426/m/mlsteam-model-sdk/0.6.0-0.7.0/README.md --exclude *.pyd
+[2024-04-26 11:58:26] INFO root fetch - processPackages [cloudvision]: Remove: archive file [/home/abi/fetcher/tmp/cloudvision-1.9.0.tar.gz]
+[2024-04-26 11:58:26] INFO root fetch - processPackages [cloudvision]: Remove: archive file [/home/abi/fetcher/tmp/cloudvision-1.9.1.tar.gz]
+[2024-04-26 11:58:26] INFO root fetch - main [MainThread]: End processing [cloudvision]: success
+[2024-04-26 11:58:26] INFO root fetch - processPackages [mlsteam-model-sdk]: Remove: archive file [/home/abi/fetcher/tmp/mlsteam_model_sdk-0.6.0-cp39-none-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-26 11:58:26] INFO root fetch - processPackages [mlsteam-model-sdk]: Remove: archive file [/home/abi/fetcher/tmp/mlsteam_model_sdk-0.7.0-cp312-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-26 11:58:26] INFO root fetch - main [MainThread]: End processing [mlsteam-model-sdk]: success
+[2024-04-26 11:58:26] INFO root fetch - main [MainThread]: Store serial: [22946045]
