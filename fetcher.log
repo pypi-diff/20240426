@@ -17285,3 +17285,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 12:18:52] INFO root fetch - processPackages [unstructured]: Remove: archive file [/home/abi/fetcher/tmp/unstructured-0.9.3.tar.gz]
 [2024-04-26 12:18:52] INFO root fetch - main [MainThread]: End processing [unstructured]: success
 [2024-04-26 12:18:52] INFO root fetch - main [MainThread]: Store serial: [22946203]
+[2024-04-26 12:20:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22946203]
+[2024-04-26 12:21:01] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-26 12:21:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rats-pipelines
+[2024-04-26 12:21:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autotrain-advanced
+[2024-04-26 12:21:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rats-processors
+[2024-04-26 12:21:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: STASCAN
+[2024-04-26 12:21:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: datalibro-utils
+[2024-04-26 12:21:01] INFO root fetch - processPackages [rats-processors]: New version: [0.1.3.dev9] Old Version: [0.1.3.dev8]
+[2024-04-26 12:21:01] INFO root fetch - processPackages [rats-pipelines]: New version: [0.1.3.dev9] Old Version: [0.1.3.dev8]
+[2024-04-26 12:21:01] INFO root fetch - processPackages [autotrain-advanced]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-04-26 12:21:02] INFO root fetch - processPackages [datalibro-utils]: New version: [2.3.2] Old Version: [2.3.1]
+[2024-04-26 12:21:02] INFO root fetch - processPackages [STASCAN]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-04-26 12:21:02] INFO root fetch - processPackages [rats-pipelines]: Downloading https://files.pythonhosted.org/packages/ec/dd/e1571a4a4be4a6e8a24f82ab1b058ced7ac30426c5fa734e21c3bb791cd1/rats_pipelines-0.1.3.dev8-py3-none-any.whl
+[2024-04-26 12:21:02] INFO root fetch - processPackages [rats-processors]: Downloading https://files.pythonhosted.org/packages/ee/14/9e43a65d4c611c1fd72f73131b77c7f2d0b9dec99834658b01571114c849/rats_processors-0.1.3.dev8-py3-none-any.whl
+[2024-04-26 12:21:02] INFO root fetch - processPackages [autotrain-advanced]: Downloading https://files.pythonhosted.org/packages/f7/32/d4134f2d2283aafd5d82db1b47031a6025f7f458bf7dc07ef8389a35fab9/autotrain-advanced-0.7.8.tar.gz
+[2024-04-26 12:21:02] INFO root fetch - processPackages [datalibro-utils]: Downloading https://files.pythonhosted.org/packages/f1/32/c431a92b59c97fdb8b33050e3c9c9fea800c942496ca6d86b6e21ce4748c/datalibro_utils-2.3.1.tar.gz
+[2024-04-26 12:21:02] INFO root fetch - processPackages [STASCAN]: Downloading https://files.pythonhosted.org/packages/29/88/d6139f1bf138b3c41c2ae25dca1c68689834ca88abec6ecd320a88bed0ce/STASCAN-1.0.0.tar.gz
+[2024-04-26 12:21:02] INFO root fetch - processPackages [rats-processors]: Downloading https://files.pythonhosted.org/packages/83/b6/122ea8648f16d78861cb7c33e0f599e2421b03f295f46bbf34d66c3d399a/rats_processors-0.1.3.dev9-py3-none-any.whl
+[2024-04-26 12:21:02] INFO root fetch - processPackages [rats-pipelines]: Downloading https://files.pythonhosted.org/packages/b8/2d/79bd6c94d590e76f61506daaf64bbb07726287dd538e4b8a5d5a3fd64ad7/rats_pipelines-0.1.3.dev9-py3-none-any.whl
+[2024-04-26 12:21:02] INFO root fetch - processPackages [autotrain-advanced]: Downloading https://files.pythonhosted.org/packages/95/9e/ee31433cc0bd82c907dd180918e1072f54bcd0139421e0ab4df0c9f3f919/autotrain-advanced-0.7.9.tar.gz
+[2024-04-26 12:21:02] INFO root fetch - processPackages [rats-processors]: executing diffoscope
+[2024-04-26 12:21:02] INFO root fetch - processPackages [rats-processors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rats_processors-0.1.3.dev8-py3-none-any.whl.zip tmp/rats_processors-0.1.3.dev9-py3-none-any.whl.zip --markdown 20240426/r/rats-processors/0.1.3.dev8-0.1.3.dev9/README.md --exclude *.pyd
+[2024-04-26 12:21:02] INFO root fetch - processPackages [rats-pipelines]: executing diffoscope
+[2024-04-26 12:21:02] INFO root fetch - processPackages [rats-pipelines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rats_pipelines-0.1.3.dev8-py3-none-any.whl.zip tmp/rats_pipelines-0.1.3.dev9-py3-none-any.whl.zip --markdown 20240426/r/rats-pipelines/0.1.3.dev8-0.1.3.dev9/README.md --exclude *.pyd
+[2024-04-26 12:21:02] INFO root fetch - processPackages [autotrain-advanced]: executing diffoscope
+[2024-04-26 12:21:02] INFO root fetch - processPackages [autotrain-advanced]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autotrain-advanced-0.7.8.tar.gz tmp/autotrain-advanced-0.7.9.tar.gz --markdown 20240426/a/autotrain-advanced/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-04-26 12:21:02] INFO root fetch - processPackages [datalibro-utils]: Downloading https://files.pythonhosted.org/packages/75/75/8d7106bca4f3eb579b3fa3af7fd32129f947189a1d6dbe28adeb514ac5c5/datalibro_utils-2.3.2.tar.gz
+[2024-04-26 12:21:02] INFO root fetch - processPackages [STASCAN]: Downloading https://files.pythonhosted.org/packages/5f/96/a86e43c6e0ec1e6f819af93bf6fd60a0407836746d5c13a13a88c3307f10/STASCAN-1.1.0.tar.gz
+[2024-04-26 12:21:02] INFO root fetch - processPackages [datalibro-utils]: executing diffoscope
+[2024-04-26 12:21:02] INFO root fetch - processPackages [datalibro-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datalibro_utils-2.3.1.tar.gz tmp/datalibro_utils-2.3.2.tar.gz --markdown 20240426/d/datalibro-utils/2.3.1-2.3.2/README.md --exclude *.pyd
+[2024-04-26 12:21:02] INFO root fetch - processPackages [STASCAN]: executing diffoscope
+[2024-04-26 12:21:02] INFO root fetch - processPackages [STASCAN]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/STASCAN-1.0.0.tar.gz tmp/STASCAN-1.1.0.tar.gz --markdown 20240426/S/STASCAN/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-04-26 12:21:03] INFO root fetch - processPackages [rats-processors]: Remove: archive file [/home/abi/fetcher/tmp/rats_processors-0.1.3.dev8-py3-none-any.whl.zip]
+[2024-04-26 12:21:03] INFO root fetch - processPackages [rats-processors]: Remove: archive file [/home/abi/fetcher/tmp/rats_processors-0.1.3.dev9-py3-none-any.whl.zip]
+[2024-04-26 12:21:03] INFO root fetch - main [MainThread]: End processing [rats-processors]: success
+[2024-04-26 12:21:03] INFO root fetch - processPackages [autotrain-advanced]: Remove: archive file [/home/abi/fetcher/tmp/autotrain-advanced-0.7.8.tar.gz]
+[2024-04-26 12:21:03] INFO root fetch - processPackages [autotrain-advanced]: Remove: archive file [/home/abi/fetcher/tmp/autotrain-advanced-0.7.9.tar.gz]
+[2024-04-26 12:21:03] INFO root fetch - main [MainThread]: End processing [autotrain-advanced]: success
+[2024-04-26 12:21:03] INFO root fetch - processPackages [datalibro-utils]: Remove: archive file [/home/abi/fetcher/tmp/datalibro_utils-2.3.1.tar.gz]
+[2024-04-26 12:21:03] INFO root fetch - processPackages [datalibro-utils]: Remove: archive file [/home/abi/fetcher/tmp/datalibro_utils-2.3.2.tar.gz]
+[2024-04-26 12:21:03] INFO root fetch - main [MainThread]: End processing [datalibro-utils]: success
+[2024-04-26 12:21:03] INFO root fetch - processPackages [rats-pipelines]: Remove: archive file [/home/abi/fetcher/tmp/rats_pipelines-0.1.3.dev8-py3-none-any.whl.zip]
+[2024-04-26 12:21:03] INFO root fetch - processPackages [rats-pipelines]: Remove: archive file [/home/abi/fetcher/tmp/rats_pipelines-0.1.3.dev9-py3-none-any.whl.zip]
+[2024-04-26 12:21:03] INFO root fetch - main [MainThread]: End processing [rats-pipelines]: success
+[2024-04-26 12:21:03] INFO root fetch - processPackages [STASCAN]: Remove: archive file [/home/abi/fetcher/tmp/STASCAN-1.0.0.tar.gz]
+[2024-04-26 12:21:03] INFO root fetch - processPackages [STASCAN]: Remove: archive file [/home/abi/fetcher/tmp/STASCAN-1.1.0.tar.gz]
+[2024-04-26 12:21:03] INFO root fetch - main [MainThread]: End processing [STASCAN]: success
+[2024-04-26 12:21:03] INFO root fetch - main [MainThread]: Store serial: [22946215]
