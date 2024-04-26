@@ -9802,3 +9802,24 @@
 [2024-04-26 07:24:59] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2024.4.26.13.23.46.tar.gz]
 [2024-04-26 07:24:59] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
 [2024-04-26 07:24:59] INFO root fetch - main [MainThread]: Store serial: [22942912]
+[2024-04-26 07:27:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22942912]
+[2024-04-26 07:27:08] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-26 07:27:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quarkstudio
+[2024-04-26 07:27:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyscinloopsr
+[2024-04-26 07:27:08] INFO root fetch - processPackages [pyscinloopsr]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-04-26 07:27:08] INFO root fetch - processPackages [quarkstudio]: New version: [6.6.2.20] Old Version: [6.6.2.19]
+[2024-04-26 07:27:08] INFO root fetch - processPackages [pyscinloopsr]: Downloading https://files.pythonhosted.org/packages/00/d2/016a44daeba7af678ab17255e85a5ba5398386db231a43c783baf9043cd4/pyscinloopsr-1.0.5.tar.gz
+[2024-04-26 07:27:08] INFO root fetch - processPackages [quarkstudio]: Downloading https://files.pythonhosted.org/packages/d7/3d/eb04b9a90ca017f54c0f9204df4844243f2320994a6fafd223ae8790fa71/quarkstudio-6.6.2.19-cp312-none-win_amd64.whl
+[2024-04-26 07:27:08] INFO root fetch - processPackages [pyscinloopsr]: Downloading https://files.pythonhosted.org/packages/b6/19/c47ad6394ad51b66b941bc9ba2c34f91945920946b85cb1f16ec690e213d/pyscinloopsr-1.0.6.tar.gz
+[2024-04-26 07:27:08] INFO root fetch - processPackages [pyscinloopsr]: executing diffoscope
+[2024-04-26 07:27:08] INFO root fetch - processPackages [pyscinloopsr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyscinloopsr-1.0.5.tar.gz tmp/pyscinloopsr-1.0.6.tar.gz --markdown 20240426/p/pyscinloopsr/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-04-26 07:27:08] INFO root fetch - processPackages [quarkstudio]: Downloading https://files.pythonhosted.org/packages/28/2e/5735f6a6cb0acef9c06f31d0ce369015f76a3058ced898e5279e15f606ee/quarkstudio-6.6.2.20-cp312-none-win_amd64.whl
+[2024-04-26 07:27:09] INFO root fetch - processPackages [quarkstudio]: executing diffoscope
+[2024-04-26 07:27:09] INFO root fetch - processPackages [quarkstudio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quarkstudio-6.6.2.19-cp312-none-win_amd64.whl.zip tmp/quarkstudio-6.6.2.20-cp312-none-win_amd64.whl.zip --markdown 20240426/q/quarkstudio/6.6.2.19-6.6.2.20/README.md --exclude *.pyd
+[2024-04-26 07:27:09] INFO root fetch - processPackages [pyscinloopsr]: Remove: archive file [/home/abi/fetcher/tmp/pyscinloopsr-1.0.5.tar.gz]
+[2024-04-26 07:27:09] INFO root fetch - processPackages [pyscinloopsr]: Remove: archive file [/home/abi/fetcher/tmp/pyscinloopsr-1.0.6.tar.gz]
+[2024-04-26 07:27:09] INFO root fetch - main [MainThread]: End processing [pyscinloopsr]: success
+[2024-04-26 07:27:09] INFO root fetch - processPackages [quarkstudio]: Remove: archive file [/home/abi/fetcher/tmp/quarkstudio-6.6.2.19-cp312-none-win_amd64.whl.zip]
+[2024-04-26 07:27:09] INFO root fetch - processPackages [quarkstudio]: Remove: archive file [/home/abi/fetcher/tmp/quarkstudio-6.6.2.20-cp312-none-win_amd64.whl.zip]
+[2024-04-26 07:27:09] INFO root fetch - main [MainThread]: End processing [quarkstudio]: success
+[2024-04-26 07:27:09] INFO root fetch - main [MainThread]: Store serial: [22942923]
