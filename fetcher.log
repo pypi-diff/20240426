@@ -11728,3 +11728,33 @@
 [2024-04-26 08:51:27] INFO root fetch - processPackages [PyQtUIkit]: Remove: archive file [/home/abi/fetcher/tmp/PyQtUIkit-2.8.1.tar.gz]
 [2024-04-26 08:51:27] INFO root fetch - main [MainThread]: End processing [PyQtUIkit]: success
 [2024-04-26 08:51:27] INFO root fetch - main [MainThread]: Store serial: [22943658]
+[2024-04-26 08:53:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22943658]
+[2024-04-26 08:53:37] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-26 08:53:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: prcpy
+[2024-04-26 08:53:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spark-ai-python
+[2024-04-26 08:53:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lesscode-utils
+[2024-04-26 08:53:37] INFO root fetch - processPackages [lesscode-utils]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-26 08:53:37] INFO root fetch - processPackages [spark-ai-python]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-26 08:53:37] INFO root fetch - processPackages [prcpy]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-26 08:53:37] INFO root fetch - processPackages [lesscode-utils]: Downloading https://files.pythonhosted.org/packages/f6/0c/2674b4b125ed692da753914dfb77b1585abef09ecc652e664392f26b82d6/lesscode_utils-0.0.8.tar.gz
+[2024-04-26 08:53:37] INFO root fetch - processPackages [spark-ai-python]: Downloading https://files.pythonhosted.org/packages/f4/fb/add24d391c9e74bdc54b217e18d2a6003fb4db73d26fd757acf24fc284b0/spark_ai_python-0.3.8.tar.gz
+[2024-04-26 08:53:37] INFO root fetch - processPackages [prcpy]: Downloading https://files.pythonhosted.org/packages/9c/b7/615a24e115d8522429aa1602aa027598f4d7e671ed30f79e4e9555796504/prcpy-0.1.5.tar.gz
+[2024-04-26 08:53:37] INFO root fetch - processPackages [lesscode-utils]: Downloading https://files.pythonhosted.org/packages/bc/9a/1d07f1121fb39c72396bc71511135f407e314dc626a3fb88ff75f1827718/lesscode_utils-0.0.9.tar.gz
+[2024-04-26 08:53:37] INFO root fetch - processPackages [spark-ai-python]: Downloading https://files.pythonhosted.org/packages/9c/8f/839a31dcb40a663647214e2c2a849dd29aba055b051276318cae0b879c67/spark_ai_python-0.3.9.tar.gz
+[2024-04-26 08:53:37] INFO root fetch - processPackages [lesscode-utils]: executing diffoscope
+[2024-04-26 08:53:37] INFO root fetch - processPackages [lesscode-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lesscode_utils-0.0.8.tar.gz tmp/lesscode_utils-0.0.9.tar.gz --markdown 20240426/l/lesscode-utils/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-26 08:53:37] INFO root fetch - processPackages [prcpy]: Downloading https://files.pythonhosted.org/packages/9f/7a/e955c5ab7abd78067df2e0e5d924d4ebb84c6ee1881f5cbbeea18145e6b2/prcpy-0.1.6.tar.gz
+[2024-04-26 08:53:37] INFO root fetch - processPackages [spark-ai-python]: executing diffoscope
+[2024-04-26 08:53:37] INFO root fetch - processPackages [spark-ai-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spark_ai_python-0.3.8.tar.gz tmp/spark_ai_python-0.3.9.tar.gz --markdown 20240426/s/spark-ai-python/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-04-26 08:53:38] INFO root fetch - processPackages [prcpy]: executing diffoscope
+[2024-04-26 08:53:38] INFO root fetch - processPackages [prcpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prcpy-0.1.5.tar.gz tmp/prcpy-0.1.6.tar.gz --markdown 20240426/p/prcpy/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-04-26 08:53:38] INFO root fetch - processPackages [lesscode-utils]: Remove: archive file [/home/abi/fetcher/tmp/lesscode_utils-0.0.8.tar.gz]
+[2024-04-26 08:53:38] INFO root fetch - processPackages [lesscode-utils]: Remove: archive file [/home/abi/fetcher/tmp/lesscode_utils-0.0.9.tar.gz]
+[2024-04-26 08:53:38] INFO root fetch - main [MainThread]: End processing [lesscode-utils]: success
+[2024-04-26 08:53:38] INFO root fetch - processPackages [prcpy]: Remove: archive file [/home/abi/fetcher/tmp/prcpy-0.1.5.tar.gz]
+[2024-04-26 08:53:38] INFO root fetch - processPackages [prcpy]: Remove: archive file [/home/abi/fetcher/tmp/prcpy-0.1.6.tar.gz]
+[2024-04-26 08:53:38] INFO root fetch - main [MainThread]: End processing [prcpy]: success
+[2024-04-26 08:53:38] INFO root fetch - processPackages [spark-ai-python]: Remove: archive file [/home/abi/fetcher/tmp/spark_ai_python-0.3.8.tar.gz]
+[2024-04-26 08:53:38] INFO root fetch - processPackages [spark-ai-python]: Remove: archive file [/home/abi/fetcher/tmp/spark_ai_python-0.3.9.tar.gz]
+[2024-04-26 08:53:38] INFO root fetch - main [MainThread]: End processing [spark-ai-python]: success
+[2024-04-26 08:53:38] INFO root fetch - main [MainThread]: Store serial: [22943667]
