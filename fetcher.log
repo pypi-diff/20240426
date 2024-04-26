@@ -8627,3 +8627,33 @@
 [2024-04-26 05:59:33] INFO root fetch - processPackages [pyrnnoise]: Remove: archive file [/home/abi/fetcher/tmp/pyrnnoise-0.1.2-py3-none-manylinux1_x86_64.whl.zip]
 [2024-04-26 05:59:33] INFO root fetch - main [MainThread]: End processing [pyrnnoise]: success
 [2024-04-26 05:59:33] INFO root fetch - main [MainThread]: Store serial: [22942439]
+[2024-04-26 06:01:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22942439]
+[2024-04-26 06:01:43] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-26 06:01:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kkpyai
+[2024-04-26 06:01:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rank-llm
+[2024-04-26 06:01:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-attachment-preview
+[2024-04-26 06:01:43] INFO root fetch - processPackages [kkpyai]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-26 06:01:43] INFO root fetch - processPackages [kkpyai]: Downloading https://files.pythonhosted.org/packages/41/d3/9eaff2d61cda5a93cc3aa554dac6f205851c8b6303358abc745bc574c29b/kkpyai-0.8.0.tar.gz
+[2024-04-26 06:01:43] INFO root fetch - processPackages [rank-llm]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-04-26 06:01:43] INFO root fetch - processPackages [odoo-addon-attachment-preview]: New version: [15.0.1.0.0.8] Old Version: [15.0.1.0.0.7]
+[2024-04-26 06:01:43] INFO root fetch - processPackages [kkpyai]: Downloading https://files.pythonhosted.org/packages/5d/fb/68ee41a5230bff7f50616754d4177eecd0f6602c85b5310d16ae044f2361/kkpyai-0.9.0.tar.gz
+[2024-04-26 06:01:43] INFO root fetch - processPackages [odoo-addon-attachment-preview]: Downloading https://files.pythonhosted.org/packages/84/22/6cde544971e6c1d0708392d60d06d08ce5356a37ce2c2d2020ed44ba1d28/odoo_addon_attachment_preview-15.0.1.0.0.7-py3-none-any.whl
+[2024-04-26 06:01:43] INFO root fetch - processPackages [rank-llm]: Downloading https://files.pythonhosted.org/packages/e0/25/cb8aa5926a6ce2fcdbad6abb51e3ee936afad3725684839c20372886c42b/rank-llm-0.2.7.tar.gz
+[2024-04-26 06:01:43] INFO root fetch - processPackages [kkpyai]: executing diffoscope
+[2024-04-26 06:01:43] INFO root fetch - processPackages [kkpyai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kkpyai-0.8.0.tar.gz tmp/kkpyai-0.9.0.tar.gz --markdown 20240426/k/kkpyai/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-26 06:01:44] INFO root fetch - processPackages [rank-llm]: Downloading https://files.pythonhosted.org/packages/bc/c1/65138be3e9632e267e040d513ad09332981aa758b2130547fdb2de0bfb30/rank-llm-0.2.8.tar.gz
+[2024-04-26 06:01:44] INFO root fetch - processPackages [odoo-addon-attachment-preview]: Downloading https://files.pythonhosted.org/packages/b0/92/20e6e61d5018f9d0bc61085e6a58d4f008ce3cfedf5cfe125c0383cf070c/odoo_addon_attachment_preview-15.0.1.0.0.8-py3-none-any.whl
+[2024-04-26 06:01:44] INFO root fetch - processPackages [rank-llm]: executing diffoscope
+[2024-04-26 06:01:44] INFO root fetch - processPackages [rank-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rank-llm-0.2.7.tar.gz tmp/rank-llm-0.2.8.tar.gz --markdown 20240426/r/rank-llm/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-04-26 06:01:44] INFO root fetch - processPackages [odoo-addon-attachment-preview]: executing diffoscope
+[2024-04-26 06:01:44] INFO root fetch - processPackages [odoo-addon-attachment-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_attachment_preview-15.0.1.0.0.7-py3-none-any.whl.zip tmp/odoo_addon_attachment_preview-15.0.1.0.0.8-py3-none-any.whl.zip --markdown 20240426/o/odoo-addon-attachment-preview/15.0.1.0.0.7-15.0.1.0.0.8/README.md --exclude *.pyd
+[2024-04-26 06:01:44] INFO root fetch - processPackages [kkpyai]: Remove: archive file [/home/abi/fetcher/tmp/kkpyai-0.8.0.tar.gz]
+[2024-04-26 06:01:44] INFO root fetch - processPackages [kkpyai]: Remove: archive file [/home/abi/fetcher/tmp/kkpyai-0.9.0.tar.gz]
+[2024-04-26 06:01:44] INFO root fetch - main [MainThread]: End processing [kkpyai]: success
+[2024-04-26 06:01:44] INFO root fetch - processPackages [rank-llm]: Remove: archive file [/home/abi/fetcher/tmp/rank-llm-0.2.7.tar.gz]
+[2024-04-26 06:01:44] INFO root fetch - processPackages [rank-llm]: Remove: archive file [/home/abi/fetcher/tmp/rank-llm-0.2.8.tar.gz]
+[2024-04-26 06:01:45] INFO root fetch - main [MainThread]: End processing [rank-llm]: success
+[2024-04-26 06:01:45] INFO root fetch - processPackages [odoo-addon-attachment-preview]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_attachment_preview-15.0.1.0.0.7-py3-none-any.whl.zip]
+[2024-04-26 06:01:45] INFO root fetch - processPackages [odoo-addon-attachment-preview]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_attachment_preview-15.0.1.0.0.8-py3-none-any.whl.zip]
+[2024-04-26 06:01:45] INFO root fetch - main [MainThread]: End processing [odoo-addon-attachment-preview]: success
+[2024-04-26 06:01:45] INFO root fetch - main [MainThread]: Store serial: [22942447]
