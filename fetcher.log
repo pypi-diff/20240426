@@ -11382,3 +11382,33 @@
 [2024-04-26 08:36:06] INFO root fetch - processPackages [django_bocor_ds]: Remove: archive file [/home/abi/fetcher/tmp/django_bocor_ds-2.1.0-py2.py3-none-any.whl.zip]
 [2024-04-26 08:36:06] INFO root fetch - main [MainThread]: End processing [django_bocor_ds]: success
 [2024-04-26 08:36:06] INFO root fetch - main [MainThread]: Store serial: [22943531]
+[2024-04-26 08:38:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22943531]
+[2024-04-26 08:38:14] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-26 08:38:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kfre
+[2024-04-26 08:38:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-okta
+[2024-04-26 08:38:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: crawlipt
+[2024-04-26 08:38:14] INFO root fetch - processPackages [kfre]: New version: [0.1.1a5] Old Version: [0.1.1a4]
+[2024-04-26 08:38:15] INFO root fetch - processPackages [pulumi-okta]: New version: [4.9.0a1714111506] Old Version: [4.9.0a1713902092]
+[2024-04-26 08:38:15] INFO root fetch - processPackages [crawlipt]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-26 08:38:15] INFO root fetch - processPackages [kfre]: Downloading https://files.pythonhosted.org/packages/5f/06/ec9bef73b2fd1de466da0788a5e948d72ff2d804ce25f421fa206ff2309a/kfre-0.1.1a4.tar.gz
+[2024-04-26 08:38:15] INFO root fetch - processPackages [pulumi-okta]: Downloading https://files.pythonhosted.org/packages/3f/7e/ba4ba74ff88fb75fd05ed0cdd11c5e28e0966b6316310aef481d06f83588/pulumi_okta-4.9.0a1713902092.tar.gz
+[2024-04-26 08:38:15] INFO root fetch - processPackages [crawlipt]: Downloading https://files.pythonhosted.org/packages/55/dc/0476cd1a68c27506873b41ee89916cea9b052699a0012d2c13d747aa2387/crawlipt-0.0.2.tar.gz
+[2024-04-26 08:38:15] INFO root fetch - processPackages [kfre]: Downloading https://files.pythonhosted.org/packages/e7/82/7f4e589412e614e2ffc2b8041432449e3dfd35f6a6b4c8c2e5841ce18d7b/kfre-0.1.1a5.tar.gz
+[2024-04-26 08:38:15] INFO root fetch - processPackages [kfre]: executing diffoscope
+[2024-04-26 08:38:15] INFO root fetch - processPackages [kfre]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfre-0.1.1a4.tar.gz tmp/kfre-0.1.1a5.tar.gz --markdown 20240426/k/kfre/0.1.1a4-0.1.1a5/README.md --exclude *.pyd
+[2024-04-26 08:38:15] INFO root fetch - processPackages [pulumi-okta]: Downloading https://files.pythonhosted.org/packages/09/30/a2b1ce80fc012f1f5ca011497ad114ab98827f2c8ce8e1709fcdf5e398ae/pulumi_okta-4.9.0a1714111506.tar.gz
+[2024-04-26 08:38:15] INFO root fetch - processPackages [crawlipt]: Downloading https://files.pythonhosted.org/packages/7c/b4/cb91b1ed8a1f04c5a7dc2943fe5dbcbabb299ef8644641b4235e0830df57/crawlipt-0.0.3.tar.gz
+[2024-04-26 08:38:15] INFO root fetch - processPackages [pulumi-okta]: executing diffoscope
+[2024-04-26 08:38:15] INFO root fetch - processPackages [pulumi-okta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_okta-4.9.0a1713902092.tar.gz tmp/pulumi_okta-4.9.0a1714111506.tar.gz --markdown 20240426/p/pulumi-okta/4.9.0a1713902092-4.9.0a1714111506/README.md --exclude *.pyd
+[2024-04-26 08:38:15] INFO root fetch - processPackages [crawlipt]: executing diffoscope
+[2024-04-26 08:38:15] INFO root fetch - processPackages [crawlipt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crawlipt-0.0.2.tar.gz tmp/crawlipt-0.0.3.tar.gz --markdown 20240426/c/crawlipt/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-26 08:38:16] INFO root fetch - processPackages [kfre]: Remove: archive file [/home/abi/fetcher/tmp/kfre-0.1.1a4.tar.gz]
+[2024-04-26 08:38:16] INFO root fetch - processPackages [kfre]: Remove: archive file [/home/abi/fetcher/tmp/kfre-0.1.1a5.tar.gz]
+[2024-04-26 08:38:16] INFO root fetch - main [MainThread]: End processing [kfre]: success
+[2024-04-26 08:38:16] INFO root fetch - processPackages [crawlipt]: Remove: archive file [/home/abi/fetcher/tmp/crawlipt-0.0.2.tar.gz]
+[2024-04-26 08:38:16] INFO root fetch - processPackages [crawlipt]: Remove: archive file [/home/abi/fetcher/tmp/crawlipt-0.0.3.tar.gz]
+[2024-04-26 08:38:16] INFO root fetch - main [MainThread]: End processing [crawlipt]: success
+[2024-04-26 08:38:17] INFO root fetch - processPackages [pulumi-okta]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_okta-4.9.0a1713902092.tar.gz]
+[2024-04-26 08:38:17] INFO root fetch - processPackages [pulumi-okta]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_okta-4.9.0a1714111506.tar.gz]
+[2024-04-26 08:38:17] INFO root fetch - main [MainThread]: End processing [pulumi-okta]: success
+[2024-04-26 08:38:17] INFO root fetch - main [MainThread]: Store serial: [22943541]
