@@ -6990,3 +6990,33 @@
 [2024-04-26 03:41:08] INFO root fetch - processPackages [seqerakit]: Remove: archive file [/home/abi/fetcher/tmp/seqerakit-0.4.7.tar.gz]
 [2024-04-26 03:41:08] INFO root fetch - main [MainThread]: End processing [seqerakit]: success
 [2024-04-26 03:41:08] INFO root fetch - main [MainThread]: Store serial: [22941711]
+[2024-04-26 03:43:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22941711]
+[2024-04-26 03:43:16] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-26 03:43:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gingerai
+[2024-04-26 03:43:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: monit-agd
+[2024-04-26 03:43:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: abi3info
+[2024-04-26 03:43:16] INFO root fetch - processPackages [gingerai]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-26 03:43:16] INFO root fetch - processPackages [monit-agd]: New version: [1.3.8] Old Version: [1.3.7]
+[2024-04-26 03:43:16] INFO root fetch - processPackages [gingerai]: Downloading https://files.pythonhosted.org/packages/93/63/5f4a6d2549870026eff659d1fc9aac0f6c9532ea741f07ac2083cd3a1cfe/gingerai-0.1.8.tar.gz
+[2024-04-26 03:43:16] INFO root fetch - processPackages [monit-agd]: Downloading https://files.pythonhosted.org/packages/26/da/aa676f3529d72e62aca51b070f878b027bd4bae33732723d679922ec3037/monit-agd-1.3.7.tar.gz
+[2024-04-26 03:43:16] INFO root fetch - processPackages [abi3info]: New version: [2024.4.25] Old Version: [2024.4.10]
+[2024-04-26 03:43:16] INFO root fetch - processPackages [gingerai]: Downloading https://files.pythonhosted.org/packages/33/65/a59be7a360a71da6fb875287e72120e252018dc037eef33b15ac50759b89/gingerai-0.1.9.tar.gz
+[2024-04-26 03:43:16] INFO root fetch - processPackages [abi3info]: Downloading https://files.pythonhosted.org/packages/82/f8/303cd7d59d739a8af265a5e6bc4ae7ad8afee80355c858f6ba5bdc6a62c6/abi3info-2024.4.10.tar.gz
+[2024-04-26 03:43:16] INFO root fetch - processPackages [gingerai]: executing diffoscope
+[2024-04-26 03:43:16] INFO root fetch - processPackages [gingerai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gingerai-0.1.8.tar.gz tmp/gingerai-0.1.9.tar.gz --markdown 20240426/g/gingerai/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-26 03:43:17] INFO root fetch - processPackages [monit-agd]: Downloading https://files.pythonhosted.org/packages/ec/1b/edc3cd954afba44531c8c7b08cf23fd43bff8e3b4f7a209213bc00fac473/monit-agd-1.3.8.tar.gz
+[2024-04-26 03:43:17] INFO root fetch - processPackages [monit-agd]: executing diffoscope
+[2024-04-26 03:43:17] INFO root fetch - processPackages [monit-agd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monit-agd-1.3.7.tar.gz tmp/monit-agd-1.3.8.tar.gz --markdown 20240426/m/monit-agd/1.3.7-1.3.8/README.md --exclude *.pyd
+[2024-04-26 03:43:17] INFO root fetch - processPackages [abi3info]: Downloading https://files.pythonhosted.org/packages/01/1a/262b6492a13441de9430361d637c9088f3064d35989833ef2f73789d0749/abi3info-2024.4.25.tar.gz
+[2024-04-26 03:43:17] INFO root fetch - processPackages [abi3info]: executing diffoscope
+[2024-04-26 03:43:17] INFO root fetch - processPackages [abi3info]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abi3info-2024.4.10.tar.gz tmp/abi3info-2024.4.25.tar.gz --markdown 20240426/a/abi3info/2024.4.10-2024.4.25/README.md --exclude *.pyd
+[2024-04-26 03:43:17] INFO root fetch - processPackages [gingerai]: Remove: archive file [/home/abi/fetcher/tmp/gingerai-0.1.8.tar.gz]
+[2024-04-26 03:43:17] INFO root fetch - processPackages [gingerai]: Remove: archive file [/home/abi/fetcher/tmp/gingerai-0.1.9.tar.gz]
+[2024-04-26 03:43:17] INFO root fetch - main [MainThread]: End processing [gingerai]: success
+[2024-04-26 03:43:17] INFO root fetch - processPackages [monit-agd]: Remove: archive file [/home/abi/fetcher/tmp/monit-agd-1.3.7.tar.gz]
+[2024-04-26 03:43:17] INFO root fetch - processPackages [monit-agd]: Remove: archive file [/home/abi/fetcher/tmp/monit-agd-1.3.8.tar.gz]
+[2024-04-26 03:43:17] INFO root fetch - main [MainThread]: End processing [monit-agd]: success
+[2024-04-26 03:43:17] INFO root fetch - processPackages [abi3info]: Remove: archive file [/home/abi/fetcher/tmp/abi3info-2024.4.10.tar.gz]
+[2024-04-26 03:43:17] INFO root fetch - processPackages [abi3info]: Remove: archive file [/home/abi/fetcher/tmp/abi3info-2024.4.25.tar.gz]
+[2024-04-26 03:43:17] INFO root fetch - main [MainThread]: End processing [abi3info]: success
+[2024-04-26 03:43:17] INFO root fetch - main [MainThread]: Store serial: [22941722]
