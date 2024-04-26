@@ -16436,3 +16436,42 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 11:39:29] INFO root fetch - processPackages [besser]: Remove: archive file [/home/abi/fetcher/tmp/besser-1.0.1.tar.gz]
 [2024-04-26 11:39:29] INFO root fetch - main [MainThread]: End processing [besser]: success
 [2024-04-26 11:39:29] INFO root fetch - main [MainThread]: Store serial: [22945894]
+[2024-04-26 11:41:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22945894]
+[2024-04-26 11:41:37] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-26 11:41:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pygradflow
+[2024-04-26 11:41:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rats-apps
+[2024-04-26 11:41:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: md2weasypdf
+[2024-04-26 11:41:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rats-pipelines
+[2024-04-26 11:41:37] INFO root fetch - processPackages [md2weasypdf]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-26 11:41:37] INFO root fetch - processPackages [rats-pipelines]: New version: [0.1.3.dev9] Old Version: [0.1.3.dev8]
+[2024-04-26 11:41:37] INFO root fetch - processPackages [rats-apps]: New version: [0.1.3.dev9] Old Version: [0.1.3.dev8]
+[2024-04-26 11:41:37] INFO root fetch - processPackages [pygradflow]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-26 11:41:37] INFO root fetch - processPackages [md2weasypdf]: Downloading https://files.pythonhosted.org/packages/0f/5f/d91b68988c1b4a9f27f62a842750dcd5d348a879969eb35ccdc07a74dc18/md2weasypdf-0.0.7.tar.gz
+[2024-04-26 11:41:37] INFO root fetch - processPackages [rats-pipelines]: Downloading https://files.pythonhosted.org/packages/ec/dd/e1571a4a4be4a6e8a24f82ab1b058ced7ac30426c5fa734e21c3bb791cd1/rats_pipelines-0.1.3.dev8-py3-none-any.whl
+[2024-04-26 11:41:37] INFO root fetch - processPackages [rats-apps]: Downloading https://files.pythonhosted.org/packages/2b/ac/7cdd84e9d923505e71fd914f800c3d7199d0e4a098aa8259413f06395c30/rats_apps-0.1.3.dev8-py3-none-any.whl
+[2024-04-26 11:41:37] INFO root fetch - processPackages [pygradflow]: Downloading https://files.pythonhosted.org/packages/8d/97/466512a27693a94bea9b5a20af95d190a8825b4e8ebff008651eb4b29c00/pygradflow-0.3.8.tar.gz
+[2024-04-26 11:41:38] INFO root fetch - processPackages [rats-apps]: Downloading https://files.pythonhosted.org/packages/63/25/d3d6e41dfb5bd98bcbf7f79d3856cc774212467e002a6abf0eb6cd14bd96/rats_apps-0.1.3.dev9-py3-none-any.whl
+[2024-04-26 11:41:38] INFO root fetch - processPackages [rats-pipelines]: Downloading https://files.pythonhosted.org/packages/b8/2d/79bd6c94d590e76f61506daaf64bbb07726287dd538e4b8a5d5a3fd64ad7/rats_pipelines-0.1.3.dev9-py3-none-any.whl
+[2024-04-26 11:41:38] INFO root fetch - processPackages [pygradflow]: Downloading https://files.pythonhosted.org/packages/4b/1b/0008264973f4bdf1e4cd76a6872629558ae00b4f9c12b560b1503830bf97/pygradflow-0.3.9.tar.gz
+[2024-04-26 11:41:38] INFO root fetch - processPackages [rats-apps]: executing diffoscope
+[2024-04-26 11:41:38] INFO root fetch - processPackages [rats-apps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rats_apps-0.1.3.dev8-py3-none-any.whl.zip tmp/rats_apps-0.1.3.dev9-py3-none-any.whl.zip --markdown 20240426/r/rats-apps/0.1.3.dev8-0.1.3.dev9/README.md --exclude *.pyd
+[2024-04-26 11:41:38] INFO root fetch - processPackages [md2weasypdf]: Downloading https://files.pythonhosted.org/packages/f1/65/3db61cef53340868f62f959d46e320f31e325fe6cdc694d83d50d179a65c/md2weasypdf-0.0.8.tar.gz
+[2024-04-26 11:41:38] INFO root fetch - processPackages [pygradflow]: executing diffoscope
+[2024-04-26 11:41:38] INFO root fetch - processPackages [pygradflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygradflow-0.3.8.tar.gz tmp/pygradflow-0.3.9.tar.gz --markdown 20240426/p/pygradflow/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-04-26 11:41:38] INFO root fetch - processPackages [rats-pipelines]: executing diffoscope
+[2024-04-26 11:41:38] INFO root fetch - processPackages [rats-pipelines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rats_pipelines-0.1.3.dev8-py3-none-any.whl.zip tmp/rats_pipelines-0.1.3.dev9-py3-none-any.whl.zip --markdown 20240426/r/rats-pipelines/0.1.3.dev8-0.1.3.dev9/README.md --exclude *.pyd
+[2024-04-26 11:41:38] INFO root fetch - processPackages [md2weasypdf]: executing diffoscope
+[2024-04-26 11:41:38] INFO root fetch - processPackages [md2weasypdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/md2weasypdf-0.0.7.tar.gz tmp/md2weasypdf-0.0.8.tar.gz --markdown 20240426/m/md2weasypdf/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-26 11:41:38] INFO root fetch - processPackages [pygradflow]: Remove: archive file [/home/abi/fetcher/tmp/pygradflow-0.3.8.tar.gz]
+[2024-04-26 11:41:38] INFO root fetch - processPackages [pygradflow]: Remove: archive file [/home/abi/fetcher/tmp/pygradflow-0.3.9.tar.gz]
+[2024-04-26 11:41:38] INFO root fetch - main [MainThread]: End processing [pygradflow]: success
+[2024-04-26 11:41:38] INFO root fetch - processPackages [rats-apps]: Remove: archive file [/home/abi/fetcher/tmp/rats_apps-0.1.3.dev8-py3-none-any.whl.zip]
+[2024-04-26 11:41:38] INFO root fetch - processPackages [rats-apps]: Remove: archive file [/home/abi/fetcher/tmp/rats_apps-0.1.3.dev9-py3-none-any.whl.zip]
+[2024-04-26 11:41:38] INFO root fetch - main [MainThread]: End processing [rats-apps]: success
+[2024-04-26 11:41:39] INFO root fetch - processPackages [md2weasypdf]: Remove: archive file [/home/abi/fetcher/tmp/md2weasypdf-0.0.7.tar.gz]
+[2024-04-26 11:41:39] INFO root fetch - processPackages [md2weasypdf]: Remove: archive file [/home/abi/fetcher/tmp/md2weasypdf-0.0.8.tar.gz]
+[2024-04-26 11:41:39] INFO root fetch - main [MainThread]: End processing [md2weasypdf]: success
+[2024-04-26 11:41:39] INFO root fetch - processPackages [rats-pipelines]: Remove: archive file [/home/abi/fetcher/tmp/rats_pipelines-0.1.3.dev8-py3-none-any.whl.zip]
+[2024-04-26 11:41:39] INFO root fetch - processPackages [rats-pipelines]: Remove: archive file [/home/abi/fetcher/tmp/rats_pipelines-0.1.3.dev9-py3-none-any.whl.zip]
+[2024-04-26 11:41:39] INFO root fetch - main [MainThread]: End processing [rats-pipelines]: success
+[2024-04-26 11:41:39] INFO root fetch - main [MainThread]: Store serial: [22945905]
