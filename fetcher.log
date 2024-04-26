@@ -16859,3 +16859,54 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 11:58:26] INFO root fetch - processPackages [mlsteam-model-sdk]: Remove: archive file [/home/abi/fetcher/tmp/mlsteam_model_sdk-0.7.0-cp312-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-04-26 11:58:26] INFO root fetch - main [MainThread]: End processing [mlsteam-model-sdk]: success
 [2024-04-26 11:58:26] INFO root fetch - main [MainThread]: Store serial: [22946045]
+[2024-04-26 12:00:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22946045]
+[2024-04-26 12:00:35] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-26 12:00:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: swarmauri-developer
+[2024-04-26 12:00:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: swh.core
+[2024-04-26 12:00:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: caen-hv-py
+[2024-04-26 12:00:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: glpic
+[2024-04-26 12:00:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: awscdk-resources-mongodbatlas
+[2024-04-26 12:00:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pritunl-api
+[2024-04-26 12:00:35] WARNING root fetch - processPackages [caen-hv-py]: Skipping, unable to determine old version
+[2024-04-26 12:00:35] INFO root fetch - main [MainThread]: End processing [caen-hv-py] error
+[2024-04-26 12:00:35] INFO root fetch - processPackages [glpic]: New version: [99.0.202404260851] Old Version: [99.0.202404260848]
+[2024-04-26 12:00:35] INFO root fetch - processPackages [glpic]: Downloading https://files.pythonhosted.org/packages/96/fc/343a717c7b9afa3afdaad864edb54cec25d9ddfafc6a79575c4cd8435cec/glpic-99.0.202404260848.tar.gz
+[2024-04-26 12:00:35] INFO root fetch - processPackages [pritunl-api]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-04-26 12:00:35] INFO root fetch - processPackages [swarmauri-developer]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-26 12:00:35] INFO root fetch - processPackages [awscdk-resources-mongodbatlas]: New version: [3.4.0] Old Version: [3.3.0]
+[2024-04-26 12:00:35] INFO root fetch - processPackages [swh.core]: New version: [3.0.1] Old Version: [3.0.0]
+[2024-04-26 12:00:36] INFO root fetch - processPackages [swarmauri-developer]: Downloading https://files.pythonhosted.org/packages/76/cc/01a86bc969a9e5c53f0abe2e9c88f7f03e6b986e8f701d0119a4c12de05f/swarmauri_developer-0.0.8.tar.gz
+[2024-04-26 12:00:36] INFO root fetch - processPackages [pritunl-api]: Downloading https://files.pythonhosted.org/packages/fb/50/54b2a279220f696a1942a5899e26663399f71bf6b108fcdcb589eaf401c1/pritunl_api-1.1.8.tar.gz
+[2024-04-26 12:00:36] INFO root fetch - processPackages [awscdk-resources-mongodbatlas]: Downloading https://files.pythonhosted.org/packages/f1/e4/26e9244cbd2c079ba6e9e7e372f14da9e718a23a863a30be7a8a8c7f3432/awscdk_resources_mongodbatlas-3.3.0.tar.gz
+[2024-04-26 12:00:36] INFO root fetch - processPackages [swh.core]: Downloading https://files.pythonhosted.org/packages/d8/b3/94874d1e25cade98946987b4fb1316ab26775ab6a8323e61b6843d176079/swh.core-3.0.0.tar.gz
+[2024-04-26 12:00:36] INFO root fetch - processPackages [glpic]: Downloading https://files.pythonhosted.org/packages/c3/da/e203d2c641c7d0607969d133e1c6c93bde3a5227ab756463900cf6e24185/glpic-99.0.202404260851.tar.gz
+[2024-04-26 12:00:36] INFO root fetch - processPackages [glpic]: executing diffoscope
+[2024-04-26 12:00:36] INFO root fetch - processPackages [glpic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glpic-99.0.202404260848.tar.gz tmp/glpic-99.0.202404260851.tar.gz --markdown 20240426/g/glpic/99.0.202404260848-99.0.202404260851/README.md --exclude *.pyd
+[2024-04-26 12:00:36] INFO root fetch - processPackages [swarmauri-developer]: Downloading https://files.pythonhosted.org/packages/9c/e8/fc5191c8fac50b51fb6e35444e13fc59f50d6cb262072cc58bcb0e971267/swarmauri_developer-0.0.9.tar.gz
+[2024-04-26 12:00:36] INFO root fetch - processPackages [pritunl-api]: Downloading https://files.pythonhosted.org/packages/44/8b/478c23e10d83f9375b994b6d60ae68e85efda2108021bf3dec9664c6fa74/pritunl_api-1.1.9.tar.gz
+[2024-04-26 12:00:36] INFO root fetch - processPackages [swarmauri-developer]: executing diffoscope
+[2024-04-26 12:00:36] INFO root fetch - processPackages [swarmauri-developer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarmauri_developer-0.0.8.tar.gz tmp/swarmauri_developer-0.0.9.tar.gz --markdown 20240426/s/swarmauri-developer/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-26 12:00:36] INFO root fetch - processPackages [awscdk-resources-mongodbatlas]: Downloading https://files.pythonhosted.org/packages/2e/12/34ba9a1228605215a212a2e5d307f8995457d0d2f78f730e10fbeb433471/awscdk_resources_mongodbatlas-3.4.0.tar.gz
+[2024-04-26 12:00:36] INFO root fetch - processPackages [swh.core]: Downloading https://files.pythonhosted.org/packages/f0/fc/ac9b6d9bbb379f49f7043104292c80cded3b38d2c0467a10c85c6db57583/swh_core-3.0.1.tar.gz
+[2024-04-26 12:00:36] INFO root fetch - processPackages [pritunl-api]: executing diffoscope
+[2024-04-26 12:00:36] INFO root fetch - processPackages [pritunl-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pritunl_api-1.1.8.tar.gz tmp/pritunl_api-1.1.9.tar.gz --markdown 20240426/p/pritunl-api/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-04-26 12:00:36] INFO root fetch - processPackages [awscdk-resources-mongodbatlas]: executing diffoscope
+[2024-04-26 12:00:36] INFO root fetch - processPackages [awscdk-resources-mongodbatlas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awscdk_resources_mongodbatlas-3.3.0.tar.gz tmp/awscdk_resources_mongodbatlas-3.4.0.tar.gz --markdown 20240426/a/awscdk-resources-mongodbatlas/3.3.0-3.4.0/README.md --exclude *.pyd
+[2024-04-26 12:00:36] INFO root fetch - processPackages [glpic]: Remove: archive file [/home/abi/fetcher/tmp/glpic-99.0.202404260848.tar.gz]
+[2024-04-26 12:00:36] INFO root fetch - processPackages [glpic]: Remove: archive file [/home/abi/fetcher/tmp/glpic-99.0.202404260851.tar.gz]
+[2024-04-26 12:00:36] INFO root fetch - main [MainThread]: End processing [glpic]: success
+[2024-04-26 12:00:36] INFO root fetch - processPackages [swh.core]: executing diffoscope
+[2024-04-26 12:00:36] INFO root fetch - processPackages [swh.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swh.core-3.0.0.tar.gz tmp/swh_core-3.0.1.tar.gz --markdown 20240426/s/swh.core/3.0.0-3.0.1/README.md --exclude *.pyd
+[2024-04-26 12:00:37] INFO root fetch - processPackages [swarmauri-developer]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri_developer-0.0.8.tar.gz]
+[2024-04-26 12:00:37] INFO root fetch - processPackages [swarmauri-developer]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri_developer-0.0.9.tar.gz]
+[2024-04-26 12:00:37] INFO root fetch - main [MainThread]: End processing [swarmauri-developer]: success
+[2024-04-26 12:00:37] INFO root fetch - processPackages [pritunl-api]: Remove: archive file [/home/abi/fetcher/tmp/pritunl_api-1.1.8.tar.gz]
+[2024-04-26 12:00:37] INFO root fetch - processPackages [pritunl-api]: Remove: archive file [/home/abi/fetcher/tmp/pritunl_api-1.1.9.tar.gz]
+[2024-04-26 12:00:37] INFO root fetch - main [MainThread]: End processing [pritunl-api]: success
+[2024-04-26 12:00:37] INFO root fetch - processPackages [swh.core]: Remove: archive file [/home/abi/fetcher/tmp/swh.core-3.0.0.tar.gz]
+[2024-04-26 12:00:37] INFO root fetch - processPackages [swh.core]: Remove: archive file [/home/abi/fetcher/tmp/swh_core-3.0.1.tar.gz]
+[2024-04-26 12:00:37] INFO root fetch - main [MainThread]: End processing [swh.core]: success
+[2024-04-26 12:00:38] INFO root fetch - processPackages [awscdk-resources-mongodbatlas]: Remove: archive file [/home/abi/fetcher/tmp/awscdk_resources_mongodbatlas-3.3.0.tar.gz]
+[2024-04-26 12:00:38] INFO root fetch - processPackages [awscdk-resources-mongodbatlas]: Remove: archive file [/home/abi/fetcher/tmp/awscdk_resources_mongodbatlas-3.4.0.tar.gz]
+[2024-04-26 12:00:38] INFO root fetch - main [MainThread]: End processing [awscdk-resources-mongodbatlas]: success
+[2024-04-26 12:00:38] INFO root fetch - main [MainThread]: Store serial: [22946068]
