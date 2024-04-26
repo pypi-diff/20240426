@@ -23439,3 +23439,87 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 16:44:50] INFO root fetch - processPackages [lunapi]: Remove: archive file [/home/abi/fetcher/tmp/lunapi-0.0.6-pp39-pypy39_pp73-macosx_11_0_arm64.whl.zip]
 [2024-04-26 16:44:50] INFO root fetch - main [MainThread]: End processing [lunapi]: success
 [2024-04-26 16:44:50] INFO root fetch - main [MainThread]: Store serial: [22948804]
+[2024-04-26 16:46:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22948804]
+[2024-04-26 16:46:59] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-26 16:46:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hddm-s
+[2024-04-26 16:46:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mycloudlab1
+[2024-04-26 16:46:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sbomaudit
+[2024-04-26 16:46:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: druida
+[2024-04-26 16:46:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: audio-separator
+[2024-04-26 16:46:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: decoutilities
+[2024-04-26 16:46:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: teapy
+[2024-04-26 16:46:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: spark-metabase-api
+[2024-04-26 16:46:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sleep-utils
+[2024-04-26 16:47:00] INFO root fetch - processPackages [hddm-s]: New version: [1.0.9] Old Version: [1.0.7]
+[2024-04-26 16:47:00] INFO root fetch - processPackages [mycloudlab1]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-26 16:47:00] INFO root fetch - processPackages [druida]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-26 16:47:00] INFO root fetch - processPackages [teapy]: New version: [0.7.3] Old Version: [0.7.2]
+[2024-04-26 16:47:00] INFO root fetch - processPackages [audio-separator]: New version: [0.9.6] Old Version: [0.9.5]
+[2024-04-26 16:47:00] INFO root fetch - processPackages [sbomaudit]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-04-26 16:47:00] INFO root fetch - processPackages [sleep-utils]: New version: [1.16] Old Version: [1.15]
+[2024-04-26 16:47:00] INFO root fetch - processPackages [decoutilities]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-26 16:47:00] INFO root fetch - processPackages [hddm-s]: Downloading https://files.pythonhosted.org/packages/c7/15/051d8248dd680cc83687b776c06944bb75f8bcddabc05f270b5c65549a26/hddm_s-1.0.7.tar.gz
+[2024-04-26 16:47:00] INFO root fetch - processPackages [spark-metabase-api]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-26 16:47:00] INFO root fetch - processPackages [mycloudlab1]: Downloading https://files.pythonhosted.org/packages/a6/7f/6f5b3ec065df97a89e51bd293a76a16ebc79eae3515ac4edc39d5a27bc64/mycloudlab1-0.0.2.tar.gz
+[2024-04-26 16:47:00] INFO root fetch - processPackages [druida]: Downloading https://files.pythonhosted.org/packages/54/4a/598451ade8bde7f369deba69feb62cde24693585acb81aed1eb62547c114/druida-0.0.8.tar.gz
+[2024-04-26 16:47:00] INFO root fetch - processPackages [sbomaudit]: Downloading https://files.pythonhosted.org/packages/dd/cf/3b24395a1ab3adc70a21f1b447a06c846a244d78b963b2bb2ae52ee04ffb/sbomaudit-0.4.0-py2.py3-none-any.whl
+[2024-04-26 16:47:00] INFO root fetch - processPackages [teapy]: Downloading https://files.pythonhosted.org/packages/c7/26/464c91a1ae581cad7acc00f7d0cf81e2bc96a4e30129fecc4aae88140216/teapy-0.7.2.tar.gz
+[2024-04-26 16:47:00] INFO root fetch - processPackages [audio-separator]: Downloading https://files.pythonhosted.org/packages/db/93/9c9e5a71855de5f6721cb632a8b7f39c2222b6d91fa786832444797fc220/audio_separator-0.9.5.tar.gz
+[2024-04-26 16:47:00] INFO root fetch - processPackages [spark-metabase-api]: Downloading https://files.pythonhosted.org/packages/b7/c5/708e66a9a521398570782cce4314c59a3915732b618b76fb7c20d60853d2/spark-metabase-api-0.1.8.tar.gz
+[2024-04-26 16:47:00] INFO root fetch - processPackages [decoutilities]: Downloading https://files.pythonhosted.org/packages/04/f8/4eda7b9701a7799a424833c98d6ef978146a08c9ed0571a810eba6b69bc2/decoutilities-0.1.0.tar.gz
+[2024-04-26 16:47:00] INFO root fetch - processPackages [sleep-utils]: Downloading https://files.pythonhosted.org/packages/16/bd/a0bdc85e74e4aea4108224fb0276141934be0f3077eeb6ea0a037e805e7c/sleep-utils-1.15.tar.gz
+[2024-04-26 16:47:00] INFO root fetch - processPackages [hddm-s]: Downloading https://files.pythonhosted.org/packages/d2/24/0bac70948a0f916016590dddfc7e17148c466fa4b02e8bd2d4f3119e1816/hddm_s-1.0.9.tar.gz
+[2024-04-26 16:47:00] INFO root fetch - processPackages [mycloudlab1]: Downloading https://files.pythonhosted.org/packages/a9/51/fbef7257cdb95f489a489204bd0a8d5a5af823d000f5ded74793431e13cf/mycloudlab1-0.0.3.tar.gz
+[2024-04-26 16:47:00] INFO root fetch - processPackages [druida]: Downloading https://files.pythonhosted.org/packages/c2/fc/04f7092cb544ce2c35e3be2dd5ff20bee19fcc5ba5378898e0f03e15b8a9/druida-0.0.9.tar.gz
+[2024-04-26 16:47:00] INFO root fetch - processPackages [hddm-s]: executing diffoscope
+[2024-04-26 16:47:00] INFO root fetch - processPackages [hddm-s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hddm_s-1.0.7.tar.gz tmp/hddm_s-1.0.9.tar.gz --markdown 20240426/h/hddm-s/1.0.7-1.0.9/README.md --exclude *.pyd
+[2024-04-26 16:47:00] INFO root fetch - processPackages [mycloudlab1]: executing diffoscope
+[2024-04-26 16:47:00] INFO root fetch - processPackages [mycloudlab1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mycloudlab1-0.0.2.tar.gz tmp/mycloudlab1-0.0.3.tar.gz --markdown 20240426/m/mycloudlab1/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-26 16:47:00] INFO root fetch - processPackages [druida]: executing diffoscope
+[2024-04-26 16:47:00] INFO root fetch - processPackages [druida]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/druida-0.0.8.tar.gz tmp/druida-0.0.9.tar.gz --markdown 20240426/d/druida/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-26 16:47:00] INFO root fetch - processPackages [teapy]: Downloading https://files.pythonhosted.org/packages/61/45/69cdda782ab10ce5415e68f2355dd380939a0a9eb48fa5d74cabc45da9bd/teapy-0.7.3.tar.gz
+[2024-04-26 16:47:00] INFO root fetch - processPackages [spark-metabase-api]: Downloading https://files.pythonhosted.org/packages/85/48/5c6eacbacc9f67e4eced50608629c3a1d667281d94488ce0c2c9acbb06c5/spark_metabase_api-0.1.9.tar.gz
+[2024-04-26 16:47:00] INFO root fetch - processPackages [decoutilities]: Downloading https://files.pythonhosted.org/packages/4c/e2/3855c84717b56f1486a5ffc1198c6c84eb7902c8827083cc1be290b6df9a/decoutilities-0.1.1.tar.gz
+[2024-04-26 16:47:00] INFO root fetch - processPackages [sbomaudit]: Downloading https://files.pythonhosted.org/packages/e6/7d/7f26dcfe656e1fe7c86d5eb499f04f197a9d964be631c3034a8e4a6fafc2/sbomaudit-0.4.1-py2.py3-none-any.whl
+[2024-04-26 16:47:00] INFO root fetch - processPackages [sleep-utils]: Downloading https://files.pythonhosted.org/packages/1c/f9/4e4db47065afeaeff7267590ff4815453271d8bc76d5f2becda8bd096807/sleep-utils-1.16.tar.gz
+[2024-04-26 16:47:00] INFO root fetch - processPackages [audio-separator]: Downloading https://files.pythonhosted.org/packages/02/e0/802f0c370b87eb4898db0bdf70f01171a743a04bc86cd3bbdda9c242f6cd/audio_separator-0.9.6.tar.gz
+[2024-04-26 16:47:01] INFO root fetch - processPackages [sbomaudit]: executing diffoscope
+[2024-04-26 16:47:01] INFO root fetch - processPackages [sbomaudit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbomaudit-0.4.0-py2.py3-none-any.whl.zip tmp/sbomaudit-0.4.1-py2.py3-none-any.whl.zip --markdown 20240426/s/sbomaudit/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-04-26 16:47:01] INFO root fetch - processPackages [audio-separator]: executing diffoscope
+[2024-04-26 16:47:01] INFO root fetch - processPackages [audio-separator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audio_separator-0.9.5.tar.gz tmp/audio_separator-0.9.6.tar.gz --markdown 20240426/a/audio-separator/0.9.5-0.9.6/README.md --exclude *.pyd
+[2024-04-26 16:47:01] INFO root fetch - processPackages [teapy]: executing diffoscope
+[2024-04-26 16:47:01] INFO root fetch - processPackages [teapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/teapy-0.7.2.tar.gz tmp/teapy-0.7.3.tar.gz --markdown 20240426/t/teapy/0.7.2-0.7.3/README.md --exclude *.pyd
+[2024-04-26 16:47:01] INFO root fetch - processPackages [decoutilities]: executing diffoscope
+[2024-04-26 16:47:01] INFO root fetch - processPackages [spark-metabase-api]: executing diffoscope
+[2024-04-26 16:47:01] INFO root fetch - processPackages [spark-metabase-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spark-metabase-api-0.1.8.tar.gz tmp/spark_metabase_api-0.1.9.tar.gz --markdown 20240426/s/spark-metabase-api/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-26 16:47:01] INFO root fetch - processPackages [decoutilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decoutilities-0.1.0.tar.gz tmp/decoutilities-0.1.1.tar.gz --markdown 20240426/d/decoutilities/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-26 16:47:01] INFO root fetch - processPackages [sleep-utils]: executing diffoscope
+[2024-04-26 16:47:01] INFO root fetch - processPackages [sleep-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sleep-utils-1.15.tar.gz tmp/sleep-utils-1.16.tar.gz --markdown 20240426/s/sleep-utils/1.15-1.16/README.md --exclude *.pyd
+[2024-04-26 16:47:01] INFO root fetch - processPackages [mycloudlab1]: Remove: archive file [/home/abi/fetcher/tmp/mycloudlab1-0.0.2.tar.gz]
+[2024-04-26 16:47:01] INFO root fetch - processPackages [mycloudlab1]: Remove: archive file [/home/abi/fetcher/tmp/mycloudlab1-0.0.3.tar.gz]
+[2024-04-26 16:47:01] INFO root fetch - main [MainThread]: End processing [mycloudlab1]: success
+[2024-04-26 16:47:01] INFO root fetch - processPackages [hddm-s]: Remove: archive file [/home/abi/fetcher/tmp/hddm_s-1.0.7.tar.gz]
+[2024-04-26 16:47:01] INFO root fetch - processPackages [hddm-s]: Remove: archive file [/home/abi/fetcher/tmp/hddm_s-1.0.9.tar.gz]
+[2024-04-26 16:47:01] INFO root fetch - main [MainThread]: End processing [hddm-s]: success
+[2024-04-26 16:47:01] INFO root fetch - processPackages [druida]: Remove: archive file [/home/abi/fetcher/tmp/druida-0.0.8.tar.gz]
+[2024-04-26 16:47:01] INFO root fetch - processPackages [druida]: Remove: archive file [/home/abi/fetcher/tmp/druida-0.0.9.tar.gz]
+[2024-04-26 16:47:01] INFO root fetch - main [MainThread]: End processing [druida]: success
+[2024-04-26 16:47:01] INFO root fetch - processPackages [audio-separator]: Remove: archive file [/home/abi/fetcher/tmp/audio_separator-0.9.5.tar.gz]
+[2024-04-26 16:47:01] INFO root fetch - processPackages [audio-separator]: Remove: archive file [/home/abi/fetcher/tmp/audio_separator-0.9.6.tar.gz]
+[2024-04-26 16:47:01] INFO root fetch - main [MainThread]: End processing [audio-separator]: success
+[2024-04-26 16:47:01] INFO root fetch - processPackages [spark-metabase-api]: Remove: archive file [/home/abi/fetcher/tmp/spark-metabase-api-0.1.8.tar.gz]
+[2024-04-26 16:47:01] INFO root fetch - processPackages [spark-metabase-api]: Remove: archive file [/home/abi/fetcher/tmp/spark_metabase_api-0.1.9.tar.gz]
+[2024-04-26 16:47:01] INFO root fetch - main [MainThread]: End processing [spark-metabase-api]: success
+[2024-04-26 16:47:02] INFO root fetch - processPackages [sleep-utils]: Remove: archive file [/home/abi/fetcher/tmp/sleep-utils-1.15.tar.gz]
+[2024-04-26 16:47:02] INFO root fetch - processPackages [sleep-utils]: Remove: archive file [/home/abi/fetcher/tmp/sleep-utils-1.16.tar.gz]
+[2024-04-26 16:47:02] INFO root fetch - main [MainThread]: End processing [sleep-utils]: success
+[2024-04-26 16:47:02] INFO root fetch - processPackages [decoutilities]: Remove: archive file [/home/abi/fetcher/tmp/decoutilities-0.1.0.tar.gz]
+[2024-04-26 16:47:02] INFO root fetch - processPackages [decoutilities]: Remove: archive file [/home/abi/fetcher/tmp/decoutilities-0.1.1.tar.gz]
+[2024-04-26 16:47:02] INFO root fetch - main [MainThread]: End processing [decoutilities]: success
+[2024-04-26 16:47:02] INFO root fetch - processPackages [sbomaudit]: Remove: archive file [/home/abi/fetcher/tmp/sbomaudit-0.4.0-py2.py3-none-any.whl.zip]
+[2024-04-26 16:47:02] INFO root fetch - processPackages [sbomaudit]: Remove: archive file [/home/abi/fetcher/tmp/sbomaudit-0.4.1-py2.py3-none-any.whl.zip]
+[2024-04-26 16:47:02] INFO root fetch - main [MainThread]: End processing [sbomaudit]: success
+[2024-04-26 16:47:02] INFO root fetch - processPackages [teapy]: Remove: archive file [/home/abi/fetcher/tmp/teapy-0.7.2.tar.gz]
+[2024-04-26 16:47:02] INFO root fetch - processPackages [teapy]: Remove: archive file [/home/abi/fetcher/tmp/teapy-0.7.3.tar.gz]
+[2024-04-26 16:47:02] INFO root fetch - main [MainThread]: End processing [teapy]: success
+[2024-04-26 16:47:02] INFO root fetch - main [MainThread]: Store serial: [22948831]
