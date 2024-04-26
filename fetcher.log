@@ -19273,3 +19273,41 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 13:44:39] INFO root fetch - processPackages [mgnify-pipelines-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/mgnify_pipelines_toolkit-0.1.2.tar.gz]
 [2024-04-26 13:44:39] INFO root fetch - main [MainThread]: End processing [mgnify-pipelines-toolkit]: success
 [2024-04-26 13:44:39] INFO root fetch - main [MainThread]: Store serial: [22947040]
+[2024-04-26 13:46:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22947040]
+[2024-04-26 13:46:47] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-26 13:46:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vbimage
+[2024-04-26 13:46:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: syncpool-py
+[2024-04-26 13:46:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fgo-api-types
+[2024-04-26 13:46:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: py12flogging
+[2024-04-26 13:46:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: autowsgr
+[2024-04-26 13:46:47] INFO root fetch - processPackages [autowsgr]: New version: [0.2.2.9] Old Version: [0.2.2.8]
+[2024-04-26 13:46:47] INFO root fetch - processPackages [fgo-api-types]: New version: [2024.4.6.2.22.3] Old Version: [2024.4.26.5.20.19]
+[2024-04-26 13:46:48] INFO root fetch - processPackages [autowsgr]: Downloading https://files.pythonhosted.org/packages/20/db/bb4942509a54b1f01fa10e10e3dca250f9cf92488729f8292657988ac8e2/autowsgr-0.2.2.8.tar.gz
+[2024-04-26 13:46:48] INFO root fetch - processPackages [vbimage]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-26 13:46:48] WARNING root fetch - processPackages [syncpool-py]: Skipping, unable to determine old version
+[2024-04-26 13:46:48] INFO root fetch - main [MainThread]: End processing [syncpool-py] error
+[2024-04-26 13:46:48] INFO root fetch - processPackages [py12flogging]: New version: [0.6.0] Old Version: [0.5.0]
+[2024-04-26 13:46:48] WARNING root fetch - processPackages [autowsgr]: Skipping package: exceeds size limit 18156638>=10485760
+[2024-04-26 13:46:48] INFO root fetch - main [MainThread]: End processing [autowsgr] error
+[2024-04-26 13:46:48] INFO root fetch - processPackages [fgo-api-types]: Downloading https://files.pythonhosted.org/packages/38/cb/6d42b279a6a79c5894afba1e6f702230bd1caa4c1a591ebd1a37f5425859/fgo_api_types-2024.4.26.5.20.19.tar.gz
+[2024-04-26 13:46:48] INFO root fetch - processPackages [vbimage]: Downloading https://files.pythonhosted.org/packages/68/4a/592b6169a4c0dce31e9ec0c8ea971cb0b07b488e5311e3ace5017a94fc9a/vbimage-0.1.8.tar.gz
+[2024-04-26 13:46:48] INFO root fetch - processPackages [py12flogging]: Downloading https://files.pythonhosted.org/packages/8a/b0/c8fabd7276abb858be519f7cfd46bde991f840f6fc4875d60f3403df82f7/py12flogging-0.5.0.tar.gz
+[2024-04-26 13:46:48] INFO root fetch - processPackages [fgo-api-types]: Downloading https://files.pythonhosted.org/packages/b9/41/3dbb26f0f980c564a1e8ae75299afc724991934ffaf1a8a59ab70aafb784/fgo_api_types-2024.4.6.2.22.3.tar.gz
+[2024-04-26 13:46:48] INFO root fetch - processPackages [fgo-api-types]: executing diffoscope
+[2024-04-26 13:46:48] INFO root fetch - processPackages [fgo-api-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fgo_api_types-2024.4.26.5.20.19.tar.gz tmp/fgo_api_types-2024.4.6.2.22.3.tar.gz --markdown 20240426/f/fgo-api-types/2024.4.26.5.20.19-2024.4.6.2.22.3/README.md --exclude *.pyd
+[2024-04-26 13:46:48] INFO root fetch - processPackages [py12flogging]: Downloading https://files.pythonhosted.org/packages/6a/c6/4de5220f43f4239f1e741a237a6a282fadee67a58a8d2dc06921bb854c79/py12flogging-0.6.0.tar.gz
+[2024-04-26 13:46:48] INFO root fetch - processPackages [vbimage]: Downloading https://files.pythonhosted.org/packages/cd/c9/275f7f26a834e6b1512b0c75f07c95f28e4ba7d4ae4c44dc4244b1a54e0d/vbimage-0.1.9.tar.gz
+[2024-04-26 13:46:48] INFO root fetch - processPackages [py12flogging]: executing diffoscope
+[2024-04-26 13:46:48] INFO root fetch - processPackages [py12flogging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py12flogging-0.5.0.tar.gz tmp/py12flogging-0.6.0.tar.gz --markdown 20240426/p/py12flogging/0.5.0-0.6.0/README.md --exclude *.pyd
+[2024-04-26 13:46:48] INFO root fetch - processPackages [vbimage]: executing diffoscope
+[2024-04-26 13:46:48] INFO root fetch - processPackages [vbimage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vbimage-0.1.8.tar.gz tmp/vbimage-0.1.9.tar.gz --markdown 20240426/v/vbimage/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-26 13:46:49] INFO root fetch - processPackages [vbimage]: Remove: archive file [/home/abi/fetcher/tmp/vbimage-0.1.8.tar.gz]
+[2024-04-26 13:46:49] INFO root fetch - processPackages [vbimage]: Remove: archive file [/home/abi/fetcher/tmp/vbimage-0.1.9.tar.gz]
+[2024-04-26 13:46:49] INFO root fetch - main [MainThread]: End processing [vbimage]: success
+[2024-04-26 13:46:49] INFO root fetch - processPackages [py12flogging]: Remove: archive file [/home/abi/fetcher/tmp/py12flogging-0.5.0.tar.gz]
+[2024-04-26 13:46:49] INFO root fetch - processPackages [py12flogging]: Remove: archive file [/home/abi/fetcher/tmp/py12flogging-0.6.0.tar.gz]
+[2024-04-26 13:46:49] INFO root fetch - main [MainThread]: End processing [py12flogging]: success
+[2024-04-26 13:46:49] INFO root fetch - processPackages [fgo-api-types]: Remove: archive file [/home/abi/fetcher/tmp/fgo_api_types-2024.4.26.5.20.19.tar.gz]
+[2024-04-26 13:46:49] INFO root fetch - processPackages [fgo-api-types]: Remove: archive file [/home/abi/fetcher/tmp/fgo_api_types-2024.4.6.2.22.3.tar.gz]
+[2024-04-26 13:46:49] INFO root fetch - main [MainThread]: End processing [fgo-api-types]: success
+[2024-04-26 13:46:49] INFO root fetch - main [MainThread]: Store serial: [22947064]
