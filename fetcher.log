@@ -14778,3 +14778,90 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 10:40:00] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.7.9.tar.gz]
 [2024-04-26 10:40:00] INFO root fetch - main [MainThread]: End processing [power-grid-model]: success
 [2024-04-26 10:40:00] INFO root fetch - main [MainThread]: Store serial: [22945184]
+[2024-04-26 10:42:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22945184]
+[2024-04-26 10:42:10] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-26 10:42:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: power-grid-model
+[2024-04-26 10:42:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: install-texlive
+[2024-04-26 10:42:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kcli
+[2024-04-26 10:42:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kafka-broker
+[2024-04-26 10:42:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ctrip-app-ui
+[2024-04-26 10:42:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: alphaz-next
+[2024-04-26 10:42:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: frontengine
+[2024-04-26 10:42:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: frontengine-dev
+[2024-04-26 10:42:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: wodoo
+[2024-04-26 10:42:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: logfire-sdk
+[2024-04-26 10:42:10] INFO root fetch - processPackages [kafka-broker]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-04-26 10:42:10] INFO root fetch - processPackages [frontengine-dev]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-26 10:42:10] INFO root fetch - processPackages [frontengine]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-26 10:42:10] INFO root fetch - processPackages [ctrip-app-ui]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-26 10:42:10] INFO root fetch - processPackages [alphaz-next]: New version: [0.5.4] Old Version: [0.5.3]
+[2024-04-26 10:42:10] INFO root fetch - processPackages [kcli]: New version: [99.0.202404260721] Old Version: [99.0.202404251549]
+[2024-04-26 10:42:10] WARNING root fetch - processPackages [install-texlive]: Skipping, unable to determine old version
+[2024-04-26 10:42:10] INFO root fetch - processPackages [kafka-broker]: Downloading https://files.pythonhosted.org/packages/93/be/5a03c721e9ae49dfee61d5740237ce479b928a0b40735f5e3b9292c26494/kafka-broker-0.4.0.tar.gz
+[2024-04-26 10:42:10] INFO root fetch - main [MainThread]: End processing [install-texlive] error
+[2024-04-26 10:42:10] INFO root fetch - processPackages [power-grid-model]: New version: [1.7.9] Old Version: [1.7.8a1374103622511]
+[2024-04-26 10:42:10] INFO root fetch - processPackages [frontengine-dev]: Downloading https://files.pythonhosted.org/packages/23/e2/01e0fe02ca6b73e163f3f0d080231bc0c783a63e766e5524eb246350518d/frontengine_dev-0.0.8.tar.gz
+[2024-04-26 10:42:10] INFO root fetch - processPackages [frontengine]: Downloading https://files.pythonhosted.org/packages/62/88/6d99d7b463365da48db6f37c9bde41e7f7f20eeb1a13653a273586e81d3a/frontengine-0.0.8.tar.gz
+[2024-04-26 10:42:10] INFO root fetch - processPackages [logfire-sdk]: New version: [0.0.1] Old Version: [0.0.0]
+[2024-04-26 10:42:10] INFO root fetch - processPackages [ctrip-app-ui]: Downloading https://files.pythonhosted.org/packages/f9/c6/c8777ef8116a2c1ffdf098c62db9bceeeae03c748d8f7e7a6e5919b5c36f/ctrip-app-ui-0.2.1.tar.gz
+[2024-04-26 10:42:10] INFO root fetch - processPackages [alphaz-next]: Downloading https://files.pythonhosted.org/packages/b5/ef/8e19624f82d1dc7834c2fcc3a68d0e6ce1832240cfb5c9f3f66d6988e377/alphaz-next-0.5.3.tar.gz
+[2024-04-26 10:42:10] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/ea/1a/49d02757999ad7da0e935fec7594aace8faff471c08757b90590541e1508/kcli-99.0.202404251549.tar.gz
+[2024-04-26 10:42:10] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/f2/89/c6c2797d33b80597aba4cfaa3eb46b859cefaabca623a75550c89a3289f7/power-grid-model-1.7.8a1374103622511.tar.gz
+[2024-04-26 10:42:10] INFO root fetch - processPackages [wodoo]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-04-26 10:42:10] INFO root fetch - processPackages [logfire-sdk]: Downloading https://files.pythonhosted.org/packages/39/57/5d5b56c2247c06adeffbe3abefcc6d2f165d20fe6ed28289ae97262213d9/logfire_sdk-0.0.0.tar.gz
+[2024-04-26 10:42:10] INFO root fetch - processPackages [kafka-broker]: Downloading https://files.pythonhosted.org/packages/ca/7f/d64ae77062d760997d0f6d750541eddee9f2a6a602b07e1b59c65790d985/kafka-broker-0.4.1.tar.gz
+[2024-04-26 10:42:10] INFO root fetch - processPackages [frontengine]: Downloading https://files.pythonhosted.org/packages/a5/8e/4bb92b2db27649b96b46469f263e2fdd091c8283ff06a24534624c34be9d/frontengine-0.0.9.tar.gz
+[2024-04-26 10:42:10] INFO root fetch - processPackages [frontengine-dev]: Downloading https://files.pythonhosted.org/packages/bd/40/ac58f5e1633b3b2ea3574839a03ddc6a124459f3e721986a4208fbe06488/frontengine_dev-0.0.9.tar.gz
+[2024-04-26 10:42:10] INFO root fetch - processPackages [frontengine]: executing diffoscope
+[2024-04-26 10:42:10] INFO root fetch - processPackages [frontengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frontengine-0.0.8.tar.gz tmp/frontengine-0.0.9.tar.gz --markdown 20240426/f/frontengine/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-26 10:42:10] INFO root fetch - processPackages [wodoo]: Downloading https://files.pythonhosted.org/packages/53/68/7b6f7e95cfdfbd466ca0193157764107728485da639a0b0d073256be29a3/wodoo-0.5.8.tar.gz
+[2024-04-26 10:42:10] INFO root fetch - processPackages [frontengine-dev]: executing diffoscope
+[2024-04-26 10:42:10] INFO root fetch - processPackages [frontengine-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frontengine_dev-0.0.8.tar.gz tmp/frontengine_dev-0.0.9.tar.gz --markdown 20240426/f/frontengine-dev/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-26 10:42:10] INFO root fetch - processPackages [kafka-broker]: executing diffoscope
+[2024-04-26 10:42:10] INFO root fetch - processPackages [kafka-broker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kafka-broker-0.4.0.tar.gz tmp/kafka-broker-0.4.1.tar.gz --markdown 20240426/k/kafka-broker/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-04-26 10:42:10] INFO root fetch - processPackages [ctrip-app-ui]: Downloading https://files.pythonhosted.org/packages/63/78/bdac1503d95780115692fcd3f8e5bae8eee3328ba1b1a462607170a405e8/ctrip-app-ui-0.2.2.tar.gz
+[2024-04-26 10:42:10] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/56/2b/86814a7f75dec690d4b62403c87b2b3b5aa0b3c73f37f4294b843a74b0d9/power-grid-model-1.7.9.tar.gz
+[2024-04-26 10:42:10] INFO root fetch - processPackages [alphaz-next]: Downloading https://files.pythonhosted.org/packages/c7/1c/34082b38d7f6b8816cc75974b12f980347fe3fbd68fb8a25f900e7301edf/alphaz-next-0.5.4.tar.gz
+[2024-04-26 10:42:10] INFO root fetch - processPackages [ctrip-app-ui]: executing diffoscope
+[2024-04-26 10:42:10] INFO root fetch - processPackages [ctrip-app-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctrip-app-ui-0.2.1.tar.gz tmp/ctrip-app-ui-0.2.2.tar.gz --markdown 20240426/c/ctrip-app-ui/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-04-26 10:42:11] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/87/fe/74d3c4d754b7c52a2a3b48a2f22367623113155feb98764cd7d74d83f213/kcli-99.0.202404260721.tar.gz
+[2024-04-26 10:42:11] INFO root fetch - processPackages [power-grid-model]: executing diffoscope
+[2024-04-26 10:42:11] INFO root fetch - processPackages [power-grid-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/power-grid-model-1.7.8a1374103622511.tar.gz tmp/power-grid-model-1.7.9.tar.gz --markdown 20240426/p/power-grid-model/1.7.8a1374103622511-1.7.9/README.md --exclude *.pyd
+[2024-04-26 10:42:11] INFO root fetch - processPackages [logfire-sdk]: Downloading https://files.pythonhosted.org/packages/0b/49/839ee65bc851ff79bcba28e5786c581b0f159a5afe3f492d04f1b9c5505a/logfire_sdk-0.0.1.tar.gz
+[2024-04-26 10:42:11] INFO root fetch - processPackages [alphaz-next]: executing diffoscope
+[2024-04-26 10:42:11] INFO root fetch - processPackages [alphaz-next]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alphaz-next-0.5.3.tar.gz tmp/alphaz-next-0.5.4.tar.gz --markdown 20240426/a/alphaz-next/0.5.3-0.5.4/README.md --exclude *.pyd
+[2024-04-26 10:42:11] INFO root fetch - processPackages [wodoo]: Downloading https://files.pythonhosted.org/packages/b7/a1/0b22b9a96e05c35661083fcac67ec4c2f1d13c9c0ac55214e82b196d393b/wodoo-0.5.9.tar.gz
+[2024-04-26 10:42:11] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2024-04-26 10:42:11] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202404251549.tar.gz tmp/kcli-99.0.202404260721.tar.gz --markdown 20240426/k/kcli/99.0.202404251549-99.0.202404260721/README.md --exclude *.pyd
+[2024-04-26 10:42:11] INFO root fetch - processPackages [wodoo]: executing diffoscope
+[2024-04-26 10:42:11] INFO root fetch - processPackages [wodoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wodoo-0.5.8.tar.gz tmp/wodoo-0.5.9.tar.gz --markdown 20240426/w/wodoo/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-04-26 10:42:11] INFO root fetch - processPackages [logfire-sdk]: executing diffoscope
+[2024-04-26 10:42:11] INFO root fetch - processPackages [logfire-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logfire_sdk-0.0.0.tar.gz tmp/logfire_sdk-0.0.1.tar.gz --markdown 20240426/l/logfire-sdk/0.0.0-0.0.1/README.md --exclude *.pyd
+[2024-04-26 10:42:11] INFO root fetch - processPackages [frontengine-dev]: Remove: archive file [/home/abi/fetcher/tmp/frontengine_dev-0.0.8.tar.gz]
+[2024-04-26 10:42:11] INFO root fetch - processPackages [frontengine-dev]: Remove: archive file [/home/abi/fetcher/tmp/frontengine_dev-0.0.9.tar.gz]
+[2024-04-26 10:42:11] INFO root fetch - main [MainThread]: End processing [frontengine-dev]: success
+[2024-04-26 10:42:11] INFO root fetch - processPackages [frontengine]: Remove: archive file [/home/abi/fetcher/tmp/frontengine-0.0.8.tar.gz]
+[2024-04-26 10:42:11] INFO root fetch - processPackages [frontengine]: Remove: archive file [/home/abi/fetcher/tmp/frontengine-0.0.9.tar.gz]
+[2024-04-26 10:42:11] INFO root fetch - main [MainThread]: End processing [frontengine]: success
+[2024-04-26 10:42:11] INFO root fetch - processPackages [kafka-broker]: Remove: archive file [/home/abi/fetcher/tmp/kafka-broker-0.4.0.tar.gz]
+[2024-04-26 10:42:11] INFO root fetch - processPackages [kafka-broker]: Remove: archive file [/home/abi/fetcher/tmp/kafka-broker-0.4.1.tar.gz]
+[2024-04-26 10:42:11] INFO root fetch - main [MainThread]: End processing [kafka-broker]: success
+[2024-04-26 10:42:11] INFO root fetch - processPackages [ctrip-app-ui]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-app-ui-0.2.1.tar.gz]
+[2024-04-26 10:42:11] INFO root fetch - processPackages [ctrip-app-ui]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-app-ui-0.2.2.tar.gz]
+[2024-04-26 10:42:11] INFO root fetch - main [MainThread]: End processing [ctrip-app-ui]: success
+[2024-04-26 10:42:11] INFO root fetch - processPackages [alphaz-next]: Remove: archive file [/home/abi/fetcher/tmp/alphaz-next-0.5.3.tar.gz]
+[2024-04-26 10:42:11] INFO root fetch - processPackages [alphaz-next]: Remove: archive file [/home/abi/fetcher/tmp/alphaz-next-0.5.4.tar.gz]
+[2024-04-26 10:42:11] INFO root fetch - main [MainThread]: End processing [alphaz-next]: success
+[2024-04-26 10:42:12] INFO root fetch - processPackages [wodoo]: Remove: archive file [/home/abi/fetcher/tmp/wodoo-0.5.8.tar.gz]
+[2024-04-26 10:42:12] INFO root fetch - processPackages [wodoo]: Remove: archive file [/home/abi/fetcher/tmp/wodoo-0.5.9.tar.gz]
+[2024-04-26 10:42:12] INFO root fetch - main [MainThread]: End processing [wodoo]: success
+[2024-04-26 10:42:12] INFO root fetch - processPackages [logfire-sdk]: Remove: archive file [/home/abi/fetcher/tmp/logfire_sdk-0.0.0.tar.gz]
+[2024-04-26 10:42:12] INFO root fetch - processPackages [logfire-sdk]: Remove: archive file [/home/abi/fetcher/tmp/logfire_sdk-0.0.1.tar.gz]
+[2024-04-26 10:42:12] INFO root fetch - main [MainThread]: End processing [logfire-sdk]: success
+[2024-04-26 10:42:13] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.7.8a1374103622511.tar.gz]
+[2024-04-26 10:42:13] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.7.9.tar.gz]
+[2024-04-26 10:42:13] INFO root fetch - main [MainThread]: End processing [power-grid-model]: success
+[2024-04-26 10:42:13] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202404251549.tar.gz]
+[2024-04-26 10:42:13] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202404260721.tar.gz]
+[2024-04-26 10:42:13] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2024-04-26 10:42:13] INFO root fetch - main [MainThread]: Store serial: [22945213]
