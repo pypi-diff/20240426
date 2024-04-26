@@ -10459,3 +10459,78 @@
 [2024-04-26 08:00:20] INFO root fetch - processPackages [pulumi-digitalocean]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_digitalocean-4.9.0a1637244514.tar.gz]
 [2024-04-26 08:00:20] INFO root fetch - main [MainThread]: End processing [pulumi-digitalocean]: success
 [2024-04-26 08:00:20] INFO root fetch - main [MainThread]: Store serial: [22943138]
+[2024-04-26 08:02:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22943138]
+[2024-04-26 08:02:29] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-26 08:02:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-datadog
+[2024-04-26 08:02:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: julep
+[2024-04-26 08:02:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: byma
+[2024-04-26 08:02:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyplotlib
+[2024-04-26 08:02:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jetline
+[2024-04-26 08:02:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pinjected
+[2024-04-26 08:02:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-sign-oca
+[2024-04-26 08:02:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addons-oca-sign
+[2024-04-26 08:02:29] INFO root fetch - processPackages [jetline]: New version: [0.1.0] Old Version: [0.0.53]
+[2024-04-26 08:02:29] INFO root fetch - processPackages [odoo-addon-sign-oca]: New version: [16.0.1.1.0.1] Old Version: [16.0.1.1.0]
+[2024-04-26 08:02:29] INFO root fetch - processPackages [pyplotlib]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-26 08:02:29] INFO root fetch - processPackages [jetline]: Downloading https://files.pythonhosted.org/packages/69/08/9609c1620ff023eeac9473e9894c490767af297a0827c198ac6d4e9b47fa/jetline-0.0.53.tar.gz
+[2024-04-26 08:02:29] INFO root fetch - processPackages [julep]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-26 08:02:29] INFO root fetch - processPackages [odoo-addons-oca-sign]: New version: [16.0.20231115.0] Old Version: [15.0.20240425.0]
+[2024-04-26 08:02:29] INFO root fetch - processPackages [byma]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-26 08:02:29] INFO root fetch - processPackages [odoo-addon-sign-oca]: Downloading https://files.pythonhosted.org/packages/06/e7/a32bc2d7064034a8cf653c085a58f2f5b61219f5be0b1be1e2e434efc7e6/odoo_addon_sign_oca-16.0.1.1.0-py3-none-any.whl
+[2024-04-26 08:02:29] INFO root fetch - processPackages [pinjected]: New version: [0.2.47] Old Version: [0.2.46]
+[2024-04-26 08:02:29] INFO root fetch - processPackages [pyplotlib]: Downloading https://files.pythonhosted.org/packages/28/bb/58ba19c8fed8024ef2c0efd0523dded73560d64857fcd7916d35aa6aa8af/pyplotlib-0.0.8.tar.gz
+[2024-04-26 08:02:29] INFO root fetch - processPackages [pulumi-datadog]: New version: [4.9.0a1653604828] Old Version: [4.9.0a1650908051]
+[2024-04-26 08:02:29] INFO root fetch - processPackages [julep]: Downloading https://files.pythonhosted.org/packages/4a/6f/29979d311395103e1092fc5917032031c7b76878ec5a0dbc2a6aa218e0bc/julep-0.2.8.tar.gz
+[2024-04-26 08:02:29] INFO root fetch - processPackages [byma]: Downloading https://files.pythonhosted.org/packages/ff/7e/7b6c1135ba797fbcee580a4f8060f38d517e946baa862bd677ee2372f5f8/byma-0.1.5.tar.gz
+[2024-04-26 08:02:29] INFO root fetch - processPackages [odoo-addons-oca-sign]: Downloading https://files.pythonhosted.org/packages/bc/d4/de3f94ee97dd9722349f07ba37e1c77389e1b906686f89297667fe467d6c/odoo_addons_oca_sign-15.0.20240425.0-py3-none-any.whl
+[2024-04-26 08:02:30] INFO root fetch - processPackages [jetline]: Downloading https://files.pythonhosted.org/packages/e3/f4/b5802ae490072c74e48aa7eaf1f13a54a04217824821a8c3dd9d0ff31617/jetline-0.1.0.tar.gz
+[2024-04-26 08:02:30] INFO root fetch - processPackages [pulumi-datadog]: Downloading https://files.pythonhosted.org/packages/d8/b5/8991a5e2174de51c32d71e18a0d3eb5ac2f6bb5fe9f15ca8f908cee6e214/pulumi_datadog-4.9.0a1650908051.tar.gz
+[2024-04-26 08:02:30] INFO root fetch - processPackages [pinjected]: Downloading https://files.pythonhosted.org/packages/c7/dd/df9e773a1edd973ad92abac6ace9301002974f8a63764a624b436ed1526b/pinjected-0.2.46.tar.gz
+[2024-04-26 08:02:30] INFO root fetch - processPackages [odoo-addon-sign-oca]: Downloading https://files.pythonhosted.org/packages/4e/d0/bbd1187164be46ba7f352668a8050736a146d03174bbb9fab9fa2668fad1/odoo_addon_sign_oca-16.0.1.1.0.1-py3-none-any.whl
+[2024-04-26 08:02:30] INFO root fetch - processPackages [pyplotlib]: Downloading https://files.pythonhosted.org/packages/8b/f8/1cec6ba77c9aee645ad1564c6fe928db135b36bec387a9574c6422edd191/pyplotlib-0.0.9.tar.gz
+[2024-04-26 08:02:30] INFO root fetch - processPackages [jetline]: executing diffoscope
+[2024-04-26 08:02:30] INFO root fetch - processPackages [jetline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jetline-0.0.53.tar.gz tmp/jetline-0.1.0.tar.gz --markdown 20240426/j/jetline/0.0.53-0.1.0/README.md --exclude *.pyd
+[2024-04-26 08:02:30] INFO root fetch - processPackages [pyplotlib]: executing diffoscope
+[2024-04-26 08:02:30] INFO root fetch - processPackages [pyplotlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyplotlib-0.0.8.tar.gz tmp/pyplotlib-0.0.9.tar.gz --markdown 20240426/p/pyplotlib/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-26 08:02:30] INFO root fetch - processPackages [odoo-addon-sign-oca]: executing diffoscope
+[2024-04-26 08:02:30] INFO root fetch - processPackages [odoo-addon-sign-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sign_oca-16.0.1.1.0-py3-none-any.whl.zip tmp/odoo_addon_sign_oca-16.0.1.1.0.1-py3-none-any.whl.zip --markdown 20240426/o/odoo-addon-sign-oca/16.0.1.1.0-16.0.1.1.0.1/README.md --exclude *.pyd
+[2024-04-26 08:02:30] INFO root fetch - processPackages [byma]: Downloading https://files.pythonhosted.org/packages/53/a5/18e78e213e198c8dedb720f44954ba8aa1d9170029695764602ed41781a4/byma-0.1.6.tar.gz
+[2024-04-26 08:02:30] INFO root fetch - processPackages [julep]: Downloading https://files.pythonhosted.org/packages/ec/1f/ce9dd7c32e006afbf4cf7e7fe31a697a302e889ebc0d1b7a9c0b4ce00008/julep-0.2.9.tar.gz
+[2024-04-26 08:02:30] INFO root fetch - processPackages [pinjected]: Downloading https://files.pythonhosted.org/packages/ac/a7/3d59454a2978c41612592d77e1df4c6d2b2ce9c80302b9aceb56b555e4a1/pinjected-0.2.47.tar.gz
+[2024-04-26 08:02:30] INFO root fetch - processPackages [odoo-addons-oca-sign]: Downloading https://files.pythonhosted.org/packages/29/b6/a13461f7f6eb181abf7b0bac96e4dead448234f68f08001aa32dcdddf96f/odoo_addons_oca_sign-16.0.20231115.0-py3-none-any.whl
+[2024-04-26 08:02:30] INFO root fetch - processPackages [byma]: executing diffoscope
+[2024-04-26 08:02:30] INFO root fetch - processPackages [byma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/byma-0.1.5.tar.gz tmp/byma-0.1.6.tar.gz --markdown 20240426/b/byma/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-04-26 08:02:30] INFO root fetch - processPackages [julep]: executing diffoscope
+[2024-04-26 08:02:30] INFO root fetch - processPackages [julep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/julep-0.2.8.tar.gz tmp/julep-0.2.9.tar.gz --markdown 20240426/j/julep/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-26 08:02:30] INFO root fetch - processPackages [pulumi-datadog]: Downloading https://files.pythonhosted.org/packages/de/b3/aee4697d07beb69799f35031c032637a1c998c8ba8a18ace02fb30a3011f/pulumi_datadog-4.9.0a1653604828.tar.gz
+[2024-04-26 08:02:30] INFO root fetch - processPackages [pinjected]: executing diffoscope
+[2024-04-26 08:02:30] INFO root fetch - processPackages [pinjected]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinjected-0.2.46.tar.gz tmp/pinjected-0.2.47.tar.gz --markdown 20240426/p/pinjected/0.2.46-0.2.47/README.md --exclude *.pyd
+[2024-04-26 08:02:30] INFO root fetch - processPackages [odoo-addons-oca-sign]: executing diffoscope
+[2024-04-26 08:02:30] INFO root fetch - processPackages [odoo-addons-oca-sign]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_sign-15.0.20240425.0-py3-none-any.whl.zip tmp/odoo_addons_oca_sign-16.0.20231115.0-py3-none-any.whl.zip --markdown 20240426/o/odoo-addons-oca-sign/15.0.20240425.0-16.0.20231115.0/README.md --exclude *.pyd
+[2024-04-26 08:02:30] INFO root fetch - processPackages [pulumi-datadog]: executing diffoscope
+[2024-04-26 08:02:30] INFO root fetch - processPackages [pulumi-datadog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_datadog-4.9.0a1650908051.tar.gz tmp/pulumi_datadog-4.9.0a1653604828.tar.gz --markdown 20240426/p/pulumi-datadog/4.9.0a1650908051-4.9.0a1653604828/README.md --exclude *.pyd
+[2024-04-26 08:02:31] INFO root fetch - processPackages [pyplotlib]: Remove: archive file [/home/abi/fetcher/tmp/pyplotlib-0.0.8.tar.gz]
+[2024-04-26 08:02:31] INFO root fetch - processPackages [pyplotlib]: Remove: archive file [/home/abi/fetcher/tmp/pyplotlib-0.0.9.tar.gz]
+[2024-04-26 08:02:31] INFO root fetch - main [MainThread]: End processing [pyplotlib]: success
+[2024-04-26 08:02:31] INFO root fetch - processPackages [jetline]: Remove: archive file [/home/abi/fetcher/tmp/jetline-0.0.53.tar.gz]
+[2024-04-26 08:02:31] INFO root fetch - processPackages [jetline]: Remove: archive file [/home/abi/fetcher/tmp/jetline-0.1.0.tar.gz]
+[2024-04-26 08:02:31] INFO root fetch - main [MainThread]: End processing [jetline]: success
+[2024-04-26 08:02:31] INFO root fetch - processPackages [odoo-addon-sign-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sign_oca-16.0.1.1.0-py3-none-any.whl.zip]
+[2024-04-26 08:02:31] INFO root fetch - processPackages [odoo-addon-sign-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sign_oca-16.0.1.1.0.1-py3-none-any.whl.zip]
+[2024-04-26 08:02:31] INFO root fetch - main [MainThread]: End processing [odoo-addon-sign-oca]: success
+[2024-04-26 08:02:31] INFO root fetch - processPackages [byma]: Remove: archive file [/home/abi/fetcher/tmp/byma-0.1.5.tar.gz]
+[2024-04-26 08:02:31] INFO root fetch - processPackages [byma]: Remove: archive file [/home/abi/fetcher/tmp/byma-0.1.6.tar.gz]
+[2024-04-26 08:02:31] INFO root fetch - main [MainThread]: End processing [byma]: success
+[2024-04-26 08:02:31] INFO root fetch - processPackages [odoo-addons-oca-sign]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_sign-15.0.20240425.0-py3-none-any.whl.zip]
+[2024-04-26 08:02:31] INFO root fetch - processPackages [odoo-addons-oca-sign]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_sign-16.0.20231115.0-py3-none-any.whl.zip]
+[2024-04-26 08:02:31] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-sign]: success
+[2024-04-26 08:02:31] INFO root fetch - processPackages [pinjected]: Remove: archive file [/home/abi/fetcher/tmp/pinjected-0.2.46.tar.gz]
+[2024-04-26 08:02:31] INFO root fetch - processPackages [pinjected]: Remove: archive file [/home/abi/fetcher/tmp/pinjected-0.2.47.tar.gz]
+[2024-04-26 08:02:31] INFO root fetch - main [MainThread]: End processing [pinjected]: success
+[2024-04-26 08:02:31] INFO root fetch - processPackages [julep]: Remove: archive file [/home/abi/fetcher/tmp/julep-0.2.8.tar.gz]
+[2024-04-26 08:02:31] INFO root fetch - processPackages [julep]: Remove: archive file [/home/abi/fetcher/tmp/julep-0.2.9.tar.gz]
+[2024-04-26 08:02:31] INFO root fetch - main [MainThread]: End processing [julep]: success
+[2024-04-26 08:02:33] INFO root fetch - processPackages [pulumi-datadog]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_datadog-4.9.0a1650908051.tar.gz]
+[2024-04-26 08:02:33] INFO root fetch - processPackages [pulumi-datadog]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_datadog-4.9.0a1653604828.tar.gz]
+[2024-04-26 08:02:33] INFO root fetch - main [MainThread]: End processing [pulumi-datadog]: success
+[2024-04-26 08:02:33] INFO root fetch - main [MainThread]: Store serial: [22943161]
