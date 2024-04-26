@@ -9272,3 +9272,42 @@
 [2024-04-26 06:51:48] WARNING root fetch - processPackages [odoo14-addon-ssi-helpdesk-elearning]: Skipping, unable to determine old version
 [2024-04-26 06:51:48] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-helpdesk-elearning] error
 [2024-04-26 06:51:48] INFO root fetch - main [MainThread]: Store serial: [22942715]
+[2024-04-26 06:53:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22942715]
+[2024-04-26 06:53:57] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-26 06:53:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mainshortcuts
+[2024-04-26 06:53:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: deck-chores
+[2024-04-26 06:53:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: NStudyPy
+[2024-04-26 06:53:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kfre
+[2024-04-26 06:53:57] INFO root fetch - processPackages [NStudyPy]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-26 06:53:57] INFO root fetch - processPackages [NStudyPy]: Downloading https://files.pythonhosted.org/packages/41/7b/484127b6fa130bbdb0f72af6ab3f59993ee11b79d5eab01117da2b9fd1f3/nstudypy-0.0.3.tar.gz
+[2024-04-26 06:53:57] INFO root fetch - processPackages [kfre]: New version: [0.1.0a2] Old Version: [0.1.0a1]
+[2024-04-26 06:53:57] INFO root fetch - processPackages [deck-chores]: New version: [1.3.9] Old Version: [1.3.8]
+[2024-04-26 06:53:57] INFO root fetch - processPackages [mainshortcuts]: New version: [1.6.80] Old Version: [1.6.79]
+[2024-04-26 06:53:57] INFO root fetch - processPackages [deck-chores]: Downloading https://files.pythonhosted.org/packages/e1/12/f4ce245c73d31fc180f7d1bea1d03eda0319e43da3b393165d5daa4773bf/deck_chores-1.3.8.tar.gz
+[2024-04-26 06:53:57] INFO root fetch - processPackages [kfre]: Downloading https://files.pythonhosted.org/packages/7b/64/e8175d5273df5d0aa97c6ad72ac18c027458991396e8d7fff1544e1f000a/kfre-0.1.0a1.tar.gz
+[2024-04-26 06:53:57] INFO root fetch - processPackages [mainshortcuts]: Downloading https://files.pythonhosted.org/packages/bb/2c/921783686a9ba4bffb055762386f09f9cdf1af26ab45f5173b36f10daf6b/mainshortcuts-1.6.79.tar.gz
+[2024-04-26 06:53:57] INFO root fetch - processPackages [NStudyPy]: Downloading https://files.pythonhosted.org/packages/1e/96/85dccdbc0fe2be2e282497827f963b569698c90b7f110de9ebc17798b909/nstudypy-0.0.4.tar.gz
+[2024-04-26 06:53:58] INFO root fetch - processPackages [NStudyPy]: executing diffoscope
+[2024-04-26 06:53:58] INFO root fetch - processPackages [NStudyPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nstudypy-0.0.3.tar.gz tmp/nstudypy-0.0.4.tar.gz --markdown 20240426/N/NStudyPy/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-26 06:53:58] INFO root fetch - processPackages [deck-chores]: Downloading https://files.pythonhosted.org/packages/51/b4/be03fe30b01157180ad8b62b702fc38054b0ff3895d6b21471961819d24e/deck_chores-1.3.9.tar.gz
+[2024-04-26 06:53:58] INFO root fetch - processPackages [kfre]: Downloading https://files.pythonhosted.org/packages/63/a3/057305288da2fb87bd9e85701d8f9be92a9ae288d80a9a2b8c8f28a6e083/kfre-0.1.0a2.tar.gz
+[2024-04-26 06:53:58] INFO root fetch - processPackages [mainshortcuts]: Downloading https://files.pythonhosted.org/packages/ec/69/a4a9d877338640bc7a3f1316a26b48a011ba0645b1b9d1104f35c81c0b99/mainshortcuts-1.6.80.tar.gz
+[2024-04-26 06:53:58] INFO root fetch - processPackages [deck-chores]: executing diffoscope
+[2024-04-26 06:53:58] INFO root fetch - processPackages [deck-chores]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deck_chores-1.3.8.tar.gz tmp/deck_chores-1.3.9.tar.gz --markdown 20240426/d/deck-chores/1.3.8-1.3.9/README.md --exclude *.pyd
+[2024-04-26 06:53:58] INFO root fetch - processPackages [mainshortcuts]: executing diffoscope
+[2024-04-26 06:53:58] INFO root fetch - processPackages [mainshortcuts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mainshortcuts-1.6.79.tar.gz tmp/mainshortcuts-1.6.80.tar.gz --markdown 20240426/m/mainshortcuts/1.6.79-1.6.80/README.md --exclude *.pyd
+[2024-04-26 06:53:58] INFO root fetch - processPackages [kfre]: executing diffoscope
+[2024-04-26 06:53:58] INFO root fetch - processPackages [kfre]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfre-0.1.0a1.tar.gz tmp/kfre-0.1.0a2.tar.gz --markdown 20240426/k/kfre/0.1.0a1-0.1.0a2/README.md --exclude *.pyd
+[2024-04-26 06:53:58] INFO root fetch - processPackages [NStudyPy]: Remove: archive file [/home/abi/fetcher/tmp/nstudypy-0.0.3.tar.gz]
+[2024-04-26 06:53:58] INFO root fetch - processPackages [NStudyPy]: Remove: archive file [/home/abi/fetcher/tmp/nstudypy-0.0.4.tar.gz]
+[2024-04-26 06:53:58] INFO root fetch - main [MainThread]: End processing [NStudyPy]: success
+[2024-04-26 06:53:58] INFO root fetch - processPackages [deck-chores]: Remove: archive file [/home/abi/fetcher/tmp/deck_chores-1.3.8.tar.gz]
+[2024-04-26 06:53:58] INFO root fetch - processPackages [deck-chores]: Remove: archive file [/home/abi/fetcher/tmp/deck_chores-1.3.9.tar.gz]
+[2024-04-26 06:53:58] INFO root fetch - main [MainThread]: End processing [deck-chores]: success
+[2024-04-26 06:53:58] INFO root fetch - processPackages [mainshortcuts]: Remove: archive file [/home/abi/fetcher/tmp/mainshortcuts-1.6.79.tar.gz]
+[2024-04-26 06:53:58] INFO root fetch - processPackages [mainshortcuts]: Remove: archive file [/home/abi/fetcher/tmp/mainshortcuts-1.6.80.tar.gz]
+[2024-04-26 06:53:58] INFO root fetch - main [MainThread]: End processing [mainshortcuts]: success
+[2024-04-26 06:53:58] INFO root fetch - processPackages [kfre]: Remove: archive file [/home/abi/fetcher/tmp/kfre-0.1.0a1.tar.gz]
+[2024-04-26 06:53:58] INFO root fetch - processPackages [kfre]: Remove: archive file [/home/abi/fetcher/tmp/kfre-0.1.0a2.tar.gz]
+[2024-04-26 06:53:58] INFO root fetch - main [MainThread]: End processing [kfre]: success
+[2024-04-26 06:53:58] INFO root fetch - main [MainThread]: Store serial: [22942730]
