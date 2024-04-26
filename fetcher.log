@@ -22688,3 +22688,93 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 16:13:45] INFO root fetch - processPackages [lips-benchmark]: Remove: archive file [/home/abi/fetcher/tmp/lips-benchmark-0.2.3.tar.gz]
 [2024-04-26 16:13:45] INFO root fetch - main [MainThread]: End processing [lips-benchmark]: success
 [2024-04-26 16:13:45] INFO root fetch - main [MainThread]: Store serial: [22948537]
+[2024-04-26 16:15:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22948537]
+[2024-04-26 16:15:53] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-26 16:15:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spanishconjugator
+[2024-04-26 16:15:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pydiscordhelper
+[2024-04-26 16:15:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: llama-cpp-python
+[2024-04-26 16:15:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ducktools-classbuilder
+[2024-04-26 16:15:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spanishconjugator
+[2024-04-26 16:15:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: uhelp
+[2024-04-26 16:15:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fbgemm-gpu-nightly
+[2024-04-26 16:15:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: matlab-proxy
+[2024-04-26 16:15:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: es-client
+[2024-04-26 16:15:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: metalarchivist
+[2024-04-26 16:15:54] INFO root fetch - processPackages [ducktools-classbuilder]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-04-26 16:15:54] INFO root fetch - processPackages [es-client]: New version: [8.9.0] Old Version: [8.8.2.post1]
+[2024-04-26 16:15:54] WARNING root fetch - processPackages [pydiscordhelper]: Skipping, unable to determine old version
+[2024-04-26 16:15:54] INFO root fetch - processPackages [pydiscordhelper]: Start processing: django-sql-explorer
+[2024-04-26 16:15:54] INFO root fetch - main [MainThread]: End processing [pydiscordhelper] error
+[2024-04-26 16:15:54] INFO root fetch - processPackages [ducktools-classbuilder]: Downloading https://files.pythonhosted.org/packages/3e/92/2166249a8cba18de4c5a253971b3549adec48470c22c15060d07eef0830d/ducktools_classbuilder-0.3.0.tar.gz
+[2024-04-26 16:15:54] INFO root fetch - processPackages [uhelp]: New version: [0.6.3] Old Version: [0.6.2]
+[2024-04-26 16:15:54] INFO root fetch - processPackages [fbgemm-gpu-nightly]: New version: [2024.4.26] Old Version: [2024.4.25]
+[2024-04-26 16:15:54] INFO root fetch - processPackages [matlab-proxy]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-26 16:15:54] INFO root fetch - processPackages [es-client]: Downloading https://files.pythonhosted.org/packages/d4/f8/b9a7a377b06897fe1d1ac4c8c870100d34aeba05caab6c6c5f2ac2380d8d/es_client-8.8.2.post1.tar.gz
+[2024-04-26 16:15:54] INFO root fetch - processPackages [llama-cpp-python]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-26 16:15:54] INFO root fetch - processPackages [django-sql-explorer]: New version: [4.2b1] Old Version: [4.1b6]
+[2024-04-26 16:15:54] INFO root fetch - processPackages [metalarchivist]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-26 16:15:54] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2024-04-26 16:15:54] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2024-04-26 16:15:54] INFO root fetch - processPackages [uhelp]: Downloading https://files.pythonhosted.org/packages/8c/16/c66c1f2a15b7cbd15dc248e09a28d59416d535aee4718e97337e3c6b64d3/uhelp-0.6.2.tar.gz
+[2024-04-26 16:15:54] INFO root fetch - processPackages [django-sql-explorer]: Downloading https://files.pythonhosted.org/packages/c9/9e/51feac8f0b41ebca729cb04d51c9be5a8fb98ba0fee021eed5c24c5c2733/django_sql_explorer-4.1b6.tar.gz
+[2024-04-26 16:15:54] INFO root fetch - processPackages [fbgemm-gpu-nightly]: Downloading https://files.pythonhosted.org/packages/10/aa/f5180829dc5577a847ab72e941dc1dfe17f55474ac10e4086dc31e399e1b/fbgemm_gpu_nightly-2024.4.25-cp39-cp39-manylinux2014_x86_64.whl
+[2024-04-26 16:15:54] INFO root fetch - processPackages [metalarchivist]: Downloading https://files.pythonhosted.org/packages/7c/da/ecfe01db8b7ff64066420eb5dd17a37176b3408bfed21432f2d0002500dc/metalarchivist-0.2.8.tar.gz
+[2024-04-26 16:15:54] INFO root fetch - processPackages [llama-cpp-python]: Downloading https://files.pythonhosted.org/packages/6d/60/edbd982673a71c6c27fa6818914ad61c6171d165de4e777d489539f1d959/llama_cpp_python-0.2.8.tar.gz
+[2024-04-26 16:15:54] INFO root fetch - processPackages [ducktools-classbuilder]: Downloading https://files.pythonhosted.org/packages/17/9b/fa2674d0527568394651c1c01a2bb13b6e4b92246d70215f39adb154b123/ducktools_classbuilder-0.4.0.tar.gz
+[2024-04-26 16:15:54] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2024-04-26 16:15:54] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2024-04-26 16:15:54] INFO root fetch - processPackages [matlab-proxy]: Downloading https://files.pythonhosted.org/packages/8c/1b/86246a5edd6afa8b11b45f85898418cdb6809602d344ef7fbcd2bc478c88/matlab-proxy-0.9.0.tar.gz
+[2024-04-26 16:15:54] INFO root fetch - processPackages [es-client]: Downloading https://files.pythonhosted.org/packages/5a/48/a646d3f62184b5fe5e397b0188778161ed146858f3d4a0bb099554cfefc3/es_client-8.9.0.tar.gz
+[2024-04-26 16:15:54] WARNING root fetch - processPackages [fbgemm-gpu-nightly]: Skipping package: exceeds size limit 209712965>=10485760
+[2024-04-26 16:15:54] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly] error
+[2024-04-26 16:15:54] INFO root fetch - processPackages [ducktools-classbuilder]: executing diffoscope
+[2024-04-26 16:15:54] INFO root fetch - processPackages [ducktools-classbuilder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ducktools_classbuilder-0.3.0.tar.gz tmp/ducktools_classbuilder-0.4.0.tar.gz --markdown 20240426/d/ducktools-classbuilder/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-04-26 16:15:54] INFO root fetch - processPackages [es-client]: executing diffoscope
+[2024-04-26 16:15:54] INFO root fetch - processPackages [es-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/es_client-8.8.2.post1.tar.gz tmp/es_client-8.9.0.tar.gz --markdown 20240426/e/es-client/8.8.2.post1-8.9.0/README.md --exclude *.pyd
+[2024-04-26 16:15:54] INFO root fetch - processPackages [django-sql-explorer]: Downloading https://files.pythonhosted.org/packages/be/f9/869eb90ba679bdba4069f97142f47d5867b91ac7a4e562da81a7325f21c3/django_sql_explorer-4.2b1.tar.gz
+[2024-04-26 16:15:54] INFO root fetch - processPackages [metalarchivist]: Downloading https://files.pythonhosted.org/packages/9f/99/abd55a94a4990d7a874c8a172958515f3e1b215742eb53cacebc7e77d4bc/metalarchivist-0.2.9.tar.gz
+[2024-04-26 16:15:55] INFO root fetch - processPackages [uhelp]: Downloading https://files.pythonhosted.org/packages/55/c7/d7121c08ab6706400df1cd75a17de1406aedb15e90a45a79379216337994/uhelp-0.6.3.tar.gz
+[2024-04-26 16:15:55] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2024-04-26 16:15:55] INFO root fetch - processPackages [django-sql-explorer]: executing diffoscope
+[2024-04-26 16:15:55] INFO root fetch - processPackages [django-sql-explorer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_sql_explorer-4.1b6.tar.gz tmp/django_sql_explorer-4.2b1.tar.gz --markdown 20240426/d/django-sql-explorer/4.1b6-4.2b1/README.md --exclude *.pyd
+[2024-04-26 16:15:55] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2024-04-26 16:15:55] INFO root fetch - processPackages [metalarchivist]: executing diffoscope
+[2024-04-26 16:15:55] INFO root fetch - processPackages [metalarchivist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metalarchivist-0.2.8.tar.gz tmp/metalarchivist-0.2.9.tar.gz --markdown 20240426/m/metalarchivist/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-26 16:15:55] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2024-04-26 16:15:55] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20240426/s/spanishconjugator/2.3.998-2.3.999/README.md --exclude *.pyd
+[2024-04-26 16:15:55] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2024-04-26 16:15:55] INFO root fetch - processPackages [llama-cpp-python]: Downloading https://files.pythonhosted.org/packages/98/2e/357d936ff7418591c56a27b9472e2b3581bd9eeb90c4221580fae5e00588/llama_cpp_python-0.2.9.tar.gz
+[2024-04-26 16:15:55] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20240426/s/spanishconjugator/2.3.998-2.3.999/README.md --exclude *.pyd
+[2024-04-26 16:15:55] INFO root fetch - processPackages [uhelp]: executing diffoscope
+[2024-04-26 16:15:55] INFO root fetch - processPackages [uhelp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uhelp-0.6.2.tar.gz tmp/uhelp-0.6.3.tar.gz --markdown 20240426/u/uhelp/0.6.2-0.6.3/README.md --exclude *.pyd
+[2024-04-26 16:15:55] INFO root fetch - processPackages [matlab-proxy]: Downloading https://files.pythonhosted.org/packages/d1/9a/28fe0c3d77af6866803b3b114849cdbfb85326aadcd657cc8bec3c6ff78f/matlab-proxy-0.9.1.tar.gz
+[2024-04-26 16:15:55] INFO root fetch - processPackages [es-client]: Remove: archive file [/home/abi/fetcher/tmp/es_client-8.8.2.post1.tar.gz]
+[2024-04-26 16:15:55] INFO root fetch - processPackages [es-client]: Remove: archive file [/home/abi/fetcher/tmp/es_client-8.9.0.tar.gz]
+[2024-04-26 16:15:55] INFO root fetch - main [MainThread]: End processing [es-client]: success
+[2024-04-26 16:15:55] INFO root fetch - processPackages [matlab-proxy]: executing diffoscope
+[2024-04-26 16:15:55] INFO root fetch - processPackages [matlab-proxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matlab-proxy-0.9.0.tar.gz tmp/matlab-proxy-0.9.1.tar.gz --markdown 20240426/m/matlab-proxy/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-26 16:15:55] INFO root fetch - processPackages [ducktools-classbuilder]: Remove: archive file [/home/abi/fetcher/tmp/ducktools_classbuilder-0.3.0.tar.gz]
+[2024-04-26 16:15:55] INFO root fetch - processPackages [ducktools-classbuilder]: Remove: archive file [/home/abi/fetcher/tmp/ducktools_classbuilder-0.4.0.tar.gz]
+[2024-04-26 16:15:55] INFO root fetch - main [MainThread]: End processing [ducktools-classbuilder]: success
+[2024-04-26 16:15:55] INFO root fetch - processPackages [llama-cpp-python]: executing diffoscope
+[2024-04-26 16:15:55] INFO root fetch - processPackages [llama-cpp-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_cpp_python-0.2.8.tar.gz tmp/llama_cpp_python-0.2.9.tar.gz --markdown 20240426/l/llama-cpp-python/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-26 16:15:55] INFO root fetch - processPackages [metalarchivist]: Remove: archive file [/home/abi/fetcher/tmp/metalarchivist-0.2.8.tar.gz]
+[2024-04-26 16:15:55] INFO root fetch - processPackages [metalarchivist]: Remove: archive file [/home/abi/fetcher/tmp/metalarchivist-0.2.9.tar.gz]
+[2024-04-26 16:15:55] INFO root fetch - main [MainThread]: End processing [metalarchivist]: success
+[2024-04-26 16:15:56] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2024-04-26 16:15:56] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2024-04-26 16:15:56] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2024-04-26 16:15:56] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2024-04-26 16:15:57] INFO root fetch - processPackages [matlab-proxy]: Remove: archive file [/home/abi/fetcher/tmp/matlab-proxy-0.9.0.tar.gz]
+[2024-04-26 16:15:57] INFO root fetch - processPackages [matlab-proxy]: Remove: archive file [/home/abi/fetcher/tmp/matlab-proxy-0.9.1.tar.gz]
+[2024-04-26 16:15:57] INFO root fetch - main [MainThread]: End processing [matlab-proxy]: success
+[2024-04-26 16:15:57] INFO root fetch - processPackages [llama-cpp-python]: Remove: archive file [/home/abi/fetcher/tmp/llama_cpp_python-0.2.8.tar.gz]
+[2024-04-26 16:15:57] INFO root fetch - processPackages [llama-cpp-python]: Remove: archive file [/home/abi/fetcher/tmp/llama_cpp_python-0.2.9.tar.gz]
+[2024-04-26 16:15:57] INFO root fetch - main [MainThread]: End processing [llama-cpp-python]: success
+[2024-04-26 16:16:01] INFO root fetch - processPackages [django-sql-explorer]: Remove: archive file [/home/abi/fetcher/tmp/django_sql_explorer-4.1b6.tar.gz]
+[2024-04-26 16:16:01] INFO root fetch - processPackages [django-sql-explorer]: Remove: archive file [/home/abi/fetcher/tmp/django_sql_explorer-4.2b1.tar.gz]
+[2024-04-26 16:16:01] INFO root fetch - main [MainThread]: End processing [django-sql-explorer]: success
+[2024-04-26 16:16:09] INFO root fetch - processPackages [uhelp]: Remove: archive file [/home/abi/fetcher/tmp/uhelp-0.6.2.tar.gz]
+[2024-04-26 16:16:09] INFO root fetch - processPackages [uhelp]: Remove: archive file [/home/abi/fetcher/tmp/uhelp-0.6.3.tar.gz]
+[2024-04-26 16:16:09] INFO root fetch - main [MainThread]: End processing [uhelp]: success
+[2024-04-26 16:16:09] INFO root fetch - main [MainThread]: Store serial: [22948571]
