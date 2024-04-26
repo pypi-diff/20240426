@@ -20451,3 +20451,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 14:47:02] INFO root fetch - processPackages [rd]: Remove: archive file [/home/abi/fetcher/tmp/rd-1.6.0.0-py2.py3-none-any.whl.zip]
 [2024-04-26 14:47:02] INFO root fetch - main [MainThread]: End processing [rd]: success
 [2024-04-26 14:47:02] INFO root fetch - main [MainThread]: Store serial: [22947546]
+[2024-04-26 14:49:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22947546]
+[2024-04-26 14:49:17] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-26 14:49:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py_template_creator
+[2024-04-26 14:49:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: opentelemetry-sdk-extension-prometheus-multiprocess
+[2024-04-26 14:49:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: byteblower-test-framework
+[2024-04-26 14:49:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scrapegraphaisub
+[2024-04-26 14:49:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sema-toolchain-scdg
+[2024-04-26 14:49:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: autocortext-py
+[2024-04-26 14:49:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: byteblower-test-cases-low-latency
+[2024-04-26 14:49:17] WARNING root fetch - processPackages [autocortext-py]: Skipping, unable to determine old version
+[2024-04-26 14:49:17] INFO root fetch - main [MainThread]: End processing [autocortext-py] error
+[2024-04-26 14:49:17] WARNING root fetch - processPackages [sema-toolchain-scdg]: Skipping, unable to determine old version
+[2024-04-26 14:49:17] INFO root fetch - main [MainThread]: End processing [sema-toolchain-scdg] error
+[2024-04-26 14:49:17] INFO root fetch - processPackages [scrapegraphaisub]: New version: [0.0.12b3] Old Version: [0.0.12b2]
+[2024-04-26 14:49:17] INFO root fetch - processPackages [py_template_creator]: New version: [1.3.2] Old Version: [1.3.1]
+[2024-04-26 14:49:17] INFO root fetch - processPackages [byteblower-test-cases-low-latency]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-04-26 14:49:17] WARNING root fetch - processPackages [opentelemetry-sdk-extension-prometheus-multiprocess]: Skipping, unable to determine old version
+[2024-04-26 14:49:17] INFO root fetch - main [MainThread]: End processing [opentelemetry-sdk-extension-prometheus-multiprocess] error
+[2024-04-26 14:49:17] INFO root fetch - processPackages [byteblower-test-framework]: New version: [1.3.1] Old Version: [1.3.0]
+[2024-04-26 14:49:17] INFO root fetch - processPackages [py_template_creator]: Downloading https://files.pythonhosted.org/packages/c4/f8/66bef883824fd0bab0f9a4b5b4e85f85754560bfc45b2d6b44a3079900a2/py_template_creator-1.3.1.tar.gz
+[2024-04-26 14:49:17] INFO root fetch - processPackages [byteblower-test-cases-low-latency]: Downloading https://files.pythonhosted.org/packages/8d/54/2729deeacda90f14d31a5612a4b5e848782c575e98ff917bf181fd0e5cde/byteblower_test_cases_low_latency-1.2.0.tar.gz
+[2024-04-26 14:49:17] INFO root fetch - processPackages [scrapegraphaisub]: Downloading https://files.pythonhosted.org/packages/2d/ce/b1e3af00f4db7eae0cf7831658b356050a5ce89100ed1e5ffeed2a31462c/scrapegraphaisub-0.0.12b2.tar.gz
+[2024-04-26 14:49:17] INFO root fetch - processPackages [byteblower-test-framework]: Downloading https://files.pythonhosted.org/packages/ea/b9/0cf65f9d0a54e2f888fd6ac71dd1758e6f805519da3e6a67f389074a605e/byteblower_test_framework-1.3.0.tar.gz
+[2024-04-26 14:49:17] INFO root fetch - processPackages [scrapegraphaisub]: Downloading https://files.pythonhosted.org/packages/08/9c/9bc90f0ef70b397756b29835301bbf5dffe260218b9178f2cf1eec29b009/scrapegraphaisub-0.0.12b3.tar.gz
+[2024-04-26 14:49:17] INFO root fetch - processPackages [py_template_creator]: Downloading https://files.pythonhosted.org/packages/37/a3/b46972075fc1b67ecb09c8666665846ee238bf2615d4d0ea129542fda764/py_template_creator-1.3.2.tar.gz
+[2024-04-26 14:49:18] INFO root fetch - processPackages [scrapegraphaisub]: executing diffoscope
+[2024-04-26 14:49:18] INFO root fetch - processPackages [scrapegraphaisub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrapegraphaisub-0.0.12b2.tar.gz tmp/scrapegraphaisub-0.0.12b3.tar.gz --markdown 20240426/s/scrapegraphaisub/0.0.12b2-0.0.12b3/README.md --exclude *.pyd
+[2024-04-26 14:49:18] INFO root fetch - processPackages [byteblower-test-cases-low-latency]: Downloading https://files.pythonhosted.org/packages/20/88/b754b9e8d8724e7838365f3bcc4996291599b1a1ef7064e023d3bc2c7a78/byteblower_test_cases_low_latency-1.2.1.tar.gz
+[2024-04-26 14:49:18] INFO root fetch - processPackages [py_template_creator]: executing diffoscope
+[2024-04-26 14:49:18] INFO root fetch - processPackages [py_template_creator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_template_creator-1.3.1.tar.gz tmp/py_template_creator-1.3.2.tar.gz --markdown 20240426/p/py_template_creator/1.3.1-1.3.2/README.md --exclude *.pyd
+[2024-04-26 14:49:18] INFO root fetch - processPackages [byteblower-test-framework]: Downloading https://files.pythonhosted.org/packages/40/38/5612724c3fdb9d4e6a8cbe204cd12eb7b219561bb2150ebf0c1b745e0c64/byteblower_test_framework-1.3.1.tar.gz
+[2024-04-26 14:49:18] INFO root fetch - processPackages [byteblower-test-cases-low-latency]: executing diffoscope
+[2024-04-26 14:49:18] INFO root fetch - processPackages [byteblower-test-cases-low-latency]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/byteblower_test_cases_low_latency-1.2.0.tar.gz tmp/byteblower_test_cases_low_latency-1.2.1.tar.gz --markdown 20240426/b/byteblower-test-cases-low-latency/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-04-26 14:49:18] INFO root fetch - processPackages [byteblower-test-framework]: executing diffoscope
+[2024-04-26 14:49:18] INFO root fetch - processPackages [byteblower-test-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/byteblower_test_framework-1.3.0.tar.gz tmp/byteblower_test_framework-1.3.1.tar.gz --markdown 20240426/b/byteblower-test-framework/1.3.0-1.3.1/README.md --exclude *.pyd
+[2024-04-26 14:49:18] INFO root fetch - processPackages [scrapegraphaisub]: Remove: archive file [/home/abi/fetcher/tmp/scrapegraphaisub-0.0.12b2.tar.gz]
+[2024-04-26 14:49:18] INFO root fetch - processPackages [scrapegraphaisub]: Remove: archive file [/home/abi/fetcher/tmp/scrapegraphaisub-0.0.12b3.tar.gz]
+[2024-04-26 14:49:18] INFO root fetch - main [MainThread]: End processing [scrapegraphaisub]: success
+[2024-04-26 14:49:18] INFO root fetch - processPackages [py_template_creator]: Remove: archive file [/home/abi/fetcher/tmp/py_template_creator-1.3.1.tar.gz]
+[2024-04-26 14:49:18] INFO root fetch - processPackages [py_template_creator]: Remove: archive file [/home/abi/fetcher/tmp/py_template_creator-1.3.2.tar.gz]
+[2024-04-26 14:49:18] INFO root fetch - main [MainThread]: End processing [py_template_creator]: success
+[2024-04-26 14:49:19] INFO root fetch - processPackages [byteblower-test-cases-low-latency]: Remove: archive file [/home/abi/fetcher/tmp/byteblower_test_cases_low_latency-1.2.0.tar.gz]
+[2024-04-26 14:49:19] INFO root fetch - processPackages [byteblower-test-cases-low-latency]: Remove: archive file [/home/abi/fetcher/tmp/byteblower_test_cases_low_latency-1.2.1.tar.gz]
+[2024-04-26 14:49:19] INFO root fetch - main [MainThread]: End processing [byteblower-test-cases-low-latency]: success
+[2024-04-26 14:49:19] INFO root fetch - processPackages [byteblower-test-framework]: Remove: archive file [/home/abi/fetcher/tmp/byteblower_test_framework-1.3.0.tar.gz]
+[2024-04-26 14:49:19] INFO root fetch - processPackages [byteblower-test-framework]: Remove: archive file [/home/abi/fetcher/tmp/byteblower_test_framework-1.3.1.tar.gz]
+[2024-04-26 14:49:19] INFO root fetch - main [MainThread]: End processing [byteblower-test-framework]: success
+[2024-04-26 14:49:19] INFO root fetch - main [MainThread]: Store serial: [22947569]
