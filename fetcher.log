@@ -7226,3 +7226,27 @@
 [2024-04-26 04:01:20] INFO root fetch - processPackages [llama-index-core]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_core-0.9.56.tar.gz]
 [2024-04-26 04:01:20] INFO root fetch - main [MainThread]: End processing [llama-index-core]: success
 [2024-04-26 04:01:20] INFO root fetch - main [MainThread]: Store serial: [22941812]
+[2024-04-26 04:03:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22941812]
+[2024-04-26 04:03:29] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-26 04:03:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: webbotbr0k3V
+[2024-04-26 04:03:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dez
+[2024-04-26 04:03:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spaceone-inventory
+[2024-04-26 04:03:29] INFO root fetch - processPackages [spaceone-inventory]: New version: [2.0.dev99] Old Version: [2.0.dev98]
+[2024-04-26 04:03:29] WARNING root fetch - processPackages [webbotbr0k3V]: Skipping, unable to determine old version
+[2024-04-26 04:03:29] INFO root fetch - main [MainThread]: End processing [webbotbr0k3V] error
+[2024-04-26 04:03:29] INFO root fetch - processPackages [spaceone-inventory]: Downloading https://files.pythonhosted.org/packages/2b/23/73e091142fbd007706604f94cc95718e79d9259d998aa9dd424fc7cc6f7f/spaceone-inventory-2.0.dev98.tar.gz
+[2024-04-26 04:03:29] INFO root fetch - processPackages [dez]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-04-26 04:03:29] INFO root fetch - processPackages [spaceone-inventory]: Downloading https://files.pythonhosted.org/packages/e7/30/f1229bb9f69283d6576804b473d6fe73ff3118fb5543c89d48b18f899ca2/spaceone-inventory-2.0.dev99.tar.gz
+[2024-04-26 04:03:29] INFO root fetch - processPackages [dez]: Downloading https://files.pythonhosted.org/packages/1e/81/48d71e93c2525619543513ac060532d30fe665f6a30041b7dd4486dbc43f/dez-0.9.4-py2.7.egg
+[2024-04-26 04:03:29] INFO root fetch - processPackages [spaceone-inventory]: executing diffoscope
+[2024-04-26 04:03:29] INFO root fetch - processPackages [spaceone-inventory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-inventory-2.0.dev98.tar.gz tmp/spaceone-inventory-2.0.dev99.tar.gz --markdown 20240426/s/spaceone-inventory/2.0.dev98-2.0.dev99/README.md --exclude *.pyd
+[2024-04-26 04:03:29] INFO root fetch - processPackages [dez]: Downloading https://files.pythonhosted.org/packages/76/85/f4c826ed86b69c7e8f3ebc368a4d9737f219fbaf86efdb7156c8a99503ce/dez-0.9.5-py2.7.egg
+[2024-04-26 04:03:30] INFO root fetch - processPackages [dez]: executing diffoscope
+[2024-04-26 04:03:30] INFO root fetch - processPackages [dez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dez-0.9.4-py2.7.egg tmp/dez-0.9.5-py2.7.egg --markdown 20240426/d/dez/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-04-26 04:03:30] INFO root fetch - processPackages [spaceone-inventory]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-inventory-2.0.dev98.tar.gz]
+[2024-04-26 04:03:30] INFO root fetch - processPackages [spaceone-inventory]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-inventory-2.0.dev99.tar.gz]
+[2024-04-26 04:03:30] INFO root fetch - main [MainThread]: End processing [spaceone-inventory]: success
+[2024-04-26 04:03:30] INFO root fetch - processPackages [dez]: Remove: archive file [/home/abi/fetcher/tmp/dez-0.9.4-py2.7.egg]
+[2024-04-26 04:03:30] INFO root fetch - processPackages [dez]: Remove: archive file [/home/abi/fetcher/tmp/dez-0.9.5-py2.7.egg]
+[2024-04-26 04:03:30] INFO root fetch - main [MainThread]: End processing [dez]: success
+[2024-04-26 04:03:30] INFO root fetch - main [MainThread]: Store serial: [22941825]
