@@ -7400,3 +7400,18 @@
 [2024-04-26 04:20:55] INFO root fetch - processPackages [flet-iconoir]: Remove: archive file [/home/abi/fetcher/tmp/flet_iconoir-0.1.5.tar.gz]
 [2024-04-26 04:20:55] INFO root fetch - main [MainThread]: End processing [flet-iconoir]: success
 [2024-04-26 04:20:55] INFO root fetch - main [MainThread]: Store serial: [22941918]
+[2024-04-26 04:22:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22941918]
+[2024-04-26 04:23:03] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-26 04:23:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Pokemien
+[2024-04-26 04:23:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Pokeam-Base
+[2024-04-26 04:23:03] WARNING root fetch - processPackages [Pokemien]: Skipping, unable to determine old version
+[2024-04-26 04:23:03] INFO root fetch - main [MainThread]: End processing [Pokemien] error
+[2024-04-26 04:23:03] INFO root fetch - processPackages [Pokeam-Base]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-26 04:23:03] INFO root fetch - processPackages [Pokeam-Base]: Downloading https://files.pythonhosted.org/packages/12/6d/494b4e728b7cbb03593905e1b843bba1991f439461d8a98f788e09b09350/pokeam_base-1.0.1.tar.gz
+[2024-04-26 04:23:04] INFO root fetch - processPackages [Pokeam-Base]: Downloading https://files.pythonhosted.org/packages/a4/0a/19f3252aabedac760d040b1212d877e2a3a3e85b86ef352ebbd8bf7caf99/pokeam_base-1.0.2.tar.gz
+[2024-04-26 04:23:04] INFO root fetch - processPackages [Pokeam-Base]: executing diffoscope
+[2024-04-26 04:23:04] INFO root fetch - processPackages [Pokeam-Base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pokeam_base-1.0.1.tar.gz tmp/pokeam_base-1.0.2.tar.gz --markdown 20240426/P/Pokeam-Base/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-26 04:23:04] INFO root fetch - processPackages [Pokeam-Base]: Remove: archive file [/home/abi/fetcher/tmp/pokeam_base-1.0.1.tar.gz]
+[2024-04-26 04:23:04] INFO root fetch - processPackages [Pokeam-Base]: Remove: archive file [/home/abi/fetcher/tmp/pokeam_base-1.0.2.tar.gz]
+[2024-04-26 04:23:04] INFO root fetch - main [MainThread]: End processing [Pokeam-Base]: success
+[2024-04-26 04:23:04] INFO root fetch - main [MainThread]: Store serial: [22941932]
