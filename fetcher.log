@@ -7889,3 +7889,24 @@
 [2024-04-26 05:04:39] INFO root fetch - processPackages [django-sync-env]: Remove: archive file [/home/abi/fetcher/tmp/django_sync_env-0.3.1a0.tar.gz]
 [2024-04-26 05:04:39] INFO root fetch - main [MainThread]: End processing [django-sync-env]: success
 [2024-04-26 05:04:39] INFO root fetch - main [MainThread]: Store serial: [22942146]
+[2024-04-26 05:06:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22942146]
+[2024-04-26 05:06:48] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-26 05:06:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: daml
+[2024-04-26 05:06:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytgpt-bot
+[2024-04-26 05:06:48] INFO root fetch - processPackages [pytgpt-bot]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-26 05:06:48] INFO root fetch - processPackages [pytgpt-bot]: Downloading https://files.pythonhosted.org/packages/57/d8/6ab87932a5df709331d1009bdc3d181d935aab7a1a072a466f53eb01215b/pytgpt_bot-0.0.7.tar.gz
+[2024-04-26 05:06:48] INFO root fetch - processPackages [daml]: New version: [0.51.0] Old Version: [0.45.0]
+[2024-04-26 05:06:48] INFO root fetch - processPackages [daml]: Downloading https://files.pythonhosted.org/packages/43/49/f900a4425e12f738ce805df176178f1fd7d8454cfe0b44c3762a14ea3605/daml-0.45.0.tar.gz
+[2024-04-26 05:06:48] INFO root fetch - processPackages [pytgpt-bot]: Downloading https://files.pythonhosted.org/packages/7b/c3/c91a74b6a273bcd3ccf48b6c84dbca407a66275e2f89075477e385c5bb1f/pytgpt_bot-0.0.8.tar.gz
+[2024-04-26 05:06:48] INFO root fetch - processPackages [pytgpt-bot]: executing diffoscope
+[2024-04-26 05:06:48] INFO root fetch - processPackages [pytgpt-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytgpt_bot-0.0.7.tar.gz tmp/pytgpt_bot-0.0.8.tar.gz --markdown 20240426/p/pytgpt-bot/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-26 05:06:48] INFO root fetch - processPackages [daml]: Downloading https://files.pythonhosted.org/packages/a7/fd/4118601d0257ff014d4c1671cf30ed7764a91a2dfb4c17758c5fb1458812/daml-0.51.0.tar.gz
+[2024-04-26 05:06:49] INFO root fetch - processPackages [daml]: executing diffoscope
+[2024-04-26 05:06:49] INFO root fetch - processPackages [daml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/daml-0.45.0.tar.gz tmp/daml-0.51.0.tar.gz --markdown 20240426/d/daml/0.45.0-0.51.0/README.md --exclude *.pyd
+[2024-04-26 05:06:49] INFO root fetch - processPackages [pytgpt-bot]: Remove: archive file [/home/abi/fetcher/tmp/pytgpt_bot-0.0.7.tar.gz]
+[2024-04-26 05:06:49] INFO root fetch - processPackages [pytgpt-bot]: Remove: archive file [/home/abi/fetcher/tmp/pytgpt_bot-0.0.8.tar.gz]
+[2024-04-26 05:06:49] INFO root fetch - main [MainThread]: End processing [pytgpt-bot]: success
+[2024-04-26 05:06:49] INFO root fetch - processPackages [daml]: Remove: archive file [/home/abi/fetcher/tmp/daml-0.45.0.tar.gz]
+[2024-04-26 05:06:49] INFO root fetch - processPackages [daml]: Remove: archive file [/home/abi/fetcher/tmp/daml-0.51.0.tar.gz]
+[2024-04-26 05:06:49] INFO root fetch - main [MainThread]: End processing [daml]: success
+[2024-04-26 05:06:49] INFO root fetch - main [MainThread]: Store serial: [22942152]
