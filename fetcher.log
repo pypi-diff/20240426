@@ -12483,3 +12483,203 @@
 [2024-04-26 09:18:15] INFO root fetch - processPackages [jupyterlab-h5web]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_h5web-8.1.0.tar.gz]
 [2024-04-26 09:18:15] INFO root fetch - main [MainThread]: End processing [jupyterlab-h5web]: success
 [2024-04-26 09:18:15] INFO root fetch - main [MainThread]: Store serial: [22944075]
+[2024-04-26 09:20:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22944075]
+[2024-04-26 09:20:26] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-04-26 09:20:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: KratosHDF5Application
+[2024-04-26 09:20:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alpaca-py
+[2024-04-26 09:20:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: KratosIgaApplication
+[2024-04-26 09:20:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: KratosLinearSolversApplication
+[2024-04-26 09:20:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: KratosMappingApplication
+[2024-04-26 09:20:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: KratosMedApplication
+[2024-04-26 09:20:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: KratosMeshingApplication
+[2024-04-26 09:20:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nucliadb-admin-assets
+[2024-04-26 09:20:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: signal-design
+[2024-04-26 09:20:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: quantplay
+[2024-04-26 09:20:26] INFO root fetch - processPackages [quantplay]: New version: [1.5.9] Old Version: [1.5.8]
+[2024-04-26 09:20:26] INFO root fetch - processPackages [KratosMedApplication]: New version: [9.5.0] Old Version: [9.4.6]
+[2024-04-26 09:20:26] INFO root fetch - processPackages [KratosLinearSolversApplication]: New version: [9.5] Old Version: [9.4.6]
+[2024-04-26 09:20:26] INFO root fetch - processPackages [KratosMappingApplication]: New version: [9.5] Old Version: [9.4.6]
+[2024-04-26 09:20:26] INFO root fetch - processPackages [KratosHDF5Application]: New version: [9.5.0] Old Version: [9.4.6]
+[2024-04-26 09:20:26] INFO root fetch - processPackages [signal-design]: New version: [0.2.2] Old Version: [0.2.0]
+[2024-04-26 09:20:26] INFO root fetch - processPackages [KratosIgaApplication]: New version: [9.5] Old Version: [9.4.5]
+[2024-04-26 09:20:26] INFO root fetch - processPackages [alpaca-py]: New version: [0.9.0] Old Version: [0.8.2]
+[2024-04-26 09:20:27] INFO root fetch - processPackages [KratosMeshingApplication]: New version: [9.5] Old Version: [9.4.6]
+[2024-04-26 09:20:27] INFO root fetch - processPackages [nucliadb-admin-assets]: New version: [1.0.0.post1514] Old Version: [1.0.0.post1511]
+[2024-04-26 09:20:27] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/71/23/85a802491d69beb714dd8831f123c9440301eb94caca43392e50be63fff6/quantplay-1.5.8.tar.gz
+[2024-04-26 09:20:27] INFO root fetch - processPackages [KratosMappingApplication]: Downloading https://files.pythonhosted.org/packages/cd/e7/f9e9774c6068dc495417add8f5ff73425574f8d4951842a85a5f94ae73f3/KratosMappingApplication-9.4.6-cp39-cp39-win_amd64.whl
+[2024-04-26 09:20:27] INFO root fetch - processPackages [KratosMedApplication]: Downloading https://files.pythonhosted.org/packages/7f/41/8d4724b07b59bd24a9921e52a74c4b3179e67564c3edbdba1ea5a979da89/KratosMedApplication-9.4.6-cp39-cp39-win_amd64.whl
+[2024-04-26 09:20:27] INFO root fetch - processPackages [KratosLinearSolversApplication]: Downloading https://files.pythonhosted.org/packages/55/33/e734530186904f7eba967f703d9b2847200270306b66b6d7c68e1484767f/KratosLinearSolversApplication-9.4.6-cp39-cp39-win_amd64.whl
+[2024-04-26 09:20:27] INFO root fetch - processPackages [signal-design]: Downloading https://files.pythonhosted.org/packages/0b/58/bf010bb655a31e8e77782a4520334e15fe99518db37035f2eb6f88d30d15/signal_design-0.2.0.tar.gz
+[2024-04-26 09:20:27] INFO root fetch - processPackages [alpaca-py]: Downloading https://files.pythonhosted.org/packages/95/9a/c866d3091981080489f14171b69712fa22c65dcb09c2888eca936fa89cd8/alpaca_py-0.8.2.tar.gz
+[2024-04-26 09:20:27] INFO root fetch - processPackages [KratosMeshingApplication]: Downloading https://files.pythonhosted.org/packages/b5/2f/ad53b920852906e50bda775183c1c3183921c185de20f8429dbe561a3754/KratosMeshingApplication-9.4.6-cp39-cp39-win_amd64.whl
+[2024-04-26 09:20:27] INFO root fetch - processPackages [KratosIgaApplication]: Downloading https://files.pythonhosted.org/packages/68/3a/5bc2ba90954fe4139bb9e521d197b4b1cf55b81f5575507371a71ce981e3/KratosIgaApplication-9.4.5-cp39-cp39-win_amd64.whl
+[2024-04-26 09:20:27] INFO root fetch - processPackages [nucliadb-admin-assets]: Downloading https://files.pythonhosted.org/packages/9e/10/ac7f45764ede6a1b319f89c33121de5ac3893ad953cdf1186f6266fdd97a/nucliadb_admin_assets-1.0.0.post1511-py3-none-any.whl
+[2024-04-26 09:20:27] INFO root fetch - processPackages [KratosHDF5Application]: Downloading https://files.pythonhosted.org/packages/7c/f8/ef9cb565324c24870a2bbbf0b9949e565f90568b147c0ecc2cf2e46b5c4e/KratosHDF5Application-9.4.6-cp39-cp39-win_amd64.whl
+[2024-04-26 09:20:27] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/29/44/bc619a0a4e2ecba52ee7f6eac8f51f600a1d90bb67f88a28638d7d9f9c62/quantplay-1.5.9.tar.gz
+[2024-04-26 09:20:27] INFO root fetch - processPackages [KratosMappingApplication]: Downloading https://files.pythonhosted.org/packages/48/46/60337795e409a3522dbc44514a073b6f21f369b7a93b55462d29401573b4/KratosMappingApplication-9.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-26 09:20:27] INFO root fetch - processPackages [quantplay]: executing diffoscope
+[2024-04-26 09:20:27] INFO root fetch - processPackages [quantplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantplay-1.5.8.tar.gz tmp/quantplay-1.5.9.tar.gz --markdown 20240426/q/quantplay/1.5.8-1.5.9/README.md --exclude *.pyd
+[2024-04-26 09:20:27] INFO root fetch - processPackages [signal-design]: Downloading https://files.pythonhosted.org/packages/34/ef/60269f80d0ff1d6da99a218b9285abb09450726a9bfa2db8e93f67b4f158/signal_design-0.2.2.tar.gz
+[2024-04-26 09:20:27] INFO root fetch - processPackages [KratosLinearSolversApplication]: Downloading https://files.pythonhosted.org/packages/1a/f5/05fe3472bc32e713bb23d9863536cd2f6bd4883baec4a13e03f226413e45/KratosLinearSolversApplication-9.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-26 09:20:27] INFO root fetch - processPackages [alpaca-py]: Downloading https://files.pythonhosted.org/packages/f0/0d/64596c95696d0c4774ba900e386ec14586cf4f85b8e395258caa1bb90e61/alpaca_py-0.9.0.tar.gz
+[2024-04-26 09:20:27] INFO root fetch - processPackages [KratosMeshingApplication]: Downloading https://files.pythonhosted.org/packages/ca/4d/eca6921951eabb1c970fc2178638e3bb62048032adc81f9eac7ccb6cd564/KratosMeshingApplication-9.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-26 09:20:27] INFO root fetch - processPackages [KratosIgaApplication]: Downloading https://files.pythonhosted.org/packages/08/52/850cfa39c9cac1645774c022b341e09b8cf37887a72d51b6ab8e796b6ec9/KratosIgaApplication-9.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-26 09:20:27] INFO root fetch - processPackages [KratosHDF5Application]: Downloading https://files.pythonhosted.org/packages/85/b7/a20b425b70c051a8a67368310bf0f83d4ce9239065774a8fc34409d574f5/KratosHDF5Application-9.5.0-cp39-cp39-win_amd64.whl
+[2024-04-26 09:20:27] INFO root fetch - processPackages [nucliadb-admin-assets]: Downloading https://files.pythonhosted.org/packages/e0/24/dd0983402236df601f8de2efe502c25d0e1a1fe9b64b7fb6483b9bdc5f47/nucliadb_admin_assets-1.0.0.post1514-py3-none-any.whl
+[2024-04-26 09:20:27] INFO root fetch - processPackages [KratosMedApplication]: Downloading https://files.pythonhosted.org/packages/6f/0d/05d75cb7f19a98e82f6013093f30735b208913ac89595637b1b9d4ad80ec/KratosMedApplication-9.5.0-cp39-cp39-win_amd64.whl
+[2024-04-26 09:20:27] INFO root fetch - processPackages [signal-design]: executing diffoscope
+[2024-04-26 09:20:27] INFO root fetch - processPackages [signal-design]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/signal_design-0.2.0.tar.gz tmp/signal_design-0.2.2.tar.gz --markdown 20240426/s/signal-design/0.2.0-0.2.2/README.md --exclude *.pyd
+[2024-04-26 09:20:27] INFO root fetch - processPackages [alpaca-py]: executing diffoscope
+[2024-04-26 09:20:27] INFO root fetch - processPackages [alpaca-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alpaca_py-0.8.2.tar.gz tmp/alpaca_py-0.9.0.tar.gz --markdown 20240426/a/alpaca-py/0.8.2-0.9.0/README.md --exclude *.pyd
+[2024-04-26 09:20:28] INFO root fetch - processPackages [KratosMedApplication]: executing diffoscope
+[2024-04-26 09:20:28] INFO root fetch - processPackages [KratosMedApplication]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KratosMedApplication-9.4.6-cp39-cp39-win_amd64.whl.zip tmp/KratosMedApplication-9.5.0-cp39-cp39-win_amd64.whl.zip --markdown 20240426/K/KratosMedApplication/9.4.6-9.5.0/README.md --exclude *.pyd
+[2024-04-26 09:20:28] INFO root fetch - processPackages [KratosHDF5Application]: executing diffoscope
+[2024-04-26 09:20:28] INFO root fetch - processPackages [KratosHDF5Application]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KratosHDF5Application-9.4.6-cp39-cp39-win_amd64.whl.zip tmp/KratosHDF5Application-9.5.0-cp39-cp39-win_amd64.whl.zip --markdown 20240426/K/KratosHDF5Application/9.4.6-9.5.0/README.md --exclude *.pyd
+[2024-04-26 09:20:28] INFO root fetch - processPackages [nucliadb-admin-assets]: executing diffoscope
+[2024-04-26 09:20:28] INFO root fetch - processPackages [nucliadb-admin-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_admin_assets-1.0.0.post1511-py3-none-any.whl.zip tmp/nucliadb_admin_assets-1.0.0.post1514-py3-none-any.whl.zip --markdown 20240426/n/nucliadb-admin-assets/1.0.0.post1511-1.0.0.post1514/README.md --exclude *.pyd
+[2024-04-26 09:20:28] INFO root fetch - processPackages [KratosMappingApplication]: executing diffoscope
+[2024-04-26 09:20:28] INFO root fetch - processPackages [KratosMappingApplication]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KratosMappingApplication-9.4.6-cp39-cp39-win_amd64.whl.zip tmp/KratosMappingApplication-9.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240426/K/KratosMappingApplication/9.4.6-9.5/README.md --exclude *.pyd
+[2024-04-26 09:20:28] INFO root fetch - processPackages [KratosIgaApplication]: executing diffoscope
+[2024-04-26 09:20:28] INFO root fetch - processPackages [KratosIgaApplication]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KratosIgaApplication-9.4.5-cp39-cp39-win_amd64.whl.zip tmp/KratosIgaApplication-9.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240426/K/KratosIgaApplication/9.4.5-9.5/README.md --exclude *.pyd
+[2024-04-26 09:20:28] INFO root fetch - processPackages [KratosLinearSolversApplication]: executing diffoscope
+[2024-04-26 09:20:28] INFO root fetch - processPackages [KratosLinearSolversApplication]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KratosLinearSolversApplication-9.4.6-cp39-cp39-win_amd64.whl.zip tmp/KratosLinearSolversApplication-9.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240426/K/KratosLinearSolversApplication/9.4.6-9.5/README.md --exclude *.pyd
+[2024-04-26 09:20:28] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.5.8.tar.gz]
+[2024-04-26 09:20:28] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.5.9.tar.gz]
+[2024-04-26 09:20:28] INFO root fetch - processPackages [quantplay]: Start processing: KratosMeshMovingApplication
+[2024-04-26 09:20:28] INFO root fetch - main [MainThread]: End processing [quantplay]: success
+[2024-04-26 09:20:28] INFO root fetch - processPackages [KratosMeshingApplication]: executing diffoscope
+[2024-04-26 09:20:28] INFO root fetch - processPackages [KratosMeshingApplication]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KratosMeshingApplication-9.4.6-cp39-cp39-win_amd64.whl.zip tmp/KratosMeshingApplication-9.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240426/K/KratosMeshingApplication/9.4.6-9.5/README.md --exclude *.pyd
+[2024-04-26 09:20:28] INFO root fetch - processPackages [KratosMeshMovingApplication]: New version: [9.5] Old Version: [9.4.6]
+[2024-04-26 09:20:28] INFO root fetch - processPackages [signal-design]: Remove: archive file [/home/abi/fetcher/tmp/signal_design-0.2.0.tar.gz]
+[2024-04-26 09:20:28] INFO root fetch - processPackages [signal-design]: Remove: archive file [/home/abi/fetcher/tmp/signal_design-0.2.2.tar.gz]
+[2024-04-26 09:20:28] INFO root fetch - processPackages [signal-design]: Start processing: KratosMetisApplication
+[2024-04-26 09:20:28] INFO root fetch - main [MainThread]: End processing [signal-design]: success
+[2024-04-26 09:20:28] INFO root fetch - processPackages [KratosMeshMovingApplication]: Downloading https://files.pythonhosted.org/packages/91/f0/ca50c8040d77ce6475d2e32ac0fa02bf96d12da5ec5198a3afd11b91f24a/KratosMeshMovingApplication-9.4.6-cp39-cp39-win_amd64.whl
+[2024-04-26 09:20:28] INFO root fetch - processPackages [KratosMetisApplication]: New version: [9.5] Old Version: [9.4.5]
+[2024-04-26 09:20:28] INFO root fetch - processPackages [alpaca-py]: Remove: archive file [/home/abi/fetcher/tmp/alpaca_py-0.8.2.tar.gz]
+[2024-04-26 09:20:28] INFO root fetch - processPackages [alpaca-py]: Remove: archive file [/home/abi/fetcher/tmp/alpaca_py-0.9.0.tar.gz]
+[2024-04-26 09:20:28] INFO root fetch - main [MainThread]: End processing [alpaca-py]: success
+[2024-04-26 09:20:29] INFO root fetch - processPackages [KratosMetisApplication]: Downloading https://files.pythonhosted.org/packages/74/8c/c300140d5de9045abd09501130fc6b7ce251e45762dbe89c3800482d3a2d/KratosMetisApplication-9.4.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-26 09:20:29] INFO root fetch - processPackages [KratosMeshMovingApplication]: Downloading https://files.pythonhosted.org/packages/9a/ab/b151d97146c9a8d6bd4c27262c6851603b7f94ef1ff5f996ec579af57b4e/KratosMeshMovingApplication-9.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-26 09:20:29] INFO root fetch - processPackages [KratosMappingApplication]: Remove: archive file [/home/abi/fetcher/tmp/KratosMappingApplication-9.4.6-cp39-cp39-win_amd64.whl.zip]
+[2024-04-26 09:20:29] INFO root fetch - processPackages [KratosMappingApplication]: Remove: archive file [/home/abi/fetcher/tmp/KratosMappingApplication-9.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-26 09:20:29] INFO root fetch - main [MainThread]: End processing [KratosMappingApplication]: success
+[2024-04-26 09:20:29] INFO root fetch - processPackages [KratosIgaApplication]: Remove: archive file [/home/abi/fetcher/tmp/KratosIgaApplication-9.4.5-cp39-cp39-win_amd64.whl.zip]
+[2024-04-26 09:20:29] INFO root fetch - processPackages [KratosIgaApplication]: Remove: archive file [/home/abi/fetcher/tmp/KratosIgaApplication-9.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-26 09:20:29] INFO root fetch - main [MainThread]: End processing [KratosIgaApplication]: success
+[2024-04-26 09:20:29] INFO root fetch - processPackages [KratosLinearSolversApplication]: Remove: archive file [/home/abi/fetcher/tmp/KratosLinearSolversApplication-9.4.6-cp39-cp39-win_amd64.whl.zip]
+[2024-04-26 09:20:29] INFO root fetch - processPackages [KratosLinearSolversApplication]: Remove: archive file [/home/abi/fetcher/tmp/KratosLinearSolversApplication-9.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-26 09:20:29] INFO root fetch - main [MainThread]: End processing [KratosLinearSolversApplication]: success
+[2024-04-26 09:20:29] INFO root fetch - processPackages [KratosMeshingApplication]: Remove: archive file [/home/abi/fetcher/tmp/KratosMeshingApplication-9.4.6-cp39-cp39-win_amd64.whl.zip]
+[2024-04-26 09:20:29] INFO root fetch - processPackages [KratosMeshingApplication]: Remove: archive file [/home/abi/fetcher/tmp/KratosMeshingApplication-9.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-26 09:20:29] INFO root fetch - main [MainThread]: End processing [KratosMeshingApplication]: success
+[2024-04-26 09:20:30] INFO root fetch - processPackages [KratosMetisApplication]: Downloading https://files.pythonhosted.org/packages/fc/c4/2b040bf2880527bc325f2a57ab0ca086645e1f3de6a47699a56921a13a39/KratosMetisApplication-9.5-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-26 09:20:30] INFO root fetch - processPackages [KratosMeshMovingApplication]: executing diffoscope
+[2024-04-26 09:20:30] INFO root fetch - processPackages [KratosMeshMovingApplication]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KratosMeshMovingApplication-9.4.6-cp39-cp39-win_amd64.whl.zip tmp/KratosMeshMovingApplication-9.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240426/K/KratosMeshMovingApplication/9.4.6-9.5/README.md --exclude *.pyd
+[2024-04-26 09:20:31] INFO root fetch - processPackages [KratosMetisApplication]: executing diffoscope
+[2024-04-26 09:20:31] INFO root fetch - processPackages [KratosMetisApplication]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KratosMetisApplication-9.4.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/KratosMetisApplication-9.5-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240426/K/KratosMetisApplication/9.4.5-9.5/README.md --exclude *.pyd
+[2024-04-26 09:20:31] INFO root fetch - processPackages [KratosMeshMovingApplication]: Remove: archive file [/home/abi/fetcher/tmp/KratosMeshMovingApplication-9.4.6-cp39-cp39-win_amd64.whl.zip]
+[2024-04-26 09:20:31] INFO root fetch - processPackages [KratosMeshMovingApplication]: Remove: archive file [/home/abi/fetcher/tmp/KratosMeshMovingApplication-9.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-26 09:20:31] INFO root fetch - main [MainThread]: End processing [KratosMeshMovingApplication]: success
+[2024-04-26 09:20:31] INFO root fetch - processPackages [KratosMedApplication]: Remove: archive file [/home/abi/fetcher/tmp/KratosMedApplication-9.4.6-cp39-cp39-win_amd64.whl.zip]
+[2024-04-26 09:20:31] INFO root fetch - processPackages [KratosMedApplication]: Remove: archive file [/home/abi/fetcher/tmp/KratosMedApplication-9.5.0-cp39-cp39-win_amd64.whl.zip]
+[2024-04-26 09:20:31] INFO root fetch - main [MainThread]: End processing [KratosMedApplication]: success
+[2024-04-26 09:20:36] ERROR root fetch - processPackages [KratosHDF5Application]: Diffoscope failed: time="2024-04-26T09:20:28+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 79, in feeder
+    for buf in in_file:
+  File "/srv/diffoscope/diffoscope/comparators/utils/libarchive.py", line 134, in list_libarchive
+    for entry in archive:
+  File "/usr/lib/python3/dist-packages/libarchive/read.py", line 26, in __iter__
+    r = read_next_header2(archive_p, entry_p)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 91, in check_int
+    raise archive_error(args[0], retcode)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 75, in archive_error
+    raise ArchiveError(msg, errno(archive_p), retcode, archive_p)
+libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, archive_p=140629510200736)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 467, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 433, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/ar.py", line 71, in compare_details
+    Difference.from_text_readers(
+  File "/srv/diffoscope/diffoscope/difference.py", line 258, in from_text_readers
+    return Difference.from_feeder(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 79, in feeder
+    for buf in in_file:
+  File "/srv/diffoscope/diffoscope/comparators/utils/libarchive.py", line 134, in list_libarchive
+    for entry in archive:
+  File "/usr/lib/python3/dist-packages/libarchive/read.py", line 26, in __iter__
+    r = read_next_header2(archive_p, entry_p)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 91, in check_int
+    raise archive_error(args[0], retcode)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 75, in archive_error
+    raise ArchiveError(msg, errno(archive_p), retcode, archive_p)
+libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, archive_p=140629375982992)
+
+[2024-04-26 09:20:36] INFO root fetch - main [MainThread]: End processing [KratosHDF5Application] error
+[2024-04-26 09:20:43] INFO root fetch - processPackages [nucliadb-admin-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_admin_assets-1.0.0.post1511-py3-none-any.whl.zip]
+[2024-04-26 09:20:43] INFO root fetch - processPackages [nucliadb-admin-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_admin_assets-1.0.0.post1514-py3-none-any.whl.zip]
+[2024-04-26 09:20:43] INFO root fetch - main [MainThread]: End processing [nucliadb-admin-assets]: success
+[2024-04-26 09:20:44] INFO root fetch - processPackages [KratosMetisApplication]: Remove: archive file [/home/abi/fetcher/tmp/KratosMetisApplication-9.4.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-26 09:20:44] INFO root fetch - processPackages [KratosMetisApplication]: Remove: archive file [/home/abi/fetcher/tmp/KratosMetisApplication-9.5-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-26 09:20:44] INFO root fetch - main [MainThread]: End processing [KratosMetisApplication]: success
+[2024-04-26 09:20:44] INFO root fetch - main [MainThread]: Store serial: [22944165]
