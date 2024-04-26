@@ -13048,3 +13048,24 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 09:32:03] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
 [2024-04-26 09:32:03] INFO root fetch - main [MainThread]: End processing [akshare]: success
 [2024-04-26 09:32:03] INFO root fetch - main [MainThread]: Store serial: [22944389]
+[2024-04-26 09:34:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22944389]
+[2024-04-26 09:34:11] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-26 09:34:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-nvd3
+[2024-04-26 09:34:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sem-desc
+[2024-04-26 09:34:11] INFO root fetch - processPackages [django-nvd3]: New version: [0.9.7] Old Version: [0.9.6]
+[2024-04-26 09:34:11] INFO root fetch - processPackages [sem-desc]: New version: [6.9.0] Old Version: [6.8.0]
+[2024-04-26 09:34:11] INFO root fetch - processPackages [django-nvd3]: Downloading https://files.pythonhosted.org/packages/49/e2/4d6d57812fefdfb6c3dcd0468fb7894eed1de5e08af7701fc6c99bb5b7be/django-nvd3-0.9.6.tar.gz
+[2024-04-26 09:34:12] INFO root fetch - processPackages [sem-desc]: Downloading https://files.pythonhosted.org/packages/bc/c6/e36bc62f82fa408248442cb9387b3ff326a3950debc6f5c834a6d40217a7/sem_desc-6.8.0.tar.gz
+[2024-04-26 09:34:12] INFO root fetch - processPackages [sem-desc]: Downloading https://files.pythonhosted.org/packages/1e/ed/28419685770a49c14514639fbca1f1076f30c551e471cc44705539ad42af/sem_desc-6.9.0.tar.gz
+[2024-04-26 09:34:12] INFO root fetch - processPackages [django-nvd3]: Downloading https://files.pythonhosted.org/packages/22/c9/6cd4c65cda26b5e5b1e0801e37aaef4eced802311b4722ca54273c64f8d2/django-nvd3-0.9.7.tar.gz
+[2024-04-26 09:34:12] INFO root fetch - processPackages [sem-desc]: executing diffoscope
+[2024-04-26 09:34:12] INFO root fetch - processPackages [sem-desc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sem_desc-6.8.0.tar.gz tmp/sem_desc-6.9.0.tar.gz --markdown 20240426/s/sem-desc/6.8.0-6.9.0/README.md --exclude *.pyd
+[2024-04-26 09:34:12] INFO root fetch - processPackages [django-nvd3]: executing diffoscope
+[2024-04-26 09:34:12] INFO root fetch - processPackages [django-nvd3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-nvd3-0.9.6.tar.gz tmp/django-nvd3-0.9.7.tar.gz --markdown 20240426/d/django-nvd3/0.9.6-0.9.7/README.md --exclude *.pyd
+[2024-04-26 09:34:13] INFO root fetch - processPackages [sem-desc]: Remove: archive file [/home/abi/fetcher/tmp/sem_desc-6.8.0.tar.gz]
+[2024-04-26 09:34:13] INFO root fetch - processPackages [sem-desc]: Remove: archive file [/home/abi/fetcher/tmp/sem_desc-6.9.0.tar.gz]
+[2024-04-26 09:34:13] INFO root fetch - main [MainThread]: End processing [sem-desc]: success
+[2024-04-26 09:34:13] INFO root fetch - processPackages [django-nvd3]: Remove: archive file [/home/abi/fetcher/tmp/django-nvd3-0.9.6.tar.gz]
+[2024-04-26 09:34:13] INFO root fetch - processPackages [django-nvd3]: Remove: archive file [/home/abi/fetcher/tmp/django-nvd3-0.9.7.tar.gz]
+[2024-04-26 09:34:13] INFO root fetch - main [MainThread]: End processing [django-nvd3]: success
+[2024-04-26 09:34:13] INFO root fetch - main [MainThread]: Store serial: [22944395]
