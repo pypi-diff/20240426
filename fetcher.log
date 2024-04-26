@@ -8156,3 +8156,33 @@
 [2024-04-26 05:22:34] INFO root fetch - processPackages [magictk]: Remove: archive file [/home/abi/fetcher/tmp/magictk-0.0.2.55.tar.gz]
 [2024-04-26 05:22:34] INFO root fetch - main [MainThread]: End processing [magictk]: success
 [2024-04-26 05:22:34] INFO root fetch - main [MainThread]: Store serial: [22942248]
+[2024-04-26 05:24:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22942248]
+[2024-04-26 05:24:43] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-26 05:24:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Leonardo-Ai-SDK
+[2024-04-26 05:24:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: whatshow-toolbox
+[2024-04-26 05:24:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cadcutils
+[2024-04-26 05:24:43] INFO root fetch - processPackages [cadcutils]: New version: [1.5.2.2] Old Version: [1.5.2.1]
+[2024-04-26 05:24:43] INFO root fetch - processPackages [Leonardo-Ai-SDK]: New version: [5.3.7] Old Version: [5.3.6]
+[2024-04-26 05:24:43] INFO root fetch - processPackages [whatshow-toolbox]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-26 05:24:43] INFO root fetch - processPackages [whatshow-toolbox]: Downloading https://files.pythonhosted.org/packages/d3/80/91e39632918124376fa1e37e3a0a4a1b932f92ced15fb31dd0f8426eb160/whatshow_toolbox-1.0.1.tar.gz
+[2024-04-26 05:24:43] INFO root fetch - processPackages [cadcutils]: Downloading https://files.pythonhosted.org/packages/e4/c8/d616035cac141cf5f03bd1c5ffdddc99a94fc39bd9fe0b034b753a9dafc8/cadcutils-1.5.2.1.tar.gz
+[2024-04-26 05:24:43] INFO root fetch - processPackages [Leonardo-Ai-SDK]: Downloading https://files.pythonhosted.org/packages/b8/28/628e043a09e9aa7ec18e0dd489f2d0254593c91ba195a4cd4525c3403e19/Leonardo-Ai-SDK-5.3.6.tar.gz
+[2024-04-26 05:24:44] INFO root fetch - processPackages [whatshow-toolbox]: Downloading https://files.pythonhosted.org/packages/a1/ac/513b275cf05020b238267e299bd3499022740a6b21f2201042ecbad877d9/whatshow_toolbox-1.0.2.tar.gz
+[2024-04-26 05:24:44] INFO root fetch - processPackages [cadcutils]: Downloading https://files.pythonhosted.org/packages/f8/59/3f0ccdfac8d1d6adb2e62a9eb9d5da5c5abdbde11510171edbd63092c5b6/cadcutils-1.5.2.2.tar.gz
+[2024-04-26 05:24:44] INFO root fetch - processPackages [Leonardo-Ai-SDK]: Downloading https://files.pythonhosted.org/packages/52/70/e80866126623dc580cd2f29725a4d71bd4d0e94ada1b8cfb8430c3a7e6aa/Leonardo-Ai-SDK-5.3.7.tar.gz
+[2024-04-26 05:24:44] INFO root fetch - processPackages [cadcutils]: executing diffoscope
+[2024-04-26 05:24:44] INFO root fetch - processPackages [cadcutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cadcutils-1.5.2.1.tar.gz tmp/cadcutils-1.5.2.2.tar.gz --markdown 20240426/c/cadcutils/1.5.2.1-1.5.2.2/README.md --exclude *.pyd
+[2024-04-26 05:24:44] INFO root fetch - processPackages [Leonardo-Ai-SDK]: executing diffoscope
+[2024-04-26 05:24:44] INFO root fetch - processPackages [Leonardo-Ai-SDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Leonardo-Ai-SDK-5.3.6.tar.gz tmp/Leonardo-Ai-SDK-5.3.7.tar.gz --markdown 20240426/L/Leonardo-Ai-SDK/5.3.6-5.3.7/README.md --exclude *.pyd
+[2024-04-26 05:24:44] INFO root fetch - processPackages [whatshow-toolbox]: executing diffoscope
+[2024-04-26 05:24:44] INFO root fetch - processPackages [whatshow-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whatshow_toolbox-1.0.1.tar.gz tmp/whatshow_toolbox-1.0.2.tar.gz --markdown 20240426/w/whatshow-toolbox/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-26 05:24:44] INFO root fetch - processPackages [whatshow-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/whatshow_toolbox-1.0.1.tar.gz]
+[2024-04-26 05:24:44] INFO root fetch - processPackages [whatshow-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/whatshow_toolbox-1.0.2.tar.gz]
+[2024-04-26 05:24:44] INFO root fetch - main [MainThread]: End processing [whatshow-toolbox]: success
+[2024-04-26 05:24:45] INFO root fetch - processPackages [cadcutils]: Remove: archive file [/home/abi/fetcher/tmp/cadcutils-1.5.2.1.tar.gz]
+[2024-04-26 05:24:45] INFO root fetch - processPackages [cadcutils]: Remove: archive file [/home/abi/fetcher/tmp/cadcutils-1.5.2.2.tar.gz]
+[2024-04-26 05:24:45] INFO root fetch - main [MainThread]: End processing [cadcutils]: success
+[2024-04-26 05:24:45] INFO root fetch - processPackages [Leonardo-Ai-SDK]: Remove: archive file [/home/abi/fetcher/tmp/Leonardo-Ai-SDK-5.3.6.tar.gz]
+[2024-04-26 05:24:45] INFO root fetch - processPackages [Leonardo-Ai-SDK]: Remove: archive file [/home/abi/fetcher/tmp/Leonardo-Ai-SDK-5.3.7.tar.gz]
+[2024-04-26 05:24:45] INFO root fetch - main [MainThread]: End processing [Leonardo-Ai-SDK]: success
+[2024-04-26 05:24:45] INFO root fetch - main [MainThread]: Store serial: [22942270]
