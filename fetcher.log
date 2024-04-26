@@ -7931,3 +7931,24 @@
 [2024-04-26 05:09:00] INFO root fetch - processPackages [nonebot-plugin-sayoroll]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_sayoroll-1.0.4.tar.gz]
 [2024-04-26 05:09:00] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-sayoroll]: success
 [2024-04-26 05:09:00] INFO root fetch - main [MainThread]: Store serial: [22942159]
+[2024-04-26 05:11:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22942159]
+[2024-04-26 05:11:10] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-26 05:11:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: x32dbg
+[2024-04-26 05:11:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: YaraForge
+[2024-04-26 05:11:10] INFO root fetch - processPackages [YaraForge]: New version: [0.1.6b1] Old Version: [0.1.5b1]
+[2024-04-26 05:11:10] INFO root fetch - processPackages [YaraForge]: Downloading https://files.pythonhosted.org/packages/2b/16/67e7b62dc373d369a6a63a379a8d2af50cb227b8f3ac5aed1d3adf92a7ef/YaraForge-0.1.5b1.tar.gz
+[2024-04-26 05:11:10] INFO root fetch - processPackages [x32dbg]: New version: [1.1.0] Old Version: [1.0.16]
+[2024-04-26 05:11:10] INFO root fetch - processPackages [x32dbg]: Downloading https://files.pythonhosted.org/packages/92/e9/9dc2fd510d157d7d242ed2dc38fdfd1cd54edaa58d119fa19a92debfeb07/x32dbg-1.0.16.tar.gz
+[2024-04-26 05:11:10] INFO root fetch - processPackages [YaraForge]: Downloading https://files.pythonhosted.org/packages/d4/11/2f6b466f7deb525588b3d6736f7dfcebe242e45e009b1aea1ac4b6d6d9e3/YaraForge-0.1.6b1.tar.gz
+[2024-04-26 05:11:10] INFO root fetch - processPackages [x32dbg]: Downloading https://files.pythonhosted.org/packages/2f/bc/939f02e268e3148e7a3b22155b25a57137902b3e35f3a5acb3e911b9e340/x32dbg-1.1.0.tar.gz
+[2024-04-26 05:11:10] INFO root fetch - processPackages [YaraForge]: executing diffoscope
+[2024-04-26 05:11:10] INFO root fetch - processPackages [YaraForge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/YaraForge-0.1.5b1.tar.gz tmp/YaraForge-0.1.6b1.tar.gz --markdown 20240426/Y/YaraForge/0.1.5b1-0.1.6b1/README.md --exclude *.pyd
+[2024-04-26 05:11:10] INFO root fetch - processPackages [x32dbg]: executing diffoscope
+[2024-04-26 05:11:10] INFO root fetch - processPackages [x32dbg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/x32dbg-1.0.16.tar.gz tmp/x32dbg-1.1.0.tar.gz --markdown 20240426/x/x32dbg/1.0.16-1.1.0/README.md --exclude *.pyd
+[2024-04-26 05:11:11] INFO root fetch - processPackages [x32dbg]: Remove: archive file [/home/abi/fetcher/tmp/x32dbg-1.0.16.tar.gz]
+[2024-04-26 05:11:11] INFO root fetch - processPackages [x32dbg]: Remove: archive file [/home/abi/fetcher/tmp/x32dbg-1.1.0.tar.gz]
+[2024-04-26 05:11:11] INFO root fetch - main [MainThread]: End processing [x32dbg]: success
+[2024-04-26 05:11:12] INFO root fetch - processPackages [YaraForge]: Remove: archive file [/home/abi/fetcher/tmp/YaraForge-0.1.5b1.tar.gz]
+[2024-04-26 05:11:12] INFO root fetch - processPackages [YaraForge]: Remove: archive file [/home/abi/fetcher/tmp/YaraForge-0.1.6b1.tar.gz]
+[2024-04-26 05:11:12] INFO root fetch - main [MainThread]: End processing [YaraForge]: success
+[2024-04-26 05:11:12] INFO root fetch - main [MainThread]: Store serial: [22942167]
