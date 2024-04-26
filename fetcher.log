@@ -9026,3 +9026,24 @@
 [2024-04-26 06:25:46] WARNING root fetch - processPackages [hashtray]: Skipping package: exceeds size limit 14806709>=10485760
 [2024-04-26 06:25:46] INFO root fetch - main [MainThread]: End processing [hashtray] error
 [2024-04-26 06:25:46] INFO root fetch - main [MainThread]: Store serial: [22942613]
+[2024-04-26 06:27:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22942613]
+[2024-04-26 06:27:54] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-26 06:27:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: langchain-aws
+[2024-04-26 06:27:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flatpack
+[2024-04-26 06:27:54] INFO root fetch - processPackages [flatpack]: New version: [3.3.9] Old Version: [3.3.8]
+[2024-04-26 06:27:54] INFO root fetch - processPackages [langchain-aws]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-26 06:27:54] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/42/48/84e949164975b341645163f536ee4ca8329c4e3dfa6d143c2806a0849a54/flatpack-3.3.8.tar.gz
+[2024-04-26 06:27:54] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/11/54/065825e8640b062c83c07c97d8dea514db8a5c0ea3c272834b88c568d82e/flatpack-3.3.9.tar.gz
+[2024-04-26 06:27:54] INFO root fetch - processPackages [langchain-aws]: Downloading https://files.pythonhosted.org/packages/26/34/df1829973ce79ade06cdf5ca08f76a102532f6d1d142af656a3807155014/langchain_aws-0.1.1.tar.gz
+[2024-04-26 06:27:55] INFO root fetch - processPackages [flatpack]: executing diffoscope
+[2024-04-26 06:27:55] INFO root fetch - processPackages [flatpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flatpack-3.3.8.tar.gz tmp/flatpack-3.3.9.tar.gz --markdown 20240426/f/flatpack/3.3.8-3.3.9/README.md --exclude *.pyd
+[2024-04-26 06:27:55] INFO root fetch - processPackages [langchain-aws]: Downloading https://files.pythonhosted.org/packages/fa/c1/8fca6ab0fea983c964a28b70746603a5c4e6715272bbf40f6e834e759bed/langchain_aws-0.1.2.tar.gz
+[2024-04-26 06:27:55] INFO root fetch - processPackages [langchain-aws]: executing diffoscope
+[2024-04-26 06:27:55] INFO root fetch - processPackages [langchain-aws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_aws-0.1.1.tar.gz tmp/langchain_aws-0.1.2.tar.gz --markdown 20240426/l/langchain-aws/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-26 06:27:55] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.3.8.tar.gz]
+[2024-04-26 06:27:55] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.3.9.tar.gz]
+[2024-04-26 06:27:55] INFO root fetch - main [MainThread]: End processing [flatpack]: success
+[2024-04-26 06:27:55] INFO root fetch - processPackages [langchain-aws]: Remove: archive file [/home/abi/fetcher/tmp/langchain_aws-0.1.1.tar.gz]
+[2024-04-26 06:27:55] INFO root fetch - processPackages [langchain-aws]: Remove: archive file [/home/abi/fetcher/tmp/langchain_aws-0.1.2.tar.gz]
+[2024-04-26 06:27:55] INFO root fetch - main [MainThread]: End processing [langchain-aws]: success
+[2024-04-26 06:27:55] INFO root fetch - main [MainThread]: Store serial: [22942619]
