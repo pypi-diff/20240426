@@ -7056,3 +7056,63 @@
 [2024-04-26 03:48:15] INFO root fetch - processPackages [draggable-charts]: Remove: archive file [/home/abi/fetcher/tmp/draggable-charts-1.1.0.tar.gz]
 [2024-04-26 03:48:15] INFO root fetch - main [MainThread]: End processing [draggable-charts]: success
 [2024-04-26 03:48:15] INFO root fetch - main [MainThread]: Store serial: [22941734]
+[2024-04-26 03:50:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22941734]
+[2024-04-26 03:50:24] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-26 03:50:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: opticallyshallowdeep
+[2024-04-26 03:50:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: svtter-template-creator
+[2024-04-26 03:50:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Pokemila
+[2024-04-26 03:50:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: milvus-api
+[2024-04-26 03:50:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytctracer
+[2024-04-26 03:50:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qlv-client
+[2024-04-26 03:50:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: RedVert
+[2024-04-26 03:50:24] INFO root fetch - processPackages [qlv-client]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-26 03:50:24] INFO root fetch - processPackages [milvus-api]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-26 03:50:24] INFO root fetch - processPackages [opticallyshallowdeep]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-04-26 03:50:24] INFO root fetch - processPackages [milvus-api]: Downloading https://files.pythonhosted.org/packages/a0/44/1d348e0d708d8b1a62d2e23f0aa1f480a7e51fbacc499fb85d0bfd48bd7d/milvus_api-0.1.1.tar.gz
+[2024-04-26 03:50:24] INFO root fetch - processPackages [qlv-client]: Downloading https://files.pythonhosted.org/packages/97/5a/f69585b233a8a2652a024371e7e35dc5950ebdfaf27cd5d0f63904ab16ec/qlv-client-0.1.4.tar.gz
+[2024-04-26 03:50:24] INFO root fetch - processPackages [svtter-template-creator]: New version: [0.6.0] Old Version: [0.5.0]
+[2024-04-26 03:50:24] INFO root fetch - processPackages [pytctracer]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-26 03:50:24] WARNING root fetch - processPackages [Pokemila]: Skipping, unable to determine old version
+[2024-04-26 03:50:24] INFO root fetch - main [MainThread]: End processing [Pokemila] error
+[2024-04-26 03:50:24] INFO root fetch - processPackages [RedVert]: New version: [1.3.2] Old Version: [1.3.1]
+[2024-04-26 03:50:24] INFO root fetch - processPackages [opticallyshallowdeep]: Downloading https://files.pythonhosted.org/packages/68/9e/23b9282aa3c0dbd055ad594e911f0b6cfacb747fd8b8cc12c700dad6fc40/opticallyshallowdeep-1.2.0.tar.gz
+[2024-04-26 03:50:24] INFO root fetch - processPackages [svtter-template-creator]: Downloading https://files.pythonhosted.org/packages/4f/af/e10ab26f6dae8e326f84caf44d47b78f10f9b30e9e7de035cbb566eb83c6/svtter_template_creator-0.5.0.tar.gz
+[2024-04-26 03:50:24] INFO root fetch - processPackages [RedVert]: Downloading https://files.pythonhosted.org/packages/0a/03/bc2981ff559c27d882105e9d517db5265a5fa7c9e400db623f330ff05c1a/redvert-1.3.1.tar.gz
+[2024-04-26 03:50:24] INFO root fetch - processPackages [pytctracer]: Downloading https://files.pythonhosted.org/packages/a8/65/235d8ef62c2f905df4ca02604f53d4421f40d8ce8c3be5ad8460adb3f1ef/pytctracer-0.2.0.tar.gz
+[2024-04-26 03:50:24] INFO root fetch - processPackages [milvus-api]: Downloading https://files.pythonhosted.org/packages/d4/88/60591a1239fe9c30202fa0c2e8760c83cdf746e92355d9f3fa26ad5829c3/milvus_api-0.1.2.tar.gz
+[2024-04-26 03:50:24] INFO root fetch - processPackages [opticallyshallowdeep]: Downloading https://files.pythonhosted.org/packages/82/f7/6e94e1a8630a80c0d25551ed404d684d69ac858608e25be2cafc782e004a/opticallyshallowdeep-1.2.1.tar.gz
+[2024-04-26 03:50:24] INFO root fetch - processPackages [qlv-client]: Downloading https://files.pythonhosted.org/packages/d7/ba/fb79fa52e1563032bfb70e835225fb645b5afa9ae642f0050aed8da74664/qlv-client-0.1.5.tar.gz
+[2024-04-26 03:50:25] INFO root fetch - processPackages [milvus-api]: executing diffoscope
+[2024-04-26 03:50:25] INFO root fetch - processPackages [milvus-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/milvus_api-0.1.1.tar.gz tmp/milvus_api-0.1.2.tar.gz --markdown 20240426/m/milvus-api/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-26 03:50:25] INFO root fetch - processPackages [qlv-client]: executing diffoscope
+[2024-04-26 03:50:25] INFO root fetch - processPackages [opticallyshallowdeep]: executing diffoscope
+[2024-04-26 03:50:25] INFO root fetch - processPackages [opticallyshallowdeep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opticallyshallowdeep-1.2.0.tar.gz tmp/opticallyshallowdeep-1.2.1.tar.gz --markdown 20240426/o/opticallyshallowdeep/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-04-26 03:50:25] INFO root fetch - processPackages [qlv-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qlv-client-0.1.4.tar.gz tmp/qlv-client-0.1.5.tar.gz --markdown 20240426/q/qlv-client/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-26 03:50:25] INFO root fetch - processPackages [svtter-template-creator]: Downloading https://files.pythonhosted.org/packages/38/0c/e4e4e4aff3be3d49ead7f0e72ea7b2194a2cc69267bc1fc59c55dcfcaafb/svtter_template_creator-0.6.0.tar.gz
+[2024-04-26 03:50:25] INFO root fetch - processPackages [RedVert]: Downloading https://files.pythonhosted.org/packages/f0/9f/c475a9fca42e2afa750bbbd3e6cf87e81dfc83ba914faefe4e15ca1b873e/redvert-1.3.2.tar.gz
+[2024-04-26 03:50:25] INFO root fetch - processPackages [pytctracer]: Downloading https://files.pythonhosted.org/packages/e3/2a/828b6fa19b77f089af90c5f79a2f863dd0b8377007a2b9e713db32119886/pytctracer-0.2.1.tar.gz
+[2024-04-26 03:50:25] INFO root fetch - processPackages [svtter-template-creator]: executing diffoscope
+[2024-04-26 03:50:25] INFO root fetch - processPackages [svtter-template-creator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/svtter_template_creator-0.5.0.tar.gz tmp/svtter_template_creator-0.6.0.tar.gz --markdown 20240426/s/svtter-template-creator/0.5.0-0.6.0/README.md --exclude *.pyd
+[2024-04-26 03:50:25] INFO root fetch - processPackages [pytctracer]: executing diffoscope
+[2024-04-26 03:50:25] INFO root fetch - processPackages [pytctracer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytctracer-0.2.0.tar.gz tmp/pytctracer-0.2.1.tar.gz --markdown 20240426/p/pytctracer/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-04-26 03:50:25] INFO root fetch - processPackages [RedVert]: executing diffoscope
+[2024-04-26 03:50:25] INFO root fetch - processPackages [RedVert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redvert-1.3.1.tar.gz tmp/redvert-1.3.2.tar.gz --markdown 20240426/R/RedVert/1.3.1-1.3.2/README.md --exclude *.pyd
+[2024-04-26 03:50:25] INFO root fetch - processPackages [milvus-api]: Remove: archive file [/home/abi/fetcher/tmp/milvus_api-0.1.1.tar.gz]
+[2024-04-26 03:50:25] INFO root fetch - processPackages [milvus-api]: Remove: archive file [/home/abi/fetcher/tmp/milvus_api-0.1.2.tar.gz]
+[2024-04-26 03:50:25] INFO root fetch - main [MainThread]: End processing [milvus-api]: success
+[2024-04-26 03:50:25] INFO root fetch - processPackages [svtter-template-creator]: Remove: archive file [/home/abi/fetcher/tmp/svtter_template_creator-0.5.0.tar.gz]
+[2024-04-26 03:50:25] INFO root fetch - processPackages [svtter-template-creator]: Remove: archive file [/home/abi/fetcher/tmp/svtter_template_creator-0.6.0.tar.gz]
+[2024-04-26 03:50:25] INFO root fetch - main [MainThread]: End processing [svtter-template-creator]: success
+[2024-04-26 03:50:25] INFO root fetch - processPackages [qlv-client]: Remove: archive file [/home/abi/fetcher/tmp/qlv-client-0.1.4.tar.gz]
+[2024-04-26 03:50:25] INFO root fetch - processPackages [qlv-client]: Remove: archive file [/home/abi/fetcher/tmp/qlv-client-0.1.5.tar.gz]
+[2024-04-26 03:50:25] INFO root fetch - main [MainThread]: End processing [qlv-client]: success
+[2024-04-26 03:50:25] INFO root fetch - processPackages [RedVert]: Remove: archive file [/home/abi/fetcher/tmp/redvert-1.3.1.tar.gz]
+[2024-04-26 03:50:25] INFO root fetch - processPackages [RedVert]: Remove: archive file [/home/abi/fetcher/tmp/redvert-1.3.2.tar.gz]
+[2024-04-26 03:50:25] INFO root fetch - main [MainThread]: End processing [RedVert]: success
+[2024-04-26 03:50:25] INFO root fetch - processPackages [opticallyshallowdeep]: Remove: archive file [/home/abi/fetcher/tmp/opticallyshallowdeep-1.2.0.tar.gz]
+[2024-04-26 03:50:25] INFO root fetch - processPackages [opticallyshallowdeep]: Remove: archive file [/home/abi/fetcher/tmp/opticallyshallowdeep-1.2.1.tar.gz]
+[2024-04-26 03:50:25] INFO root fetch - main [MainThread]: End processing [opticallyshallowdeep]: success
+[2024-04-26 03:50:26] INFO root fetch - processPackages [pytctracer]: Remove: archive file [/home/abi/fetcher/tmp/pytctracer-0.2.0.tar.gz]
+[2024-04-26 03:50:26] INFO root fetch - processPackages [pytctracer]: Remove: archive file [/home/abi/fetcher/tmp/pytctracer-0.2.1.tar.gz]
+[2024-04-26 03:50:26] INFO root fetch - main [MainThread]: End processing [pytctracer]: success
+[2024-04-26 03:50:26] INFO root fetch - main [MainThread]: Store serial: [22941756]
