@@ -10534,3 +10534,63 @@
 [2024-04-26 08:02:33] INFO root fetch - processPackages [pulumi-datadog]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_datadog-4.9.0a1653604828.tar.gz]
 [2024-04-26 08:02:33] INFO root fetch - main [MainThread]: End processing [pulumi-datadog]: success
 [2024-04-26 08:02:33] INFO root fetch - main [MainThread]: Store serial: [22943161]
+[2024-04-26 08:04:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22943161]
+[2024-04-26 08:04:42] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-26 08:04:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-hcloud
+[2024-04-26 08:04:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pokesemi
+[2024-04-26 08:04:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gingerai
+[2024-04-26 08:04:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: optik-py
+[2024-04-26 08:04:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: icepaposc
+[2024-04-26 08:04:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: scarcc
+[2024-04-26 08:04:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-github
+[2024-04-26 08:04:43] INFO root fetch - processPackages [pulumi-hcloud]: New version: [1.9.0a1657117726] Old Version: [1.9.0a1654086467]
+[2024-04-26 08:04:43] INFO root fetch - processPackages [pulumi-github]: New version: [6.3.0a1713897837] Old Version: [6.3.0a1713561029]
+[2024-04-26 08:04:43] WARNING root fetch - processPackages [pokesemi]: Skipping, unable to determine old version
+[2024-04-26 08:04:43] INFO root fetch - main [MainThread]: End processing [pokesemi] error
+[2024-04-26 08:04:43] INFO root fetch - processPackages [scarcc]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-26 08:04:43] INFO root fetch - processPackages [gingerai]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-26 08:04:43] INFO root fetch - processPackages [icepaposc]: New version: [0.9.0] Old Version: [0.8.2]
+[2024-04-26 08:04:43] INFO root fetch - processPackages [optik-py]: New version: [0.5.0b2] Old Version: [0.5.0b1]
+[2024-04-26 08:04:43] INFO root fetch - processPackages [scarcc]: Downloading https://files.pythonhosted.org/packages/cb/ec/b22637ece98a09f869d94f8c33e13f37d6536095e7bc2f184b062ddcc9b1/scarcc-0.1.7.tar.gz
+[2024-04-26 08:04:43] INFO root fetch - processPackages [gingerai]: Downloading https://files.pythonhosted.org/packages/93/63/5f4a6d2549870026eff659d1fc9aac0f6c9532ea741f07ac2083cd3a1cfe/gingerai-0.1.8.tar.gz
+[2024-04-26 08:04:43] INFO root fetch - processPackages [pulumi-hcloud]: Downloading https://files.pythonhosted.org/packages/9e/22/c81b563f1969f4bcdaa7c4060d0d67a0d9deb4bc415487e125f459e269e7/pulumi_hcloud-1.9.0a1654086467.tar.gz
+[2024-04-26 08:04:43] INFO root fetch - processPackages [pulumi-github]: Downloading https://files.pythonhosted.org/packages/3d/63/5d22a8edce6434f28936c4a4147cc15a60ad5c3994db9019654b4e3f72b2/pulumi_github-6.3.0a1713561029.tar.gz
+[2024-04-26 08:04:43] INFO root fetch - processPackages [icepaposc]: Downloading https://files.pythonhosted.org/packages/01/25/f0049d9af200f49ecb51288454117c11c0272519eef5d6cf043f0eaf8af3/icepaposc-0.8.2.tar.gz
+[2024-04-26 08:04:43] INFO root fetch - processPackages [optik-py]: Downloading https://files.pythonhosted.org/packages/1f/a2/2d051b99ca160c93ae30c7a5827dc69e58be0c808f014345f4d908bb1758/optik_py-0.5.0b1.tar.gz
+[2024-04-26 08:04:43] INFO root fetch - processPackages [gingerai]: Downloading https://files.pythonhosted.org/packages/33/65/a59be7a360a71da6fb875287e72120e252018dc037eef33b15ac50759b89/gingerai-0.1.9.tar.gz
+[2024-04-26 08:04:43] INFO root fetch - processPackages [pulumi-hcloud]: Downloading https://files.pythonhosted.org/packages/de/c3/b526f6942ee390fb3e0e080d961419b28ee26cada0150934184297ffeb15/pulumi_hcloud-1.9.0a1657117726.tar.gz
+[2024-04-26 08:04:43] INFO root fetch - processPackages [scarcc]: Downloading https://files.pythonhosted.org/packages/49/49/a0a2b4f018e62d9470448f845ff914460a77acb5eb44b2639beb52dc6686/scarcc-0.1.8-py3-none-any.whl
+[2024-04-26 08:04:43] INFO root fetch - processPackages [gingerai]: executing diffoscope
+[2024-04-26 08:04:43] INFO root fetch - processPackages [gingerai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gingerai-0.1.8.tar.gz tmp/gingerai-0.1.9.tar.gz --markdown 20240426/g/gingerai/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-26 08:04:43] INFO root fetch - processPackages [pulumi-hcloud]: executing diffoscope
+[2024-04-26 08:04:43] INFO root fetch - processPackages [pulumi-hcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_hcloud-1.9.0a1654086467.tar.gz tmp/pulumi_hcloud-1.9.0a1657117726.tar.gz --markdown 20240426/p/pulumi-hcloud/1.9.0a1654086467-1.9.0a1657117726/README.md --exclude *.pyd
+[2024-04-26 08:04:43] INFO root fetch - processPackages [scarcc]: executing diffoscope
+[2024-04-26 08:04:43] INFO root fetch - processPackages [scarcc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scarcc-0.1.7.tar.gz tmp/scarcc-0.1.8-py3-none-any.whl.zip --markdown 20240426/s/scarcc/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-26 08:04:43] INFO root fetch - processPackages [pulumi-github]: Downloading https://files.pythonhosted.org/packages/d8/de/b7ae05ec3f101f0398dcbb7f4442b137eb99a7646fa1da53ef784f274465/pulumi_github-6.3.0a1713897837.tar.gz
+[2024-04-26 08:04:43] INFO root fetch - processPackages [optik-py]: Downloading https://files.pythonhosted.org/packages/ef/9d/1bee5bb80b6e0f6741d81b63d05e06e973246d8ea33e75242dc1db93b346/optik_py-0.5.0b2.tar.gz
+[2024-04-26 08:04:43] INFO root fetch - processPackages [icepaposc]: Downloading https://files.pythonhosted.org/packages/08/85/0f26185db021eeee7b1ae70a38bc3c6460ab65ca1769e5653cc052b6d17c/icepaposc-0.9.0.tar.gz
+[2024-04-26 08:04:43] INFO root fetch - processPackages [pulumi-github]: executing diffoscope
+[2024-04-26 08:04:43] INFO root fetch - processPackages [pulumi-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_github-6.3.0a1713561029.tar.gz tmp/pulumi_github-6.3.0a1713897837.tar.gz --markdown 20240426/p/pulumi-github/6.3.0a1713561029-6.3.0a1713897837/README.md --exclude *.pyd
+[2024-04-26 08:04:43] INFO root fetch - processPackages [icepaposc]: executing diffoscope
+[2024-04-26 08:04:43] INFO root fetch - processPackages [icepaposc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/icepaposc-0.8.2.tar.gz tmp/icepaposc-0.9.0.tar.gz --markdown 20240426/i/icepaposc/0.8.2-0.9.0/README.md --exclude *.pyd
+[2024-04-26 08:04:44] INFO root fetch - processPackages [optik-py]: executing diffoscope
+[2024-04-26 08:04:44] INFO root fetch - processPackages [optik-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optik_py-0.5.0b1.tar.gz tmp/optik_py-0.5.0b2.tar.gz --markdown 20240426/o/optik-py/0.5.0b1-0.5.0b2/README.md --exclude *.pyd
+[2024-04-26 08:04:44] INFO root fetch - processPackages [gingerai]: Remove: archive file [/home/abi/fetcher/tmp/gingerai-0.1.8.tar.gz]
+[2024-04-26 08:04:44] INFO root fetch - processPackages [gingerai]: Remove: archive file [/home/abi/fetcher/tmp/gingerai-0.1.9.tar.gz]
+[2024-04-26 08:04:44] INFO root fetch - main [MainThread]: End processing [gingerai]: success
+[2024-04-26 08:04:44] INFO root fetch - processPackages [scarcc]: Remove: archive file [/home/abi/fetcher/tmp/scarcc-0.1.7.tar.gz]
+[2024-04-26 08:04:44] INFO root fetch - processPackages [scarcc]: Remove: archive file [/home/abi/fetcher/tmp/scarcc-0.1.8-py3-none-any.whl.zip]
+[2024-04-26 08:04:44] INFO root fetch - main [MainThread]: End processing [scarcc]: success
+[2024-04-26 08:04:44] INFO root fetch - processPackages [pulumi-hcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_hcloud-1.9.0a1654086467.tar.gz]
+[2024-04-26 08:04:44] INFO root fetch - processPackages [pulumi-hcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_hcloud-1.9.0a1657117726.tar.gz]
+[2024-04-26 08:04:44] INFO root fetch - main [MainThread]: End processing [pulumi-hcloud]: success
+[2024-04-26 08:04:44] INFO root fetch - processPackages [optik-py]: Remove: archive file [/home/abi/fetcher/tmp/optik_py-0.5.0b1.tar.gz]
+[2024-04-26 08:04:44] INFO root fetch - processPackages [optik-py]: Remove: archive file [/home/abi/fetcher/tmp/optik_py-0.5.0b2.tar.gz]
+[2024-04-26 08:04:44] INFO root fetch - main [MainThread]: End processing [optik-py]: success
+[2024-04-26 08:04:44] INFO root fetch - processPackages [icepaposc]: Remove: archive file [/home/abi/fetcher/tmp/icepaposc-0.8.2.tar.gz]
+[2024-04-26 08:04:44] INFO root fetch - processPackages [icepaposc]: Remove: archive file [/home/abi/fetcher/tmp/icepaposc-0.9.0.tar.gz]
+[2024-04-26 08:04:44] INFO root fetch - main [MainThread]: End processing [icepaposc]: success
+[2024-04-26 08:04:46] INFO root fetch - processPackages [pulumi-github]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_github-6.3.0a1713561029.tar.gz]
+[2024-04-26 08:04:46] INFO root fetch - processPackages [pulumi-github]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_github-6.3.0a1713897837.tar.gz]
+[2024-04-26 08:04:46] INFO root fetch - main [MainThread]: End processing [pulumi-github]: success
+[2024-04-26 08:04:46] INFO root fetch - main [MainThread]: Store serial: [22943179]
