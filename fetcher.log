@@ -8882,3 +8882,33 @@
 [2024-04-26 06:10:31] INFO root fetch - processPackages [htmltagparse]: Remove: archive file [/home/abi/fetcher/tmp/htmltagparse-3.0.tar.gz]
 [2024-04-26 06:10:31] INFO root fetch - main [MainThread]: End processing [htmltagparse]: success
 [2024-04-26 06:10:31] INFO root fetch - main [MainThread]: Store serial: [22942546]
+[2024-04-26 06:12:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22942546]
+[2024-04-26 06:12:39] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-26 06:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lytools
+[2024-04-26 06:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: libnk2-python
+[2024-04-26 06:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: redhat-assisted-installer
+[2024-04-26 06:12:40] INFO root fetch - processPackages [redhat-assisted-installer]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-26 06:12:40] INFO root fetch - processPackages [redhat-assisted-installer]: Downloading https://files.pythonhosted.org/packages/e8/02/59654539cff19785c1964301b8f89d29fd1a298d3bb20360ee5659db2843/redhat_assisted_installer-0.0.2.tar.gz
+[2024-04-26 06:12:40] INFO root fetch - processPackages [lytools]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-26 06:12:40] INFO root fetch - processPackages [libnk2-python]: New version: [20240426] Old Version: [20240210]
+[2024-04-26 06:12:40] INFO root fetch - processPackages [lytools]: Downloading https://files.pythonhosted.org/packages/6f/02/3f6dad6a0ed8a480fc24cbce6bbbd1b9fa5e5948b2b0b162c300576450a2/lytools-0.0.98.tar.gz
+[2024-04-26 06:12:40] INFO root fetch - processPackages [libnk2-python]: Downloading https://files.pythonhosted.org/packages/44/1e/ff3c46c40c4b41398a9f26b7af41e2dcc924a559295b2de0dd6d6e328f1e/libnk2-python-20240210.tar.gz
+[2024-04-26 06:12:40] INFO root fetch - processPackages [redhat-assisted-installer]: Downloading https://files.pythonhosted.org/packages/22/00/28930200ffbcc5d611277c774e3740db20f1bf8412d17178683135a33d97/redhat_assisted_installer-0.0.3.tar.gz
+[2024-04-26 06:12:40] INFO root fetch - processPackages [redhat-assisted-installer]: executing diffoscope
+[2024-04-26 06:12:40] INFO root fetch - processPackages [redhat-assisted-installer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redhat_assisted_installer-0.0.2.tar.gz tmp/redhat_assisted_installer-0.0.3.tar.gz --markdown 20240426/r/redhat-assisted-installer/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-26 06:12:40] INFO root fetch - processPackages [lytools]: Downloading https://files.pythonhosted.org/packages/8b/c7/d32c80774834f9348aa529b6d96e756ba2a90d73162c4655a6efd2de2aa8/lytools-0.0.99.tar.gz
+[2024-04-26 06:12:40] INFO root fetch - processPackages [libnk2-python]: Downloading https://files.pythonhosted.org/packages/55/06/5263a5a326e2df193b18de930865a2ac7a8cad873044d42b1de6d719123a/libnk2-python-20240426.tar.gz
+[2024-04-26 06:12:41] INFO root fetch - processPackages [lytools]: executing diffoscope
+[2024-04-26 06:12:41] INFO root fetch - processPackages [lytools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lytools-0.0.98.tar.gz tmp/lytools-0.0.99.tar.gz --markdown 20240426/l/lytools/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-04-26 06:12:41] INFO root fetch - processPackages [redhat-assisted-installer]: Remove: archive file [/home/abi/fetcher/tmp/redhat_assisted_installer-0.0.2.tar.gz]
+[2024-04-26 06:12:41] INFO root fetch - processPackages [redhat-assisted-installer]: Remove: archive file [/home/abi/fetcher/tmp/redhat_assisted_installer-0.0.3.tar.gz]
+[2024-04-26 06:12:41] INFO root fetch - main [MainThread]: End processing [redhat-assisted-installer]: success
+[2024-04-26 06:12:41] INFO root fetch - processPackages [libnk2-python]: executing diffoscope
+[2024-04-26 06:12:41] INFO root fetch - processPackages [libnk2-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libnk2-python-20240210.tar.gz tmp/libnk2-python-20240426.tar.gz --markdown 20240426/l/libnk2-python/20240210-20240426/README.md --exclude *.pyd
+[2024-04-26 06:12:41] INFO root fetch - processPackages [lytools]: Remove: archive file [/home/abi/fetcher/tmp/lytools-0.0.98.tar.gz]
+[2024-04-26 06:12:41] INFO root fetch - processPackages [lytools]: Remove: archive file [/home/abi/fetcher/tmp/lytools-0.0.99.tar.gz]
+[2024-04-26 06:12:41] INFO root fetch - main [MainThread]: End processing [lytools]: success
+[2024-04-26 06:12:46] INFO root fetch - processPackages [libnk2-python]: Remove: archive file [/home/abi/fetcher/tmp/libnk2-python-20240210.tar.gz]
+[2024-04-26 06:12:46] INFO root fetch - processPackages [libnk2-python]: Remove: archive file [/home/abi/fetcher/tmp/libnk2-python-20240426.tar.gz]
+[2024-04-26 06:12:46] INFO root fetch - main [MainThread]: End processing [libnk2-python]: success
+[2024-04-26 06:12:46] INFO root fetch - main [MainThread]: Store serial: [22942554]
