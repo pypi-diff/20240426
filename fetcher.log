@@ -14148,3 +14148,33 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 10:22:12] INFO root fetch - processPackages [GaiaScript]: Remove: archive file [/home/abi/fetcher/tmp/GaiaScript-0.1.1.6.tar.gz]
 [2024-04-26 10:22:12] INFO root fetch - main [MainThread]: End processing [GaiaScript]: success
 [2024-04-26 10:22:12] INFO root fetch - main [MainThread]: Store serial: [22944825]
+[2024-04-26 10:24:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22944825]
+[2024-04-26 10:24:22] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-26 10:24:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: databend-py
+[2024-04-26 10:24:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django_bocor_ds
+[2024-04-26 10:24:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pms-onpremise-encoder
+[2024-04-26 10:24:22] INFO root fetch - processPackages [pms-onpremise-encoder]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-26 10:24:22] INFO root fetch - processPackages [databend-py]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-04-26 10:24:22] INFO root fetch - processPackages [pms-onpremise-encoder]: Downloading https://files.pythonhosted.org/packages/2a/82/72efdd5e2e30f3767a9a39388592cc0ed6187b2a3498c0ccdc8313078e7d/pms-onpremise-encoder-0.0.8.tar.gz
+[2024-04-26 10:24:22] INFO root fetch - processPackages [django_bocor_ds]: New version: [2.2.0] Old Version: [2.1.0]
+[2024-04-26 10:24:22] INFO root fetch - processPackages [django_bocor_ds]: Downloading https://files.pythonhosted.org/packages/4e/d1/1b8effa91d01e3ec8f030458d44f0445f798a86a6720afc31fb523a15ae7/django_bocor_ds-2.1.0.tar.gz
+[2024-04-26 10:24:22] INFO root fetch - processPackages [databend-py]: Downloading https://files.pythonhosted.org/packages/67/51/f922161064b6722bdeeebeb106c3cb88ea55ac8fd4874bdc58a1a8734d58/databend-py-0.5.8.tar.gz
+[2024-04-26 10:24:23] INFO root fetch - processPackages [pms-onpremise-encoder]: Downloading https://files.pythonhosted.org/packages/88/cf/1d039bfc89f468e857b29a3c38c823f9537cc024e5e02959ad4bd1d7f546/pms-onpremise-encoder-0.0.9.tar.gz
+[2024-04-26 10:24:23] INFO root fetch - processPackages [pms-onpremise-encoder]: executing diffoscope
+[2024-04-26 10:24:23] INFO root fetch - processPackages [pms-onpremise-encoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pms-onpremise-encoder-0.0.8.tar.gz tmp/pms-onpremise-encoder-0.0.9.tar.gz --markdown 20240426/p/pms-onpremise-encoder/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-26 10:24:23] INFO root fetch - processPackages [databend-py]: Downloading https://files.pythonhosted.org/packages/83/e2/1550845b83aa069ca6c0766446055c5d85a394a0071902443f1cb83c405f/databend-py-0.5.9.tar.gz
+[2024-04-26 10:24:23] INFO root fetch - processPackages [databend-py]: executing diffoscope
+[2024-04-26 10:24:23] INFO root fetch - processPackages [databend-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databend-py-0.5.8.tar.gz tmp/databend-py-0.5.9.tar.gz --markdown 20240426/d/databend-py/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-04-26 10:24:23] INFO root fetch - processPackages [django_bocor_ds]: Downloading https://files.pythonhosted.org/packages/e7/fd/17165ea45f4afbfd07b2a99f67dc48b194e35edcffaeb47eab0a73fe70c4/django_bocor_ds-2.2.0.tar.gz
+[2024-04-26 10:24:23] INFO root fetch - processPackages [pms-onpremise-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms-onpremise-encoder-0.0.8.tar.gz]
+[2024-04-26 10:24:23] INFO root fetch - processPackages [pms-onpremise-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms-onpremise-encoder-0.0.9.tar.gz]
+[2024-04-26 10:24:23] INFO root fetch - main [MainThread]: End processing [pms-onpremise-encoder]: success
+[2024-04-26 10:24:23] INFO root fetch - processPackages [databend-py]: Remove: archive file [/home/abi/fetcher/tmp/databend-py-0.5.8.tar.gz]
+[2024-04-26 10:24:23] INFO root fetch - processPackages [databend-py]: Remove: archive file [/home/abi/fetcher/tmp/databend-py-0.5.9.tar.gz]
+[2024-04-26 10:24:23] INFO root fetch - main [MainThread]: End processing [databend-py]: success
+[2024-04-26 10:24:24] INFO root fetch - processPackages [django_bocor_ds]: executing diffoscope
+[2024-04-26 10:24:24] INFO root fetch - processPackages [django_bocor_ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_bocor_ds-2.1.0.tar.gz tmp/django_bocor_ds-2.2.0.tar.gz --markdown 20240426/d/django_bocor_ds/2.1.0-2.2.0/README.md --exclude *.pyd
+[2024-04-26 10:24:25] INFO root fetch - processPackages [django_bocor_ds]: Remove: archive file [/home/abi/fetcher/tmp/django_bocor_ds-2.1.0.tar.gz]
+[2024-04-26 10:24:25] INFO root fetch - processPackages [django_bocor_ds]: Remove: archive file [/home/abi/fetcher/tmp/django_bocor_ds-2.2.0.tar.gz]
+[2024-04-26 10:24:25] INFO root fetch - main [MainThread]: End processing [django_bocor_ds]: success
+[2024-04-26 10:24:25] INFO root fetch - main [MainThread]: Store serial: [22944834]
