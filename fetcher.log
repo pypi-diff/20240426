@@ -18032,3 +18032,48 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 12:49:50] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_nightly-1.33.1.dev20240425.tar.gz]
 [2024-04-26 12:49:50] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
 [2024-04-26 12:49:50] INFO root fetch - main [MainThread]: Store serial: [22946494]
+[2024-04-26 12:51:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22946494]
+[2024-04-26 12:51:58] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-26 12:51:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rsi-package
+[2024-04-26 12:51:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sample-helper-aws-appconfig
+[2024-04-26 12:51:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: TitanDevice
+[2024-04-26 12:51:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chatllm
+[2024-04-26 12:51:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: coinanalyse
+[2024-04-26 12:51:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dagster-toolbox
+[2024-04-26 12:51:58] INFO root fetch - processPackages [TitanDevice]: New version: [0.3.7] Old Version: [0.3.6.1]
+[2024-04-26 12:51:58] WARNING root fetch - processPackages [coinanalyse]: Skipping, unable to determine old version
+[2024-04-26 12:51:58] INFO root fetch - main [MainThread]: End processing [coinanalyse] error
+[2024-04-26 12:51:58] INFO root fetch - processPackages [dagster-toolbox]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-26 12:51:58] INFO root fetch - processPackages [TitanDevice]: Downloading https://files.pythonhosted.org/packages/ae/e0/8a64762c2b4c76cf8b47ec5e815248b9d834cb3d700e824705d48ac1617c/TitanDevice-0.3.6.1.tar.gz
+[2024-04-26 12:51:58] INFO root fetch - processPackages [sample-helper-aws-appconfig]: New version: [2.1.1] Old Version: [2.1.0]
+[2024-04-26 12:51:58] INFO root fetch - processPackages [dagster-toolbox]: Downloading https://files.pythonhosted.org/packages/81/cc/33840416f22e9cedd1d0dcbedc15117fe3695e9ddd263039c591c0dd4efa/dagster-toolbox-0.0.8.tar.gz
+[2024-04-26 12:51:58] WARNING root fetch - processPackages [rsi-package]: Skipping, unable to determine old version
+[2024-04-26 12:51:58] INFO root fetch - main [MainThread]: End processing [rsi-package] error
+[2024-04-26 12:51:58] INFO root fetch - processPackages [chatllm]: New version: [2024.4.3.18.28.17] Old Version: [2024.4.26.18.51.34]
+[2024-04-26 12:51:59] INFO root fetch - processPackages [sample-helper-aws-appconfig]: Downloading https://files.pythonhosted.org/packages/cd/02/c185ce4c738e7eba7644172527460beabd27d27aa53b07d9ba4de22246da/sample_helper_aws_appconfig-2.1.0.tar.gz
+[2024-04-26 12:51:59] INFO root fetch - processPackages [TitanDevice]: Downloading https://files.pythonhosted.org/packages/fe/ba/042eac0ee029aaf8758b4ed3bf642f21841b939b09499bb79326e9562111/TitanDevice-0.3.7.tar.gz
+[2024-04-26 12:51:59] INFO root fetch - processPackages [dagster-toolbox]: Downloading https://files.pythonhosted.org/packages/9a/6b/b9a026c41f2d2b39ba0fcb5ab35c4d26a67f87fe2e7701a3c0d492d27289/dagster-toolbox-0.0.9.tar.gz
+[2024-04-26 12:51:59] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/82/af/2874a79c661badbfb81e54e715c697a1e85b38f426b60083dea0031a2cfb/chatllm-2024.4.26.18.51.34.tar.gz
+[2024-04-26 12:51:59] INFO root fetch - processPackages [TitanDevice]: executing diffoscope
+[2024-04-26 12:51:59] INFO root fetch - processPackages [TitanDevice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TitanDevice-0.3.6.1.tar.gz tmp/TitanDevice-0.3.7.tar.gz --markdown 20240426/T/TitanDevice/0.3.6.1-0.3.7/README.md --exclude *.pyd
+[2024-04-26 12:51:59] INFO root fetch - processPackages [dagster-toolbox]: executing diffoscope
+[2024-04-26 12:51:59] INFO root fetch - processPackages [dagster-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagster-toolbox-0.0.8.tar.gz tmp/dagster-toolbox-0.0.9.tar.gz --markdown 20240426/d/dagster-toolbox/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-26 12:51:59] INFO root fetch - processPackages [sample-helper-aws-appconfig]: Downloading https://files.pythonhosted.org/packages/51/2a/d571717a686e42a5c4374c14f24755b89794b10881f7201b98c3da6320f9/sample_helper_aws_appconfig-2.1.1.tar.gz
+[2024-04-26 12:51:59] INFO root fetch - processPackages [sample-helper-aws-appconfig]: executing diffoscope
+[2024-04-26 12:51:59] INFO root fetch - processPackages [sample-helper-aws-appconfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sample_helper_aws_appconfig-2.1.0.tar.gz tmp/sample_helper_aws_appconfig-2.1.1.tar.gz --markdown 20240426/s/sample-helper-aws-appconfig/2.1.0-2.1.1/README.md --exclude *.pyd
+[2024-04-26 12:51:59] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/c0/66/70e97afa791a99fbb0077079ce0d33cf70c9260e0f42babeedaeba346800/chatllm-2024.4.3.18.28.17.tar.gz
+[2024-04-26 12:51:59] INFO root fetch - processPackages [TitanDevice]: Remove: archive file [/home/abi/fetcher/tmp/TitanDevice-0.3.6.1.tar.gz]
+[2024-04-26 12:51:59] INFO root fetch - processPackages [TitanDevice]: Remove: archive file [/home/abi/fetcher/tmp/TitanDevice-0.3.7.tar.gz]
+[2024-04-26 12:51:59] INFO root fetch - main [MainThread]: End processing [TitanDevice]: success
+[2024-04-26 12:51:59] INFO root fetch - processPackages [dagster-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/dagster-toolbox-0.0.8.tar.gz]
+[2024-04-26 12:51:59] INFO root fetch - processPackages [dagster-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/dagster-toolbox-0.0.9.tar.gz]
+[2024-04-26 12:51:59] INFO root fetch - main [MainThread]: End processing [dagster-toolbox]: success
+[2024-04-26 12:51:59] INFO root fetch - processPackages [sample-helper-aws-appconfig]: Remove: archive file [/home/abi/fetcher/tmp/sample_helper_aws_appconfig-2.1.0.tar.gz]
+[2024-04-26 12:51:59] INFO root fetch - processPackages [sample-helper-aws-appconfig]: Remove: archive file [/home/abi/fetcher/tmp/sample_helper_aws_appconfig-2.1.1.tar.gz]
+[2024-04-26 12:51:59] INFO root fetch - main [MainThread]: End processing [sample-helper-aws-appconfig]: success
+[2024-04-26 12:52:00] INFO root fetch - processPackages [chatllm]: executing diffoscope
+[2024-04-26 12:52:00] INFO root fetch - processPackages [chatllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatllm-2024.4.26.18.51.34.tar.gz tmp/chatllm-2024.4.3.18.28.17.tar.gz --markdown 20240426/c/chatllm/2024.4.26.18.51.34-2024.4.3.18.28.17/README.md --exclude *.pyd
+[2024-04-26 12:52:01] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.4.26.18.51.34.tar.gz]
+[2024-04-26 12:52:01] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.4.3.18.28.17.tar.gz]
+[2024-04-26 12:52:01] INFO root fetch - main [MainThread]: End processing [chatllm]: success
+[2024-04-26 12:52:01] INFO root fetch - main [MainThread]: Store serial: [22946510]
