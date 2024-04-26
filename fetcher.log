@@ -9110,3 +9110,42 @@
 [2024-04-26 06:32:16] INFO root fetch - processPackages [wizlib]: Remove: archive file [/home/abi/fetcher/tmp/wizlib-2.0.9.tar.gz]
 [2024-04-26 06:32:16] INFO root fetch - main [MainThread]: End processing [wizlib]: success
 [2024-04-26 06:32:16] INFO root fetch - main [MainThread]: Store serial: [22942643]
+[2024-04-26 06:34:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22942643]
+[2024-04-26 06:34:25] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-26 06:34:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-sync-env
+[2024-04-26 06:34:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fedops
+[2024-04-26 06:34:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addons-oca-l10n-switzerland
+[2024-04-26 06:34:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sherpa-ai
+[2024-04-26 06:34:26] INFO root fetch - processPackages [django-sync-env]: New version: [0.3.1a3] Old Version: [0.3.1a2]
+[2024-04-26 06:34:26] INFO root fetch - processPackages [django-sync-env]: Downloading https://files.pythonhosted.org/packages/26/b3/e0578598648e94a1153240a5955ed3746dd58f705d97a463fa53e7da5326/django_sync_env-0.3.1a2.tar.gz
+[2024-04-26 06:34:26] INFO root fetch - processPackages [fedops]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-04-26 06:34:26] INFO root fetch - processPackages [sherpa-ai]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-26 06:34:26] INFO root fetch - processPackages [odoo-addons-oca-l10n-switzerland]: New version: [16.0.20240425.0] Old Version: [16.0.20240118.0]
+[2024-04-26 06:34:26] INFO root fetch - processPackages [fedops]: Downloading https://files.pythonhosted.org/packages/64/03/3018692cdcc09e6a12c8931415a8d7a2ecc817aa26219ffc1abbc7290463/fedops-1.1.8.tar.gz
+[2024-04-26 06:34:26] INFO root fetch - processPackages [sherpa-ai]: Downloading https://files.pythonhosted.org/packages/5a/25/5fe5f731b0f947c5115fd72b18f7f52d8618463cb399590c5ee6155fcdf7/sherpa_ai-0.2.0.tar.gz
+[2024-04-26 06:34:26] INFO root fetch - processPackages [odoo-addons-oca-l10n-switzerland]: Downloading https://files.pythonhosted.org/packages/13/34/d0b73ee7b08bcc8ea7fb883ef779d2fd6d8a1fd9111da442103a44e69125/odoo_addons_oca_l10n_switzerland-16.0.20240118.0-py3-none-any.whl
+[2024-04-26 06:34:26] INFO root fetch - processPackages [django-sync-env]: Downloading https://files.pythonhosted.org/packages/e7/59/0fab5b27cd24ed78092c699c059408c175604be6b91d8dcb2127c0f15ec6/django_sync_env-0.3.1a3.tar.gz
+[2024-04-26 06:34:26] INFO root fetch - processPackages [django-sync-env]: executing diffoscope
+[2024-04-26 06:34:26] INFO root fetch - processPackages [django-sync-env]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_sync_env-0.3.1a2.tar.gz tmp/django_sync_env-0.3.1a3.tar.gz --markdown 20240426/d/django-sync-env/0.3.1a2-0.3.1a3/README.md --exclude *.pyd
+[2024-04-26 06:34:26] INFO root fetch - processPackages [odoo-addons-oca-l10n-switzerland]: Downloading https://files.pythonhosted.org/packages/5a/c3/237c1e57eb5f89e6d8fb5aa57838513969cdeb1cf79646fb831e32779c21/odoo_addons_oca_l10n_switzerland-16.0.20240425.0-py3-none-any.whl
+[2024-04-26 06:34:26] INFO root fetch - processPackages [fedops]: Downloading https://files.pythonhosted.org/packages/62/73/a5d8e6121377b1eee92bfd03a774c7af43e2a925c896b011c718a54d73a9/fedops-1.1.9.tar.gz
+[2024-04-26 06:34:26] INFO root fetch - processPackages [sherpa-ai]: Downloading https://files.pythonhosted.org/packages/03/cb/ce0557bc76438a805260bd72574e88136362fa2017fc22a50adf08f8263e/sherpa_ai-0.2.1.tar.gz
+[2024-04-26 06:34:26] INFO root fetch - processPackages [odoo-addons-oca-l10n-switzerland]: executing diffoscope
+[2024-04-26 06:34:26] INFO root fetch - processPackages [odoo-addons-oca-l10n-switzerland]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_l10n_switzerland-16.0.20240118.0-py3-none-any.whl.zip tmp/odoo_addons_oca_l10n_switzerland-16.0.20240425.0-py3-none-any.whl.zip --markdown 20240426/o/odoo-addons-oca-l10n-switzerland/16.0.20240118.0-16.0.20240425.0/README.md --exclude *.pyd
+[2024-04-26 06:34:26] INFO root fetch - processPackages [fedops]: executing diffoscope
+[2024-04-26 06:34:26] INFO root fetch - processPackages [fedops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fedops-1.1.8.tar.gz tmp/fedops-1.1.9.tar.gz --markdown 20240426/f/fedops/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-04-26 06:34:27] INFO root fetch - processPackages [django-sync-env]: Remove: archive file [/home/abi/fetcher/tmp/django_sync_env-0.3.1a2.tar.gz]
+[2024-04-26 06:34:27] INFO root fetch - processPackages [django-sync-env]: Remove: archive file [/home/abi/fetcher/tmp/django_sync_env-0.3.1a3.tar.gz]
+[2024-04-26 06:34:27] INFO root fetch - main [MainThread]: End processing [django-sync-env]: success
+[2024-04-26 06:34:27] INFO root fetch - processPackages [odoo-addons-oca-l10n-switzerland]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_l10n_switzerland-16.0.20240118.0-py3-none-any.whl.zip]
+[2024-04-26 06:34:27] INFO root fetch - processPackages [odoo-addons-oca-l10n-switzerland]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_l10n_switzerland-16.0.20240425.0-py3-none-any.whl.zip]
+[2024-04-26 06:34:27] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-l10n-switzerland]: success
+[2024-04-26 06:34:27] INFO root fetch - processPackages [sherpa-ai]: executing diffoscope
+[2024-04-26 06:34:27] INFO root fetch - processPackages [sherpa-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sherpa_ai-0.2.0.tar.gz tmp/sherpa_ai-0.2.1.tar.gz --markdown 20240426/s/sherpa-ai/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-04-26 06:34:27] INFO root fetch - processPackages [fedops]: Remove: archive file [/home/abi/fetcher/tmp/fedops-1.1.8.tar.gz]
+[2024-04-26 06:34:27] INFO root fetch - processPackages [fedops]: Remove: archive file [/home/abi/fetcher/tmp/fedops-1.1.9.tar.gz]
+[2024-04-26 06:34:27] INFO root fetch - main [MainThread]: End processing [fedops]: success
+[2024-04-26 06:34:28] INFO root fetch - processPackages [sherpa-ai]: Remove: archive file [/home/abi/fetcher/tmp/sherpa_ai-0.2.0.tar.gz]
+[2024-04-26 06:34:28] INFO root fetch - processPackages [sherpa-ai]: Remove: archive file [/home/abi/fetcher/tmp/sherpa_ai-0.2.1.tar.gz]
+[2024-04-26 06:34:28] INFO root fetch - main [MainThread]: End processing [sherpa-ai]: success
+[2024-04-26 06:34:28] INFO root fetch - main [MainThread]: Store serial: [22942652]
