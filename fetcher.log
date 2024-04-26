@@ -18137,3 +18137,39 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 12:54:15] INFO root fetch - processPackages [cyclonedx-python-lib]: Remove: archive file [/home/abi/fetcher/tmp/cyclonedx_python_lib-7.3.2.tar.gz]
 [2024-04-26 12:54:15] INFO root fetch - main [MainThread]: End processing [cyclonedx-python-lib]: success
 [2024-04-26 12:54:15] INFO root fetch - main [MainThread]: Store serial: [22946540]
+[2024-04-26 12:56:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22946540]
+[2024-04-26 12:56:24] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-26 12:56:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kabaret.flow-extensions
+[2024-04-26 12:56:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: inferless-cli
+[2024-04-26 12:56:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: eral
+[2024-04-26 12:56:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nwb4fp
+[2024-04-26 12:56:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: MinVectorDB
+[2024-04-26 12:56:24] WARNING root fetch - processPackages [eral]: Skipping, unable to determine old version
+[2024-04-26 12:56:24] INFO root fetch - main [MainThread]: End processing [eral] error
+[2024-04-26 12:56:24] WARNING root fetch - processPackages [kabaret.flow-extensions]: Skipping, unable to determine old version
+[2024-04-26 12:56:24] INFO root fetch - main [MainThread]: End processing [kabaret.flow-extensions] error
+[2024-04-26 12:56:24] INFO root fetch - processPackages [inferless-cli]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-04-26 12:56:24] INFO root fetch - processPackages [MinVectorDB]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-04-26 12:56:25] INFO root fetch - processPackages [nwb4fp]: New version: [0.6.0.8] Old Version: [0.6.0.7]
+[2024-04-26 12:56:25] INFO root fetch - processPackages [inferless-cli]: Downloading https://files.pythonhosted.org/packages/cb/73/39e6b5c711b60bd078d26cb842949a41e9b9b2765921aee0932fb772fde1/inferless_cli-1.1.1.tar.gz
+[2024-04-26 12:56:25] INFO root fetch - processPackages [MinVectorDB]: Downloading https://files.pythonhosted.org/packages/50/f8/786f5f09d57ec9e521bac1f06f2e0aff2929e9b6e34c2eb437e0e096fe6d/minvectordb-0.3.1.tar.gz
+[2024-04-26 12:56:25] INFO root fetch - processPackages [nwb4fp]: Downloading https://files.pythonhosted.org/packages/ab/9a/cab158f5a4418addca86fb0c878402fde5bea112ebfba0c9b165a313c525/nwb4fp-0.6.0.7.tar.gz
+[2024-04-26 12:56:25] INFO root fetch - processPackages [nwb4fp]: Downloading https://files.pythonhosted.org/packages/b4/7a/ca86eadc320884087a8ae1e1dbf314a7609a3254621f4b4bc601b14216d0/nwb4fp-0.6.0.8-py3-none-any.whl
+[2024-04-26 12:56:25] INFO root fetch - processPackages [MinVectorDB]: Downloading https://files.pythonhosted.org/packages/43/67/57c0d952f0bb1f1ded3abcea146543e4b05f6c6d802b5bf92f7bf0073261/minvectordb-0.3.2.tar.gz
+[2024-04-26 12:56:25] INFO root fetch - processPackages [inferless-cli]: Downloading https://files.pythonhosted.org/packages/43/ed/c2111166a395e29e430d5ce0d3130e5bf72f5bef90ada9587e290fa953d9/inferless_cli-1.1.2.tar.gz
+[2024-04-26 12:56:25] INFO root fetch - processPackages [nwb4fp]: executing diffoscope
+[2024-04-26 12:56:25] INFO root fetch - processPackages [nwb4fp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwb4fp-0.6.0.7.tar.gz tmp/nwb4fp-0.6.0.8-py3-none-any.whl.zip --markdown 20240426/n/nwb4fp/0.6.0.7-0.6.0.8/README.md --exclude *.pyd
+[2024-04-26 12:56:25] INFO root fetch - processPackages [MinVectorDB]: executing diffoscope
+[2024-04-26 12:56:25] INFO root fetch - processPackages [MinVectorDB]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minvectordb-0.3.1.tar.gz tmp/minvectordb-0.3.2.tar.gz --markdown 20240426/M/MinVectorDB/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-04-26 12:56:25] INFO root fetch - processPackages [inferless-cli]: executing diffoscope
+[2024-04-26 12:56:25] INFO root fetch - processPackages [inferless-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inferless_cli-1.1.1.tar.gz tmp/inferless_cli-1.1.2.tar.gz --markdown 20240426/i/inferless-cli/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-04-26 12:56:26] INFO root fetch - processPackages [nwb4fp]: Remove: archive file [/home/abi/fetcher/tmp/nwb4fp-0.6.0.7.tar.gz]
+[2024-04-26 12:56:26] INFO root fetch - processPackages [nwb4fp]: Remove: archive file [/home/abi/fetcher/tmp/nwb4fp-0.6.0.8-py3-none-any.whl.zip]
+[2024-04-26 12:56:26] INFO root fetch - main [MainThread]: End processing [nwb4fp]: success
+[2024-04-26 12:56:26] INFO root fetch - processPackages [inferless-cli]: Remove: archive file [/home/abi/fetcher/tmp/inferless_cli-1.1.1.tar.gz]
+[2024-04-26 12:56:26] INFO root fetch - processPackages [inferless-cli]: Remove: archive file [/home/abi/fetcher/tmp/inferless_cli-1.1.2.tar.gz]
+[2024-04-26 12:56:26] INFO root fetch - main [MainThread]: End processing [inferless-cli]: success
+[2024-04-26 12:56:26] INFO root fetch - processPackages [MinVectorDB]: Remove: archive file [/home/abi/fetcher/tmp/minvectordb-0.3.1.tar.gz]
+[2024-04-26 12:56:26] INFO root fetch - processPackages [MinVectorDB]: Remove: archive file [/home/abi/fetcher/tmp/minvectordb-0.3.2.tar.gz]
+[2024-04-26 12:56:26] INFO root fetch - main [MainThread]: End processing [MinVectorDB]: success
+[2024-04-26 12:56:26] INFO root fetch - main [MainThread]: Store serial: [22946573]
