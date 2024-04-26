@@ -8293,3 +8293,33 @@
 [2024-04-26 05:31:17] INFO root fetch - processPackages [keras-nlp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras-nlp-nightly-0.9.0.dev2024041003.tar.gz]
 [2024-04-26 05:31:17] INFO root fetch - main [MainThread]: End processing [keras-nlp-nightly]: success
 [2024-04-26 05:31:17] INFO root fetch - main [MainThread]: Store serial: [22942308]
+[2024-04-26 05:33:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22942308]
+[2024-04-26 05:33:25] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-26 05:33:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: csvtojsonify
+[2024-04-26 05:33:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wavy-totem-lib
+[2024-04-26 05:33:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dsame3-simple
+[2024-04-26 05:33:25] INFO root fetch - processPackages [csvtojsonify]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-04-26 05:33:25] INFO root fetch - processPackages [csvtojsonify]: Downloading https://files.pythonhosted.org/packages/be/d2/87b5749f5fd74de60fbb6f3592a0d542fc5d63af5f1d7843709bcd99b6be/csvtojsonify-1.1.0.tar.gz
+[2024-04-26 05:33:25] INFO root fetch - processPackages [dsame3-simple]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-26 05:33:25] INFO root fetch - processPackages [wavy-totem-lib]: New version: [2.0.0] Old Version: [1.5.1]
+[2024-04-26 05:33:25] INFO root fetch - processPackages [dsame3-simple]: Downloading https://files.pythonhosted.org/packages/c4/f1/78fca8301fda8956bd0173e3b342f1ca7588261c08ef2f69b79ef5a83d9a/dsame3_simple-0.0.2.tar.gz
+[2024-04-26 05:33:25] INFO root fetch - processPackages [wavy-totem-lib]: Downloading https://files.pythonhosted.org/packages/24/93/277f2708350ebddd1b3102739a0481e357c9ec3f6d4b7bf3476b92ae56b6/wavy_totem_lib-1.5.1.tar.gz
+[2024-04-26 05:33:25] INFO root fetch - processPackages [csvtojsonify]: Downloading https://files.pythonhosted.org/packages/a5/3f/10209954f4f640e54ba05fbb89f36c7cbf771d275311f21c6d993f66600e/csvtojsonify-1.2.0.tar.gz
+[2024-04-26 05:33:26] INFO root fetch - processPackages [csvtojsonify]: executing diffoscope
+[2024-04-26 05:33:26] INFO root fetch - processPackages [csvtojsonify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/csvtojsonify-1.1.0.tar.gz tmp/csvtojsonify-1.2.0.tar.gz --markdown 20240426/c/csvtojsonify/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-04-26 05:33:26] INFO root fetch - processPackages [wavy-totem-lib]: Downloading https://files.pythonhosted.org/packages/a2/aa/19ff7aed71e7b3e0c0edc118fa9706501545b78a9fe8419d4c1d278d9a21/wavy_totem_lib-2.0.0.tar.gz
+[2024-04-26 05:33:26] INFO root fetch - processPackages [dsame3-simple]: Downloading https://files.pythonhosted.org/packages/c0/93/ed6d748efc7bea6c97b5047836cd1001550e6d41b5976d9592aa902cb55d/dsame3_simple-0.0.3.tar.gz
+[2024-04-26 05:33:26] INFO root fetch - processPackages [wavy-totem-lib]: executing diffoscope
+[2024-04-26 05:33:26] INFO root fetch - processPackages [wavy-totem-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wavy_totem_lib-1.5.1.tar.gz tmp/wavy_totem_lib-2.0.0.tar.gz --markdown 20240426/w/wavy-totem-lib/1.5.1-2.0.0/README.md --exclude *.pyd
+[2024-04-26 05:33:26] INFO root fetch - processPackages [dsame3-simple]: executing diffoscope
+[2024-04-26 05:33:26] INFO root fetch - processPackages [dsame3-simple]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsame3_simple-0.0.2.tar.gz tmp/dsame3_simple-0.0.3.tar.gz --markdown 20240426/d/dsame3-simple/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-26 05:33:26] INFO root fetch - processPackages [csvtojsonify]: Remove: archive file [/home/abi/fetcher/tmp/csvtojsonify-1.1.0.tar.gz]
+[2024-04-26 05:33:26] INFO root fetch - processPackages [csvtojsonify]: Remove: archive file [/home/abi/fetcher/tmp/csvtojsonify-1.2.0.tar.gz]
+[2024-04-26 05:33:26] INFO root fetch - main [MainThread]: End processing [csvtojsonify]: success
+[2024-04-26 05:33:26] INFO root fetch - processPackages [wavy-totem-lib]: Remove: archive file [/home/abi/fetcher/tmp/wavy_totem_lib-1.5.1.tar.gz]
+[2024-04-26 05:33:26] INFO root fetch - processPackages [wavy-totem-lib]: Remove: archive file [/home/abi/fetcher/tmp/wavy_totem_lib-2.0.0.tar.gz]
+[2024-04-26 05:33:26] INFO root fetch - main [MainThread]: End processing [wavy-totem-lib]: success
+[2024-04-26 05:33:26] INFO root fetch - processPackages [dsame3-simple]: Remove: archive file [/home/abi/fetcher/tmp/dsame3_simple-0.0.2.tar.gz]
+[2024-04-26 05:33:26] INFO root fetch - processPackages [dsame3-simple]: Remove: archive file [/home/abi/fetcher/tmp/dsame3_simple-0.0.3.tar.gz]
+[2024-04-26 05:33:26] INFO root fetch - main [MainThread]: End processing [dsame3-simple]: success
+[2024-04-26 05:33:26] INFO root fetch - main [MainThread]: Store serial: [22942317]
