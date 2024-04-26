@@ -11793,3 +11793,51 @@
 [2024-04-26 08:55:50] INFO root fetch - processPackages [pms-onpremise-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms-onpremise-encoder-0.0.4.tar.gz]
 [2024-04-26 08:55:50] INFO root fetch - main [MainThread]: End processing [pms-onpremise-encoder]: success
 [2024-04-26 08:55:50] INFO root fetch - main [MainThread]: Store serial: [22943678]
+[2024-04-26 08:57:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22943678]
+[2024-04-26 08:57:59] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-26 08:57:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-signalfx
+[2024-04-26 08:57:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gingerai
+[2024-04-26 08:57:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ssb-datadoc-model
+[2024-04-26 08:57:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ketacli
+[2024-04-26 08:57:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kfre
+[2024-04-26 08:57:59] INFO root fetch - processPackages [gingerai]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-26 08:57:59] INFO root fetch - processPackages [kfre]: New version: [0.1.1a7] Old Version: [0.1.1a6]
+[2024-04-26 08:57:59] INFO root fetch - processPackages [gingerai]: Downloading https://files.pythonhosted.org/packages/93/63/5f4a6d2549870026eff659d1fc9aac0f6c9532ea741f07ac2083cd3a1cfe/gingerai-0.1.8.tar.gz
+[2024-04-26 08:57:59] INFO root fetch - processPackages [kfre]: Downloading https://files.pythonhosted.org/packages/e8/b9/463cf861200ce5dea0a07aec40048731bd0d3b4ce09af6726fae757863cb/kfre-0.1.1a6.tar.gz
+[2024-04-26 08:57:59] INFO root fetch - processPackages [ssb-datadoc-model]: New version: [5.3.0] Old Version: [5.2.0]
+[2024-04-26 08:57:59] INFO root fetch - processPackages [ketacli]: New version: [0.9] Old Version: [0.8]
+[2024-04-26 08:57:59] INFO root fetch - processPackages [pulumi-signalfx]: New version: [7.2.0a1714112434] Old Version: [7.2.0a1713976306]
+[2024-04-26 08:57:59] INFO root fetch - processPackages [pulumi-signalfx]: Downloading https://files.pythonhosted.org/packages/da/fd/de11d8a9c8b1f53d1877c2219e865e61e1a274b0752d9a2b0d66a0623553/pulumi_signalfx-7.2.0a1713976306.tar.gz
+[2024-04-26 08:57:59] INFO root fetch - processPackages [gingerai]: Downloading https://files.pythonhosted.org/packages/33/65/a59be7a360a71da6fb875287e72120e252018dc037eef33b15ac50759b89/gingerai-0.1.9.tar.gz
+[2024-04-26 08:57:59] INFO root fetch - processPackages [ketacli]: Downloading https://files.pythonhosted.org/packages/26/21/56d65bb9c164a4fda18b7374277a8c8235463d0e639ec6f3b77630516473/ketacli-0.8.tar.gz
+[2024-04-26 08:57:59] INFO root fetch - processPackages [ssb-datadoc-model]: Downloading https://files.pythonhosted.org/packages/23/d1/97d04328e5fcc2b49b43a1f1b4a934e48ce5e808cae2bb140cb76c47eeff/ssb_datadoc_model-5.2.0.tar.gz
+[2024-04-26 08:57:59] INFO root fetch - processPackages [kfre]: Downloading https://files.pythonhosted.org/packages/2a/04/11d61d927ee4fd8c2d391d5b0d8de5acf453e3f83d13a96bbb89958d26c4/kfre-0.1.1a7.tar.gz
+[2024-04-26 08:57:59] INFO root fetch - processPackages [gingerai]: executing diffoscope
+[2024-04-26 08:57:59] INFO root fetch - processPackages [gingerai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gingerai-0.1.8.tar.gz tmp/gingerai-0.1.9.tar.gz --markdown 20240426/g/gingerai/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-26 08:58:00] INFO root fetch - processPackages [kfre]: executing diffoscope
+[2024-04-26 08:58:00] INFO root fetch - processPackages [kfre]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfre-0.1.1a6.tar.gz tmp/kfre-0.1.1a7.tar.gz --markdown 20240426/k/kfre/0.1.1a6-0.1.1a7/README.md --exclude *.pyd
+[2024-04-26 08:58:00] INFO root fetch - processPackages [pulumi-signalfx]: Downloading https://files.pythonhosted.org/packages/b7/a1/8ffc1624f8dc32db8f2cc221bb59e1d71fd6c98ca2f63d85cb166a3dadba/pulumi_signalfx-7.2.0a1714112434.tar.gz
+[2024-04-26 08:58:00] INFO root fetch - processPackages [ssb-datadoc-model]: Downloading https://files.pythonhosted.org/packages/fe/f7/35b62c3ecd276c724180a934805c21c5af61bb7c6c0a325fe8c0cd779d5c/ssb_datadoc_model-5.3.0.tar.gz
+[2024-04-26 08:58:00] INFO root fetch - processPackages [pulumi-signalfx]: executing diffoscope
+[2024-04-26 08:58:00] INFO root fetch - processPackages [pulumi-signalfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_signalfx-7.2.0a1713976306.tar.gz tmp/pulumi_signalfx-7.2.0a1714112434.tar.gz --markdown 20240426/p/pulumi-signalfx/7.2.0a1713976306-7.2.0a1714112434/README.md --exclude *.pyd
+[2024-04-26 08:58:00] INFO root fetch - processPackages [ketacli]: Downloading https://files.pythonhosted.org/packages/a9/f4/d17557b1ae241bb7d49f310e2d6dca5c0bc3fae2f46dd05d76b0ac740d16/ketacli-0.9.tar.gz
+[2024-04-26 08:58:00] INFO root fetch - processPackages [ssb-datadoc-model]: executing diffoscope
+[2024-04-26 08:58:00] INFO root fetch - processPackages [ssb-datadoc-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssb_datadoc_model-5.2.0.tar.gz tmp/ssb_datadoc_model-5.3.0.tar.gz --markdown 20240426/s/ssb-datadoc-model/5.2.0-5.3.0/README.md --exclude *.pyd
+[2024-04-26 08:58:00] INFO root fetch - processPackages [gingerai]: Remove: archive file [/home/abi/fetcher/tmp/gingerai-0.1.8.tar.gz]
+[2024-04-26 08:58:00] INFO root fetch - processPackages [gingerai]: Remove: archive file [/home/abi/fetcher/tmp/gingerai-0.1.9.tar.gz]
+[2024-04-26 08:58:00] INFO root fetch - main [MainThread]: End processing [gingerai]: success
+[2024-04-26 08:58:00] INFO root fetch - processPackages [ketacli]: executing diffoscope
+[2024-04-26 08:58:00] INFO root fetch - processPackages [ketacli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ketacli-0.8.tar.gz tmp/ketacli-0.9.tar.gz --markdown 20240426/k/ketacli/0.8-0.9/README.md --exclude *.pyd
+[2024-04-26 08:58:00] INFO root fetch - processPackages [kfre]: Remove: archive file [/home/abi/fetcher/tmp/kfre-0.1.1a6.tar.gz]
+[2024-04-26 08:58:00] INFO root fetch - processPackages [kfre]: Remove: archive file [/home/abi/fetcher/tmp/kfre-0.1.1a7.tar.gz]
+[2024-04-26 08:58:00] INFO root fetch - main [MainThread]: End processing [kfre]: success
+[2024-04-26 08:58:01] INFO root fetch - processPackages [pulumi-signalfx]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_signalfx-7.2.0a1713976306.tar.gz]
+[2024-04-26 08:58:01] INFO root fetch - processPackages [pulumi-signalfx]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_signalfx-7.2.0a1714112434.tar.gz]
+[2024-04-26 08:58:01] INFO root fetch - main [MainThread]: End processing [pulumi-signalfx]: success
+[2024-04-26 08:58:01] INFO root fetch - processPackages [ketacli]: Remove: archive file [/home/abi/fetcher/tmp/ketacli-0.8.tar.gz]
+[2024-04-26 08:58:01] INFO root fetch - processPackages [ketacli]: Remove: archive file [/home/abi/fetcher/tmp/ketacli-0.9.tar.gz]
+[2024-04-26 08:58:01] INFO root fetch - main [MainThread]: End processing [ketacli]: success
+[2024-04-26 08:58:01] INFO root fetch - processPackages [ssb-datadoc-model]: Remove: archive file [/home/abi/fetcher/tmp/ssb_datadoc_model-5.2.0.tar.gz]
+[2024-04-26 08:58:01] INFO root fetch - processPackages [ssb-datadoc-model]: Remove: archive file [/home/abi/fetcher/tmp/ssb_datadoc_model-5.3.0.tar.gz]
+[2024-04-26 08:58:01] INFO root fetch - main [MainThread]: End processing [ssb-datadoc-model]: success
+[2024-04-26 08:58:01] INFO root fetch - main [MainThread]: Store serial: [22943694]
