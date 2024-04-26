@@ -8066,3 +8066,33 @@
 [2024-04-26 05:18:04] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-spotinst-9.0.9.tar.gz]
 [2024-04-26 05:18:04] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-spotinst]: success
 [2024-04-26 05:18:04] INFO root fetch - main [MainThread]: Store serial: [22942214]
+[2024-04-26 05:20:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22942214]
+[2024-04-26 05:20:13] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-26 05:20:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdktf-cdktf-provider-opentelekomcloud
+[2024-04-26 05:20:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ncpcs-common
+[2024-04-26 05:20:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: csvtojsonify
+[2024-04-26 05:20:13] INFO root fetch - processPackages [csvtojsonify]: New version: [1.1.0] Old Version: [1.0.1]
+[2024-04-26 05:20:13] INFO root fetch - processPackages [csvtojsonify]: Downloading https://files.pythonhosted.org/packages/c1/42/587da2ac8369367902a004049c1dc0ff52874ff2efbe49ab13e7acfc5715/csvtojsonify-1.0.1.tar.gz
+[2024-04-26 05:20:13] INFO root fetch - processPackages [ncpcs-common]: New version: [1.1.4] Old Version: [1.1.3]
+[2024-04-26 05:20:13] INFO root fetch - processPackages [cdktf-cdktf-provider-opentelekomcloud]: New version: [9.0.3] Old Version: [9.0.2]
+[2024-04-26 05:20:13] INFO root fetch - processPackages [ncpcs-common]: Downloading https://files.pythonhosted.org/packages/cc/02/8ccdd6048a6e8f7f6409660c48153b7d352ccd444b18b14a70f0716a3db2/ncpcs_common-1.1.3.tar.gz
+[2024-04-26 05:20:13] INFO root fetch - processPackages [csvtojsonify]: Downloading https://files.pythonhosted.org/packages/be/d2/87b5749f5fd74de60fbb6f3592a0d542fc5d63af5f1d7843709bcd99b6be/csvtojsonify-1.1.0.tar.gz
+[2024-04-26 05:20:13] INFO root fetch - processPackages [cdktf-cdktf-provider-opentelekomcloud]: Downloading https://files.pythonhosted.org/packages/25/5d/4e16255c4b96e1e12b50eaa52595c1013b61e4009b86a4252e7a89d491f5/cdktf-cdktf-provider-opentelekomcloud-9.0.2.tar.gz
+[2024-04-26 05:20:13] INFO root fetch - processPackages [csvtojsonify]: executing diffoscope
+[2024-04-26 05:20:13] INFO root fetch - processPackages [csvtojsonify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/csvtojsonify-1.0.1.tar.gz tmp/csvtojsonify-1.1.0.tar.gz --markdown 20240426/c/csvtojsonify/1.0.1-1.1.0/README.md --exclude *.pyd
+[2024-04-26 05:20:14] INFO root fetch - processPackages [ncpcs-common]: Downloading https://files.pythonhosted.org/packages/f7/d9/23ca8f17e6d4c3ae07b178ab4c26c7da50b03ee3a6ae1b70e4586ac673e0/ncpcs_common-1.1.4.tar.gz
+[2024-04-26 05:20:14] INFO root fetch - processPackages [ncpcs-common]: executing diffoscope
+[2024-04-26 05:20:14] INFO root fetch - processPackages [ncpcs-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ncpcs_common-1.1.3.tar.gz tmp/ncpcs_common-1.1.4.tar.gz --markdown 20240426/n/ncpcs-common/1.1.3-1.1.4/README.md --exclude *.pyd
+[2024-04-26 05:20:14] INFO root fetch - processPackages [csvtojsonify]: Remove: archive file [/home/abi/fetcher/tmp/csvtojsonify-1.0.1.tar.gz]
+[2024-04-26 05:20:14] INFO root fetch - processPackages [csvtojsonify]: Remove: archive file [/home/abi/fetcher/tmp/csvtojsonify-1.1.0.tar.gz]
+[2024-04-26 05:20:14] INFO root fetch - main [MainThread]: End processing [csvtojsonify]: success
+[2024-04-26 05:20:14] INFO root fetch - processPackages [ncpcs-common]: Remove: archive file [/home/abi/fetcher/tmp/ncpcs_common-1.1.3.tar.gz]
+[2024-04-26 05:20:14] INFO root fetch - processPackages [ncpcs-common]: Remove: archive file [/home/abi/fetcher/tmp/ncpcs_common-1.1.4.tar.gz]
+[2024-04-26 05:20:14] INFO root fetch - main [MainThread]: End processing [ncpcs-common]: success
+[2024-04-26 05:20:15] INFO root fetch - processPackages [cdktf-cdktf-provider-opentelekomcloud]: Downloading https://files.pythonhosted.org/packages/39/17/3c273360c73bc39d11aecf1ff01e54107401e2f87112d02c46161075a612/cdktf-cdktf-provider-opentelekomcloud-9.0.3.tar.gz
+[2024-04-26 05:20:16] INFO root fetch - processPackages [cdktf-cdktf-provider-opentelekomcloud]: executing diffoscope
+[2024-04-26 05:20:16] INFO root fetch - processPackages [cdktf-cdktf-provider-opentelekomcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-opentelekomcloud-9.0.2.tar.gz tmp/cdktf-cdktf-provider-opentelekomcloud-9.0.3.tar.gz --markdown 20240426/c/cdktf-cdktf-provider-opentelekomcloud/9.0.2-9.0.3/README.md --exclude *.pyd
+[2024-04-26 05:20:23] INFO root fetch - processPackages [cdktf-cdktf-provider-opentelekomcloud]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-opentelekomcloud-9.0.2.tar.gz]
+[2024-04-26 05:20:23] INFO root fetch - processPackages [cdktf-cdktf-provider-opentelekomcloud]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-opentelekomcloud-9.0.3.tar.gz]
+[2024-04-26 05:20:23] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-opentelekomcloud]: success
+[2024-04-26 05:20:23] INFO root fetch - main [MainThread]: Store serial: [22942226]
