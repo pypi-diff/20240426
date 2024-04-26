@@ -22241,3 +22241,56 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 15:56:12] INFO root fetch - processPackages [pydiverse-pipedag]: Remove: archive file [/home/abi/fetcher/tmp/pydiverse_pipedag-0.9.1.tar.gz]
 [2024-04-26 15:56:12] INFO root fetch - main [MainThread]: End processing [pydiverse-pipedag]: success
 [2024-04-26 15:56:12] INFO root fetch - main [MainThread]: Store serial: [22948366]
+[2024-04-26 15:58:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22948366]
+[2024-04-26 15:58:21] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-26 15:58:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: prodigy-prot
+[2024-04-26 15:58:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tuxsuite
+[2024-04-26 15:58:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: grooveshop-django-api
+[2024-04-26 15:58:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PREN-flawas
+[2024-04-26 15:58:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: morphapi
+[2024-04-26 15:58:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fsst
+[2024-04-26 15:58:21] INFO root fetch - processPackages [prodigy-prot]: New version: [2.2.1] Old Version: [2.1.5]
+[2024-04-26 15:58:21] INFO root fetch - processPackages [PREN-flawas]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-26 15:58:21] INFO root fetch - processPackages [tuxsuite]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-26 15:58:21] INFO root fetch - processPackages [grooveshop-django-api]: New version: [0.99.1] Old Version: [0.99.0]
+[2024-04-26 15:58:21] INFO root fetch - processPackages [PREN-flawas]: Downloading https://files.pythonhosted.org/packages/7a/00/f05441614283fc3106d11a7c88cbbe431478d04d88ad321018774cec9a00/pren_flawas-0.0.8.tar.gz
+[2024-04-26 15:58:21] INFO root fetch - processPackages [fsst]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-04-26 15:58:21] INFO root fetch - processPackages [morphapi]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-04-26 15:58:21] INFO root fetch - processPackages [tuxsuite]: Downloading https://files.pythonhosted.org/packages/27/14/f25c40bc531aff32551c08e4d9c8b6894d4749d5ad96f37b58cc307cfb29/tuxsuite-1.8.0.tar.gz
+[2024-04-26 15:58:21] INFO root fetch - processPackages [grooveshop-django-api]: Downloading https://files.pythonhosted.org/packages/7f/a7/0d6a615cddf282a20c5473422783b8e46581bf1c77d73c7dfc581210dc37/grooveshop_django_api-0.99.0.tar.gz
+[2024-04-26 15:58:21] INFO root fetch - processPackages [prodigy-prot]: Downloading https://files.pythonhosted.org/packages/e1/dd/f4510e47af548f8113a1dbe76f33d9c87892666e6eedb7692a96fabe5085/prodigy_prot-2.1.5.tar.gz
+[2024-04-26 15:58:21] WARNING root fetch - processPackages [grooveshop-django-api]: Skipping package: exceeds size limit 33783695>=10485760
+[2024-04-26 15:58:21] INFO root fetch - main [MainThread]: End processing [grooveshop-django-api] error
+[2024-04-26 15:58:21] INFO root fetch - processPackages [fsst]: Downloading https://files.pythonhosted.org/packages/22/51/3f020cafe059c84d072914332a07346c92e4be63c498730adfa43ec649ef/fsst-0.8.8.tar.gz
+[2024-04-26 15:58:21] INFO root fetch - processPackages [morphapi]: Downloading https://files.pythonhosted.org/packages/7e/4c/acd25acb2be15b121fbab78608e6796ddad74509f74e33d37587e1663215/morphapi-0.2.3.tar.gz
+[2024-04-26 15:58:21] INFO root fetch - processPackages [tuxsuite]: Downloading https://files.pythonhosted.org/packages/4d/5e/8be806f24d5782026eef566b71100557104f363339b8917671132eadf1ea/tuxsuite-1.9.0.tar.gz
+[2024-04-26 15:58:21] INFO root fetch - processPackages [prodigy-prot]: Downloading https://files.pythonhosted.org/packages/80/b0/a430a4722903b29b9e4d3047b3c49b52992b924da140b00769f0aaf7fa95/prodigy_prot-2.2.1.tar.gz
+[2024-04-26 15:58:21] INFO root fetch - processPackages [PREN-flawas]: Downloading https://files.pythonhosted.org/packages/26/0e/1c9f4343ee2bb5893b69f1ad4a5d4e7e1d61864fea4f62bee7194882470e/pren_flawas-0.0.9.tar.gz
+[2024-04-26 15:58:21] INFO root fetch - processPackages [tuxsuite]: executing diffoscope
+[2024-04-26 15:58:21] INFO root fetch - processPackages [tuxsuite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tuxsuite-1.8.0.tar.gz tmp/tuxsuite-1.9.0.tar.gz --markdown 20240426/t/tuxsuite/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-04-26 15:58:21] INFO root fetch - processPackages [prodigy-prot]: executing diffoscope
+[2024-04-26 15:58:21] INFO root fetch - processPackages [prodigy-prot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prodigy_prot-2.1.5.tar.gz tmp/prodigy_prot-2.2.1.tar.gz --markdown 20240426/p/prodigy-prot/2.1.5-2.2.1/README.md --exclude *.pyd
+[2024-04-26 15:58:21] INFO root fetch - processPackages [morphapi]: Downloading https://files.pythonhosted.org/packages/aa/05/547f5a7951b07c7f7350300ae70c131429dc391213dda1222ec279a8a986/morphapi-0.2.4.tar.gz
+[2024-04-26 15:58:21] INFO root fetch - processPackages [fsst]: Downloading https://files.pythonhosted.org/packages/bd/21/44504eb551c6ea16d32a473835172306bede12374b4926ede86c50c647c5/fsst-0.8.9.tar.gz
+[2024-04-26 15:58:21] INFO root fetch - processPackages [morphapi]: executing diffoscope
+[2024-04-26 15:58:21] INFO root fetch - processPackages [morphapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/morphapi-0.2.3.tar.gz tmp/morphapi-0.2.4.tar.gz --markdown 20240426/m/morphapi/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-04-26 15:58:22] INFO root fetch - processPackages [PREN-flawas]: executing diffoscope
+[2024-04-26 15:58:22] INFO root fetch - processPackages [PREN-flawas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pren_flawas-0.0.8.tar.gz tmp/pren_flawas-0.0.9.tar.gz --markdown 20240426/P/PREN-flawas/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-26 15:58:22] INFO root fetch - processPackages [fsst]: executing diffoscope
+[2024-04-26 15:58:22] INFO root fetch - processPackages [fsst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fsst-0.8.8.tar.gz tmp/fsst-0.8.9.tar.gz --markdown 20240426/f/fsst/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-04-26 15:58:22] INFO root fetch - processPackages [prodigy-prot]: Remove: archive file [/home/abi/fetcher/tmp/prodigy_prot-2.1.5.tar.gz]
+[2024-04-26 15:58:22] INFO root fetch - processPackages [prodigy-prot]: Remove: archive file [/home/abi/fetcher/tmp/prodigy_prot-2.2.1.tar.gz]
+[2024-04-26 15:58:22] INFO root fetch - main [MainThread]: End processing [prodigy-prot]: success
+[2024-04-26 15:58:22] INFO root fetch - processPackages [morphapi]: Remove: archive file [/home/abi/fetcher/tmp/morphapi-0.2.3.tar.gz]
+[2024-04-26 15:58:22] INFO root fetch - processPackages [morphapi]: Remove: archive file [/home/abi/fetcher/tmp/morphapi-0.2.4.tar.gz]
+[2024-04-26 15:58:22] INFO root fetch - main [MainThread]: End processing [morphapi]: success
+[2024-04-26 15:58:22] INFO root fetch - processPackages [fsst]: Remove: archive file [/home/abi/fetcher/tmp/fsst-0.8.8.tar.gz]
+[2024-04-26 15:58:22] INFO root fetch - processPackages [fsst]: Remove: archive file [/home/abi/fetcher/tmp/fsst-0.8.9.tar.gz]
+[2024-04-26 15:58:22] INFO root fetch - main [MainThread]: End processing [fsst]: success
+[2024-04-26 15:58:22] INFO root fetch - processPackages [tuxsuite]: Remove: archive file [/home/abi/fetcher/tmp/tuxsuite-1.8.0.tar.gz]
+[2024-04-26 15:58:22] INFO root fetch - processPackages [tuxsuite]: Remove: archive file [/home/abi/fetcher/tmp/tuxsuite-1.9.0.tar.gz]
+[2024-04-26 15:58:22] INFO root fetch - main [MainThread]: End processing [tuxsuite]: success
+[2024-04-26 15:58:22] INFO root fetch - processPackages [PREN-flawas]: Remove: archive file [/home/abi/fetcher/tmp/pren_flawas-0.0.8.tar.gz]
+[2024-04-26 15:58:22] INFO root fetch - processPackages [PREN-flawas]: Remove: archive file [/home/abi/fetcher/tmp/pren_flawas-0.0.9.tar.gz]
+[2024-04-26 15:58:22] INFO root fetch - main [MainThread]: End processing [PREN-flawas]: success
+[2024-04-26 15:58:22] INFO root fetch - main [MainThread]: Store serial: [22948387]
