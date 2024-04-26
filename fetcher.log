@@ -11203,3 +11203,51 @@
 [2024-04-26 08:27:21] INFO root fetch - processPackages [pulumi-mongodbatlas]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mongodbatlas-3.9.2.tar.gz]
 [2024-04-26 08:27:21] INFO root fetch - main [MainThread]: End processing [pulumi-mongodbatlas]: success
 [2024-04-26 08:27:21] INFO root fetch - main [MainThread]: Store serial: [22943458]
+[2024-04-26 08:29:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22943458]
+[2024-04-26 08:29:31] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-26 08:29:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-newrelic
+[2024-04-26 08:29:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addons-oca-vertical-association
+[2024-04-26 08:29:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: depthcharge-ms
+[2024-04-26 08:29:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: indykite-sdk-python
+[2024-04-26 08:29:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cloud-governance
+[2024-04-26 08:29:31] INFO root fetch - processPackages [depthcharge-ms]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-04-26 08:29:31] INFO root fetch - processPackages [indykite-sdk-python]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-26 08:29:31] INFO root fetch - processPackages [cloud-governance]: New version: [1.1.99] Old Version: [1.1.98]
+[2024-04-26 08:29:31] INFO root fetch - processPackages [depthcharge-ms]: Downloading https://files.pythonhosted.org/packages/e1/7b/5c511ab59f8daa9ef942c735bdad52bf3a4921c8df067d93263e377592dc/depthcharge_ms-0.4.1.tar.gz
+[2024-04-26 08:29:31] INFO root fetch - processPackages [odoo-addons-oca-vertical-association]: New version: [16.0.20240425.0] Old Version: [16.0.20231004.0]
+[2024-04-26 08:29:31] INFO root fetch - processPackages [indykite-sdk-python]: Downloading https://files.pythonhosted.org/packages/50/f3/0a2a0a7f8486f219a6a319ede3c2de5288cb2e115cd7139571b4cd724d82/indykite-sdk-python-1.8.0.tar.gz
+[2024-04-26 08:29:31] INFO root fetch - processPackages [pulumi-newrelic]: New version: [5.9.1] Old Version: [5.9.0a1680282898]
+[2024-04-26 08:29:31] INFO root fetch - processPackages [cloud-governance]: Downloading https://files.pythonhosted.org/packages/af/f8/db9bacb41ff13a7d3ae59369ae36809c3202232c910b932a09e42257b676/cloud-governance-1.1.98.tar.gz
+[2024-04-26 08:29:31] INFO root fetch - processPackages [odoo-addons-oca-vertical-association]: Downloading https://files.pythonhosted.org/packages/48/b8/4e85466f6d7288a540e78e04f646ef118b785efc04ed3d5e02cd3da18cd7/odoo_addons_oca_vertical_association-16.0.20231004.0-py3-none-any.whl
+[2024-04-26 08:29:31] INFO root fetch - processPackages [pulumi-newrelic]: Downloading https://files.pythonhosted.org/packages/1e/4c/b1f7f311d7b241db6b87ee89c05acfcff95b654eae42e5bda9788a66707c/pulumi_newrelic-5.9.0a1680282898.tar.gz
+[2024-04-26 08:29:31] INFO root fetch - processPackages [cloud-governance]: Downloading https://files.pythonhosted.org/packages/ec/3e/06dc6e6844d3033717858064a494efaaf4cdae01a0c58d2b2a38273075e2/cloud-governance-1.1.99.tar.gz
+[2024-04-26 08:29:31] INFO root fetch - processPackages [depthcharge-ms]: Downloading https://files.pythonhosted.org/packages/8b/b0/376835e0627a7a2cb2283e3ae0034473819eab40b1cc8315780f45a4f0ef/depthcharge_ms-0.4.2.tar.gz
+[2024-04-26 08:29:31] INFO root fetch - processPackages [indykite-sdk-python]: Downloading https://files.pythonhosted.org/packages/1d/24/d3c0f1913c780f3c300d6d0606ce03543a97b03f19a6fc0be3c53e1b8774/indykite-sdk-python-1.9.0.tar.gz
+[2024-04-26 08:29:32] INFO root fetch - processPackages [odoo-addons-oca-vertical-association]: Downloading https://files.pythonhosted.org/packages/09/59/16bad6da56ae175a15a65c951d21ee2b3a221152a8b6fa2a52c64e5b8b3f/odoo_addons_oca_vertical_association-16.0.20240425.0-py3-none-any.whl
+[2024-04-26 08:29:32] INFO root fetch - processPackages [cloud-governance]: executing diffoscope
+[2024-04-26 08:29:32] INFO root fetch - processPackages [cloud-governance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud-governance-1.1.98.tar.gz tmp/cloud-governance-1.1.99.tar.gz --markdown 20240426/c/cloud-governance/1.1.98-1.1.99/README.md --exclude *.pyd
+[2024-04-26 08:29:32] INFO root fetch - processPackages [indykite-sdk-python]: executing diffoscope
+[2024-04-26 08:29:32] INFO root fetch - processPackages [indykite-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/indykite-sdk-python-1.8.0.tar.gz tmp/indykite-sdk-python-1.9.0.tar.gz --markdown 20240426/i/indykite-sdk-python/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-04-26 08:29:32] INFO root fetch - processPackages [depthcharge-ms]: executing diffoscope
+[2024-04-26 08:29:32] INFO root fetch - processPackages [depthcharge-ms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/depthcharge_ms-0.4.1.tar.gz tmp/depthcharge_ms-0.4.2.tar.gz --markdown 20240426/d/depthcharge-ms/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-04-26 08:29:32] INFO root fetch - processPackages [odoo-addons-oca-vertical-association]: executing diffoscope
+[2024-04-26 08:29:32] INFO root fetch - processPackages [odoo-addons-oca-vertical-association]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_vertical_association-16.0.20231004.0-py3-none-any.whl.zip tmp/odoo_addons_oca_vertical_association-16.0.20240425.0-py3-none-any.whl.zip --markdown 20240426/o/odoo-addons-oca-vertical-association/16.0.20231004.0-16.0.20240425.0/README.md --exclude *.pyd
+[2024-04-26 08:29:32] INFO root fetch - processPackages [pulumi-newrelic]: Downloading https://files.pythonhosted.org/packages/43/ba/b3c2500610b8b3fabfc1479cb763f9657e73613a00e1e2f96ee26cec9a63/pulumi_newrelic-5.9.1.tar.gz
+[2024-04-26 08:29:32] INFO root fetch - processPackages [pulumi-newrelic]: executing diffoscope
+[2024-04-26 08:29:32] INFO root fetch - processPackages [pulumi-newrelic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_newrelic-5.9.0a1680282898.tar.gz tmp/pulumi_newrelic-5.9.1.tar.gz --markdown 20240426/p/pulumi-newrelic/5.9.0a1680282898-5.9.1/README.md --exclude *.pyd
+[2024-04-26 08:29:32] INFO root fetch - processPackages [odoo-addons-oca-vertical-association]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_vertical_association-16.0.20231004.0-py3-none-any.whl.zip]
+[2024-04-26 08:29:32] INFO root fetch - processPackages [odoo-addons-oca-vertical-association]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_vertical_association-16.0.20240425.0-py3-none-any.whl.zip]
+[2024-04-26 08:29:32] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-vertical-association]: success
+[2024-04-26 08:29:33] INFO root fetch - processPackages [depthcharge-ms]: Remove: archive file [/home/abi/fetcher/tmp/depthcharge_ms-0.4.1.tar.gz]
+[2024-04-26 08:29:33] INFO root fetch - processPackages [depthcharge-ms]: Remove: archive file [/home/abi/fetcher/tmp/depthcharge_ms-0.4.2.tar.gz]
+[2024-04-26 08:29:33] INFO root fetch - main [MainThread]: End processing [depthcharge-ms]: success
+[2024-04-26 08:29:33] INFO root fetch - processPackages [cloud-governance]: Remove: archive file [/home/abi/fetcher/tmp/cloud-governance-1.1.98.tar.gz]
+[2024-04-26 08:29:33] INFO root fetch - processPackages [cloud-governance]: Remove: archive file [/home/abi/fetcher/tmp/cloud-governance-1.1.99.tar.gz]
+[2024-04-26 08:29:33] INFO root fetch - main [MainThread]: End processing [cloud-governance]: success
+[2024-04-26 08:29:33] INFO root fetch - processPackages [indykite-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/indykite-sdk-python-1.8.0.tar.gz]
+[2024-04-26 08:29:33] INFO root fetch - processPackages [indykite-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/indykite-sdk-python-1.9.0.tar.gz]
+[2024-04-26 08:29:33] INFO root fetch - main [MainThread]: End processing [indykite-sdk-python]: success
+[2024-04-26 08:29:33] INFO root fetch - processPackages [pulumi-newrelic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_newrelic-5.9.0a1680282898.tar.gz]
+[2024-04-26 08:29:33] INFO root fetch - processPackages [pulumi-newrelic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_newrelic-5.9.1.tar.gz]
+[2024-04-26 08:29:33] INFO root fetch - main [MainThread]: End processing [pulumi-newrelic]: success
+[2024-04-26 08:29:33] INFO root fetch - main [MainThread]: Store serial: [22943473]
