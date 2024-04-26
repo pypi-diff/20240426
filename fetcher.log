@@ -18963,3 +18963,67 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 13:29:09] INFO root fetch - processPackages [chainforge]: Remove: archive file [/home/abi/fetcher/tmp/chainforge-0.3.1.5.tar.gz]
 [2024-04-26 13:29:09] INFO root fetch - main [MainThread]: End processing [chainforge]: success
 [2024-04-26 13:29:09] INFO root fetch - main [MainThread]: Store serial: [22946911]
+[2024-04-26 13:31:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22946911]
+[2024-04-26 13:31:31] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-26 13:31:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: crunpyroll
+[2024-04-26 13:31:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: diive
+[2024-04-26 13:31:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdo-sdk-python
+[2024-04-26 13:31:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: certora-cli-alpha-master
+[2024-04-26 13:31:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: awsfindingsmanagerlib
+[2024-04-26 13:31:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mov-cli-youtube
+[2024-04-26 13:31:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: static-analysis-script
+[2024-04-26 13:31:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: spaceone-cost-analysis
+[2024-04-26 13:31:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: queue-worker-local
+[2024-04-26 13:31:31] INFO root fetch - processPackages [cdo-sdk-python]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-04-26 13:31:31] INFO root fetch - processPackages [mov-cli-youtube]: New version: [1.2.0a4] Old Version: [1.2.0a3]
+[2024-04-26 13:31:31] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20240425.4.35.436567] Old Version: [20240425.23.12.778250]
+[2024-04-26 13:31:31] INFO root fetch - processPackages [spaceone-cost-analysis]: New version: [2.0.dev99] Old Version: [2.0.dev98]
+[2024-04-26 13:31:31] INFO root fetch - processPackages [diive]: New version: [0.75.0] Old Version: [0.74.1]
+[2024-04-26 13:31:31] INFO root fetch - processPackages [crunpyroll]: New version: [2.4] Old Version: [2.3.5]
+[2024-04-26 13:31:31] WARNING root fetch - processPackages [awsfindingsmanagerlib]: Skipping, unable to determine old version
+[2024-04-26 13:31:31] INFO root fetch - main [MainThread]: End processing [awsfindingsmanagerlib] error
+[2024-04-26 13:31:31] INFO root fetch - processPackages [queue-worker-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-26 13:31:31] WARNING root fetch - processPackages [static-analysis-script]: Skipping, unable to determine old version
+[2024-04-26 13:31:31] INFO root fetch - main [MainThread]: End processing [static-analysis-script] error
+[2024-04-26 13:31:31] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/aa/54/d9c631d5702693a0921bbc1c50cad785f8fa75671cabdd662546a416a6b9/cdo-sdk-python-1.0.98.tar.gz
+[2024-04-26 13:31:31] INFO root fetch - processPackages [mov-cli-youtube]: Downloading https://files.pythonhosted.org/packages/20/09/a8ae3a59e9eb9516fe8b9a76a7f5ae4757ab869db4f3f4869d5a77395972/mov_cli_youtube-1.2.0a3.tar.gz
+[2024-04-26 13:31:31] INFO root fetch - processPackages [spaceone-cost-analysis]: Downloading https://files.pythonhosted.org/packages/9d/ed/0868da6c86e4dc02447a82f2ea7dd601cbcd9f9457f1ffd86ffcd52166c9/spaceone-cost-analysis-2.0.dev98.tar.gz
+[2024-04-26 13:31:32] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/39/41/5258fb0fbb47916fc0c2cc238dae5c617c39c70b5469072b1f62d6f83766/certora-cli-alpha-master-20240425.23.12.778250.tar.gz
+[2024-04-26 13:31:32] INFO root fetch - processPackages [crunpyroll]: Downloading https://files.pythonhosted.org/packages/0d/08/86774d2d1e1b20ba440f8c02929806cef7e072b9de1e6cc160c7184ce9e6/crunpyroll-2.3.5.tar.gz
+[2024-04-26 13:31:32] INFO root fetch - processPackages [diive]: Downloading https://files.pythonhosted.org/packages/ef/ef/1449520a6740a30be3db0772924019f6ed27bb619f9b1ab6bf58d06f6842/diive-0.74.1.tar.gz
+[2024-04-26 13:31:32] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 14531595>=10485760
+[2024-04-26 13:31:32] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2024-04-26 13:31:32] INFO root fetch - processPackages [queue-worker-local]: Downloading https://files.pythonhosted.org/packages/7f/d9/fa0def6b3a566ced04835c9ae35bd0c97f2e24eec77224b0908e1a709b35/queue-worker-local-0.0.8.tar.gz
+[2024-04-26 13:31:32] INFO root fetch - processPackages [spaceone-cost-analysis]: Downloading https://files.pythonhosted.org/packages/69/3b/abd588017217f1cd8fff7ef2a5fece8d81258b7c7585bb8fa88833d77684/spaceone-cost-analysis-2.0.dev99.tar.gz
+[2024-04-26 13:31:32] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/9b/76/7267c3f3ac308bacc9e809ed54663a42556e896ff4e2d73a469a15d3556a/cdo-sdk-python-1.0.99.tar.gz
+[2024-04-26 13:31:32] WARNING root fetch - processPackages [diive]: Skipping package: exceeds size limit 18870290>=10485760
+[2024-04-26 13:31:32] INFO root fetch - main [MainThread]: End processing [diive] error
+[2024-04-26 13:31:32] INFO root fetch - processPackages [mov-cli-youtube]: Downloading https://files.pythonhosted.org/packages/9e/ca/7e8b33ff50fbc8b989c540ff5aa052716f95cab37382d8ee059a1f2c607f/mov_cli_youtube-1.2.0a4.tar.gz
+[2024-04-26 13:31:32] INFO root fetch - processPackages [spaceone-cost-analysis]: executing diffoscope
+[2024-04-26 13:31:32] INFO root fetch - processPackages [spaceone-cost-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-cost-analysis-2.0.dev98.tar.gz tmp/spaceone-cost-analysis-2.0.dev99.tar.gz --markdown 20240426/s/spaceone-cost-analysis/2.0.dev98-2.0.dev99/README.md --exclude *.pyd
+[2024-04-26 13:31:32] INFO root fetch - processPackages [cdo-sdk-python]: executing diffoscope
+[2024-04-26 13:31:32] INFO root fetch - processPackages [cdo-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdo-sdk-python-1.0.98.tar.gz tmp/cdo-sdk-python-1.0.99.tar.gz --markdown 20240426/c/cdo-sdk-python/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-04-26 13:31:32] INFO root fetch - processPackages [crunpyroll]: Downloading https://files.pythonhosted.org/packages/e6/f2/8d17a77a91191c884f1326a8b7b4dceeb63d1467b130fd485129f20bc71d/crunpyroll-2.4.tar.gz
+[2024-04-26 13:31:32] INFO root fetch - processPackages [mov-cli-youtube]: executing diffoscope
+[2024-04-26 13:31:32] INFO root fetch - processPackages [mov-cli-youtube]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mov_cli_youtube-1.2.0a3.tar.gz tmp/mov_cli_youtube-1.2.0a4.tar.gz --markdown 20240426/m/mov-cli-youtube/1.2.0a3-1.2.0a4/README.md --exclude *.pyd
+[2024-04-26 13:31:32] INFO root fetch - processPackages [crunpyroll]: executing diffoscope
+[2024-04-26 13:31:32] INFO root fetch - processPackages [crunpyroll]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crunpyroll-2.3.5.tar.gz tmp/crunpyroll-2.4.tar.gz --markdown 20240426/c/crunpyroll/2.3.5-2.4/README.md --exclude *.pyd
+[2024-04-26 13:31:32] INFO root fetch - processPackages [queue-worker-local]: Downloading https://files.pythonhosted.org/packages/e7/be/a67b2e43f60298d9c8a3f8953b2cab611ed6508ecc046a1d9189e6ef932a/queue-worker-local-0.0.9.tar.gz
+[2024-04-26 13:31:32] INFO root fetch - processPackages [queue-worker-local]: executing diffoscope
+[2024-04-26 13:31:32] INFO root fetch - processPackages [queue-worker-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/queue-worker-local-0.0.8.tar.gz tmp/queue-worker-local-0.0.9.tar.gz --markdown 20240426/q/queue-worker-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-26 13:31:32] INFO root fetch - processPackages [mov-cli-youtube]: Remove: archive file [/home/abi/fetcher/tmp/mov_cli_youtube-1.2.0a3.tar.gz]
+[2024-04-26 13:31:32] INFO root fetch - processPackages [mov-cli-youtube]: Remove: archive file [/home/abi/fetcher/tmp/mov_cli_youtube-1.2.0a4.tar.gz]
+[2024-04-26 13:31:32] INFO root fetch - main [MainThread]: End processing [mov-cli-youtube]: success
+[2024-04-26 13:31:33] INFO root fetch - processPackages [crunpyroll]: Remove: archive file [/home/abi/fetcher/tmp/crunpyroll-2.3.5.tar.gz]
+[2024-04-26 13:31:33] INFO root fetch - processPackages [crunpyroll]: Remove: archive file [/home/abi/fetcher/tmp/crunpyroll-2.4.tar.gz]
+[2024-04-26 13:31:33] INFO root fetch - main [MainThread]: End processing [crunpyroll]: success
+[2024-04-26 13:31:33] INFO root fetch - processPackages [spaceone-cost-analysis]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-cost-analysis-2.0.dev98.tar.gz]
+[2024-04-26 13:31:33] INFO root fetch - processPackages [spaceone-cost-analysis]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-cost-analysis-2.0.dev99.tar.gz]
+[2024-04-26 13:31:33] INFO root fetch - main [MainThread]: End processing [spaceone-cost-analysis]: success
+[2024-04-26 13:31:33] INFO root fetch - processPackages [queue-worker-local]: Remove: archive file [/home/abi/fetcher/tmp/queue-worker-local-0.0.8.tar.gz]
+[2024-04-26 13:31:33] INFO root fetch - processPackages [queue-worker-local]: Remove: archive file [/home/abi/fetcher/tmp/queue-worker-local-0.0.9.tar.gz]
+[2024-04-26 13:31:33] INFO root fetch - main [MainThread]: End processing [queue-worker-local]: success
+[2024-04-26 13:31:33] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.98.tar.gz]
+[2024-04-26 13:31:33] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.99.tar.gz]
+[2024-04-26 13:31:33] INFO root fetch - main [MainThread]: End processing [cdo-sdk-python]: success
+[2024-04-26 13:31:33] INFO root fetch - main [MainThread]: Store serial: [22946945]
