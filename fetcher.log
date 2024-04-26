@@ -20228,3 +20228,54 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 14:36:52] INFO root fetch - processPackages [pyjoulescope-driver]: Remove: archive file [/home/abi/fetcher/tmp/pyjoulescope_driver-1.5.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-04-26 14:36:52] INFO root fetch - main [MainThread]: End processing [pyjoulescope-driver]: success
 [2024-04-26 14:36:52] INFO root fetch - main [MainThread]: Store serial: [22947451]
+[2024-04-26 14:38:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22947451]
+[2024-04-26 14:39:01] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-26 14:39:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: SciCom
+[2024-04-26 14:39:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: anotify
+[2024-04-26 14:39:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: omero-figure
+[2024-04-26 14:39:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: message-local
+[2024-04-26 14:39:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-mysql
+[2024-04-26 14:39:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: half-orm
+[2024-04-26 14:39:01] INFO root fetch - processPackages [SciCom]: New version: [0.3.0] Old Version: [0.2.5]
+[2024-04-26 14:39:01] INFO root fetch - processPackages [message-local]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-26 14:39:01] INFO root fetch - processPackages [django-mysql]: New version: [4.9.0] Old Version: [4.8.0]
+[2024-04-26 14:39:01] WARNING root fetch - processPackages [anotify]: Skipping, unable to determine old version
+[2024-04-26 14:39:01] INFO root fetch - main [MainThread]: End processing [anotify] error
+[2024-04-26 14:39:01] INFO root fetch - processPackages [half-orm]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-26 14:39:01] INFO root fetch - processPackages [omero-figure]: New version: [6.2.2] Old Version: [6.2.1]
+[2024-04-26 14:39:01] INFO root fetch - processPackages [SciCom]: Downloading https://files.pythonhosted.org/packages/68/5e/b09142a42313f7ad107b1c1261ee1a468100f7e11b0a388f3a9c91997ec1/scicom-0.2.5.tar.gz
+[2024-04-26 14:39:01] INFO root fetch - processPackages [message-local]: Downloading https://files.pythonhosted.org/packages/58/98/6002a91d9f0eb23b635ecf892333a787e13c1e810b92090bc53584aa2f18/message-local-0.0.98.tar.gz
+[2024-04-26 14:39:01] INFO root fetch - processPackages [django-mysql]: Downloading https://files.pythonhosted.org/packages/ee/ad/922b1ab1abdfc57d2229ac352dec1378274d4d02b95f33ba89c86238ca3f/django-mysql-4.8.0.tar.gz
+[2024-04-26 14:39:01] INFO root fetch - processPackages [omero-figure]: Downloading https://files.pythonhosted.org/packages/10/7d/e327ecd913ce68aa050ea243fa3138fb9cae20c1d20bdd0adb2458e4e90d/omero-figure-6.2.1.tar.gz
+[2024-04-26 14:39:01] INFO root fetch - processPackages [message-local]: Downloading https://files.pythonhosted.org/packages/78/17/d149670c7821186afe25a7b74020f68bd8db48497b170965d75952fbe2d8/message-local-0.0.99.tar.gz
+[2024-04-26 14:39:01] INFO root fetch - processPackages [half-orm]: Downloading https://files.pythonhosted.org/packages/03/5b/7ad7adf499f569d057fff1e0e6bc40a51103c154388596eab2c850d378f4/half_orm-0.9.8.tar.gz
+[2024-04-26 14:39:01] INFO root fetch - processPackages [SciCom]: Downloading https://files.pythonhosted.org/packages/b9/98/9dcab2d2d379b60665a9b0f24ba058c8eddad9b0892f0fb791ba5dfe8248/scicom-0.3.0.tar.gz
+[2024-04-26 14:39:01] INFO root fetch - processPackages [message-local]: executing diffoscope
+[2024-04-26 14:39:01] INFO root fetch - processPackages [message-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/message-local-0.0.98.tar.gz tmp/message-local-0.0.99.tar.gz --markdown 20240426/m/message-local/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-04-26 14:39:01] INFO root fetch - processPackages [django-mysql]: Downloading https://files.pythonhosted.org/packages/ed/e0/5aa3310f6150199c42842727573ac21c61c46502f46648702a49392849c1/django_mysql-4.9.0.tar.gz
+[2024-04-26 14:39:01] INFO root fetch - processPackages [omero-figure]: Downloading https://files.pythonhosted.org/packages/f6/f9/a4df063e091e7c928b4c95601b4b2c9ba8e0d04bd786fba9ec12fd2cace9/omero-figure-6.2.2.tar.gz
+[2024-04-26 14:39:01] INFO root fetch - processPackages [SciCom]: executing diffoscope
+[2024-04-26 14:39:01] INFO root fetch - processPackages [SciCom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scicom-0.2.5.tar.gz tmp/scicom-0.3.0.tar.gz --markdown 20240426/S/SciCom/0.2.5-0.3.0/README.md --exclude *.pyd
+[2024-04-26 14:39:01] INFO root fetch - processPackages [half-orm]: Downloading https://files.pythonhosted.org/packages/9b/56/df1f5dae72d6953a2f5458c12c0689212adb79ad73442b5934bc404993bd/half_orm-0.9.9.tar.gz
+[2024-04-26 14:39:02] INFO root fetch - processPackages [django-mysql]: executing diffoscope
+[2024-04-26 14:39:02] INFO root fetch - processPackages [django-mysql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-mysql-4.8.0.tar.gz tmp/django_mysql-4.9.0.tar.gz --markdown 20240426/d/django-mysql/4.8.0-4.9.0/README.md --exclude *.pyd
+[2024-04-26 14:39:02] INFO root fetch - processPackages [omero-figure]: executing diffoscope
+[2024-04-26 14:39:02] INFO root fetch - processPackages [omero-figure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omero-figure-6.2.1.tar.gz tmp/omero-figure-6.2.2.tar.gz --markdown 20240426/o/omero-figure/6.2.1-6.2.2/README.md --exclude *.pyd
+[2024-04-26 14:39:02] INFO root fetch - processPackages [half-orm]: executing diffoscope
+[2024-04-26 14:39:02] INFO root fetch - processPackages [half-orm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/half_orm-0.9.8.tar.gz tmp/half_orm-0.9.9.tar.gz --markdown 20240426/h/half-orm/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-26 14:39:02] INFO root fetch - processPackages [message-local]: Remove: archive file [/home/abi/fetcher/tmp/message-local-0.0.98.tar.gz]
+[2024-04-26 14:39:02] INFO root fetch - processPackages [message-local]: Remove: archive file [/home/abi/fetcher/tmp/message-local-0.0.99.tar.gz]
+[2024-04-26 14:39:02] INFO root fetch - main [MainThread]: End processing [message-local]: success
+[2024-04-26 14:39:02] INFO root fetch - processPackages [half-orm]: Remove: archive file [/home/abi/fetcher/tmp/half_orm-0.9.8.tar.gz]
+[2024-04-26 14:39:02] INFO root fetch - processPackages [half-orm]: Remove: archive file [/home/abi/fetcher/tmp/half_orm-0.9.9.tar.gz]
+[2024-04-26 14:39:02] INFO root fetch - main [MainThread]: End processing [half-orm]: success
+[2024-04-26 14:39:02] INFO root fetch - processPackages [SciCom]: Remove: archive file [/home/abi/fetcher/tmp/scicom-0.2.5.tar.gz]
+[2024-04-26 14:39:02] INFO root fetch - processPackages [SciCom]: Remove: archive file [/home/abi/fetcher/tmp/scicom-0.3.0.tar.gz]
+[2024-04-26 14:39:02] INFO root fetch - main [MainThread]: End processing [SciCom]: success
+[2024-04-26 14:39:02] INFO root fetch - processPackages [django-mysql]: Remove: archive file [/home/abi/fetcher/tmp/django-mysql-4.8.0.tar.gz]
+[2024-04-26 14:39:02] INFO root fetch - processPackages [django-mysql]: Remove: archive file [/home/abi/fetcher/tmp/django_mysql-4.9.0.tar.gz]
+[2024-04-26 14:39:02] INFO root fetch - main [MainThread]: End processing [django-mysql]: success
+[2024-04-26 14:39:03] INFO root fetch - processPackages [omero-figure]: Remove: archive file [/home/abi/fetcher/tmp/omero-figure-6.2.1.tar.gz]
+[2024-04-26 14:39:03] INFO root fetch - processPackages [omero-figure]: Remove: archive file [/home/abi/fetcher/tmp/omero-figure-6.2.2.tar.gz]
+[2024-04-26 14:39:03] INFO root fetch - main [MainThread]: End processing [omero-figure]: success
+[2024-04-26 14:39:03] INFO root fetch - main [MainThread]: Store serial: [22947476]
