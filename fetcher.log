@@ -16539,3 +16539,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 11:43:52] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2024-04-26 11:43:52] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2024-04-26 11:43:52] INFO root fetch - main [MainThread]: Store serial: [22945923]
+[2024-04-26 11:45:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22945923]
+[2024-04-26 11:46:01] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-26 11:46:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: overturemapsdownloader
+[2024-04-26 11:46:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kfish
+[2024-04-26 11:46:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pygpsclient
+[2024-04-26 11:46:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ncmlistdownloader
+[2024-04-26 11:46:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: one4all-iop-models
+[2024-04-26 11:46:01] INFO root fetch - processPackages [ncmlistdownloader]: New version: [1.0.2.240426] Old Version: [1.0.1.24042601]
+[2024-04-26 11:46:01] INFO root fetch - processPackages [kfish]: New version: [99.0.202404260843] Old Version: [99.0.202404260724]
+[2024-04-26 11:46:01] INFO root fetch - processPackages [overturemapsdownloader]: New version: [0.1.9] Old Version: [0.1.7]
+[2024-04-26 11:46:01] INFO root fetch - processPackages [one4all-iop-models]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-26 11:46:01] INFO root fetch - processPackages [pygpsclient]: New version: [1.4.9] Old Version: [1.4.8]
+[2024-04-26 11:46:01] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/4a/74/f9f0c075b08908ea4bee195fc47545d98baac328480f3b9424cf94d1ca2a/kfish-99.0.202404260724-py3-none-any.whl
+[2024-04-26 11:46:01] INFO root fetch - processPackages [ncmlistdownloader]: Downloading https://files.pythonhosted.org/packages/17/77/7379459f6daf4ae0e3d0cc65220857b80ca3727a4338aa011688d839acd9/ncmlistdownloader-1.0.1.24042601.tar.gz
+[2024-04-26 11:46:02] INFO root fetch - processPackages [overturemapsdownloader]: Downloading https://files.pythonhosted.org/packages/f3/14/d4ad07e8f44a75d880069791fb0ae1c834d5967d1ce0e9e9e9a58d6cbc7f/overturemapsdownloader-0.1.7.tar.gz
+[2024-04-26 11:46:02] INFO root fetch - processPackages [one4all-iop-models]: Downloading https://files.pythonhosted.org/packages/53/7f/1471984c1acf2fe233945b359139cd745041e27ddcc3007b14b1d6d39281/one4all_iop_models-0.1.7.tar.gz
+[2024-04-26 11:46:02] INFO root fetch - processPackages [pygpsclient]: Downloading https://files.pythonhosted.org/packages/d8/d5/f01514b696150ce640913f2b2ce771bbebcb4b263c1a969c6a2118e0a1d2/pygpsclient-1.4.8.tar.gz
+[2024-04-26 11:46:02] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/c8/5c/104e80af547c8eb84ed7e0c953aa86343e58d9277340d06e09a13d07643f/kfish-99.0.202404260843-py3-none-any.whl
+[2024-04-26 11:46:02] INFO root fetch - processPackages [ncmlistdownloader]: Downloading https://files.pythonhosted.org/packages/0f/c0/7659274247224a624b30c5edf9ab3094a3ea1c71e6ca49d476a8dc53b8b2/ncmlistdownloader-1.0.2.240426.tar.gz
+[2024-04-26 11:46:02] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2024-04-26 11:46:02] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202404260724-py3-none-any.whl.zip tmp/kfish-99.0.202404260843-py3-none-any.whl.zip --markdown 20240426/k/kfish/99.0.202404260724-99.0.202404260843/README.md --exclude *.pyd
+[2024-04-26 11:46:02] INFO root fetch - processPackages [overturemapsdownloader]: Downloading https://files.pythonhosted.org/packages/f8/8f/1181847fb1ed49b36fe40dabc370e617d36c1dee94e3291a923a72fc1853/overturemapsdownloader-0.1.9.tar.gz
+[2024-04-26 11:46:02] INFO root fetch - processPackages [one4all-iop-models]: Downloading https://files.pythonhosted.org/packages/7e/a6/51a18e5b9e5bc9f4cb0a165a0f8b056732b1265c35e34d4366f292092205/one4all_iop_models-0.1.8.tar.gz
+[2024-04-26 11:46:02] INFO root fetch - processPackages [ncmlistdownloader]: executing diffoscope
+[2024-04-26 11:46:02] INFO root fetch - processPackages [ncmlistdownloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ncmlistdownloader-1.0.1.24042601.tar.gz tmp/ncmlistdownloader-1.0.2.240426.tar.gz --markdown 20240426/n/ncmlistdownloader/1.0.1.24042601-1.0.2.240426/README.md --exclude *.pyd
+[2024-04-26 11:46:02] INFO root fetch - processPackages [overturemapsdownloader]: executing diffoscope
+[2024-04-26 11:46:02] INFO root fetch - processPackages [overturemapsdownloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/overturemapsdownloader-0.1.7.tar.gz tmp/overturemapsdownloader-0.1.9.tar.gz --markdown 20240426/o/overturemapsdownloader/0.1.7-0.1.9/README.md --exclude *.pyd
+[2024-04-26 11:46:02] INFO root fetch - processPackages [one4all-iop-models]: executing diffoscope
+[2024-04-26 11:46:02] INFO root fetch - processPackages [one4all-iop-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/one4all_iop_models-0.1.7.tar.gz tmp/one4all_iop_models-0.1.8.tar.gz --markdown 20240426/o/one4all-iop-models/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-26 11:46:02] INFO root fetch - processPackages [pygpsclient]: Downloading https://files.pythonhosted.org/packages/4a/14/9646dc156cf69e2a385f2b6f0fac5ad7e048bfefa8d074543aaf2223a1c7/pygpsclient-1.4.9.tar.gz
+[2024-04-26 11:46:02] INFO root fetch - processPackages [pygpsclient]: executing diffoscope
+[2024-04-26 11:46:02] INFO root fetch - processPackages [pygpsclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygpsclient-1.4.8.tar.gz tmp/pygpsclient-1.4.9.tar.gz --markdown 20240426/p/pygpsclient/1.4.8-1.4.9/README.md --exclude *.pyd
+[2024-04-26 11:46:02] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202404260724-py3-none-any.whl.zip]
+[2024-04-26 11:46:02] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202404260843-py3-none-any.whl.zip]
+[2024-04-26 11:46:02] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2024-04-26 11:46:03] INFO root fetch - processPackages [ncmlistdownloader]: Remove: archive file [/home/abi/fetcher/tmp/ncmlistdownloader-1.0.1.24042601.tar.gz]
+[2024-04-26 11:46:03] INFO root fetch - processPackages [ncmlistdownloader]: Remove: archive file [/home/abi/fetcher/tmp/ncmlistdownloader-1.0.2.240426.tar.gz]
+[2024-04-26 11:46:03] INFO root fetch - main [MainThread]: End processing [ncmlistdownloader]: success
+[2024-04-26 11:46:03] INFO root fetch - processPackages [overturemapsdownloader]: Remove: archive file [/home/abi/fetcher/tmp/overturemapsdownloader-0.1.7.tar.gz]
+[2024-04-26 11:46:03] INFO root fetch - processPackages [overturemapsdownloader]: Remove: archive file [/home/abi/fetcher/tmp/overturemapsdownloader-0.1.9.tar.gz]
+[2024-04-26 11:46:03] INFO root fetch - main [MainThread]: End processing [overturemapsdownloader]: success
+[2024-04-26 11:46:03] INFO root fetch - processPackages [one4all-iop-models]: Remove: archive file [/home/abi/fetcher/tmp/one4all_iop_models-0.1.7.tar.gz]
+[2024-04-26 11:46:03] INFO root fetch - processPackages [one4all-iop-models]: Remove: archive file [/home/abi/fetcher/tmp/one4all_iop_models-0.1.8.tar.gz]
+[2024-04-26 11:46:03] INFO root fetch - main [MainThread]: End processing [one4all-iop-models]: success
+[2024-04-26 11:46:03] INFO root fetch - processPackages [pygpsclient]: Remove: archive file [/home/abi/fetcher/tmp/pygpsclient-1.4.8.tar.gz]
+[2024-04-26 11:46:03] INFO root fetch - processPackages [pygpsclient]: Remove: archive file [/home/abi/fetcher/tmp/pygpsclient-1.4.9.tar.gz]
+[2024-04-26 11:46:03] INFO root fetch - main [MainThread]: End processing [pygpsclient]: success
+[2024-04-26 11:46:03] INFO root fetch - main [MainThread]: Store serial: [22945944]
