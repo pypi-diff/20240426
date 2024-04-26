@@ -22294,3 +22294,69 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 15:58:22] INFO root fetch - processPackages [PREN-flawas]: Remove: archive file [/home/abi/fetcher/tmp/pren_flawas-0.0.9.tar.gz]
 [2024-04-26 15:58:22] INFO root fetch - main [MainThread]: End processing [PREN-flawas]: success
 [2024-04-26 15:58:22] INFO root fetch - main [MainThread]: Store serial: [22948387]
+[2024-04-26 16:00:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22948387]
+[2024-04-26 16:00:31] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-26 16:00:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Pokesi
+[2024-04-26 16:00:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: libreflow.flows
+[2024-04-26 16:00:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: few-shot-priming
+[2024-04-26 16:00:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hui-tools
+[2024-04-26 16:00:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sms-message-aws-sns-local
+[2024-04-26 16:00:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dataframe-api-compat
+[2024-04-26 16:00:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ccf
+[2024-04-26 16:00:32] INFO root fetch - processPackages [libreflow.flows]: New version: [2.1.1] Old Version: [2.1.0.1]
+[2024-04-26 16:00:32] INFO root fetch - processPackages [sms-message-aws-sns-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-26 16:00:32] INFO root fetch - processPackages [few-shot-priming]: New version: [0.3.99] Old Version: [0.3.98]
+[2024-04-26 16:00:32] INFO root fetch - processPackages [Pokesi]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-26 16:00:32] INFO root fetch - processPackages [dataframe-api-compat]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-04-26 16:00:32] INFO root fetch - processPackages [hui-tools]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-04-26 16:00:32] INFO root fetch - processPackages [sms-message-aws-sns-local]: Downloading https://files.pythonhosted.org/packages/b5/8c/2d497590b930ee0ea12a669b5747b1e2d251363d62238bd1fc127811dfff/sms_message_aws_sns_local-0.0.8.tar.gz
+[2024-04-26 16:00:32] INFO root fetch - processPackages [libreflow.flows]: Downloading https://files.pythonhosted.org/packages/d2/bd/8330d4505d3e4270d5f35a90156d81bad6387318ed309c05c46e98af162e/libreflow.flows-2.1.0.1.tar.gz
+[2024-04-26 16:00:32] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/eb/67/d15b11d0bfb57369fa16ba7f8c97cd3ddec8f771e6da8f11a3d819004b69/few_shot_priming-0.3.98-py3-none-any.whl
+[2024-04-26 16:00:32] INFO root fetch - processPackages [ccf]: New version: [5.0.0.dev9] Old Version: [5.0.0.dev8]
+[2024-04-26 16:00:32] INFO root fetch - processPackages [dataframe-api-compat]: Downloading https://files.pythonhosted.org/packages/e6/e5/9c01849944383013d823f41183fca6d905604e45560fe5285396e64b0f4b/dataframe_api_compat-0.2.6.tar.gz
+[2024-04-26 16:00:32] INFO root fetch - processPackages [Pokesi]: Downloading https://files.pythonhosted.org/packages/7a/ef/82d83557a8caead227c4796034982799347d20632973bae5bb728cce19d9/pokesi-1.0.1.tar.gz
+[2024-04-26 16:00:32] INFO root fetch - processPackages [hui-tools]: Downloading https://files.pythonhosted.org/packages/12/f4/015d0db47d74fd81bff8705e218b10cefbb450b6deffc9b414b295eefd05/hui-tools-0.4.0.tar.gz
+[2024-04-26 16:00:32] INFO root fetch - processPackages [sms-message-aws-sns-local]: Downloading https://files.pythonhosted.org/packages/9b/5a/3c25e8cc34e9a8c618a8a50e247085efee93fa786a9823257a0523b560de/sms_message_aws_sns_local-0.0.9.tar.gz
+[2024-04-26 16:00:32] INFO root fetch - processPackages [ccf]: Downloading https://files.pythonhosted.org/packages/a1/70/e658fd72f0e833434c29a9b5a16aa4e8c730464daafc4e1ad56781eb9071/ccf-5.0.0.dev8-py3-none-any.whl
+[2024-04-26 16:00:32] INFO root fetch - processPackages [libreflow.flows]: Downloading https://files.pythonhosted.org/packages/66/a7/7fa41940729b906cda5c0871220bd56a24a842595bf3a5c085374dcfb736/libreflow_flows-2.1.1.tar.gz
+[2024-04-26 16:00:32] INFO root fetch - processPackages [sms-message-aws-sns-local]: executing diffoscope
+[2024-04-26 16:00:32] INFO root fetch - processPackages [sms-message-aws-sns-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sms_message_aws_sns_local-0.0.8.tar.gz tmp/sms_message_aws_sns_local-0.0.9.tar.gz --markdown 20240426/s/sms-message-aws-sns-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-26 16:00:32] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/ff/11/548f6e96803602e6431dc610d736d401b20fde986f85c35c8ad19a6d0958/few_shot_priming-0.3.99-py3-none-any.whl
+[2024-04-26 16:00:32] INFO root fetch - processPackages [Pokesi]: Downloading https://files.pythonhosted.org/packages/be/70/559176b2234de615b10684276e277f255634b57fd0b4479b118f3bc42066/pokesi-1.0.2.tar.gz
+[2024-04-26 16:00:32] INFO root fetch - processPackages [dataframe-api-compat]: Downloading https://files.pythonhosted.org/packages/0d/27/c6a9a39af6939ee151021a554fd38ac59f52a634037801d3284a55313496/dataframe_api_compat-0.2.7.tar.gz
+[2024-04-26 16:00:32] INFO root fetch - processPackages [libreflow.flows]: executing diffoscope
+[2024-04-26 16:00:32] INFO root fetch - processPackages [libreflow.flows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libreflow.flows-2.1.0.1.tar.gz tmp/libreflow_flows-2.1.1.tar.gz --markdown 20240426/l/libreflow.flows/2.1.0.1-2.1.1/README.md --exclude *.pyd
+[2024-04-26 16:00:32] INFO root fetch - processPackages [hui-tools]: Downloading https://files.pythonhosted.org/packages/f4/47/02f4e695afd34d7805beab333950328692088b0fce3c4d24d5afde9c8737/hui-tools-0.4.1.tar.gz
+[2024-04-26 16:00:32] INFO root fetch - processPackages [Pokesi]: executing diffoscope
+[2024-04-26 16:00:32] INFO root fetch - processPackages [Pokesi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pokesi-1.0.1.tar.gz tmp/pokesi-1.0.2.tar.gz --markdown 20240426/P/Pokesi/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-26 16:00:32] INFO root fetch - processPackages [hui-tools]: executing diffoscope
+[2024-04-26 16:00:32] INFO root fetch - processPackages [hui-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hui-tools-0.4.0.tar.gz tmp/hui-tools-0.4.1.tar.gz --markdown 20240426/h/hui-tools/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-04-26 16:00:32] INFO root fetch - processPackages [dataframe-api-compat]: executing diffoscope
+[2024-04-26 16:00:32] INFO root fetch - processPackages [dataframe-api-compat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataframe_api_compat-0.2.6.tar.gz tmp/dataframe_api_compat-0.2.7.tar.gz --markdown 20240426/d/dataframe-api-compat/0.2.6-0.2.7/README.md --exclude *.pyd
+[2024-04-26 16:00:33] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2024-04-26 16:00:33] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip --markdown 20240426/f/few-shot-priming/0.3.98-0.3.99/README.md --exclude *.pyd
+[2024-04-26 16:00:33] INFO root fetch - processPackages [sms-message-aws-sns-local]: Remove: archive file [/home/abi/fetcher/tmp/sms_message_aws_sns_local-0.0.8.tar.gz]
+[2024-04-26 16:00:33] INFO root fetch - processPackages [sms-message-aws-sns-local]: Remove: archive file [/home/abi/fetcher/tmp/sms_message_aws_sns_local-0.0.9.tar.gz]
+[2024-04-26 16:00:33] INFO root fetch - main [MainThread]: End processing [sms-message-aws-sns-local]: success
+[2024-04-26 16:00:33] INFO root fetch - processPackages [ccf]: Downloading https://files.pythonhosted.org/packages/b4/37/f3e82e97a61b06326407f98b9753fbc669d87d6bccca3eb859d08078f1f9/ccf-5.0.0.dev9-py3-none-any.whl
+[2024-04-26 16:00:33] INFO root fetch - processPackages [Pokesi]: Remove: archive file [/home/abi/fetcher/tmp/pokesi-1.0.1.tar.gz]
+[2024-04-26 16:00:33] INFO root fetch - processPackages [Pokesi]: Remove: archive file [/home/abi/fetcher/tmp/pokesi-1.0.2.tar.gz]
+[2024-04-26 16:00:33] INFO root fetch - main [MainThread]: End processing [Pokesi]: success
+[2024-04-26 16:00:33] INFO root fetch - processPackages [ccf]: executing diffoscope
+[2024-04-26 16:00:33] INFO root fetch - processPackages [ccf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccf-5.0.0.dev8-py3-none-any.whl.zip tmp/ccf-5.0.0.dev9-py3-none-any.whl.zip --markdown 20240426/c/ccf/5.0.0.dev8-5.0.0.dev9/README.md --exclude *.pyd
+[2024-04-26 16:00:33] INFO root fetch - processPackages [libreflow.flows]: Remove: archive file [/home/abi/fetcher/tmp/libreflow.flows-2.1.0.1.tar.gz]
+[2024-04-26 16:00:33] INFO root fetch - processPackages [libreflow.flows]: Remove: archive file [/home/abi/fetcher/tmp/libreflow_flows-2.1.1.tar.gz]
+[2024-04-26 16:00:33] INFO root fetch - main [MainThread]: End processing [libreflow.flows]: success
+[2024-04-26 16:00:33] INFO root fetch - processPackages [hui-tools]: Remove: archive file [/home/abi/fetcher/tmp/hui-tools-0.4.0.tar.gz]
+[2024-04-26 16:00:33] INFO root fetch - processPackages [hui-tools]: Remove: archive file [/home/abi/fetcher/tmp/hui-tools-0.4.1.tar.gz]
+[2024-04-26 16:00:33] INFO root fetch - main [MainThread]: End processing [hui-tools]: success
+[2024-04-26 16:00:33] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip]
+[2024-04-26 16:00:33] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip]
+[2024-04-26 16:00:33] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2024-04-26 16:00:34] INFO root fetch - processPackages [dataframe-api-compat]: Remove: archive file [/home/abi/fetcher/tmp/dataframe_api_compat-0.2.6.tar.gz]
+[2024-04-26 16:00:34] INFO root fetch - processPackages [dataframe-api-compat]: Remove: archive file [/home/abi/fetcher/tmp/dataframe_api_compat-0.2.7.tar.gz]
+[2024-04-26 16:00:34] INFO root fetch - main [MainThread]: End processing [dataframe-api-compat]: success
+[2024-04-26 16:00:34] INFO root fetch - processPackages [ccf]: Remove: archive file [/home/abi/fetcher/tmp/ccf-5.0.0.dev8-py3-none-any.whl.zip]
+[2024-04-26 16:00:34] INFO root fetch - processPackages [ccf]: Remove: archive file [/home/abi/fetcher/tmp/ccf-5.0.0.dev9-py3-none-any.whl.zip]
+[2024-04-26 16:00:34] INFO root fetch - main [MainThread]: End processing [ccf]: success
+[2024-04-26 16:00:34] INFO root fetch - main [MainThread]: Store serial: [22948405]
