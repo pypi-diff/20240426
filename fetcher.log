@@ -14178,3 +14178,79 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 10:24:25] INFO root fetch - processPackages [django_bocor_ds]: Remove: archive file [/home/abi/fetcher/tmp/django_bocor_ds-2.2.0.tar.gz]
 [2024-04-26 10:24:25] INFO root fetch - main [MainThread]: End processing [django_bocor_ds]: success
 [2024-04-26 10:24:25] INFO root fetch - main [MainThread]: Store serial: [22944834]
+[2024-04-26 10:26:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22944834]
+[2024-04-26 10:26:35] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-26 10:26:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: inspire-schemas
+[2024-04-26 10:26:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nucliadb-node-binding
+[2024-04-26 10:26:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: GaiaScript
+[2024-04-26 10:26:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fleks
+[2024-04-26 10:26:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-account-reconcile-oca
+[2024-04-26 10:26:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pms-onpremise-encoder
+[2024-04-26 10:26:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-account-reconcile-model-oca
+[2024-04-26 10:26:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: llm-monitoring-sascha
+[2024-04-26 10:26:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: llm-monitoring-sascha
+[2024-04-26 10:26:36] INFO root fetch - processPackages [GaiaScript]: New version: [0.1.2] Old Version: [0.1.1.6]
+[2024-04-26 10:26:36] INFO root fetch - processPackages [pms-onpremise-encoder]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-26 10:26:36] INFO root fetch - processPackages [odoo-addon-account-reconcile-oca]: New version: [17.0.1.0.0.20] Old Version: [16.0.1.2.9]
+[2024-04-26 10:26:36] INFO root fetch - processPackages [GaiaScript]: Downloading https://files.pythonhosted.org/packages/9b/ab/7a7ac361d5c73e022311f5712107ec718be5505c565d447bd7088ef14e30/GaiaScript-0.1.1.6.tar.gz
+[2024-04-26 10:26:36] INFO root fetch - processPackages [fleks]: New version: [2024.4.5.9.29] Old Version: [2024.4.4.13.29]
+[2024-04-26 10:26:36] INFO root fetch - processPackages [llm-monitoring-sascha]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-26 10:26:36] INFO root fetch - processPackages [llm-monitoring-sascha]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-26 10:26:36] WARNING root fetch - processPackages [odoo-addon-account-reconcile-model-oca]: Skipping, unable to determine old version
+[2024-04-26 10:26:36] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-reconcile-model-oca] error
+[2024-04-26 10:26:36] INFO root fetch - processPackages [pms-onpremise-encoder]: Downloading https://files.pythonhosted.org/packages/2a/82/72efdd5e2e30f3767a9a39388592cc0ed6187b2a3498c0ccdc8313078e7d/pms-onpremise-encoder-0.0.8.tar.gz
+[2024-04-26 10:26:36] INFO root fetch - processPackages [nucliadb-node-binding]: New version: [3.0.3.post1201] Old Version: [3.0.3.post1190]
+[2024-04-26 10:26:36] INFO root fetch - processPackages [inspire-schemas]: New version: [9.0.0] Old Version: [8.0.0]
+[2024-04-26 10:26:36] INFO root fetch - processPackages [odoo-addon-account-reconcile-oca]: Downloading https://files.pythonhosted.org/packages/53/5f/42e9047f73576c856db6492ae0ad0ee9ad2b1a8debd058d7f71a894e3c5b/odoo_addon_account_reconcile_oca-16.0.1.2.9-py3-none-any.whl
+[2024-04-26 10:26:36] INFO root fetch - processPackages [inspire-schemas]: Downloading https://files.pythonhosted.org/packages/8b/d2/aad5d3d0cb1ebdf711e48df8c4478f7a2b1fdd77d08ea21ae30e0f345b01/inspire-schemas-8.0.0.tar.gz
+[2024-04-26 10:26:36] INFO root fetch - processPackages [pms-onpremise-encoder]: Downloading https://files.pythonhosted.org/packages/88/cf/1d039bfc89f468e857b29a3c38c823f9537cc024e5e02959ad4bd1d7f546/pms-onpremise-encoder-0.0.9.tar.gz
+[2024-04-26 10:26:36] INFO root fetch - processPackages [llm-monitoring-sascha]: Downloading https://files.pythonhosted.org/packages/34/ed/74fa9299259804ad7705088442ad4b574209e5c06093d51e5e431dfa5a61/llm_monitoring_sascha-0.0.1-py3-none-any.whl
+[2024-04-26 10:26:36] INFO root fetch - processPackages [fleks]: Downloading https://files.pythonhosted.org/packages/00/d5/84388a833b56a99f708bc58252888ec8197412f68782439ddf84a14f4eaa/fleks-2024.4.4.13.29.tar.gz
+[2024-04-26 10:26:36] INFO root fetch - processPackages [llm-monitoring-sascha]: Downloading https://files.pythonhosted.org/packages/34/ed/74fa9299259804ad7705088442ad4b574209e5c06093d51e5e431dfa5a61/llm_monitoring_sascha-0.0.1-py3-none-any.whl
+[2024-04-26 10:26:36] INFO root fetch - processPackages [nucliadb-node-binding]: Downloading https://files.pythonhosted.org/packages/e8/7c/9990359f7712cd9f06fefcdf8d9ea99f3ea792cfe6df15443b98e1cf4af4/nucliadb_node_binding-3.0.3.post1190.tar.gz
+[2024-04-26 10:26:36] INFO root fetch - processPackages [GaiaScript]: Downloading https://files.pythonhosted.org/packages/40/0f/a037790a91792a9671c87612b8c24e0f73bf2c1fab487a040feaa9fb3567/GaiaScript-0.1.2.tar.gz
+[2024-04-26 10:26:36] INFO root fetch - processPackages [pms-onpremise-encoder]: executing diffoscope
+[2024-04-26 10:26:36] INFO root fetch - processPackages [pms-onpremise-encoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pms-onpremise-encoder-0.0.8.tar.gz tmp/pms-onpremise-encoder-0.0.9.tar.gz --markdown 20240426/p/pms-onpremise-encoder/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-26 10:26:36] INFO root fetch - processPackages [GaiaScript]: executing diffoscope
+[2024-04-26 10:26:36] INFO root fetch - processPackages [GaiaScript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GaiaScript-0.1.1.6.tar.gz tmp/GaiaScript-0.1.2.tar.gz --markdown 20240426/G/GaiaScript/0.1.1.6-0.1.2/README.md --exclude *.pyd
+[2024-04-26 10:26:36] INFO root fetch - processPackages [odoo-addon-account-reconcile-oca]: Downloading https://files.pythonhosted.org/packages/78/ea/49bcf4dca2972a395285b1e7be6175616cb9779ab10e9987bbff1e709ded/odoo_addon_account_reconcile_oca-17.0.1.0.0.20-py3-none-any.whl
+[2024-04-26 10:26:36] INFO root fetch - processPackages [nucliadb-node-binding]: Downloading https://files.pythonhosted.org/packages/e0/1c/f6e50606c8f4ff1ab97233b19efbd4a2540301103f2767206acd734ebfe0/nucliadb_node_binding-3.0.3.post1201.tar.gz
+[2024-04-26 10:26:36] INFO root fetch - processPackages [inspire-schemas]: Downloading https://files.pythonhosted.org/packages/c4/81/b75803a91c2dacb0b3ec7566e003880b974b51b1b31f6e1b60c99e3d1572/inspire-schemas-9.0.0.tar.gz
+[2024-04-26 10:26:36] INFO root fetch - processPackages [fleks]: Downloading https://files.pythonhosted.org/packages/b8/b3/36eba7c3cacb5b1f4988af66824a62b04f4bf83ee59c32a47674111e2fe0/fleks-2024.4.5.9.29.tar.gz
+[2024-04-26 10:26:36] INFO root fetch - processPackages [llm-monitoring-sascha]: Downloading https://files.pythonhosted.org/packages/ee/2a/01ff5662dbc1eb3ef06a4759ebbd2c21918a3932ae37d6512da820f2c5db/llm_monitoring_sascha-0.0.2-py3-none-any.whl
+[2024-04-26 10:26:36] INFO root fetch - processPackages [llm-monitoring-sascha]: Downloading https://files.pythonhosted.org/packages/ee/2a/01ff5662dbc1eb3ef06a4759ebbd2c21918a3932ae37d6512da820f2c5db/llm_monitoring_sascha-0.0.2-py3-none-any.whl
+[2024-04-26 10:26:36] INFO root fetch - processPackages [odoo-addon-account-reconcile-oca]: executing diffoscope
+[2024-04-26 10:26:36] INFO root fetch - processPackages [odoo-addon-account-reconcile-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_reconcile_oca-16.0.1.2.9-py3-none-any.whl.zip tmp/odoo_addon_account_reconcile_oca-17.0.1.0.0.20-py3-none-any.whl.zip --markdown 20240426/o/odoo-addon-account-reconcile-oca/16.0.1.2.9-17.0.1.0.0.20/README.md --exclude *.pyd
+[2024-04-26 10:26:37] INFO root fetch - processPackages [fleks]: executing diffoscope
+[2024-04-26 10:26:37] INFO root fetch - processPackages [fleks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fleks-2024.4.4.13.29.tar.gz tmp/fleks-2024.4.5.9.29.tar.gz --markdown 20240426/f/fleks/2024.4.4.13.29-2024.4.5.9.29/README.md --exclude *.pyd
+[2024-04-26 10:26:37] INFO root fetch - processPackages [inspire-schemas]: executing diffoscope
+[2024-04-26 10:26:37] INFO root fetch - processPackages [inspire-schemas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inspire-schemas-8.0.0.tar.gz tmp/inspire-schemas-9.0.0.tar.gz --markdown 20240426/i/inspire-schemas/8.0.0-9.0.0/README.md --exclude *.pyd
+[2024-04-26 10:26:37] INFO root fetch - processPackages [nucliadb-node-binding]: executing diffoscope
+[2024-04-26 10:26:37] INFO root fetch - processPackages [nucliadb-node-binding]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_node_binding-3.0.3.post1190.tar.gz tmp/nucliadb_node_binding-3.0.3.post1201.tar.gz --markdown 20240426/n/nucliadb-node-binding/3.0.3.post1190-3.0.3.post1201/README.md --exclude *.pyd
+[2024-04-26 10:26:37] INFO root fetch - processPackages [llm-monitoring-sascha]: executing diffoscope
+[2024-04-26 10:26:37] INFO root fetch - processPackages [llm-monitoring-sascha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm_monitoring_sascha-0.0.1-py3-none-any.whl.zip tmp/llm_monitoring_sascha-0.0.2-py3-none-any.whl.zip --markdown 20240426/l/llm-monitoring-sascha/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-26 10:26:37] INFO root fetch - processPackages [llm-monitoring-sascha]: executing diffoscope
+[2024-04-26 10:26:37] INFO root fetch - processPackages [llm-monitoring-sascha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm_monitoring_sascha-0.0.1-py3-none-any.whl.zip tmp/llm_monitoring_sascha-0.0.2-py3-none-any.whl.zip --markdown 20240426/l/llm-monitoring-sascha/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-26 10:26:37] INFO root fetch - processPackages [GaiaScript]: Remove: archive file [/home/abi/fetcher/tmp/GaiaScript-0.1.1.6.tar.gz]
+[2024-04-26 10:26:37] INFO root fetch - processPackages [GaiaScript]: Remove: archive file [/home/abi/fetcher/tmp/GaiaScript-0.1.2.tar.gz]
+[2024-04-26 10:26:37] INFO root fetch - main [MainThread]: End processing [GaiaScript]: success
+[2024-04-26 10:26:37] INFO root fetch - processPackages [pms-onpremise-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms-onpremise-encoder-0.0.8.tar.gz]
+[2024-04-26 10:26:37] INFO root fetch - processPackages [pms-onpremise-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms-onpremise-encoder-0.0.9.tar.gz]
+[2024-04-26 10:26:37] INFO root fetch - main [MainThread]: End processing [pms-onpremise-encoder]: success
+[2024-04-26 10:26:37] INFO root fetch - processPackages [llm-monitoring-sascha]: Remove: archive file [/home/abi/fetcher/tmp/llm_monitoring_sascha-0.0.1-py3-none-any.whl.zip]
+[2024-04-26 10:26:37] INFO root fetch - processPackages [llm-monitoring-sascha]: Remove: archive file [/home/abi/fetcher/tmp/llm_monitoring_sascha-0.0.2-py3-none-any.whl.zip]
+[2024-04-26 10:26:37] INFO root fetch - main [MainThread]: End processing [llm-monitoring-sascha]: success
+[2024-04-26 10:26:37] INFO root fetch - processPackages [fleks]: Remove: archive file [/home/abi/fetcher/tmp/fleks-2024.4.4.13.29.tar.gz]
+[2024-04-26 10:26:37] INFO root fetch - processPackages [fleks]: Remove: archive file [/home/abi/fetcher/tmp/fleks-2024.4.5.9.29.tar.gz]
+[2024-04-26 10:26:37] INFO root fetch - main [MainThread]: End processing [fleks]: success
+[2024-04-26 10:26:37] INFO root fetch - main [MainThread]: End processing [llm-monitoring-sascha]: success
+[2024-04-26 10:26:37] INFO root fetch - processPackages [inspire-schemas]: Remove: archive file [/home/abi/fetcher/tmp/inspire-schemas-8.0.0.tar.gz]
+[2024-04-26 10:26:37] INFO root fetch - processPackages [inspire-schemas]: Remove: archive file [/home/abi/fetcher/tmp/inspire-schemas-9.0.0.tar.gz]
+[2024-04-26 10:26:37] INFO root fetch - main [MainThread]: End processing [inspire-schemas]: success
+[2024-04-26 10:26:39] INFO root fetch - processPackages [nucliadb-node-binding]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_node_binding-3.0.3.post1190.tar.gz]
+[2024-04-26 10:26:39] INFO root fetch - processPackages [nucliadb-node-binding]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_node_binding-3.0.3.post1201.tar.gz]
+[2024-04-26 10:26:39] INFO root fetch - main [MainThread]: End processing [nucliadb-node-binding]: success
+[2024-04-26 10:26:39] INFO root fetch - processPackages [odoo-addon-account-reconcile-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_reconcile_oca-16.0.1.2.9-py3-none-any.whl.zip]
+[2024-04-26 10:26:39] INFO root fetch - processPackages [odoo-addon-account-reconcile-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_reconcile_oca-17.0.1.0.0.20-py3-none-any.whl.zip]
+[2024-04-26 10:26:39] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-reconcile-oca]: success
+[2024-04-26 10:26:39] INFO root fetch - main [MainThread]: Store serial: [22944870]
