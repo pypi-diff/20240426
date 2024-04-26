@@ -13317,3 +13317,27 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 09:51:48] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod347]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat_mod347-17.0.1.0.0.4-py3-none-any.whl.zip]
 [2024-04-26 09:51:48] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-aeat-mod347]: success
 [2024-04-26 09:51:48] INFO root fetch - main [MainThread]: Store serial: [22944503]
+[2024-04-26 09:53:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22944503]
+[2024-04-26 09:53:57] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-26 09:53:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: smartieee
+[2024-04-26 09:53:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: packg
+[2024-04-26 09:53:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: usbmuxctl
+[2024-04-26 09:53:58] WARNING root fetch - processPackages [smartieee]: Skipping, unable to determine old version
+[2024-04-26 09:53:58] INFO root fetch - main [MainThread]: End processing [smartieee] error
+[2024-04-26 09:53:58] INFO root fetch - processPackages [usbmuxctl]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-26 09:53:58] INFO root fetch - processPackages [packg]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-04-26 09:53:58] INFO root fetch - processPackages [usbmuxctl]: Downloading https://files.pythonhosted.org/packages/9c/74/7b1ac61fc60a254b71e210843bf5b4e85b7c7e0f19b2801b874d1995d372/usbmuxctl-0.1.3.tar.gz
+[2024-04-26 09:53:58] INFO root fetch - processPackages [packg]: Downloading https://files.pythonhosted.org/packages/35/f5/de411f4b1201d757eb0aab94b26e1480689d8322ab6621ed887351575c73/packg-0.9.2.tar.gz
+[2024-04-26 09:53:58] INFO root fetch - processPackages [packg]: Downloading https://files.pythonhosted.org/packages/9a/d2/c8c96c46c7352d8d450cd3603781f17a1c2fb55e67cb7758cfe016ed7bad/packg-0.9.3.tar.gz
+[2024-04-26 09:53:58] INFO root fetch - processPackages [usbmuxctl]: Downloading https://files.pythonhosted.org/packages/75/57/327df4cc8d267a348e1bcccf3f301c6db9f2c2ee2842dbf22035b515466b/usbmuxctl-0.1.4.tar.gz
+[2024-04-26 09:53:58] INFO root fetch - processPackages [packg]: executing diffoscope
+[2024-04-26 09:53:58] INFO root fetch - processPackages [packg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/packg-0.9.2.tar.gz tmp/packg-0.9.3.tar.gz --markdown 20240426/p/packg/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-04-26 09:53:59] INFO root fetch - processPackages [usbmuxctl]: executing diffoscope
+[2024-04-26 09:53:59] INFO root fetch - processPackages [usbmuxctl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/usbmuxctl-0.1.3.tar.gz tmp/usbmuxctl-0.1.4.tar.gz --markdown 20240426/u/usbmuxctl/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-26 09:53:59] INFO root fetch - processPackages [packg]: Remove: archive file [/home/abi/fetcher/tmp/packg-0.9.2.tar.gz]
+[2024-04-26 09:53:59] INFO root fetch - processPackages [packg]: Remove: archive file [/home/abi/fetcher/tmp/packg-0.9.3.tar.gz]
+[2024-04-26 09:53:59] INFO root fetch - main [MainThread]: End processing [packg]: success
+[2024-04-26 09:53:59] INFO root fetch - processPackages [usbmuxctl]: Remove: archive file [/home/abi/fetcher/tmp/usbmuxctl-0.1.3.tar.gz]
+[2024-04-26 09:53:59] INFO root fetch - processPackages [usbmuxctl]: Remove: archive file [/home/abi/fetcher/tmp/usbmuxctl-0.1.4.tar.gz]
+[2024-04-26 09:53:59] INFO root fetch - main [MainThread]: End processing [usbmuxctl]: success
+[2024-04-26 09:53:59] INFO root fetch - main [MainThread]: Store serial: [22944514]
