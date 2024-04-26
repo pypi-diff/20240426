@@ -11534,3 +11534,56 @@
 [2024-04-26 08:42:40] INFO root fetch - processPackages [pulumi-openstack]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_openstack-3.9.0a1659603007.tar.gz]
 [2024-04-26 08:42:40] INFO root fetch - main [MainThread]: End processing [pulumi-openstack]: success
 [2024-04-26 08:42:40] INFO root fetch - main [MainThread]: Store serial: [22943582]
+[2024-04-26 08:44:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22943582]
+[2024-04-26 08:44:49] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-26 08:44:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fosslight-binary
+[2024-04-26 08:44:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: webscout
+[2024-04-26 08:44:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: plone.staticresources
+[2024-04-26 08:44:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cioblender
+[2024-04-26 08:44:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-postgresql
+[2024-04-26 08:44:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: typedmongo
+[2024-04-26 08:44:49] INFO root fetch - processPackages [typedmongo]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-26 08:44:49] INFO root fetch - processPackages [fosslight-binary]: New version: [4.1.9] Old Version: [4.1.8]
+[2024-04-26 08:44:49] INFO root fetch - processPackages [typedmongo]: Downloading https://files.pythonhosted.org/packages/03/74/8e66ba950109543f9a1f1f8d8bcbb15b7d8de7e8b8078b1215db00f51b9b/typedmongo-1.0.1.tar.gz
+[2024-04-26 08:44:49] INFO root fetch - processPackages [webscout]: New version: [1.3.6] Old Version: [1.3.5]
+[2024-04-26 08:44:49] INFO root fetch - processPackages [cioblender]: New version: [0.3.5rc1] Old Version: [0.3.4]
+[2024-04-26 08:44:49] INFO root fetch - processPackages [plone.staticresources]: New version: [2.2.0a7] Old Version: [2.2.0a6]
+[2024-04-26 08:44:49] INFO root fetch - processPackages [pulumi-postgresql]: New version: [3.9.0a1689896978] Old Version: [3.9.0a1689315090]
+[2024-04-26 08:44:50] INFO root fetch - processPackages [fosslight-binary]: Downloading https://files.pythonhosted.org/packages/22/6f/85c088e1b2ead56f08eea1b306f89a388b2747b84042a5e7692874f9eb1e/fosslight_binary-4.1.8.tar.gz
+[2024-04-26 08:44:50] INFO root fetch - processPackages [webscout]: Downloading https://files.pythonhosted.org/packages/5a/25/75329279086923ffe8674f8a603f66a54744747e222aefd24aa45415f7f9/webscout-1.3.5-py3-none-any.whl
+[2024-04-26 08:44:50] INFO root fetch - processPackages [typedmongo]: Downloading https://files.pythonhosted.org/packages/fa/6a/1b9a5502c35cd9f9f6c3ac61d7b6aaa8af8499417c58bfa839e16a98ba7f/typedmongo-1.0.2.tar.gz
+[2024-04-26 08:44:50] INFO root fetch - processPackages [cioblender]: Downloading https://files.pythonhosted.org/packages/4f/8c/5e5373acae8db7a5ca56333a547d62ddd0e80ea18b643c977882e8a03d0b/cioblender-0.3.4-py2.py3-none-any.whl
+[2024-04-26 08:44:50] INFO root fetch - processPackages [plone.staticresources]: Downloading https://files.pythonhosted.org/packages/83/57/9af668b2ed44f5c613701fb2f465d83226a0efb0703a0f2f8c765e94074f/plone.staticresources-2.2.0a6.tar.gz
+[2024-04-26 08:44:50] INFO root fetch - processPackages [pulumi-postgresql]: Downloading https://files.pythonhosted.org/packages/ed/e0/7fdde90ef74fd102795261322b0ac8625336995854691a442d881f55cb87/pulumi_postgresql-3.9.0a1689315090.tar.gz
+[2024-04-26 08:44:50] INFO root fetch - processPackages [typedmongo]: executing diffoscope
+[2024-04-26 08:44:50] INFO root fetch - processPackages [typedmongo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typedmongo-1.0.1.tar.gz tmp/typedmongo-1.0.2.tar.gz --markdown 20240426/t/typedmongo/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-26 08:44:50] WARNING root fetch - processPackages [plone.staticresources]: Skipping package: exceeds size limit 11173730>=10485760
+[2024-04-26 08:44:50] INFO root fetch - main [MainThread]: End processing [plone.staticresources] error
+[2024-04-26 08:44:50] INFO root fetch - processPackages [fosslight-binary]: Downloading https://files.pythonhosted.org/packages/1b/f1/ff2a6a1db0c0046609a8ecbe67161601a6146e496014527cd0c32620806d/fosslight_binary-4.1.9.tar.gz
+[2024-04-26 08:44:50] INFO root fetch - processPackages [webscout]: Downloading https://files.pythonhosted.org/packages/99/60/d92d17e12b3a7f23ac738eee63a77dfbe6c9554e64b857797a4a0f7e7d0e/webscout-1.3.6.tar.gz
+[2024-04-26 08:44:50] INFO root fetch - processPackages [cioblender]: Downloading https://files.pythonhosted.org/packages/29/bd/10a08168188dfbc627e29fbae2f6ec40f01d82ae260d79a5ea0803ae5705/cioblender-0.3.5rc1-py2.py3-none-any.whl
+[2024-04-26 08:44:50] INFO root fetch - processPackages [webscout]: executing diffoscope
+[2024-04-26 08:44:50] INFO root fetch - processPackages [webscout]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webscout-1.3.5-py3-none-any.whl.zip tmp/webscout-1.3.6.tar.gz --markdown 20240426/w/webscout/1.3.5-1.3.6/README.md --exclude *.pyd
+[2024-04-26 08:44:50] INFO root fetch - processPackages [pulumi-postgresql]: Downloading https://files.pythonhosted.org/packages/a0/7c/da57549229c7dc197fea08a82cd8c820b56d0bf8e0ed12fafc5fec8b3eff/pulumi_postgresql-3.9.0a1689896978.tar.gz
+[2024-04-26 08:44:50] INFO root fetch - processPackages [fosslight-binary]: executing diffoscope
+[2024-04-26 08:44:50] INFO root fetch - processPackages [fosslight-binary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fosslight_binary-4.1.8.tar.gz tmp/fosslight_binary-4.1.9.tar.gz --markdown 20240426/f/fosslight-binary/4.1.8-4.1.9/README.md --exclude *.pyd
+[2024-04-26 08:44:50] INFO root fetch - processPackages [cioblender]: executing diffoscope
+[2024-04-26 08:44:50] INFO root fetch - processPackages [cioblender]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cioblender-0.3.4-py2.py3-none-any.whl.zip tmp/cioblender-0.3.5rc1-py2.py3-none-any.whl.zip --markdown 20240426/c/cioblender/0.3.4-0.3.5rc1/README.md --exclude *.pyd
+[2024-04-26 08:44:50] INFO root fetch - processPackages [pulumi-postgresql]: executing diffoscope
+[2024-04-26 08:44:50] INFO root fetch - processPackages [pulumi-postgresql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_postgresql-3.9.0a1689315090.tar.gz tmp/pulumi_postgresql-3.9.0a1689896978.tar.gz --markdown 20240426/p/pulumi-postgresql/3.9.0a1689315090-3.9.0a1689896978/README.md --exclude *.pyd
+[2024-04-26 08:44:50] INFO root fetch - processPackages [typedmongo]: Remove: archive file [/home/abi/fetcher/tmp/typedmongo-1.0.1.tar.gz]
+[2024-04-26 08:44:50] INFO root fetch - processPackages [typedmongo]: Remove: archive file [/home/abi/fetcher/tmp/typedmongo-1.0.2.tar.gz]
+[2024-04-26 08:44:50] INFO root fetch - main [MainThread]: End processing [typedmongo]: success
+[2024-04-26 08:44:51] INFO root fetch - processPackages [webscout]: Remove: archive file [/home/abi/fetcher/tmp/webscout-1.3.5-py3-none-any.whl.zip]
+[2024-04-26 08:44:51] INFO root fetch - processPackages [webscout]: Remove: archive file [/home/abi/fetcher/tmp/webscout-1.3.6.tar.gz]
+[2024-04-26 08:44:51] INFO root fetch - main [MainThread]: End processing [webscout]: success
+[2024-04-26 08:44:51] INFO root fetch - processPackages [fosslight-binary]: Remove: archive file [/home/abi/fetcher/tmp/fosslight_binary-4.1.8.tar.gz]
+[2024-04-26 08:44:51] INFO root fetch - processPackages [fosslight-binary]: Remove: archive file [/home/abi/fetcher/tmp/fosslight_binary-4.1.9.tar.gz]
+[2024-04-26 08:44:51] INFO root fetch - main [MainThread]: End processing [fosslight-binary]: success
+[2024-04-26 08:44:51] INFO root fetch - processPackages [cioblender]: Remove: archive file [/home/abi/fetcher/tmp/cioblender-0.3.4-py2.py3-none-any.whl.zip]
+[2024-04-26 08:44:51] INFO root fetch - processPackages [cioblender]: Remove: archive file [/home/abi/fetcher/tmp/cioblender-0.3.5rc1-py2.py3-none-any.whl.zip]
+[2024-04-26 08:44:51] INFO root fetch - main [MainThread]: End processing [cioblender]: success
+[2024-04-26 08:44:51] INFO root fetch - processPackages [pulumi-postgresql]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_postgresql-3.9.0a1689315090.tar.gz]
+[2024-04-26 08:44:51] INFO root fetch - processPackages [pulumi-postgresql]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_postgresql-3.9.0a1689896978.tar.gz]
+[2024-04-26 08:44:51] INFO root fetch - main [MainThread]: End processing [pulumi-postgresql]: success
+[2024-04-26 08:44:51] INFO root fetch - main [MainThread]: Store serial: [22943599]
