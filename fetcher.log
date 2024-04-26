@@ -22826,3 +22826,60 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 16:18:20] INFO root fetch - processPackages [cometx]: Remove: archive file [/home/abi/fetcher/tmp/cometx-2.0.3-py3-none-any.whl.zip]
 [2024-04-26 16:18:20] INFO root fetch - main [MainThread]: End processing [cometx]: success
 [2024-04-26 16:18:20] INFO root fetch - main [MainThread]: Store serial: [22948588]
+[2024-04-26 16:20:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22948588]
+[2024-04-26 16:20:28] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-26 16:20:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: housekeeper
+[2024-04-26 16:20:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spaceone-cost-analysis
+[2024-04-26 16:20:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-l10n-es-pos-by-device
+[2024-04-26 16:20:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: efel
+[2024-04-26 16:20:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ansys-api-discovery
+[2024-04-26 16:20:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bullmq
+[2024-04-26 16:20:28] INFO root fetch - processPackages [spaceone-cost-analysis]: New version: [2.0.dev99] Old Version: [2.0.dev98]
+[2024-04-26 16:20:29] INFO root fetch - processPackages [bullmq]: New version: [2.7.4] Old Version: [2.7.3]
+[2024-04-26 16:20:29] INFO root fetch - processPackages [odoo-addon-l10n-es-pos-by-device]: New version: [16.0.1.0.1] Old Version: [16.0.1.0.0.2]
+[2024-04-26 16:20:29] INFO root fetch - processPackages [ansys-api-discovery]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-04-26 16:20:29] INFO root fetch - processPackages [spaceone-cost-analysis]: Downloading https://files.pythonhosted.org/packages/9d/ed/0868da6c86e4dc02447a82f2ea7dd601cbcd9f9457f1ffd86ffcd52166c9/spaceone-cost-analysis-2.0.dev98.tar.gz
+[2024-04-26 16:20:29] INFO root fetch - processPackages [housekeeper]: New version: [4.8.8] Old Version: [4.8.7]
+[2024-04-26 16:20:29] INFO root fetch - processPackages [efel]: New version: [5.6.9] Old Version: [5.6.8]
+[2024-04-26 16:20:29] INFO root fetch - processPackages [bullmq]: Downloading https://files.pythonhosted.org/packages/3b/d0/79b2f18d93439ed8f3b3c9398f0b55aaeedecefa7e1bed7c617e694fab2b/bullmq-2.7.3.tar.gz
+[2024-04-26 16:20:29] INFO root fetch - processPackages [odoo-addon-l10n-es-pos-by-device]: Downloading https://files.pythonhosted.org/packages/9f/78/4e8e951659de9a04b91d825b9daecd15f93e6f874e53bbc0328fb63e3bf4/odoo_addon_l10n_es_pos_by_device-16.0.1.0.0.2-py3-none-any.whl
+[2024-04-26 16:20:29] INFO root fetch - processPackages [efel]: Downloading https://files.pythonhosted.org/packages/79/1e/31cbb4d223fa5779a1791b711bb7cd79f7dad2bf7ab6bce1a22e8e7c0d2f/efel-5.6.8.tar.gz
+[2024-04-26 16:20:29] INFO root fetch - processPackages [ansys-api-discovery]: Downloading https://files.pythonhosted.org/packages/7f/e8/be55d956d57ae44cfa3bfa18e502f4d047788235d5a8c5e5593d3a9ba883/ansys-api-discovery-0.5.1.tar.gz
+[2024-04-26 16:20:29] INFO root fetch - processPackages [housekeeper]: Downloading https://files.pythonhosted.org/packages/d6/eb/028bf9adeb0cda2dfa0bef87bb69249debf7eea1fcc6e95b7a504bbd5f8f/housekeeper-4.8.7.tar.gz
+[2024-04-26 16:20:29] INFO root fetch - processPackages [spaceone-cost-analysis]: Downloading https://files.pythonhosted.org/packages/69/3b/abd588017217f1cd8fff7ef2a5fece8d81258b7c7585bb8fa88833d77684/spaceone-cost-analysis-2.0.dev99.tar.gz
+[2024-04-26 16:20:29] INFO root fetch - processPackages [spaceone-cost-analysis]: executing diffoscope
+[2024-04-26 16:20:29] INFO root fetch - processPackages [spaceone-cost-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-cost-analysis-2.0.dev98.tar.gz tmp/spaceone-cost-analysis-2.0.dev99.tar.gz --markdown 20240426/s/spaceone-cost-analysis/2.0.dev98-2.0.dev99/README.md --exclude *.pyd
+[2024-04-26 16:20:29] INFO root fetch - processPackages [bullmq]: Downloading https://files.pythonhosted.org/packages/80/aa/915fa37c825a488686150acc439b44ef82d512a101fb1f27a2801874f246/bullmq-2.7.4.tar.gz
+[2024-04-26 16:20:29] INFO root fetch - processPackages [odoo-addon-l10n-es-pos-by-device]: Downloading https://files.pythonhosted.org/packages/c5/47/b03a9b9a6f02194aa4d8c274af522b4ec5856d76dbb68bb7113632603dca/odoo_addon_l10n_es_pos_by_device-16.0.1.0.1-py3-none-any.whl
+[2024-04-26 16:20:29] INFO root fetch - processPackages [ansys-api-discovery]: Downloading https://files.pythonhosted.org/packages/7b/23/b02d75aab50830e822a77b59a9cd20c37ecc81015008363f4ea78de10f2f/ansys_api_discovery-0.5.2.tar.gz
+[2024-04-26 16:20:29] INFO root fetch - processPackages [efel]: Downloading https://files.pythonhosted.org/packages/49/8d/514d183040a164204dbbc17e6552e3c6fba522bfada39777899423fa195d/efel-5.6.9.tar.gz
+[2024-04-26 16:20:29] INFO root fetch - processPackages [bullmq]: executing diffoscope
+[2024-04-26 16:20:29] INFO root fetch - processPackages [bullmq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bullmq-2.7.3.tar.gz tmp/bullmq-2.7.4.tar.gz --markdown 20240426/b/bullmq/2.7.3-2.7.4/README.md --exclude *.pyd
+[2024-04-26 16:20:29] INFO root fetch - processPackages [housekeeper]: Downloading https://files.pythonhosted.org/packages/5f/a9/35e004aec87da5e76e1faa71be1fd99f4d966c233a59d3a4098dee01aec4/housekeeper-4.8.8.tar.gz
+[2024-04-26 16:20:29] INFO root fetch - processPackages [odoo-addon-l10n-es-pos-by-device]: executing diffoscope
+[2024-04-26 16:20:29] INFO root fetch - processPackages [odoo-addon-l10n-es-pos-by-device]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_pos_by_device-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_pos_by_device-16.0.1.0.1-py3-none-any.whl.zip --markdown 20240426/o/odoo-addon-l10n-es-pos-by-device/16.0.1.0.0.2-16.0.1.0.1/README.md --exclude *.pyd
+[2024-04-26 16:20:29] INFO root fetch - processPackages [ansys-api-discovery]: executing diffoscope
+[2024-04-26 16:20:29] INFO root fetch - processPackages [ansys-api-discovery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansys-api-discovery-0.5.1.tar.gz tmp/ansys_api_discovery-0.5.2.tar.gz --markdown 20240426/a/ansys-api-discovery/0.5.1-0.5.2/README.md --exclude *.pyd
+[2024-04-26 16:20:29] INFO root fetch - processPackages [efel]: executing diffoscope
+[2024-04-26 16:20:29] INFO root fetch - processPackages [efel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/efel-5.6.8.tar.gz tmp/efel-5.6.9.tar.gz --markdown 20240426/e/efel/5.6.8-5.6.9/README.md --exclude *.pyd
+[2024-04-26 16:20:30] INFO root fetch - processPackages [housekeeper]: executing diffoscope
+[2024-04-26 16:20:30] INFO root fetch - processPackages [housekeeper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/housekeeper-4.8.7.tar.gz tmp/housekeeper-4.8.8.tar.gz --markdown 20240426/h/housekeeper/4.8.7-4.8.8/README.md --exclude *.pyd
+[2024-04-26 16:20:30] INFO root fetch - processPackages [ansys-api-discovery]: Remove: archive file [/home/abi/fetcher/tmp/ansys-api-discovery-0.5.1.tar.gz]
+[2024-04-26 16:20:30] INFO root fetch - processPackages [ansys-api-discovery]: Remove: archive file [/home/abi/fetcher/tmp/ansys_api_discovery-0.5.2.tar.gz]
+[2024-04-26 16:20:30] INFO root fetch - main [MainThread]: End processing [ansys-api-discovery]: success
+[2024-04-26 16:20:30] INFO root fetch - processPackages [bullmq]: Remove: archive file [/home/abi/fetcher/tmp/bullmq-2.7.3.tar.gz]
+[2024-04-26 16:20:30] INFO root fetch - processPackages [bullmq]: Remove: archive file [/home/abi/fetcher/tmp/bullmq-2.7.4.tar.gz]
+[2024-04-26 16:20:30] INFO root fetch - main [MainThread]: End processing [bullmq]: success
+[2024-04-26 16:20:30] INFO root fetch - processPackages [efel]: Remove: archive file [/home/abi/fetcher/tmp/efel-5.6.8.tar.gz]
+[2024-04-26 16:20:30] INFO root fetch - processPackages [efel]: Remove: archive file [/home/abi/fetcher/tmp/efel-5.6.9.tar.gz]
+[2024-04-26 16:20:30] INFO root fetch - main [MainThread]: End processing [efel]: success
+[2024-04-26 16:20:30] INFO root fetch - processPackages [spaceone-cost-analysis]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-cost-analysis-2.0.dev98.tar.gz]
+[2024-04-26 16:20:30] INFO root fetch - processPackages [spaceone-cost-analysis]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-cost-analysis-2.0.dev99.tar.gz]
+[2024-04-26 16:20:30] INFO root fetch - main [MainThread]: End processing [spaceone-cost-analysis]: success
+[2024-04-26 16:20:30] INFO root fetch - processPackages [odoo-addon-l10n-es-pos-by-device]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_pos_by_device-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-26 16:20:30] INFO root fetch - processPackages [odoo-addon-l10n-es-pos-by-device]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_pos_by_device-16.0.1.0.1-py3-none-any.whl.zip]
+[2024-04-26 16:20:30] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-pos-by-device]: success
+[2024-04-26 16:20:31] INFO root fetch - processPackages [housekeeper]: Remove: archive file [/home/abi/fetcher/tmp/housekeeper-4.8.7.tar.gz]
+[2024-04-26 16:20:31] INFO root fetch - processPackages [housekeeper]: Remove: archive file [/home/abi/fetcher/tmp/housekeeper-4.8.8.tar.gz]
+[2024-04-26 16:20:31] INFO root fetch - main [MainThread]: End processing [housekeeper]: success
+[2024-04-26 16:20:31] INFO root fetch - main [MainThread]: Store serial: [22948615]
