@@ -1902,3 +1902,42 @@
 [2024-04-26 02:01:15] INFO root fetch - processPackages [streamlit-carousel]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_carousel-1.0.0.tar.gz]
 [2024-04-26 02:01:15] INFO root fetch - main [MainThread]: End processing [streamlit-carousel]: success
 [2024-04-26 02:01:15] INFO root fetch - main [MainThread]: Store serial: [22939719]
+[2024-04-26 02:03:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22939719]
+[2024-04-26 02:03:25] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-26 02:03:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: indexify-extractor-sdk
+[2024-04-26 02:03:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: eirStru
+[2024-04-26 02:03:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: onnxscript
+[2024-04-26 02:03:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mlx-lm
+[2024-04-26 02:03:25] INFO root fetch - processPackages [indexify-extractor-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-26 02:03:25] INFO root fetch - processPackages [eirStru]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-26 02:03:25] INFO root fetch - processPackages [onnxscript]: New version: [0.1.0.dev20240425] Old Version: [0.1.0.dev20240424]
+[2024-04-26 02:03:25] INFO root fetch - processPackages [mlx-lm]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-26 02:03:25] INFO root fetch - processPackages [indexify-extractor-sdk]: Downloading https://files.pythonhosted.org/packages/25/fb/8dcfb1ddf593ada77ca7aebff3d9add072c6922c5b3efddeb31e991f5968/indexify-extractor-sdk-0.0.8.tar.gz
+[2024-04-26 02:03:25] INFO root fetch - processPackages [onnxscript]: Downloading https://files.pythonhosted.org/packages/d2/69/6ab90a0f428d49dc665d453467b351c30a7daccb071a5dcef977bb7b06e6/onnxscript-0.1.0.dev20240424.tar.gz
+[2024-04-26 02:03:25] INFO root fetch - processPackages [eirStru]: Downloading https://files.pythonhosted.org/packages/b5/2a/25fb95363a9110b32ccbc230c8a5f6207e35c7c5906b6f63320a4ca71535/eirStru-0.3.8.tar.gz
+[2024-04-26 02:03:25] INFO root fetch - processPackages [indexify-extractor-sdk]: Downloading https://files.pythonhosted.org/packages/6b/69/1a816cb64f283ffbd7a285fc0aacdf84a8f4bc7214eaab78ac42be5e93ba/indexify-extractor-sdk-0.0.9.tar.gz
+[2024-04-26 02:03:25] INFO root fetch - processPackages [mlx-lm]: Downloading https://files.pythonhosted.org/packages/f4/ad/d234be8ccbd4db490d36c63d1e32a5f25c91f97ce43c889094e6aa290f23/mlx-lm-0.8.0.tar.gz
+[2024-04-26 02:03:25] INFO root fetch - processPackages [eirStru]: Downloading https://files.pythonhosted.org/packages/26/ce/8cae1a6c9a510bd827a325862ceb832b9e593422dff66af06aa3bdda4f40/eirStru-0.3.9.tar.gz
+[2024-04-26 02:03:25] INFO root fetch - processPackages [indexify-extractor-sdk]: executing diffoscope
+[2024-04-26 02:03:25] INFO root fetch - processPackages [indexify-extractor-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/indexify-extractor-sdk-0.0.8.tar.gz tmp/indexify-extractor-sdk-0.0.9.tar.gz --markdown 20240426/i/indexify-extractor-sdk/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-26 02:03:25] INFO root fetch - processPackages [onnxscript]: Downloading https://files.pythonhosted.org/packages/44/d4/b78e6561c6b7bb8598af55e4c9dbd1a52686937ebf3c09e75fe7d45a6a35/onnxscript-0.1.0.dev20240425.tar.gz
+[2024-04-26 02:03:25] INFO root fetch - processPackages [eirStru]: executing diffoscope
+[2024-04-26 02:03:25] INFO root fetch - processPackages [eirStru]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eirStru-0.3.8.tar.gz tmp/eirStru-0.3.9.tar.gz --markdown 20240426/e/eirStru/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-04-26 02:03:25] INFO root fetch - processPackages [onnxscript]: executing diffoscope
+[2024-04-26 02:03:25] INFO root fetch - processPackages [onnxscript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnxscript-0.1.0.dev20240424.tar.gz tmp/onnxscript-0.1.0.dev20240425.tar.gz --markdown 20240426/o/onnxscript/0.1.0.dev20240424-0.1.0.dev20240425/README.md --exclude *.pyd
+[2024-04-26 02:03:25] INFO root fetch - processPackages [mlx-lm]: Downloading https://files.pythonhosted.org/packages/c2/06/bea055fca148b3d8fc52de62909084619d302af1de19b3524bee57b58d46/mlx-lm-0.9.0.tar.gz
+[2024-04-26 02:03:26] INFO root fetch - processPackages [mlx-lm]: executing diffoscope
+[2024-04-26 02:03:26] INFO root fetch - processPackages [mlx-lm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlx-lm-0.8.0.tar.gz tmp/mlx-lm-0.9.0.tar.gz --markdown 20240426/m/mlx-lm/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-26 02:03:26] INFO root fetch - processPackages [indexify-extractor-sdk]: Remove: archive file [/home/abi/fetcher/tmp/indexify-extractor-sdk-0.0.8.tar.gz]
+[2024-04-26 02:03:26] INFO root fetch - processPackages [indexify-extractor-sdk]: Remove: archive file [/home/abi/fetcher/tmp/indexify-extractor-sdk-0.0.9.tar.gz]
+[2024-04-26 02:03:26] INFO root fetch - main [MainThread]: End processing [indexify-extractor-sdk]: success
+[2024-04-26 02:03:26] INFO root fetch - processPackages [eirStru]: Remove: archive file [/home/abi/fetcher/tmp/eirStru-0.3.8.tar.gz]
+[2024-04-26 02:03:26] INFO root fetch - processPackages [eirStru]: Remove: archive file [/home/abi/fetcher/tmp/eirStru-0.3.9.tar.gz]
+[2024-04-26 02:03:26] INFO root fetch - main [MainThread]: End processing [eirStru]: success
+[2024-04-26 02:03:26] INFO root fetch - processPackages [mlx-lm]: Remove: archive file [/home/abi/fetcher/tmp/mlx-lm-0.8.0.tar.gz]
+[2024-04-26 02:03:26] INFO root fetch - processPackages [mlx-lm]: Remove: archive file [/home/abi/fetcher/tmp/mlx-lm-0.9.0.tar.gz]
+[2024-04-26 02:03:26] INFO root fetch - main [MainThread]: End processing [mlx-lm]: success
+[2024-04-26 02:03:26] INFO root fetch - processPackages [onnxscript]: Remove: archive file [/home/abi/fetcher/tmp/onnxscript-0.1.0.dev20240424.tar.gz]
+[2024-04-26 02:03:26] INFO root fetch - processPackages [onnxscript]: Remove: archive file [/home/abi/fetcher/tmp/onnxscript-0.1.0.dev20240425.tar.gz]
+[2024-04-26 02:03:26] INFO root fetch - main [MainThread]: End processing [onnxscript]: success
+[2024-04-26 02:03:26] INFO root fetch - main [MainThread]: Store serial: [22939730]
