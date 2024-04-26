@@ -18563,3 +18563,60 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 13:16:19] INFO root fetch - processPackages [capellambse]: Remove: archive file [/home/abi/fetcher/tmp/capellambse-0.5.9.dev5.tar.gz]
 [2024-04-26 13:16:19] INFO root fetch - main [MainThread]: End processing [capellambse]: success
 [2024-04-26 13:16:19] INFO root fetch - main [MainThread]: Store serial: [22946716]
+[2024-04-26 13:18:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22946716]
+[2024-04-26 13:18:29] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-26 13:18:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: caen-hv-py
+[2024-04-26 13:18:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: valmi-connector-lib
+[2024-04-26 13:18:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spaceone-api
+[2024-04-26 13:18:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: HyperSweeper
+[2024-04-26 13:18:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: llm-monitoring-sascha
+[2024-04-26 13:18:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dccXMLJSONCconv
+[2024-04-26 13:18:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: airda
+[2024-04-26 13:18:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: capellambse-context-diagrams
+[2024-04-26 13:18:29] INFO root fetch - processPackages [caen-hv-py]: New version: [1.2] Old Version: [1.1]
+[2024-04-26 13:18:29] WARNING root fetch - processPackages [dccXMLJSONCconv]: Skipping, unable to determine old version
+[2024-04-26 13:18:29] INFO root fetch - main [MainThread]: End processing [dccXMLJSONCconv] error
+[2024-04-26 13:18:29] INFO root fetch - processPackages [llm-monitoring-sascha]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-26 13:18:29] INFO root fetch - processPackages [valmi-connector-lib]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-26 13:18:29] INFO root fetch - processPackages [spaceone-api]: New version: [2.0.dev89] Old Version: [2.0.dev78]
+[2024-04-26 13:18:29] INFO root fetch - processPackages [caen-hv-py]: Downloading https://files.pythonhosted.org/packages/cd/58/31594f06198c1b28754afed75fa8177a526b1e934b4c034d3f2d4645a389/caen_hv_py-1.1.tar.gz
+[2024-04-26 13:18:29] WARNING root fetch - processPackages [HyperSweeper]: Skipping, unable to determine old version
+[2024-04-26 13:18:29] INFO root fetch - main [MainThread]: End processing [HyperSweeper] error
+[2024-04-26 13:18:29] INFO root fetch - processPackages [capellambse-context-diagrams]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-26 13:18:29] ERROR root fetch - processPackages [airda]: Unable to get metadata: No such project 'airda'
+[2024-04-26 13:18:29] INFO root fetch - main [MainThread]: End processing [airda] error
+[2024-04-26 13:18:29] INFO root fetch - processPackages [llm-monitoring-sascha]: Downloading https://files.pythonhosted.org/packages/2e/45/aaaf24b095248c5f519f1b29655b8031e796debbf88d0ebaa63adaffdcfc/llm_monitoring_sascha-0.0.7.tar.gz
+[2024-04-26 13:18:29] INFO root fetch - processPackages [valmi-connector-lib]: Downloading https://files.pythonhosted.org/packages/68/54/062a20f75076aa53427ddf933f64d2177adabaa9c1f4507ee0d9d30b8b03/valmi_connector_lib-0.1.98.tar.gz
+[2024-04-26 13:18:29] INFO root fetch - processPackages [spaceone-api]: Downloading https://files.pythonhosted.org/packages/63/38/896ca815cd9f0d4be5040377b88a5b629fee8eedad29b468c7a50e063060/spaceone-api-2.0.dev78.tar.gz
+[2024-04-26 13:18:29] INFO root fetch - processPackages [capellambse-context-diagrams]: Downloading https://files.pythonhosted.org/packages/3b/41/804ad513fea74424d89581faf8848991fbeaa741a869eb71749a5062fcb3/capellambse-context-diagrams-0.2.8.tar.gz
+[2024-04-26 13:18:30] INFO root fetch - processPackages [valmi-connector-lib]: Downloading https://files.pythonhosted.org/packages/2f/47/8fb8bac8016bd8f46ec3d29fa7fc0e2cdc40845d8dce82ba52e668672ab8/valmi_connector_lib-0.1.99.tar.gz
+[2024-04-26 13:18:30] INFO root fetch - processPackages [caen-hv-py]: Downloading https://files.pythonhosted.org/packages/0f/02/3d613450b73ede83c96f546a776f9b41ae98b25b79315e1655b980488aff/caen_hv_py-1.2.tar.gz
+[2024-04-26 13:18:30] INFO root fetch - processPackages [llm-monitoring-sascha]: Downloading https://files.pythonhosted.org/packages/e2/6c/5b98c8b24ac27921ddcc5d15a4f1b3d65e749bd151909402ce7b6be91626/llm_monitoring_sascha-0.0.8.tar.gz
+[2024-04-26 13:18:30] INFO root fetch - processPackages [valmi-connector-lib]: executing diffoscope
+[2024-04-26 13:18:30] INFO root fetch - processPackages [valmi-connector-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/valmi_connector_lib-0.1.98.tar.gz tmp/valmi_connector_lib-0.1.99.tar.gz --markdown 20240426/v/valmi-connector-lib/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-04-26 13:18:30] INFO root fetch - processPackages [caen-hv-py]: executing diffoscope
+[2024-04-26 13:18:30] INFO root fetch - processPackages [caen-hv-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caen_hv_py-1.1.tar.gz tmp/caen_hv_py-1.2.tar.gz --markdown 20240426/c/caen-hv-py/1.1-1.2/README.md --exclude *.pyd
+[2024-04-26 13:18:30] INFO root fetch - processPackages [llm-monitoring-sascha]: executing diffoscope
+[2024-04-26 13:18:30] INFO root fetch - processPackages [llm-monitoring-sascha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm_monitoring_sascha-0.0.7.tar.gz tmp/llm_monitoring_sascha-0.0.8.tar.gz --markdown 20240426/l/llm-monitoring-sascha/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-26 13:18:30] INFO root fetch - processPackages [spaceone-api]: Downloading https://files.pythonhosted.org/packages/c0/ea/4a6c8347250e808ffcceef19de666ffee1c045761343985127f39a05bc13/spaceone-api-2.0.dev89.tar.gz
+[2024-04-26 13:18:30] INFO root fetch - processPackages [capellambse-context-diagrams]: Downloading https://files.pythonhosted.org/packages/5f/e9/32a768c40571016e33ca421423e058e28d923820700a4e745c4546d21bdb/capellambse-context-diagrams-0.2.9.tar.gz
+[2024-04-26 13:18:30] INFO root fetch - processPackages [spaceone-api]: executing diffoscope
+[2024-04-26 13:18:30] INFO root fetch - processPackages [spaceone-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-api-2.0.dev78.tar.gz tmp/spaceone-api-2.0.dev89.tar.gz --markdown 20240426/s/spaceone-api/2.0.dev78-2.0.dev89/README.md --exclude *.pyd
+[2024-04-26 13:18:30] INFO root fetch - processPackages [capellambse-context-diagrams]: executing diffoscope
+[2024-04-26 13:18:30] INFO root fetch - processPackages [capellambse-context-diagrams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capellambse-context-diagrams-0.2.8.tar.gz tmp/capellambse-context-diagrams-0.2.9.tar.gz --markdown 20240426/c/capellambse-context-diagrams/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-26 13:18:30] INFO root fetch - processPackages [caen-hv-py]: Remove: archive file [/home/abi/fetcher/tmp/caen_hv_py-1.1.tar.gz]
+[2024-04-26 13:18:30] INFO root fetch - processPackages [caen-hv-py]: Remove: archive file [/home/abi/fetcher/tmp/caen_hv_py-1.2.tar.gz]
+[2024-04-26 13:18:30] INFO root fetch - main [MainThread]: End processing [caen-hv-py]: success
+[2024-04-26 13:18:30] INFO root fetch - processPackages [llm-monitoring-sascha]: Remove: archive file [/home/abi/fetcher/tmp/llm_monitoring_sascha-0.0.7.tar.gz]
+[2024-04-26 13:18:30] INFO root fetch - processPackages [llm-monitoring-sascha]: Remove: archive file [/home/abi/fetcher/tmp/llm_monitoring_sascha-0.0.8.tar.gz]
+[2024-04-26 13:18:30] INFO root fetch - main [MainThread]: End processing [llm-monitoring-sascha]: success
+[2024-04-26 13:18:30] INFO root fetch - processPackages [valmi-connector-lib]: Remove: archive file [/home/abi/fetcher/tmp/valmi_connector_lib-0.1.98.tar.gz]
+[2024-04-26 13:18:30] INFO root fetch - processPackages [valmi-connector-lib]: Remove: archive file [/home/abi/fetcher/tmp/valmi_connector_lib-0.1.99.tar.gz]
+[2024-04-26 13:18:30] INFO root fetch - main [MainThread]: End processing [valmi-connector-lib]: success
+[2024-04-26 13:18:31] INFO root fetch - processPackages [spaceone-api]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-api-2.0.dev78.tar.gz]
+[2024-04-26 13:18:31] INFO root fetch - processPackages [spaceone-api]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-api-2.0.dev89.tar.gz]
+[2024-04-26 13:18:31] INFO root fetch - main [MainThread]: End processing [spaceone-api]: success
+[2024-04-26 13:18:31] INFO root fetch - processPackages [capellambse-context-diagrams]: Remove: archive file [/home/abi/fetcher/tmp/capellambse-context-diagrams-0.2.8.tar.gz]
+[2024-04-26 13:18:31] INFO root fetch - processPackages [capellambse-context-diagrams]: Remove: archive file [/home/abi/fetcher/tmp/capellambse-context-diagrams-0.2.9.tar.gz]
+[2024-04-26 13:18:31] INFO root fetch - main [MainThread]: End processing [capellambse-context-diagrams]: success
+[2024-04-26 13:18:31] INFO root fetch - main [MainThread]: Store serial: [22946745]
