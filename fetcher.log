@@ -7763,3 +7763,24 @@
 [2024-04-26 04:53:42] INFO root fetch - processPackages [django-sync-env]: Remove: archive file [/home/abi/fetcher/tmp/django_sync_env-0.3.1a0.tar.gz]
 [2024-04-26 04:53:42] INFO root fetch - main [MainThread]: End processing [django-sync-env]: success
 [2024-04-26 04:53:42] INFO root fetch - main [MainThread]: Store serial: [22942069]
+[2024-04-26 04:55:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22942069]
+[2024-04-26 04:55:51] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-26 04:55:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gpp-components
+[2024-04-26 04:55:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jz3
+[2024-04-26 04:55:51] INFO root fetch - processPackages [jz3]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-26 04:55:51] INFO root fetch - processPackages [gpp-components]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-26 04:55:51] INFO root fetch - processPackages [gpp-components]: Downloading https://files.pythonhosted.org/packages/77/0e/a779ffdcefbfb45f0faff36cd15341328c836424c5dd2aee3ce8ce0bc92e/gpp_components-0.1.3.tar.gz
+[2024-04-26 04:55:51] INFO root fetch - processPackages [jz3]: Downloading https://files.pythonhosted.org/packages/c0/ab/3205a8a2ef2aedd5677da682d9d8540d7b2de79f62992ef905cb3e641e0b/jz3-0.1.1.tar.gz
+[2024-04-26 04:55:52] INFO root fetch - processPackages [jz3]: Downloading https://files.pythonhosted.org/packages/fb/db/b03e45e8e94143b6c75ec59db1aea8658d1f6c95d483db09a2b8e98db6be/jz3-0.1.2.tar.gz
+[2024-04-26 04:55:52] INFO root fetch - processPackages [gpp-components]: Downloading https://files.pythonhosted.org/packages/f8/f2/3236eee20d770311126c5200dd296702ca03bd95deb52a3511ebb00389c1/gpp_components-0.1.4.tar.gz
+[2024-04-26 04:55:52] INFO root fetch - processPackages [jz3]: executing diffoscope
+[2024-04-26 04:55:52] INFO root fetch - processPackages [jz3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jz3-0.1.1.tar.gz tmp/jz3-0.1.2.tar.gz --markdown 20240426/j/jz3/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-26 04:55:52] INFO root fetch - processPackages [gpp-components]: executing diffoscope
+[2024-04-26 04:55:52] INFO root fetch - processPackages [gpp-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpp_components-0.1.3.tar.gz tmp/gpp_components-0.1.4.tar.gz --markdown 20240426/g/gpp-components/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-26 04:55:52] INFO root fetch - processPackages [gpp-components]: Remove: archive file [/home/abi/fetcher/tmp/gpp_components-0.1.3.tar.gz]
+[2024-04-26 04:55:52] INFO root fetch - processPackages [gpp-components]: Remove: archive file [/home/abi/fetcher/tmp/gpp_components-0.1.4.tar.gz]
+[2024-04-26 04:55:52] INFO root fetch - main [MainThread]: End processing [gpp-components]: success
+[2024-04-26 04:55:53] INFO root fetch - processPackages [jz3]: Remove: archive file [/home/abi/fetcher/tmp/jz3-0.1.1.tar.gz]
+[2024-04-26 04:55:53] INFO root fetch - processPackages [jz3]: Remove: archive file [/home/abi/fetcher/tmp/jz3-0.1.2.tar.gz]
+[2024-04-26 04:55:53] INFO root fetch - main [MainThread]: End processing [jz3]: success
+[2024-04-26 04:55:53] INFO root fetch - main [MainThread]: Store serial: [22942078]
