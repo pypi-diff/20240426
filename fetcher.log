@@ -22596,3 +22596,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 16:09:20] INFO root fetch - processPackages [determined]: Remove: archive file [/home/abi/fetcher/tmp/determined-0.32.0rc2-py3-none-any.whl.zip]
 [2024-04-26 16:09:20] INFO root fetch - main [MainThread]: End processing [determined]: success
 [2024-04-26 16:09:20] INFO root fetch - main [MainThread]: Store serial: [22948505]
+[2024-04-26 16:11:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22948505]
+[2024-04-26 16:11:29] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-26 16:11:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: edupils
+[2024-04-26 16:11:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lenscraft
+[2024-04-26 16:11:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: few-shot-priming
+[2024-04-26 16:11:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyhasura
+[2024-04-26 16:11:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lightning-sdk
+[2024-04-26 16:11:29] INFO root fetch - processPackages [pyhasura]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-04-26 16:11:29] INFO root fetch - processPackages [few-shot-priming]: New version: [0.3.99] Old Version: [0.3.98]
+[2024-04-26 16:11:29] INFO root fetch - processPackages [edupils]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-26 16:11:29] INFO root fetch - processPackages [lenscraft]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-26 16:11:29] INFO root fetch - processPackages [pyhasura]: Downloading https://files.pythonhosted.org/packages/81/99/fe7437756a1ceead6dff9a1e4c6e210a26e22326745492716780655fd1e0/pyhasura-1.0.7.tar.gz
+[2024-04-26 16:11:29] INFO root fetch - processPackages [lightning-sdk]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-26 16:11:29] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/eb/67/d15b11d0bfb57369fa16ba7f8c97cd3ddec8f771e6da8f11a3d819004b69/few_shot_priming-0.3.98-py3-none-any.whl
+[2024-04-26 16:11:29] INFO root fetch - processPackages [edupils]: Downloading https://files.pythonhosted.org/packages/82/05/ab345951541b3ffd4733efba4e9f7c000cbce15a045c505b9809498f180d/edupils-0.1.8.tar.gz
+[2024-04-26 16:11:29] INFO root fetch - processPackages [lenscraft]: Downloading https://files.pythonhosted.org/packages/72/bd/3d025735ca1e356fbcd112309ced9b787e224ea5522aefaa232cd4d4b0fd/lenscraft-1.0.2.tar.gz
+[2024-04-26 16:11:29] INFO root fetch - processPackages [lightning-sdk]: Downloading https://files.pythonhosted.org/packages/a0/06/8700eb99160d762cff2824ff73d01e7a3d27d97858a98ca7498ef919e6c8/lightning_sdk-0.1.5-py3-none-any.whl
+[2024-04-26 16:11:30] INFO root fetch - processPackages [pyhasura]: Downloading https://files.pythonhosted.org/packages/95/74/b4ed4bf242f56b3aed70cb52554c8acf938206faa9687d37ee0841c221a5/pyhasura-1.0.8.tar.gz
+[2024-04-26 16:11:30] INFO root fetch - processPackages [pyhasura]: executing diffoscope
+[2024-04-26 16:11:30] INFO root fetch - processPackages [pyhasura]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhasura-1.0.7.tar.gz tmp/pyhasura-1.0.8.tar.gz --markdown 20240426/p/pyhasura/1.0.7-1.0.8/README.md --exclude *.pyd
+[2024-04-26 16:11:30] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/ff/11/548f6e96803602e6431dc610d736d401b20fde986f85c35c8ad19a6d0958/few_shot_priming-0.3.99-py3-none-any.whl
+[2024-04-26 16:11:30] INFO root fetch - processPackages [edupils]: Downloading https://files.pythonhosted.org/packages/49/b0/4bd6d8edb371c09073e807585dd62bd4f952eb65361fd5eef6ca9e29b710/edupils-0.1.9.tar.gz
+[2024-04-26 16:11:30] INFO root fetch - processPackages [lightning-sdk]: Downloading https://files.pythonhosted.org/packages/8e/ea/49283feedade05a74b3e7a611c023dd541a79bd02a2ea19e9161dee5a775/lightning_sdk-0.1.6-py3-none-any.whl
+[2024-04-26 16:11:30] INFO root fetch - processPackages [edupils]: executing diffoscope
+[2024-04-26 16:11:30] INFO root fetch - processPackages [edupils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edupils-0.1.8.tar.gz tmp/edupils-0.1.9.tar.gz --markdown 20240426/e/edupils/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-26 16:11:30] INFO root fetch - processPackages [lightning-sdk]: executing diffoscope
+[2024-04-26 16:11:30] INFO root fetch - processPackages [lightning-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightning_sdk-0.1.5-py3-none-any.whl.zip tmp/lightning_sdk-0.1.6-py3-none-any.whl.zip --markdown 20240426/l/lightning-sdk/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-04-26 16:11:30] INFO root fetch - processPackages [lenscraft]: Downloading https://files.pythonhosted.org/packages/80/9a/83d1d77e07264a58ec791a9734f3ea13530b381ef26a86d1e5ca43605ab2/lenscraft-1.0.3.tar.gz
+[2024-04-26 16:11:30] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2024-04-26 16:11:30] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip --markdown 20240426/f/few-shot-priming/0.3.98-0.3.99/README.md --exclude *.pyd
+[2024-04-26 16:11:30] INFO root fetch - processPackages [pyhasura]: Remove: archive file [/home/abi/fetcher/tmp/pyhasura-1.0.7.tar.gz]
+[2024-04-26 16:11:30] INFO root fetch - processPackages [pyhasura]: Remove: archive file [/home/abi/fetcher/tmp/pyhasura-1.0.8.tar.gz]
+[2024-04-26 16:11:30] INFO root fetch - main [MainThread]: End processing [pyhasura]: success
+[2024-04-26 16:11:31] INFO root fetch - processPackages [edupils]: Remove: archive file [/home/abi/fetcher/tmp/edupils-0.1.8.tar.gz]
+[2024-04-26 16:11:31] INFO root fetch - processPackages [edupils]: Remove: archive file [/home/abi/fetcher/tmp/edupils-0.1.9.tar.gz]
+[2024-04-26 16:11:31] INFO root fetch - main [MainThread]: End processing [edupils]: success
+[2024-04-26 16:11:31] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip]
+[2024-04-26 16:11:31] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip]
+[2024-04-26 16:11:31] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2024-04-26 16:11:31] INFO root fetch - processPackages [lenscraft]: executing diffoscope
+[2024-04-26 16:11:31] INFO root fetch - processPackages [lenscraft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lenscraft-1.0.2.tar.gz tmp/lenscraft-1.0.3.tar.gz --markdown 20240426/l/lenscraft/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-04-26 16:11:32] INFO root fetch - processPackages [lightning-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lightning_sdk-0.1.5-py3-none-any.whl.zip]
+[2024-04-26 16:11:32] INFO root fetch - processPackages [lightning-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lightning_sdk-0.1.6-py3-none-any.whl.zip]
+[2024-04-26 16:11:32] INFO root fetch - main [MainThread]: End processing [lightning-sdk]: success
+[2024-04-26 16:11:33] INFO root fetch - processPackages [lenscraft]: Remove: archive file [/home/abi/fetcher/tmp/lenscraft-1.0.2.tar.gz]
+[2024-04-26 16:11:33] INFO root fetch - processPackages [lenscraft]: Remove: archive file [/home/abi/fetcher/tmp/lenscraft-1.0.3.tar.gz]
+[2024-04-26 16:11:33] INFO root fetch - main [MainThread]: End processing [lenscraft]: success
+[2024-04-26 16:11:33] INFO root fetch - main [MainThread]: Store serial: [22948520]
