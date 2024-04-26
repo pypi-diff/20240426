@@ -18683,3 +18683,60 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 13:20:44] INFO root fetch - processPackages [spaceone-cost-analysis]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-cost-analysis-2.0.dev99.tar.gz]
 [2024-04-26 13:20:44] INFO root fetch - main [MainThread]: End processing [spaceone-cost-analysis]: success
 [2024-04-26 13:20:44] INFO root fetch - main [MainThread]: Store serial: [22946773]
+[2024-04-26 13:22:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22946773]
+[2024-04-26 13:22:53] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-26 13:22:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: caen-hv-py
+[2024-04-26 13:22:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: swh.objstorage
+[2024-04-26 13:22:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: libreflow
+[2024-04-26 13:22:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: criteria-local
+[2024-04-26 13:22:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spaceone-cost-analysis
+[2024-04-26 13:22:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: composabl-api-dev
+[2024-04-26 13:22:53] INFO root fetch - processPackages [caen-hv-py]: New version: [1.3] Old Version: [1.2]
+[2024-04-26 13:22:53] INFO root fetch - processPackages [composabl-api-dev]: New version: [0.8.0.dev45] Old Version: [0.8.0.dev44]
+[2024-04-26 13:22:53] INFO root fetch - processPackages [spaceone-cost-analysis]: New version: [2.0.dev99] Old Version: [2.0.dev98]
+[2024-04-26 13:22:53] INFO root fetch - processPackages [libreflow]: New version: [2.3.2] Old Version: [2.3.1]
+[2024-04-26 13:22:53] INFO root fetch - processPackages [criteria-local]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-26 13:22:53] INFO root fetch - processPackages [caen-hv-py]: Downloading https://files.pythonhosted.org/packages/0f/02/3d613450b73ede83c96f546a776f9b41ae98b25b79315e1655b980488aff/caen_hv_py-1.2.tar.gz
+[2024-04-26 13:22:53] INFO root fetch - processPackages [swh.objstorage]: New version: [3.0.0] Old Version: [2.9.3]
+[2024-04-26 13:22:53] INFO root fetch - processPackages [composabl-api-dev]: Downloading https://files.pythonhosted.org/packages/ce/aa/fc1816ce1081dd8973f83ac42e63550837246a9625ecd6699e82c0ce73ed/composabl_api_dev-0.8.0.dev44-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-26 13:22:53] INFO root fetch - processPackages [spaceone-cost-analysis]: Downloading https://files.pythonhosted.org/packages/9d/ed/0868da6c86e4dc02447a82f2ea7dd601cbcd9f9457f1ffd86ffcd52166c9/spaceone-cost-analysis-2.0.dev98.tar.gz
+[2024-04-26 13:22:53] INFO root fetch - processPackages [libreflow]: Downloading https://files.pythonhosted.org/packages/0b/21/c9b2a05303841af08b144979b516fd3ba9e367a4e409bb9b35a92685828d/libreflow-2.3.1.tar.gz
+[2024-04-26 13:22:53] INFO root fetch - processPackages [criteria-local]: Downloading https://files.pythonhosted.org/packages/6a/64/3cfdc8c1fab42a46a86e91f09bc94dac7098131bf28a574989d677a5c176/criteria-local-0.0.7.tar.gz
+[2024-04-26 13:22:53] INFO root fetch - processPackages [swh.objstorage]: Downloading https://files.pythonhosted.org/packages/43/09/6248572f008c11eb55186f866e79e628e3a9aa1cedd0376beba142c678e9/swh_objstorage-2.9.3.tar.gz
+[2024-04-26 13:22:53] INFO root fetch - processPackages [caen-hv-py]: Downloading https://files.pythonhosted.org/packages/02/b2/36c7910b228a019a93d11bda43ce0b1c2c390670b883ae1685c7b0c46f9f/caen_hv_py-1.3.tar.gz
+[2024-04-26 13:22:53] INFO root fetch - processPackages [spaceone-cost-analysis]: Downloading https://files.pythonhosted.org/packages/69/3b/abd588017217f1cd8fff7ef2a5fece8d81258b7c7585bb8fa88833d77684/spaceone-cost-analysis-2.0.dev99.tar.gz
+[2024-04-26 13:22:53] INFO root fetch - processPackages [libreflow]: Downloading https://files.pythonhosted.org/packages/2b/7c/f693966e24488ca2104b55bca1d994f49b598d3b1cf72b4ede68a2fa0666/libreflow-2.3.2.tar.gz
+[2024-04-26 13:22:53] INFO root fetch - processPackages [composabl-api-dev]: Downloading https://files.pythonhosted.org/packages/d6/b0/f91bb4f61f3f9c911df71ef09829e8fd6a8af086249299f15504b2d23ed6/composabl_api_dev-0.8.0.dev45-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-26 13:22:53] INFO root fetch - processPackages [caen-hv-py]: executing diffoscope
+[2024-04-26 13:22:53] INFO root fetch - processPackages [caen-hv-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caen_hv_py-1.2.tar.gz tmp/caen_hv_py-1.3.tar.gz --markdown 20240426/c/caen-hv-py/1.2-1.3/README.md --exclude *.pyd
+[2024-04-26 13:22:53] INFO root fetch - processPackages [spaceone-cost-analysis]: executing diffoscope
+[2024-04-26 13:22:53] INFO root fetch - processPackages [spaceone-cost-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-cost-analysis-2.0.dev98.tar.gz tmp/spaceone-cost-analysis-2.0.dev99.tar.gz --markdown 20240426/s/spaceone-cost-analysis/2.0.dev98-2.0.dev99/README.md --exclude *.pyd
+[2024-04-26 13:22:53] INFO root fetch - processPackages [criteria-local]: Downloading https://files.pythonhosted.org/packages/64/00/8a1d3648f3a7e5706ec3bdd7415e0f7db56b10dc9df9b5fb8ade8dfdeda6/criteria-local-0.0.8.tar.gz
+[2024-04-26 13:22:53] INFO root fetch - processPackages [swh.objstorage]: Downloading https://files.pythonhosted.org/packages/00/f7/c6a607aa6d668b92d91a9b564120b1534acdee45a0c34f5c34fd81e82b39/swh_objstorage-3.0.0.tar.gz
+[2024-04-26 13:22:53] INFO root fetch - processPackages [criteria-local]: executing diffoscope
+[2024-04-26 13:22:53] INFO root fetch - processPackages [criteria-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/criteria-local-0.0.7.tar.gz tmp/criteria-local-0.0.8.tar.gz --markdown 20240426/c/criteria-local/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-26 13:22:54] INFO root fetch - processPackages [libreflow]: executing diffoscope
+[2024-04-26 13:22:54] INFO root fetch - processPackages [libreflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libreflow-2.3.1.tar.gz tmp/libreflow-2.3.2.tar.gz --markdown 20240426/l/libreflow/2.3.1-2.3.2/README.md --exclude *.pyd
+[2024-04-26 13:22:54] INFO root fetch - processPackages [swh.objstorage]: executing diffoscope
+[2024-04-26 13:22:54] INFO root fetch - processPackages [swh.objstorage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swh_objstorage-2.9.3.tar.gz tmp/swh_objstorage-3.0.0.tar.gz --markdown 20240426/s/swh.objstorage/2.9.3-3.0.0/README.md --exclude *.pyd
+[2024-04-26 13:22:54] INFO root fetch - processPackages [composabl-api-dev]: executing diffoscope
+[2024-04-26 13:22:54] INFO root fetch - processPackages [composabl-api-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_api_dev-0.8.0.dev44-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/composabl_api_dev-0.8.0.dev45-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240426/c/composabl-api-dev/0.8.0.dev44-0.8.0.dev45/README.md --exclude *.pyd
+[2024-04-26 13:22:54] INFO root fetch - processPackages [caen-hv-py]: Remove: archive file [/home/abi/fetcher/tmp/caen_hv_py-1.2.tar.gz]
+[2024-04-26 13:22:54] INFO root fetch - processPackages [caen-hv-py]: Remove: archive file [/home/abi/fetcher/tmp/caen_hv_py-1.3.tar.gz]
+[2024-04-26 13:22:54] INFO root fetch - main [MainThread]: End processing [caen-hv-py]: success
+[2024-04-26 13:22:54] INFO root fetch - processPackages [spaceone-cost-analysis]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-cost-analysis-2.0.dev98.tar.gz]
+[2024-04-26 13:22:54] INFO root fetch - processPackages [spaceone-cost-analysis]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-cost-analysis-2.0.dev99.tar.gz]
+[2024-04-26 13:22:54] INFO root fetch - main [MainThread]: End processing [spaceone-cost-analysis]: success
+[2024-04-26 13:22:54] INFO root fetch - processPackages [criteria-local]: Remove: archive file [/home/abi/fetcher/tmp/criteria-local-0.0.7.tar.gz]
+[2024-04-26 13:22:54] INFO root fetch - processPackages [criteria-local]: Remove: archive file [/home/abi/fetcher/tmp/criteria-local-0.0.8.tar.gz]
+[2024-04-26 13:22:54] INFO root fetch - main [MainThread]: End processing [criteria-local]: success
+[2024-04-26 13:22:54] INFO root fetch - processPackages [composabl-api-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_api_dev-0.8.0.dev44-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-26 13:22:54] INFO root fetch - processPackages [composabl-api-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_api_dev-0.8.0.dev45-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-26 13:22:54] INFO root fetch - main [MainThread]: End processing [composabl-api-dev]: success
+[2024-04-26 13:22:55] INFO root fetch - processPackages [swh.objstorage]: Remove: archive file [/home/abi/fetcher/tmp/swh_objstorage-2.9.3.tar.gz]
+[2024-04-26 13:22:55] INFO root fetch - processPackages [swh.objstorage]: Remove: archive file [/home/abi/fetcher/tmp/swh_objstorage-3.0.0.tar.gz]
+[2024-04-26 13:22:55] INFO root fetch - main [MainThread]: End processing [swh.objstorage]: success
+[2024-04-26 13:22:55] INFO root fetch - processPackages [libreflow]: Remove: archive file [/home/abi/fetcher/tmp/libreflow-2.3.1.tar.gz]
+[2024-04-26 13:22:55] INFO root fetch - processPackages [libreflow]: Remove: archive file [/home/abi/fetcher/tmp/libreflow-2.3.2.tar.gz]
+[2024-04-26 13:22:55] INFO root fetch - main [MainThread]: End processing [libreflow]: success
+[2024-04-26 13:22:55] INFO root fetch - main [MainThread]: Store serial: [22946800]
