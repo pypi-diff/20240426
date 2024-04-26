@@ -15781,3 +15781,87 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 11:15:30] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-3.0.3.post455-py3-none-any.whl.zip]
 [2024-04-26 11:15:30] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
 [2024-04-26 11:15:30] INFO root fetch - main [MainThread]: Store serial: [22945618]
+[2024-04-26 11:17:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22945618]
+[2024-04-26 11:17:39] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-26 11:17:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nucliadb-models
+[2024-04-26 11:17:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nucliadb-protos
+[2024-04-26 11:17:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nucliadb-sdk
+[2024-04-26 11:17:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: coconut-develop
+[2024-04-26 11:17:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nucliadb-telemetry
+[2024-04-26 11:17:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nucliadb-utils
+[2024-04-26 11:17:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kabaret.flow-entities
+[2024-04-26 11:17:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kitab
+[2024-04-26 11:17:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pysr
+[2024-04-26 11:17:39] INFO root fetch - processPackages [kitab]: New version: [0.0.20] Old Version: [0.0.19]
+[2024-04-26 11:17:39] INFO root fetch - processPackages [nucliadb-models]: New version: [3.0.3.post456] Old Version: [3.0.3.post455]
+[2024-04-26 11:17:39] INFO root fetch - processPackages [nucliadb-telemetry]: New version: [3.0.3.post455] Old Version: [3.0.3.post454]
+[2024-04-26 11:17:39] INFO root fetch - processPackages [nucliadb-protos]: New version: [3.0.3.post455] Old Version: [3.0.3.post454]
+[2024-04-26 11:17:39] INFO root fetch - processPackages [nucliadb-sdk]: New version: [3.0.3.post455] Old Version: [3.0.3.post454]
+[2024-04-26 11:17:39] INFO root fetch - processPackages [pysr]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-04-26 11:17:39] INFO root fetch - processPackages [kitab]: Downloading https://files.pythonhosted.org/packages/2e/a1/36d01099c3242d1d53b7b94e2efeb1f7134e8c7faafb01dc3601dc097354/kitab-0.0.19.tar.gz
+[2024-04-26 11:17:39] INFO root fetch - processPackages [nucliadb-utils]: New version: [3.0.3.post455] Old Version: [3.0.3.post454]
+[2024-04-26 11:17:39] INFO root fetch - processPackages [kabaret.flow-entities]: New version: [1.0.0] Old Version: [0.0.1]
+[2024-04-26 11:17:39] INFO root fetch - processPackages [coconut-develop]: New version: [3.1.0.post0.dev9] Old Version: [3.1.0.post0.dev8]
+[2024-04-26 11:17:39] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/23/a3/f87df27b187b56ae9edc6090e2c251171f678535ff2e13bd895de30b4666/nucliadb_utils-3.0.3.post454-py3-none-any.whl
+[2024-04-26 11:17:39] INFO root fetch - processPackages [nucliadb-telemetry]: Downloading https://files.pythonhosted.org/packages/87/0d/8eada356a79112c0704fa3b30326f9bbc11b746e114e2f78b422fc2f9c70/nucliadb_telemetry-3.0.3.post454-py3-none-any.whl
+[2024-04-26 11:17:39] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/4b/48/8943e68dd6cab837533c7ac5858faddcb7b3021cef97881af1f75561a0eb/nucliadb_sdk-3.0.3.post454-py3-none-any.whl
+[2024-04-26 11:17:39] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/49/39/18770b9a6cafafc5c0f0b55b15eff93b27ce8d80b5b006d1c15c072e7298/nucliadb_models-3.0.3.post455-py3-none-any.whl
+[2024-04-26 11:17:40] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/b8/cb/5b88cf23409ea875cb6a476ee7c5c5beb2ed147c0d9c3a47e0f2f13b770d/nucliadb_protos-3.0.3.post454-py3-none-any.whl
+[2024-04-26 11:17:40] INFO root fetch - processPackages [pysr]: Downloading https://files.pythonhosted.org/packages/73/ab/db4ac056fdd819802b0be21ffe3646ee022a42f6a5dc9284315b12b4a5a0/pysr-0.9.4.tar.gz
+[2024-04-26 11:17:40] INFO root fetch - processPackages [kabaret.flow-entities]: Downloading https://files.pythonhosted.org/packages/a6/17/b4276fa19de9343323c414148f8306f109f643898fee5dfdde7dea4d420c/kabaret.flow_entities-0.0.1.tar.gz
+[2024-04-26 11:17:40] INFO root fetch - processPackages [kitab]: Downloading https://files.pythonhosted.org/packages/cc/a8/d2fa80514bc14520ed444557593521a6f041a2f3618b04b54b9c2fa4ce6e/kitab-0.0.20.tar.gz
+[2024-04-26 11:17:40] INFO root fetch - processPackages [coconut-develop]: Downloading https://files.pythonhosted.org/packages/c9/52/852c50fb7afeae75f0f89a0a02001b8acadbf4ae78724b159a077190c1b0/coconut-develop-3.1.0.post0.dev8.tar.gz
+[2024-04-26 11:17:40] INFO root fetch - processPackages [kitab]: executing diffoscope
+[2024-04-26 11:17:40] INFO root fetch - processPackages [kitab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kitab-0.0.19.tar.gz tmp/kitab-0.0.20.tar.gz --markdown 20240426/k/kitab/0.0.19-0.0.20/README.md --exclude *.pyd
+[2024-04-26 11:17:40] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/b2/bf/f02de67b5aa186bae7e237ffe79556ee74ef245fd1ada4b83f761aed4721/nucliadb_models-3.0.3.post456-py3-none-any.whl
+[2024-04-26 11:17:40] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/bc/41/b67bd4964222e884de8907dad9bd464b7b90f0a01ed2ccb0b40996e24276/nucliadb_utils-3.0.3.post455-py3-none-any.whl
+[2024-04-26 11:17:40] INFO root fetch - processPackages [nucliadb-telemetry]: Downloading https://files.pythonhosted.org/packages/9b/cc/39d6b40164e999858f61861c6e4c40da81edcfedef7b0e79c9a7cdd86c10/nucliadb_telemetry-3.0.3.post455-py3-none-any.whl
+[2024-04-26 11:17:40] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/7a/01/67270bef3c4646f8169fa55dcfe292025002e87eff7d537826b3d1a62e56/nucliadb_sdk-3.0.3.post455-py3-none-any.whl
+[2024-04-26 11:17:40] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/e1/86/9cfcadbaddd9e10f3b546b72be53936e7230caaafb8507279377cfa66f54/nucliadb_protos-3.0.3.post455-py3-none-any.whl
+[2024-04-26 11:17:40] INFO root fetch - processPackages [kabaret.flow-entities]: Downloading https://files.pythonhosted.org/packages/50/bb/6caa35f72f95fb44672694ba5b7855f4dcd66cbca44e9d4388c0411f1708/kabaret_flow_entities-1.0.0.tar.gz
+[2024-04-26 11:17:40] INFO root fetch - processPackages [nucliadb-models]: executing diffoscope
+[2024-04-26 11:17:40] INFO root fetch - processPackages [nucliadb-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_models-3.0.3.post455-py3-none-any.whl.zip tmp/nucliadb_models-3.0.3.post456-py3-none-any.whl.zip --markdown 20240426/n/nucliadb-models/3.0.3.post455-3.0.3.post456/README.md --exclude *.pyd
+[2024-04-26 11:17:40] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2024-04-26 11:17:40] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-3.0.3.post454-py3-none-any.whl.zip tmp/nucliadb_utils-3.0.3.post455-py3-none-any.whl.zip --markdown 20240426/n/nucliadb-utils/3.0.3.post454-3.0.3.post455/README.md --exclude *.pyd
+[2024-04-26 11:17:40] INFO root fetch - processPackages [nucliadb-telemetry]: executing diffoscope
+[2024-04-26 11:17:40] INFO root fetch - processPackages [nucliadb-telemetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_telemetry-3.0.3.post454-py3-none-any.whl.zip tmp/nucliadb_telemetry-3.0.3.post455-py3-none-any.whl.zip --markdown 20240426/n/nucliadb-telemetry/3.0.3.post454-3.0.3.post455/README.md --exclude *.pyd
+[2024-04-26 11:17:40] INFO root fetch - processPackages [kabaret.flow-entities]: executing diffoscope
+[2024-04-26 11:17:40] INFO root fetch - processPackages [kabaret.flow-entities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kabaret.flow_entities-0.0.1.tar.gz tmp/kabaret_flow_entities-1.0.0.tar.gz --markdown 20240426/k/kabaret.flow-entities/0.0.1-1.0.0/README.md --exclude *.pyd
+[2024-04-26 11:17:40] INFO root fetch - processPackages [pysr]: Downloading https://files.pythonhosted.org/packages/94/ab/d3fde0e696012fdbfa1a72dbc577dac59abbdf676445377b79642490eea7/pysr-0.9.5.tar.gz
+[2024-04-26 11:17:40] INFO root fetch - processPackages [nucliadb-sdk]: executing diffoscope
+[2024-04-26 11:17:40] INFO root fetch - processPackages [nucliadb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_sdk-3.0.3.post454-py3-none-any.whl.zip tmp/nucliadb_sdk-3.0.3.post455-py3-none-any.whl.zip --markdown 20240426/n/nucliadb-sdk/3.0.3.post454-3.0.3.post455/README.md --exclude *.pyd
+[2024-04-26 11:17:40] INFO root fetch - processPackages [nucliadb-protos]: executing diffoscope
+[2024-04-26 11:17:40] INFO root fetch - processPackages [nucliadb-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_protos-3.0.3.post454-py3-none-any.whl.zip tmp/nucliadb_protos-3.0.3.post455-py3-none-any.whl.zip --markdown 20240426/n/nucliadb-protos/3.0.3.post454-3.0.3.post455/README.md --exclude *.pyd
+[2024-04-26 11:17:40] INFO root fetch - processPackages [coconut-develop]: Downloading https://files.pythonhosted.org/packages/dd/01/30acfa4b7546ecb9a8f3194eae81fcf5daafdddebce842a4acd20d5231ff/coconut-develop-3.1.0.post0.dev9.tar.gz
+[2024-04-26 11:17:40] INFO root fetch - processPackages [pysr]: executing diffoscope
+[2024-04-26 11:17:40] INFO root fetch - processPackages [pysr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysr-0.9.4.tar.gz tmp/pysr-0.9.5.tar.gz --markdown 20240426/p/pysr/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-04-26 11:17:41] INFO root fetch - processPackages [coconut-develop]: executing diffoscope
+[2024-04-26 11:17:41] INFO root fetch - processPackages [coconut-develop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coconut-develop-3.1.0.post0.dev8.tar.gz tmp/coconut-develop-3.1.0.post0.dev9.tar.gz --markdown 20240426/c/coconut-develop/3.1.0.post0.dev8-3.1.0.post0.dev9/README.md --exclude *.pyd
+[2024-04-26 11:17:41] INFO root fetch - processPackages [kitab]: Remove: archive file [/home/abi/fetcher/tmp/kitab-0.0.19.tar.gz]
+[2024-04-26 11:17:41] INFO root fetch - processPackages [kitab]: Remove: archive file [/home/abi/fetcher/tmp/kitab-0.0.20.tar.gz]
+[2024-04-26 11:17:41] INFO root fetch - main [MainThread]: End processing [kitab]: success
+[2024-04-26 11:17:41] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-3.0.3.post455-py3-none-any.whl.zip]
+[2024-04-26 11:17:41] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-3.0.3.post456-py3-none-any.whl.zip]
+[2024-04-26 11:17:41] INFO root fetch - main [MainThread]: End processing [nucliadb-models]: success
+[2024-04-26 11:17:41] INFO root fetch - processPackages [nucliadb-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_telemetry-3.0.3.post454-py3-none-any.whl.zip]
+[2024-04-26 11:17:41] INFO root fetch - processPackages [nucliadb-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_telemetry-3.0.3.post455-py3-none-any.whl.zip]
+[2024-04-26 11:17:41] INFO root fetch - main [MainThread]: End processing [nucliadb-telemetry]: success
+[2024-04-26 11:17:41] INFO root fetch - processPackages [kabaret.flow-entities]: Remove: archive file [/home/abi/fetcher/tmp/kabaret.flow_entities-0.0.1.tar.gz]
+[2024-04-26 11:17:41] INFO root fetch - processPackages [kabaret.flow-entities]: Remove: archive file [/home/abi/fetcher/tmp/kabaret_flow_entities-1.0.0.tar.gz]
+[2024-04-26 11:17:41] INFO root fetch - main [MainThread]: End processing [kabaret.flow-entities]: success
+[2024-04-26 11:17:41] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-3.0.3.post454-py3-none-any.whl.zip]
+[2024-04-26 11:17:41] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-3.0.3.post455-py3-none-any.whl.zip]
+[2024-04-26 11:17:41] INFO root fetch - main [MainThread]: End processing [nucliadb-protos]: success
+[2024-04-26 11:17:41] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-3.0.3.post454-py3-none-any.whl.zip]
+[2024-04-26 11:17:41] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-3.0.3.post455-py3-none-any.whl.zip]
+[2024-04-26 11:17:41] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2024-04-26 11:17:41] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-3.0.3.post454-py3-none-any.whl.zip]
+[2024-04-26 11:17:41] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-3.0.3.post455-py3-none-any.whl.zip]
+[2024-04-26 11:17:41] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
+[2024-04-26 11:17:41] INFO root fetch - processPackages [pysr]: Remove: archive file [/home/abi/fetcher/tmp/pysr-0.9.4.tar.gz]
+[2024-04-26 11:17:41] INFO root fetch - processPackages [pysr]: Remove: archive file [/home/abi/fetcher/tmp/pysr-0.9.5.tar.gz]
+[2024-04-26 11:17:41] INFO root fetch - main [MainThread]: End processing [pysr]: success
+[2024-04-26 11:17:42] INFO root fetch - processPackages [coconut-develop]: Remove: archive file [/home/abi/fetcher/tmp/coconut-develop-3.1.0.post0.dev8.tar.gz]
+[2024-04-26 11:17:42] INFO root fetch - processPackages [coconut-develop]: Remove: archive file [/home/abi/fetcher/tmp/coconut-develop-3.1.0.post0.dev9.tar.gz]
+[2024-04-26 11:17:42] INFO root fetch - main [MainThread]: End processing [coconut-develop]: success
+[2024-04-26 11:17:42] INFO root fetch - main [MainThread]: Store serial: [22945647]
