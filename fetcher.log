@@ -17450,3 +17450,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 12:25:27] INFO root fetch - processPackages [veg2hab]: Remove: archive file [/home/abi/fetcher/tmp/veg2hab-0.1.1.tar.gz]
 [2024-04-26 12:25:27] INFO root fetch - main [MainThread]: End processing [veg2hab]: success
 [2024-04-26 12:25:27] INFO root fetch - main [MainThread]: Store serial: [22946249]
+[2024-04-26 12:27:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22946249]
+[2024-04-26 12:27:35] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-26 12:27:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: edumfa
+[2024-04-26 12:27:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-paypal-plus
+[2024-04-26 12:27:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: GaiaScript
+[2024-04-26 12:27:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pycanha-core
+[2024-04-26 12:27:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: unitsnet-py
+[2024-04-26 12:27:35] INFO root fetch - processPackages [unitsnet-py]: New version: [0.1.96] Old Version: [0.1.95]
+[2024-04-26 12:27:36] INFO root fetch - processPackages [pycanha-core]: New version: [0.1.2] Old Version: [0.1.0]
+[2024-04-26 12:27:36] INFO root fetch - processPackages [unitsnet-py]: Downloading https://files.pythonhosted.org/packages/f6/a2/cd26109c559f1a97c4311d3de6783173881ed9d0632d00e35cccb162909f/unitsnet-py-0.1.95.tar.gz
+[2024-04-26 12:27:36] INFO root fetch - processPackages [django-paypal-plus]: New version: [1.1.0] Old Version: [1.0.1]
+[2024-04-26 12:27:36] INFO root fetch - processPackages [GaiaScript]: New version: [0.1.3] Old Version: [0.1.2.4]
+[2024-04-26 12:27:36] INFO root fetch - processPackages [edumfa]: New version: [2.0.2] Old Version: [2.0.1]
+[2024-04-26 12:27:36] INFO root fetch - processPackages [GaiaScript]: Downloading https://files.pythonhosted.org/packages/99/3e/bf681bc20bcead69854155e52961e4921c6d2070638dfee0ca12ef8e88dc/GaiaScript-0.1.2.4.tar.gz
+[2024-04-26 12:27:36] INFO root fetch - processPackages [pycanha-core]: Downloading https://files.pythonhosted.org/packages/f2/ca/cd6c1794bb9eb660bb8e98b1564a911ea789673e0cd97454bfe5f1cc2571/pycanha_core-0.1.0.tar.gz
+[2024-04-26 12:27:36] INFO root fetch - processPackages [edumfa]: Downloading https://files.pythonhosted.org/packages/7b/87/2e7240a2c8346a45700cd735e1804385abcf52fc369d5f022dac8351b577/edumfa-2.0.1.tar.gz
+[2024-04-26 12:27:36] INFO root fetch - processPackages [django-paypal-plus]: Downloading https://files.pythonhosted.org/packages/73/f9/388702581876d934e3e8f86dcd59a5097d7e44114cef59ac547ea379a2ff/django-paypal-plus-1.0.1.tar.gz
+[2024-04-26 12:27:36] INFO root fetch - processPackages [unitsnet-py]: Downloading https://files.pythonhosted.org/packages/43/5a/d9d5f3f6e80292c3e974908208dde680948d681a7754570dfca7805c817e/unitsnet-py-0.1.96.tar.gz
+[2024-04-26 12:27:36] INFO root fetch - processPackages [GaiaScript]: Downloading https://files.pythonhosted.org/packages/18/bc/298a95e6bb042781cd395291ff111ddae28bb22888e8fb27ef03a4430709/GaiaScript-0.1.3.tar.gz
+[2024-04-26 12:27:36] INFO root fetch - processPackages [unitsnet-py]: executing diffoscope
+[2024-04-26 12:27:36] INFO root fetch - processPackages [unitsnet-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unitsnet-py-0.1.95.tar.gz tmp/unitsnet-py-0.1.96.tar.gz --markdown 20240426/u/unitsnet-py/0.1.95-0.1.96/README.md --exclude *.pyd
+[2024-04-26 12:27:36] INFO root fetch - processPackages [GaiaScript]: executing diffoscope
+[2024-04-26 12:27:36] INFO root fetch - processPackages [GaiaScript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GaiaScript-0.1.2.4.tar.gz tmp/GaiaScript-0.1.3.tar.gz --markdown 20240426/G/GaiaScript/0.1.2.4-0.1.3/README.md --exclude *.pyd
+[2024-04-26 12:27:36] INFO root fetch - processPackages [pycanha-core]: Downloading https://files.pythonhosted.org/packages/65/97/566bf8e15a10fc4186ff85a5c34bd8a3ea2bc7dcf832974777cf635c3955/pycanha_core-0.1.2.tar.gz
+[2024-04-26 12:27:36] INFO root fetch - processPackages [django-paypal-plus]: Downloading https://files.pythonhosted.org/packages/8f/91/46dd6774725860834b30f5e815fb6cc517531263d9c2bdae0431912ef8db/django-paypal-plus-1.1.0.tar.gz
+[2024-04-26 12:27:36] INFO root fetch - processPackages [pycanha-core]: executing diffoscope
+[2024-04-26 12:27:36] INFO root fetch - processPackages [pycanha-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycanha_core-0.1.0.tar.gz tmp/pycanha_core-0.1.2.tar.gz --markdown 20240426/p/pycanha-core/0.1.0-0.1.2/README.md --exclude *.pyd
+[2024-04-26 12:27:36] INFO root fetch - processPackages [django-paypal-plus]: executing diffoscope
+[2024-04-26 12:27:36] INFO root fetch - processPackages [django-paypal-plus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-paypal-plus-1.0.1.tar.gz tmp/django-paypal-plus-1.1.0.tar.gz --markdown 20240426/d/django-paypal-plus/1.0.1-1.1.0/README.md --exclude *.pyd
+[2024-04-26 12:27:37] INFO root fetch - processPackages [edumfa]: Downloading https://files.pythonhosted.org/packages/8c/34/fd161cc8f5d77a151fa9e882eb6fcdc9225e0489f8dac4322d9e8265f9f5/edumfa-2.0.2.tar.gz
+[2024-04-26 12:27:37] INFO root fetch - processPackages [GaiaScript]: Remove: archive file [/home/abi/fetcher/tmp/GaiaScript-0.1.2.4.tar.gz]
+[2024-04-26 12:27:37] INFO root fetch - processPackages [GaiaScript]: Remove: archive file [/home/abi/fetcher/tmp/GaiaScript-0.1.3.tar.gz]
+[2024-04-26 12:27:37] INFO root fetch - main [MainThread]: End processing [GaiaScript]: success
+[2024-04-26 12:27:37] INFO root fetch - processPackages [pycanha-core]: Remove: archive file [/home/abi/fetcher/tmp/pycanha_core-0.1.0.tar.gz]
+[2024-04-26 12:27:37] INFO root fetch - processPackages [pycanha-core]: Remove: archive file [/home/abi/fetcher/tmp/pycanha_core-0.1.2.tar.gz]
+[2024-04-26 12:27:37] INFO root fetch - main [MainThread]: End processing [pycanha-core]: success
+[2024-04-26 12:27:37] INFO root fetch - processPackages [edumfa]: executing diffoscope
+[2024-04-26 12:27:37] INFO root fetch - processPackages [edumfa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edumfa-2.0.1.tar.gz tmp/edumfa-2.0.2.tar.gz --markdown 20240426/e/edumfa/2.0.1-2.0.2/README.md --exclude *.pyd
+[2024-04-26 12:27:37] INFO root fetch - processPackages [django-paypal-plus]: Remove: archive file [/home/abi/fetcher/tmp/django-paypal-plus-1.0.1.tar.gz]
+[2024-04-26 12:27:37] INFO root fetch - processPackages [django-paypal-plus]: Remove: archive file [/home/abi/fetcher/tmp/django-paypal-plus-1.1.0.tar.gz]
+[2024-04-26 12:27:37] INFO root fetch - main [MainThread]: End processing [django-paypal-plus]: success
+[2024-04-26 12:27:37] INFO root fetch - processPackages [unitsnet-py]: Remove: archive file [/home/abi/fetcher/tmp/unitsnet-py-0.1.95.tar.gz]
+[2024-04-26 12:27:37] INFO root fetch - processPackages [unitsnet-py]: Remove: archive file [/home/abi/fetcher/tmp/unitsnet-py-0.1.96.tar.gz]
+[2024-04-26 12:27:37] INFO root fetch - main [MainThread]: End processing [unitsnet-py]: success
+[2024-04-26 12:27:42] INFO root fetch - processPackages [edumfa]: Remove: archive file [/home/abi/fetcher/tmp/edumfa-2.0.1.tar.gz]
+[2024-04-26 12:27:42] INFO root fetch - processPackages [edumfa]: Remove: archive file [/home/abi/fetcher/tmp/edumfa-2.0.2.tar.gz]
+[2024-04-26 12:27:42] INFO root fetch - main [MainThread]: End processing [edumfa]: success
+[2024-04-26 12:27:42] INFO root fetch - main [MainThread]: Store serial: [22946269]
