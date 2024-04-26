@@ -11011,3 +11011,60 @@
 [2024-04-26 08:20:44] INFO root fetch - processPackages [pulumi-linode]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_linode-4.9.1.tar.gz]
 [2024-04-26 08:20:44] INFO root fetch - main [MainThread]: End processing [pulumi-linode]: success
 [2024-04-26 08:20:44] INFO root fetch - main [MainThread]: Store serial: [22943399]
+[2024-04-26 08:22:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22943399]
+[2024-04-26 08:22:54] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-26 08:22:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: imy
+[2024-04-26 08:22:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: synthemol
+[2024-04-26 08:22:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cabinet
+[2024-04-26 08:22:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-mysql
+[2024-04-26 08:22:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-fs-file
+[2024-04-26 08:22:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bert4keras3
+[2024-04-26 08:22:54] INFO root fetch - processPackages [bert4keras3]: New version: [1.3] Old Version: [1.2.9]
+[2024-04-26 08:22:54] INFO root fetch - processPackages [odoo-addon-fs-file]: New version: [17.0.1.0.0.2] Old Version: [16.0.1.0.6.1]
+[2024-04-26 08:22:54] INFO root fetch - processPackages [imy]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-04-26 08:22:54] INFO root fetch - processPackages [odoo-addon-fs-file]: Downloading https://files.pythonhosted.org/packages/43/b2/6b49ed4d8db26f2d999870179d2aa0e01fdf0fc406fa346cdf6ae0cc7144/odoo_addon_fs_file-16.0.1.0.6.1-py3-none-any.whl
+[2024-04-26 08:22:54] INFO root fetch - processPackages [synthemol]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-26 08:22:54] INFO root fetch - processPackages [cabinet]: New version: [2024.4.25.1] Old Version: [2024.4.15.2]
+[2024-04-26 08:22:54] INFO root fetch - processPackages [pulumi-mysql]: New version: [3.3.0a1714110882] Old Version: [3.3.0a1713899861]
+[2024-04-26 08:22:54] INFO root fetch - processPackages [bert4keras3]: Downloading https://files.pythonhosted.org/packages/59/e7/7269c6c153de28270125af156b15871c7f7de4f473d24ac40f9c11171c60/bert4keras3-1.2.9-py3-none-any.whl
+[2024-04-26 08:22:54] INFO root fetch - processPackages [imy]: Downloading https://files.pythonhosted.org/packages/d3/8a/3a1add8454c56a224b1dde798184d5c59505708db3d314faf113fb6266fe/imy-0.2.6.tar.gz
+[2024-04-26 08:22:54] INFO root fetch - processPackages [odoo-addon-fs-file]: Downloading https://files.pythonhosted.org/packages/92/e4/9464414f4d9709951acdf4e6912384adaaa412419ee7cbe51eb4de8705bb/odoo_addon_fs_file-17.0.1.0.0.2-py3-none-any.whl
+[2024-04-26 08:22:54] INFO root fetch - processPackages [cabinet]: Downloading https://files.pythonhosted.org/packages/1b/78/aa5b4bf3712508616cea4a2ca300351108376eff304b19a1e0630fd3c48e/cabinet-2024.4.15.2.tar.gz
+[2024-04-26 08:22:54] INFO root fetch - processPackages [synthemol]: Downloading https://files.pythonhosted.org/packages/6d/8d/ada983d23756bf8aa0377905e5b2444e99e66d9204ea55a44c5d83d1d9b9/synthemol-1.0.2.tar.gz
+[2024-04-26 08:22:54] INFO root fetch - processPackages [pulumi-mysql]: Downloading https://files.pythonhosted.org/packages/62/fa/e50e89c2f8c88a800f6aa48cafc7ec36aabde970dba677cf993e03875ea1/pulumi_mysql-3.3.0a1713899861.tar.gz
+[2024-04-26 08:22:54] INFO root fetch - processPackages [bert4keras3]: Downloading https://files.pythonhosted.org/packages/f2/80/73f9b3db714831dc7b41712802d6b74614b26b9a98effa79701bafeb824c/bert4keras3-1.3-py3-none-any.whl
+[2024-04-26 08:22:54] INFO root fetch - processPackages [odoo-addon-fs-file]: executing diffoscope
+[2024-04-26 08:22:54] INFO root fetch - processPackages [odoo-addon-fs-file]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_fs_file-16.0.1.0.6.1-py3-none-any.whl.zip tmp/odoo_addon_fs_file-17.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240426/o/odoo-addon-fs-file/16.0.1.0.6.1-17.0.1.0.0.2/README.md --exclude *.pyd
+[2024-04-26 08:22:54] INFO root fetch - processPackages [bert4keras3]: executing diffoscope
+[2024-04-26 08:22:54] INFO root fetch - processPackages [bert4keras3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bert4keras3-1.2.9-py3-none-any.whl.zip tmp/bert4keras3-1.3-py3-none-any.whl.zip --markdown 20240426/b/bert4keras3/1.2.9-1.3/README.md --exclude *.pyd
+[2024-04-26 08:22:54] INFO root fetch - processPackages [imy]: Downloading https://files.pythonhosted.org/packages/4e/55/f2ec732fd59b460b346143365dc521321ce54bf37b1b823b60cd99f7a4a0/imy-0.2.7.tar.gz
+[2024-04-26 08:22:55] INFO root fetch - processPackages [pulumi-mysql]: Downloading https://files.pythonhosted.org/packages/3b/d9/7644b5299d360f3b7576db1382c9105355f0e29cb9a15ed9256995d6f0a9/pulumi_mysql-3.3.0a1714110882.tar.gz
+[2024-04-26 08:22:55] INFO root fetch - processPackages [imy]: executing diffoscope
+[2024-04-26 08:22:55] INFO root fetch - processPackages [imy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imy-0.2.6.tar.gz tmp/imy-0.2.7.tar.gz --markdown 20240426/i/imy/0.2.6-0.2.7/README.md --exclude *.pyd
+[2024-04-26 08:22:55] INFO root fetch - processPackages [cabinet]: Downloading https://files.pythonhosted.org/packages/95/50/5ff9bc2ac4faf0a99a47e088f909b4f898315c1fa217c7e41811ffa92c02/cabinet-2024.4.25.1.tar.gz
+[2024-04-26 08:22:55] INFO root fetch - processPackages [synthemol]: Downloading https://files.pythonhosted.org/packages/b1/b5/6cb9fbefb10746b61e0b97b53a82555700b0ac4dede3c7f3349581ccb3ae/synthemol-1.0.3.tar.gz
+[2024-04-26 08:22:55] INFO root fetch - processPackages [pulumi-mysql]: executing diffoscope
+[2024-04-26 08:22:55] INFO root fetch - processPackages [pulumi-mysql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_mysql-3.3.0a1713899861.tar.gz tmp/pulumi_mysql-3.3.0a1714110882.tar.gz --markdown 20240426/p/pulumi-mysql/3.3.0a1713899861-3.3.0a1714110882/README.md --exclude *.pyd
+[2024-04-26 08:22:55] INFO root fetch - processPackages [cabinet]: executing diffoscope
+[2024-04-26 08:22:55] INFO root fetch - processPackages [cabinet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cabinet-2024.4.15.2.tar.gz tmp/cabinet-2024.4.25.1.tar.gz --markdown 20240426/c/cabinet/2024.4.15.2-2024.4.25.1/README.md --exclude *.pyd
+[2024-04-26 08:22:55] INFO root fetch - processPackages [synthemol]: executing diffoscope
+[2024-04-26 08:22:55] INFO root fetch - processPackages [synthemol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synthemol-1.0.2.tar.gz tmp/synthemol-1.0.3.tar.gz --markdown 20240426/s/synthemol/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-04-26 08:22:55] INFO root fetch - processPackages [bert4keras3]: Remove: archive file [/home/abi/fetcher/tmp/bert4keras3-1.2.9-py3-none-any.whl.zip]
+[2024-04-26 08:22:55] INFO root fetch - processPackages [bert4keras3]: Remove: archive file [/home/abi/fetcher/tmp/bert4keras3-1.3-py3-none-any.whl.zip]
+[2024-04-26 08:22:55] INFO root fetch - main [MainThread]: End processing [bert4keras3]: success
+[2024-04-26 08:22:55] INFO root fetch - processPackages [odoo-addon-fs-file]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fs_file-16.0.1.0.6.1-py3-none-any.whl.zip]
+[2024-04-26 08:22:55] INFO root fetch - processPackages [odoo-addon-fs-file]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fs_file-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-26 08:22:55] INFO root fetch - main [MainThread]: End processing [odoo-addon-fs-file]: success
+[2024-04-26 08:22:55] INFO root fetch - processPackages [imy]: Remove: archive file [/home/abi/fetcher/tmp/imy-0.2.6.tar.gz]
+[2024-04-26 08:22:55] INFO root fetch - processPackages [imy]: Remove: archive file [/home/abi/fetcher/tmp/imy-0.2.7.tar.gz]
+[2024-04-26 08:22:55] INFO root fetch - main [MainThread]: End processing [imy]: success
+[2024-04-26 08:22:55] INFO root fetch - processPackages [pulumi-mysql]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mysql-3.3.0a1713899861.tar.gz]
+[2024-04-26 08:22:55] INFO root fetch - processPackages [pulumi-mysql]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mysql-3.3.0a1714110882.tar.gz]
+[2024-04-26 08:22:55] INFO root fetch - main [MainThread]: End processing [pulumi-mysql]: success
+[2024-04-26 08:22:56] INFO root fetch - processPackages [cabinet]: Remove: archive file [/home/abi/fetcher/tmp/cabinet-2024.4.15.2.tar.gz]
+[2024-04-26 08:22:56] INFO root fetch - processPackages [cabinet]: Remove: archive file [/home/abi/fetcher/tmp/cabinet-2024.4.25.1.tar.gz]
+[2024-04-26 08:22:56] INFO root fetch - main [MainThread]: End processing [cabinet]: success
+[2024-04-26 08:22:56] INFO root fetch - processPackages [synthemol]: Remove: archive file [/home/abi/fetcher/tmp/synthemol-1.0.2.tar.gz]
+[2024-04-26 08:22:56] INFO root fetch - processPackages [synthemol]: Remove: archive file [/home/abi/fetcher/tmp/synthemol-1.0.3.tar.gz]
+[2024-04-26 08:22:56] INFO root fetch - main [MainThread]: End processing [synthemol]: success
+[2024-04-26 08:22:56] INFO root fetch - main [MainThread]: Store serial: [22943413]
