@@ -21167,3 +21167,60 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 15:15:52] INFO root fetch - processPackages [assemblyline]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-4.5.1.dev99.tar.gz]
 [2024-04-26 15:15:52] INFO root fetch - main [MainThread]: End processing [assemblyline]: success
 [2024-04-26 15:15:52] INFO root fetch - main [MainThread]: Store serial: [22947894]
+[2024-04-26 15:17:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22947894]
+[2024-04-26 15:18:01] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-26 15:18:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kcli
+[2024-04-26 15:18:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qianfan
+[2024-04-26 15:18:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fbgemm-gpu-nightly-cpu
+[2024-04-26 15:18:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: taskingai
+[2024-04-26 15:18:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: neosctl
+[2024-04-26 15:18:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hmq
+[2024-04-26 15:18:01] INFO root fetch - processPackages [kcli]: New version: [99.0.202404261102] Old Version: [99.0.202404261008]
+[2024-04-26 15:18:01] INFO root fetch - processPackages [qianfan]: New version: [0.3.9] Old Version: [0.3.8.2]
+[2024-04-26 15:18:01] INFO root fetch - processPackages [taskingai]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-26 15:18:01] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: New version: [2024.4.26] Old Version: [2024.4.25]
+[2024-04-26 15:18:01] INFO root fetch - processPackages [neosctl]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-04-26 15:18:01] INFO root fetch - processPackages [hmq]: New version: [24.4.1] Old Version: [24.3.3]
+[2024-04-26 15:18:01] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/b1/6c/a85e40f78ce3283b42659cd80ce178568105cc85eb1b637d843fd16b067d/kcli-99.0.202404261008.tar.gz
+[2024-04-26 15:18:02] INFO root fetch - processPackages [qianfan]: Downloading https://files.pythonhosted.org/packages/21/de/fc00279ffd5318d0a9451583cfb378e068193c2f597033b0436af19019c7/qianfan-0.3.8.2.tar.gz
+[2024-04-26 15:18:02] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/3c/8d/fea2b362c6f55ff7ced958e89bb685d5cf277e8e44c305728d828c11f533/fbgemm_gpu_nightly_cpu-2024.4.25-cp39-cp39-manylinux2014_x86_64.whl
+[2024-04-26 15:18:02] INFO root fetch - processPackages [neosctl]: Downloading https://files.pythonhosted.org/packages/5d/1b/bb37f5637a064c8d5ab4b4235d039cf7857037c9c438d57b7671aef507e3/neosctl-0.9.2.tar.gz
+[2024-04-26 15:18:02] INFO root fetch - processPackages [hmq]: Downloading https://files.pythonhosted.org/packages/cb/0a/5e7b9e2abdd9f07734893df99164382615dadc516382b2bf5b592db50090/hmq-24.3.3.tar.gz
+[2024-04-26 15:18:02] INFO root fetch - processPackages [taskingai]: Downloading https://files.pythonhosted.org/packages/af/80/ca3a243332d571f589827aa8c435bf045e1cab35d1005e3249a2ba18a6bf/taskingai-0.2.1.tar.gz
+[2024-04-26 15:18:02] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/31/54/3275a68280dcdce3c2996fbe88567863b9d78bbb97638108c0c37b1fe0fb/kcli-99.0.202404261102.tar.gz
+[2024-04-26 15:18:02] INFO root fetch - processPackages [hmq]: Downloading https://files.pythonhosted.org/packages/f7/8e/485b63b0dfeedc3da41b1aece6c0365d6104b677c83ad30b03b0931e47fa/hmq-24.4.1.tar.gz
+[2024-04-26 15:18:02] INFO root fetch - processPackages [taskingai]: Downloading https://files.pythonhosted.org/packages/98/71/70c223d7596b98f48d153840f4fa05ce4b6aa181c6acd8efed8a25a48ec5/taskingai-0.2.2.tar.gz
+[2024-04-26 15:18:02] INFO root fetch - processPackages [qianfan]: Downloading https://files.pythonhosted.org/packages/34/4f/5abd67f0842e85d24f16df5732ded8a82cd80d9d8ac8a61bb5982d4d24ae/qianfan-0.3.9.tar.gz
+[2024-04-26 15:18:02] INFO root fetch - processPackages [hmq]: executing diffoscope
+[2024-04-26 15:18:02] INFO root fetch - processPackages [hmq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hmq-24.3.3.tar.gz tmp/hmq-24.4.1.tar.gz --markdown 20240426/h/hmq/24.3.3-24.4.1/README.md --exclude *.pyd
+[2024-04-26 15:18:02] INFO root fetch - processPackages [taskingai]: executing diffoscope
+[2024-04-26 15:18:02] INFO root fetch - processPackages [taskingai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taskingai-0.2.1.tar.gz tmp/taskingai-0.2.2.tar.gz --markdown 20240426/t/taskingai/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-04-26 15:18:02] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/05/ca/1ad969a197923aab94fafbdf04c1b5999d5e181e04017de63a3c931f2578/fbgemm_gpu_nightly_cpu-2024.4.26-cp39-cp39-manylinux2014_x86_64.whl
+[2024-04-26 15:18:02] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2024-04-26 15:18:02] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202404261008.tar.gz tmp/kcli-99.0.202404261102.tar.gz --markdown 20240426/k/kcli/99.0.202404261008-99.0.202404261102/README.md --exclude *.pyd
+[2024-04-26 15:18:02] INFO root fetch - processPackages [qianfan]: executing diffoscope
+[2024-04-26 15:18:02] INFO root fetch - processPackages [qianfan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qianfan-0.3.8.2.tar.gz tmp/qianfan-0.3.9.tar.gz --markdown 20240426/q/qianfan/0.3.8.2-0.3.9/README.md --exclude *.pyd
+[2024-04-26 15:18:02] INFO root fetch - processPackages [neosctl]: Downloading https://files.pythonhosted.org/packages/fb/17/0247bcfe59a8b9582e555bf06a04177a766199fe8b2dca93c086c142891a/neosctl-0.9.3.tar.gz
+[2024-04-26 15:18:02] INFO root fetch - processPackages [neosctl]: executing diffoscope
+[2024-04-26 15:18:02] INFO root fetch - processPackages [neosctl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neosctl-0.9.2.tar.gz tmp/neosctl-0.9.3.tar.gz --markdown 20240426/n/neosctl/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-04-26 15:18:03] INFO root fetch - processPackages [hmq]: Remove: archive file [/home/abi/fetcher/tmp/hmq-24.3.3.tar.gz]
+[2024-04-26 15:18:03] INFO root fetch - processPackages [hmq]: Remove: archive file [/home/abi/fetcher/tmp/hmq-24.4.1.tar.gz]
+[2024-04-26 15:18:03] INFO root fetch - main [MainThread]: End processing [hmq]: success
+[2024-04-26 15:18:03] INFO root fetch - processPackages [neosctl]: Remove: archive file [/home/abi/fetcher/tmp/neosctl-0.9.2.tar.gz]
+[2024-04-26 15:18:03] INFO root fetch - processPackages [neosctl]: Remove: archive file [/home/abi/fetcher/tmp/neosctl-0.9.3.tar.gz]
+[2024-04-26 15:18:03] INFO root fetch - main [MainThread]: End processing [neosctl]: success
+[2024-04-26 15:18:03] INFO root fetch - processPackages [taskingai]: Remove: archive file [/home/abi/fetcher/tmp/taskingai-0.2.1.tar.gz]
+[2024-04-26 15:18:03] INFO root fetch - processPackages [taskingai]: Remove: archive file [/home/abi/fetcher/tmp/taskingai-0.2.2.tar.gz]
+[2024-04-26 15:18:03] INFO root fetch - main [MainThread]: End processing [taskingai]: success
+[2024-04-26 15:18:03] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: executing diffoscope
+[2024-04-26 15:18:03] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fbgemm_gpu_nightly_cpu-2024.4.25-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/fbgemm_gpu_nightly_cpu-2024.4.26-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20240426/f/fbgemm-gpu-nightly-cpu/2024.4.25-2024.4.26/README.md --exclude *.pyd
+[2024-04-26 15:18:03] INFO root fetch - processPackages [qianfan]: Remove: archive file [/home/abi/fetcher/tmp/qianfan-0.3.8.2.tar.gz]
+[2024-04-26 15:18:03] INFO root fetch - processPackages [qianfan]: Remove: archive file [/home/abi/fetcher/tmp/qianfan-0.3.9.tar.gz]
+[2024-04-26 15:18:03] INFO root fetch - main [MainThread]: End processing [qianfan]: success
+[2024-04-26 15:18:05] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202404261008.tar.gz]
+[2024-04-26 15:18:05] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202404261102.tar.gz]
+[2024-04-26 15:18:05] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2024-04-26 15:18:40] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2024.4.25-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2024-04-26 15:18:40] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2024.4.26-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2024-04-26 15:18:40] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
+[2024-04-26 15:18:40] INFO root fetch - main [MainThread]: Store serial: [22947914]
