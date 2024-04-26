@@ -18861,3 +18861,105 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 13:25:32] INFO root fetch - processPackages [promptflow-devkit]: Remove: archive file [/home/abi/fetcher/tmp/promptflow_devkit-1.9.0-py3-none-any.whl.zip]
 [2024-04-26 13:25:32] INFO root fetch - main [MainThread]: End processing [promptflow-devkit]: success
 [2024-04-26 13:25:32] INFO root fetch - main [MainThread]: Store serial: [22946870]
+[2024-04-26 13:27:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22946870]
+[2024-04-26 13:27:51] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-04-26 13:27:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pldag
+[2024-04-26 13:27:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: morphology-workflows
+[2024-04-26 13:27:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-cast
+[2024-04-26 13:27:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torchx-nightly
+[2024-04-26 13:27:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chainforge
+[2024-04-26 13:27:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rats-pipelines
+[2024-04-26 13:27:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdo-sdk-python
+[2024-04-26 13:27:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: puan-db-python
+[2024-04-26 13:27:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rats-processors
+[2024-04-26 13:27:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: autocortext-py
+[2024-04-26 13:27:52] INFO root fetch - processPackages [rats-processors]: New version: [0.1.3.dev9] Old Version: [0.1.3.dev8]
+[2024-04-26 13:27:52] INFO root fetch - processPackages [pldag]: New version: [0.7.6] Old Version: [0.7.5]
+[2024-04-26 13:27:52] INFO root fetch - processPackages [chainforge]: New version: [0.3.1.5] Old Version: [0.3.1.2]
+[2024-04-26 13:27:52] INFO root fetch - processPackages [rats-pipelines]: New version: [0.1.3.dev9] Old Version: [0.1.3.dev8]
+[2024-04-26 13:27:52] INFO root fetch - processPackages [cdo-sdk-python]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-04-26 13:27:52] INFO root fetch - processPackages [torchx-nightly]: New version: [2024.4.25] Old Version: [2024.4.24]
+[2024-04-26 13:27:52] WARNING root fetch - processPackages [autocortext-py]: Skipping, unable to determine old version
+[2024-04-26 13:27:52] INFO root fetch - processPackages [autocortext-py]: Start processing: rsi-package
+[2024-04-26 13:27:52] INFO root fetch - main [MainThread]: End processing [autocortext-py] error
+[2024-04-26 13:27:52] INFO root fetch - processPackages [rats-processors]: Downloading https://files.pythonhosted.org/packages/ee/14/9e43a65d4c611c1fd72f73131b77c7f2d0b9dec99834658b01571114c849/rats_processors-0.1.3.dev8-py3-none-any.whl
+[2024-04-26 13:27:52] WARNING root fetch - processPackages [puan-db-python]: Skipping, unable to determine old version
+[2024-04-26 13:27:52] INFO root fetch - processPackages [puan-db-python]: Start processing: rats-apps
+[2024-04-26 13:27:52] INFO root fetch - main [MainThread]: End processing [puan-db-python] error
+[2024-04-26 13:27:52] INFO root fetch - processPackages [morphology-workflows]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-04-26 13:27:52] INFO root fetch - processPackages [pldag]: Downloading https://files.pythonhosted.org/packages/40/c5/5e53be88cb1dba8ad3e07f504a6f012a8c7a5a555c9f0561dd9953aa773c/pldag-0.7.5.tar.gz
+[2024-04-26 13:27:52] INFO root fetch - processPackages [django-cast]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-26 13:27:52] INFO root fetch - processPackages [torchx-nightly]: Downloading https://files.pythonhosted.org/packages/56/41/6c568fea8013cc16db61248e8b1ceecd1322b71eecb94e610d6fd4e8931a/torchx_nightly-2024.4.24-py3-none-any.whl
+[2024-04-26 13:27:52] WARNING root fetch - processPackages [rsi-package]: Skipping, unable to determine old version
+[2024-04-26 13:27:52] INFO root fetch - processPackages [rsi-package]: Start processing: queue-local
+[2024-04-26 13:27:52] INFO root fetch - main [MainThread]: End processing [rsi-package] error
+[2024-04-26 13:27:52] INFO root fetch - processPackages [chainforge]: Downloading https://files.pythonhosted.org/packages/fe/82/1e5c46c128b6ab4fea0185fee8d7749439edf3d02e8d9179e686b48e1aa2/chainforge-0.3.1.2.tar.gz
+[2024-04-26 13:27:52] INFO root fetch - processPackages [rats-apps]: New version: [0.1.3.dev9] Old Version: [0.1.3.dev8]
+[2024-04-26 13:27:52] INFO root fetch - processPackages [rats-pipelines]: Downloading https://files.pythonhosted.org/packages/ec/dd/e1571a4a4be4a6e8a24f82ab1b058ced7ac30426c5fa734e21c3bb791cd1/rats_pipelines-0.1.3.dev8-py3-none-any.whl
+[2024-04-26 13:27:52] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/aa/54/d9c631d5702693a0921bbc1c50cad785f8fa75671cabdd662546a416a6b9/cdo-sdk-python-1.0.98.tar.gz
+[2024-04-26 13:27:52] INFO root fetch - processPackages [rats-apps]: Downloading https://files.pythonhosted.org/packages/2b/ac/7cdd84e9d923505e71fd914f800c3d7199d0e4a098aa8259413f06395c30/rats_apps-0.1.3.dev8-py3-none-any.whl
+[2024-04-26 13:27:52] INFO root fetch - processPackages [morphology-workflows]: Downloading https://files.pythonhosted.org/packages/6c/d0/2e981b967eaae63668dc267d53b5fffbe7b4a800bb5eabe183d1d79370ae/morphology-workflows-0.9.3.tar.gz
+[2024-04-26 13:27:52] INFO root fetch - processPackages [queue-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-26 13:27:52] INFO root fetch - processPackages [django-cast]: Downloading https://files.pythonhosted.org/packages/08/d0/6455a8c6cc1a455997e400140263ce181dbcef2b961935fa657f84fa4304/django-cast-0.2.8.tar.gz
+[2024-04-26 13:27:52] INFO root fetch - processPackages [rats-processors]: Downloading https://files.pythonhosted.org/packages/83/b6/122ea8648f16d78861cb7c33e0f599e2421b03f295f46bbf34d66c3d399a/rats_processors-0.1.3.dev9-py3-none-any.whl
+[2024-04-26 13:27:52] INFO root fetch - processPackages [rats-pipelines]: Downloading https://files.pythonhosted.org/packages/b8/2d/79bd6c94d590e76f61506daaf64bbb07726287dd538e4b8a5d5a3fd64ad7/rats_pipelines-0.1.3.dev9-py3-none-any.whl
+[2024-04-26 13:27:52] INFO root fetch - processPackages [pldag]: Downloading https://files.pythonhosted.org/packages/d8/36/cb4fa5f276bd77ad2d31ad24263b58488485f368e1b9b438d6346dc13764/pldag-0.7.6.tar.gz
+[2024-04-26 13:27:52] INFO root fetch - processPackages [rats-apps]: Downloading https://files.pythonhosted.org/packages/63/25/d3d6e41dfb5bd98bcbf7f79d3856cc774212467e002a6abf0eb6cd14bd96/rats_apps-0.1.3.dev9-py3-none-any.whl
+[2024-04-26 13:27:52] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/9b/76/7267c3f3ac308bacc9e809ed54663a42556e896ff4e2d73a469a15d3556a/cdo-sdk-python-1.0.99.tar.gz
+[2024-04-26 13:27:52] INFO root fetch - processPackages [torchx-nightly]: Downloading https://files.pythonhosted.org/packages/b0/b7/35309055fee3f6e35eb9b0ad781e08263d78a9fc2d7661b52fe4358c3867/torchx_nightly-2024.4.25-py3-none-any.whl
+[2024-04-26 13:27:52] INFO root fetch - processPackages [rats-processors]: executing diffoscope
+[2024-04-26 13:27:52] INFO root fetch - processPackages [rats-processors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rats_processors-0.1.3.dev8-py3-none-any.whl.zip tmp/rats_processors-0.1.3.dev9-py3-none-any.whl.zip --markdown 20240426/r/rats-processors/0.1.3.dev8-0.1.3.dev9/README.md --exclude *.pyd
+[2024-04-26 13:27:52] INFO root fetch - processPackages [queue-local]: Downloading https://files.pythonhosted.org/packages/74/2a/11e7cf27d1a339b3be58b722b335bd5427d0e0cd5df02c853c6fc2f70e89/queue-local-0.0.8.tar.gz
+[2024-04-26 13:27:52] INFO root fetch - processPackages [rats-pipelines]: executing diffoscope
+[2024-04-26 13:27:52] INFO root fetch - processPackages [rats-pipelines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rats_pipelines-0.1.3.dev8-py3-none-any.whl.zip tmp/rats_pipelines-0.1.3.dev9-py3-none-any.whl.zip --markdown 20240426/r/rats-pipelines/0.1.3.dev8-0.1.3.dev9/README.md --exclude *.pyd
+[2024-04-26 13:27:52] INFO root fetch - processPackages [pldag]: executing diffoscope
+[2024-04-26 13:27:52] INFO root fetch - processPackages [pldag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pldag-0.7.5.tar.gz tmp/pldag-0.7.6.tar.gz --markdown 20240426/p/pldag/0.7.5-0.7.6/README.md --exclude *.pyd
+[2024-04-26 13:27:52] INFO root fetch - processPackages [chainforge]: Downloading https://files.pythonhosted.org/packages/e6/8e/8f989a2779ce177ae8b791f7db9965a9278e66b52426b66a84830260aa28/chainforge-0.3.1.5.tar.gz
+[2024-04-26 13:27:52] INFO root fetch - processPackages [rats-apps]: executing diffoscope
+[2024-04-26 13:27:52] INFO root fetch - processPackages [rats-apps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rats_apps-0.1.3.dev8-py3-none-any.whl.zip tmp/rats_apps-0.1.3.dev9-py3-none-any.whl.zip --markdown 20240426/r/rats-apps/0.1.3.dev8-0.1.3.dev9/README.md --exclude *.pyd
+[2024-04-26 13:27:52] INFO root fetch - processPackages [cdo-sdk-python]: executing diffoscope
+[2024-04-26 13:27:52] INFO root fetch - processPackages [cdo-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdo-sdk-python-1.0.98.tar.gz tmp/cdo-sdk-python-1.0.99.tar.gz --markdown 20240426/c/cdo-sdk-python/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-04-26 13:27:53] INFO root fetch - processPackages [torchx-nightly]: executing diffoscope
+[2024-04-26 13:27:53] INFO root fetch - processPackages [torchx-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchx_nightly-2024.4.24-py3-none-any.whl.zip tmp/torchx_nightly-2024.4.25-py3-none-any.whl.zip --markdown 20240426/t/torchx-nightly/2024.4.24-2024.4.25/README.md --exclude *.pyd
+[2024-04-26 13:27:53] INFO root fetch - processPackages [morphology-workflows]: Downloading https://files.pythonhosted.org/packages/20/e1/264900e82d95455f441e9a16771814fc29744629046005ca2c6f74c695f2/morphology-workflows-0.9.4.tar.gz
+[2024-04-26 13:27:53] INFO root fetch - processPackages [queue-local]: Downloading https://files.pythonhosted.org/packages/a8/6d/85b9e7808db253376ca4b0f171843555d3b647703fd759861abdc4f9c44f/queue-local-0.0.9.tar.gz
+[2024-04-26 13:27:53] INFO root fetch - processPackages [django-cast]: Downloading https://files.pythonhosted.org/packages/1e/ba/729f0c86f18455387a69c10dd88886e8da0093c7771abb6bd65065a7b70c/django-cast-0.2.9.tar.gz
+[2024-04-26 13:27:53] INFO root fetch - processPackages [chainforge]: executing diffoscope
+[2024-04-26 13:27:53] INFO root fetch - processPackages [chainforge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chainforge-0.3.1.2.tar.gz tmp/chainforge-0.3.1.5.tar.gz --markdown 20240426/c/chainforge/0.3.1.2-0.3.1.5/README.md --exclude *.pyd
+[2024-04-26 13:27:53] INFO root fetch - processPackages [queue-local]: executing diffoscope
+[2024-04-26 13:27:53] INFO root fetch - processPackages [queue-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/queue-local-0.0.8.tar.gz tmp/queue-local-0.0.9.tar.gz --markdown 20240426/q/queue-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-26 13:27:53] INFO root fetch - processPackages [morphology-workflows]: executing diffoscope
+[2024-04-26 13:27:53] INFO root fetch - processPackages [morphology-workflows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/morphology-workflows-0.9.3.tar.gz tmp/morphology-workflows-0.9.4.tar.gz --markdown 20240426/m/morphology-workflows/0.9.3-0.9.4/README.md --exclude *.pyd
+[2024-04-26 13:27:53] INFO root fetch - processPackages [pldag]: Remove: archive file [/home/abi/fetcher/tmp/pldag-0.7.5.tar.gz]
+[2024-04-26 13:27:53] INFO root fetch - processPackages [pldag]: Remove: archive file [/home/abi/fetcher/tmp/pldag-0.7.6.tar.gz]
+[2024-04-26 13:27:53] INFO root fetch - main [MainThread]: End processing [pldag]: success
+[2024-04-26 13:27:53] INFO root fetch - processPackages [django-cast]: executing diffoscope
+[2024-04-26 13:27:53] INFO root fetch - processPackages [django-cast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-cast-0.2.8.tar.gz tmp/django-cast-0.2.9.tar.gz --markdown 20240426/d/django-cast/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-26 13:27:53] INFO root fetch - processPackages [rats-processors]: Remove: archive file [/home/abi/fetcher/tmp/rats_processors-0.1.3.dev8-py3-none-any.whl.zip]
+[2024-04-26 13:27:53] INFO root fetch - processPackages [rats-processors]: Remove: archive file [/home/abi/fetcher/tmp/rats_processors-0.1.3.dev9-py3-none-any.whl.zip]
+[2024-04-26 13:27:53] INFO root fetch - main [MainThread]: End processing [rats-processors]: success
+[2024-04-26 13:27:53] INFO root fetch - processPackages [rats-apps]: Remove: archive file [/home/abi/fetcher/tmp/rats_apps-0.1.3.dev8-py3-none-any.whl.zip]
+[2024-04-26 13:27:53] INFO root fetch - processPackages [rats-apps]: Remove: archive file [/home/abi/fetcher/tmp/rats_apps-0.1.3.dev9-py3-none-any.whl.zip]
+[2024-04-26 13:27:53] INFO root fetch - main [MainThread]: End processing [rats-apps]: success
+[2024-04-26 13:27:54] INFO root fetch - processPackages [rats-pipelines]: Remove: archive file [/home/abi/fetcher/tmp/rats_pipelines-0.1.3.dev8-py3-none-any.whl.zip]
+[2024-04-26 13:27:54] INFO root fetch - processPackages [rats-pipelines]: Remove: archive file [/home/abi/fetcher/tmp/rats_pipelines-0.1.3.dev9-py3-none-any.whl.zip]
+[2024-04-26 13:27:54] INFO root fetch - main [MainThread]: End processing [rats-pipelines]: success
+[2024-04-26 13:27:54] INFO root fetch - processPackages [queue-local]: Remove: archive file [/home/abi/fetcher/tmp/queue-local-0.0.8.tar.gz]
+[2024-04-26 13:27:54] INFO root fetch - processPackages [queue-local]: Remove: archive file [/home/abi/fetcher/tmp/queue-local-0.0.9.tar.gz]
+[2024-04-26 13:27:54] INFO root fetch - main [MainThread]: End processing [queue-local]: success
+[2024-04-26 13:27:54] INFO root fetch - processPackages [torchx-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchx_nightly-2024.4.24-py3-none-any.whl.zip]
+[2024-04-26 13:27:54] INFO root fetch - processPackages [torchx-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchx_nightly-2024.4.25-py3-none-any.whl.zip]
+[2024-04-26 13:27:54] INFO root fetch - main [MainThread]: End processing [torchx-nightly]: success
+[2024-04-26 13:27:54] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.98.tar.gz]
+[2024-04-26 13:27:54] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.99.tar.gz]
+[2024-04-26 13:27:54] INFO root fetch - main [MainThread]: End processing [cdo-sdk-python]: success
+[2024-04-26 13:27:55] INFO root fetch - processPackages [morphology-workflows]: Remove: archive file [/home/abi/fetcher/tmp/morphology-workflows-0.9.3.tar.gz]
+[2024-04-26 13:27:55] INFO root fetch - processPackages [morphology-workflows]: Remove: archive file [/home/abi/fetcher/tmp/morphology-workflows-0.9.4.tar.gz]
+[2024-04-26 13:27:55] INFO root fetch - main [MainThread]: End processing [morphology-workflows]: success
+[2024-04-26 13:27:55] INFO root fetch - processPackages [django-cast]: Remove: archive file [/home/abi/fetcher/tmp/django-cast-0.2.8.tar.gz]
+[2024-04-26 13:27:55] INFO root fetch - processPackages [django-cast]: Remove: archive file [/home/abi/fetcher/tmp/django-cast-0.2.9.tar.gz]
+[2024-04-26 13:27:55] INFO root fetch - main [MainThread]: End processing [django-cast]: success
+[2024-04-26 13:29:09] INFO root fetch - processPackages [chainforge]: Remove: archive file [/home/abi/fetcher/tmp/chainforge-0.3.1.2.tar.gz]
+[2024-04-26 13:29:09] INFO root fetch - processPackages [chainforge]: Remove: archive file [/home/abi/fetcher/tmp/chainforge-0.3.1.5.tar.gz]
+[2024-04-26 13:29:09] INFO root fetch - main [MainThread]: End processing [chainforge]: success
+[2024-04-26 13:29:09] INFO root fetch - main [MainThread]: Store serial: [22946911]
