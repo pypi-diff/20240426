@@ -22778,3 +22778,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 16:16:09] INFO root fetch - processPackages [uhelp]: Remove: archive file [/home/abi/fetcher/tmp/uhelp-0.6.3.tar.gz]
 [2024-04-26 16:16:09] INFO root fetch - main [MainThread]: End processing [uhelp]: success
 [2024-04-26 16:16:09] INFO root fetch - main [MainThread]: Store serial: [22948571]
+[2024-04-26 16:18:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22948571]
+[2024-04-26 16:18:18] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-26 16:18:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: annet
+[2024-04-26 16:18:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mycloudlab1
+[2024-04-26 16:18:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: psrecord
+[2024-04-26 16:18:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cometx
+[2024-04-26 16:18:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: campay
+[2024-04-26 16:18:18] INFO root fetch - processPackages [psrecord]: New version: [1.3.dev0] Old Version: [1.3]
+[2024-04-26 16:18:18] INFO root fetch - processPackages [annet]: New version: [0.9] Old Version: [0.8]
+[2024-04-26 16:18:18] INFO root fetch - processPackages [annet]: Downloading https://files.pythonhosted.org/packages/43/03/2bd7e8afe1cef1ffcdf8b3a53c32197a76076672190d4a3f0684979508f9/annet-0.8.tar.gz
+[2024-04-26 16:18:18] INFO root fetch - processPackages [mycloudlab1]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-26 16:18:18] INFO root fetch - processPackages [psrecord]: Downloading https://files.pythonhosted.org/packages/aa/58/dc818e9442a63164dcbcc1085f468742f5b577f2b127cd2e3ad0b355dc2d/psrecord-1.3.tar.gz
+[2024-04-26 16:18:18] INFO root fetch - processPackages [cometx]: New version: [2.0.3] Old Version: [2.0.2]
+[2024-04-26 16:18:18] INFO root fetch - processPackages [campay]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-04-26 16:18:18] INFO root fetch - processPackages [mycloudlab1]: Downloading https://files.pythonhosted.org/packages/a6/7f/6f5b3ec065df97a89e51bd293a76a16ebc79eae3515ac4edc39d5a27bc64/mycloudlab1-0.0.2.tar.gz
+[2024-04-26 16:18:18] INFO root fetch - processPackages [cometx]: Downloading https://files.pythonhosted.org/packages/18/61/ec19a7232e3624419895e6999065d3c86232e458fbd7b841a2061540d972/cometx-2.0.2-py3-none-any.whl
+[2024-04-26 16:18:18] INFO root fetch - processPackages [psrecord]: Downloading https://files.pythonhosted.org/packages/54/9e/5b8aaaa9c73d9f2e208a5f5ca16e0b0f07bdaa469b7cb75ed5d8955032a5/psrecord-1.3.dev0.tar.gz
+[2024-04-26 16:18:18] INFO root fetch - processPackages [campay]: Downloading https://files.pythonhosted.org/packages/31/be/f518d6d6f0c6555592d70de4f91e12a80c3b2e41d7525a078777304acad3/campay-1.0.6.tar.gz
+[2024-04-26 16:18:18] INFO root fetch - processPackages [annet]: Downloading https://files.pythonhosted.org/packages/41/c3/39483a248016582b415acc5071d94f0dfba19bb328455d81cb638d77d2ed/annet-0.9.tar.gz
+[2024-04-26 16:18:18] INFO root fetch - processPackages [psrecord]: executing diffoscope
+[2024-04-26 16:18:18] INFO root fetch - processPackages [psrecord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psrecord-1.3.tar.gz tmp/psrecord-1.3.dev0.tar.gz --markdown 20240426/p/psrecord/1.3-1.3.dev0/README.md --exclude *.pyd
+[2024-04-26 16:18:18] INFO root fetch - processPackages [annet]: executing diffoscope
+[2024-04-26 16:18:18] INFO root fetch - processPackages [annet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/annet-0.8.tar.gz tmp/annet-0.9.tar.gz --markdown 20240426/a/annet/0.8-0.9/README.md --exclude *.pyd
+[2024-04-26 16:18:19] INFO root fetch - processPackages [mycloudlab1]: Downloading https://files.pythonhosted.org/packages/a9/51/fbef7257cdb95f489a489204bd0a8d5a5af823d000f5ded74793431e13cf/mycloudlab1-0.0.3.tar.gz
+[2024-04-26 16:18:19] INFO root fetch - processPackages [cometx]: Downloading https://files.pythonhosted.org/packages/35/e5/cd7fd84f6a17c2a2736f85511f21e816f639d4e4ba848383794bedf9f644/cometx-2.0.3-py3-none-any.whl
+[2024-04-26 16:18:19] INFO root fetch - processPackages [campay]: Downloading https://files.pythonhosted.org/packages/3c/97/24bd1c75c8fb0def45e860f2c2d5321b99a8839f8d8277d97bde984d1ff3/campay-1.0.7.tar.gz
+[2024-04-26 16:18:19] INFO root fetch - processPackages [mycloudlab1]: executing diffoscope
+[2024-04-26 16:18:19] INFO root fetch - processPackages [mycloudlab1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mycloudlab1-0.0.2.tar.gz tmp/mycloudlab1-0.0.3.tar.gz --markdown 20240426/m/mycloudlab1/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-26 16:18:19] INFO root fetch - processPackages [cometx]: executing diffoscope
+[2024-04-26 16:18:19] INFO root fetch - processPackages [cometx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cometx-2.0.2-py3-none-any.whl.zip tmp/cometx-2.0.3-py3-none-any.whl.zip --markdown 20240426/c/cometx/2.0.2-2.0.3/README.md --exclude *.pyd
+[2024-04-26 16:18:19] INFO root fetch - processPackages [campay]: executing diffoscope
+[2024-04-26 16:18:19] INFO root fetch - processPackages [campay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/campay-1.0.6.tar.gz tmp/campay-1.0.7.tar.gz --markdown 20240426/c/campay/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-04-26 16:18:19] INFO root fetch - processPackages [psrecord]: Remove: archive file [/home/abi/fetcher/tmp/psrecord-1.3.tar.gz]
+[2024-04-26 16:18:19] INFO root fetch - processPackages [psrecord]: Remove: archive file [/home/abi/fetcher/tmp/psrecord-1.3.dev0.tar.gz]
+[2024-04-26 16:18:19] INFO root fetch - main [MainThread]: End processing [psrecord]: success
+[2024-04-26 16:18:19] INFO root fetch - processPackages [mycloudlab1]: Remove: archive file [/home/abi/fetcher/tmp/mycloudlab1-0.0.2.tar.gz]
+[2024-04-26 16:18:19] INFO root fetch - processPackages [mycloudlab1]: Remove: archive file [/home/abi/fetcher/tmp/mycloudlab1-0.0.3.tar.gz]
+[2024-04-26 16:18:19] INFO root fetch - main [MainThread]: End processing [mycloudlab1]: success
+[2024-04-26 16:18:19] INFO root fetch - processPackages [annet]: Remove: archive file [/home/abi/fetcher/tmp/annet-0.8.tar.gz]
+[2024-04-26 16:18:19] INFO root fetch - processPackages [annet]: Remove: archive file [/home/abi/fetcher/tmp/annet-0.9.tar.gz]
+[2024-04-26 16:18:19] INFO root fetch - main [MainThread]: End processing [annet]: success
+[2024-04-26 16:18:19] INFO root fetch - processPackages [campay]: Remove: archive file [/home/abi/fetcher/tmp/campay-1.0.6.tar.gz]
+[2024-04-26 16:18:19] INFO root fetch - processPackages [campay]: Remove: archive file [/home/abi/fetcher/tmp/campay-1.0.7.tar.gz]
+[2024-04-26 16:18:19] INFO root fetch - main [MainThread]: End processing [campay]: success
+[2024-04-26 16:18:20] INFO root fetch - processPackages [cometx]: Remove: archive file [/home/abi/fetcher/tmp/cometx-2.0.2-py3-none-any.whl.zip]
+[2024-04-26 16:18:20] INFO root fetch - processPackages [cometx]: Remove: archive file [/home/abi/fetcher/tmp/cometx-2.0.3-py3-none-any.whl.zip]
+[2024-04-26 16:18:20] INFO root fetch - main [MainThread]: End processing [cometx]: success
+[2024-04-26 16:18:20] INFO root fetch - main [MainThread]: Store serial: [22948588]
