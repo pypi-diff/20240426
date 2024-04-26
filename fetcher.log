@@ -16475,3 +16475,67 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 11:41:39] INFO root fetch - processPackages [rats-pipelines]: Remove: archive file [/home/abi/fetcher/tmp/rats_pipelines-0.1.3.dev9-py3-none-any.whl.zip]
 [2024-04-26 11:41:39] INFO root fetch - main [MainThread]: End processing [rats-pipelines]: success
 [2024-04-26 11:41:39] INFO root fetch - main [MainThread]: Store serial: [22945905]
+[2024-04-26 11:43:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22945905]
+[2024-04-26 11:43:49] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-26 11:43:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kcli
+[2024-04-26 11:43:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rats-processors
+[2024-04-26 11:43:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zhipuai
+[2024-04-26 11:43:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pingen2sdk
+[2024-04-26 11:43:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: error-parity
+[2024-04-26 11:43:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kcli
+[2024-04-26 11:43:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ccs-digitalmarketplace-utils
+[2024-04-26 11:43:49] INFO root fetch - processPackages [zhipuai]: New version: [2.0.1.20240423.1] Old Version: [2.0.1.20240423]
+[2024-04-26 11:43:49] INFO root fetch - processPackages [rats-processors]: New version: [0.1.3.dev9] Old Version: [0.1.3.dev8]
+[2024-04-26 11:43:49] INFO root fetch - processPackages [kcli]: New version: [99.0.202404260840] Old Version: [99.0.202404260721]
+[2024-04-26 11:43:49] INFO root fetch - processPackages [kcli]: New version: [99.0.202404260840] Old Version: [99.0.202404260721]
+[2024-04-26 11:43:49] INFO root fetch - processPackages [pingen2sdk]: New version: [0.4.0] Old Version: [0.3.1]
+[2024-04-26 11:43:49] INFO root fetch - processPackages [error-parity]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-26 11:43:49] INFO root fetch - processPackages [rats-processors]: Downloading https://files.pythonhosted.org/packages/ee/14/9e43a65d4c611c1fd72f73131b77c7f2d0b9dec99834658b01571114c849/rats_processors-0.1.3.dev8-py3-none-any.whl
+[2024-04-26 11:43:49] INFO root fetch - processPackages [zhipuai]: Downloading https://files.pythonhosted.org/packages/98/f4/9ee70e004e049814405e307cdbcae21f8549aa5d4eac260459804a3798ea/zhipuai-2.0.1.20240423.tar.gz
+[2024-04-26 11:43:49] INFO root fetch - processPackages [ccs-digitalmarketplace-utils]: New version: [66.0.0rc1] Old Version: [65.9.0]
+[2024-04-26 11:43:49] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/87/fe/74d3c4d754b7c52a2a3b48a2f22367623113155feb98764cd7d74d83f213/kcli-99.0.202404260721.tar.gz
+[2024-04-26 11:43:49] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/87/fe/74d3c4d754b7c52a2a3b48a2f22367623113155feb98764cd7d74d83f213/kcli-99.0.202404260721.tar.gz
+[2024-04-26 11:43:49] INFO root fetch - processPackages [pingen2sdk]: Downloading https://files.pythonhosted.org/packages/85/05/1e927f7f4156ab75c192e77b17cdce809ff7c8e83c2e840d9defcb4fb85e/pingen2sdk-0.3.1.tar.gz
+[2024-04-26 11:43:49] INFO root fetch - processPackages [error-parity]: Downloading https://files.pythonhosted.org/packages/67/62/8b508b5b9d1da87add6f6c0c0efaeccac73ee7a459ecd518a0ef2c299254/error-parity-0.3.8.tar.gz
+[2024-04-26 11:43:49] INFO root fetch - processPackages [zhipuai]: Downloading https://files.pythonhosted.org/packages/23/17/d6f9df8b262b315b8a3ff4201366ad1a76f78f733140fa0eb86837dca2fb/zhipuai-2.0.1.20240423.1.tar.gz
+[2024-04-26 11:43:49] INFO root fetch - processPackages [ccs-digitalmarketplace-utils]: Downloading https://files.pythonhosted.org/packages/e3/58/b581e9f1c3752ee354127a102ceb46dda9dfe9487af7e4c32cdc7ad8ce5d/ccs-digitalmarketplace-utils-65.9.0.tar.gz
+[2024-04-26 11:43:49] INFO root fetch - processPackages [rats-processors]: Downloading https://files.pythonhosted.org/packages/83/b6/122ea8648f16d78861cb7c33e0f599e2421b03f295f46bbf34d66c3d399a/rats_processors-0.1.3.dev9-py3-none-any.whl
+[2024-04-26 11:43:49] INFO root fetch - processPackages [zhipuai]: executing diffoscope
+[2024-04-26 11:43:49] INFO root fetch - processPackages [zhipuai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhipuai-2.0.1.20240423.tar.gz tmp/zhipuai-2.0.1.20240423.1.tar.gz --markdown 20240426/z/zhipuai/2.0.1.20240423-2.0.1.20240423.1/README.md --exclude *.pyd
+[2024-04-26 11:43:49] INFO root fetch - processPackages [rats-processors]: executing diffoscope
+[2024-04-26 11:43:49] INFO root fetch - processPackages [rats-processors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rats_processors-0.1.3.dev8-py3-none-any.whl.zip tmp/rats_processors-0.1.3.dev9-py3-none-any.whl.zip --markdown 20240426/r/rats-processors/0.1.3.dev8-0.1.3.dev9/README.md --exclude *.pyd
+[2024-04-26 11:43:49] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/31/4a/6e51dcdd5c25c0338e16ee595e5feef619bea0b0ae62066d41bcd8266899/kcli-99.0.202404260840.tar.gz
+[2024-04-26 11:43:49] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/31/4a/6e51dcdd5c25c0338e16ee595e5feef619bea0b0ae62066d41bcd8266899/kcli-99.0.202404260840.tar.gz
+[2024-04-26 11:43:49] INFO root fetch - processPackages [pingen2sdk]: Downloading https://files.pythonhosted.org/packages/78/f2/484ff762ac8f478d4451a4a30c9f99e537f37a9ea2f435d76db5973e32ab/pingen2sdk-0.4.0.tar.gz
+[2024-04-26 11:43:50] INFO root fetch - processPackages [ccs-digitalmarketplace-utils]: Downloading https://files.pythonhosted.org/packages/ee/8d/6728d23ecf123b2db3439c46d61a821a1842e8cbed0508ef21a8974be66d/ccs-digitalmarketplace-utils-66.0.0rc1.tar.gz
+[2024-04-26 11:43:50] INFO root fetch - processPackages [pingen2sdk]: executing diffoscope
+[2024-04-26 11:43:50] INFO root fetch - processPackages [pingen2sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pingen2sdk-0.3.1.tar.gz tmp/pingen2sdk-0.4.0.tar.gz --markdown 20240426/p/pingen2sdk/0.3.1-0.4.0/README.md --exclude *.pyd
+[2024-04-26 11:43:50] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2024-04-26 11:43:50] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202404260721.tar.gz tmp/kcli-99.0.202404260840.tar.gz --markdown 20240426/k/kcli/99.0.202404260721-99.0.202404260840/README.md --exclude *.pyd
+[2024-04-26 11:43:50] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2024-04-26 11:43:50] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202404260721.tar.gz tmp/kcli-99.0.202404260840.tar.gz --markdown 20240426/k/kcli/99.0.202404260721-99.0.202404260840/README.md --exclude *.pyd
+[2024-04-26 11:43:50] INFO root fetch - processPackages [ccs-digitalmarketplace-utils]: executing diffoscope
+[2024-04-26 11:43:50] INFO root fetch - processPackages [ccs-digitalmarketplace-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccs-digitalmarketplace-utils-65.9.0.tar.gz tmp/ccs-digitalmarketplace-utils-66.0.0rc1.tar.gz --markdown 20240426/c/ccs-digitalmarketplace-utils/65.9.0-66.0.0rc1/README.md --exclude *.pyd
+[2024-04-26 11:43:50] INFO root fetch - processPackages [error-parity]: Downloading https://files.pythonhosted.org/packages/32/d6/ebb5b99a62633441b0b4548ff1f91167a76a04565aaf7ba8a0fe3fce4d45/error-parity-0.3.9.tar.gz
+[2024-04-26 11:43:50] INFO root fetch - processPackages [error-parity]: executing diffoscope
+[2024-04-26 11:43:50] INFO root fetch - processPackages [error-parity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/error-parity-0.3.8.tar.gz tmp/error-parity-0.3.9.tar.gz --markdown 20240426/e/error-parity/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-04-26 11:43:50] INFO root fetch - processPackages [zhipuai]: Remove: archive file [/home/abi/fetcher/tmp/zhipuai-2.0.1.20240423.tar.gz]
+[2024-04-26 11:43:50] INFO root fetch - processPackages [zhipuai]: Remove: archive file [/home/abi/fetcher/tmp/zhipuai-2.0.1.20240423.1.tar.gz]
+[2024-04-26 11:43:50] INFO root fetch - main [MainThread]: End processing [zhipuai]: success
+[2024-04-26 11:43:50] INFO root fetch - processPackages [rats-processors]: Remove: archive file [/home/abi/fetcher/tmp/rats_processors-0.1.3.dev8-py3-none-any.whl.zip]
+[2024-04-26 11:43:50] INFO root fetch - processPackages [rats-processors]: Remove: archive file [/home/abi/fetcher/tmp/rats_processors-0.1.3.dev9-py3-none-any.whl.zip]
+[2024-04-26 11:43:50] INFO root fetch - main [MainThread]: End processing [rats-processors]: success
+[2024-04-26 11:43:50] INFO root fetch - processPackages [pingen2sdk]: Remove: archive file [/home/abi/fetcher/tmp/pingen2sdk-0.3.1.tar.gz]
+[2024-04-26 11:43:50] INFO root fetch - processPackages [pingen2sdk]: Remove: archive file [/home/abi/fetcher/tmp/pingen2sdk-0.4.0.tar.gz]
+[2024-04-26 11:43:50] INFO root fetch - main [MainThread]: End processing [pingen2sdk]: success
+[2024-04-26 11:43:50] INFO root fetch - processPackages [ccs-digitalmarketplace-utils]: Remove: archive file [/home/abi/fetcher/tmp/ccs-digitalmarketplace-utils-65.9.0.tar.gz]
+[2024-04-26 11:43:50] INFO root fetch - processPackages [ccs-digitalmarketplace-utils]: Remove: archive file [/home/abi/fetcher/tmp/ccs-digitalmarketplace-utils-66.0.0rc1.tar.gz]
+[2024-04-26 11:43:50] INFO root fetch - main [MainThread]: End processing [ccs-digitalmarketplace-utils]: success
+[2024-04-26 11:43:51] INFO root fetch - processPackages [error-parity]: Remove: archive file [/home/abi/fetcher/tmp/error-parity-0.3.8.tar.gz]
+[2024-04-26 11:43:51] INFO root fetch - processPackages [error-parity]: Remove: archive file [/home/abi/fetcher/tmp/error-parity-0.3.9.tar.gz]
+[2024-04-26 11:43:51] INFO root fetch - main [MainThread]: End processing [error-parity]: success
+[2024-04-26 11:43:52] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202404260721.tar.gz]
+[2024-04-26 11:43:52] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202404260840.tar.gz]
+[2024-04-26 11:43:52] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2024-04-26 11:43:52] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2024-04-26 11:43:52] INFO root fetch - main [MainThread]: Store serial: [22945923]
