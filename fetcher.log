@@ -10918,3 +10918,63 @@
 [2024-04-26 08:16:01] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module_latest-20240426.tar.gz]
 [2024-04-26 08:16:01] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
 [2024-04-26 08:16:01] INFO root fetch - main [MainThread]: Store serial: [22943357]
+[2024-04-26 08:18:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22943357]
+[2024-04-26 08:18:16] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-26 08:18:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fake-bpy-module
+[2024-04-26 08:18:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-stock-inventory
+[2024-04-26 08:18:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gingerai
+[2024-04-26 08:18:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: GaiaScript
+[2024-04-26 08:18:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: machineroom
+[2024-04-26 08:18:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bibiinstaller
+[2024-04-26 08:18:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rcds-umdcsec
+[2024-04-26 08:18:17] INFO root fetch - processPackages [gingerai]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-26 08:18:17] INFO root fetch - processPackages [GaiaScript]: New version: [0.1.1.1] Old Version: [0.1.1]
+[2024-04-26 08:18:17] WARNING root fetch - processPackages [rcds-umdcsec]: Skipping, unable to determine old version
+[2024-04-26 08:18:17] INFO root fetch - main [MainThread]: End processing [rcds-umdcsec] error
+[2024-04-26 08:18:17] INFO root fetch - processPackages [machineroom]: New version: [0.46.8] Old Version: [0.46.7]
+[2024-04-26 08:18:17] INFO root fetch - processPackages [bibiinstaller]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-26 08:18:17] INFO root fetch - processPackages [gingerai]: Downloading https://files.pythonhosted.org/packages/93/63/5f4a6d2549870026eff659d1fc9aac0f6c9532ea741f07ac2083cd3a1cfe/gingerai-0.1.8.tar.gz
+[2024-04-26 08:18:17] INFO root fetch - processPackages [GaiaScript]: Downloading https://files.pythonhosted.org/packages/89/47/203b4f817489ed1844fe83244405cc75bfe4387dc69e26831aff28c36ef1/GaiaScript-0.1.1.tar.gz
+[2024-04-26 08:18:17] INFO root fetch - processPackages [odoo-addon-stock-inventory]: New version: [16.0.1.0.0.9] Old Version: [16.0.1.0.0.8]
+[2024-04-26 08:18:17] INFO root fetch - processPackages [machineroom]: Downloading https://files.pythonhosted.org/packages/57/54/65e51d4c9062f899d522b6ee8820aaf3745897925f3096faaf6181659167/machineroom-0.46.7.tar.gz
+[2024-04-26 08:18:17] INFO root fetch - processPackages [fake-bpy-module]: New version: [20240426] Old Version: [20240424]
+[2024-04-26 08:18:17] INFO root fetch - processPackages [odoo-addon-stock-inventory]: Downloading https://files.pythonhosted.org/packages/4a/82/df10b291e0306fa4b8841152dda4d61fcb7ced1db9a8ed57843ece790670/odoo_addon_stock_inventory-16.0.1.0.0.8-py3-none-any.whl
+[2024-04-26 08:18:17] INFO root fetch - processPackages [gingerai]: Downloading https://files.pythonhosted.org/packages/33/65/a59be7a360a71da6fb875287e72120e252018dc037eef33b15ac50759b89/gingerai-0.1.9.tar.gz
+[2024-04-26 08:18:17] INFO root fetch - processPackages [bibiinstaller]: Downloading https://files.pythonhosted.org/packages/4e/a8/47dacab07333bbc25fe9e652ecdcb749ad7d6486efe48c5f9f64b1b21b7c/bibiinstaller-0.1.2.tar.gz
+[2024-04-26 08:18:17] INFO root fetch - processPackages [machineroom]: Downloading https://files.pythonhosted.org/packages/c8/1b/2f7b2d39d2cfc4d0bc2d463e16eca75f153a5fe246d8c99271633f4207b3/machineroom-0.46.8.tar.gz
+[2024-04-26 08:18:17] INFO root fetch - processPackages [fake-bpy-module]: Downloading https://files.pythonhosted.org/packages/c4/d4/7da675089bce41cac308ed8bed7ecf8a119422183c82e4c0cf29aca79ee8/fake_bpy_module-20240424.tar.gz
+[2024-04-26 08:18:17] INFO root fetch - processPackages [GaiaScript]: Downloading https://files.pythonhosted.org/packages/2f/03/f856ef212d0e7e6cb8abe6e3cbb44d0a78eddcfbf7e8ef3cfab4c99a8d5f/GaiaScript-0.1.1.1.tar.gz
+[2024-04-26 08:18:17] INFO root fetch - processPackages [gingerai]: executing diffoscope
+[2024-04-26 08:18:17] INFO root fetch - processPackages [gingerai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gingerai-0.1.8.tar.gz tmp/gingerai-0.1.9.tar.gz --markdown 20240426/g/gingerai/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-26 08:18:17] INFO root fetch - processPackages [machineroom]: executing diffoscope
+[2024-04-26 08:18:17] INFO root fetch - processPackages [machineroom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/machineroom-0.46.7.tar.gz tmp/machineroom-0.46.8.tar.gz --markdown 20240426/m/machineroom/0.46.7-0.46.8/README.md --exclude *.pyd
+[2024-04-26 08:18:17] INFO root fetch - processPackages [odoo-addon-stock-inventory]: Downloading https://files.pythonhosted.org/packages/16/6c/ec131073889fd8f864662b52daee4d59841129ad6de01dc2796b9eef7567/odoo_addon_stock_inventory-16.0.1.0.0.9-py3-none-any.whl
+[2024-04-26 08:18:17] INFO root fetch - processPackages [GaiaScript]: executing diffoscope
+[2024-04-26 08:18:17] INFO root fetch - processPackages [GaiaScript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GaiaScript-0.1.1.tar.gz tmp/GaiaScript-0.1.1.1.tar.gz --markdown 20240426/G/GaiaScript/0.1.1-0.1.1.1/README.md --exclude *.pyd
+[2024-04-26 08:18:17] INFO root fetch - processPackages [odoo-addon-stock-inventory]: executing diffoscope
+[2024-04-26 08:18:17] INFO root fetch - processPackages [odoo-addon-stock-inventory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_inventory-16.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_stock_inventory-16.0.1.0.0.9-py3-none-any.whl.zip --markdown 20240426/o/odoo-addon-stock-inventory/16.0.1.0.0.8-16.0.1.0.0.9/README.md --exclude *.pyd
+[2024-04-26 08:18:17] INFO root fetch - processPackages [fake-bpy-module]: Downloading https://files.pythonhosted.org/packages/f8/f0/335a61576be3a629124dc875514485cce6a40c787c60e0a6ec1d8b62f266/fake_bpy_module-20240426.tar.gz
+[2024-04-26 08:18:18] INFO root fetch - processPackages [fake-bpy-module]: executing diffoscope
+[2024-04-26 08:18:18] INFO root fetch - processPackages [fake-bpy-module]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake_bpy_module-20240424.tar.gz tmp/fake_bpy_module-20240426.tar.gz --markdown 20240426/f/fake-bpy-module/20240424-20240426/README.md --exclude *.pyd
+[2024-04-26 08:18:18] INFO root fetch - processPackages [gingerai]: Remove: archive file [/home/abi/fetcher/tmp/gingerai-0.1.8.tar.gz]
+[2024-04-26 08:18:18] INFO root fetch - processPackages [gingerai]: Remove: archive file [/home/abi/fetcher/tmp/gingerai-0.1.9.tar.gz]
+[2024-04-26 08:18:18] INFO root fetch - main [MainThread]: End processing [gingerai]: success
+[2024-04-26 08:18:18] INFO root fetch - processPackages [machineroom]: Remove: archive file [/home/abi/fetcher/tmp/machineroom-0.46.7.tar.gz]
+[2024-04-26 08:18:18] INFO root fetch - processPackages [machineroom]: Remove: archive file [/home/abi/fetcher/tmp/machineroom-0.46.8.tar.gz]
+[2024-04-26 08:18:18] INFO root fetch - main [MainThread]: End processing [machineroom]: success
+[2024-04-26 08:18:18] INFO root fetch - processPackages [GaiaScript]: Remove: archive file [/home/abi/fetcher/tmp/GaiaScript-0.1.1.tar.gz]
+[2024-04-26 08:18:18] INFO root fetch - processPackages [GaiaScript]: Remove: archive file [/home/abi/fetcher/tmp/GaiaScript-0.1.1.1.tar.gz]
+[2024-04-26 08:18:18] INFO root fetch - main [MainThread]: End processing [GaiaScript]: success
+[2024-04-26 08:18:18] INFO root fetch - processPackages [odoo-addon-stock-inventory]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_inventory-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2024-04-26 08:18:18] INFO root fetch - processPackages [odoo-addon-stock-inventory]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_inventory-16.0.1.0.0.9-py3-none-any.whl.zip]
+[2024-04-26 08:18:18] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-inventory]: success
+[2024-04-26 08:18:18] INFO root fetch - processPackages [bibiinstaller]: Downloading https://files.pythonhosted.org/packages/76/2d/d4ecc565a7da5e99448e295c45d7d37bed4a19cf837ed2fcfc606a9ef907/bibiinstaller-0.1.3.tar.gz
+[2024-04-26 08:18:19] INFO root fetch - processPackages [bibiinstaller]: executing diffoscope
+[2024-04-26 08:18:19] INFO root fetch - processPackages [bibiinstaller]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bibiinstaller-0.1.2.tar.gz tmp/bibiinstaller-0.1.3.tar.gz --markdown 20240426/b/bibiinstaller/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-26 08:18:20] INFO root fetch - processPackages [bibiinstaller]: Remove: archive file [/home/abi/fetcher/tmp/bibiinstaller-0.1.2.tar.gz]
+[2024-04-26 08:18:20] INFO root fetch - processPackages [bibiinstaller]: Remove: archive file [/home/abi/fetcher/tmp/bibiinstaller-0.1.3.tar.gz]
+[2024-04-26 08:18:20] INFO root fetch - main [MainThread]: End processing [bibiinstaller]: success
+[2024-04-26 08:18:26] INFO root fetch - processPackages [fake-bpy-module]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module-20240424.tar.gz]
+[2024-04-26 08:18:26] INFO root fetch - processPackages [fake-bpy-module]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module-20240426.tar.gz]
+[2024-04-26 08:18:26] INFO root fetch - main [MainThread]: End processing [fake-bpy-module]: success
+[2024-04-26 08:18:26] INFO root fetch - main [MainThread]: Store serial: [22943382]
