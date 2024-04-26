@@ -2546,3 +2546,27 @@
 [2024-04-26 02:31:29] INFO root fetch - processPackages [flet-iconoir]: Remove: archive file [/home/abi/fetcher/tmp/flet_iconoir-0.1.1.tar.gz]
 [2024-04-26 02:31:29] INFO root fetch - main [MainThread]: End processing [flet-iconoir]: success
 [2024-04-26 02:31:29] INFO root fetch - main [MainThread]: Store serial: [22940033]
+[2024-04-26 02:33:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22940033]
+[2024-04-26 02:33:38] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-26 02:33:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: arize
+[2024-04-26 02:33:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: black
+[2024-04-26 02:33:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dero-pip
+[2024-04-26 02:33:38] INFO root fetch - processPackages [black]: New version: [24.4.1] Old Version: [24.4.0]
+[2024-04-26 02:33:39] WARNING root fetch - processPackages [dero-pip]: Skipping, unable to determine old version
+[2024-04-26 02:33:39] INFO root fetch - main [MainThread]: End processing [dero-pip] error
+[2024-04-26 02:33:39] INFO root fetch - processPackages [arize]: New version: [7.9.0] Old Version: [7.8.1]
+[2024-04-26 02:33:39] INFO root fetch - processPackages [black]: Downloading https://files.pythonhosted.org/packages/e7/29/58e93d7775544b6058f1df71dce4a8f5b039c2f8e381d3c695444c3d3d5f/black-24.4.0.tar.gz
+[2024-04-26 02:33:39] INFO root fetch - processPackages [arize]: Downloading https://files.pythonhosted.org/packages/03/97/34e75cb834adecd6742750fa55ed1c68b53add34bac2112f9969a38765d1/arize-7.8.1.tar.gz
+[2024-04-26 02:33:39] INFO root fetch - processPackages [arize]: Downloading https://files.pythonhosted.org/packages/83/9b/35322d4ed4c91eb53c132a9a502c3f84bb80149c9770f18d60e49b8f4e30/arize-7.9.0.tar.gz
+[2024-04-26 02:33:39] INFO root fetch - processPackages [black]: Downloading https://files.pythonhosted.org/packages/57/13/4075f1b5b394e4ccd7fccf6646957e6b454260a0a89b2093fa1b60dc6de6/black-24.4.1.tar.gz
+[2024-04-26 02:33:39] INFO root fetch - processPackages [arize]: executing diffoscope
+[2024-04-26 02:33:39] INFO root fetch - processPackages [arize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arize-7.8.1.tar.gz tmp/arize-7.9.0.tar.gz --markdown 20240426/a/arize/7.8.1-7.9.0/README.md --exclude *.pyd
+[2024-04-26 02:33:39] INFO root fetch - processPackages [black]: executing diffoscope
+[2024-04-26 02:33:39] INFO root fetch - processPackages [black]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/black-24.4.0.tar.gz tmp/black-24.4.1.tar.gz --markdown 20240426/b/black/24.4.0-24.4.1/README.md --exclude *.pyd
+[2024-04-26 02:33:40] INFO root fetch - processPackages [arize]: Remove: archive file [/home/abi/fetcher/tmp/arize-7.8.1.tar.gz]
+[2024-04-26 02:33:40] INFO root fetch - processPackages [arize]: Remove: archive file [/home/abi/fetcher/tmp/arize-7.9.0.tar.gz]
+[2024-04-26 02:33:40] INFO root fetch - main [MainThread]: End processing [arize]: success
+[2024-04-26 02:33:41] INFO root fetch - processPackages [black]: Remove: archive file [/home/abi/fetcher/tmp/black-24.4.0.tar.gz]
+[2024-04-26 02:33:41] INFO root fetch - processPackages [black]: Remove: archive file [/home/abi/fetcher/tmp/black-24.4.1.tar.gz]
+[2024-04-26 02:33:41] INFO root fetch - main [MainThread]: End processing [black]: success
+[2024-04-26 02:33:41] INFO root fetch - main [MainThread]: Store serial: [22940043]
