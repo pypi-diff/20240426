@@ -16403,3 +16403,36 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 11:37:17] INFO root fetch - processPackages [ert]: Remove: archive file [/home/abi/fetcher/tmp/ert-9.0.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-04-26 11:37:17] INFO root fetch - main [MainThread]: End processing [ert]: success
 [2024-04-26 11:37:17] INFO root fetch - main [MainThread]: Store serial: [22945881]
+[2024-04-26 11:39:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22945881]
+[2024-04-26 11:39:27] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-26 11:39:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: draive
+[2024-04-26 11:39:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: besser
+[2024-04-26 11:39:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aws-ssm-juggle
+[2024-04-26 11:39:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: s5-pytorch
+[2024-04-26 11:39:27] INFO root fetch - processPackages [s5-pytorch]: New version: [0.2.0] Old Version: [0.1.9]
+[2024-04-26 11:39:27] INFO root fetch - processPackages [s5-pytorch]: Downloading https://files.pythonhosted.org/packages/aa/be/663fc33817928eafffab38c03dd54e0f7b414e93d0ed3b831fe07a9f2e57/s5-pytorch-0.1.9.tar.gz
+[2024-04-26 11:39:27] INFO root fetch - processPackages [draive]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-04-26 11:39:27] WARNING root fetch - processPackages [aws-ssm-juggle]: Skipping, unable to determine old version
+[2024-04-26 11:39:27] INFO root fetch - main [MainThread]: End processing [aws-ssm-juggle] error
+[2024-04-26 11:39:27] INFO root fetch - processPackages [besser]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-26 11:39:27] INFO root fetch - processPackages [s5-pytorch]: Downloading https://files.pythonhosted.org/packages/50/dd/0ee3135e4916b3029f44da1d298e3dfbbbe5f08d03e2f93330e0d132abff/s5-pytorch-0.2.0.tar.gz
+[2024-04-26 11:39:27] INFO root fetch - processPackages [draive]: Downloading https://files.pythonhosted.org/packages/e8/45/5d05ebc7a4d108588289df8cb46fb9e63092e23bc2eaa8cd7f2a1659bdf6/draive-0.9.2.tar.gz
+[2024-04-26 11:39:27] INFO root fetch - processPackages [besser]: Downloading https://files.pythonhosted.org/packages/79/2f/2eed8a6e4b65ab3d6becb8b409397cafab77952f0ffdaf6d1a0c2f1a8f15/besser-1.0.0.tar.gz
+[2024-04-26 11:39:27] INFO root fetch - processPackages [s5-pytorch]: executing diffoscope
+[2024-04-26 11:39:27] INFO root fetch - processPackages [s5-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/s5-pytorch-0.1.9.tar.gz tmp/s5-pytorch-0.2.0.tar.gz --markdown 20240426/s/s5-pytorch/0.1.9-0.2.0/README.md --exclude *.pyd
+[2024-04-26 11:39:28] INFO root fetch - processPackages [besser]: Downloading https://files.pythonhosted.org/packages/57/81/f2f33f8b48d5fa80225532407ab46432e3cda33b3a35e190453833ed7d9e/besser-1.0.1.tar.gz
+[2024-04-26 11:39:28] INFO root fetch - processPackages [draive]: Downloading https://files.pythonhosted.org/packages/12/45/bf12032c508f54274e377278b0c3dd9bd4818418afe99095199daf6ae9cc/draive-0.9.3.tar.gz
+[2024-04-26 11:39:28] INFO root fetch - processPackages [besser]: executing diffoscope
+[2024-04-26 11:39:28] INFO root fetch - processPackages [besser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/besser-1.0.0.tar.gz tmp/besser-1.0.1.tar.gz --markdown 20240426/b/besser/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-26 11:39:28] INFO root fetch - processPackages [draive]: executing diffoscope
+[2024-04-26 11:39:28] INFO root fetch - processPackages [draive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/draive-0.9.2.tar.gz tmp/draive-0.9.3.tar.gz --markdown 20240426/d/draive/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-04-26 11:39:28] INFO root fetch - processPackages [s5-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/s5-pytorch-0.1.9.tar.gz]
+[2024-04-26 11:39:28] INFO root fetch - processPackages [s5-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/s5-pytorch-0.2.0.tar.gz]
+[2024-04-26 11:39:28] INFO root fetch - main [MainThread]: End processing [s5-pytorch]: success
+[2024-04-26 11:39:29] INFO root fetch - processPackages [draive]: Remove: archive file [/home/abi/fetcher/tmp/draive-0.9.2.tar.gz]
+[2024-04-26 11:39:29] INFO root fetch - processPackages [draive]: Remove: archive file [/home/abi/fetcher/tmp/draive-0.9.3.tar.gz]
+[2024-04-26 11:39:29] INFO root fetch - main [MainThread]: End processing [draive]: success
+[2024-04-26 11:39:29] INFO root fetch - processPackages [besser]: Remove: archive file [/home/abi/fetcher/tmp/besser-1.0.0.tar.gz]
+[2024-04-26 11:39:29] INFO root fetch - processPackages [besser]: Remove: archive file [/home/abi/fetcher/tmp/besser-1.0.1.tar.gz]
+[2024-04-26 11:39:29] INFO root fetch - main [MainThread]: End processing [besser]: success
+[2024-04-26 11:39:29] INFO root fetch - main [MainThread]: Store serial: [22945894]
