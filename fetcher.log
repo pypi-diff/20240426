@@ -23523,3 +23523,72 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 16:47:02] INFO root fetch - processPackages [teapy]: Remove: archive file [/home/abi/fetcher/tmp/teapy-0.7.3.tar.gz]
 [2024-04-26 16:47:02] INFO root fetch - main [MainThread]: End processing [teapy]: success
 [2024-04-26 16:47:02] INFO root fetch - main [MainThread]: Store serial: [22948831]
+[2024-04-26 16:49:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22948831]
+[2024-04-26 16:49:11] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-26 16:49:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ScandEval
+[2024-04-26 16:49:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rrtask
+[2024-04-26 16:49:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ayeaye-fossa
+[2024-04-26 16:49:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sbcli-dev
+[2024-04-26 16:49:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: parsee-core
+[2024-04-26 16:49:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: druida
+[2024-04-26 16:49:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nonebot-plugin-cyberfurry
+[2024-04-26 16:49:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hfive
+[2024-04-26 16:49:11] INFO root fetch - processPackages [druida]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-26 16:49:11] INFO root fetch - processPackages [rrtask]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-26 16:49:11] INFO root fetch - processPackages [druida]: Downloading https://files.pythonhosted.org/packages/54/4a/598451ade8bde7f369deba69feb62cde24693585acb81aed1eb62547c114/druida-0.0.8.tar.gz
+[2024-04-26 16:49:11] WARNING root fetch - processPackages [hfive]: Skipping, unable to determine old version
+[2024-04-26 16:49:11] INFO root fetch - main [MainThread]: End processing [hfive] error
+[2024-04-26 16:49:11] INFO root fetch - processPackages [ayeaye-fossa]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-26 16:49:11] INFO root fetch - processPackages [nonebot-plugin-cyberfurry]: New version: [1.5] Old Version: [1.4]
+[2024-04-26 16:49:11] INFO root fetch - processPackages [sbcli-dev]: New version: [2.4.2] Old Version: [2.4.1]
+[2024-04-26 16:49:11] INFO root fetch - processPackages [ScandEval]: New version: [9.3.2] Old Version: [9.3.1]
+[2024-04-26 16:49:11] INFO root fetch - processPackages [parsee-core]: New version: [0.1.4.9] Old Version: [0.1.4.8]
+[2024-04-26 16:49:11] INFO root fetch - processPackages [sbcli-dev]: Downloading https://files.pythonhosted.org/packages/9c/2b/9a63d4bd1d3f056938366f6f00abed337a4431c8cddeae714135a73c2e3b/sbcli_dev-2.4.1.zip
+[2024-04-26 16:49:11] INFO root fetch - processPackages [rrtask]: Downloading https://files.pythonhosted.org/packages/54/50/de6f2049d3d80ef746110eff0bd9f932094b0a00e979b7e3d9eb81e4dcbd/rrtask-0.0.8.tar.gz
+[2024-04-26 16:49:11] INFO root fetch - processPackages [ayeaye-fossa]: Downloading https://files.pythonhosted.org/packages/d8/a1/912b7eb7c2ec90821727eeae723c737b6fccd8c7d43b5b88035f69062531/ayeaye-fossa-0.0.8.tar.gz
+[2024-04-26 16:49:11] INFO root fetch - processPackages [druida]: Downloading https://files.pythonhosted.org/packages/c2/fc/04f7092cb544ce2c35e3be2dd5ff20bee19fcc5ba5378898e0f03e15b8a9/druida-0.0.9.tar.gz
+[2024-04-26 16:49:11] INFO root fetch - processPackages [ScandEval]: Downloading https://files.pythonhosted.org/packages/ee/1d/f04ad91701880b6ece18b6dce0caca026be1f6d1bbb49eb2db32c933f987/scandeval-9.3.1.tar.gz
+[2024-04-26 16:49:11] INFO root fetch - processPackages [nonebot-plugin-cyberfurry]: Downloading https://files.pythonhosted.org/packages/67/48/5438bd7b6998e0a220c2cb9106bd15b8d75df2a50fec6ad360aedb4f5e9f/nonebot_plugin_cyberfurry-1.4.tar.gz
+[2024-04-26 16:49:11] INFO root fetch - processPackages [parsee-core]: Downloading https://files.pythonhosted.org/packages/7a/50/254187550fba83da8e34776ce7e4c5844d1785b705b16a1ee835f8b7f74e/parsee_core-0.1.4.8.tar.gz
+[2024-04-26 16:49:11] INFO root fetch - processPackages [druida]: executing diffoscope
+[2024-04-26 16:49:11] INFO root fetch - processPackages [druida]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/druida-0.0.8.tar.gz tmp/druida-0.0.9.tar.gz --markdown 20240426/d/druida/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-26 16:49:12] INFO root fetch - processPackages [sbcli-dev]: Downloading https://files.pythonhosted.org/packages/ec/05/356e3c7bbdcc73558d16f1c4893119c3fbdaedac87f15058bbd9417d9cb0/sbcli_dev-2.4.2.zip
+[2024-04-26 16:49:12] INFO root fetch - processPackages [rrtask]: Downloading https://files.pythonhosted.org/packages/33/67/7161136e5f82b62f393e93b56f8b9118db51c103bebe9f7ee922c9cc62ab/rrtask-0.0.9.tar.gz
+[2024-04-26 16:49:12] INFO root fetch - processPackages [ayeaye-fossa]: Downloading https://files.pythonhosted.org/packages/3f/3a/f0d0d26d68a1d713e3a4fd112bc9c5730bf2ffb87570f006537da13a4e41/ayeaye-fossa-0.0.9.tar.gz
+[2024-04-26 16:49:12] INFO root fetch - processPackages [rrtask]: executing diffoscope
+[2024-04-26 16:49:12] INFO root fetch - processPackages [rrtask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rrtask-0.0.8.tar.gz tmp/rrtask-0.0.9.tar.gz --markdown 20240426/r/rrtask/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-26 16:49:12] INFO root fetch - processPackages [ScandEval]: Downloading https://files.pythonhosted.org/packages/18/e1/ce531d2876fb3980872277d0a0139d7a77365dec9e7eee8507928057b89e/scandeval-9.3.2.tar.gz
+[2024-04-26 16:49:12] INFO root fetch - processPackages [nonebot-plugin-cyberfurry]: Downloading https://files.pythonhosted.org/packages/e8/7b/7792da537305a35a66891fcc1c5c954d29f03029699edd636a4dd223daef/nonebot_plugin_cyberfurry-1.5.tar.gz
+[2024-04-26 16:49:12] INFO root fetch - processPackages [parsee-core]: Downloading https://files.pythonhosted.org/packages/87/4f/31752247b806b1f52883033ecb4efbcec34d8a58a18a3a051c733dd38686/parsee_core-0.1.4.9.tar.gz
+[2024-04-26 16:49:12] INFO root fetch - processPackages [ayeaye-fossa]: executing diffoscope
+[2024-04-26 16:49:12] INFO root fetch - processPackages [ayeaye-fossa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ayeaye-fossa-0.0.8.tar.gz tmp/ayeaye-fossa-0.0.9.tar.gz --markdown 20240426/a/ayeaye-fossa/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-26 16:49:12] INFO root fetch - processPackages [sbcli-dev]: executing diffoscope
+[2024-04-26 16:49:12] INFO root fetch - processPackages [sbcli-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbcli_dev-2.4.1.zip tmp/sbcli_dev-2.4.2.zip --markdown 20240426/s/sbcli-dev/2.4.1-2.4.2/README.md --exclude *.pyd
+[2024-04-26 16:49:12] INFO root fetch - processPackages [ScandEval]: executing diffoscope
+[2024-04-26 16:49:12] INFO root fetch - processPackages [ScandEval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scandeval-9.3.1.tar.gz tmp/scandeval-9.3.2.tar.gz --markdown 20240426/S/ScandEval/9.3.1-9.3.2/README.md --exclude *.pyd
+[2024-04-26 16:49:12] INFO root fetch - processPackages [parsee-core]: executing diffoscope
+[2024-04-26 16:49:12] INFO root fetch - processPackages [parsee-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parsee_core-0.1.4.8.tar.gz tmp/parsee_core-0.1.4.9.tar.gz --markdown 20240426/p/parsee-core/0.1.4.8-0.1.4.9/README.md --exclude *.pyd
+[2024-04-26 16:49:12] INFO root fetch - processPackages [nonebot-plugin-cyberfurry]: executing diffoscope
+[2024-04-26 16:49:12] INFO root fetch - processPackages [nonebot-plugin-cyberfurry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_cyberfurry-1.4.tar.gz tmp/nonebot_plugin_cyberfurry-1.5.tar.gz --markdown 20240426/n/nonebot-plugin-cyberfurry/1.4-1.5/README.md --exclude *.pyd
+[2024-04-26 16:49:12] INFO root fetch - processPackages [druida]: Remove: archive file [/home/abi/fetcher/tmp/druida-0.0.8.tar.gz]
+[2024-04-26 16:49:12] INFO root fetch - processPackages [druida]: Remove: archive file [/home/abi/fetcher/tmp/druida-0.0.9.tar.gz]
+[2024-04-26 16:49:12] INFO root fetch - main [MainThread]: End processing [druida]: success
+[2024-04-26 16:49:12] INFO root fetch - processPackages [rrtask]: Remove: archive file [/home/abi/fetcher/tmp/rrtask-0.0.8.tar.gz]
+[2024-04-26 16:49:12] INFO root fetch - processPackages [rrtask]: Remove: archive file [/home/abi/fetcher/tmp/rrtask-0.0.9.tar.gz]
+[2024-04-26 16:49:12] INFO root fetch - main [MainThread]: End processing [rrtask]: success
+[2024-04-26 16:49:13] INFO root fetch - processPackages [ayeaye-fossa]: Remove: archive file [/home/abi/fetcher/tmp/ayeaye-fossa-0.0.8.tar.gz]
+[2024-04-26 16:49:13] INFO root fetch - processPackages [ayeaye-fossa]: Remove: archive file [/home/abi/fetcher/tmp/ayeaye-fossa-0.0.9.tar.gz]
+[2024-04-26 16:49:13] INFO root fetch - main [MainThread]: End processing [ayeaye-fossa]: success
+[2024-04-26 16:49:13] INFO root fetch - processPackages [parsee-core]: Remove: archive file [/home/abi/fetcher/tmp/parsee_core-0.1.4.8.tar.gz]
+[2024-04-26 16:49:13] INFO root fetch - processPackages [parsee-core]: Remove: archive file [/home/abi/fetcher/tmp/parsee_core-0.1.4.9.tar.gz]
+[2024-04-26 16:49:13] INFO root fetch - main [MainThread]: End processing [parsee-core]: success
+[2024-04-26 16:49:13] INFO root fetch - processPackages [ScandEval]: Remove: archive file [/home/abi/fetcher/tmp/scandeval-9.3.1.tar.gz]
+[2024-04-26 16:49:13] INFO root fetch - processPackages [ScandEval]: Remove: archive file [/home/abi/fetcher/tmp/scandeval-9.3.2.tar.gz]
+[2024-04-26 16:49:13] INFO root fetch - main [MainThread]: End processing [ScandEval]: success
+[2024-04-26 16:49:13] INFO root fetch - processPackages [nonebot-plugin-cyberfurry]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_cyberfurry-1.4.tar.gz]
+[2024-04-26 16:49:13] INFO root fetch - processPackages [nonebot-plugin-cyberfurry]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_cyberfurry-1.5.tar.gz]
+[2024-04-26 16:49:13] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-cyberfurry]: success
+[2024-04-26 16:49:13] INFO root fetch - processPackages [sbcli-dev]: Remove: archive file [/home/abi/fetcher/tmp/sbcli_dev-2.4.1.zip]
+[2024-04-26 16:49:13] INFO root fetch - processPackages [sbcli-dev]: Remove: archive file [/home/abi/fetcher/tmp/sbcli_dev-2.4.2.zip]
+[2024-04-26 16:49:13] INFO root fetch - main [MainThread]: End processing [sbcli-dev]: success
+[2024-04-26 16:49:13] INFO root fetch - main [MainThread]: Store serial: [22948856]
