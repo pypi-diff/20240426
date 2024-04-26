@@ -15566,3 +15566,61 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 11:06:37] INFO root fetch - processPackages [bluepyemodel]: Remove: archive file [/home/abi/fetcher/tmp/bluepyemodel-0.0.99.tar.gz]
 [2024-04-26 11:06:37] INFO root fetch - main [MainThread]: End processing [bluepyemodel]: success
 [2024-04-26 11:06:37] INFO root fetch - main [MainThread]: Store serial: [22945533]
+[2024-04-26 11:08:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22945533]
+[2024-04-26 11:08:48] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-26 11:08:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: multiSyncPy
+[2024-04-26 11:08:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ubitlogger
+[2024-04-26 11:08:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cldfgeojson
+[2024-04-26 11:08:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ih-common
+[2024-04-26 11:08:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PREN-flawas
+[2024-04-26 11:08:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: py-rattler
+[2024-04-26 11:08:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PREN-flawas
+[2024-04-26 11:08:48] INFO root fetch - processPackages [ubitlogger]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-04-26 11:08:48] INFO root fetch - processPackages [ih-common]: New version: [2.8.0] Old Version: [2.7.1]
+[2024-04-26 11:08:48] INFO root fetch - processPackages [py-rattler]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-04-26 11:08:48] WARNING root fetch - processPackages [cldfgeojson]: Skipping, unable to determine old version
+[2024-04-26 11:08:48] INFO root fetch - main [MainThread]: End processing [cldfgeojson] error
+[2024-04-26 11:08:48] INFO root fetch - processPackages [ih-common]: Downloading https://files.pythonhosted.org/packages/4d/0c/cf8504e53ab0ecc31714dd7033f42cbb6b0de8dfd679755465688b66f914/ih_common-2.7.1.tar.gz
+[2024-04-26 11:08:48] INFO root fetch - processPackages [PREN-flawas]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-26 11:08:48] INFO root fetch - processPackages [PREN-flawas]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-26 11:08:48] INFO root fetch - processPackages [ubitlogger]: Downloading https://files.pythonhosted.org/packages/6c/c9/9d574b27afa8c4c5fa8f976b0bb271ad37d0c6c6a587cb745bc9ed30bdca/ubitlogger-0.5.0.tar.gz
+[2024-04-26 11:08:48] INFO root fetch - processPackages [multiSyncPy]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-26 11:08:48] INFO root fetch - processPackages [py-rattler]: Downloading https://files.pythonhosted.org/packages/34/96/334c84e09420434bf853cd1957a04c1cacc4d37c3fab04060c0ebee791bf/py_rattler-0.3.0.tar.gz
+[2024-04-26 11:08:48] INFO root fetch - processPackages [PREN-flawas]: Downloading https://files.pythonhosted.org/packages/7a/00/f05441614283fc3106d11a7c88cbbe431478d04d88ad321018774cec9a00/pren_flawas-0.0.8.tar.gz
+[2024-04-26 11:08:48] INFO root fetch - processPackages [PREN-flawas]: Downloading https://files.pythonhosted.org/packages/7a/00/f05441614283fc3106d11a7c88cbbe431478d04d88ad321018774cec9a00/pren_flawas-0.0.8.tar.gz
+[2024-04-26 11:08:48] INFO root fetch - processPackages [ih-common]: Downloading https://files.pythonhosted.org/packages/37/56/56af585e51da9a974b871731c3a293e02d9df6211d0f51f48aef65de6085/ih_common-2.8.0.tar.gz
+[2024-04-26 11:08:48] INFO root fetch - processPackages [multiSyncPy]: Downloading https://files.pythonhosted.org/packages/ed/9a/93627f9312c1638a1df79ceab9a10b2717a9ae339dd0943cd206b7c68a03/multiSyncPy-0.1.1.tar.gz
+[2024-04-26 11:08:48] INFO root fetch - processPackages [ubitlogger]: Downloading https://files.pythonhosted.org/packages/3b/06/9f26fd0a12043beed09f0aa0f27ac57615b71f25f7e04123c3a2409adcb2/ubitlogger-0.5.1.tar.gz
+[2024-04-26 11:08:48] INFO root fetch - processPackages [ih-common]: executing diffoscope
+[2024-04-26 11:08:48] INFO root fetch - processPackages [ih-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ih_common-2.7.1.tar.gz tmp/ih_common-2.8.0.tar.gz --markdown 20240426/i/ih-common/2.7.1-2.8.0/README.md --exclude *.pyd
+[2024-04-26 11:08:48] INFO root fetch - processPackages [py-rattler]: Downloading https://files.pythonhosted.org/packages/c0/1a/d87ca172cef77dd92e41fa1326b68cfdfb4dce4833d3069453cf9c9b660b/py_rattler-0.4.0.tar.gz
+[2024-04-26 11:08:48] INFO root fetch - processPackages [ubitlogger]: executing diffoscope
+[2024-04-26 11:08:48] INFO root fetch - processPackages [ubitlogger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ubitlogger-0.5.0.tar.gz tmp/ubitlogger-0.5.1.tar.gz --markdown 20240426/u/ubitlogger/0.5.0-0.5.1/README.md --exclude *.pyd
+[2024-04-26 11:08:48] INFO root fetch - processPackages [multiSyncPy]: Downloading https://files.pythonhosted.org/packages/47/0e/98f715a1b6bf458059eda3dd2aa8a5d3013c395ad5d3ab25fc2d1c39f9e4/multiSyncPy-0.1.2-py3-none-any.whl
+[2024-04-26 11:08:48] INFO root fetch - processPackages [py-rattler]: executing diffoscope
+[2024-04-26 11:08:48] INFO root fetch - processPackages [py-rattler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_rattler-0.3.0.tar.gz tmp/py_rattler-0.4.0.tar.gz --markdown 20240426/p/py-rattler/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-04-26 11:08:49] INFO root fetch - processPackages [multiSyncPy]: executing diffoscope
+[2024-04-26 11:08:49] INFO root fetch - processPackages [multiSyncPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multiSyncPy-0.1.1.tar.gz tmp/multiSyncPy-0.1.2-py3-none-any.whl.zip --markdown 20240426/m/multiSyncPy/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-26 11:08:49] INFO root fetch - processPackages [PREN-flawas]: Downloading https://files.pythonhosted.org/packages/26/0e/1c9f4343ee2bb5893b69f1ad4a5d4e7e1d61864fea4f62bee7194882470e/pren_flawas-0.0.9.tar.gz
+[2024-04-26 11:08:49] INFO root fetch - processPackages [PREN-flawas]: Downloading https://files.pythonhosted.org/packages/26/0e/1c9f4343ee2bb5893b69f1ad4a5d4e7e1d61864fea4f62bee7194882470e/pren_flawas-0.0.9.tar.gz
+[2024-04-26 11:08:49] INFO root fetch - processPackages [PREN-flawas]: executing diffoscope
+[2024-04-26 11:08:49] INFO root fetch - processPackages [PREN-flawas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pren_flawas-0.0.8.tar.gz tmp/pren_flawas-0.0.9.tar.gz --markdown 20240426/P/PREN-flawas/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-26 11:08:49] INFO root fetch - processPackages [PREN-flawas]: executing diffoscope
+[2024-04-26 11:08:49] INFO root fetch - processPackages [PREN-flawas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pren_flawas-0.0.8.tar.gz tmp/pren_flawas-0.0.9.tar.gz --markdown 20240426/P/PREN-flawas/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-26 11:08:49] INFO root fetch - processPackages [ubitlogger]: Remove: archive file [/home/abi/fetcher/tmp/ubitlogger-0.5.0.tar.gz]
+[2024-04-26 11:08:49] INFO root fetch - processPackages [ubitlogger]: Remove: archive file [/home/abi/fetcher/tmp/ubitlogger-0.5.1.tar.gz]
+[2024-04-26 11:08:49] INFO root fetch - main [MainThread]: End processing [ubitlogger]: success
+[2024-04-26 11:08:49] INFO root fetch - processPackages [ih-common]: Remove: archive file [/home/abi/fetcher/tmp/ih_common-2.7.1.tar.gz]
+[2024-04-26 11:08:49] INFO root fetch - processPackages [ih-common]: Remove: archive file [/home/abi/fetcher/tmp/ih_common-2.8.0.tar.gz]
+[2024-04-26 11:08:49] INFO root fetch - main [MainThread]: End processing [ih-common]: success
+[2024-04-26 11:08:49] INFO root fetch - processPackages [multiSyncPy]: Remove: archive file [/home/abi/fetcher/tmp/multiSyncPy-0.1.1.tar.gz]
+[2024-04-26 11:08:49] INFO root fetch - processPackages [multiSyncPy]: Remove: archive file [/home/abi/fetcher/tmp/multiSyncPy-0.1.2-py3-none-any.whl.zip]
+[2024-04-26 11:08:49] INFO root fetch - main [MainThread]: End processing [multiSyncPy]: success
+[2024-04-26 11:08:50] INFO root fetch - processPackages [PREN-flawas]: Remove: archive file [/home/abi/fetcher/tmp/pren_flawas-0.0.8.tar.gz]
+[2024-04-26 11:08:50] INFO root fetch - processPackages [PREN-flawas]: Remove: archive file [/home/abi/fetcher/tmp/pren_flawas-0.0.9.tar.gz]
+[2024-04-26 11:08:50] INFO root fetch - main [MainThread]: End processing [PREN-flawas]: success
+[2024-04-26 11:08:50] INFO root fetch - main [MainThread]: End processing [PREN-flawas]: success
+[2024-04-26 11:08:53] INFO root fetch - processPackages [py-rattler]: Remove: archive file [/home/abi/fetcher/tmp/py_rattler-0.3.0.tar.gz]
+[2024-04-26 11:08:53] INFO root fetch - processPackages [py-rattler]: Remove: archive file [/home/abi/fetcher/tmp/py_rattler-0.4.0.tar.gz]
+[2024-04-26 11:08:53] INFO root fetch - main [MainThread]: End processing [py-rattler]: success
+[2024-04-26 11:08:53] INFO root fetch - main [MainThread]: Store serial: [22945565]
