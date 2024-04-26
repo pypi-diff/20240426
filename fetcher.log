@@ -8096,3 +8096,63 @@
 [2024-04-26 05:20:23] INFO root fetch - processPackages [cdktf-cdktf-provider-opentelekomcloud]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-opentelekomcloud-9.0.3.tar.gz]
 [2024-04-26 05:20:23] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-opentelekomcloud]: success
 [2024-04-26 05:20:23] INFO root fetch - main [MainThread]: Store serial: [22942226]
+[2024-04-26 05:22:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22942226]
+[2024-04-26 05:22:32] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-26 05:22:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flowmancer
+[2024-04-26 05:22:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vsvnApplicationMonitoring
+[2024-04-26 05:22:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: magictk
+[2024-04-26 05:22:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: surfkit
+[2024-04-26 05:22:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spnkr
+[2024-04-26 05:22:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zzz233
+[2024-04-26 05:22:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lazyad
+[2024-04-26 05:22:32] WARNING root fetch - processPackages [vsvnApplicationMonitoring]: Skipping, unable to determine old version
+[2024-04-26 05:22:32] INFO root fetch - main [MainThread]: End processing [vsvnApplicationMonitoring] error
+[2024-04-26 05:22:32] INFO root fetch - processPackages [surfkit]: New version: [0.1.90] Old Version: [0.1.9]
+[2024-04-26 05:22:32] INFO root fetch - processPackages [magictk]: New version: [0.0.2.55] Old Version: [0.0.2.54]
+[2024-04-26 05:22:32] INFO root fetch - processPackages [lazyad]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-26 05:22:32] INFO root fetch - processPackages [spnkr]: New version: [0.7.0] Old Version: [0.6.0]
+[2024-04-26 05:22:32] INFO root fetch - processPackages [surfkit]: Downloading https://files.pythonhosted.org/packages/e2/bd/4b842eb12eca8c3a3ea5d2915b52f91a3259c7e0160d2a0a88aeb13ae4a7/surfkit-0.1.9.tar.gz
+[2024-04-26 05:22:32] INFO root fetch - processPackages [magictk]: Downloading https://files.pythonhosted.org/packages/e5/cd/8795eb35d4a504b8407472cdebb47faf188f803db21f2c41149281a7b03e/magictk-0.0.2.54.tar.gz
+[2024-04-26 05:22:32] INFO root fetch - processPackages [flowmancer]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-04-26 05:22:32] INFO root fetch - processPackages [zzz233]: New version: [0.3.0] Old Version: [0.2.3]
+[2024-04-26 05:22:33] INFO root fetch - processPackages [lazyad]: Downloading https://files.pythonhosted.org/packages/3f/9c/9d8a8814dbedaa707257e01a64458376d55a3a152b2f08ef9f4c56661787/lazyad-0.0.8.tar.gz
+[2024-04-26 05:22:33] INFO root fetch - processPackages [spnkr]: Downloading https://files.pythonhosted.org/packages/e0/36/71df3bb941e97ee49711f32794ea12c9771cea0e73afe57feb3bc88beb04/spnkr-0.6.0.tar.gz
+[2024-04-26 05:22:33] INFO root fetch - processPackages [flowmancer]: Downloading https://files.pythonhosted.org/packages/16/67/dc7e0f71395efdfa833d75db9c3cea1581c7472b0d0486c81d58b8a867af/flowmancer-0.9.4.tar.gz
+[2024-04-26 05:22:33] INFO root fetch - processPackages [zzz233]: Downloading https://files.pythonhosted.org/packages/31/76/2a1a7cc99946dbae7b32b8ca50cd1eefe23f04c2f7a3f2503cd7ee6cc3e3/zzz233-0.2.3.tar.gz
+[2024-04-26 05:22:33] INFO root fetch - processPackages [surfkit]: Downloading https://files.pythonhosted.org/packages/5f/c1/49b9e14b4acb1c057f9bfb83c05d6f1fbb9e02a6f077de6ef9ecbb0954ca/surfkit-0.1.90.tar.gz
+[2024-04-26 05:22:33] INFO root fetch - processPackages [magictk]: Downloading https://files.pythonhosted.org/packages/a0/f6/15cbab0c3aab6cd77a348bf1dcea2afb6bce8e092043a40e10b998827608/magictk-0.0.2.55.tar.gz
+[2024-04-26 05:22:33] INFO root fetch - processPackages [surfkit]: executing diffoscope
+[2024-04-26 05:22:33] INFO root fetch - processPackages [surfkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/surfkit-0.1.9.tar.gz tmp/surfkit-0.1.90.tar.gz --markdown 20240426/s/surfkit/0.1.9-0.1.90/README.md --exclude *.pyd
+[2024-04-26 05:22:33] INFO root fetch - processPackages [spnkr]: Downloading https://files.pythonhosted.org/packages/2f/66/190f7b4be2950cbd8422098c2669352186af8bcbfad0e0aa45f75aba0011/spnkr-0.7.0.tar.gz
+[2024-04-26 05:22:33] INFO root fetch - processPackages [magictk]: executing diffoscope
+[2024-04-26 05:22:33] INFO root fetch - processPackages [magictk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magictk-0.0.2.54.tar.gz tmp/magictk-0.0.2.55.tar.gz --markdown 20240426/m/magictk/0.0.2.54-0.0.2.55/README.md --exclude *.pyd
+[2024-04-26 05:22:33] INFO root fetch - processPackages [lazyad]: Downloading https://files.pythonhosted.org/packages/7b/2a/f7437e2bbfc03d2bf7d3c612739c19147a2f7a431be3132870c8e6528a86/lazyad-0.0.9.tar.gz
+[2024-04-26 05:22:33] INFO root fetch - processPackages [zzz233]: Downloading https://files.pythonhosted.org/packages/ce/6c/6e131710abc4d0991dcbd1231d63f996239ee66f9062d9fc325f5aff2c7d/zzz233-0.3.0.tar.gz
+[2024-04-26 05:22:33] INFO root fetch - processPackages [flowmancer]: Downloading https://files.pythonhosted.org/packages/6c/70/08dbb431bf20c50c0cc8980f264315b9ee83779e5be507e72b668ea0d341/flowmancer-0.9.5.tar.gz
+[2024-04-26 05:22:33] INFO root fetch - processPackages [lazyad]: executing diffoscope
+[2024-04-26 05:22:33] INFO root fetch - processPackages [lazyad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazyad-0.0.8.tar.gz tmp/lazyad-0.0.9.tar.gz --markdown 20240426/l/lazyad/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-26 05:22:33] INFO root fetch - processPackages [spnkr]: executing diffoscope
+[2024-04-26 05:22:33] INFO root fetch - processPackages [spnkr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spnkr-0.6.0.tar.gz tmp/spnkr-0.7.0.tar.gz --markdown 20240426/s/spnkr/0.6.0-0.7.0/README.md --exclude *.pyd
+[2024-04-26 05:22:33] INFO root fetch - processPackages [zzz233]: executing diffoscope
+[2024-04-26 05:22:33] INFO root fetch - processPackages [zzz233]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zzz233-0.2.3.tar.gz tmp/zzz233-0.3.0.tar.gz --markdown 20240426/z/zzz233/0.2.3-0.3.0/README.md --exclude *.pyd
+[2024-04-26 05:22:33] INFO root fetch - processPackages [flowmancer]: executing diffoscope
+[2024-04-26 05:22:33] INFO root fetch - processPackages [flowmancer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowmancer-0.9.4.tar.gz tmp/flowmancer-0.9.5.tar.gz --markdown 20240426/f/flowmancer/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-04-26 05:22:34] INFO root fetch - processPackages [surfkit]: Remove: archive file [/home/abi/fetcher/tmp/surfkit-0.1.9.tar.gz]
+[2024-04-26 05:22:34] INFO root fetch - processPackages [surfkit]: Remove: archive file [/home/abi/fetcher/tmp/surfkit-0.1.90.tar.gz]
+[2024-04-26 05:22:34] INFO root fetch - main [MainThread]: End processing [surfkit]: success
+[2024-04-26 05:22:34] INFO root fetch - processPackages [lazyad]: Remove: archive file [/home/abi/fetcher/tmp/lazyad-0.0.8.tar.gz]
+[2024-04-26 05:22:34] INFO root fetch - processPackages [lazyad]: Remove: archive file [/home/abi/fetcher/tmp/lazyad-0.0.9.tar.gz]
+[2024-04-26 05:22:34] INFO root fetch - main [MainThread]: End processing [lazyad]: success
+[2024-04-26 05:22:34] INFO root fetch - processPackages [zzz233]: Remove: archive file [/home/abi/fetcher/tmp/zzz233-0.2.3.tar.gz]
+[2024-04-26 05:22:34] INFO root fetch - processPackages [zzz233]: Remove: archive file [/home/abi/fetcher/tmp/zzz233-0.3.0.tar.gz]
+[2024-04-26 05:22:34] INFO root fetch - main [MainThread]: End processing [zzz233]: success
+[2024-04-26 05:22:34] INFO root fetch - processPackages [flowmancer]: Remove: archive file [/home/abi/fetcher/tmp/flowmancer-0.9.4.tar.gz]
+[2024-04-26 05:22:34] INFO root fetch - processPackages [flowmancer]: Remove: archive file [/home/abi/fetcher/tmp/flowmancer-0.9.5.tar.gz]
+[2024-04-26 05:22:34] INFO root fetch - main [MainThread]: End processing [flowmancer]: success
+[2024-04-26 05:22:34] INFO root fetch - processPackages [spnkr]: Remove: archive file [/home/abi/fetcher/tmp/spnkr-0.6.0.tar.gz]
+[2024-04-26 05:22:34] INFO root fetch - processPackages [spnkr]: Remove: archive file [/home/abi/fetcher/tmp/spnkr-0.7.0.tar.gz]
+[2024-04-26 05:22:34] INFO root fetch - main [MainThread]: End processing [spnkr]: success
+[2024-04-26 05:22:34] INFO root fetch - processPackages [magictk]: Remove: archive file [/home/abi/fetcher/tmp/magictk-0.0.2.54.tar.gz]
+[2024-04-26 05:22:34] INFO root fetch - processPackages [magictk]: Remove: archive file [/home/abi/fetcher/tmp/magictk-0.0.2.55.tar.gz]
+[2024-04-26 05:22:34] INFO root fetch - main [MainThread]: End processing [magictk]: success
+[2024-04-26 05:22:34] INFO root fetch - main [MainThread]: Store serial: [22942248]
