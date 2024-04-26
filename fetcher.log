@@ -8186,3 +8186,33 @@
 [2024-04-26 05:24:45] INFO root fetch - processPackages [Leonardo-Ai-SDK]: Remove: archive file [/home/abi/fetcher/tmp/Leonardo-Ai-SDK-5.3.7.tar.gz]
 [2024-04-26 05:24:45] INFO root fetch - main [MainThread]: End processing [Leonardo-Ai-SDK]: success
 [2024-04-26 05:24:45] INFO root fetch - main [MainThread]: Store serial: [22942270]
+[2024-04-26 05:26:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22942270]
+[2024-04-26 05:26:53] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-26 05:26:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: huckle
+[2024-04-26 05:26:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fgo-api-types
+[2024-04-26 05:26:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fbpic
+[2024-04-26 05:26:53] INFO root fetch - processPackages [fgo-api-types]: New version: [2024.4.6.2.22.3] Old Version: [2024.4.26.2.28.0]
+[2024-04-26 05:26:53] INFO root fetch - processPackages [huckle]: New version: [3.4.0] Old Version: [3.3.4]
+[2024-04-26 05:26:53] INFO root fetch - processPackages [fbpic]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-04-26 05:26:53] INFO root fetch - processPackages [fgo-api-types]: Downloading https://files.pythonhosted.org/packages/eb/09/76d65755a62ee830b457e0f6f32b42b8a7d308d61aaee1f07ace2551b2de/fgo_api_types-2024.4.26.2.28.0.tar.gz
+[2024-04-26 05:26:54] INFO root fetch - processPackages [fbpic]: Downloading https://files.pythonhosted.org/packages/f2/ec/8acaf1b080889b1905f3541ffb142129b477dfc5ac5a85941c41e1cdfd6a/fbpic-0.9.4.tar.gz
+[2024-04-26 05:26:54] INFO root fetch - processPackages [huckle]: Downloading https://files.pythonhosted.org/packages/4c/be/a06393f3eda2e8ffb4fa8ab1b7e0f00d6d1d63b94f3d474f6c136c8b3c8f/huckle-3.3.4.tar.gz
+[2024-04-26 05:26:54] INFO root fetch - processPackages [fgo-api-types]: Downloading https://files.pythonhosted.org/packages/b9/41/3dbb26f0f980c564a1e8ae75299afc724991934ffaf1a8a59ab70aafb784/fgo_api_types-2024.4.6.2.22.3.tar.gz
+[2024-04-26 05:26:54] INFO root fetch - processPackages [fgo-api-types]: executing diffoscope
+[2024-04-26 05:26:54] INFO root fetch - processPackages [fgo-api-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fgo_api_types-2024.4.26.2.28.0.tar.gz tmp/fgo_api_types-2024.4.6.2.22.3.tar.gz --markdown 20240426/f/fgo-api-types/2024.4.26.2.28.0-2024.4.6.2.22.3/README.md --exclude *.pyd
+[2024-04-26 05:26:54] INFO root fetch - processPackages [fbpic]: Downloading https://files.pythonhosted.org/packages/14/5a/81ff84c20952d41883615402e3b75838ac6bedfdd2e0feebdd9d2a8fa825/fbpic-0.9.5.tar.gz
+[2024-04-26 05:26:54] INFO root fetch - processPackages [huckle]: Downloading https://files.pythonhosted.org/packages/b6/e9/8b78c3ac72af764da039ba42dcb248379fc88ecbeec40caa34c93554b1b0/huckle-3.4.0.tar.gz
+[2024-04-26 05:26:54] INFO root fetch - processPackages [fbpic]: executing diffoscope
+[2024-04-26 05:26:54] INFO root fetch - processPackages [fbpic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fbpic-0.9.4.tar.gz tmp/fbpic-0.9.5.tar.gz --markdown 20240426/f/fbpic/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-04-26 05:26:54] INFO root fetch - processPackages [huckle]: executing diffoscope
+[2024-04-26 05:26:54] INFO root fetch - processPackages [huckle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huckle-3.3.4.tar.gz tmp/huckle-3.4.0.tar.gz --markdown 20240426/h/huckle/3.3.4-3.4.0/README.md --exclude *.pyd
+[2024-04-26 05:26:54] INFO root fetch - processPackages [fgo-api-types]: Remove: archive file [/home/abi/fetcher/tmp/fgo_api_types-2024.4.26.2.28.0.tar.gz]
+[2024-04-26 05:26:54] INFO root fetch - processPackages [fgo-api-types]: Remove: archive file [/home/abi/fetcher/tmp/fgo_api_types-2024.4.6.2.22.3.tar.gz]
+[2024-04-26 05:26:54] INFO root fetch - main [MainThread]: End processing [fgo-api-types]: success
+[2024-04-26 05:26:55] INFO root fetch - processPackages [huckle]: Remove: archive file [/home/abi/fetcher/tmp/huckle-3.3.4.tar.gz]
+[2024-04-26 05:26:55] INFO root fetch - processPackages [huckle]: Remove: archive file [/home/abi/fetcher/tmp/huckle-3.4.0.tar.gz]
+[2024-04-26 05:26:55] INFO root fetch - main [MainThread]: End processing [huckle]: success
+[2024-04-26 05:26:55] INFO root fetch - processPackages [fbpic]: Remove: archive file [/home/abi/fetcher/tmp/fbpic-0.9.4.tar.gz]
+[2024-04-26 05:26:55] INFO root fetch - processPackages [fbpic]: Remove: archive file [/home/abi/fetcher/tmp/fbpic-0.9.5.tar.gz]
+[2024-04-26 05:26:55] INFO root fetch - main [MainThread]: End processing [fbpic]: success
+[2024-04-26 05:26:55] INFO root fetch - main [MainThread]: Store serial: [22942279]
