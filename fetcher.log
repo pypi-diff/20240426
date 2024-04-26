@@ -21491,3 +21491,105 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 15:31:46] INFO root fetch - processPackages [twitterexplorer]: Remove: archive file [/home/abi/fetcher/tmp/twitterexplorer-0.7.0.tar.gz]
 [2024-04-26 15:31:46] INFO root fetch - main [MainThread]: End processing [twitterexplorer]: success
 [2024-04-26 15:31:46] INFO root fetch - main [MainThread]: Store serial: [22948078]
+[2024-04-26 15:33:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22948078]
+[2024-04-26 15:33:54] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-26 15:33:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: duckietown-messages
+[2024-04-26 15:33:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: data-validation-framework
+[2024-04-26 15:33:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: munud
+[2024-04-26 15:33:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: grayswan-api
+[2024-04-26 15:33:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hotsos
+[2024-04-26 15:33:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rats-processors
+[2024-04-26 15:33:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rats-apps
+[2024-04-26 15:33:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: encord
+[2024-04-26 15:33:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: RWTHColors
+[2024-04-26 15:33:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: framelib
+[2024-04-26 15:33:55] INFO root fetch - processPackages [rats-apps]: New version: [0.1.3.dev9] Old Version: [0.1.3.dev8]
+[2024-04-26 15:33:55] INFO root fetch - processPackages [framelib]: New version: [0.0.4b3] Old Version: [0.0.4b2]
+[2024-04-26 15:33:55] INFO root fetch - processPackages [rats-processors]: New version: [0.1.3.dev9] Old Version: [0.1.3.dev8]
+[2024-04-26 15:33:55] INFO root fetch - processPackages [duckietown-messages]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-26 15:33:55] INFO root fetch - processPackages [hotsos]: New version: [1.17.0.post9] Old Version: [1.17.0.post8]
+[2024-04-26 15:33:55] INFO root fetch - processPackages [munud]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-26 15:33:55] INFO root fetch - processPackages [data-validation-framework]: New version: [0.8.0] Old Version: [0.7.4]
+[2024-04-26 15:33:55] INFO root fetch - processPackages [RWTHColors]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-04-26 15:33:55] INFO root fetch - processPackages [encord]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-26 15:33:55] INFO root fetch - processPackages [grayswan-api]: New version: [0.1.0a9] Old Version: [0.1.0a8]
+[2024-04-26 15:33:55] INFO root fetch - processPackages [framelib]: Downloading https://files.pythonhosted.org/packages/42/a5/b6e0346aaee4551d5a7cdf0dde49a2e14da10df0b8a39b04bbf4ce2880e7/framelib-0.0.4b2.tar.gz
+[2024-04-26 15:33:55] INFO root fetch - processPackages [rats-processors]: Downloading https://files.pythonhosted.org/packages/ee/14/9e43a65d4c611c1fd72f73131b77c7f2d0b9dec99834658b01571114c849/rats_processors-0.1.3.dev8-py3-none-any.whl
+[2024-04-26 15:33:55] INFO root fetch - processPackages [rats-apps]: Downloading https://files.pythonhosted.org/packages/2b/ac/7cdd84e9d923505e71fd914f800c3d7199d0e4a098aa8259413f06395c30/rats_apps-0.1.3.dev8-py3-none-any.whl
+[2024-04-26 15:33:55] INFO root fetch - processPackages [hotsos]: Downloading https://files.pythonhosted.org/packages/a7/57/15e4fe4e4dbc4381d9bf00a81267a7c13df4ca3f2dc3b2afa7db65518860/hotsos-1.17.0.post8.tar.gz
+[2024-04-26 15:33:55] INFO root fetch - processPackages [duckietown-messages]: Downloading https://files.pythonhosted.org/packages/fe/d8/f98279845918cccffbac1eaeb7fb59cd29e0024be8e327ad68a072d6c38a/duckietown-messages-0.0.7.tar.gz
+[2024-04-26 15:33:55] INFO root fetch - processPackages [munud]: Downloading https://files.pythonhosted.org/packages/b0/01/00e23cd67a1e84f0c4c415709178bf17d80e5e7721638ee866c574ddc099/munud-0.2.0.tar.gz
+[2024-04-26 15:33:55] INFO root fetch - processPackages [data-validation-framework]: Downloading https://files.pythonhosted.org/packages/11/fa/e5b19d253c22230fb58d129896a09cbc64c2f6cc18029e4924036261b718/data-validation-framework-0.7.4.tar.gz
+[2024-04-26 15:33:55] INFO root fetch - processPackages [grayswan-api]: Downloading https://files.pythonhosted.org/packages/cb/c2/86210db271d79672aa051cc0f4b37232c66f0d262f27e6e0405defd819cf/grayswan_api-0.1.0a8.tar.gz
+[2024-04-26 15:33:55] INFO root fetch - processPackages [RWTHColors]: Downloading https://files.pythonhosted.org/packages/aa/b2/9447f15435b6f306f29950b986bf73310cdb39dd84fcee92ebfba22e3638/rwthcolors-0.2.5.tar.gz
+[2024-04-26 15:33:55] INFO root fetch - processPackages [rats-apps]: Downloading https://files.pythonhosted.org/packages/63/25/d3d6e41dfb5bd98bcbf7f79d3856cc774212467e002a6abf0eb6cd14bd96/rats_apps-0.1.3.dev9-py3-none-any.whl
+[2024-04-26 15:33:55] INFO root fetch - processPackages [rats-processors]: Downloading https://files.pythonhosted.org/packages/83/b6/122ea8648f16d78861cb7c33e0f599e2421b03f295f46bbf34d66c3d399a/rats_processors-0.1.3.dev9-py3-none-any.whl
+[2024-04-26 15:33:55] INFO root fetch - processPackages [hotsos]: Downloading https://files.pythonhosted.org/packages/7f/57/f6a4fc3900f977e567bcf108bd2787ce8624445d42b84c26b710b18c7c3d/hotsos-1.17.0.post9.tar.gz
+[2024-04-26 15:33:55] INFO root fetch - processPackages [encord]: Downloading https://files.pythonhosted.org/packages/f0/34/d6ab4f7213dd4dd42f226ed7b328ac3ff55006a7b5ce96d4012adeedb08d/encord-0.1.98.tar.gz
+[2024-04-26 15:33:55] INFO root fetch - processPackages [rats-apps]: executing diffoscope
+[2024-04-26 15:33:55] INFO root fetch - processPackages [rats-apps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rats_apps-0.1.3.dev8-py3-none-any.whl.zip tmp/rats_apps-0.1.3.dev9-py3-none-any.whl.zip --markdown 20240426/r/rats-apps/0.1.3.dev8-0.1.3.dev9/README.md --exclude *.pyd
+[2024-04-26 15:33:55] INFO root fetch - processPackages [framelib]: Downloading https://files.pythonhosted.org/packages/04/1f/25cd086a112dee534cd0d53b93c5d334a29bbaee6116897dcfc40396ab42/framelib-0.0.4b3.tar.gz
+[2024-04-26 15:33:55] INFO root fetch - processPackages [duckietown-messages]: Downloading https://files.pythonhosted.org/packages/e3/90/f13aad5e71df96dfd7e3813cba6199fb9f379e52850af493c82a34b67849/duckietown-messages-0.0.8.tar.gz
+[2024-04-26 15:33:55] INFO root fetch - processPackages [munud]: Downloading https://files.pythonhosted.org/packages/14/76/d16f20a186f7e86a4da78b61cff4771007e484cb6a5855442892b42f6c17/munud-0.2.1.tar.gz
+[2024-04-26 15:33:55] INFO root fetch - processPackages [rats-processors]: executing diffoscope
+[2024-04-26 15:33:55] INFO root fetch - processPackages [rats-processors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rats_processors-0.1.3.dev8-py3-none-any.whl.zip tmp/rats_processors-0.1.3.dev9-py3-none-any.whl.zip --markdown 20240426/r/rats-processors/0.1.3.dev8-0.1.3.dev9/README.md --exclude *.pyd
+[2024-04-26 15:33:55] INFO root fetch - processPackages [hotsos]: executing diffoscope
+[2024-04-26 15:33:55] INFO root fetch - processPackages [hotsos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hotsos-1.17.0.post8.tar.gz tmp/hotsos-1.17.0.post9.tar.gz --markdown 20240426/h/hotsos/1.17.0.post8-1.17.0.post9/README.md --exclude *.pyd
+[2024-04-26 15:33:55] INFO root fetch - processPackages [RWTHColors]: Downloading https://files.pythonhosted.org/packages/71/8a/d44bc79c711263c290da28d515ab0e944dd7f44c054ded59c1833a9e88c1/rwthcolors-0.2.6.tar.gz
+[2024-04-26 15:33:55] INFO root fetch - processPackages [grayswan-api]: Downloading https://files.pythonhosted.org/packages/e8/eb/77df31cf2348251379ea90ecb820bc8b92fc30337d6c9c1a5b0b0876ee06/grayswan_api-0.1.0a9.tar.gz
+[2024-04-26 15:33:55] INFO root fetch - processPackages [data-validation-framework]: Downloading https://files.pythonhosted.org/packages/23/5c/2713d071758a703b6739a7e508ff9ea7160c6bbf33851a3d4266ab60ed34/data_validation_framework-0.8.0.tar.gz
+[2024-04-26 15:33:55] INFO root fetch - processPackages [duckietown-messages]: executing diffoscope
+[2024-04-26 15:33:55] INFO root fetch - processPackages [duckietown-messages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duckietown-messages-0.0.7.tar.gz tmp/duckietown-messages-0.0.8.tar.gz --markdown 20240426/d/duckietown-messages/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-26 15:33:55] INFO root fetch - processPackages [framelib]: executing diffoscope
+[2024-04-26 15:33:55] INFO root fetch - processPackages [framelib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/framelib-0.0.4b2.tar.gz tmp/framelib-0.0.4b3.tar.gz --markdown 20240426/f/framelib/0.0.4b2-0.0.4b3/README.md --exclude *.pyd
+[2024-04-26 15:33:55] INFO root fetch - processPackages [munud]: executing diffoscope
+[2024-04-26 15:33:55] INFO root fetch - processPackages [munud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/munud-0.2.0.tar.gz tmp/munud-0.2.1.tar.gz --markdown 20240426/m/munud/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-04-26 15:33:56] INFO root fetch - processPackages [grayswan-api]: executing diffoscope
+[2024-04-26 15:33:56] INFO root fetch - processPackages [grayswan-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grayswan_api-0.1.0a8.tar.gz tmp/grayswan_api-0.1.0a9.tar.gz --markdown 20240426/g/grayswan-api/0.1.0a8-0.1.0a9/README.md --exclude *.pyd
+[2024-04-26 15:33:56] INFO root fetch - processPackages [data-validation-framework]: executing diffoscope
+[2024-04-26 15:33:56] INFO root fetch - processPackages [data-validation-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data-validation-framework-0.7.4.tar.gz tmp/data_validation_framework-0.8.0.tar.gz --markdown 20240426/d/data-validation-framework/0.7.4-0.8.0/README.md --exclude *.pyd
+[2024-04-26 15:33:56] INFO root fetch - processPackages [encord]: Downloading https://files.pythonhosted.org/packages/ec/62/9a0b4770d9ee7f4e82c28b9f55065be20b0b96007b04c6c9c226ceffa842/encord-0.1.99.tar.gz
+[2024-04-26 15:33:56] INFO root fetch - processPackages [RWTHColors]: executing diffoscope
+[2024-04-26 15:33:56] INFO root fetch - processPackages [RWTHColors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rwthcolors-0.2.5.tar.gz tmp/rwthcolors-0.2.6.tar.gz --markdown 20240426/R/RWTHColors/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-04-26 15:33:56] INFO root fetch - processPackages [encord]: executing diffoscope
+[2024-04-26 15:33:56] INFO root fetch - processPackages [encord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/encord-0.1.98.tar.gz tmp/encord-0.1.99.tar.gz --markdown 20240426/e/encord/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-04-26 15:33:56] INFO root fetch - processPackages [rats-apps]: Remove: archive file [/home/abi/fetcher/tmp/rats_apps-0.1.3.dev8-py3-none-any.whl.zip]
+[2024-04-26 15:33:56] INFO root fetch - processPackages [rats-apps]: Remove: archive file [/home/abi/fetcher/tmp/rats_apps-0.1.3.dev9-py3-none-any.whl.zip]
+[2024-04-26 15:33:56] INFO root fetch - processPackages [rats-apps]: Start processing: rats-pipelines
+[2024-04-26 15:33:56] INFO root fetch - main [MainThread]: End processing [rats-apps]: success
+[2024-04-26 15:33:56] INFO root fetch - processPackages [rats-pipelines]: New version: [0.1.3.dev9] Old Version: [0.1.3.dev8]
+[2024-04-26 15:33:56] INFO root fetch - processPackages [rats-pipelines]: Downloading https://files.pythonhosted.org/packages/ec/dd/e1571a4a4be4a6e8a24f82ab1b058ced7ac30426c5fa734e21c3bb791cd1/rats_pipelines-0.1.3.dev8-py3-none-any.whl
+[2024-04-26 15:33:56] INFO root fetch - processPackages [duckietown-messages]: Remove: archive file [/home/abi/fetcher/tmp/duckietown-messages-0.0.7.tar.gz]
+[2024-04-26 15:33:56] INFO root fetch - processPackages [duckietown-messages]: Remove: archive file [/home/abi/fetcher/tmp/duckietown-messages-0.0.8.tar.gz]
+[2024-04-26 15:33:56] INFO root fetch - main [MainThread]: End processing [duckietown-messages]: success
+[2024-04-26 15:33:56] INFO root fetch - processPackages [rats-processors]: Remove: archive file [/home/abi/fetcher/tmp/rats_processors-0.1.3.dev8-py3-none-any.whl.zip]
+[2024-04-26 15:33:56] INFO root fetch - processPackages [rats-processors]: Remove: archive file [/home/abi/fetcher/tmp/rats_processors-0.1.3.dev9-py3-none-any.whl.zip]
+[2024-04-26 15:33:56] INFO root fetch - main [MainThread]: End processing [rats-processors]: success
+[2024-04-26 15:33:56] INFO root fetch - processPackages [rats-pipelines]: Downloading https://files.pythonhosted.org/packages/b8/2d/79bd6c94d590e76f61506daaf64bbb07726287dd538e4b8a5d5a3fd64ad7/rats_pipelines-0.1.3.dev9-py3-none-any.whl
+[2024-04-26 15:33:56] INFO root fetch - processPackages [munud]: Remove: archive file [/home/abi/fetcher/tmp/munud-0.2.0.tar.gz]
+[2024-04-26 15:33:56] INFO root fetch - processPackages [munud]: Remove: archive file [/home/abi/fetcher/tmp/munud-0.2.1.tar.gz]
+[2024-04-26 15:33:56] INFO root fetch - main [MainThread]: End processing [munud]: success
+[2024-04-26 15:33:56] INFO root fetch - processPackages [framelib]: Remove: archive file [/home/abi/fetcher/tmp/framelib-0.0.4b2.tar.gz]
+[2024-04-26 15:33:56] INFO root fetch - processPackages [framelib]: Remove: archive file [/home/abi/fetcher/tmp/framelib-0.0.4b3.tar.gz]
+[2024-04-26 15:33:57] INFO root fetch - main [MainThread]: End processing [framelib]: success
+[2024-04-26 15:33:57] INFO root fetch - processPackages [RWTHColors]: Remove: archive file [/home/abi/fetcher/tmp/rwthcolors-0.2.5.tar.gz]
+[2024-04-26 15:33:57] INFO root fetch - processPackages [RWTHColors]: Remove: archive file [/home/abi/fetcher/tmp/rwthcolors-0.2.6.tar.gz]
+[2024-04-26 15:33:57] INFO root fetch - main [MainThread]: End processing [RWTHColors]: success
+[2024-04-26 15:33:57] INFO root fetch - processPackages [grayswan-api]: Remove: archive file [/home/abi/fetcher/tmp/grayswan_api-0.1.0a8.tar.gz]
+[2024-04-26 15:33:57] INFO root fetch - processPackages [grayswan-api]: Remove: archive file [/home/abi/fetcher/tmp/grayswan_api-0.1.0a9.tar.gz]
+[2024-04-26 15:33:57] INFO root fetch - main [MainThread]: End processing [grayswan-api]: success
+[2024-04-26 15:33:57] INFO root fetch - processPackages [rats-pipelines]: executing diffoscope
+[2024-04-26 15:33:57] INFO root fetch - processPackages [rats-pipelines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rats_pipelines-0.1.3.dev8-py3-none-any.whl.zip tmp/rats_pipelines-0.1.3.dev9-py3-none-any.whl.zip --markdown 20240426/r/rats-pipelines/0.1.3.dev8-0.1.3.dev9/README.md --exclude *.pyd
+[2024-04-26 15:33:57] INFO root fetch - processPackages [data-validation-framework]: Remove: archive file [/home/abi/fetcher/tmp/data-validation-framework-0.7.4.tar.gz]
+[2024-04-26 15:33:57] INFO root fetch - processPackages [data-validation-framework]: Remove: archive file [/home/abi/fetcher/tmp/data_validation_framework-0.8.0.tar.gz]
+[2024-04-26 15:33:57] INFO root fetch - main [MainThread]: End processing [data-validation-framework]: success
+[2024-04-26 15:33:57] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.17.0.post8.tar.gz]
+[2024-04-26 15:33:57] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.17.0.post9.tar.gz]
+[2024-04-26 15:33:57] INFO root fetch - main [MainThread]: End processing [hotsos]: success
+[2024-04-26 15:33:57] INFO root fetch - processPackages [encord]: Remove: archive file [/home/abi/fetcher/tmp/encord-0.1.98.tar.gz]
+[2024-04-26 15:33:57] INFO root fetch - processPackages [encord]: Remove: archive file [/home/abi/fetcher/tmp/encord-0.1.99.tar.gz]
+[2024-04-26 15:33:57] INFO root fetch - main [MainThread]: End processing [encord]: success
+[2024-04-26 15:33:57] INFO root fetch - processPackages [rats-pipelines]: Remove: archive file [/home/abi/fetcher/tmp/rats_pipelines-0.1.3.dev8-py3-none-any.whl.zip]
+[2024-04-26 15:33:57] INFO root fetch - processPackages [rats-pipelines]: Remove: archive file [/home/abi/fetcher/tmp/rats_pipelines-0.1.3.dev9-py3-none-any.whl.zip]
+[2024-04-26 15:33:57] INFO root fetch - main [MainThread]: End processing [rats-pipelines]: success
+[2024-04-26 15:33:57] INFO root fetch - main [MainThread]: Store serial: [22948111]
