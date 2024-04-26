@@ -13946,3 +13946,85 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 10:15:36] INFO root fetch - processPackages [omni-cv-rules]: Remove: archive file [/home/abi/fetcher/tmp/omni-cv-rules-0.1.9.tar.gz]
 [2024-04-26 10:15:36] INFO root fetch - main [MainThread]: End processing [omni-cv-rules]: success
 [2024-04-26 10:15:36] INFO root fetch - main [MainThread]: Store serial: [22944738]
+[2024-04-26 10:17:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22944738]
+[2024-04-26 10:17:45] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-26 10:17:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: threedigrid-builder
+[2024-04-26 10:17:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pms-onpremise-encoder
+[2024-04-26 10:17:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: skilleter-thingy
+[2024-04-26 10:17:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-silica
+[2024-04-26 10:17:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mozprofile
+[2024-04-26 10:17:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mozrunner
+[2024-04-26 10:17:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pms-onpremise-encoder
+[2024-04-26 10:17:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: julep
+[2024-04-26 10:17:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: offspot-config
+[2024-04-26 10:17:45] INFO root fetch - processPackages [django-silica]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-26 10:17:45] INFO root fetch - processPackages [pms-onpremise-encoder]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-26 10:17:45] INFO root fetch - processPackages [pms-onpremise-encoder]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-26 10:17:45] INFO root fetch - processPackages [julep]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-26 10:17:45] INFO root fetch - processPackages [offspot-config]: New version: [2.2.2] Old Version: [2.2.1]
+[2024-04-26 10:17:45] INFO root fetch - processPackages [django-silica]: Downloading https://files.pythonhosted.org/packages/d6/ab/3c5ac64c11abf902d6e8c8f9cd90cd37e8fa78c5b8e8c40ffc10662eb9db/django_silica-0.1.8.tar.gz
+[2024-04-26 10:17:45] INFO root fetch - processPackages [skilleter-thingy]: New version: [0.0.26] Old Version: [0.0.25]
+[2024-04-26 10:17:45] INFO root fetch - processPackages [pms-onpremise-encoder]: Downloading https://files.pythonhosted.org/packages/b8/6c/85fe194c4dd70acc61605149e3943c4203843cd63388bdecfd7bcc077768/pms-onpremise-encoder-0.0.7.tar.gz
+[2024-04-26 10:17:45] INFO root fetch - processPackages [mozprofile]: New version: [3.0.0] Old Version: [2.6.1]
+[2024-04-26 10:17:45] INFO root fetch - processPackages [pms-onpremise-encoder]: Downloading https://files.pythonhosted.org/packages/b8/6c/85fe194c4dd70acc61605149e3943c4203843cd63388bdecfd7bcc077768/pms-onpremise-encoder-0.0.7.tar.gz
+[2024-04-26 10:17:45] INFO root fetch - processPackages [threedigrid-builder]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-26 10:17:45] INFO root fetch - processPackages [mozrunner]: New version: [8.3.1] Old Version: [8.3.0]
+[2024-04-26 10:17:45] INFO root fetch - processPackages [julep]: Downloading https://files.pythonhosted.org/packages/4a/6f/29979d311395103e1092fc5917032031c7b76878ec5a0dbc2a6aa218e0bc/julep-0.2.8.tar.gz
+[2024-04-26 10:17:45] INFO root fetch - processPackages [offspot-config]: Downloading https://files.pythonhosted.org/packages/76/b2/8899c00f1469dc7193dae2ddd1d49d2d4b681e527ff479160679f2a7b690/offspot_config-2.2.1.tar.gz
+[2024-04-26 10:17:45] INFO root fetch - processPackages [mozprofile]: Downloading https://files.pythonhosted.org/packages/2f/5f/af92131d0ec5be20df99534c3fd81d677896467956fcc56edea3d7480132/mozprofile-2.6.1.tar.gz
+[2024-04-26 10:17:45] INFO root fetch - processPackages [skilleter-thingy]: Downloading https://files.pythonhosted.org/packages/59/b5/744422de40caced01c8b34babe900209ee92e6981ea44abb77b99c9c6795/skilleter_thingy-0.0.25.tar.gz
+[2024-04-26 10:17:45] INFO root fetch - processPackages [threedigrid-builder]: Downloading https://files.pythonhosted.org/packages/2c/e1/9e264cac9dd3136894d0343e718af980cb8a07cf16a29809269d6ad4546f/threedigrid-builder-1.8.0.tar.gz
+[2024-04-26 10:17:45] INFO root fetch - processPackages [django-silica]: Downloading https://files.pythonhosted.org/packages/08/c4/1173af4a0186f9477b5aead8929e288a1b385cf05e4f40b073895cfa1cab/django_silica-0.1.9.tar.gz
+[2024-04-26 10:17:46] INFO root fetch - processPackages [mozrunner]: Downloading https://files.pythonhosted.org/packages/b8/b4/09f538704dcfd85dcb0b62555485394bf1906fdc0916b93dc9141621fc10/mozrunner-8.3.0.tar.gz
+[2024-04-26 10:17:46] INFO root fetch - processPackages [julep]: Downloading https://files.pythonhosted.org/packages/ec/1f/ce9dd7c32e006afbf4cf7e7fe31a697a302e889ebc0d1b7a9c0b4ce00008/julep-0.2.9.tar.gz
+[2024-04-26 10:17:46] INFO root fetch - processPackages [pms-onpremise-encoder]: Downloading https://files.pythonhosted.org/packages/2a/82/72efdd5e2e30f3767a9a39388592cc0ed6187b2a3498c0ccdc8313078e7d/pms-onpremise-encoder-0.0.8.tar.gz
+[2024-04-26 10:17:46] INFO root fetch - processPackages [pms-onpremise-encoder]: Downloading https://files.pythonhosted.org/packages/2a/82/72efdd5e2e30f3767a9a39388592cc0ed6187b2a3498c0ccdc8313078e7d/pms-onpremise-encoder-0.0.8.tar.gz
+[2024-04-26 10:17:46] INFO root fetch - processPackages [django-silica]: executing diffoscope
+[2024-04-26 10:17:46] INFO root fetch - processPackages [django-silica]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_silica-0.1.8.tar.gz tmp/django_silica-0.1.9.tar.gz --markdown 20240426/d/django-silica/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-26 10:17:46] INFO root fetch - processPackages [julep]: executing diffoscope
+[2024-04-26 10:17:46] INFO root fetch - processPackages [julep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/julep-0.2.8.tar.gz tmp/julep-0.2.9.tar.gz --markdown 20240426/j/julep/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-26 10:17:46] INFO root fetch - processPackages [offspot-config]: Downloading https://files.pythonhosted.org/packages/53/36/9e1d7933aa6a3ce8eb4a9b3831f35945e0714152f5c70ecf0eb07aeea309/offspot_config-2.2.2.tar.gz
+[2024-04-26 10:17:46] INFO root fetch - processPackages [pms-onpremise-encoder]: executing diffoscope
+[2024-04-26 10:17:46] INFO root fetch - processPackages [pms-onpremise-encoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pms-onpremise-encoder-0.0.7.tar.gz tmp/pms-onpremise-encoder-0.0.8.tar.gz --markdown 20240426/p/pms-onpremise-encoder/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-26 10:17:46] INFO root fetch - processPackages [mozprofile]: Downloading https://files.pythonhosted.org/packages/00/eb/9de383c0ccfa3ac7ca21fe5d8fd861579c83c119d72ae1fe2d25e787c5b3/mozprofile-3.0.0.tar.gz
+[2024-04-26 10:17:46] INFO root fetch - processPackages [pms-onpremise-encoder]: executing diffoscope
+[2024-04-26 10:17:46] INFO root fetch - processPackages [pms-onpremise-encoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pms-onpremise-encoder-0.0.7.tar.gz tmp/pms-onpremise-encoder-0.0.8.tar.gz --markdown 20240426/p/pms-onpremise-encoder/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-26 10:17:46] INFO root fetch - processPackages [offspot-config]: executing diffoscope
+[2024-04-26 10:17:46] INFO root fetch - processPackages [offspot-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/offspot_config-2.2.1.tar.gz tmp/offspot_config-2.2.2.tar.gz --markdown 20240426/o/offspot-config/2.2.1-2.2.2/README.md --exclude *.pyd
+[2024-04-26 10:17:46] INFO root fetch - processPackages [skilleter-thingy]: Downloading https://files.pythonhosted.org/packages/5e/96/509fb1496020151f7b3403a37a47c16c4fc13f80ee60cfa3e8401ad5818c/skilleter_thingy-0.0.26.tar.gz
+[2024-04-26 10:17:46] INFO root fetch - processPackages [mozrunner]: Downloading https://files.pythonhosted.org/packages/25/d8/ca51dbc412c836dafae2d9173f595aaf6d2739c8fd508dbf6e9341b60968/mozrunner-8.3.1.tar.gz
+[2024-04-26 10:17:46] INFO root fetch - processPackages [threedigrid-builder]: Downloading https://files.pythonhosted.org/packages/6b/de/d4fa81887befd3d08d5cf0d124803d3d142dbde109c6825cae8b8eb896e7/threedigrid-builder-1.9.0.tar.gz
+[2024-04-26 10:17:46] INFO root fetch - processPackages [mozprofile]: executing diffoscope
+[2024-04-26 10:17:46] INFO root fetch - processPackages [mozprofile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mozprofile-2.6.1.tar.gz tmp/mozprofile-3.0.0.tar.gz --markdown 20240426/m/mozprofile/2.6.1-3.0.0/README.md --exclude *.pyd
+[2024-04-26 10:17:46] INFO root fetch - processPackages [threedigrid-builder]: executing diffoscope
+[2024-04-26 10:17:46] INFO root fetch - processPackages [threedigrid-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threedigrid-builder-1.8.0.tar.gz tmp/threedigrid-builder-1.9.0.tar.gz --markdown 20240426/t/threedigrid-builder/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-04-26 10:17:46] INFO root fetch - processPackages [skilleter-thingy]: executing diffoscope
+[2024-04-26 10:17:46] INFO root fetch - processPackages [skilleter-thingy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skilleter_thingy-0.0.25.tar.gz tmp/skilleter_thingy-0.0.26.tar.gz --markdown 20240426/s/skilleter-thingy/0.0.25-0.0.26/README.md --exclude *.pyd
+[2024-04-26 10:17:46] INFO root fetch - processPackages [mozrunner]: executing diffoscope
+[2024-04-26 10:17:46] INFO root fetch - processPackages [mozrunner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mozrunner-8.3.0.tar.gz tmp/mozrunner-8.3.1.tar.gz --markdown 20240426/m/mozrunner/8.3.0-8.3.1/README.md --exclude *.pyd
+[2024-04-26 10:17:47] INFO root fetch - processPackages [pms-onpremise-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms-onpremise-encoder-0.0.7.tar.gz]
+[2024-04-26 10:17:47] INFO root fetch - processPackages [pms-onpremise-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms-onpremise-encoder-0.0.8.tar.gz]
+[2024-04-26 10:17:47] INFO root fetch - main [MainThread]: End processing [pms-onpremise-encoder]: success
+[2024-04-26 10:17:47] INFO root fetch - processPackages [django-silica]: Remove: archive file [/home/abi/fetcher/tmp/django_silica-0.1.8.tar.gz]
+[2024-04-26 10:17:47] INFO root fetch - processPackages [django-silica]: Remove: archive file [/home/abi/fetcher/tmp/django_silica-0.1.9.tar.gz]
+[2024-04-26 10:17:47] INFO root fetch - main [MainThread]: End processing [django-silica]: success
+[2024-04-26 10:17:47] INFO root fetch - main [MainThread]: End processing [pms-onpremise-encoder]: success
+[2024-04-26 10:17:47] INFO root fetch - processPackages [offspot-config]: Remove: archive file [/home/abi/fetcher/tmp/offspot_config-2.2.1.tar.gz]
+[2024-04-26 10:17:47] INFO root fetch - processPackages [offspot-config]: Remove: archive file [/home/abi/fetcher/tmp/offspot_config-2.2.2.tar.gz]
+[2024-04-26 10:17:47] INFO root fetch - main [MainThread]: End processing [offspot-config]: success
+[2024-04-26 10:17:47] INFO root fetch - processPackages [julep]: Remove: archive file [/home/abi/fetcher/tmp/julep-0.2.8.tar.gz]
+[2024-04-26 10:17:47] INFO root fetch - processPackages [julep]: Remove: archive file [/home/abi/fetcher/tmp/julep-0.2.9.tar.gz]
+[2024-04-26 10:17:47] INFO root fetch - main [MainThread]: End processing [julep]: success
+[2024-04-26 10:17:47] INFO root fetch - processPackages [mozprofile]: Remove: archive file [/home/abi/fetcher/tmp/mozprofile-2.6.1.tar.gz]
+[2024-04-26 10:17:47] INFO root fetch - processPackages [mozprofile]: Remove: archive file [/home/abi/fetcher/tmp/mozprofile-3.0.0.tar.gz]
+[2024-04-26 10:17:47] INFO root fetch - main [MainThread]: End processing [mozprofile]: success
+[2024-04-26 10:17:47] INFO root fetch - processPackages [mozrunner]: Remove: archive file [/home/abi/fetcher/tmp/mozrunner-8.3.0.tar.gz]
+[2024-04-26 10:17:47] INFO root fetch - processPackages [mozrunner]: Remove: archive file [/home/abi/fetcher/tmp/mozrunner-8.3.1.tar.gz]
+[2024-04-26 10:17:47] INFO root fetch - main [MainThread]: End processing [mozrunner]: success
+[2024-04-26 10:17:47] INFO root fetch - processPackages [skilleter-thingy]: Remove: archive file [/home/abi/fetcher/tmp/skilleter_thingy-0.0.25.tar.gz]
+[2024-04-26 10:17:47] INFO root fetch - processPackages [skilleter-thingy]: Remove: archive file [/home/abi/fetcher/tmp/skilleter_thingy-0.0.26.tar.gz]
+[2024-04-26 10:17:47] INFO root fetch - main [MainThread]: End processing [skilleter-thingy]: success
+[2024-04-26 10:17:47] INFO root fetch - processPackages [threedigrid-builder]: Remove: archive file [/home/abi/fetcher/tmp/threedigrid-builder-1.8.0.tar.gz]
+[2024-04-26 10:17:47] INFO root fetch - processPackages [threedigrid-builder]: Remove: archive file [/home/abi/fetcher/tmp/threedigrid-builder-1.9.0.tar.gz]
+[2024-04-26 10:17:47] INFO root fetch - main [MainThread]: End processing [threedigrid-builder]: success
+[2024-04-26 10:17:47] INFO root fetch - main [MainThread]: Store serial: [22944778]
