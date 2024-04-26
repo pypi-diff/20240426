@@ -17692,3 +17692,89 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 12:36:33] INFO root fetch - processPackages [flowty]: Remove: archive file [/home/abi/fetcher/tmp/flowty-2.0a8-cp39-cp39-manylinux_2_35_aarch64.whl.zip]
 [2024-04-26 12:36:33] INFO root fetch - main [MainThread]: End processing [flowty]: success
 [2024-04-26 12:36:33] INFO root fetch - main [MainThread]: Store serial: [22946361]
+[2024-04-26 12:38:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22946361]
+[2024-04-26 12:38:43] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-26 12:38:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: clovers_setu_collection
+[2024-04-26 12:38:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: snakemake-storage-plugin-gcs
+[2024-04-26 12:38:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: uipath-orchestrator-rest
+[2024-04-26 12:38:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: classy-config
+[2024-04-26 12:38:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: api-nichotined
+[2024-04-26 12:38:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mongodb-orm
+[2024-04-26 12:38:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: megaradrp
+[2024-04-26 12:38:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: unitsnet-py
+[2024-04-26 12:38:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: guanin
+[2024-04-26 12:38:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fractal-repositories
+[2024-04-26 12:38:43] INFO root fetch - processPackages [mongodb-orm]: New version: [0.0.119] Old Version: [0.0.118]
+[2024-04-26 12:38:43] INFO root fetch - processPackages [unitsnet-py]: New version: [0.1.97] Old Version: [0.1.96]
+[2024-04-26 12:38:43] INFO root fetch - processPackages [snakemake-storage-plugin-gcs]: New version: [1.0.0] Old Version: [0.1.4]
+[2024-04-26 12:38:43] INFO root fetch - processPackages [megaradrp]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-04-26 12:38:43] INFO root fetch - processPackages [classy-config]: New version: [0.6.0] Old Version: [0.5.1]
+[2024-04-26 12:38:43] INFO root fetch - processPackages [guanin]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-04-26 12:38:43] INFO root fetch - processPackages [fractal-repositories]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-26 12:38:43] WARNING root fetch - processPackages [clovers_setu_collection]: Skipping, unable to determine old version
+[2024-04-26 12:38:43] INFO root fetch - processPackages [api-nichotined]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-26 12:38:43] INFO root fetch - processPackages [clovers_setu_collection]: Start processing: valmi-connector-lib
+[2024-04-26 12:38:43] WARNING root fetch - processPackages [uipath-orchestrator-rest]: Skipping, unable to determine old version
+[2024-04-26 12:38:43] INFO root fetch - main [MainThread]: End processing [clovers_setu_collection] error
+[2024-04-26 12:38:43] INFO root fetch - main [MainThread]: End processing [uipath-orchestrator-rest] error
+[2024-04-26 12:38:43] INFO root fetch - processPackages [mongodb-orm]: Downloading https://files.pythonhosted.org/packages/53/3f/8c8e6d13645c4c111f3f6098526405ad0edff4260486cec98391fb56565e/mongodb_orm-0.0.118.tar.gz
+[2024-04-26 12:38:43] INFO root fetch - processPackages [unitsnet-py]: Downloading https://files.pythonhosted.org/packages/43/5a/d9d5f3f6e80292c3e974908208dde680948d681a7754570dfca7805c817e/unitsnet-py-0.1.96.tar.gz
+[2024-04-26 12:38:44] INFO root fetch - processPackages [snakemake-storage-plugin-gcs]: Downloading https://files.pythonhosted.org/packages/2d/b4/fd5d0c1f498742b4ce3572498b6cadc8b745ff13c75e0416c215c6bc9a30/snakemake_storage_plugin_gcs-0.1.4.tar.gz
+[2024-04-26 12:38:44] INFO root fetch - processPackages [valmi-connector-lib]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-26 12:38:44] INFO root fetch - processPackages [megaradrp]: Downloading https://files.pythonhosted.org/packages/96/d8/2d8de76e043ec0573c50803c29c179aa329682dfa3b3b7ccece7a63e37c8/megaradrp-0.9.2.tar.gz
+[2024-04-26 12:38:44] INFO root fetch - processPackages [api-nichotined]: Downloading https://files.pythonhosted.org/packages/20/ba/d277dfa04aacb7cf57a26e5d88d922a1343db6a4d66dd93025e29212170a/api-nichotined-0.1.1.tar.gz
+[2024-04-26 12:38:44] INFO root fetch - processPackages [fractal-repositories]: Downloading https://files.pythonhosted.org/packages/93/da/30fd8fb11869503f43866017571301b8ed3039d115f4bb40406bc025c5c3/fractal_repositories-0.0.8.tar.gz
+[2024-04-26 12:38:44] INFO root fetch - processPackages [classy-config]: Downloading https://files.pythonhosted.org/packages/43/7a/0bc3b7694e3ca0b050d6ed82b4825616bd6254c7b7c0bebfe061f7c3e608/classy_config-0.5.1.tar.gz
+[2024-04-26 12:38:44] INFO root fetch - processPackages [guanin]: Downloading https://files.pythonhosted.org/packages/8f/22/c23c698185c311d4e17279dd16955338b5976af332711dd7832f6587c473/guanin-1.2.8.tar.gz
+[2024-04-26 12:38:44] INFO root fetch - processPackages [mongodb-orm]: Downloading https://files.pythonhosted.org/packages/ca/38/a78711fbdac161ee9c2757f458f55b935166fc0709b20f2de25a6a25c473/mongodb_orm-0.0.119.tar.gz
+[2024-04-26 12:38:44] INFO root fetch - processPackages [valmi-connector-lib]: Downloading https://files.pythonhosted.org/packages/68/54/062a20f75076aa53427ddf933f64d2177adabaa9c1f4507ee0d9d30b8b03/valmi_connector_lib-0.1.98.tar.gz
+[2024-04-26 12:38:44] WARNING root fetch - processPackages [guanin]: Skipping package: exceeds size limit 10883122>=10485760
+[2024-04-26 12:38:44] INFO root fetch - main [MainThread]: End processing [guanin] error
+[2024-04-26 12:38:44] INFO root fetch - processPackages [unitsnet-py]: Downloading https://files.pythonhosted.org/packages/1e/14/2c0bd44dea15d56ebd0fe52fc708b71ca148e6a7f074b061853f746fa8f7/unitsnet-py-0.1.97.tar.gz
+[2024-04-26 12:38:44] INFO root fetch - processPackages [snakemake-storage-plugin-gcs]: Downloading https://files.pythonhosted.org/packages/5e/95/d4704615ffe9dd779314bbe868133d991f596ef916a1831e2f726e8ea7bc/snakemake_storage_plugin_gcs-1.0.0.tar.gz
+[2024-04-26 12:38:44] INFO root fetch - processPackages [mongodb-orm]: executing diffoscope
+[2024-04-26 12:38:44] INFO root fetch - processPackages [mongodb-orm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mongodb_orm-0.0.118.tar.gz tmp/mongodb_orm-0.0.119.tar.gz --markdown 20240426/m/mongodb-orm/0.0.118-0.0.119/README.md --exclude *.pyd
+[2024-04-26 12:38:44] INFO root fetch - processPackages [classy-config]: Downloading https://files.pythonhosted.org/packages/08/a5/093d11bacf1c35ff2affb5548061ff6b4ee9aef01a4ae4178ff4ea09f1bb/classy_config-0.6.0.tar.gz
+[2024-04-26 12:38:44] INFO root fetch - processPackages [unitsnet-py]: executing diffoscope
+[2024-04-26 12:38:44] INFO root fetch - processPackages [unitsnet-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unitsnet-py-0.1.96.tar.gz tmp/unitsnet-py-0.1.97.tar.gz --markdown 20240426/u/unitsnet-py/0.1.96-0.1.97/README.md --exclude *.pyd
+[2024-04-26 12:38:44] INFO root fetch - processPackages [snakemake-storage-plugin-gcs]: executing diffoscope
+[2024-04-26 12:38:44] INFO root fetch - processPackages [snakemake-storage-plugin-gcs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snakemake_storage_plugin_gcs-0.1.4.tar.gz tmp/snakemake_storage_plugin_gcs-1.0.0.tar.gz --markdown 20240426/s/snakemake-storage-plugin-gcs/0.1.4-1.0.0/README.md --exclude *.pyd
+[2024-04-26 12:38:44] INFO root fetch - processPackages [api-nichotined]: Downloading https://files.pythonhosted.org/packages/db/31/e83137558e9bd0450c778ee32f12946b8656e299b4b562b93fce7fcd5146/api-nichotined-0.1.2.tar.gz
+[2024-04-26 12:38:44] INFO root fetch - processPackages [fractal-repositories]: Downloading https://files.pythonhosted.org/packages/f5/93/ca5771c6f24faeb6875a14129c7e9500256acac56fe0ca5ec7d8031891e6/fractal_repositories-0.0.9.tar.gz
+[2024-04-26 12:38:44] INFO root fetch - processPackages [valmi-connector-lib]: Downloading https://files.pythonhosted.org/packages/2f/47/8fb8bac8016bd8f46ec3d29fa7fc0e2cdc40845d8dce82ba52e668672ab8/valmi_connector_lib-0.1.99.tar.gz
+[2024-04-26 12:38:44] INFO root fetch - processPackages [classy-config]: executing diffoscope
+[2024-04-26 12:38:44] INFO root fetch - processPackages [api-nichotined]: executing diffoscope
+[2024-04-26 12:38:44] INFO root fetch - processPackages [api-nichotined]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/api-nichotined-0.1.1.tar.gz tmp/api-nichotined-0.1.2.tar.gz --markdown 20240426/a/api-nichotined/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-26 12:38:44] INFO root fetch - processPackages [classy-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/classy_config-0.5.1.tar.gz tmp/classy_config-0.6.0.tar.gz --markdown 20240426/c/classy-config/0.5.1-0.6.0/README.md --exclude *.pyd
+[2024-04-26 12:38:44] INFO root fetch - processPackages [valmi-connector-lib]: executing diffoscope
+[2024-04-26 12:38:44] INFO root fetch - processPackages [valmi-connector-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/valmi_connector_lib-0.1.98.tar.gz tmp/valmi_connector_lib-0.1.99.tar.gz --markdown 20240426/v/valmi-connector-lib/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-04-26 12:38:44] INFO root fetch - processPackages [megaradrp]: Downloading https://files.pythonhosted.org/packages/da/ca/bb8027c7a91c2bf1196ab31026ac0e4422a5056afc0cc197568c9164d1cd/megaradrp-0.9.3.tar.gz
+[2024-04-26 12:38:44] INFO root fetch - processPackages [fractal-repositories]: executing diffoscope
+[2024-04-26 12:38:44] INFO root fetch - processPackages [fractal-repositories]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fractal_repositories-0.0.8.tar.gz tmp/fractal_repositories-0.0.9.tar.gz --markdown 20240426/f/fractal-repositories/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-26 12:38:45] INFO root fetch - processPackages [megaradrp]: executing diffoscope
+[2024-04-26 12:38:45] INFO root fetch - processPackages [megaradrp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/megaradrp-0.9.2.tar.gz tmp/megaradrp-0.9.3.tar.gz --markdown 20240426/m/megaradrp/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-04-26 12:38:45] INFO root fetch - processPackages [mongodb-orm]: Remove: archive file [/home/abi/fetcher/tmp/mongodb_orm-0.0.118.tar.gz]
+[2024-04-26 12:38:45] INFO root fetch - processPackages [mongodb-orm]: Remove: archive file [/home/abi/fetcher/tmp/mongodb_orm-0.0.119.tar.gz]
+[2024-04-26 12:38:45] INFO root fetch - main [MainThread]: End processing [mongodb-orm]: success
+[2024-04-26 12:38:45] INFO root fetch - processPackages [snakemake-storage-plugin-gcs]: Remove: archive file [/home/abi/fetcher/tmp/snakemake_storage_plugin_gcs-0.1.4.tar.gz]
+[2024-04-26 12:38:45] INFO root fetch - processPackages [snakemake-storage-plugin-gcs]: Remove: archive file [/home/abi/fetcher/tmp/snakemake_storage_plugin_gcs-1.0.0.tar.gz]
+[2024-04-26 12:38:45] INFO root fetch - main [MainThread]: End processing [snakemake-storage-plugin-gcs]: success
+[2024-04-26 12:38:45] INFO root fetch - processPackages [classy-config]: Remove: archive file [/home/abi/fetcher/tmp/classy_config-0.5.1.tar.gz]
+[2024-04-26 12:38:45] INFO root fetch - processPackages [classy-config]: Remove: archive file [/home/abi/fetcher/tmp/classy_config-0.6.0.tar.gz]
+[2024-04-26 12:38:45] INFO root fetch - main [MainThread]: End processing [classy-config]: success
+[2024-04-26 12:38:45] INFO root fetch - processPackages [api-nichotined]: Remove: archive file [/home/abi/fetcher/tmp/api-nichotined-0.1.1.tar.gz]
+[2024-04-26 12:38:45] INFO root fetch - processPackages [api-nichotined]: Remove: archive file [/home/abi/fetcher/tmp/api-nichotined-0.1.2.tar.gz]
+[2024-04-26 12:38:45] INFO root fetch - main [MainThread]: End processing [api-nichotined]: success
+[2024-04-26 12:38:45] INFO root fetch - processPackages [valmi-connector-lib]: Remove: archive file [/home/abi/fetcher/tmp/valmi_connector_lib-0.1.98.tar.gz]
+[2024-04-26 12:38:45] INFO root fetch - processPackages [valmi-connector-lib]: Remove: archive file [/home/abi/fetcher/tmp/valmi_connector_lib-0.1.99.tar.gz]
+[2024-04-26 12:38:45] INFO root fetch - main [MainThread]: End processing [valmi-connector-lib]: success
+[2024-04-26 12:38:45] INFO root fetch - processPackages [unitsnet-py]: Remove: archive file [/home/abi/fetcher/tmp/unitsnet-py-0.1.96.tar.gz]
+[2024-04-26 12:38:45] INFO root fetch - processPackages [unitsnet-py]: Remove: archive file [/home/abi/fetcher/tmp/unitsnet-py-0.1.97.tar.gz]
+[2024-04-26 12:38:45] INFO root fetch - main [MainThread]: End processing [unitsnet-py]: success
+[2024-04-26 12:38:45] INFO root fetch - processPackages [fractal-repositories]: Remove: archive file [/home/abi/fetcher/tmp/fractal_repositories-0.0.8.tar.gz]
+[2024-04-26 12:38:45] INFO root fetch - processPackages [fractal-repositories]: Remove: archive file [/home/abi/fetcher/tmp/fractal_repositories-0.0.9.tar.gz]
+[2024-04-26 12:38:45] INFO root fetch - main [MainThread]: End processing [fractal-repositories]: success
+[2024-04-26 12:38:46] INFO root fetch - processPackages [megaradrp]: Remove: archive file [/home/abi/fetcher/tmp/megaradrp-0.9.2.tar.gz]
+[2024-04-26 12:38:46] INFO root fetch - processPackages [megaradrp]: Remove: archive file [/home/abi/fetcher/tmp/megaradrp-0.9.3.tar.gz]
+[2024-04-26 12:38:46] INFO root fetch - main [MainThread]: End processing [megaradrp]: success
+[2024-04-26 12:38:46] INFO root fetch - main [MainThread]: Store serial: [22946406]
