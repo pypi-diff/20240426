@@ -13075,3 +13075,47 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 09:36:23] WARNING root fetch - processPackages [cmdline-utils]: Skipping, unable to determine old version
 [2024-04-26 09:36:23] INFO root fetch - main [MainThread]: End processing [cmdline-utils] error
 [2024-04-26 09:36:23] INFO root fetch - main [MainThread]: Store serial: [22944400]
+[2024-04-26 09:38:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22944400]
+[2024-04-26 09:38:32] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-26 09:38:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hagworm
+[2024-04-26 09:38:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lalsuite
+[2024-04-26 09:38:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cloud-governance
+[2024-04-26 09:38:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scalar-fastapi
+[2024-04-26 09:38:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: buildarr
+[2024-04-26 09:38:32] INFO root fetch - processPackages [scalar-fastapi]: New version: [1.0.1] Old Version: [1.0]
+[2024-04-26 09:38:32] INFO root fetch - processPackages [hagworm]: New version: [5.9.9] Old Version: [5.9.8]
+[2024-04-26 09:38:32] INFO root fetch - processPackages [cloud-governance]: New version: [1.1.99] Old Version: [1.1.98]
+[2024-04-26 09:38:32] INFO root fetch - processPackages [buildarr]: New version: [0.8.0b1] Old Version: [0.7.1]
+[2024-04-26 09:38:32] INFO root fetch - processPackages [lalsuite]: New version: [7.9] Old Version: [7.8]
+[2024-04-26 09:38:32] INFO root fetch - processPackages [scalar-fastapi]: Downloading https://files.pythonhosted.org/packages/85/c1/760e35374c7d7c47ed3dee1e1f25fccb83df36d3acd5d9ac10fc0fd304f4/scalar_fastapi-1.0.tar.gz
+[2024-04-26 09:38:32] INFO root fetch - processPackages [hagworm]: Downloading https://files.pythonhosted.org/packages/e0/1c/5dac91f7c38d49ccecfdc58d536db8299a6047d9ff58930a0d6013757ea4/hagworm-5.9.8.tar.gz
+[2024-04-26 09:38:32] INFO root fetch - processPackages [cloud-governance]: Downloading https://files.pythonhosted.org/packages/af/f8/db9bacb41ff13a7d3ae59369ae36809c3202232c910b932a09e42257b676/cloud-governance-1.1.98.tar.gz
+[2024-04-26 09:38:32] INFO root fetch - processPackages [buildarr]: Downloading https://files.pythonhosted.org/packages/37/aa/c87c73a3b31f751f1598d385fd8be88de487d24f2a12a664343c425011c4/buildarr-0.7.1.tar.gz
+[2024-04-26 09:38:32] INFO root fetch - processPackages [lalsuite]: Downloading https://files.pythonhosted.org/packages/53/92/fc43211ca56b7c5532fc1b47c701a564c7ddcaf866c62ae45acbfdc34f23/lalsuite-7.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-26 09:38:32] WARNING root fetch - processPackages [lalsuite]: Skipping package: exceeds size limit 48394251>=10485760
+[2024-04-26 09:38:32] INFO root fetch - main [MainThread]: End processing [lalsuite] error
+[2024-04-26 09:38:32] INFO root fetch - processPackages [scalar-fastapi]: Downloading https://files.pythonhosted.org/packages/a3/84/0a70d2d9b125ae61217f87719447b39cb57e7d787fb74ce0dc7e74790fdf/scalar_fastapi-1.0.1.tar.gz
+[2024-04-26 09:38:32] INFO root fetch - processPackages [scalar-fastapi]: executing diffoscope
+[2024-04-26 09:38:32] INFO root fetch - processPackages [scalar-fastapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scalar_fastapi-1.0.tar.gz tmp/scalar_fastapi-1.0.1.tar.gz --markdown 20240426/s/scalar-fastapi/1.0-1.0.1/README.md --exclude *.pyd
+[2024-04-26 09:38:32] INFO root fetch - processPackages [buildarr]: Downloading https://files.pythonhosted.org/packages/2a/5b/e87d49189808b7c33f7c3595cee0568b1156a771001743e713e8bff1ef49/buildarr-0.8.0b1.tar.gz
+[2024-04-26 09:38:33] INFO root fetch - processPackages [cloud-governance]: Downloading https://files.pythonhosted.org/packages/ec/3e/06dc6e6844d3033717858064a494efaaf4cdae01a0c58d2b2a38273075e2/cloud-governance-1.1.99.tar.gz
+[2024-04-26 09:38:33] INFO root fetch - processPackages [hagworm]: Downloading https://files.pythonhosted.org/packages/2f/0d/16fd32d0754a2e5208aede68d6b772bc36ed5dcefe41035760e37a84fbbc/hagworm-5.9.9.tar.gz
+[2024-04-26 09:38:33] INFO root fetch - processPackages [cloud-governance]: executing diffoscope
+[2024-04-26 09:38:33] INFO root fetch - processPackages [cloud-governance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud-governance-1.1.98.tar.gz tmp/cloud-governance-1.1.99.tar.gz --markdown 20240426/c/cloud-governance/1.1.98-1.1.99/README.md --exclude *.pyd
+[2024-04-26 09:38:33] INFO root fetch - processPackages [buildarr]: executing diffoscope
+[2024-04-26 09:38:33] INFO root fetch - processPackages [buildarr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buildarr-0.7.1.tar.gz tmp/buildarr-0.8.0b1.tar.gz --markdown 20240426/b/buildarr/0.7.1-0.8.0b1/README.md --exclude *.pyd
+[2024-04-26 09:38:33] INFO root fetch - processPackages [scalar-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/scalar_fastapi-1.0.tar.gz]
+[2024-04-26 09:38:33] INFO root fetch - processPackages [scalar-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/scalar_fastapi-1.0.1.tar.gz]
+[2024-04-26 09:38:33] INFO root fetch - main [MainThread]: End processing [scalar-fastapi]: success
+[2024-04-26 09:38:33] INFO root fetch - processPackages [hagworm]: executing diffoscope
+[2024-04-26 09:38:33] INFO root fetch - processPackages [hagworm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hagworm-5.9.8.tar.gz tmp/hagworm-5.9.9.tar.gz --markdown 20240426/h/hagworm/5.9.8-5.9.9/README.md --exclude *.pyd
+[2024-04-26 09:38:34] INFO root fetch - processPackages [cloud-governance]: Remove: archive file [/home/abi/fetcher/tmp/cloud-governance-1.1.98.tar.gz]
+[2024-04-26 09:38:34] INFO root fetch - processPackages [cloud-governance]: Remove: archive file [/home/abi/fetcher/tmp/cloud-governance-1.1.99.tar.gz]
+[2024-04-26 09:38:34] INFO root fetch - main [MainThread]: End processing [cloud-governance]: success
+[2024-04-26 09:38:34] INFO root fetch - processPackages [buildarr]: Remove: archive file [/home/abi/fetcher/tmp/buildarr-0.7.1.tar.gz]
+[2024-04-26 09:38:34] INFO root fetch - processPackages [buildarr]: Remove: archive file [/home/abi/fetcher/tmp/buildarr-0.8.0b1.tar.gz]
+[2024-04-26 09:38:34] INFO root fetch - main [MainThread]: End processing [buildarr]: success
+[2024-04-26 09:38:34] INFO root fetch - processPackages [hagworm]: Remove: archive file [/home/abi/fetcher/tmp/hagworm-5.9.8.tar.gz]
+[2024-04-26 09:38:34] INFO root fetch - processPackages [hagworm]: Remove: archive file [/home/abi/fetcher/tmp/hagworm-5.9.9.tar.gz]
+[2024-04-26 09:38:34] INFO root fetch - main [MainThread]: End processing [hagworm]: success
+[2024-04-26 09:38:34] INFO root fetch - main [MainThread]: Store serial: [22944424]
