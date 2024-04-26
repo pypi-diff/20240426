@@ -7026,3 +7026,33 @@
 [2024-04-26 03:45:26] WARNING root fetch - processPackages [pyrnnoise]: Skipping, unable to determine old version
 [2024-04-26 03:45:26] INFO root fetch - main [MainThread]: End processing [pyrnnoise] error
 [2024-04-26 03:45:26] INFO root fetch - main [MainThread]: Store serial: [22941726]
+[2024-04-26 03:47:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22941726]
+[2024-04-26 03:47:34] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-26 03:47:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lesscode-utils
+[2024-04-26 03:47:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: draggable-charts
+[2024-04-26 03:47:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: opticallyshallowdeep
+[2024-04-26 03:47:35] INFO root fetch - processPackages [lesscode-utils]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-26 03:47:35] INFO root fetch - processPackages [lesscode-utils]: Downloading https://files.pythonhosted.org/packages/f6/0c/2674b4b125ed692da753914dfb77b1585abef09ecc652e664392f26b82d6/lesscode_utils-0.0.8.tar.gz
+[2024-04-26 03:47:35] INFO root fetch - processPackages [draggable-charts]: New version: [1.1.0] Old Version: [1.0.1]
+[2024-04-26 03:47:35] INFO root fetch - processPackages [opticallyshallowdeep]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-04-26 03:47:35] INFO root fetch - processPackages [lesscode-utils]: Downloading https://files.pythonhosted.org/packages/bc/9a/1d07f1121fb39c72396bc71511135f407e314dc626a3fb88ff75f1827718/lesscode_utils-0.0.9.tar.gz
+[2024-04-26 03:47:35] INFO root fetch - processPackages [draggable-charts]: Downloading https://files.pythonhosted.org/packages/2c/c0/2d844ee4fc44936c64c0533df6f9be985dd5207324aa8fbcc0db348fa944/draggable-charts-1.0.1.tar.gz
+[2024-04-26 03:47:35] INFO root fetch - processPackages [opticallyshallowdeep]: Downloading https://files.pythonhosted.org/packages/68/9e/23b9282aa3c0dbd055ad594e911f0b6cfacb747fd8b8cc12c700dad6fc40/opticallyshallowdeep-1.2.0.tar.gz
+[2024-04-26 03:47:35] INFO root fetch - processPackages [lesscode-utils]: executing diffoscope
+[2024-04-26 03:47:35] INFO root fetch - processPackages [lesscode-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lesscode_utils-0.0.8.tar.gz tmp/lesscode_utils-0.0.9.tar.gz --markdown 20240426/l/lesscode-utils/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-26 03:47:35] INFO root fetch - processPackages [draggable-charts]: Downloading https://files.pythonhosted.org/packages/2a/b1/846e19909ab07a23661b2c5faaf4ade6c3b7fe5a66a5ce6876f83696cc3c/draggable-charts-1.1.0.tar.gz
+[2024-04-26 03:47:35] INFO root fetch - processPackages [opticallyshallowdeep]: Downloading https://files.pythonhosted.org/packages/82/f7/6e94e1a8630a80c0d25551ed404d684d69ac858608e25be2cafc782e004a/opticallyshallowdeep-1.2.1.tar.gz
+[2024-04-26 03:47:35] INFO root fetch - processPackages [draggable-charts]: executing diffoscope
+[2024-04-26 03:47:35] INFO root fetch - processPackages [draggable-charts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/draggable-charts-1.0.1.tar.gz tmp/draggable-charts-1.1.0.tar.gz --markdown 20240426/d/draggable-charts/1.0.1-1.1.0/README.md --exclude *.pyd
+[2024-04-26 03:47:35] INFO root fetch - processPackages [lesscode-utils]: Remove: archive file [/home/abi/fetcher/tmp/lesscode_utils-0.0.8.tar.gz]
+[2024-04-26 03:47:35] INFO root fetch - processPackages [lesscode-utils]: Remove: archive file [/home/abi/fetcher/tmp/lesscode_utils-0.0.9.tar.gz]
+[2024-04-26 03:47:35] INFO root fetch - main [MainThread]: End processing [lesscode-utils]: success
+[2024-04-26 03:47:36] INFO root fetch - processPackages [opticallyshallowdeep]: executing diffoscope
+[2024-04-26 03:47:36] INFO root fetch - processPackages [opticallyshallowdeep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opticallyshallowdeep-1.2.0.tar.gz tmp/opticallyshallowdeep-1.2.1.tar.gz --markdown 20240426/o/opticallyshallowdeep/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-04-26 03:47:37] INFO root fetch - processPackages [opticallyshallowdeep]: Remove: archive file [/home/abi/fetcher/tmp/opticallyshallowdeep-1.2.0.tar.gz]
+[2024-04-26 03:47:37] INFO root fetch - processPackages [opticallyshallowdeep]: Remove: archive file [/home/abi/fetcher/tmp/opticallyshallowdeep-1.2.1.tar.gz]
+[2024-04-26 03:47:37] INFO root fetch - main [MainThread]: End processing [opticallyshallowdeep]: success
+[2024-04-26 03:48:15] INFO root fetch - processPackages [draggable-charts]: Remove: archive file [/home/abi/fetcher/tmp/draggable-charts-1.0.1.tar.gz]
+[2024-04-26 03:48:15] INFO root fetch - processPackages [draggable-charts]: Remove: archive file [/home/abi/fetcher/tmp/draggable-charts-1.1.0.tar.gz]
+[2024-04-26 03:48:15] INFO root fetch - main [MainThread]: End processing [draggable-charts]: success
+[2024-04-26 03:48:15] INFO root fetch - main [MainThread]: Store serial: [22941734]
