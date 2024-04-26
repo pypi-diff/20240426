@@ -16772,3 +16772,42 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 11:54:04] INFO root fetch - processPackages [cnlitellm]: Remove: archive file [/home/abi/fetcher/tmp/cnlitellm-0.2.2.tar.gz]
 [2024-04-26 11:54:04] INFO root fetch - main [MainThread]: End processing [cnlitellm]: success
 [2024-04-26 11:54:04] INFO root fetch - main [MainThread]: Store serial: [22946010]
+[2024-04-26 11:56:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22946010]
+[2024-04-26 11:56:12] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-26 11:56:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scikit-mol
+[2024-04-26 11:56:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: langchain-elasticsearch
+[2024-04-26 11:56:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pytctracer
+[2024-04-26 11:56:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: varvamp
+[2024-04-26 11:56:12] INFO root fetch - processPackages [pytctracer]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-26 11:56:13] INFO root fetch - processPackages [pytctracer]: Downloading https://files.pythonhosted.org/packages/82/da/964c4040405538aee9f9e80afbcd0d07fd40470ba908358f807e0e429d8d/pytctracer-0.2.2.tar.gz
+[2024-04-26 11:56:13] INFO root fetch - processPackages [langchain-elasticsearch]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-26 11:56:13] INFO root fetch - processPackages [scikit-mol]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-26 11:56:13] INFO root fetch - processPackages [varvamp]: New version: [1.1.3] Old Version: [1.1.2]
+[2024-04-26 11:56:13] INFO root fetch - processPackages [scikit-mol]: Downloading https://files.pythonhosted.org/packages/30/5e/87eb5bcf163ef9b0db0b4d760c6a85344191aee4a91da06aebd0c66ec83c/scikit_mol-0.3.0.tar.gz
+[2024-04-26 11:56:13] INFO root fetch - processPackages [varvamp]: Downloading https://files.pythonhosted.org/packages/9d/e1/e1a685228b73f1cc254c66051e866a80d93b02638556135639d057a58388/varvamp-1.1.2.tar.gz
+[2024-04-26 11:56:13] INFO root fetch - processPackages [langchain-elasticsearch]: Downloading https://files.pythonhosted.org/packages/8b/98/fb30bfbc401b3b92b17e636ee14010bf9e05d058cad28320b9ac9ad9468e/langchain_elasticsearch-0.1.2.tar.gz
+[2024-04-26 11:56:13] INFO root fetch - processPackages [pytctracer]: Downloading https://files.pythonhosted.org/packages/92/b2/7d728ae1f7c3579a25f4bcdbb7e0e0f169f1726486f171366d6f7806380f/pytctracer-0.2.3.tar.gz
+[2024-04-26 11:56:13] INFO root fetch - processPackages [pytctracer]: executing diffoscope
+[2024-04-26 11:56:13] INFO root fetch - processPackages [pytctracer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytctracer-0.2.2.tar.gz tmp/pytctracer-0.2.3.tar.gz --markdown 20240426/p/pytctracer/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-04-26 11:56:13] INFO root fetch - processPackages [langchain-elasticsearch]: Downloading https://files.pythonhosted.org/packages/6c/39/968f72ae9485cdd52918d7143676e252888af59406ccc79974b93b5b3b3f/langchain_elasticsearch-0.1.3.tar.gz
+[2024-04-26 11:56:13] INFO root fetch - processPackages [varvamp]: Downloading https://files.pythonhosted.org/packages/9e/37/8818d05b3fb578ac6b590beddac638479a01d04c69bd62c5af646c44ead2/varvamp-1.1.3.tar.gz
+[2024-04-26 11:56:13] INFO root fetch - processPackages [langchain-elasticsearch]: executing diffoscope
+[2024-04-26 11:56:13] INFO root fetch - processPackages [langchain-elasticsearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_elasticsearch-0.1.2.tar.gz tmp/langchain_elasticsearch-0.1.3.tar.gz --markdown 20240426/l/langchain-elasticsearch/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-26 11:56:13] INFO root fetch - processPackages [varvamp]: executing diffoscope
+[2024-04-26 11:56:13] INFO root fetch - processPackages [varvamp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/varvamp-1.1.2.tar.gz tmp/varvamp-1.1.3.tar.gz --markdown 20240426/v/varvamp/1.1.2-1.1.3/README.md --exclude *.pyd
+[2024-04-26 11:56:14] INFO root fetch - processPackages [pytctracer]: Remove: archive file [/home/abi/fetcher/tmp/pytctracer-0.2.2.tar.gz]
+[2024-04-26 11:56:14] INFO root fetch - processPackages [pytctracer]: Remove: archive file [/home/abi/fetcher/tmp/pytctracer-0.2.3.tar.gz]
+[2024-04-26 11:56:14] INFO root fetch - main [MainThread]: End processing [pytctracer]: success
+[2024-04-26 11:56:14] INFO root fetch - processPackages [scikit-mol]: Downloading https://files.pythonhosted.org/packages/16/92/2dbef27aa988d4da8ac5d1837679e2da986e43c110f90b87bbe154cff3d6/scikit_mol-0.3.1.tar.gz
+[2024-04-26 11:56:14] INFO root fetch - processPackages [langchain-elasticsearch]: Remove: archive file [/home/abi/fetcher/tmp/langchain_elasticsearch-0.1.2.tar.gz]
+[2024-04-26 11:56:14] INFO root fetch - processPackages [langchain-elasticsearch]: Remove: archive file [/home/abi/fetcher/tmp/langchain_elasticsearch-0.1.3.tar.gz]
+[2024-04-26 11:56:14] INFO root fetch - main [MainThread]: End processing [langchain-elasticsearch]: success
+[2024-04-26 11:56:14] INFO root fetch - processPackages [varvamp]: Remove: archive file [/home/abi/fetcher/tmp/varvamp-1.1.2.tar.gz]
+[2024-04-26 11:56:14] INFO root fetch - processPackages [varvamp]: Remove: archive file [/home/abi/fetcher/tmp/varvamp-1.1.3.tar.gz]
+[2024-04-26 11:56:14] INFO root fetch - main [MainThread]: End processing [varvamp]: success
+[2024-04-26 11:56:14] INFO root fetch - processPackages [scikit-mol]: executing diffoscope
+[2024-04-26 11:56:14] INFO root fetch - processPackages [scikit-mol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scikit_mol-0.3.0.tar.gz tmp/scikit_mol-0.3.1.tar.gz --markdown 20240426/s/scikit-mol/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-04-26 11:56:15] INFO root fetch - processPackages [scikit-mol]: Remove: archive file [/home/abi/fetcher/tmp/scikit_mol-0.3.0.tar.gz]
+[2024-04-26 11:56:15] INFO root fetch - processPackages [scikit-mol]: Remove: archive file [/home/abi/fetcher/tmp/scikit_mol-0.3.1.tar.gz]
+[2024-04-26 11:56:15] INFO root fetch - main [MainThread]: End processing [scikit-mol]: success
+[2024-04-26 11:56:15] INFO root fetch - main [MainThread]: Store serial: [22946023]
