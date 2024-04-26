@@ -13341,3 +13341,81 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 09:53:59] INFO root fetch - processPackages [usbmuxctl]: Remove: archive file [/home/abi/fetcher/tmp/usbmuxctl-0.1.4.tar.gz]
 [2024-04-26 09:53:59] INFO root fetch - main [MainThread]: End processing [usbmuxctl]: success
 [2024-04-26 09:53:59] INFO root fetch - main [MainThread]: Store serial: [22944514]
+[2024-04-26 09:56:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22944514]
+[2024-04-26 09:56:08] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-26 09:56:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: uGot-Broadcast-message
+[2024-04-26 09:56:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kleene-cli
+[2024-04-26 09:56:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: field-compression-benchmark
+[2024-04-26 09:56:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bleuscore
+[2024-04-26 09:56:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-prose-editor
+[2024-04-26 09:56:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nonebot-adapter-satori
+[2024-04-26 09:56:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-supplier-calendar
+[2024-04-26 09:56:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dockipy
+[2024-04-26 09:56:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: PyQtUIkit
+[2024-04-26 09:56:08] WARNING root fetch - processPackages [kleene-cli]: Skipping, unable to determine old version
+[2024-04-26 09:56:08] INFO root fetch - main [MainThread]: End processing [kleene-cli] error
+[2024-04-26 09:56:08] INFO root fetch - processPackages [dockipy]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-26 09:56:08] INFO root fetch - processPackages [PyQtUIkit]: New version: [2.8.1] Old Version: [2.7.4]
+[2024-04-26 09:56:08] INFO root fetch - processPackages [nonebot-adapter-satori]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-04-26 09:56:08] INFO root fetch - processPackages [field-compression-benchmark]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-26 09:56:09] INFO root fetch - processPackages [uGot-Broadcast-message]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-26 09:56:09] INFO root fetch - processPackages [django-prose-editor]: New version: [0.3.4] Old Version: [0.3.3]
+[2024-04-26 09:56:09] INFO root fetch - processPackages [odoo-addon-supplier-calendar]: New version: [16.0.1.0.1] Old Version: [16.0.1.0.0.6]
+[2024-04-26 09:56:09] INFO root fetch - processPackages [bleuscore]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-26 09:56:09] INFO root fetch - processPackages [PyQtUIkit]: Downloading https://files.pythonhosted.org/packages/b3/5a/c9df6833d21cab200765991f7601df7adc8f085ea0ac24cbf9249d54e851/PyQtUIkit-2.7.4.tar.gz
+[2024-04-26 09:56:09] INFO root fetch - processPackages [dockipy]: Downloading https://files.pythonhosted.org/packages/53/78/5a8313f4b73f6dd85bc028e698161305fc679614fd0f5f8db2b83056a016/dockipy-0.0.8.tar.gz
+[2024-04-26 09:56:09] INFO root fetch - processPackages [nonebot-adapter-satori]: Downloading https://files.pythonhosted.org/packages/38/9e/332ff095f0a58b1f2f01a556c59f3eb43d514cbd5de0e528f6566e765f8d/nonebot_adapter_satori-0.9.2.tar.gz
+[2024-04-26 09:56:09] INFO root fetch - processPackages [field-compression-benchmark]: Downloading https://files.pythonhosted.org/packages/fc/87/463c9e16be7bb601c22eb4a24b64f3ed206822ef227310aee8345b0f4dd8/field-compression-benchmark-0.0.2.tar.gz
+[2024-04-26 09:56:09] INFO root fetch - processPackages [bleuscore]: Downloading https://files.pythonhosted.org/packages/61/8c/b455fefac23822143a29b64773fc3a45de69873c46f1f52f68752755f46e/bleuscore-0.1.0.tar.gz
+[2024-04-26 09:56:09] INFO root fetch - processPackages [django-prose-editor]: Downloading https://files.pythonhosted.org/packages/85/71/f41f7a9d6ef9614765ef36d62295cd2da789bf8be762db662ec71a58d07f/django_prose_editor-0.3.3.tar.gz
+[2024-04-26 09:56:09] INFO root fetch - processPackages [uGot-Broadcast-message]: Downloading https://files.pythonhosted.org/packages/c0/3e/cf7d538687394e0a41438fcbef7f9fd8def35c84d317b16ebf20db77e080/ugot_broadcast_message-0.0.1.tar.gz
+[2024-04-26 09:56:09] INFO root fetch - processPackages [dockipy]: Downloading https://files.pythonhosted.org/packages/20/dd/5a84aa032c0ed0c2e1fcecc40431ec7787625dad7b044cbc47cc0f04f1eb/dockipy-0.0.9.tar.gz
+[2024-04-26 09:56:09] INFO root fetch - processPackages [odoo-addon-supplier-calendar]: Downloading https://files.pythonhosted.org/packages/da/6d/e927b8cd8f3b88b644ae0cc972f1252ad70402d748fa709cad0ce15c37da/odoo_addon_supplier_calendar-16.0.1.0.0.6-py3-none-any.whl
+[2024-04-26 09:56:09] INFO root fetch - processPackages [nonebot-adapter-satori]: Downloading https://files.pythonhosted.org/packages/b4/63/45cf90e98509d6081103ac32e520e3fd73306f9f2d7ead8be5ece0680e16/nonebot_adapter_satori-0.9.3.tar.gz
+[2024-04-26 09:56:09] INFO root fetch - processPackages [dockipy]: executing diffoscope
+[2024-04-26 09:56:09] INFO root fetch - processPackages [dockipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dockipy-0.0.8.tar.gz tmp/dockipy-0.0.9.tar.gz --markdown 20240426/d/dockipy/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-26 09:56:09] INFO root fetch - processPackages [nonebot-adapter-satori]: executing diffoscope
+[2024-04-26 09:56:09] INFO root fetch - processPackages [nonebot-adapter-satori]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_adapter_satori-0.9.2.tar.gz tmp/nonebot_adapter_satori-0.9.3.tar.gz --markdown 20240426/n/nonebot-adapter-satori/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-04-26 09:56:09] INFO root fetch - processPackages [PyQtUIkit]: Downloading https://files.pythonhosted.org/packages/13/13/f5c452c6c6d7c08e0e07e42d98393302398da33d4e1feb1c30c3320b515f/PyQtUIkit-2.8.1.tar.gz
+[2024-04-26 09:56:09] INFO root fetch - processPackages [django-prose-editor]: Downloading https://files.pythonhosted.org/packages/b9/d2/3ede077cdcd5d0e5ff3fc3b9ed32ebe3d63696f4697b158268c9ad32d54c/django_prose_editor-0.3.4.tar.gz
+[2024-04-26 09:56:09] INFO root fetch - processPackages [field-compression-benchmark]: Downloading https://files.pythonhosted.org/packages/94/d7/f1f87a2c8b8698c35077927c7ddaef713ee95645767d46e3d0cf695b278c/field-compression-benchmark-0.0.3.tar.gz
+[2024-04-26 09:56:09] INFO root fetch - processPackages [bleuscore]: Downloading https://files.pythonhosted.org/packages/a0/7c/2fee15d42ce80013b881a1db1a5327a8c96231e83586fde9281f8517b2da/bleuscore-0.1.1.tar.gz
+[2024-04-26 09:56:09] INFO root fetch - processPackages [uGot-Broadcast-message]: Downloading https://files.pythonhosted.org/packages/f1/47/2bb2374f67ab6e4e9aef071ca3336902c998aa4df2eb2b38fcf593bc15c2/ugot_broadcast_message-0.0.2.tar.gz
+[2024-04-26 09:56:09] INFO root fetch - processPackages [odoo-addon-supplier-calendar]: Downloading https://files.pythonhosted.org/packages/50/53/5a4ccd1769f1a3984f6b70bf901d9207f06281a0ff4bf969b4468993fceb/odoo_addon_supplier_calendar-16.0.1.0.1-py3-none-any.whl
+[2024-04-26 09:56:09] INFO root fetch - processPackages [django-prose-editor]: executing diffoscope
+[2024-04-26 09:56:09] INFO root fetch - processPackages [django-prose-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_prose_editor-0.3.3.tar.gz tmp/django_prose_editor-0.3.4.tar.gz --markdown 20240426/d/django-prose-editor/0.3.3-0.3.4/README.md --exclude *.pyd
+[2024-04-26 09:56:09] INFO root fetch - processPackages [field-compression-benchmark]: executing diffoscope
+[2024-04-26 09:56:09] INFO root fetch - processPackages [field-compression-benchmark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/field-compression-benchmark-0.0.2.tar.gz tmp/field-compression-benchmark-0.0.3.tar.gz --markdown 20240426/f/field-compression-benchmark/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-26 09:56:09] INFO root fetch - processPackages [uGot-Broadcast-message]: executing diffoscope
+[2024-04-26 09:56:09] INFO root fetch - processPackages [uGot-Broadcast-message]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ugot_broadcast_message-0.0.1.tar.gz tmp/ugot_broadcast_message-0.0.2.tar.gz --markdown 20240426/u/uGot-Broadcast-message/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-26 09:56:09] INFO root fetch - processPackages [bleuscore]: executing diffoscope
+[2024-04-26 09:56:09] INFO root fetch - processPackages [bleuscore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bleuscore-0.1.0.tar.gz tmp/bleuscore-0.1.1.tar.gz --markdown 20240426/b/bleuscore/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-26 09:56:09] INFO root fetch - processPackages [odoo-addon-supplier-calendar]: executing diffoscope
+[2024-04-26 09:56:09] INFO root fetch - processPackages [odoo-addon-supplier-calendar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_supplier_calendar-16.0.1.0.0.6-py3-none-any.whl.zip tmp/odoo_addon_supplier_calendar-16.0.1.0.1-py3-none-any.whl.zip --markdown 20240426/o/odoo-addon-supplier-calendar/16.0.1.0.0.6-16.0.1.0.1/README.md --exclude *.pyd
+[2024-04-26 09:56:09] INFO root fetch - processPackages [PyQtUIkit]: executing diffoscope
+[2024-04-26 09:56:09] INFO root fetch - processPackages [PyQtUIkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyQtUIkit-2.7.4.tar.gz tmp/PyQtUIkit-2.8.1.tar.gz --markdown 20240426/P/PyQtUIkit/2.7.4-2.8.1/README.md --exclude *.pyd
+[2024-04-26 09:56:10] INFO root fetch - processPackages [dockipy]: Remove: archive file [/home/abi/fetcher/tmp/dockipy-0.0.8.tar.gz]
+[2024-04-26 09:56:10] INFO root fetch - processPackages [dockipy]: Remove: archive file [/home/abi/fetcher/tmp/dockipy-0.0.9.tar.gz]
+[2024-04-26 09:56:10] INFO root fetch - main [MainThread]: End processing [dockipy]: success
+[2024-04-26 09:56:10] INFO root fetch - processPackages [nonebot-adapter-satori]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_adapter_satori-0.9.2.tar.gz]
+[2024-04-26 09:56:10] INFO root fetch - processPackages [nonebot-adapter-satori]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_adapter_satori-0.9.3.tar.gz]
+[2024-04-26 09:56:10] INFO root fetch - main [MainThread]: End processing [nonebot-adapter-satori]: success
+[2024-04-26 09:56:10] INFO root fetch - processPackages [odoo-addon-supplier-calendar]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_supplier_calendar-16.0.1.0.0.6-py3-none-any.whl.zip]
+[2024-04-26 09:56:10] INFO root fetch - processPackages [odoo-addon-supplier-calendar]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_supplier_calendar-16.0.1.0.1-py3-none-any.whl.zip]
+[2024-04-26 09:56:10] INFO root fetch - main [MainThread]: End processing [odoo-addon-supplier-calendar]: success
+[2024-04-26 09:56:10] INFO root fetch - processPackages [uGot-Broadcast-message]: Remove: archive file [/home/abi/fetcher/tmp/ugot_broadcast_message-0.0.1.tar.gz]
+[2024-04-26 09:56:10] INFO root fetch - processPackages [uGot-Broadcast-message]: Remove: archive file [/home/abi/fetcher/tmp/ugot_broadcast_message-0.0.2.tar.gz]
+[2024-04-26 09:56:10] INFO root fetch - main [MainThread]: End processing [uGot-Broadcast-message]: success
+[2024-04-26 09:56:10] INFO root fetch - processPackages [bleuscore]: Remove: archive file [/home/abi/fetcher/tmp/bleuscore-0.1.0.tar.gz]
+[2024-04-26 09:56:10] INFO root fetch - processPackages [bleuscore]: Remove: archive file [/home/abi/fetcher/tmp/bleuscore-0.1.1.tar.gz]
+[2024-04-26 09:56:10] INFO root fetch - main [MainThread]: End processing [bleuscore]: success
+[2024-04-26 09:56:11] INFO root fetch - processPackages [PyQtUIkit]: Remove: archive file [/home/abi/fetcher/tmp/PyQtUIkit-2.7.4.tar.gz]
+[2024-04-26 09:56:11] INFO root fetch - processPackages [PyQtUIkit]: Remove: archive file [/home/abi/fetcher/tmp/PyQtUIkit-2.8.1.tar.gz]
+[2024-04-26 09:56:11] INFO root fetch - main [MainThread]: End processing [PyQtUIkit]: success
+[2024-04-26 09:56:11] INFO root fetch - processPackages [field-compression-benchmark]: Remove: archive file [/home/abi/fetcher/tmp/field-compression-benchmark-0.0.2.tar.gz]
+[2024-04-26 09:56:11] INFO root fetch - processPackages [field-compression-benchmark]: Remove: archive file [/home/abi/fetcher/tmp/field-compression-benchmark-0.0.3.tar.gz]
+[2024-04-26 09:56:11] INFO root fetch - main [MainThread]: End processing [field-compression-benchmark]: success
+[2024-04-26 09:56:12] INFO root fetch - processPackages [django-prose-editor]: Remove: archive file [/home/abi/fetcher/tmp/django_prose_editor-0.3.3.tar.gz]
+[2024-04-26 09:56:12] INFO root fetch - processPackages [django-prose-editor]: Remove: archive file [/home/abi/fetcher/tmp/django_prose_editor-0.3.4.tar.gz]
+[2024-04-26 09:56:12] INFO root fetch - main [MainThread]: End processing [django-prose-editor]: success
+[2024-04-26 09:56:12] INFO root fetch - main [MainThread]: Store serial: [22944545]
