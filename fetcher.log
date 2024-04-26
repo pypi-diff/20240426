@@ -18188,3 +18188,45 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 12:58:36] INFO root fetch - processPackages [psrecord]: Remove: archive file [/home/abi/fetcher/tmp/psrecord-1.3.dev0.tar.gz]
 [2024-04-26 12:58:36] INFO root fetch - main [MainThread]: End processing [psrecord]: success
 [2024-04-26 12:58:36] INFO root fetch - main [MainThread]: Store serial: [22946581]
+[2024-04-26 13:00:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22946581]
+[2024-04-26 13:00:45] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-26 13:00:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: audformat
+[2024-04-26 13:00:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sttpg-qats
+[2024-04-26 13:00:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: buildarr-radarr
+[2024-04-26 13:00:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: coinanalyse
+[2024-04-26 13:00:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: benchmarl
+[2024-04-26 13:00:45] WARNING root fetch - processPackages [sttpg-qats]: Skipping, unable to determine old version
+[2024-04-26 13:00:45] INFO root fetch - processPackages [coinanalyse]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-26 13:00:45] INFO root fetch - main [MainThread]: End processing [sttpg-qats] error
+[2024-04-26 13:00:45] INFO root fetch - processPackages [buildarr-radarr]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-04-26 13:00:45] INFO root fetch - processPackages [benchmarl]: New version: [1.2.0] Old Version: [1.1.1]
+[2024-04-26 13:00:45] INFO root fetch - processPackages [audformat]: New version: [1.1.3] Old Version: [1.1.2]
+[2024-04-26 13:00:45] INFO root fetch - processPackages [coinanalyse]: Downloading https://files.pythonhosted.org/packages/59/75/7c0958249be5bcf01c7c5ff5c4be803e66abfcd8b70b493a56d382c4ffdd/coinanalyse-1.0.1.tar.gz
+[2024-04-26 13:00:46] INFO root fetch - processPackages [buildarr-radarr]: Downloading https://files.pythonhosted.org/packages/ab/d4/bbed5da26eb68fa2145dc35199e59b6c169a7c7c467b98d1047f6c475fe4/buildarr_radarr-0.2.5.tar.gz
+[2024-04-26 13:00:46] INFO root fetch - processPackages [benchmarl]: Downloading https://files.pythonhosted.org/packages/63/fc/1f7fbf53d02caa3a7a2f9f6b23ad401291178904814943bcbeeac3a7a820/benchmarl-1.1.1.tar.gz
+[2024-04-26 13:00:46] INFO root fetch - processPackages [audformat]: Downloading https://files.pythonhosted.org/packages/0a/6c/deb50d275979867c9a7f39ef9faa87a7202c8b6241b8592d0b872a38cbd8/audformat-1.1.2.tar.gz
+[2024-04-26 13:00:46] INFO root fetch - processPackages [coinanalyse]: Downloading https://files.pythonhosted.org/packages/fd/a0/6802e12341d177ab852c69a6ceab856c750767dd374aa408adc0f0759f32/coinanalyse-1.0.2.tar.gz
+[2024-04-26 13:00:46] INFO root fetch - processPackages [coinanalyse]: executing diffoscope
+[2024-04-26 13:00:46] INFO root fetch - processPackages [coinanalyse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coinanalyse-1.0.1.tar.gz tmp/coinanalyse-1.0.2.tar.gz --markdown 20240426/c/coinanalyse/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-26 13:00:46] INFO root fetch - processPackages [audformat]: Downloading https://files.pythonhosted.org/packages/c7/8a/278d48097be5c63db1c00247b55bd8842d642bd979ac81575be5b0acf846/audformat-1.1.3.tar.gz
+[2024-04-26 13:00:46] INFO root fetch - processPackages [benchmarl]: Downloading https://files.pythonhosted.org/packages/9c/a1/ffe1650147b3a58187f750fa5602509867599ce6235071cf5de16805823b/benchmarl-1.2.0.tar.gz
+[2024-04-26 13:00:46] INFO root fetch - processPackages [buildarr-radarr]: Downloading https://files.pythonhosted.org/packages/dd/26/8594689ee7fe1ef1baa6578ff88c1ca8659094c2fcdaa796101044236909/buildarr_radarr-0.2.6.tar.gz
+[2024-04-26 13:00:46] INFO root fetch - processPackages [audformat]: executing diffoscope
+[2024-04-26 13:00:46] INFO root fetch - processPackages [audformat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audformat-1.1.2.tar.gz tmp/audformat-1.1.3.tar.gz --markdown 20240426/a/audformat/1.1.2-1.1.3/README.md --exclude *.pyd
+[2024-04-26 13:00:46] INFO root fetch - processPackages [benchmarl]: executing diffoscope
+[2024-04-26 13:00:46] INFO root fetch - processPackages [benchmarl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/benchmarl-1.1.1.tar.gz tmp/benchmarl-1.2.0.tar.gz --markdown 20240426/b/benchmarl/1.1.1-1.2.0/README.md --exclude *.pyd
+[2024-04-26 13:00:46] INFO root fetch - processPackages [buildarr-radarr]: executing diffoscope
+[2024-04-26 13:00:46] INFO root fetch - processPackages [buildarr-radarr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buildarr_radarr-0.2.5.tar.gz tmp/buildarr_radarr-0.2.6.tar.gz --markdown 20240426/b/buildarr-radarr/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-04-26 13:00:46] INFO root fetch - processPackages [coinanalyse]: Remove: archive file [/home/abi/fetcher/tmp/coinanalyse-1.0.1.tar.gz]
+[2024-04-26 13:00:46] INFO root fetch - processPackages [coinanalyse]: Remove: archive file [/home/abi/fetcher/tmp/coinanalyse-1.0.2.tar.gz]
+[2024-04-26 13:00:46] INFO root fetch - main [MainThread]: End processing [coinanalyse]: success
+[2024-04-26 13:00:47] INFO root fetch - processPackages [audformat]: Remove: archive file [/home/abi/fetcher/tmp/audformat-1.1.2.tar.gz]
+[2024-04-26 13:00:47] INFO root fetch - processPackages [audformat]: Remove: archive file [/home/abi/fetcher/tmp/audformat-1.1.3.tar.gz]
+[2024-04-26 13:00:47] INFO root fetch - main [MainThread]: End processing [audformat]: success
+[2024-04-26 13:00:47] INFO root fetch - processPackages [benchmarl]: Remove: archive file [/home/abi/fetcher/tmp/benchmarl-1.1.1.tar.gz]
+[2024-04-26 13:00:47] INFO root fetch - processPackages [benchmarl]: Remove: archive file [/home/abi/fetcher/tmp/benchmarl-1.2.0.tar.gz]
+[2024-04-26 13:00:47] INFO root fetch - main [MainThread]: End processing [benchmarl]: success
+[2024-04-26 13:00:47] INFO root fetch - processPackages [buildarr-radarr]: Remove: archive file [/home/abi/fetcher/tmp/buildarr_radarr-0.2.5.tar.gz]
+[2024-04-26 13:00:47] INFO root fetch - processPackages [buildarr-radarr]: Remove: archive file [/home/abi/fetcher/tmp/buildarr_radarr-0.2.6.tar.gz]
+[2024-04-26 13:00:47] INFO root fetch - main [MainThread]: End processing [buildarr-radarr]: success
+[2024-04-26 13:00:47] INFO root fetch - main [MainThread]: Store serial: [22946595]
