@@ -7116,3 +7116,15 @@
 [2024-04-26 03:50:26] INFO root fetch - processPackages [pytctracer]: Remove: archive file [/home/abi/fetcher/tmp/pytctracer-0.2.1.tar.gz]
 [2024-04-26 03:50:26] INFO root fetch - main [MainThread]: End processing [pytctracer]: success
 [2024-04-26 03:50:26] INFO root fetch - main [MainThread]: Store serial: [22941756]
+[2024-04-26 03:52:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22941756]
+[2024-04-26 03:52:34] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-26 03:52:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: svtter-template-creator
+[2024-04-26 03:52:34] INFO root fetch - processPackages [svtter-template-creator]: New version: [0.6.0] Old Version: [0.5.0]
+[2024-04-26 03:52:34] INFO root fetch - processPackages [svtter-template-creator]: Downloading https://files.pythonhosted.org/packages/4f/af/e10ab26f6dae8e326f84caf44d47b78f10f9b30e9e7de035cbb566eb83c6/svtter_template_creator-0.5.0.tar.gz
+[2024-04-26 03:52:35] INFO root fetch - processPackages [svtter-template-creator]: Downloading https://files.pythonhosted.org/packages/38/0c/e4e4e4aff3be3d49ead7f0e72ea7b2194a2cc69267bc1fc59c55dcfcaafb/svtter_template_creator-0.6.0.tar.gz
+[2024-04-26 03:52:35] INFO root fetch - processPackages [svtter-template-creator]: executing diffoscope
+[2024-04-26 03:52:35] INFO root fetch - processPackages [svtter-template-creator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/svtter_template_creator-0.5.0.tar.gz tmp/svtter_template_creator-0.6.0.tar.gz --markdown 20240426/s/svtter-template-creator/0.5.0-0.6.0/README.md --exclude *.pyd
+[2024-04-26 03:52:35] INFO root fetch - processPackages [svtter-template-creator]: Remove: archive file [/home/abi/fetcher/tmp/svtter_template_creator-0.5.0.tar.gz]
+[2024-04-26 03:52:35] INFO root fetch - processPackages [svtter-template-creator]: Remove: archive file [/home/abi/fetcher/tmp/svtter_template_creator-0.6.0.tar.gz]
+[2024-04-26 03:52:35] INFO root fetch - main [MainThread]: End processing [svtter-template-creator]: success
+[2024-04-26 03:52:35] INFO root fetch - main [MainThread]: Store serial: [22941759]
