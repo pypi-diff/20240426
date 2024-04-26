@@ -11758,3 +11758,38 @@
 [2024-04-26 08:53:38] INFO root fetch - processPackages [spark-ai-python]: Remove: archive file [/home/abi/fetcher/tmp/spark_ai_python-0.3.9.tar.gz]
 [2024-04-26 08:53:38] INFO root fetch - main [MainThread]: End processing [spark-ai-python]: success
 [2024-04-26 08:53:38] INFO root fetch - main [MainThread]: Store serial: [22943667]
+[2024-04-26 08:55:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22943667]
+[2024-04-26 08:55:48] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-26 08:55:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pms-onpremise-encoder
+[2024-04-26 08:55:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: queue-api
+[2024-04-26 08:55:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gingerai
+[2024-04-26 08:55:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pdf-tools-sdk
+[2024-04-26 08:55:48] INFO root fetch - processPackages [gingerai]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-26 08:55:48] INFO root fetch - processPackages [gingerai]: Downloading https://files.pythonhosted.org/packages/93/63/5f4a6d2549870026eff659d1fc9aac0f6c9532ea741f07ac2083cd3a1cfe/gingerai-0.1.8.tar.gz
+[2024-04-26 08:55:48] INFO root fetch - processPackages [queue-api]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-26 08:55:48] INFO root fetch - processPackages [pms-onpremise-encoder]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-26 08:55:48] INFO root fetch - processPackages [pdf-tools-sdk]: New version: [1.5.0.dev4] Old Version: [1.5.0.dev3]
+[2024-04-26 08:55:49] INFO root fetch - processPackages [queue-api]: Downloading https://files.pythonhosted.org/packages/b3/16/00abf846c9a71f362319b2ad7cd44e3ef58a2a02ef3301d98b4227e185c0/queue_api-0.1.4.tar.gz
+[2024-04-26 08:55:49] INFO root fetch - processPackages [pms-onpremise-encoder]: Downloading https://files.pythonhosted.org/packages/fd/4f/fd39d71b81a12b6acbab48b0f0fcad8eb24a6c3cf07f5b23afaa0cac0b1e/pms-onpremise-encoder-0.0.3.tar.gz
+[2024-04-26 08:55:49] INFO root fetch - processPackages [gingerai]: Downloading https://files.pythonhosted.org/packages/33/65/a59be7a360a71da6fb875287e72120e252018dc037eef33b15ac50759b89/gingerai-0.1.9.tar.gz
+[2024-04-26 08:55:49] INFO root fetch - processPackages [pdf-tools-sdk]: Downloading https://files.pythonhosted.org/packages/24/97/685223c266a2853c733fd82cda022816e8f90e79d31658d97ce9baeda2ce/pdf_tools_sdk-1.5.0.dev3.tar.gz
+[2024-04-26 08:55:49] WARNING root fetch - processPackages [pdf-tools-sdk]: Skipping package: exceeds size limit 47660051>=10485760
+[2024-04-26 08:55:49] INFO root fetch - main [MainThread]: End processing [pdf-tools-sdk] error
+[2024-04-26 08:55:49] INFO root fetch - processPackages [gingerai]: executing diffoscope
+[2024-04-26 08:55:49] INFO root fetch - processPackages [gingerai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gingerai-0.1.8.tar.gz tmp/gingerai-0.1.9.tar.gz --markdown 20240426/g/gingerai/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-26 08:55:49] INFO root fetch - processPackages [queue-api]: Downloading https://files.pythonhosted.org/packages/7c/ab/c3228bde7a0dc33c38daeb27351045047095fe349792fd3ce28bc1cddee3/queue_api-0.1.5.tar.gz
+[2024-04-26 08:55:49] INFO root fetch - processPackages [pms-onpremise-encoder]: Downloading https://files.pythonhosted.org/packages/34/5e/ad15aeb7868a7e9a67ed2571bd8014090dc67f1a56a320dc1ae6c59c6c2d/pms-onpremise-encoder-0.0.4.tar.gz
+[2024-04-26 08:55:49] INFO root fetch - processPackages [queue-api]: executing diffoscope
+[2024-04-26 08:55:49] INFO root fetch - processPackages [queue-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/queue_api-0.1.4.tar.gz tmp/queue_api-0.1.5.tar.gz --markdown 20240426/q/queue-api/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-26 08:55:49] INFO root fetch - processPackages [pms-onpremise-encoder]: executing diffoscope
+[2024-04-26 08:55:49] INFO root fetch - processPackages [pms-onpremise-encoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pms-onpremise-encoder-0.0.3.tar.gz tmp/pms-onpremise-encoder-0.0.4.tar.gz --markdown 20240426/p/pms-onpremise-encoder/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-26 08:55:49] INFO root fetch - processPackages [gingerai]: Remove: archive file [/home/abi/fetcher/tmp/gingerai-0.1.8.tar.gz]
+[2024-04-26 08:55:49] INFO root fetch - processPackages [gingerai]: Remove: archive file [/home/abi/fetcher/tmp/gingerai-0.1.9.tar.gz]
+[2024-04-26 08:55:49] INFO root fetch - main [MainThread]: End processing [gingerai]: success
+[2024-04-26 08:55:50] INFO root fetch - processPackages [queue-api]: Remove: archive file [/home/abi/fetcher/tmp/queue_api-0.1.4.tar.gz]
+[2024-04-26 08:55:50] INFO root fetch - processPackages [queue-api]: Remove: archive file [/home/abi/fetcher/tmp/queue_api-0.1.5.tar.gz]
+[2024-04-26 08:55:50] INFO root fetch - main [MainThread]: End processing [queue-api]: success
+[2024-04-26 08:55:50] INFO root fetch - processPackages [pms-onpremise-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms-onpremise-encoder-0.0.3.tar.gz]
+[2024-04-26 08:55:50] INFO root fetch - processPackages [pms-onpremise-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms-onpremise-encoder-0.0.4.tar.gz]
+[2024-04-26 08:55:50] INFO root fetch - main [MainThread]: End processing [pms-onpremise-encoder]: success
+[2024-04-26 08:55:50] INFO root fetch - main [MainThread]: Store serial: [22943678]
