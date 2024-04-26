@@ -7598,3 +7598,24 @@
 [2024-04-26 04:40:35] INFO root fetch - processPackages [nonebot-adapter-feishu]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_adapter_feishu-2.6.0.tar.gz]
 [2024-04-26 04:40:35] INFO root fetch - main [MainThread]: End processing [nonebot-adapter-feishu]: success
 [2024-04-26 04:40:35] INFO root fetch - main [MainThread]: Store serial: [22941995]
+[2024-04-26 04:42:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22941995]
+[2024-04-26 04:42:44] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-26 04:42:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: armis
+[2024-04-26 04:42:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alibabacloud-dingtalk
+[2024-04-26 04:42:44] INFO root fetch - processPackages [alibabacloud-dingtalk]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-04-26 04:42:44] INFO root fetch - processPackages [armis]: New version: [1.0.21] Old Version: [1.0.20]
+[2024-04-26 04:42:44] INFO root fetch - processPackages [alibabacloud-dingtalk]: Downloading https://files.pythonhosted.org/packages/2d/22/b142d3ecb2da746dbe2acda157e4a92e0be1973b484e4aa39effe41423fd/alibabacloud_dingtalk-2.0.98.tar.gz
+[2024-04-26 04:42:44] INFO root fetch - processPackages [armis]: Downloading https://files.pythonhosted.org/packages/d6/3e/913cc1acd2a23a78e15dd5627ccc0d75e8ec13a3fa7948593b1b0d27fdd5/armis-1.0.20.tar.gz
+[2024-04-26 04:42:44] INFO root fetch - processPackages [armis]: Downloading https://files.pythonhosted.org/packages/17/c4/d0987eb70f1ddf33c9029def4784653812609819a0e844a332d8446d30c3/armis-1.0.21.tar.gz
+[2024-04-26 04:42:45] INFO root fetch - processPackages [armis]: executing diffoscope
+[2024-04-26 04:42:45] INFO root fetch - processPackages [armis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/armis-1.0.20.tar.gz tmp/armis-1.0.21.tar.gz --markdown 20240426/a/armis/1.0.20-1.0.21/README.md --exclude *.pyd
+[2024-04-26 04:42:45] INFO root fetch - processPackages [alibabacloud-dingtalk]: Downloading https://files.pythonhosted.org/packages/44/c7/13880cf885b3b0b54c5e9d36b2174d6a5a6235900795675d48266bce80b5/alibabacloud_dingtalk-2.0.99.tar.gz
+[2024-04-26 04:42:45] INFO root fetch - processPackages [alibabacloud-dingtalk]: executing diffoscope
+[2024-04-26 04:42:45] INFO root fetch - processPackages [alibabacloud-dingtalk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_dingtalk-2.0.98.tar.gz tmp/alibabacloud_dingtalk-2.0.99.tar.gz --markdown 20240426/a/alibabacloud-dingtalk/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-04-26 04:42:45] INFO root fetch - processPackages [armis]: Remove: archive file [/home/abi/fetcher/tmp/armis-1.0.20.tar.gz]
+[2024-04-26 04:42:45] INFO root fetch - processPackages [armis]: Remove: archive file [/home/abi/fetcher/tmp/armis-1.0.21.tar.gz]
+[2024-04-26 04:42:45] INFO root fetch - main [MainThread]: End processing [armis]: success
+[2024-04-26 04:42:48] INFO root fetch - processPackages [alibabacloud-dingtalk]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dingtalk-2.0.98.tar.gz]
+[2024-04-26 04:42:48] INFO root fetch - processPackages [alibabacloud-dingtalk]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dingtalk-2.0.99.tar.gz]
+[2024-04-26 04:42:48] INFO root fetch - main [MainThread]: End processing [alibabacloud-dingtalk]: success
+[2024-04-26 04:42:48] INFO root fetch - main [MainThread]: Store serial: [22942001]
