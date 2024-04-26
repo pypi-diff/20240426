@@ -17411,3 +17411,42 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 12:23:15] INFO root fetch - processPackages [troi]: Remove: archive file [/home/abi/fetcher/tmp/troi-2024.4.26.0.tar.gz]
 [2024-04-26 12:23:15] INFO root fetch - main [MainThread]: End processing [troi]: success
 [2024-04-26 12:23:15] INFO root fetch - main [MainThread]: Store serial: [22946240]
+[2024-04-26 12:25:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22946240]
+[2024-04-26 12:25:24] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-26 12:25:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: AresHook
+[2024-04-26 12:25:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: TitanDevice
+[2024-04-26 12:25:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: veg2hab
+[2024-04-26 12:25:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ussl
+[2024-04-26 12:25:24] INFO root fetch - processPackages [TitanDevice]: New version: [0.3.7] Old Version: [0.3.6.1]
+[2024-04-26 12:25:24] INFO root fetch - processPackages [AresHook]: New version: [0.1.1] Old Version: [0.1]
+[2024-04-26 12:25:24] INFO root fetch - processPackages [veg2hab]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-26 12:25:24] INFO root fetch - processPackages [ussl]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-04-26 12:25:24] INFO root fetch - processPackages [TitanDevice]: Downloading https://files.pythonhosted.org/packages/ae/e0/8a64762c2b4c76cf8b47ec5e815248b9d834cb3d700e824705d48ac1617c/TitanDevice-0.3.6.1.tar.gz
+[2024-04-26 12:25:24] INFO root fetch - processPackages [AresHook]: Downloading https://files.pythonhosted.org/packages/54/b7/37d635f39372edd538d90dca7621135f59bb2125bfea35676470f2c1c897/AresHook-0.1.tar.gz
+[2024-04-26 12:25:24] INFO root fetch - processPackages [veg2hab]: Downloading https://files.pythonhosted.org/packages/77/f3/57fa2387eaf52668dbba06e4ffda4a3cb3e8b1cbf1d61e51a0557a44ecda/veg2hab-0.1.0.tar.gz
+[2024-04-26 12:25:24] INFO root fetch - processPackages [ussl]: Downloading https://files.pythonhosted.org/packages/00/07/ebc02b6e823f476ff0c978abb1b297ba803044699bd129daf97f2ea65dab/ussl-1.1.0.tar.gz
+[2024-04-26 12:25:25] INFO root fetch - processPackages [TitanDevice]: Downloading https://files.pythonhosted.org/packages/fe/ba/042eac0ee029aaf8758b4ed3bf642f21841b939b09499bb79326e9562111/TitanDevice-0.3.7.tar.gz
+[2024-04-26 12:25:25] INFO root fetch - processPackages [AresHook]: Downloading https://files.pythonhosted.org/packages/e5/7a/56a6da4d25c72395d59f2bc1b8ecf0653b1e5c7248fca7dc0cd5a032255a/AresHook-0.1.1.tar.gz
+[2024-04-26 12:25:25] INFO root fetch - processPackages [ussl]: Downloading https://files.pythonhosted.org/packages/e9/5e/3ec419c771e023d8ad19a43ecbb6f0d8a269a07b728757c68dc4fecd49f9/ussl-1.1.1.tar.gz
+[2024-04-26 12:25:25] INFO root fetch - processPackages [AresHook]: executing diffoscope
+[2024-04-26 12:25:25] INFO root fetch - processPackages [AresHook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AresHook-0.1.tar.gz tmp/AresHook-0.1.1.tar.gz --markdown 20240426/A/AresHook/0.1-0.1.1/README.md --exclude *.pyd
+[2024-04-26 12:25:25] INFO root fetch - processPackages [veg2hab]: Downloading https://files.pythonhosted.org/packages/1a/4e/b19c178b08f808b7dc5c844424af0a831d366e16088f359ca85108a647b4/veg2hab-0.1.1.tar.gz
+[2024-04-26 12:25:25] INFO root fetch - processPackages [ussl]: executing diffoscope
+[2024-04-26 12:25:25] INFO root fetch - processPackages [ussl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ussl-1.1.0.tar.gz tmp/ussl-1.1.1.tar.gz --markdown 20240426/u/ussl/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-04-26 12:25:25] INFO root fetch - processPackages [TitanDevice]: executing diffoscope
+[2024-04-26 12:25:25] INFO root fetch - processPackages [TitanDevice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TitanDevice-0.3.6.1.tar.gz tmp/TitanDevice-0.3.7.tar.gz --markdown 20240426/T/TitanDevice/0.3.6.1-0.3.7/README.md --exclude *.pyd
+[2024-04-26 12:25:25] INFO root fetch - processPackages [AresHook]: Remove: archive file [/home/abi/fetcher/tmp/AresHook-0.1.tar.gz]
+[2024-04-26 12:25:25] INFO root fetch - processPackages [AresHook]: Remove: archive file [/home/abi/fetcher/tmp/AresHook-0.1.1.tar.gz]
+[2024-04-26 12:25:25] INFO root fetch - main [MainThread]: End processing [AresHook]: success
+[2024-04-26 12:25:25] INFO root fetch - processPackages [TitanDevice]: Remove: archive file [/home/abi/fetcher/tmp/TitanDevice-0.3.6.1.tar.gz]
+[2024-04-26 12:25:25] INFO root fetch - processPackages [TitanDevice]: Remove: archive file [/home/abi/fetcher/tmp/TitanDevice-0.3.7.tar.gz]
+[2024-04-26 12:25:25] INFO root fetch - main [MainThread]: End processing [TitanDevice]: success
+[2024-04-26 12:25:25] INFO root fetch - processPackages [veg2hab]: executing diffoscope
+[2024-04-26 12:25:25] INFO root fetch - processPackages [veg2hab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/veg2hab-0.1.0.tar.gz tmp/veg2hab-0.1.1.tar.gz --markdown 20240426/v/veg2hab/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-26 12:25:25] INFO root fetch - processPackages [ussl]: Remove: archive file [/home/abi/fetcher/tmp/ussl-1.1.0.tar.gz]
+[2024-04-26 12:25:25] INFO root fetch - processPackages [ussl]: Remove: archive file [/home/abi/fetcher/tmp/ussl-1.1.1.tar.gz]
+[2024-04-26 12:25:25] INFO root fetch - main [MainThread]: End processing [ussl]: success
+[2024-04-26 12:25:27] INFO root fetch - processPackages [veg2hab]: Remove: archive file [/home/abi/fetcher/tmp/veg2hab-0.1.0.tar.gz]
+[2024-04-26 12:25:27] INFO root fetch - processPackages [veg2hab]: Remove: archive file [/home/abi/fetcher/tmp/veg2hab-0.1.1.tar.gz]
+[2024-04-26 12:25:27] INFO root fetch - main [MainThread]: End processing [veg2hab]: success
+[2024-04-26 12:25:27] INFO root fetch - main [MainThread]: Store serial: [22946249]
