@@ -8549,3 +8549,39 @@
 [2024-04-26 05:55:11] INFO root fetch - processPackages [pyfuzzylite]: Remove: archive file [/home/abi/fetcher/tmp/pyfuzzylite-8.0.2.tar.gz]
 [2024-04-26 05:55:11] INFO root fetch - main [MainThread]: End processing [pyfuzzylite]: success
 [2024-04-26 05:55:11] INFO root fetch - main [MainThread]: Store serial: [22942403]
+[2024-04-26 05:57:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22942403]
+[2024-04-26 05:57:20] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-26 05:57:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: VSVNApplicationMonitoring
+[2024-04-26 05:57:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zcmds
+[2024-04-26 05:57:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pySigma-backend-helix
+[2024-04-26 05:57:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tensorcat
+[2024-04-26 05:57:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: graph-validation-tests
+[2024-04-26 05:57:20] INFO root fetch - processPackages [tensorcat]: New version: [0.1.1] Old Version: [0.1]
+[2024-04-26 05:57:20] INFO root fetch - processPackages [zcmds]: New version: [1.4.9] Old Version: [1.4.80]
+[2024-04-26 05:57:20] INFO root fetch - processPackages [tensorcat]: Downloading https://files.pythonhosted.org/packages/8f/5a/b74f3654839db7406ed844f1924611355b470c31e4b04fc805e7cfec095e/tensorcat-0.1.tar.gz
+[2024-04-26 05:57:20] WARNING root fetch - processPackages [VSVNApplicationMonitoring]: Skipping, unable to determine old version
+[2024-04-26 05:57:20] INFO root fetch - main [MainThread]: End processing [VSVNApplicationMonitoring] error
+[2024-04-26 05:57:20] WARNING root fetch - processPackages [pySigma-backend-helix]: Skipping, unable to determine old version
+[2024-04-26 05:57:20] INFO root fetch - main [MainThread]: End processing [pySigma-backend-helix] error
+[2024-04-26 05:57:20] INFO root fetch - processPackages [graph-validation-tests]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-26 05:57:20] INFO root fetch - processPackages [tensorcat]: Downloading https://files.pythonhosted.org/packages/d6/be/071943e8174c5d0f4a8db65e71b20fb62d67eeff64af4196b869208a433d/tensorcat-0.1.1.tar.gz
+[2024-04-26 05:57:20] INFO root fetch - processPackages [zcmds]: Downloading https://files.pythonhosted.org/packages/3a/64/910888766cdb4018cc8183680d6d283fdc2d60fb147e934afc0bc1435978/zcmds-1.4.80.tar.gz
+[2024-04-26 05:57:20] INFO root fetch - processPackages [graph-validation-tests]: Downloading https://files.pythonhosted.org/packages/f8/00/9491edbeb1892f4c32a01fe1d93a19fdade5e9abaf982609d39666eaa7c5/graph_validation_tests-0.0.8.tar.gz
+[2024-04-26 05:57:20] INFO root fetch - processPackages [tensorcat]: executing diffoscope
+[2024-04-26 05:57:20] INFO root fetch - processPackages [tensorcat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorcat-0.1.tar.gz tmp/tensorcat-0.1.1.tar.gz --markdown 20240426/t/tensorcat/0.1-0.1.1/README.md --exclude *.pyd
+[2024-04-26 05:57:20] INFO root fetch - processPackages [zcmds]: Downloading https://files.pythonhosted.org/packages/ee/c7/785afe3eb6342eebc74522af1d496ca09cf10ab8aab660d94d91cfbef640/zcmds-1.4.9.tar.gz
+[2024-04-26 05:57:20] INFO root fetch - processPackages [zcmds]: executing diffoscope
+[2024-04-26 05:57:20] INFO root fetch - processPackages [zcmds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zcmds-1.4.80.tar.gz tmp/zcmds-1.4.9.tar.gz --markdown 20240426/z/zcmds/1.4.80-1.4.9/README.md --exclude *.pyd
+[2024-04-26 05:57:20] INFO root fetch - processPackages [graph-validation-tests]: Downloading https://files.pythonhosted.org/packages/7a/01/5896fe0bbe6bc36503de93e875ccb998f7a3f35842385067695620d7e38c/graph_validation_tests-0.0.9.tar.gz
+[2024-04-26 05:57:21] INFO root fetch - processPackages [graph-validation-tests]: executing diffoscope
+[2024-04-26 05:57:21] INFO root fetch - processPackages [graph-validation-tests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graph_validation_tests-0.0.8.tar.gz tmp/graph_validation_tests-0.0.9.tar.gz --markdown 20240426/g/graph-validation-tests/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-26 05:57:21] INFO root fetch - processPackages [tensorcat]: Remove: archive file [/home/abi/fetcher/tmp/tensorcat-0.1.tar.gz]
+[2024-04-26 05:57:21] INFO root fetch - processPackages [tensorcat]: Remove: archive file [/home/abi/fetcher/tmp/tensorcat-0.1.1.tar.gz]
+[2024-04-26 05:57:21] INFO root fetch - main [MainThread]: End processing [tensorcat]: success
+[2024-04-26 05:57:21] INFO root fetch - processPackages [zcmds]: Remove: archive file [/home/abi/fetcher/tmp/zcmds-1.4.80.tar.gz]
+[2024-04-26 05:57:21] INFO root fetch - processPackages [zcmds]: Remove: archive file [/home/abi/fetcher/tmp/zcmds-1.4.9.tar.gz]
+[2024-04-26 05:57:21] INFO root fetch - main [MainThread]: End processing [zcmds]: success
+[2024-04-26 05:57:21] INFO root fetch - processPackages [graph-validation-tests]: Remove: archive file [/home/abi/fetcher/tmp/graph_validation_tests-0.0.8.tar.gz]
+[2024-04-26 05:57:21] INFO root fetch - processPackages [graph-validation-tests]: Remove: archive file [/home/abi/fetcher/tmp/graph_validation_tests-0.0.9.tar.gz]
+[2024-04-26 05:57:21] INFO root fetch - main [MainThread]: End processing [graph-validation-tests]: success
+[2024-04-26 05:57:21] INFO root fetch - main [MainThread]: Store serial: [22942423]
