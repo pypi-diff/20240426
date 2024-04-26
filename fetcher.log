@@ -21779,3 +21779,77 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 15:40:35] INFO root fetch - processPackages [pipez]: Remove: archive file [/home/abi/fetcher/tmp/pipez-0.0.99.tar.gz]
 [2024-04-26 15:40:35] INFO root fetch - main [MainThread]: End processing [pipez]: success
 [2024-04-26 15:40:35] INFO root fetch - main [MainThread]: Store serial: [22948182]
+[2024-04-26 15:42:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22948182]
+[2024-04-26 15:42:44] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-26 15:42:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-darthmail
+[2024-04-26 15:42:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: coveralls
+[2024-04-26 15:42:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rich-split
+[2024-04-26 15:42:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qtlink
+[2024-04-26 15:42:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xl-router
+[2024-04-26 15:42:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hitips
+[2024-04-26 15:42:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: NREL-rest2
+[2024-04-26 15:42:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: racetrack-client
+[2024-04-26 15:42:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mxcubecore
+[2024-04-26 15:42:44] INFO root fetch - processPackages [rich-split]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-26 15:42:44] INFO root fetch - processPackages [mxcubecore]: New version: [1.99.0] Old Version: [1.98.0]
+[2024-04-26 15:42:44] INFO root fetch - processPackages [racetrack-client]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-04-26 15:42:44] INFO root fetch - processPackages [django-darthmail]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-04-26 15:42:44] INFO root fetch - processPackages [xl-router]: New version: [0.7.0] Old Version: [0.6.9]
+[2024-04-26 15:42:44] WARNING root fetch - processPackages [NREL-rest2]: Skipping, unable to determine old version
+[2024-04-26 15:42:44] INFO root fetch - main [MainThread]: End processing [NREL-rest2] error
+[2024-04-26 15:42:44] INFO root fetch - processPackages [hitips]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-26 15:42:44] INFO root fetch - processPackages [coveralls]: New version: [3.3.2a0] Old Version: [3.3.1]
+[2024-04-26 15:42:44] INFO root fetch - processPackages [qtlink]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-04-26 15:42:44] INFO root fetch - processPackages [rich-split]: Downloading https://files.pythonhosted.org/packages/25/bb/2065ed8ced4a9a1b1fafafb5fe061c6b0bcdb4d50629f84a9cea4b3f89db/rich_split-0.1.0.tar.gz
+[2024-04-26 15:42:44] INFO root fetch - processPackages [mxcubecore]: Downloading https://files.pythonhosted.org/packages/ca/26/d71bc00e5725764636053f8b78cb971b65641284331f42c0496031835f69/mxcubecore-1.98.0.tar.gz
+[2024-04-26 15:42:44] WARNING root fetch - processPackages [mxcubecore]: Skipping package: exceeds size limit 30978471>=10485760
+[2024-04-26 15:42:44] INFO root fetch - main [MainThread]: End processing [mxcubecore] error
+[2024-04-26 15:42:44] INFO root fetch - processPackages [coveralls]: Downloading https://files.pythonhosted.org/packages/c2/c5/6b8254092117fa366b022fbee9434224483ba38e0bbf36e80836bf10692a/coveralls-3.3.1.tar.gz
+[2024-04-26 15:42:44] INFO root fetch - processPackages [django-darthmail]: Downloading https://files.pythonhosted.org/packages/0e/3e/396f27ca5e1fb7d94fc717fa09934c285d1d4cf812144d52d5169dce21ad/django-darthmail-0.3.0.tar.gz
+[2024-04-26 15:42:44] INFO root fetch - processPackages [xl-router]: Downloading https://files.pythonhosted.org/packages/33/53/7dc9a2a3e734b01c1f7e5ad5044ed83c6a717d326e4fea6b2c02e94aeb72/xl_router-0.6.9.tar.gz
+[2024-04-26 15:42:44] INFO root fetch - processPackages [racetrack-client]: Downloading https://files.pythonhosted.org/packages/c5/e0/1b3995d689b069da3b46aac4720caa0e0ad499503dd8f940924776f80602/racetrack-client-2.9.0.tar.gz
+[2024-04-26 15:42:45] INFO root fetch - processPackages [qtlink]: Downloading https://files.pythonhosted.org/packages/1e/2a/f0afa86db08fe930e88a52c94dd976db8e567ae3c3a0de8acf7e89709ec4/qtlink-1.2.8.tar.gz
+[2024-04-26 15:42:45] INFO root fetch - processPackages [hitips]: Downloading https://files.pythonhosted.org/packages/e0/0c/4c776300c69d74775316853c7c1e55e56c888d96307cdf978f87cb7a6151/hitips-1.0.4.tar.gz
+[2024-04-26 15:42:45] INFO root fetch - processPackages [rich-split]: Downloading https://files.pythonhosted.org/packages/7d/dd/923adee99f9611328b73a7b362f161d4719fbcdc5c74588abe11bd4dba6a/rich_split-0.1.1.tar.gz
+[2024-04-26 15:42:45] INFO root fetch - processPackages [coveralls]: Downloading https://files.pythonhosted.org/packages/ce/3a/4a475a46472518908bc61259a614b08108cd1be95259b316ede5a9a3341a/coveralls-3.3.2a0.tar.gz
+[2024-04-26 15:42:45] INFO root fetch - processPackages [rich-split]: executing diffoscope
+[2024-04-26 15:42:45] INFO root fetch - processPackages [rich-split]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rich_split-0.1.0.tar.gz tmp/rich_split-0.1.1.tar.gz --markdown 20240426/r/rich-split/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-26 15:42:45] INFO root fetch - processPackages [django-darthmail]: Downloading https://files.pythonhosted.org/packages/08/73/d32623b13964a0a4d4e455401fa4d3db76e693ce8d79e705ff566708869f/django_darthmail-0.4.0.tar.gz
+[2024-04-26 15:42:45] INFO root fetch - processPackages [xl-router]: Downloading https://files.pythonhosted.org/packages/39/d5/9e538199f2a5caf705812ce84095fdca98c4511a52d715f1081eecd65ba6/xl_router-0.7.0.tar.gz
+[2024-04-26 15:42:45] INFO root fetch - processPackages [racetrack-client]: Downloading https://files.pythonhosted.org/packages/a3/cc/fb6d40f92b96278a16e133f99ef397c97c09211913cb331b846c4dc9fa85/racetrack-client-2.9.1.tar.gz
+[2024-04-26 15:42:45] INFO root fetch - processPackages [qtlink]: Downloading https://files.pythonhosted.org/packages/c6/3c/4a0be6b1937e94fb3f97d962bbc6d21c5edd24d70451ae48565dd4dc2fe8/qtlink-1.2.9.tar.gz
+[2024-04-26 15:42:45] INFO root fetch - processPackages [coveralls]: executing diffoscope
+[2024-04-26 15:42:45] INFO root fetch - processPackages [coveralls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coveralls-3.3.1.tar.gz tmp/coveralls-3.3.2a0.tar.gz --markdown 20240426/c/coveralls/3.3.1-3.3.2a0/README.md --exclude *.pyd
+[2024-04-26 15:42:45] INFO root fetch - processPackages [django-darthmail]: executing diffoscope
+[2024-04-26 15:42:45] INFO root fetch - processPackages [django-darthmail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-darthmail-0.3.0.tar.gz tmp/django_darthmail-0.4.0.tar.gz --markdown 20240426/d/django-darthmail/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-04-26 15:42:45] INFO root fetch - processPackages [hitips]: Downloading https://files.pythonhosted.org/packages/68/36/b174caf108d42281a2bbf2cbd74b2bc505bbf776cd908df9068354446235/hitips-1.0.5.tar.gz
+[2024-04-26 15:42:45] INFO root fetch - processPackages [xl-router]: executing diffoscope
+[2024-04-26 15:42:45] INFO root fetch - processPackages [xl-router]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xl_router-0.6.9.tar.gz tmp/xl_router-0.7.0.tar.gz --markdown 20240426/x/xl-router/0.6.9-0.7.0/README.md --exclude *.pyd
+[2024-04-26 15:42:45] INFO root fetch - processPackages [qtlink]: executing diffoscope
+[2024-04-26 15:42:45] INFO root fetch - processPackages [qtlink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtlink-1.2.8.tar.gz tmp/qtlink-1.2.9.tar.gz --markdown 20240426/q/qtlink/1.2.8-1.2.9/README.md --exclude *.pyd
+[2024-04-26 15:42:45] INFO root fetch - processPackages [racetrack-client]: executing diffoscope
+[2024-04-26 15:42:45] INFO root fetch - processPackages [racetrack-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/racetrack-client-2.9.0.tar.gz tmp/racetrack-client-2.9.1.tar.gz --markdown 20240426/r/racetrack-client/2.9.0-2.9.1/README.md --exclude *.pyd
+[2024-04-26 15:42:45] INFO root fetch - processPackages [hitips]: executing diffoscope
+[2024-04-26 15:42:45] INFO root fetch - processPackages [hitips]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hitips-1.0.4.tar.gz tmp/hitips-1.0.5.tar.gz --markdown 20240426/h/hitips/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-04-26 15:42:46] INFO root fetch - processPackages [xl-router]: Remove: archive file [/home/abi/fetcher/tmp/xl_router-0.6.9.tar.gz]
+[2024-04-26 15:42:46] INFO root fetch - processPackages [xl-router]: Remove: archive file [/home/abi/fetcher/tmp/xl_router-0.7.0.tar.gz]
+[2024-04-26 15:42:46] INFO root fetch - main [MainThread]: End processing [xl-router]: success
+[2024-04-26 15:42:46] INFO root fetch - processPackages [rich-split]: Remove: archive file [/home/abi/fetcher/tmp/rich_split-0.1.0.tar.gz]
+[2024-04-26 15:42:46] INFO root fetch - processPackages [rich-split]: Remove: archive file [/home/abi/fetcher/tmp/rich_split-0.1.1.tar.gz]
+[2024-04-26 15:42:46] INFO root fetch - main [MainThread]: End processing [rich-split]: success
+[2024-04-26 15:42:46] INFO root fetch - processPackages [coveralls]: Remove: archive file [/home/abi/fetcher/tmp/coveralls-3.3.1.tar.gz]
+[2024-04-26 15:42:46] INFO root fetch - processPackages [coveralls]: Remove: archive file [/home/abi/fetcher/tmp/coveralls-3.3.2a0.tar.gz]
+[2024-04-26 15:42:46] INFO root fetch - main [MainThread]: End processing [coveralls]: success
+[2024-04-26 15:42:46] INFO root fetch - processPackages [django-darthmail]: Remove: archive file [/home/abi/fetcher/tmp/django-darthmail-0.3.0.tar.gz]
+[2024-04-26 15:42:46] INFO root fetch - processPackages [django-darthmail]: Remove: archive file [/home/abi/fetcher/tmp/django_darthmail-0.4.0.tar.gz]
+[2024-04-26 15:42:46] INFO root fetch - main [MainThread]: End processing [django-darthmail]: success
+[2024-04-26 15:42:46] INFO root fetch - processPackages [qtlink]: Remove: archive file [/home/abi/fetcher/tmp/qtlink-1.2.8.tar.gz]
+[2024-04-26 15:42:46] INFO root fetch - processPackages [qtlink]: Remove: archive file [/home/abi/fetcher/tmp/qtlink-1.2.9.tar.gz]
+[2024-04-26 15:42:46] INFO root fetch - main [MainThread]: End processing [qtlink]: success
+[2024-04-26 15:42:46] INFO root fetch - processPackages [racetrack-client]: Remove: archive file [/home/abi/fetcher/tmp/racetrack-client-2.9.0.tar.gz]
+[2024-04-26 15:42:46] INFO root fetch - processPackages [racetrack-client]: Remove: archive file [/home/abi/fetcher/tmp/racetrack-client-2.9.1.tar.gz]
+[2024-04-26 15:42:46] INFO root fetch - main [MainThread]: End processing [racetrack-client]: success
+[2024-04-26 15:42:46] INFO root fetch - processPackages [hitips]: Remove: archive file [/home/abi/fetcher/tmp/hitips-1.0.4.tar.gz]
+[2024-04-26 15:42:46] INFO root fetch - processPackages [hitips]: Remove: archive file [/home/abi/fetcher/tmp/hitips-1.0.5.tar.gz]
+[2024-04-26 15:42:46] INFO root fetch - main [MainThread]: End processing [hitips]: success
+[2024-04-26 15:42:46] INFO root fetch - main [MainThread]: Store serial: [22948212]
