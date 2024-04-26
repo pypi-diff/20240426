@@ -17609,3 +17609,24 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 12:32:08] INFO root fetch - processPackages [zhijiang]: Remove: archive file [/home/abi/fetcher/tmp/zhijiang-0.7.9-py3-none-any.whl.zip]
 [2024-04-26 12:32:08] INFO root fetch - main [MainThread]: End processing [zhijiang]: success
 [2024-04-26 12:32:08] INFO root fetch - main [MainThread]: Store serial: [22946322]
+[2024-04-26 12:34:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22946322]
+[2024-04-26 12:34:18] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-26 12:34:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: power-grid-model
+[2024-04-26 12:34:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mongodb-orm
+[2024-04-26 12:34:19] INFO root fetch - processPackages [mongodb-orm]: New version: [0.0.118] Old Version: [0.0.117]
+[2024-04-26 12:34:19] INFO root fetch - processPackages [power-grid-model]: New version: [1.7.9] Old Version: [1.7.8a1374103622511]
+[2024-04-26 12:34:19] INFO root fetch - processPackages [mongodb-orm]: Downloading https://files.pythonhosted.org/packages/13/70/1a2405374aeafc5247c99e86190d2c32e5a18b4db8466d4be331e5bb8527/mongodb_orm-0.0.117.tar.gz
+[2024-04-26 12:34:19] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/f2/89/c6c2797d33b80597aba4cfaa3eb46b859cefaabca623a75550c89a3289f7/power-grid-model-1.7.8a1374103622511.tar.gz
+[2024-04-26 12:34:19] INFO root fetch - processPackages [mongodb-orm]: Downloading https://files.pythonhosted.org/packages/53/3f/8c8e6d13645c4c111f3f6098526405ad0edff4260486cec98391fb56565e/mongodb_orm-0.0.118.tar.gz
+[2024-04-26 12:34:19] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/56/2b/86814a7f75dec690d4b62403c87b2b3b5aa0b3c73f37f4294b843a74b0d9/power-grid-model-1.7.9.tar.gz
+[2024-04-26 12:34:19] INFO root fetch - processPackages [mongodb-orm]: executing diffoscope
+[2024-04-26 12:34:19] INFO root fetch - processPackages [mongodb-orm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mongodb_orm-0.0.117.tar.gz tmp/mongodb_orm-0.0.118.tar.gz --markdown 20240426/m/mongodb-orm/0.0.117-0.0.118/README.md --exclude *.pyd
+[2024-04-26 12:34:19] INFO root fetch - processPackages [power-grid-model]: executing diffoscope
+[2024-04-26 12:34:19] INFO root fetch - processPackages [power-grid-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/power-grid-model-1.7.8a1374103622511.tar.gz tmp/power-grid-model-1.7.9.tar.gz --markdown 20240426/p/power-grid-model/1.7.8a1374103622511-1.7.9/README.md --exclude *.pyd
+[2024-04-26 12:34:20] INFO root fetch - processPackages [mongodb-orm]: Remove: archive file [/home/abi/fetcher/tmp/mongodb_orm-0.0.117.tar.gz]
+[2024-04-26 12:34:20] INFO root fetch - processPackages [mongodb-orm]: Remove: archive file [/home/abi/fetcher/tmp/mongodb_orm-0.0.118.tar.gz]
+[2024-04-26 12:34:20] INFO root fetch - main [MainThread]: End processing [mongodb-orm]: success
+[2024-04-26 12:34:21] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.7.8a1374103622511.tar.gz]
+[2024-04-26 12:34:21] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.7.9.tar.gz]
+[2024-04-26 12:34:21] INFO root fetch - main [MainThread]: End processing [power-grid-model]: success
+[2024-04-26 12:34:21] INFO root fetch - main [MainThread]: Store serial: [22946334]
