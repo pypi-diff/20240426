@@ -8389,3 +8389,18 @@
 [2024-04-26 05:40:02] INFO root fetch - processPackages [pypsg]: Remove: archive file [/home/abi/fetcher/tmp/pypsg-0.3.1.tar.gz]
 [2024-04-26 05:40:02] INFO root fetch - main [MainThread]: End processing [pypsg]: success
 [2024-04-26 05:40:02] INFO root fetch - main [MainThread]: Store serial: [22942343]
+[2024-04-26 05:42:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22942343]
+[2024-04-26 05:42:10] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-26 05:42:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: maxwelld
+[2024-04-26 05:42:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: multihttps
+[2024-04-26 05:42:10] INFO root fetch - processPackages [maxwelld]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-26 05:42:10] INFO root fetch - processPackages [maxwelld]: Downloading https://files.pythonhosted.org/packages/0a/f2/988e57ee31c3dae9713bac5126b76db045cd473ee8a40a76e6c95cf25288/maxwelld-0.2.8.tar.gz
+[2024-04-26 05:42:10] WARNING root fetch - processPackages [multihttps]: Skipping, unable to determine old version
+[2024-04-26 05:42:10] INFO root fetch - main [MainThread]: End processing [multihttps] error
+[2024-04-26 05:42:11] INFO root fetch - processPackages [maxwelld]: Downloading https://files.pythonhosted.org/packages/ae/7e/7924f1888fcee15d707d51dd1f8f6b3b30a93fa359acbe48f3a9ae02bfb8/maxwelld-0.2.9.tar.gz
+[2024-04-26 05:42:11] INFO root fetch - processPackages [maxwelld]: executing diffoscope
+[2024-04-26 05:42:11] INFO root fetch - processPackages [maxwelld]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maxwelld-0.2.8.tar.gz tmp/maxwelld-0.2.9.tar.gz --markdown 20240426/m/maxwelld/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-26 05:42:11] INFO root fetch - processPackages [maxwelld]: Remove: archive file [/home/abi/fetcher/tmp/maxwelld-0.2.8.tar.gz]
+[2024-04-26 05:42:11] INFO root fetch - processPackages [maxwelld]: Remove: archive file [/home/abi/fetcher/tmp/maxwelld-0.2.9.tar.gz]
+[2024-04-26 05:42:11] INFO root fetch - main [MainThread]: End processing [maxwelld]: success
+[2024-04-26 05:42:11] INFO root fetch - main [MainThread]: Store serial: [22942352]
