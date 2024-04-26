@@ -1987,3 +1987,48 @@
 [2024-04-26 02:07:47] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20240425.tar.gz]
 [2024-04-26 02:07:47] INFO root fetch - main [MainThread]: End processing [jaxutils-nightly]: success
 [2024-04-26 02:07:47] INFO root fetch - main [MainThread]: Store serial: [22939747]
+[2024-04-26 02:09:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22939747]
+[2024-04-26 02:09:56] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-26 02:09:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-common
+[2024-04-26 02:09:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pxutil
+[2024-04-26 02:09:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mochic-4
+[2024-04-26 02:09:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qs-codec
+[2024-04-26 02:09:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: degirum
+[2024-04-26 02:09:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: openbb-nightly
+[2024-04-26 02:09:56] WARNING root fetch - processPackages [qs-codec]: Skipping, unable to determine old version
+[2024-04-26 02:09:56] INFO root fetch - main [MainThread]: End processing [qs-codec] error
+[2024-04-26 02:09:56] INFO root fetch - processPackages [openbb-nightly]: New version: [4.1.7.dev202404250009] Old Version: [4.1.7.dev202404240009]
+[2024-04-26 02:09:56] INFO root fetch - processPackages [cdk-common]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-04-26 02:09:56] WARNING root fetch - processPackages [mochic-4]: Skipping, unable to determine old version
+[2024-04-26 02:09:56] INFO root fetch - main [MainThread]: End processing [mochic-4] error
+[2024-04-26 02:09:56] INFO root fetch - processPackages [degirum]: New version: [0.9.6] Old Version: [0.9.5]
+[2024-04-26 02:09:56] INFO root fetch - processPackages [pxutil]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-26 02:09:56] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/f3/30/796e7080e9a9b293ccf386b0d95f40dde8e214e0415d2c59be9c661105a9/cdk-common-2.0.98.tar.gz
+[2024-04-26 02:09:56] INFO root fetch - processPackages [openbb-nightly]: Downloading https://files.pythonhosted.org/packages/61/89/190c10787d1f7165af33863a6cf58ad2bd3515ef458759d135ec51772531/openbb_nightly-4.1.7.dev202404240009.tar.gz
+[2024-04-26 02:09:56] INFO root fetch - processPackages [pxutil]: Downloading https://files.pythonhosted.org/packages/08/08/a20d5bafe5968608bb243365578c4b4de4dc08e5854c8490951b1e38dcab/pxutil-0.0.8.tar.gz
+[2024-04-26 02:09:56] INFO root fetch - processPackages [degirum]: Downloading https://files.pythonhosted.org/packages/67/e5/d59ae59724f47bafc06b5e72dbe8acedeb31dbde516fcd913ca2cc3e9f09/degirum-0.9.5-cp39-cp39-win_amd64.whl
+[2024-04-26 02:09:56] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/11/10/ca183f281275ec945ede082d9491c0bb5bfb9152c437124c86e37cba7079/cdk-common-2.0.99.tar.gz
+[2024-04-26 02:09:57] INFO root fetch - processPackages [pxutil]: Downloading https://files.pythonhosted.org/packages/90/df/f60fc33beb2bac107f453dbd7493779ff1208cbe453c0c76ddf0888645ff/pxutil-0.0.9.tar.gz
+[2024-04-26 02:09:57] INFO root fetch - processPackages [openbb-nightly]: Downloading https://files.pythonhosted.org/packages/f3/02/a46e47dfaff1f2e867edcf517a35c659880321a709e5176801eeefed1203/openbb_nightly-4.1.7.dev202404250009.tar.gz
+[2024-04-26 02:09:57] INFO root fetch - processPackages [pxutil]: executing diffoscope
+[2024-04-26 02:09:57] INFO root fetch - processPackages [pxutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pxutil-0.0.8.tar.gz tmp/pxutil-0.0.9.tar.gz --markdown 20240426/p/pxutil/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-26 02:09:57] INFO root fetch - processPackages [cdk-common]: executing diffoscope
+[2024-04-26 02:09:57] INFO root fetch - processPackages [cdk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-common-2.0.98.tar.gz tmp/cdk-common-2.0.99.tar.gz --markdown 20240426/c/cdk-common/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-04-26 02:09:57] INFO root fetch - processPackages [openbb-nightly]: executing diffoscope
+[2024-04-26 02:09:57] INFO root fetch - processPackages [openbb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openbb_nightly-4.1.7.dev202404240009.tar.gz tmp/openbb_nightly-4.1.7.dev202404250009.tar.gz --markdown 20240426/o/openbb-nightly/4.1.7.dev202404240009-4.1.7.dev202404250009/README.md --exclude *.pyd
+[2024-04-26 02:09:57] INFO root fetch - processPackages [pxutil]: Remove: archive file [/home/abi/fetcher/tmp/pxutil-0.0.8.tar.gz]
+[2024-04-26 02:09:57] INFO root fetch - processPackages [pxutil]: Remove: archive file [/home/abi/fetcher/tmp/pxutil-0.0.9.tar.gz]
+[2024-04-26 02:09:57] INFO root fetch - main [MainThread]: End processing [pxutil]: success
+[2024-04-26 02:09:58] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.98.tar.gz]
+[2024-04-26 02:09:58] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
+[2024-04-26 02:09:58] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
+[2024-04-26 02:09:58] INFO root fetch - processPackages [degirum]: Downloading https://files.pythonhosted.org/packages/93/c8/d4506b3d625c38d620b14f05a19625d7e169c6a89e1b58deeed272f36855/degirum-0.9.6-cp39-cp39-win_amd64.whl
+[2024-04-26 02:09:59] INFO root fetch - processPackages [degirum]: executing diffoscope
+[2024-04-26 02:09:59] INFO root fetch - processPackages [degirum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/degirum-0.9.5-cp39-cp39-win_amd64.whl.zip tmp/degirum-0.9.6-cp39-cp39-win_amd64.whl.zip --markdown 20240426/d/degirum/0.9.5-0.9.6/README.md --exclude *.pyd
+[2024-04-26 02:10:00] INFO root fetch - processPackages [openbb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/openbb_nightly-4.1.7.dev202404240009.tar.gz]
+[2024-04-26 02:10:00] INFO root fetch - processPackages [openbb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/openbb_nightly-4.1.7.dev202404250009.tar.gz]
+[2024-04-26 02:10:00] INFO root fetch - main [MainThread]: End processing [openbb-nightly]: success
+[2024-04-26 02:10:11] INFO root fetch - processPackages [degirum]: Remove: archive file [/home/abi/fetcher/tmp/degirum-0.9.5-cp39-cp39-win_amd64.whl.zip]
+[2024-04-26 02:10:11] INFO root fetch - processPackages [degirum]: Remove: archive file [/home/abi/fetcher/tmp/degirum-0.9.6-cp39-cp39-win_amd64.whl.zip]
+[2024-04-26 02:10:11] INFO root fetch - main [MainThread]: End processing [degirum]: success
+[2024-04-26 02:10:11] INFO root fetch - main [MainThread]: Store serial: [22939800]
