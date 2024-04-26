@@ -14115,3 +14115,36 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 10:20:01] INFO root fetch - processPackages [libreflow]: Remove: archive file [/home/abi/fetcher/tmp/libreflow-2.3.2.tar.gz]
 [2024-04-26 10:20:01] INFO root fetch - main [MainThread]: End processing [libreflow]: success
 [2024-04-26 10:20:01] INFO root fetch - main [MainThread]: Store serial: [22944807]
+[2024-04-26 10:22:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22944807]
+[2024-04-26 10:22:11] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-26 10:22:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ixigua
+[2024-04-26 10:22:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pms-onpremise-encoder
+[2024-04-26 10:22:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: izihawa-textutils
+[2024-04-26 10:22:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: GaiaScript
+[2024-04-26 10:22:11] INFO root fetch - processPackages [pms-onpremise-encoder]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-26 10:22:11] INFO root fetch - processPackages [izihawa-textutils]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-26 10:22:11] INFO root fetch - processPackages [GaiaScript]: New version: [0.1.1.6] Old Version: [0.1.1.5]
+[2024-04-26 10:22:11] WARNING root fetch - processPackages [ixigua]: Skipping, unable to determine old version
+[2024-04-26 10:22:11] INFO root fetch - main [MainThread]: End processing [ixigua] error
+[2024-04-26 10:22:11] INFO root fetch - processPackages [izihawa-textutils]: Downloading https://files.pythonhosted.org/packages/fb/ed/589e9c3d98360955cf2fee14ed272bb7b490bdd1eeaa693eeb3959746e3c/izihawa_textutils-1.0.8.tar.gz
+[2024-04-26 10:22:11] INFO root fetch - processPackages [pms-onpremise-encoder]: Downloading https://files.pythonhosted.org/packages/2a/82/72efdd5e2e30f3767a9a39388592cc0ed6187b2a3498c0ccdc8313078e7d/pms-onpremise-encoder-0.0.8.tar.gz
+[2024-04-26 10:22:11] INFO root fetch - processPackages [GaiaScript]: Downloading https://files.pythonhosted.org/packages/49/69/fc90c34a0c3de320ba3b63ceac694ab4204ad82f184472ed61a4353aa54e/GaiaScript-0.1.1.5.tar.gz
+[2024-04-26 10:22:11] INFO root fetch - processPackages [izihawa-textutils]: Downloading https://files.pythonhosted.org/packages/79/a9/1558e720494ea1096837a90ef420db701b90c1bb2856c96580b4facfb4df/izihawa_textutils-1.0.9.tar.gz
+[2024-04-26 10:22:11] INFO root fetch - processPackages [GaiaScript]: Downloading https://files.pythonhosted.org/packages/9b/ab/7a7ac361d5c73e022311f5712107ec718be5505c565d447bd7088ef14e30/GaiaScript-0.1.1.6.tar.gz
+[2024-04-26 10:22:11] INFO root fetch - processPackages [pms-onpremise-encoder]: Downloading https://files.pythonhosted.org/packages/88/cf/1d039bfc89f468e857b29a3c38c823f9537cc024e5e02959ad4bd1d7f546/pms-onpremise-encoder-0.0.9.tar.gz
+[2024-04-26 10:22:11] INFO root fetch - processPackages [izihawa-textutils]: executing diffoscope
+[2024-04-26 10:22:11] INFO root fetch - processPackages [izihawa-textutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/izihawa_textutils-1.0.8.tar.gz tmp/izihawa_textutils-1.0.9.tar.gz --markdown 20240426/i/izihawa-textutils/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-26 10:22:12] INFO root fetch - processPackages [GaiaScript]: executing diffoscope
+[2024-04-26 10:22:12] INFO root fetch - processPackages [GaiaScript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GaiaScript-0.1.1.5.tar.gz tmp/GaiaScript-0.1.1.6.tar.gz --markdown 20240426/G/GaiaScript/0.1.1.5-0.1.1.6/README.md --exclude *.pyd
+[2024-04-26 10:22:12] INFO root fetch - processPackages [pms-onpremise-encoder]: executing diffoscope
+[2024-04-26 10:22:12] INFO root fetch - processPackages [pms-onpremise-encoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pms-onpremise-encoder-0.0.8.tar.gz tmp/pms-onpremise-encoder-0.0.9.tar.gz --markdown 20240426/p/pms-onpremise-encoder/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-26 10:22:12] INFO root fetch - processPackages [pms-onpremise-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms-onpremise-encoder-0.0.8.tar.gz]
+[2024-04-26 10:22:12] INFO root fetch - processPackages [pms-onpremise-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms-onpremise-encoder-0.0.9.tar.gz]
+[2024-04-26 10:22:12] INFO root fetch - main [MainThread]: End processing [pms-onpremise-encoder]: success
+[2024-04-26 10:22:12] INFO root fetch - processPackages [izihawa-textutils]: Remove: archive file [/home/abi/fetcher/tmp/izihawa_textutils-1.0.8.tar.gz]
+[2024-04-26 10:22:12] INFO root fetch - processPackages [izihawa-textutils]: Remove: archive file [/home/abi/fetcher/tmp/izihawa_textutils-1.0.9.tar.gz]
+[2024-04-26 10:22:12] INFO root fetch - main [MainThread]: End processing [izihawa-textutils]: success
+[2024-04-26 10:22:12] INFO root fetch - processPackages [GaiaScript]: Remove: archive file [/home/abi/fetcher/tmp/GaiaScript-0.1.1.5.tar.gz]
+[2024-04-26 10:22:12] INFO root fetch - processPackages [GaiaScript]: Remove: archive file [/home/abi/fetcher/tmp/GaiaScript-0.1.1.6.tar.gz]
+[2024-04-26 10:22:12] INFO root fetch - main [MainThread]: End processing [GaiaScript]: success
+[2024-04-26 10:22:12] INFO root fetch - main [MainThread]: Store serial: [22944825]
