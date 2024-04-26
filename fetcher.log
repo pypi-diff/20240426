@@ -13419,3 +13419,65 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 09:56:12] INFO root fetch - processPackages [django-prose-editor]: Remove: archive file [/home/abi/fetcher/tmp/django_prose_editor-0.3.4.tar.gz]
 [2024-04-26 09:56:12] INFO root fetch - main [MainThread]: End processing [django-prose-editor]: success
 [2024-04-26 09:56:12] INFO root fetch - main [MainThread]: Store serial: [22944545]
+[2024-04-26 09:58:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22944545]
+[2024-04-26 09:58:22] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-26 09:58:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PyQtUIkit
+[2024-04-26 09:58:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: prcpy
+[2024-04-26 09:58:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pms-onpremise-encoder
+[2024-04-26 09:58:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: leadguru-jobs
+[2024-04-26 09:58:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aiida-workgraph
+[2024-04-26 09:58:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: candl-like
+[2024-04-26 09:58:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: screenapi-cli
+[2024-04-26 09:58:23] INFO root fetch - processPackages [pms-onpremise-encoder]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-26 09:58:23] INFO root fetch - processPackages [prcpy]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-04-26 09:58:23] INFO root fetch - processPackages [PyQtUIkit]: New version: [2.8.2] Old Version: [2.8.1]
+[2024-04-26 09:58:23] INFO root fetch - processPackages [pms-onpremise-encoder]: Downloading https://files.pythonhosted.org/packages/f5/11/23be7e6043ef55bf70344b9219877bc28391a1c3f146932ff87949b26a14/pms-onpremise-encoder-0.0.6.tar.gz
+[2024-04-26 09:58:23] INFO root fetch - processPackages [screenapi-cli]: New version: [0.1.6] Old Version: [0.1.5a4]
+[2024-04-26 09:58:23] INFO root fetch - processPackages [prcpy]: Downloading https://files.pythonhosted.org/packages/9f/7a/e955c5ab7abd78067df2e0e5d924d4ebb84c6ee1881f5cbbeea18145e6b2/prcpy-0.1.6.tar.gz
+[2024-04-26 09:58:23] INFO root fetch - processPackages [aiida-workgraph]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-26 09:58:23] INFO root fetch - processPackages [candl-like]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-04-26 09:58:23] INFO root fetch - processPackages [PyQtUIkit]: Downloading https://files.pythonhosted.org/packages/13/13/f5c452c6c6d7c08e0e07e42d98393302398da33d4e1feb1c30c3320b515f/PyQtUIkit-2.8.1.tar.gz
+[2024-04-26 09:58:23] INFO root fetch - processPackages [leadguru-jobs]: New version: [0.99.0] Old Version: [0.98.0]
+[2024-04-26 09:58:23] INFO root fetch - processPackages [pms-onpremise-encoder]: Downloading https://files.pythonhosted.org/packages/b8/6c/85fe194c4dd70acc61605149e3943c4203843cd63388bdecfd7bcc077768/pms-onpremise-encoder-0.0.7.tar.gz
+[2024-04-26 09:58:23] INFO root fetch - processPackages [aiida-workgraph]: Downloading https://files.pythonhosted.org/packages/40/2f/cf1044ca7f397322ea2efc39aed99d39391a6ddbd4a0290cf8ee2136d1d5/aiida_workgraph-0.2.0.tar.gz
+[2024-04-26 09:58:23] INFO root fetch - processPackages [candl-like]: Downloading https://files.pythonhosted.org/packages/2a/07/fa0a5bea1eb345d2004de89a8a425dc3afad9e0a46a7f1fcfdc259db071a/candl_like-1.1.0.tar.gz
+[2024-04-26 09:58:23] INFO root fetch - processPackages [screenapi-cli]: Downloading https://files.pythonhosted.org/packages/45/57/c0f9ad03f75f62563e7700702427a641653370ca5d3ca4e75ef30152bb8b/screenapi_cli-0.1.5a4.tar.gz
+[2024-04-26 09:58:23] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/58/0a/904c1f8e92c5b6adf3bf97a755cae87648f67ca82bb52bc30055558e0ce3/leadguru_jobs-0.98.0.tar.gz
+[2024-04-26 09:58:23] INFO root fetch - processPackages [prcpy]: Downloading https://files.pythonhosted.org/packages/2c/4b/04358999e84574c069740fc4a88a65616dc81fae5046a936911b4d1f6f5e/prcpy-0.1.7.tar.gz
+[2024-04-26 09:58:23] WARNING root fetch - processPackages [candl-like]: Skipping package: exceeds size limit 24880451>=10485760
+[2024-04-26 09:58:23] INFO root fetch - main [MainThread]: End processing [candl-like] error
+[2024-04-26 09:58:23] INFO root fetch - processPackages [pms-onpremise-encoder]: executing diffoscope
+[2024-04-26 09:58:23] INFO root fetch - processPackages [pms-onpremise-encoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pms-onpremise-encoder-0.0.6.tar.gz tmp/pms-onpremise-encoder-0.0.7.tar.gz --markdown 20240426/p/pms-onpremise-encoder/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-26 09:58:23] INFO root fetch - processPackages [prcpy]: executing diffoscope
+[2024-04-26 09:58:23] INFO root fetch - processPackages [prcpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prcpy-0.1.6.tar.gz tmp/prcpy-0.1.7.tar.gz --markdown 20240426/p/prcpy/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-04-26 09:58:23] INFO root fetch - processPackages [PyQtUIkit]: Downloading https://files.pythonhosted.org/packages/b9/17/86680e3f9fb25a7399e970ee957fd7fb464e7d196125413c14ece942924b/PyQtUIkit-2.8.2.tar.gz
+[2024-04-26 09:58:23] INFO root fetch - processPackages [screenapi-cli]: Downloading https://files.pythonhosted.org/packages/68/a2/3de46b8e7d050fce30f2b0af96bd543f8b7d90f5a64333dba747acb85d40/screenapi_cli-0.1.6.tar.gz
+[2024-04-26 09:58:23] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/e4/7f/189fe7a4dc1256297dd1956413531652ee35cd4ee527f02aa7f2d608775a/leadguru_jobs-0.99.0.tar.gz
+[2024-04-26 09:58:24] INFO root fetch - processPackages [leadguru-jobs]: executing diffoscope
+[2024-04-26 09:58:24] INFO root fetch - processPackages [leadguru-jobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_jobs-0.98.0.tar.gz tmp/leadguru_jobs-0.99.0.tar.gz --markdown 20240426/l/leadguru-jobs/0.98.0-0.99.0/README.md --exclude *.pyd
+[2024-04-26 09:58:24] INFO root fetch - processPackages [PyQtUIkit]: executing diffoscope
+[2024-04-26 09:58:24] INFO root fetch - processPackages [PyQtUIkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyQtUIkit-2.8.1.tar.gz tmp/PyQtUIkit-2.8.2.tar.gz --markdown 20240426/P/PyQtUIkit/2.8.1-2.8.2/README.md --exclude *.pyd
+[2024-04-26 09:58:24] INFO root fetch - processPackages [screenapi-cli]: executing diffoscope
+[2024-04-26 09:58:24] INFO root fetch - processPackages [screenapi-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/screenapi_cli-0.1.5a4.tar.gz tmp/screenapi_cli-0.1.6.tar.gz --markdown 20240426/s/screenapi-cli/0.1.5a4-0.1.6/README.md --exclude *.pyd
+[2024-04-26 09:58:24] INFO root fetch - processPackages [aiida-workgraph]: Downloading https://files.pythonhosted.org/packages/e6/d4/f3a5a90958b49c508716bfa17a2fe8800dbd79f60ca17ac6069c678ab44e/aiida_workgraph-0.2.1.tar.gz
+[2024-04-26 09:58:24] INFO root fetch - processPackages [pms-onpremise-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms-onpremise-encoder-0.0.6.tar.gz]
+[2024-04-26 09:58:24] INFO root fetch - processPackages [pms-onpremise-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms-onpremise-encoder-0.0.7.tar.gz]
+[2024-04-26 09:58:24] INFO root fetch - main [MainThread]: End processing [pms-onpremise-encoder]: success
+[2024-04-26 09:58:24] INFO root fetch - processPackages [prcpy]: Remove: archive file [/home/abi/fetcher/tmp/prcpy-0.1.6.tar.gz]
+[2024-04-26 09:58:24] INFO root fetch - processPackages [prcpy]: Remove: archive file [/home/abi/fetcher/tmp/prcpy-0.1.7.tar.gz]
+[2024-04-26 09:58:24] INFO root fetch - main [MainThread]: End processing [prcpy]: success
+[2024-04-26 09:58:24] INFO root fetch - processPackages [screenapi-cli]: Remove: archive file [/home/abi/fetcher/tmp/screenapi_cli-0.1.5a4.tar.gz]
+[2024-04-26 09:58:24] INFO root fetch - processPackages [screenapi-cli]: Remove: archive file [/home/abi/fetcher/tmp/screenapi_cli-0.1.6.tar.gz]
+[2024-04-26 09:58:24] INFO root fetch - main [MainThread]: End processing [screenapi-cli]: success
+[2024-04-26 09:58:24] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.98.0.tar.gz]
+[2024-04-26 09:58:24] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.99.0.tar.gz]
+[2024-04-26 09:58:24] INFO root fetch - main [MainThread]: End processing [leadguru-jobs]: success
+[2024-04-26 09:58:25] INFO root fetch - processPackages [PyQtUIkit]: Remove: archive file [/home/abi/fetcher/tmp/PyQtUIkit-2.8.1.tar.gz]
+[2024-04-26 09:58:25] INFO root fetch - processPackages [PyQtUIkit]: Remove: archive file [/home/abi/fetcher/tmp/PyQtUIkit-2.8.2.tar.gz]
+[2024-04-26 09:58:25] INFO root fetch - main [MainThread]: End processing [PyQtUIkit]: success
+[2024-04-26 09:58:25] INFO root fetch - processPackages [aiida-workgraph]: executing diffoscope
+[2024-04-26 09:58:25] INFO root fetch - processPackages [aiida-workgraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiida_workgraph-0.2.0.tar.gz tmp/aiida_workgraph-0.2.1.tar.gz --markdown 20240426/a/aiida-workgraph/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-04-26 09:59:10] INFO root fetch - processPackages [aiida-workgraph]: Remove: archive file [/home/abi/fetcher/tmp/aiida_workgraph-0.2.0.tar.gz]
+[2024-04-26 09:59:10] INFO root fetch - processPackages [aiida-workgraph]: Remove: archive file [/home/abi/fetcher/tmp/aiida_workgraph-0.2.1.tar.gz]
+[2024-04-26 09:59:10] INFO root fetch - main [MainThread]: End processing [aiida-workgraph]: success
+[2024-04-26 09:59:10] INFO root fetch - main [MainThread]: Store serial: [22944566]
