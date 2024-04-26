@@ -21326,3 +21326,66 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 15:23:02] INFO root fetch - processPackages [dcaspt2-input-generator]: Remove: archive file [/home/abi/fetcher/tmp/dcaspt2_input_generator-0.6.1.tar.gz]
 [2024-04-26 15:23:02] INFO root fetch - main [MainThread]: End processing [dcaspt2-input-generator]: success
 [2024-04-26 15:23:02] INFO root fetch - main [MainThread]: Store serial: [22947953]
+[2024-04-26 15:25:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22947953]
+[2024-04-26 15:25:11] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-26 15:25:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dvc-s3
+[2024-04-26 15:25:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alphaz-next
+[2024-04-26 15:25:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: docker-shaper
+[2024-04-26 15:25:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pydash
+[2024-04-26 15:25:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jeedomdaemon
+[2024-04-26 15:25:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: prisoners-dilemma
+[2024-04-26 15:25:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: neo4j-rust-ext
+[2024-04-26 15:25:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aws-ssm-juggle
+[2024-04-26 15:25:11] WARNING root fetch - processPackages [aws-ssm-juggle]: Skipping, unable to determine old version
+[2024-04-26 15:25:11] INFO root fetch - main [MainThread]: End processing [aws-ssm-juggle] error
+[2024-04-26 15:25:11] INFO root fetch - processPackages [jeedomdaemon]: New version: [0.7.2] Old Version: [0.7.1]
+[2024-04-26 15:25:11] INFO root fetch - processPackages [alphaz-next]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-04-26 15:25:11] WARNING root fetch - processPackages [prisoners-dilemma]: Skipping, unable to determine old version
+[2024-04-26 15:25:11] INFO root fetch - processPackages [dvc-s3]: New version: [3.2.0] Old Version: [3.1.0]
+[2024-04-26 15:25:11] INFO root fetch - main [MainThread]: End processing [prisoners-dilemma] error
+[2024-04-26 15:25:11] INFO root fetch - processPackages [jeedomdaemon]: Downloading https://files.pythonhosted.org/packages/b8/ef/186151d4c5ab055f0e024172c3b518a5c98f5dfad3d6823bd4801da06fd1/jeedomdaemon-0.7.1.tar.gz
+[2024-04-26 15:25:11] INFO root fetch - processPackages [docker-shaper]: New version: [2.0.0] Old Version: [0.1.9]
+[2024-04-26 15:25:11] INFO root fetch - processPackages [alphaz-next]: Downloading https://files.pythonhosted.org/packages/e6/e6/7a4622de728066dabee091925d2d468f0162e085d8ac81d1386db32e66f0/alphaz-next-0.5.8.tar.gz
+[2024-04-26 15:25:11] INFO root fetch - processPackages [pydash]: New version: [8.0.1] Old Version: [8.0.0]
+[2024-04-26 15:25:12] INFO root fetch - processPackages [dvc-s3]: Downloading https://files.pythonhosted.org/packages/af/a6/302a85a3a257bbb0cc638b00a32619f10f1f761c4335f7da88758a73b2e9/dvc-s3-3.1.0.tar.gz
+[2024-04-26 15:25:12] INFO root fetch - processPackages [neo4j-rust-ext]: New version: [5.20.0.0] Old Version: [5.19.0.0]
+[2024-04-26 15:25:12] INFO root fetch - processPackages [docker-shaper]: Downloading https://files.pythonhosted.org/packages/fa/c7/35a4daf1683178e5549c687307393c65014c4aa7dada0e5460dd1013fad1/docker_shaper-0.1.9.tar.gz
+[2024-04-26 15:25:12] INFO root fetch - processPackages [pydash]: Downloading https://files.pythonhosted.org/packages/c1/e2/3af0b7213dd338e62da339c1c99605a8e3658a31f260040f9851ce144c71/pydash-8.0.0.tar.gz
+[2024-04-26 15:25:12] INFO root fetch - processPackages [alphaz-next]: Downloading https://files.pythonhosted.org/packages/2d/91/9df6de73be4b53c78f4548229962e1314c10d2c7234b83aeddfa578f1fb1/alphaz-next-0.5.9.tar.gz
+[2024-04-26 15:25:12] INFO root fetch - processPackages [jeedomdaemon]: Downloading https://files.pythonhosted.org/packages/b8/b2/c41e1af98ab97255a16f5a6ab867aabc7f7a3208d341d8d72fabe611b14c/jeedomdaemon-0.7.2.tar.gz
+[2024-04-26 15:25:12] INFO root fetch - processPackages [alphaz-next]: executing diffoscope
+[2024-04-26 15:25:12] INFO root fetch - processPackages [alphaz-next]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alphaz-next-0.5.8.tar.gz tmp/alphaz-next-0.5.9.tar.gz --markdown 20240426/a/alphaz-next/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-04-26 15:25:12] INFO root fetch - processPackages [neo4j-rust-ext]: Downloading https://files.pythonhosted.org/packages/95/5b/949e877dfc598e5e3c79d0e0229a82b10c1b518d918980f128a32fc0eec7/neo4j_rust_ext-5.19.0.0.tar.gz
+[2024-04-26 15:25:12] INFO root fetch - processPackages [jeedomdaemon]: executing diffoscope
+[2024-04-26 15:25:12] INFO root fetch - processPackages [jeedomdaemon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jeedomdaemon-0.7.1.tar.gz tmp/jeedomdaemon-0.7.2.tar.gz --markdown 20240426/j/jeedomdaemon/0.7.1-0.7.2/README.md --exclude *.pyd
+[2024-04-26 15:25:12] INFO root fetch - processPackages [dvc-s3]: Downloading https://files.pythonhosted.org/packages/fa/cf/14e5f014f77381a58617c1ee3ae98f8fc15768e6a89ff0efac3ff7fc0016/dvc_s3-3.2.0.tar.gz
+[2024-04-26 15:25:12] INFO root fetch - processPackages [docker-shaper]: Downloading https://files.pythonhosted.org/packages/2a/fa/61f8b19ae20701ebfe7b5b61f9dc9323096ae5c7ef5f85e108bd9bfc5d00/docker_shaper-2.0.0.tar.gz
+[2024-04-26 15:25:12] INFO root fetch - processPackages [dvc-s3]: executing diffoscope
+[2024-04-26 15:25:12] INFO root fetch - processPackages [dvc-s3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvc-s3-3.1.0.tar.gz tmp/dvc_s3-3.2.0.tar.gz --markdown 20240426/d/dvc-s3/3.1.0-3.2.0/README.md --exclude *.pyd
+[2024-04-26 15:25:12] INFO root fetch - processPackages [pydash]: Downloading https://files.pythonhosted.org/packages/e8/90/4cc84d60b32f3f069817705eaf7e07f3bceff050b56132885b71303aff88/pydash-8.0.1.tar.gz
+[2024-04-26 15:25:12] INFO root fetch - processPackages [docker-shaper]: executing diffoscope
+[2024-04-26 15:25:12] INFO root fetch - processPackages [docker-shaper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docker_shaper-0.1.9.tar.gz tmp/docker_shaper-2.0.0.tar.gz --markdown 20240426/d/docker-shaper/0.1.9-2.0.0/README.md --exclude *.pyd
+[2024-04-26 15:25:12] INFO root fetch - processPackages [neo4j-rust-ext]: Downloading https://files.pythonhosted.org/packages/7a/9b/17c564c7f4fc036e014945c2b27185a7db2fb75c4e1a6174f3c0fc9ddad5/neo4j_rust_ext-5.20.0.0-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-26 15:25:12] INFO root fetch - processPackages [pydash]: executing diffoscope
+[2024-04-26 15:25:12] INFO root fetch - processPackages [pydash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydash-8.0.0.tar.gz tmp/pydash-8.0.1.tar.gz --markdown 20240426/p/pydash/8.0.0-8.0.1/README.md --exclude *.pyd
+[2024-04-26 15:25:13] INFO root fetch - processPackages [alphaz-next]: Remove: archive file [/home/abi/fetcher/tmp/alphaz-next-0.5.8.tar.gz]
+[2024-04-26 15:25:13] INFO root fetch - processPackages [alphaz-next]: Remove: archive file [/home/abi/fetcher/tmp/alphaz-next-0.5.9.tar.gz]
+[2024-04-26 15:25:13] INFO root fetch - main [MainThread]: End processing [alphaz-next]: success
+[2024-04-26 15:25:13] INFO root fetch - processPackages [jeedomdaemon]: Remove: archive file [/home/abi/fetcher/tmp/jeedomdaemon-0.7.1.tar.gz]
+[2024-04-26 15:25:13] INFO root fetch - processPackages [jeedomdaemon]: Remove: archive file [/home/abi/fetcher/tmp/jeedomdaemon-0.7.2.tar.gz]
+[2024-04-26 15:25:13] INFO root fetch - main [MainThread]: End processing [jeedomdaemon]: success
+[2024-04-26 15:25:13] INFO root fetch - processPackages [dvc-s3]: Remove: archive file [/home/abi/fetcher/tmp/dvc-s3-3.1.0.tar.gz]
+[2024-04-26 15:25:13] INFO root fetch - processPackages [dvc-s3]: Remove: archive file [/home/abi/fetcher/tmp/dvc_s3-3.2.0.tar.gz]
+[2024-04-26 15:25:13] INFO root fetch - main [MainThread]: End processing [dvc-s3]: success
+[2024-04-26 15:25:13] INFO root fetch - processPackages [docker-shaper]: Remove: archive file [/home/abi/fetcher/tmp/docker_shaper-0.1.9.tar.gz]
+[2024-04-26 15:25:13] INFO root fetch - processPackages [docker-shaper]: Remove: archive file [/home/abi/fetcher/tmp/docker_shaper-2.0.0.tar.gz]
+[2024-04-26 15:25:13] INFO root fetch - main [MainThread]: End processing [docker-shaper]: success
+[2024-04-26 15:25:13] INFO root fetch - processPackages [pydash]: Remove: archive file [/home/abi/fetcher/tmp/pydash-8.0.0.tar.gz]
+[2024-04-26 15:25:13] INFO root fetch - processPackages [pydash]: Remove: archive file [/home/abi/fetcher/tmp/pydash-8.0.1.tar.gz]
+[2024-04-26 15:25:13] INFO root fetch - main [MainThread]: End processing [pydash]: success
+[2024-04-26 15:25:13] INFO root fetch - processPackages [neo4j-rust-ext]: executing diffoscope
+[2024-04-26 15:25:13] INFO root fetch - processPackages [neo4j-rust-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neo4j_rust_ext-5.19.0.0.tar.gz tmp/neo4j_rust_ext-5.20.0.0-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240426/n/neo4j-rust-ext/5.19.0.0-5.20.0.0/README.md --exclude *.pyd
+[2024-04-26 15:25:14] INFO root fetch - processPackages [neo4j-rust-ext]: Remove: archive file [/home/abi/fetcher/tmp/neo4j_rust_ext-5.19.0.0.tar.gz]
+[2024-04-26 15:25:14] INFO root fetch - processPackages [neo4j-rust-ext]: Remove: archive file [/home/abi/fetcher/tmp/neo4j_rust_ext-5.20.0.0-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-26 15:25:14] INFO root fetch - main [MainThread]: End processing [neo4j-rust-ext]: success
+[2024-04-26 15:25:14] INFO root fetch - main [MainThread]: Store serial: [22948007]
