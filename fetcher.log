@@ -20882,3 +20882,72 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 15:05:11] INFO root fetch - processPackages [neuralogic]: Remove: archive file [/home/abi/fetcher/tmp/neuralogic-0.7.9.tar.gz]
 [2024-04-26 15:05:11] INFO root fetch - main [MainThread]: End processing [neuralogic]: success
 [2024-04-26 15:05:11] INFO root fetch - main [MainThread]: Store serial: [22947725]
+[2024-04-26 15:07:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22947725]
+[2024-04-26 15:07:20] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-26 15:07:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: geneweaver-client
+[2024-04-26 15:07:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ipyaggrid
+[2024-04-26 15:07:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dlc-run
+[2024-04-26 15:07:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spark-ai-python
+[2024-04-26 15:07:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mlsauce
+[2024-04-26 15:07:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: supervisely
+[2024-04-26 15:07:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ambit-fe
+[2024-04-26 15:07:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: netbluemind5
+[2024-04-26 15:07:20] INFO root fetch - processPackages [geneweaver-client]: New version: [0.7.0a9] Old Version: [0.7.0a8]
+[2024-04-26 15:07:20] INFO root fetch - processPackages [mlsauce]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-26 15:07:20] INFO root fetch - processPackages [spark-ai-python]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-26 15:07:20] INFO root fetch - processPackages [supervisely]: New version: [6.9.2] Old Version: [6.9.1]
+[2024-04-26 15:07:20] INFO root fetch - processPackages [geneweaver-client]: Downloading https://files.pythonhosted.org/packages/2e/7f/7dca7d295b70b7ab30034d6baf250de1cdbd53fa2f57caa003e793497674/geneweaver_client-0.7.0a8.tar.gz
+[2024-04-26 15:07:20] WARNING root fetch - processPackages [dlc-run]: Skipping, unable to determine old version
+[2024-04-26 15:07:20] INFO root fetch - main [MainThread]: End processing [dlc-run] error
+[2024-04-26 15:07:20] INFO root fetch - processPackages [ambit-fe]: New version: [1.2.6] Old Version: [1.2.5]
+[2024-04-26 15:07:20] INFO root fetch - processPackages [ipyaggrid]: New version: [0.5.3] Old Version: [0.5.2]
+[2024-04-26 15:07:20] INFO root fetch - processPackages [mlsauce]: Downloading https://files.pythonhosted.org/packages/09/f7/2b520a477f7710396348e4b9d582826758d5b083fe9b79613abe9c1435dd/mlsauce-0.9.0.tar.gz
+[2024-04-26 15:07:20] INFO root fetch - processPackages [spark-ai-python]: Downloading https://files.pythonhosted.org/packages/f4/fb/add24d391c9e74bdc54b217e18d2a6003fb4db73d26fd757acf24fc284b0/spark_ai_python-0.3.8.tar.gz
+[2024-04-26 15:07:20] INFO root fetch - processPackages [netbluemind5]: New version: [5.0.7317] Old Version: [5.0.7187]
+[2024-04-26 15:07:20] INFO root fetch - processPackages [supervisely]: Downloading https://files.pythonhosted.org/packages/bf/5a/d1c5e1830d747d899ac781f368bbd65eb9c02eaf0faf98d318a7dd8cce53/supervisely-6.9.1.tar.gz
+[2024-04-26 15:07:20] INFO root fetch - processPackages [ipyaggrid]: Downloading https://files.pythonhosted.org/packages/bf/4f/bdfe8cdac61ed95babe6dec09ca8e54f3c973e1f780232d99589dc3deb81/ipyaggrid-0.5.2.tar.gz
+[2024-04-26 15:07:20] INFO root fetch - processPackages [geneweaver-client]: Downloading https://files.pythonhosted.org/packages/0d/1d/f125a31058234477d1adf7159b6f818dde907a752d86f4ae96df5a24987c/geneweaver_client-0.7.0a9.tar.gz
+[2024-04-26 15:07:20] INFO root fetch - processPackages [ambit-fe]: Downloading https://files.pythonhosted.org/packages/34/bc/aefcadee983bccd7ad004ba8998a313d8fbec2867c58c407d0642f1ff916/ambit-fe-1.2.5.tar.gz
+[2024-04-26 15:07:20] INFO root fetch - processPackages [netbluemind5]: Downloading https://files.pythonhosted.org/packages/af/c5/0a521437e121d241a71cdaf7f825e2b169a550a88a68f8aabccf36bf7bbc/netbluemind5-5.0.7187.tar.gz
+[2024-04-26 15:07:20] INFO root fetch - processPackages [mlsauce]: Downloading https://files.pythonhosted.org/packages/34/94/ecad26410f10cd9ffb719f2bc235ed21c44541226f01a963cd37706f4b37/mlsauce-0.9.1.tar.gz
+[2024-04-26 15:07:20] INFO root fetch - processPackages [supervisely]: Downloading https://files.pythonhosted.org/packages/bf/56/78987e56220fcb935013105de97143fb9371ba9732a7dcdcb9451350a28f/supervisely-6.9.2.tar.gz
+[2024-04-26 15:07:20] INFO root fetch - processPackages [spark-ai-python]: Downloading https://files.pythonhosted.org/packages/9c/8f/839a31dcb40a663647214e2c2a849dd29aba055b051276318cae0b879c67/spark_ai_python-0.3.9.tar.gz
+[2024-04-26 15:07:20] INFO root fetch - processPackages [geneweaver-client]: executing diffoscope
+[2024-04-26 15:07:20] INFO root fetch - processPackages [geneweaver-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geneweaver_client-0.7.0a8.tar.gz tmp/geneweaver_client-0.7.0a9.tar.gz --markdown 20240426/g/geneweaver-client/0.7.0a8-0.7.0a9/README.md --exclude *.pyd
+[2024-04-26 15:07:20] INFO root fetch - processPackages [mlsauce]: executing diffoscope
+[2024-04-26 15:07:20] INFO root fetch - processPackages [mlsauce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlsauce-0.9.0.tar.gz tmp/mlsauce-0.9.1.tar.gz --markdown 20240426/m/mlsauce/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-26 15:07:20] INFO root fetch - processPackages [supervisely]: executing diffoscope
+[2024-04-26 15:07:20] INFO root fetch - processPackages [supervisely]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supervisely-6.9.1.tar.gz tmp/supervisely-6.9.2.tar.gz --markdown 20240426/s/supervisely/6.9.1-6.9.2/README.md --exclude *.pyd
+[2024-04-26 15:07:20] INFO root fetch - processPackages [spark-ai-python]: executing diffoscope
+[2024-04-26 15:07:20] INFO root fetch - processPackages [spark-ai-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spark_ai_python-0.3.8.tar.gz tmp/spark_ai_python-0.3.9.tar.gz --markdown 20240426/s/spark-ai-python/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-04-26 15:07:21] INFO root fetch - processPackages [ambit-fe]: Downloading https://files.pythonhosted.org/packages/0d/15/ad29923e4c018910fad198b394906f97dbd11591e0a5a7a5e123a4e4e27e/ambit_fe-1.2.6.tar.gz
+[2024-04-26 15:07:21] INFO root fetch - processPackages [netbluemind5]: Downloading https://files.pythonhosted.org/packages/f0/9b/412455f67d8f6899d1859e3d0f7d2f9bcb8ebafc69b4c40bb62210afbd85/netbluemind5-5.0.7317.tar.gz
+[2024-04-26 15:07:21] INFO root fetch - processPackages [ambit-fe]: executing diffoscope
+[2024-04-26 15:07:21] INFO root fetch - processPackages [ambit-fe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ambit-fe-1.2.5.tar.gz tmp/ambit_fe-1.2.6.tar.gz --markdown 20240426/a/ambit-fe/1.2.5-1.2.6/README.md --exclude *.pyd
+[2024-04-26 15:07:21] INFO root fetch - processPackages [netbluemind5]: executing diffoscope
+[2024-04-26 15:07:21] INFO root fetch - processPackages [netbluemind5]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbluemind5-5.0.7187.tar.gz tmp/netbluemind5-5.0.7317.tar.gz --markdown 20240426/n/netbluemind5/5.0.7187-5.0.7317/README.md --exclude *.pyd
+[2024-04-26 15:07:21] INFO root fetch - processPackages [ipyaggrid]: Downloading https://files.pythonhosted.org/packages/15/5d/ad83be17b1133a4f928ec467b0f8ef162dc40d74bf48723e50f06dfcb116/ipyaggrid-0.5.3.tar.gz
+[2024-04-26 15:07:21] INFO root fetch - processPackages [mlsauce]: Remove: archive file [/home/abi/fetcher/tmp/mlsauce-0.9.0.tar.gz]
+[2024-04-26 15:07:21] INFO root fetch - processPackages [mlsauce]: Remove: archive file [/home/abi/fetcher/tmp/mlsauce-0.9.1.tar.gz]
+[2024-04-26 15:07:21] INFO root fetch - main [MainThread]: End processing [mlsauce]: success
+[2024-04-26 15:07:21] INFO root fetch - processPackages [geneweaver-client]: Remove: archive file [/home/abi/fetcher/tmp/geneweaver_client-0.7.0a8.tar.gz]
+[2024-04-26 15:07:21] INFO root fetch - processPackages [geneweaver-client]: Remove: archive file [/home/abi/fetcher/tmp/geneweaver_client-0.7.0a9.tar.gz]
+[2024-04-26 15:07:21] INFO root fetch - main [MainThread]: End processing [geneweaver-client]: success
+[2024-04-26 15:07:22] INFO root fetch - processPackages [spark-ai-python]: Remove: archive file [/home/abi/fetcher/tmp/spark_ai_python-0.3.8.tar.gz]
+[2024-04-26 15:07:22] INFO root fetch - processPackages [spark-ai-python]: Remove: archive file [/home/abi/fetcher/tmp/spark_ai_python-0.3.9.tar.gz]
+[2024-04-26 15:07:22] INFO root fetch - main [MainThread]: End processing [spark-ai-python]: success
+[2024-04-26 15:07:22] INFO root fetch - processPackages [ipyaggrid]: executing diffoscope
+[2024-04-26 15:07:22] INFO root fetch - processPackages [ipyaggrid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipyaggrid-0.5.2.tar.gz tmp/ipyaggrid-0.5.3.tar.gz --markdown 20240426/i/ipyaggrid/0.5.2-0.5.3/README.md --exclude *.pyd
+[2024-04-26 15:07:22] INFO root fetch - processPackages [supervisely]: Remove: archive file [/home/abi/fetcher/tmp/supervisely-6.9.1.tar.gz]
+[2024-04-26 15:07:22] INFO root fetch - processPackages [supervisely]: Remove: archive file [/home/abi/fetcher/tmp/supervisely-6.9.2.tar.gz]
+[2024-04-26 15:07:22] INFO root fetch - main [MainThread]: End processing [supervisely]: success
+[2024-04-26 15:07:22] INFO root fetch - processPackages [ambit-fe]: Remove: archive file [/home/abi/fetcher/tmp/ambit-fe-1.2.5.tar.gz]
+[2024-04-26 15:07:22] INFO root fetch - processPackages [ambit-fe]: Remove: archive file [/home/abi/fetcher/tmp/ambit_fe-1.2.6.tar.gz]
+[2024-04-26 15:07:22] INFO root fetch - main [MainThread]: End processing [ambit-fe]: success
+[2024-04-26 15:07:23] INFO root fetch - processPackages [netbluemind5]: Remove: archive file [/home/abi/fetcher/tmp/netbluemind5-5.0.7187.tar.gz]
+[2024-04-26 15:07:23] INFO root fetch - processPackages [netbluemind5]: Remove: archive file [/home/abi/fetcher/tmp/netbluemind5-5.0.7317.tar.gz]
+[2024-04-26 15:07:23] INFO root fetch - main [MainThread]: End processing [netbluemind5]: success
+[2024-04-26 15:07:48] INFO root fetch - processPackages [ipyaggrid]: Remove: archive file [/home/abi/fetcher/tmp/ipyaggrid-0.5.2.tar.gz]
+[2024-04-26 15:07:48] INFO root fetch - processPackages [ipyaggrid]: Remove: archive file [/home/abi/fetcher/tmp/ipyaggrid-0.5.3.tar.gz]
+[2024-04-26 15:07:48] INFO root fetch - main [MainThread]: End processing [ipyaggrid]: success
+[2024-04-26 15:07:48] INFO root fetch - main [MainThread]: Store serial: [22947750]
