@@ -23295,3 +23295,63 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 16:40:24] INFO root fetch - processPackages [Typhoon-HIL-API]: Remove: archive file [/home/abi/fetcher/tmp/Typhoon_HIL_API-1.9.0-py2.py3-none-any.whl.zip]
 [2024-04-26 16:40:24] INFO root fetch - main [MainThread]: End processing [Typhoon-HIL-API]: success
 [2024-04-26 16:40:24] INFO root fetch - main [MainThread]: Store serial: [22948756]
+[2024-04-26 16:42:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22948756]
+[2024-04-26 16:42:33] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-26 16:42:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: synthetic-aia-mia
+[2024-04-26 16:42:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cada
+[2024-04-26 16:42:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Gefyra
+[2024-04-26 16:42:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-unfold-admin-list-filter-dropdown
+[2024-04-26 16:42:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: track2p
+[2024-04-26 16:42:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rooms-shared-services
+[2024-04-26 16:42:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: etm-dgraham
+[2024-04-26 16:42:34] WARNING root fetch - processPackages [django-unfold-admin-list-filter-dropdown]: Skipping, unable to determine old version
+[2024-04-26 16:42:34] INFO root fetch - main [MainThread]: End processing [django-unfold-admin-list-filter-dropdown] error
+[2024-04-26 16:42:34] INFO root fetch - processPackages [Gefyra]: New version: [2.1.1] Old Version: [2.1.0]
+[2024-04-26 16:42:34] INFO root fetch - processPackages [synthetic-aia-mia]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-26 16:42:34] INFO root fetch - processPackages [track2p]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-04-26 16:42:34] INFO root fetch - processPackages [cada]: New version: [1.0.1.dev160] Old Version: [1.0.1.dev146]
+[2024-04-26 16:42:34] INFO root fetch - processPackages [rooms-shared-services]: New version: [0.1.99] Old Version: [0.1.97]
+[2024-04-26 16:42:34] INFO root fetch - processPackages [etm-dgraham]: New version: [6.1.9] Old Version: [6.1.8]
+[2024-04-26 16:42:34] INFO root fetch - processPackages [Gefyra]: Downloading https://files.pythonhosted.org/packages/63/c5/69f1f9dfd469eaa24d88157078aa4e80cfdd69a5549a68094cb57f70363b/gefyra-2.1.0.tar.gz
+[2024-04-26 16:42:34] INFO root fetch - processPackages [synthetic-aia-mia]: Downloading https://files.pythonhosted.org/packages/ac/a7/4b74c7e4ecfe669e7feb5457494d74cefdfe4b615b36b82866672ffdf117/synthetic_aia_mia-0.0.8.tar.gz
+[2024-04-26 16:42:34] INFO root fetch - processPackages [track2p]: Downloading https://files.pythonhosted.org/packages/9b/17/b819c42021ebf27d44ca091b71b1ff4180745038461fa6bdf4c5c56b5b6e/track2p-0.5.1.tar.gz
+[2024-04-26 16:42:34] INFO root fetch - processPackages [rooms-shared-services]: Downloading https://files.pythonhosted.org/packages/16/6e/7a35dabe25e96c04274cbd9f69a6e68b4f36dc149e22451fb099f79d153e/rooms_shared_services-0.1.97.tar.gz
+[2024-04-26 16:42:34] INFO root fetch - processPackages [cada]: Downloading https://files.pythonhosted.org/packages/99/bd/2ef2a30a112d3f98d215abab0e65609b39e8c063dd45af29827c042b24ef/cada-1.0.1.dev146-py3-none-any.whl
+[2024-04-26 16:42:34] INFO root fetch - processPackages [etm-dgraham]: Downloading https://files.pythonhosted.org/packages/ec/17/0e748df245b314530d0c4a448f7637d8f01b8bfcaf3445681e43dc256c8b/etm-dgraham-6.1.8.tar.gz
+[2024-04-26 16:42:34] INFO root fetch - processPackages [Gefyra]: Downloading https://files.pythonhosted.org/packages/80/54/fb37c6ae060e7a21fe4a4aac50091bc047fc98aa2a5e610a2a6e20d579a7/gefyra-2.1.1.tar.gz
+[2024-04-26 16:42:34] INFO root fetch - processPackages [rooms-shared-services]: Downloading https://files.pythonhosted.org/packages/69/d1/238526d33d58183ec73b9cb900a4aea16c13e7618af0394e6c55838d4395/rooms_shared_services-0.1.99.tar.gz
+[2024-04-26 16:42:34] INFO root fetch - processPackages [track2p]: Downloading https://files.pythonhosted.org/packages/03/09/c2e8c17b2ecb86afdb9bc3fefa5cad660523999d59845bf543177013c4ac/track2p-0.5.2.tar.gz
+[2024-04-26 16:42:34] INFO root fetch - processPackages [synthetic-aia-mia]: Downloading https://files.pythonhosted.org/packages/80/38/e87a2a4460fb149ee691426d520c46087c724438cf8d716c5ee7effbb51f/synthetic_aia_mia-0.0.9.tar.gz
+[2024-04-26 16:42:35] INFO root fetch - processPackages [cada]: Downloading https://files.pythonhosted.org/packages/44/62/5cbe14c08945bcb0b889d7a999ff4c8b1ed7cd41e2cfa70c9cf78c4a331c/cada-1.0.1.dev160-py3-none-any.whl
+[2024-04-26 16:42:35] INFO root fetch - processPackages [rooms-shared-services]: executing diffoscope
+[2024-04-26 16:42:35] INFO root fetch - processPackages [rooms-shared-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rooms_shared_services-0.1.97.tar.gz tmp/rooms_shared_services-0.1.99.tar.gz --markdown 20240426/r/rooms-shared-services/0.1.97-0.1.99/README.md --exclude *.pyd
+[2024-04-26 16:42:35] INFO root fetch - processPackages [Gefyra]: executing diffoscope
+[2024-04-26 16:42:35] INFO root fetch - processPackages [Gefyra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gefyra-2.1.0.tar.gz tmp/gefyra-2.1.1.tar.gz --markdown 20240426/G/Gefyra/2.1.0-2.1.1/README.md --exclude *.pyd
+[2024-04-26 16:42:35] INFO root fetch - processPackages [cada]: executing diffoscope
+[2024-04-26 16:42:35] INFO root fetch - processPackages [cada]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cada-1.0.1.dev146-py3-none-any.whl.zip tmp/cada-1.0.1.dev160-py3-none-any.whl.zip --markdown 20240426/c/cada/1.0.1.dev146-1.0.1.dev160/README.md --exclude *.pyd
+[2024-04-26 16:42:35] INFO root fetch - processPackages [track2p]: executing diffoscope
+[2024-04-26 16:42:35] INFO root fetch - processPackages [track2p]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/track2p-0.5.1.tar.gz tmp/track2p-0.5.2.tar.gz --markdown 20240426/t/track2p/0.5.1-0.5.2/README.md --exclude *.pyd
+[2024-04-26 16:42:35] INFO root fetch - processPackages [etm-dgraham]: Downloading https://files.pythonhosted.org/packages/c0/35/35ec59f655a6c82f49b3aa4340c5444b7f5eeae9e8087a0313988a8a89ae/etm-dgraham-6.1.9.tar.gz
+[2024-04-26 16:42:35] INFO root fetch - processPackages [synthetic-aia-mia]: executing diffoscope
+[2024-04-26 16:42:35] INFO root fetch - processPackages [synthetic-aia-mia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synthetic_aia_mia-0.0.8.tar.gz tmp/synthetic_aia_mia-0.0.9.tar.gz --markdown 20240426/s/synthetic-aia-mia/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-26 16:42:35] INFO root fetch - processPackages [etm-dgraham]: executing diffoscope
+[2024-04-26 16:42:35] INFO root fetch - processPackages [etm-dgraham]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/etm-dgraham-6.1.8.tar.gz tmp/etm-dgraham-6.1.9.tar.gz --markdown 20240426/e/etm-dgraham/6.1.8-6.1.9/README.md --exclude *.pyd
+[2024-04-26 16:42:35] INFO root fetch - processPackages [Gefyra]: Remove: archive file [/home/abi/fetcher/tmp/gefyra-2.1.0.tar.gz]
+[2024-04-26 16:42:35] INFO root fetch - processPackages [rooms-shared-services]: Remove: archive file [/home/abi/fetcher/tmp/rooms_shared_services-0.1.97.tar.gz]
+[2024-04-26 16:42:35] INFO root fetch - processPackages [Gefyra]: Remove: archive file [/home/abi/fetcher/tmp/gefyra-2.1.1.tar.gz]
+[2024-04-26 16:42:35] INFO root fetch - processPackages [rooms-shared-services]: Remove: archive file [/home/abi/fetcher/tmp/rooms_shared_services-0.1.99.tar.gz]
+[2024-04-26 16:42:35] INFO root fetch - main [MainThread]: End processing [Gefyra]: success
+[2024-04-26 16:42:35] INFO root fetch - main [MainThread]: End processing [rooms-shared-services]: success
+[2024-04-26 16:42:35] INFO root fetch - processPackages [track2p]: Remove: archive file [/home/abi/fetcher/tmp/track2p-0.5.1.tar.gz]
+[2024-04-26 16:42:35] INFO root fetch - processPackages [track2p]: Remove: archive file [/home/abi/fetcher/tmp/track2p-0.5.2.tar.gz]
+[2024-04-26 16:42:35] INFO root fetch - main [MainThread]: End processing [track2p]: success
+[2024-04-26 16:42:36] INFO root fetch - processPackages [cada]: Remove: archive file [/home/abi/fetcher/tmp/cada-1.0.1.dev146-py3-none-any.whl.zip]
+[2024-04-26 16:42:36] INFO root fetch - processPackages [cada]: Remove: archive file [/home/abi/fetcher/tmp/cada-1.0.1.dev160-py3-none-any.whl.zip]
+[2024-04-26 16:42:36] INFO root fetch - main [MainThread]: End processing [cada]: success
+[2024-04-26 16:42:36] INFO root fetch - processPackages [etm-dgraham]: Remove: archive file [/home/abi/fetcher/tmp/etm-dgraham-6.1.8.tar.gz]
+[2024-04-26 16:42:36] INFO root fetch - processPackages [etm-dgraham]: Remove: archive file [/home/abi/fetcher/tmp/etm-dgraham-6.1.9.tar.gz]
+[2024-04-26 16:42:36] INFO root fetch - main [MainThread]: End processing [etm-dgraham]: success
+[2024-04-26 16:42:36] INFO root fetch - processPackages [synthetic-aia-mia]: Remove: archive file [/home/abi/fetcher/tmp/synthetic_aia_mia-0.0.8.tar.gz]
+[2024-04-26 16:42:36] INFO root fetch - processPackages [synthetic-aia-mia]: Remove: archive file [/home/abi/fetcher/tmp/synthetic_aia_mia-0.0.9.tar.gz]
+[2024-04-26 16:42:36] INFO root fetch - main [MainThread]: End processing [synthetic-aia-mia]: success
+[2024-04-26 16:42:36] INFO root fetch - main [MainThread]: Store serial: [22948774]
