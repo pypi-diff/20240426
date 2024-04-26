@@ -15036,3 +15036,36 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 10:48:51] INFO root fetch - processPackages [physicsml]: Remove: archive file [/home/abi/fetcher/tmp/physicsml-0.2.4.tar.gz]
 [2024-04-26 10:48:51] INFO root fetch - main [MainThread]: End processing [physicsml]: success
 [2024-04-26 10:48:51] INFO root fetch - main [MainThread]: Store serial: [22945307]
+[2024-04-26 10:50:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22945307]
+[2024-04-26 10:51:00] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-26 10:51:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: glpic
+[2024-04-26 10:51:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: smartieee
+[2024-04-26 10:51:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pysalesforceutils
+[2024-04-26 10:51:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: clump-python
+[2024-04-26 10:51:00] INFO root fetch - processPackages [glpic]: New version: [99.0.202404252200] Old Version: [99.0.202404252110]
+[2024-04-26 10:51:00] WARNING root fetch - processPackages [smartieee]: Skipping, unable to determine old version
+[2024-04-26 10:51:00] INFO root fetch - main [MainThread]: End processing [smartieee] error
+[2024-04-26 10:51:00] INFO root fetch - processPackages [pysalesforceutils]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-26 10:51:00] INFO root fetch - processPackages [glpic]: Downloading https://files.pythonhosted.org/packages/0e/e9/c660a22c6ac2a2b5375db3c4b3e6cf85c03596567d7c65a6600a5e123317/glpic-99.0.202404252110.tar.gz
+[2024-04-26 10:51:00] INFO root fetch - processPackages [pysalesforceutils]: Downloading https://files.pythonhosted.org/packages/bb/5d/fe6d5f98f5708c179a7e05bd891ed031adc9d9877b2f4304ab338bc2d00b/pysalesforceutils-1.0.8.tar.gz
+[2024-04-26 10:51:00] INFO root fetch - processPackages [clump-python]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-04-26 10:51:01] INFO root fetch - processPackages [clump-python]: Downloading https://files.pythonhosted.org/packages/2b/07/3e9caa9c57aee181348c66094417ff155641f309800e53d7b19d28be548b/clump-python-0.2.4.tar.gz
+[2024-04-26 10:51:01] INFO root fetch - processPackages [pysalesforceutils]: Downloading https://files.pythonhosted.org/packages/0e/d7/121f905afe4cdb7cce7680a81234902a55dbde8c2201e2501a9ee90dfcfc/pysalesforceutils-1.0.9.tar.gz
+[2024-04-26 10:51:01] INFO root fetch - processPackages [glpic]: Downloading https://files.pythonhosted.org/packages/79/cb/ee2b4a44a9796d30a7fdc8134219188be4e3bff935681fb5b6b4dd00572a/glpic-99.0.202404252200.tar.gz
+[2024-04-26 10:51:01] INFO root fetch - processPackages [pysalesforceutils]: executing diffoscope
+[2024-04-26 10:51:01] INFO root fetch - processPackages [pysalesforceutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysalesforceutils-1.0.8.tar.gz tmp/pysalesforceutils-1.0.9.tar.gz --markdown 20240426/p/pysalesforceutils/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-26 10:51:01] INFO root fetch - processPackages [glpic]: executing diffoscope
+[2024-04-26 10:51:01] INFO root fetch - processPackages [glpic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glpic-99.0.202404252110.tar.gz tmp/glpic-99.0.202404252200.tar.gz --markdown 20240426/g/glpic/99.0.202404252110-99.0.202404252200/README.md --exclude *.pyd
+[2024-04-26 10:51:01] INFO root fetch - processPackages [clump-python]: Downloading https://files.pythonhosted.org/packages/9a/f1/93b5875687b89661cb76222c0eec2475eadb5e6fed3439b26fd275316296/clump-python-0.2.5.tar.gz
+[2024-04-26 10:51:01] INFO root fetch - processPackages [clump-python]: executing diffoscope
+[2024-04-26 10:51:01] INFO root fetch - processPackages [clump-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clump-python-0.2.4.tar.gz tmp/clump-python-0.2.5.tar.gz --markdown 20240426/c/clump-python/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-04-26 10:51:01] INFO root fetch - processPackages [glpic]: Remove: archive file [/home/abi/fetcher/tmp/glpic-99.0.202404252110.tar.gz]
+[2024-04-26 10:51:01] INFO root fetch - processPackages [glpic]: Remove: archive file [/home/abi/fetcher/tmp/glpic-99.0.202404252200.tar.gz]
+[2024-04-26 10:51:01] INFO root fetch - main [MainThread]: End processing [glpic]: success
+[2024-04-26 10:51:02] INFO root fetch - processPackages [pysalesforceutils]: Remove: archive file [/home/abi/fetcher/tmp/pysalesforceutils-1.0.8.tar.gz]
+[2024-04-26 10:51:02] INFO root fetch - processPackages [pysalesforceutils]: Remove: archive file [/home/abi/fetcher/tmp/pysalesforceutils-1.0.9.tar.gz]
+[2024-04-26 10:51:02] INFO root fetch - main [MainThread]: End processing [pysalesforceutils]: success
+[2024-04-26 10:51:02] INFO root fetch - processPackages [clump-python]: Remove: archive file [/home/abi/fetcher/tmp/clump-python-0.2.4.tar.gz]
+[2024-04-26 10:51:02] INFO root fetch - processPackages [clump-python]: Remove: archive file [/home/abi/fetcher/tmp/clump-python-0.2.5.tar.gz]
+[2024-04-26 10:51:02] INFO root fetch - main [MainThread]: End processing [clump-python]: success
+[2024-04-26 10:51:02] INFO root fetch - main [MainThread]: Store serial: [22945338]
