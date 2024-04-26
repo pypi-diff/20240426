@@ -2785,3 +2785,24 @@
 [2024-04-26 02:52:06] INFO root fetch - processPackages [quant2]: Remove: archive file [/home/abi/fetcher/tmp/quant2-0.1.9.tar.gz]
 [2024-04-26 02:52:06] INFO root fetch - main [MainThread]: End processing [quant2]: success
 [2024-04-26 02:52:06] INFO root fetch - main [MainThread]: Store serial: [22940211]
+[2024-04-26 02:54:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22940211]
+[2024-04-26 02:54:14] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-26 02:54:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-lambda-layer-curl
+[2024-04-26 02:54:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lt-gee-py
+[2024-04-26 02:54:15] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-04-26 02:54:15] INFO root fetch - processPackages [lt-gee-py]: New version: [0.0.1a3] Old Version: [0.0.1a2]
+[2024-04-26 02:54:15] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/c8/e2/39c88cfa63f418383f3a383b2b62dfe801cbfd5c53de4d005804c19d76dc/cdk-lambda-layer-curl-2.0.98.tar.gz
+[2024-04-26 02:54:15] INFO root fetch - processPackages [lt-gee-py]: Downloading https://files.pythonhosted.org/packages/bd/91/ac1229036ca844e336fe374330a8eb66c742f2e2f25e16ed354319648df1/lt-gee-py-0.0.1a2.tar.gz
+[2024-04-26 02:54:15] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/2e/02/9e7ab6bc6191e2cbe6705c1530f695ed00527096133668b731e72d6a6445/cdk-lambda-layer-curl-2.0.99.tar.gz
+[2024-04-26 02:54:15] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2024-04-26 02:54:15] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20240426/c/cdk-lambda-layer-curl/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-04-26 02:54:15] INFO root fetch - processPackages [lt-gee-py]: Downloading https://files.pythonhosted.org/packages/50/f4/2b4afaeaf1be035d627eba05b2c0dfa30bcfb961cf5cdc58b4fae60a175f/lt_gee_py-0.0.1a3.tar.gz
+[2024-04-26 02:54:15] INFO root fetch - processPackages [lt-gee-py]: executing diffoscope
+[2024-04-26 02:54:15] INFO root fetch - processPackages [lt-gee-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lt-gee-py-0.0.1a2.tar.gz tmp/lt_gee_py-0.0.1a3.tar.gz --markdown 20240426/l/lt-gee-py/0.0.1a2-0.0.1a3/README.md --exclude *.pyd
+[2024-04-26 02:54:16] INFO root fetch - processPackages [lt-gee-py]: Remove: archive file [/home/abi/fetcher/tmp/lt-gee-py-0.0.1a2.tar.gz]
+[2024-04-26 02:54:16] INFO root fetch - processPackages [lt-gee-py]: Remove: archive file [/home/abi/fetcher/tmp/lt_gee_py-0.0.1a3.tar.gz]
+[2024-04-26 02:54:16] INFO root fetch - main [MainThread]: End processing [lt-gee-py]: success
+[2024-04-26 02:54:16] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.98.tar.gz]
+[2024-04-26 02:54:16] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
+[2024-04-26 02:54:16] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2024-04-26 02:54:16] INFO root fetch - main [MainThread]: Store serial: [22940222]
