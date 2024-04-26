@@ -18251,3 +18251,33 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 13:02:58] INFO root fetch - processPackages [caen-hv-py]: Remove: archive file [/home/abi/fetcher/tmp/caen_hv_py-1.1.tar.gz]
 [2024-04-26 13:02:58] INFO root fetch - main [MainThread]: End processing [caen-hv-py]: success
 [2024-04-26 13:02:58] INFO root fetch - main [MainThread]: Store serial: [22946609]
+[2024-04-26 13:05:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22946609]
+[2024-04-26 13:05:07] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-26 13:05:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kcli
+[2024-04-26 13:05:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: llm-monitoring-sascha
+[2024-04-26 13:05:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bert4keras3
+[2024-04-26 13:05:07] INFO root fetch - processPackages [bert4keras3]: New version: [1.3.1] Old Version: [1.3]
+[2024-04-26 13:05:07] INFO root fetch - processPackages [llm-monitoring-sascha]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-26 13:05:07] INFO root fetch - processPackages [kcli]: New version: [99.0.202404261008] Old Version: [99.0.202404260943]
+[2024-04-26 13:05:07] INFO root fetch - processPackages [llm-monitoring-sascha]: Downloading https://files.pythonhosted.org/packages/e9/3d/6aea9a113ce637642fb8e2a5be04f1edad8b64333d061c2d0b393db35c9b/llm_monitoring_sascha-0.0.6.tar.gz
+[2024-04-26 13:05:07] INFO root fetch - processPackages [bert4keras3]: Downloading https://files.pythonhosted.org/packages/f2/80/73f9b3db714831dc7b41712802d6b74614b26b9a98effa79701bafeb824c/bert4keras3-1.3-py3-none-any.whl
+[2024-04-26 13:05:07] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/04/e3/9190da91d028cb934205a1d62c745aaf4c19559f252d05f7acf86e8417ff/kcli-99.0.202404260943.tar.gz
+[2024-04-26 13:05:08] INFO root fetch - processPackages [bert4keras3]: Downloading https://files.pythonhosted.org/packages/d6/bc/a71f8adb44f91e4c995157450de5b408e29c67cfae3af1f6fd10c25f0e24/bert4keras3-1.3.1-py3-none-any.whl
+[2024-04-26 13:05:08] INFO root fetch - processPackages [llm-monitoring-sascha]: Downloading https://files.pythonhosted.org/packages/2e/45/aaaf24b095248c5f519f1b29655b8031e796debbf88d0ebaa63adaffdcfc/llm_monitoring_sascha-0.0.7.tar.gz
+[2024-04-26 13:05:08] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/b1/6c/a85e40f78ce3283b42659cd80ce178568105cc85eb1b637d843fd16b067d/kcli-99.0.202404261008.tar.gz
+[2024-04-26 13:05:08] INFO root fetch - processPackages [bert4keras3]: executing diffoscope
+[2024-04-26 13:05:08] INFO root fetch - processPackages [bert4keras3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bert4keras3-1.3-py3-none-any.whl.zip tmp/bert4keras3-1.3.1-py3-none-any.whl.zip --markdown 20240426/b/bert4keras3/1.3-1.3.1/README.md --exclude *.pyd
+[2024-04-26 13:05:08] INFO root fetch - processPackages [llm-monitoring-sascha]: executing diffoscope
+[2024-04-26 13:05:08] INFO root fetch - processPackages [llm-monitoring-sascha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm_monitoring_sascha-0.0.6.tar.gz tmp/llm_monitoring_sascha-0.0.7.tar.gz --markdown 20240426/l/llm-monitoring-sascha/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-26 13:05:08] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2024-04-26 13:05:08] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202404260943.tar.gz tmp/kcli-99.0.202404261008.tar.gz --markdown 20240426/k/kcli/99.0.202404260943-99.0.202404261008/README.md --exclude *.pyd
+[2024-04-26 13:05:08] INFO root fetch - processPackages [llm-monitoring-sascha]: Remove: archive file [/home/abi/fetcher/tmp/llm_monitoring_sascha-0.0.6.tar.gz]
+[2024-04-26 13:05:08] INFO root fetch - processPackages [llm-monitoring-sascha]: Remove: archive file [/home/abi/fetcher/tmp/llm_monitoring_sascha-0.0.7.tar.gz]
+[2024-04-26 13:05:08] INFO root fetch - main [MainThread]: End processing [llm-monitoring-sascha]: success
+[2024-04-26 13:05:08] INFO root fetch - processPackages [bert4keras3]: Remove: archive file [/home/abi/fetcher/tmp/bert4keras3-1.3-py3-none-any.whl.zip]
+[2024-04-26 13:05:08] INFO root fetch - processPackages [bert4keras3]: Remove: archive file [/home/abi/fetcher/tmp/bert4keras3-1.3.1-py3-none-any.whl.zip]
+[2024-04-26 13:05:08] INFO root fetch - main [MainThread]: End processing [bert4keras3]: success
+[2024-04-26 13:05:10] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202404260943.tar.gz]
+[2024-04-26 13:05:10] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202404261008.tar.gz]
+[2024-04-26 13:05:10] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2024-04-26 13:05:10] INFO root fetch - main [MainThread]: Store serial: [22946618]
