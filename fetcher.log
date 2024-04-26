@@ -6925,3 +6925,42 @@
 [2024-04-26 03:36:47] INFO root fetch - processPackages [sbcli-dev]: Remove: archive file [/home/abi/fetcher/tmp/sbcli_dev-2.3.8.zip]
 [2024-04-26 03:36:47] INFO root fetch - main [MainThread]: End processing [sbcli-dev]: success
 [2024-04-26 03:36:47] INFO root fetch - main [MainThread]: Store serial: [22941688]
+[2024-04-26 03:38:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22941688]
+[2024-04-26 03:38:55] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-26 03:38:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: magictk
+[2024-04-26 03:38:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: radifox
+[2024-04-26 03:38:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gingerai
+[2024-04-26 03:38:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: neon-mana-utils
+[2024-04-26 03:38:55] INFO root fetch - processPackages [gingerai]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-26 03:38:55] INFO root fetch - processPackages [magictk]: New version: [0.0.2.54] Old Version: [0.0.2.53]
+[2024-04-26 03:38:55] INFO root fetch - processPackages [neon-mana-utils]: New version: [0.2.3a2] Old Version: [0.2.3a1]
+[2024-04-26 03:38:55] INFO root fetch - processPackages [radifox]: New version: [1.1.0] Old Version: [1.0.9]
+[2024-04-26 03:38:55] INFO root fetch - processPackages [gingerai]: Downloading https://files.pythonhosted.org/packages/93/63/5f4a6d2549870026eff659d1fc9aac0f6c9532ea741f07ac2083cd3a1cfe/gingerai-0.1.8.tar.gz
+[2024-04-26 03:38:56] INFO root fetch - processPackages [magictk]: Downloading https://files.pythonhosted.org/packages/fb/d1/b266528bf02cbf889b34f79c4151c2ae94a0565106d680515a75464aca67/magictk-0.0.2.53.tar.gz
+[2024-04-26 03:38:56] INFO root fetch - processPackages [neon-mana-utils]: Downloading https://files.pythonhosted.org/packages/30/31/b6f7cc516d71de876739e750687ffb4aec40b38023e30d4cae6f65225495/neon-mana-utils-0.2.3a1.tar.gz
+[2024-04-26 03:38:56] INFO root fetch - processPackages [gingerai]: Downloading https://files.pythonhosted.org/packages/33/65/a59be7a360a71da6fb875287e72120e252018dc037eef33b15ac50759b89/gingerai-0.1.9.tar.gz
+[2024-04-26 03:38:56] INFO root fetch - processPackages [radifox]: Downloading https://files.pythonhosted.org/packages/6c/10/74303cbea0253d3374e31fc8e08b5980048884f778a72215873a830e0354/radifox-1.0.9.tar.gz
+[2024-04-26 03:38:56] INFO root fetch - processPackages [gingerai]: executing diffoscope
+[2024-04-26 03:38:56] INFO root fetch - processPackages [gingerai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gingerai-0.1.8.tar.gz tmp/gingerai-0.1.9.tar.gz --markdown 20240426/g/gingerai/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-26 03:38:56] INFO root fetch - processPackages [neon-mana-utils]: Downloading https://files.pythonhosted.org/packages/9e/f9/f2254b22290a748618dce395c615e09bf6995ee2bf083ee205035d60b358/neon-mana-utils-0.2.3a2.tar.gz
+[2024-04-26 03:38:56] INFO root fetch - processPackages [magictk]: Downloading https://files.pythonhosted.org/packages/e5/cd/8795eb35d4a504b8407472cdebb47faf188f803db21f2c41149281a7b03e/magictk-0.0.2.54.tar.gz
+[2024-04-26 03:38:56] INFO root fetch - processPackages [radifox]: Downloading https://files.pythonhosted.org/packages/f5/03/034092d6fb9f2a736239c9d97d0afccae2bfded66dd35ec4fcd035acde4f/radifox-1.1.0.tar.gz
+[2024-04-26 03:38:56] INFO root fetch - processPackages [neon-mana-utils]: executing diffoscope
+[2024-04-26 03:38:56] INFO root fetch - processPackages [neon-mana-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon-mana-utils-0.2.3a1.tar.gz tmp/neon-mana-utils-0.2.3a2.tar.gz --markdown 20240426/n/neon-mana-utils/0.2.3a1-0.2.3a2/README.md --exclude *.pyd
+[2024-04-26 03:38:56] INFO root fetch - processPackages [radifox]: executing diffoscope
+[2024-04-26 03:38:56] INFO root fetch - processPackages [radifox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radifox-1.0.9.tar.gz tmp/radifox-1.1.0.tar.gz --markdown 20240426/r/radifox/1.0.9-1.1.0/README.md --exclude *.pyd
+[2024-04-26 03:38:56] INFO root fetch - processPackages [magictk]: executing diffoscope
+[2024-04-26 03:38:56] INFO root fetch - processPackages [magictk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magictk-0.0.2.53.tar.gz tmp/magictk-0.0.2.54.tar.gz --markdown 20240426/m/magictk/0.0.2.53-0.0.2.54/README.md --exclude *.pyd
+[2024-04-26 03:38:56] INFO root fetch - processPackages [gingerai]: Remove: archive file [/home/abi/fetcher/tmp/gingerai-0.1.8.tar.gz]
+[2024-04-26 03:38:56] INFO root fetch - processPackages [gingerai]: Remove: archive file [/home/abi/fetcher/tmp/gingerai-0.1.9.tar.gz]
+[2024-04-26 03:38:56] INFO root fetch - main [MainThread]: End processing [gingerai]: success
+[2024-04-26 03:38:57] INFO root fetch - processPackages [neon-mana-utils]: Remove: archive file [/home/abi/fetcher/tmp/neon-mana-utils-0.2.3a1.tar.gz]
+[2024-04-26 03:38:57] INFO root fetch - processPackages [neon-mana-utils]: Remove: archive file [/home/abi/fetcher/tmp/neon-mana-utils-0.2.3a2.tar.gz]
+[2024-04-26 03:38:57] INFO root fetch - main [MainThread]: End processing [neon-mana-utils]: success
+[2024-04-26 03:38:57] INFO root fetch - processPackages [radifox]: Remove: archive file [/home/abi/fetcher/tmp/radifox-1.0.9.tar.gz]
+[2024-04-26 03:38:57] INFO root fetch - processPackages [radifox]: Remove: archive file [/home/abi/fetcher/tmp/radifox-1.1.0.tar.gz]
+[2024-04-26 03:38:57] INFO root fetch - main [MainThread]: End processing [radifox]: success
+[2024-04-26 03:38:58] INFO root fetch - processPackages [magictk]: Remove: archive file [/home/abi/fetcher/tmp/magictk-0.0.2.53.tar.gz]
+[2024-04-26 03:38:58] INFO root fetch - processPackages [magictk]: Remove: archive file [/home/abi/fetcher/tmp/magictk-0.0.2.54.tar.gz]
+[2024-04-26 03:38:58] INFO root fetch - main [MainThread]: End processing [magictk]: success
+[2024-04-26 03:38:58] INFO root fetch - main [MainThread]: Store serial: [22941701]
