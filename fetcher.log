@@ -18426,3 +18426,36 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 13:09:41] INFO root fetch - processPackages [capellambse]: Remove: archive file [/home/abi/fetcher/tmp/capellambse-0.5.9.dev5.tar.gz]
 [2024-04-26 13:09:41] INFO root fetch - main [MainThread]: End processing [capellambse]: success
 [2024-04-26 13:09:41] INFO root fetch - main [MainThread]: Store serial: [22946665]
+[2024-04-26 13:11:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22946665]
+[2024-04-26 13:11:50] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-26 13:11:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sts-libs
+[2024-04-26 13:11:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ephysiopy
+[2024-04-26 13:11:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dccXMLJSONCconv
+[2024-04-26 13:11:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: expanse
+[2024-04-26 13:11:50] INFO root fetch - processPackages [expanse]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-26 13:11:50] INFO root fetch - processPackages [sts-libs]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-26 13:11:50] WARNING root fetch - processPackages [dccXMLJSONCconv]: Skipping, unable to determine old version
+[2024-04-26 13:11:50] INFO root fetch - main [MainThread]: End processing [dccXMLJSONCconv] error
+[2024-04-26 13:11:50] INFO root fetch - processPackages [sts-libs]: Downloading https://files.pythonhosted.org/packages/0f/c9/7bed227dccd321addee4748876f890bf5dd07e73925dc00aee73b0d2e456/sts_libs-0.1.7.tar.gz
+[2024-04-26 13:11:50] INFO root fetch - processPackages [ephysiopy]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-04-26 13:11:50] INFO root fetch - processPackages [expanse]: Downloading https://files.pythonhosted.org/packages/1d/8d/1e8ca716f236e183e3e13494c0620f2b73ef5165d2c34095e3d32132056a/expanse-0.2.1.tar.gz
+[2024-04-26 13:11:51] INFO root fetch - processPackages [ephysiopy]: Downloading https://files.pythonhosted.org/packages/8a/fe/01d3481196954076c95fb11e35f6abd272feaf839f8f583f99d37c69694d/ephysiopy-2.0.8.tar.gz
+[2024-04-26 13:11:51] INFO root fetch - processPackages [sts-libs]: Downloading https://files.pythonhosted.org/packages/d0/53/48dfc749a284fbab0c25a97aaa1eebc3393ed33d09069a256dc0d7410b7f/sts_libs-0.1.8.tar.gz
+[2024-04-26 13:11:51] INFO root fetch - processPackages [expanse]: Downloading https://files.pythonhosted.org/packages/3a/45/b0778674db7515b483109ffeedf800e7c874829a28be4eb8683ffdeedeff/expanse-0.2.2.tar.gz
+[2024-04-26 13:11:51] INFO root fetch - processPackages [sts-libs]: executing diffoscope
+[2024-04-26 13:11:51] INFO root fetch - processPackages [sts-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sts_libs-0.1.7.tar.gz tmp/sts_libs-0.1.8.tar.gz --markdown 20240426/s/sts-libs/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-26 13:11:51] INFO root fetch - processPackages [expanse]: executing diffoscope
+[2024-04-26 13:11:51] INFO root fetch - processPackages [expanse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/expanse-0.2.1.tar.gz tmp/expanse-0.2.2.tar.gz --markdown 20240426/e/expanse/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-04-26 13:11:51] INFO root fetch - processPackages [ephysiopy]: Downloading https://files.pythonhosted.org/packages/42/c6/c4dd5c7ce6c65baeb6c7fe871f64fad771819d3dc0837ba06e1714d11290/ephysiopy-2.0.9.tar.gz
+[2024-04-26 13:11:51] INFO root fetch - processPackages [ephysiopy]: executing diffoscope
+[2024-04-26 13:11:51] INFO root fetch - processPackages [ephysiopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ephysiopy-2.0.8.tar.gz tmp/ephysiopy-2.0.9.tar.gz --markdown 20240426/e/ephysiopy/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-04-26 13:11:52] INFO root fetch - processPackages [expanse]: Remove: archive file [/home/abi/fetcher/tmp/expanse-0.2.1.tar.gz]
+[2024-04-26 13:11:52] INFO root fetch - processPackages [expanse]: Remove: archive file [/home/abi/fetcher/tmp/expanse-0.2.2.tar.gz]
+[2024-04-26 13:11:52] INFO root fetch - main [MainThread]: End processing [expanse]: success
+[2024-04-26 13:11:52] INFO root fetch - processPackages [sts-libs]: Remove: archive file [/home/abi/fetcher/tmp/sts_libs-0.1.7.tar.gz]
+[2024-04-26 13:11:52] INFO root fetch - processPackages [sts-libs]: Remove: archive file [/home/abi/fetcher/tmp/sts_libs-0.1.8.tar.gz]
+[2024-04-26 13:11:52] INFO root fetch - main [MainThread]: End processing [sts-libs]: success
+[2024-04-26 13:11:52] INFO root fetch - processPackages [ephysiopy]: Remove: archive file [/home/abi/fetcher/tmp/ephysiopy-2.0.8.tar.gz]
+[2024-04-26 13:11:52] INFO root fetch - processPackages [ephysiopy]: Remove: archive file [/home/abi/fetcher/tmp/ephysiopy-2.0.9.tar.gz]
+[2024-04-26 13:11:52] INFO root fetch - main [MainThread]: End processing [ephysiopy]: success
+[2024-04-26 13:11:52] INFO root fetch - main [MainThread]: Store serial: [22946679]
