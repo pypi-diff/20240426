@@ -19229,3 +19229,47 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 13:42:29] INFO root fetch - processPackages [praetorian-cli]: Remove: archive file [/home/abi/fetcher/tmp/praetorian_cli-0.9.0.tar.gz]
 [2024-04-26 13:42:29] INFO root fetch - main [MainThread]: End processing [praetorian-cli]: success
 [2024-04-26 13:42:29] INFO root fetch - main [MainThread]: Store serial: [22947010]
+[2024-04-26 13:44:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22947010]
+[2024-04-26 13:44:37] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-26 13:44:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: eral
+[2024-04-26 13:44:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ffmpeg-input
+[2024-04-26 13:44:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: caen-hv-py
+[2024-04-26 13:44:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vdk-postgres
+[2024-04-26 13:44:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mgnify-pipelines-toolkit
+[2024-04-26 13:44:37] INFO root fetch - processPackages [caen-hv-py]: New version: [1.5] Old Version: [1.4]
+[2024-04-26 13:44:37] INFO root fetch - processPackages [eral]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-26 13:44:37] INFO root fetch - processPackages [eral]: Downloading https://files.pythonhosted.org/packages/86/f5/f805ad2a5ccf9241b2c5270716ca261d6c929e48205f26a2c4251ceaab53/eral-0.0.5.tar.gz
+[2024-04-26 13:44:37] INFO root fetch - processPackages [caen-hv-py]: Downloading https://files.pythonhosted.org/packages/98/17/348c4c32d2e0d6bda56cbab8636db980792c1b1a61da12b9e57c1db7d1ac/caen_hv_py-1.4.tar.gz
+[2024-04-26 13:44:37] INFO root fetch - processPackages [mgnify-pipelines-toolkit]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-26 13:44:37] INFO root fetch - processPackages [vdk-postgres]: New version: [0.0.961031287] Old Version: [0.0.944393829]
+[2024-04-26 13:44:37] INFO root fetch - processPackages [ffmpeg-input]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-26 13:44:37] INFO root fetch - processPackages [mgnify-pipelines-toolkit]: Downloading https://files.pythonhosted.org/packages/ee/5f/6dcc16accd0ae5c8fd2adef6aeebc0cdeb28db030f964ede1a4971d24f83/mgnify_pipelines_toolkit-0.1.1.tar.gz
+[2024-04-26 13:44:37] INFO root fetch - processPackages [ffmpeg-input]: Downloading https://files.pythonhosted.org/packages/2f/b5/cee9bebefb8249d6aab795572cc83b6986b1be05f01c8d161e18837cf403/ffmpeg_input-0.1.8-pp39-pypy39_pp73-manylinux_2_28_x86_64.whl
+[2024-04-26 13:44:37] INFO root fetch - processPackages [vdk-postgres]: Downloading https://files.pythonhosted.org/packages/b4/6c/c8ec3eb9781d9b9d6fe69b45ed1aa7aa484a222a086305440f54b830078b/vdk-postgres-0.0.944393829.tar.gz
+[2024-04-26 13:44:37] INFO root fetch - processPackages [caen-hv-py]: Downloading https://files.pythonhosted.org/packages/e5/bb/97939451730c4ea33ef1d735373e0ddd960c1ac1fb241187ff13c72d3a29/caen_hv_py-1.5.tar.gz
+[2024-04-26 13:44:37] INFO root fetch - processPackages [eral]: Downloading https://files.pythonhosted.org/packages/3b/ef/39371f5b60b36522cfabfbcfd3bb1d49cb1a6a664af5807f0ec22fb436bb/eral-0.0.6.tar.gz
+[2024-04-26 13:44:38] INFO root fetch - processPackages [caen-hv-py]: executing diffoscope
+[2024-04-26 13:44:38] INFO root fetch - processPackages [caen-hv-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caen_hv_py-1.4.tar.gz tmp/caen_hv_py-1.5.tar.gz --markdown 20240426/c/caen-hv-py/1.4-1.5/README.md --exclude *.pyd
+[2024-04-26 13:44:38] INFO root fetch - processPackages [eral]: executing diffoscope
+[2024-04-26 13:44:38] INFO root fetch - processPackages [eral]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eral-0.0.5.tar.gz tmp/eral-0.0.6.tar.gz --markdown 20240426/e/eral/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-26 13:44:38] WARNING root fetch - processPackages [ffmpeg-input]: Skipping package: exceeds size limit 36330781>=10485760
+[2024-04-26 13:44:38] INFO root fetch - main [MainThread]: End processing [ffmpeg-input] error
+[2024-04-26 13:44:38] INFO root fetch - processPackages [mgnify-pipelines-toolkit]: Downloading https://files.pythonhosted.org/packages/25/c8/a8718d38c599ed9f9fc185075ad3cd91b7201a4f9062e63d89baf7f01b57/mgnify_pipelines_toolkit-0.1.2.tar.gz
+[2024-04-26 13:44:38] INFO root fetch - processPackages [vdk-postgres]: Downloading https://files.pythonhosted.org/packages/d8/5d/de8f365dac62d3d7078a735efc93e3b5f0ea9f05dfb3bc94775f0e5e0faf/vdk-postgres-0.0.961031287.tar.gz
+[2024-04-26 13:44:38] INFO root fetch - processPackages [vdk-postgres]: executing diffoscope
+[2024-04-26 13:44:38] INFO root fetch - processPackages [vdk-postgres]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vdk-postgres-0.0.944393829.tar.gz tmp/vdk-postgres-0.0.961031287.tar.gz --markdown 20240426/v/vdk-postgres/0.0.944393829-0.0.961031287/README.md --exclude *.pyd
+[2024-04-26 13:44:38] INFO root fetch - processPackages [mgnify-pipelines-toolkit]: executing diffoscope
+[2024-04-26 13:44:38] INFO root fetch - processPackages [mgnify-pipelines-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mgnify_pipelines_toolkit-0.1.1.tar.gz tmp/mgnify_pipelines_toolkit-0.1.2.tar.gz --markdown 20240426/m/mgnify-pipelines-toolkit/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-26 13:44:38] INFO root fetch - processPackages [caen-hv-py]: Remove: archive file [/home/abi/fetcher/tmp/caen_hv_py-1.4.tar.gz]
+[2024-04-26 13:44:38] INFO root fetch - processPackages [caen-hv-py]: Remove: archive file [/home/abi/fetcher/tmp/caen_hv_py-1.5.tar.gz]
+[2024-04-26 13:44:38] INFO root fetch - main [MainThread]: End processing [caen-hv-py]: success
+[2024-04-26 13:44:38] INFO root fetch - processPackages [eral]: Remove: archive file [/home/abi/fetcher/tmp/eral-0.0.5.tar.gz]
+[2024-04-26 13:44:38] INFO root fetch - processPackages [eral]: Remove: archive file [/home/abi/fetcher/tmp/eral-0.0.6.tar.gz]
+[2024-04-26 13:44:38] INFO root fetch - main [MainThread]: End processing [eral]: success
+[2024-04-26 13:44:38] INFO root fetch - processPackages [vdk-postgres]: Remove: archive file [/home/abi/fetcher/tmp/vdk-postgres-0.0.944393829.tar.gz]
+[2024-04-26 13:44:38] INFO root fetch - processPackages [vdk-postgres]: Remove: archive file [/home/abi/fetcher/tmp/vdk-postgres-0.0.961031287.tar.gz]
+[2024-04-26 13:44:38] INFO root fetch - main [MainThread]: End processing [vdk-postgres]: success
+[2024-04-26 13:44:39] INFO root fetch - processPackages [mgnify-pipelines-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/mgnify_pipelines_toolkit-0.1.1.tar.gz]
+[2024-04-26 13:44:39] INFO root fetch - processPackages [mgnify-pipelines-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/mgnify_pipelines_toolkit-0.1.2.tar.gz]
+[2024-04-26 13:44:39] INFO root fetch - main [MainThread]: End processing [mgnify-pipelines-toolkit]: success
+[2024-04-26 13:44:39] INFO root fetch - main [MainThread]: Store serial: [22947040]
