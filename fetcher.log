@@ -8216,3 +8216,38 @@
 [2024-04-26 05:26:55] INFO root fetch - processPackages [fbpic]: Remove: archive file [/home/abi/fetcher/tmp/fbpic-0.9.5.tar.gz]
 [2024-04-26 05:26:55] INFO root fetch - main [MainThread]: End processing [fbpic]: success
 [2024-04-26 05:26:55] INFO root fetch - main [MainThread]: Store serial: [22942279]
+[2024-04-26 05:29:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22942279]
+[2024-04-26 05:29:05] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-26 05:29:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pypipr
+[2024-04-26 05:29:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-dms
+[2024-04-26 05:29:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: huckle
+[2024-04-26 05:29:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-sync-env
+[2024-04-26 05:29:05] INFO root fetch - processPackages [django-sync-env]: New version: [0.3.1a1] Old Version: [0.3.1a0]
+[2024-04-26 05:29:05] INFO root fetch - processPackages [huckle]: New version: [3.4.0] Old Version: [3.3.4]
+[2024-04-26 05:29:05] INFO root fetch - processPackages [odoo-addon-dms]: New version: [16.0.1.6.0] Old Version: [16.0.1.5.0.6]
+[2024-04-26 05:29:05] INFO root fetch - processPackages [pypipr]: New version: [1.0.94] Old Version: [1.0.93]
+[2024-04-26 05:29:05] INFO root fetch - processPackages [django-sync-env]: Downloading https://files.pythonhosted.org/packages/0d/93/1ecb6dc5f9b9331318fcd1c83c04b00bb202a4b6f533b54ba5c3232aee0b/django_sync_env-0.3.1a0.tar.gz
+[2024-04-26 05:29:05] INFO root fetch - processPackages [huckle]: Downloading https://files.pythonhosted.org/packages/4c/be/a06393f3eda2e8ffb4fa8ab1b7e0f00d6d1d63b94f3d474f6c136c8b3c8f/huckle-3.3.4.tar.gz
+[2024-04-26 05:29:05] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/a5/1c/9733dc20c54ec17f206151c1ab0be31927131499921fa911c2ac75491231/pypipr-1.0.93.tar.gz
+[2024-04-26 05:29:05] INFO root fetch - processPackages [odoo-addon-dms]: Downloading https://files.pythonhosted.org/packages/4f/a9/7863351bfd542778f67bfa322846a6ce26a2f4c546351140694c7205670f/odoo_addon_dms-16.0.1.5.0.6-py3-none-any.whl
+[2024-04-26 05:29:05] WARNING root fetch - processPackages [odoo-addon-dms]: Skipping package: exceeds size limit 15658611>=10485760
+[2024-04-26 05:29:05] INFO root fetch - main [MainThread]: End processing [odoo-addon-dms] error
+[2024-04-26 05:29:05] INFO root fetch - processPackages [huckle]: Downloading https://files.pythonhosted.org/packages/b6/e9/8b78c3ac72af764da039ba42dcb248379fc88ecbeec40caa34c93554b1b0/huckle-3.4.0.tar.gz
+[2024-04-26 05:29:05] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/e9/ea/5d65d96c1d55898940b0a120ca3c609593a8628cfcd800caaeaffd86c267/pypipr-1.0.94.tar.gz
+[2024-04-26 05:29:05] INFO root fetch - processPackages [django-sync-env]: Downloading https://files.pythonhosted.org/packages/b6/2f/0f72374d49b64a31e583b2804085324b749da4c13a2889ebb725af622f3c/django_sync_env-0.3.1a1.tar.gz
+[2024-04-26 05:29:05] INFO root fetch - processPackages [huckle]: executing diffoscope
+[2024-04-26 05:29:05] INFO root fetch - processPackages [huckle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huckle-3.3.4.tar.gz tmp/huckle-3.4.0.tar.gz --markdown 20240426/h/huckle/3.3.4-3.4.0/README.md --exclude *.pyd
+[2024-04-26 05:29:05] INFO root fetch - processPackages [pypipr]: executing diffoscope
+[2024-04-26 05:29:05] INFO root fetch - processPackages [pypipr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypipr-1.0.93.tar.gz tmp/pypipr-1.0.94.tar.gz --markdown 20240426/p/pypipr/1.0.93-1.0.94/README.md --exclude *.pyd
+[2024-04-26 05:29:05] INFO root fetch - processPackages [django-sync-env]: executing diffoscope
+[2024-04-26 05:29:05] INFO root fetch - processPackages [django-sync-env]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_sync_env-0.3.1a0.tar.gz tmp/django_sync_env-0.3.1a1.tar.gz --markdown 20240426/d/django-sync-env/0.3.1a0-0.3.1a1/README.md --exclude *.pyd
+[2024-04-26 05:29:06] INFO root fetch - processPackages [huckle]: Remove: archive file [/home/abi/fetcher/tmp/huckle-3.3.4.tar.gz]
+[2024-04-26 05:29:06] INFO root fetch - processPackages [huckle]: Remove: archive file [/home/abi/fetcher/tmp/huckle-3.4.0.tar.gz]
+[2024-04-26 05:29:06] INFO root fetch - main [MainThread]: End processing [huckle]: success
+[2024-04-26 05:29:06] INFO root fetch - processPackages [django-sync-env]: Remove: archive file [/home/abi/fetcher/tmp/django_sync_env-0.3.1a0.tar.gz]
+[2024-04-26 05:29:06] INFO root fetch - processPackages [django-sync-env]: Remove: archive file [/home/abi/fetcher/tmp/django_sync_env-0.3.1a1.tar.gz]
+[2024-04-26 05:29:06] INFO root fetch - main [MainThread]: End processing [django-sync-env]: success
+[2024-04-26 05:29:06] INFO root fetch - processPackages [pypipr]: Remove: archive file [/home/abi/fetcher/tmp/pypipr-1.0.93.tar.gz]
+[2024-04-26 05:29:06] INFO root fetch - processPackages [pypipr]: Remove: archive file [/home/abi/fetcher/tmp/pypipr-1.0.94.tar.gz]
+[2024-04-26 05:29:06] INFO root fetch - main [MainThread]: End processing [pypipr]: success
+[2024-04-26 05:29:06] INFO root fetch - main [MainThread]: Store serial: [22942291]
