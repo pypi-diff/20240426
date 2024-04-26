@@ -20614,3 +20614,81 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 14:53:44] INFO root fetch - processPackages [syft]: Remove: archive file [/home/abi/fetcher/tmp/syft-0.8.7b4.tar.gz]
 [2024-04-26 14:53:44] INFO root fetch - main [MainThread]: End processing [syft]: success
 [2024-04-26 14:53:44] INFO root fetch - main [MainThread]: Store serial: [22947613]
+[2024-04-26 14:55:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22947613]
+[2024-04-26 14:55:53] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-26 14:55:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hddm-s
+[2024-04-26 14:55:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: udata-front
+[2024-04-26 14:55:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nrstitcher-utils
+[2024-04-26 14:55:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: framelib
+[2024-04-26 14:55:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: superlinked
+[2024-04-26 14:55:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: q2label
+[2024-04-26 14:55:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rats-processors
+[2024-04-26 14:55:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rats-pipelines
+[2024-04-26 14:55:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rats-apps
+[2024-04-26 14:55:53] INFO root fetch - processPackages [rats-pipelines]: New version: [0.1.3.dev9] Old Version: [0.1.3.dev8]
+[2024-04-26 14:55:53] INFO root fetch - processPackages [rats-processors]: New version: [0.1.3.dev9] Old Version: [0.1.3.dev8]
+[2024-04-26 14:55:53] INFO root fetch - processPackages [framelib]: New version: [0.0.4b2] Old Version: [0.0.4b1]
+[2024-04-26 14:55:53] INFO root fetch - processPackages [nrstitcher-utils]: New version: [0.1.0.dev6] Old Version: [0.1.0.dev5]
+[2024-04-26 14:55:53] INFO root fetch - processPackages [hddm-s]: New version: [1.0.9] Old Version: [1.0.7]
+[2024-04-26 14:55:53] INFO root fetch - processPackages [superlinked]: New version: [3.9.1] Old Version: [3.9.0]
+[2024-04-26 14:55:53] INFO root fetch - processPackages [rats-apps]: New version: [0.1.3.dev9] Old Version: [0.1.3.dev8]
+[2024-04-26 14:55:53] INFO root fetch - processPackages [udata-front]: New version: [4.0.2.dev19387] Old Version: [4.0.1.dev19376]
+[2024-04-26 14:55:53] INFO root fetch - processPackages [hddm-s]: Downloading https://files.pythonhosted.org/packages/c7/15/051d8248dd680cc83687b776c06944bb75f8bcddabc05f270b5c65549a26/hddm_s-1.0.7.tar.gz
+[2024-04-26 14:55:53] WARNING root fetch - processPackages [q2label]: Skipping, unable to determine old version
+[2024-04-26 14:55:53] INFO root fetch - main [MainThread]: End processing [q2label] error
+[2024-04-26 14:55:53] INFO root fetch - processPackages [rats-pipelines]: Downloading https://files.pythonhosted.org/packages/ec/dd/e1571a4a4be4a6e8a24f82ab1b058ced7ac30426c5fa734e21c3bb791cd1/rats_pipelines-0.1.3.dev8-py3-none-any.whl
+[2024-04-26 14:55:53] INFO root fetch - processPackages [rats-processors]: Downloading https://files.pythonhosted.org/packages/ee/14/9e43a65d4c611c1fd72f73131b77c7f2d0b9dec99834658b01571114c849/rats_processors-0.1.3.dev8-py3-none-any.whl
+[2024-04-26 14:55:53] INFO root fetch - processPackages [nrstitcher-utils]: Downloading https://files.pythonhosted.org/packages/2d/0a/bdb9fd44d44b9af33003cd86f213a835a37504d15f9cb8e4868b743f428e/nrstitcher_utils-0.1.0.dev5.tar.gz
+[2024-04-26 14:55:53] INFO root fetch - processPackages [framelib]: Downloading https://files.pythonhosted.org/packages/b3/0a/fceabd6118605d63193e15af18203a6b99b385d1f1a4c58f688330e21aa1/framelib-0.0.4b1.tar.gz
+[2024-04-26 14:55:53] INFO root fetch - processPackages [rats-apps]: Downloading https://files.pythonhosted.org/packages/2b/ac/7cdd84e9d923505e71fd914f800c3d7199d0e4a098aa8259413f06395c30/rats_apps-0.1.3.dev8-py3-none-any.whl
+[2024-04-26 14:55:53] INFO root fetch - processPackages [udata-front]: Downloading https://files.pythonhosted.org/packages/32/4c/d797c09fe8c3730b16fe19364ba379f977bff7792ce25088974898ec6315/udata_front-4.0.1.dev19376-py2.py3-none-any.whl
+[2024-04-26 14:55:53] INFO root fetch - processPackages [superlinked]: Downloading https://files.pythonhosted.org/packages/f7/5e/84d09e0e05b737b135f953e725a7a56acf875659f3a729403902dc51bddf/superlinked-3.9.0.tar.gz
+[2024-04-26 14:55:54] INFO root fetch - processPackages [hddm-s]: Downloading https://files.pythonhosted.org/packages/d2/24/0bac70948a0f916016590dddfc7e17148c466fa4b02e8bd2d4f3119e1816/hddm_s-1.0.9.tar.gz
+[2024-04-26 14:55:54] INFO root fetch - processPackages [nrstitcher-utils]: Downloading https://files.pythonhosted.org/packages/e1/aa/efcb5a5186165ba1311497b8397a1c843dedd29ad8a7d94895d24bd92256/nrstitcher_utils-0.1.0.dev6.tar.gz
+[2024-04-26 14:55:54] INFO root fetch - processPackages [rats-pipelines]: Downloading https://files.pythonhosted.org/packages/b8/2d/79bd6c94d590e76f61506daaf64bbb07726287dd538e4b8a5d5a3fd64ad7/rats_pipelines-0.1.3.dev9-py3-none-any.whl
+[2024-04-26 14:55:54] INFO root fetch - processPackages [rats-processors]: Downloading https://files.pythonhosted.org/packages/83/b6/122ea8648f16d78861cb7c33e0f599e2421b03f295f46bbf34d66c3d399a/rats_processors-0.1.3.dev9-py3-none-any.whl
+[2024-04-26 14:55:54] INFO root fetch - processPackages [rats-apps]: Downloading https://files.pythonhosted.org/packages/63/25/d3d6e41dfb5bd98bcbf7f79d3856cc774212467e002a6abf0eb6cd14bd96/rats_apps-0.1.3.dev9-py3-none-any.whl
+[2024-04-26 14:55:54] INFO root fetch - processPackages [superlinked]: Downloading https://files.pythonhosted.org/packages/8f/6e/416193b22be21ffe493186a65f1f74ccb3521c483e54ad50c3c9f4533119/superlinked-3.9.1.tar.gz
+[2024-04-26 14:55:54] INFO root fetch - processPackages [hddm-s]: executing diffoscope
+[2024-04-26 14:55:54] INFO root fetch - processPackages [hddm-s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hddm_s-1.0.7.tar.gz tmp/hddm_s-1.0.9.tar.gz --markdown 20240426/h/hddm-s/1.0.7-1.0.9/README.md --exclude *.pyd
+[2024-04-26 14:55:54] INFO root fetch - processPackages [framelib]: Downloading https://files.pythonhosted.org/packages/42/a5/b6e0346aaee4551d5a7cdf0dde49a2e14da10df0b8a39b04bbf4ce2880e7/framelib-0.0.4b2.tar.gz
+[2024-04-26 14:55:54] INFO root fetch - processPackages [nrstitcher-utils]: executing diffoscope
+[2024-04-26 14:55:54] INFO root fetch - processPackages [nrstitcher-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nrstitcher_utils-0.1.0.dev5.tar.gz tmp/nrstitcher_utils-0.1.0.dev6.tar.gz --markdown 20240426/n/nrstitcher-utils/0.1.0.dev5-0.1.0.dev6/README.md --exclude *.pyd
+[2024-04-26 14:55:54] INFO root fetch - processPackages [rats-pipelines]: executing diffoscope
+[2024-04-26 14:55:54] INFO root fetch - processPackages [rats-pipelines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rats_pipelines-0.1.3.dev8-py3-none-any.whl.zip tmp/rats_pipelines-0.1.3.dev9-py3-none-any.whl.zip --markdown 20240426/r/rats-pipelines/0.1.3.dev8-0.1.3.dev9/README.md --exclude *.pyd
+[2024-04-26 14:55:54] INFO root fetch - processPackages [rats-processors]: executing diffoscope
+[2024-04-26 14:55:54] INFO root fetch - processPackages [rats-processors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rats_processors-0.1.3.dev8-py3-none-any.whl.zip tmp/rats_processors-0.1.3.dev9-py3-none-any.whl.zip --markdown 20240426/r/rats-processors/0.1.3.dev8-0.1.3.dev9/README.md --exclude *.pyd
+[2024-04-26 14:55:54] INFO root fetch - processPackages [rats-apps]: executing diffoscope
+[2024-04-26 14:55:54] INFO root fetch - processPackages [rats-apps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rats_apps-0.1.3.dev8-py3-none-any.whl.zip tmp/rats_apps-0.1.3.dev9-py3-none-any.whl.zip --markdown 20240426/r/rats-apps/0.1.3.dev8-0.1.3.dev9/README.md --exclude *.pyd
+[2024-04-26 14:55:54] INFO root fetch - processPackages [framelib]: executing diffoscope
+[2024-04-26 14:55:54] INFO root fetch - processPackages [framelib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/framelib-0.0.4b1.tar.gz tmp/framelib-0.0.4b2.tar.gz --markdown 20240426/f/framelib/0.0.4b1-0.0.4b2/README.md --exclude *.pyd
+[2024-04-26 14:55:54] INFO root fetch - processPackages [superlinked]: executing diffoscope
+[2024-04-26 14:55:54] INFO root fetch - processPackages [superlinked]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superlinked-3.9.0.tar.gz tmp/superlinked-3.9.1.tar.gz --markdown 20240426/s/superlinked/3.9.0-3.9.1/README.md --exclude *.pyd
+[2024-04-26 14:55:54] INFO root fetch - processPackages [udata-front]: Downloading https://files.pythonhosted.org/packages/ed/77/7fc0d7002a68ee4d943c152c861b541bd00133ac394eb104d5f78a8edb4d/udata_front-4.0.2.dev19387-py2.py3-none-any.whl
+[2024-04-26 14:55:55] INFO root fetch - processPackages [nrstitcher-utils]: Remove: archive file [/home/abi/fetcher/tmp/nrstitcher_utils-0.1.0.dev5.tar.gz]
+[2024-04-26 14:55:55] INFO root fetch - processPackages [nrstitcher-utils]: Remove: archive file [/home/abi/fetcher/tmp/nrstitcher_utils-0.1.0.dev6.tar.gz]
+[2024-04-26 14:55:55] INFO root fetch - main [MainThread]: End processing [nrstitcher-utils]: success
+[2024-04-26 14:55:55] INFO root fetch - processPackages [hddm-s]: Remove: archive file [/home/abi/fetcher/tmp/hddm_s-1.0.7.tar.gz]
+[2024-04-26 14:55:55] INFO root fetch - processPackages [hddm-s]: Remove: archive file [/home/abi/fetcher/tmp/hddm_s-1.0.9.tar.gz]
+[2024-04-26 14:55:55] INFO root fetch - main [MainThread]: End processing [hddm-s]: success
+[2024-04-26 14:55:55] INFO root fetch - processPackages [rats-apps]: Remove: archive file [/home/abi/fetcher/tmp/rats_apps-0.1.3.dev8-py3-none-any.whl.zip]
+[2024-04-26 14:55:55] INFO root fetch - processPackages [rats-apps]: Remove: archive file [/home/abi/fetcher/tmp/rats_apps-0.1.3.dev9-py3-none-any.whl.zip]
+[2024-04-26 14:55:55] INFO root fetch - main [MainThread]: End processing [rats-apps]: success
+[2024-04-26 14:55:55] INFO root fetch - processPackages [rats-pipelines]: Remove: archive file [/home/abi/fetcher/tmp/rats_pipelines-0.1.3.dev8-py3-none-any.whl.zip]
+[2024-04-26 14:55:55] INFO root fetch - processPackages [rats-pipelines]: Remove: archive file [/home/abi/fetcher/tmp/rats_pipelines-0.1.3.dev9-py3-none-any.whl.zip]
+[2024-04-26 14:55:55] INFO root fetch - main [MainThread]: End processing [rats-pipelines]: success
+[2024-04-26 14:55:55] INFO root fetch - processPackages [framelib]: Remove: archive file [/home/abi/fetcher/tmp/framelib-0.0.4b1.tar.gz]
+[2024-04-26 14:55:55] INFO root fetch - processPackages [framelib]: Remove: archive file [/home/abi/fetcher/tmp/framelib-0.0.4b2.tar.gz]
+[2024-04-26 14:55:55] INFO root fetch - main [MainThread]: End processing [framelib]: success
+[2024-04-26 14:55:55] INFO root fetch - processPackages [rats-processors]: Remove: archive file [/home/abi/fetcher/tmp/rats_processors-0.1.3.dev8-py3-none-any.whl.zip]
+[2024-04-26 14:55:55] INFO root fetch - processPackages [rats-processors]: Remove: archive file [/home/abi/fetcher/tmp/rats_processors-0.1.3.dev9-py3-none-any.whl.zip]
+[2024-04-26 14:55:55] INFO root fetch - main [MainThread]: End processing [rats-processors]: success
+[2024-04-26 14:55:55] INFO root fetch - processPackages [superlinked]: Remove: archive file [/home/abi/fetcher/tmp/superlinked-3.9.0.tar.gz]
+[2024-04-26 14:55:55] INFO root fetch - processPackages [superlinked]: Remove: archive file [/home/abi/fetcher/tmp/superlinked-3.9.1.tar.gz]
+[2024-04-26 14:55:55] INFO root fetch - main [MainThread]: End processing [superlinked]: success
+[2024-04-26 14:55:56] INFO root fetch - processPackages [udata-front]: executing diffoscope
+[2024-04-26 14:55:56] INFO root fetch - processPackages [udata-front]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/udata_front-4.0.1.dev19376-py2.py3-none-any.whl.zip tmp/udata_front-4.0.2.dev19387-py2.py3-none-any.whl.zip --markdown 20240426/u/udata-front/4.0.1.dev19376-4.0.2.dev19387/README.md --exclude *.pyd
+[2024-04-26 14:57:21] INFO root fetch - processPackages [udata-front]: Remove: archive file [/home/abi/fetcher/tmp/udata_front-4.0.1.dev19376-py2.py3-none-any.whl.zip]
+[2024-04-26 14:57:21] INFO root fetch - processPackages [udata-front]: Remove: archive file [/home/abi/fetcher/tmp/udata_front-4.0.2.dev19387-py2.py3-none-any.whl.zip]
+[2024-04-26 14:57:21] INFO root fetch - main [MainThread]: End processing [udata-front]: success
+[2024-04-26 14:57:21] INFO root fetch - main [MainThread]: Store serial: [22947639]
