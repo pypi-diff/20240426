@@ -8323,3 +8323,24 @@
 [2024-04-26 05:33:26] INFO root fetch - processPackages [dsame3-simple]: Remove: archive file [/home/abi/fetcher/tmp/dsame3_simple-0.0.3.tar.gz]
 [2024-04-26 05:33:26] INFO root fetch - main [MainThread]: End processing [dsame3-simple]: success
 [2024-04-26 05:33:26] INFO root fetch - main [MainThread]: Store serial: [22942317]
+[2024-04-26 05:35:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22942317]
+[2024-04-26 05:35:36] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-26 05:35:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lyrebird
+[2024-04-26 05:35:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pokerkit
+[2024-04-26 05:35:36] INFO root fetch - processPackages [lyrebird]: New version: [2.9.2] Old Version: [2.9.1]
+[2024-04-26 05:35:36] INFO root fetch - processPackages [pokerkit]: New version: [0.5.0a1] Old Version: [0.5.0a0]
+[2024-04-26 05:35:36] INFO root fetch - processPackages [lyrebird]: Downloading https://files.pythonhosted.org/packages/06/13/4ab9bba5638766ee4616a2f79ef2b14a6cc420f30ee45746325841de3068/lyrebird-2.9.1.tar.gz
+[2024-04-26 05:35:36] INFO root fetch - processPackages [pokerkit]: Downloading https://files.pythonhosted.org/packages/4e/2f/fdc7d724a1f87846b03f435de4226aea9bef6552371ffb06a57197d8a129/pokerkit-0.5.0a0.tar.gz
+[2024-04-26 05:35:37] INFO root fetch - processPackages [pokerkit]: Downloading https://files.pythonhosted.org/packages/8f/fd/85e0dac60892b6f77b9eaecc63e746bcbcb6e2d1b24e1a0031ab358dd7d0/pokerkit-0.5.0a1.tar.gz
+[2024-04-26 05:35:37] INFO root fetch - processPackages [pokerkit]: executing diffoscope
+[2024-04-26 05:35:37] INFO root fetch - processPackages [pokerkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pokerkit-0.5.0a0.tar.gz tmp/pokerkit-0.5.0a1.tar.gz --markdown 20240426/p/pokerkit/0.5.0a0-0.5.0a1/README.md --exclude *.pyd
+[2024-04-26 05:35:38] INFO root fetch - processPackages [lyrebird]: Downloading https://files.pythonhosted.org/packages/77/cb/ae987ef021622334d287593ae7760a4c9bac044e030a96acf5a262910328/lyrebird-2.9.2.tar.gz
+[2024-04-26 05:35:38] INFO root fetch - processPackages [pokerkit]: Remove: archive file [/home/abi/fetcher/tmp/pokerkit-0.5.0a0.tar.gz]
+[2024-04-26 05:35:38] INFO root fetch - processPackages [pokerkit]: Remove: archive file [/home/abi/fetcher/tmp/pokerkit-0.5.0a1.tar.gz]
+[2024-04-26 05:35:38] INFO root fetch - main [MainThread]: End processing [pokerkit]: success
+[2024-04-26 05:35:38] INFO root fetch - processPackages [lyrebird]: executing diffoscope
+[2024-04-26 05:35:38] INFO root fetch - processPackages [lyrebird]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lyrebird-2.9.1.tar.gz tmp/lyrebird-2.9.2.tar.gz --markdown 20240426/l/lyrebird/2.9.1-2.9.2/README.md --exclude *.pyd
+[2024-04-26 05:35:40] INFO root fetch - processPackages [lyrebird]: Remove: archive file [/home/abi/fetcher/tmp/lyrebird-2.9.1.tar.gz]
+[2024-04-26 05:35:40] INFO root fetch - processPackages [lyrebird]: Remove: archive file [/home/abi/fetcher/tmp/lyrebird-2.9.2.tar.gz]
+[2024-04-26 05:35:40] INFO root fetch - main [MainThread]: End processing [lyrebird]: success
+[2024-04-26 05:35:40] INFO root fetch - main [MainThread]: Store serial: [22942322]
