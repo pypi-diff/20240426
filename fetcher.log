@@ -15069,3 +15069,36 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 10:51:02] INFO root fetch - processPackages [clump-python]: Remove: archive file [/home/abi/fetcher/tmp/clump-python-0.2.5.tar.gz]
 [2024-04-26 10:51:02] INFO root fetch - main [MainThread]: End processing [clump-python]: success
 [2024-04-26 10:51:02] INFO root fetch - main [MainThread]: Store serial: [22945338]
+[2024-04-26 10:53:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22945338]
+[2024-04-26 10:53:11] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-26 10:53:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: glpic
+[2024-04-26 10:53:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: core-pro
+[2024-04-26 10:53:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alipay-faas-server-sdk
+[2024-04-26 10:53:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: extended-configparser
+[2024-04-26 10:53:11] INFO root fetch - processPackages [glpic]: New version: [99.0.202404260848] Old Version: [99.0.202404252200]
+[2024-04-26 10:53:11] INFO root fetch - processPackages [glpic]: Downloading https://files.pythonhosted.org/packages/79/cb/ee2b4a44a9796d30a7fdc8134219188be4e3bff935681fb5b6b4dd00572a/glpic-99.0.202404252200.tar.gz
+[2024-04-26 10:53:11] INFO root fetch - processPackages [extended-configparser]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-26 10:53:11] WARNING root fetch - processPackages [alipay-faas-server-sdk]: Skipping, unable to determine old version
+[2024-04-26 10:53:11] INFO root fetch - main [MainThread]: End processing [alipay-faas-server-sdk] error
+[2024-04-26 10:53:11] INFO root fetch - processPackages [core-pro]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-26 10:53:11] INFO root fetch - processPackages [core-pro]: Downloading https://files.pythonhosted.org/packages/dc/86/b3c6a8d290835afc0d7b1b25dde8bd558795bdce03403c0c90b2e7da9dff/core_pro-0.0.8.tar.gz
+[2024-04-26 10:53:12] INFO root fetch - processPackages [extended-configparser]: Downloading https://files.pythonhosted.org/packages/0b/83/00661b2bc765d4bf84928f2b59b3fef93d9e8a72043518083cb2c1df84d0/extended_configparser-1.0.0.tar.gz
+[2024-04-26 10:53:12] INFO root fetch - processPackages [glpic]: Downloading https://files.pythonhosted.org/packages/96/fc/343a717c7b9afa3afdaad864edb54cec25d9ddfafc6a79575c4cd8435cec/glpic-99.0.202404260848.tar.gz
+[2024-04-26 10:53:12] INFO root fetch - processPackages [glpic]: executing diffoscope
+[2024-04-26 10:53:12] INFO root fetch - processPackages [glpic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glpic-99.0.202404252200.tar.gz tmp/glpic-99.0.202404260848.tar.gz --markdown 20240426/g/glpic/99.0.202404252200-99.0.202404260848/README.md --exclude *.pyd
+[2024-04-26 10:53:12] INFO root fetch - processPackages [core-pro]: Downloading https://files.pythonhosted.org/packages/6f/4e/6f2935c9906443317c8d830ec5b4f1c67d988d87345c4ae116a0a613c079/core_pro-0.0.9.tar.gz
+[2024-04-26 10:53:12] INFO root fetch - processPackages [extended-configparser]: Downloading https://files.pythonhosted.org/packages/19/7a/7780d6293f7fa554f34a5a1977f501698c95e5f44e64fc3813fe8ce50599/extended_configparser-1.0.1.tar.gz
+[2024-04-26 10:53:12] INFO root fetch - processPackages [core-pro]: executing diffoscope
+[2024-04-26 10:53:12] INFO root fetch - processPackages [core-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_pro-0.0.8.tar.gz tmp/core_pro-0.0.9.tar.gz --markdown 20240426/c/core-pro/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-26 10:53:12] INFO root fetch - processPackages [extended-configparser]: executing diffoscope
+[2024-04-26 10:53:12] INFO root fetch - processPackages [extended-configparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extended_configparser-1.0.0.tar.gz tmp/extended_configparser-1.0.1.tar.gz --markdown 20240426/e/extended-configparser/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-26 10:53:12] INFO root fetch - processPackages [glpic]: Remove: archive file [/home/abi/fetcher/tmp/glpic-99.0.202404252200.tar.gz]
+[2024-04-26 10:53:12] INFO root fetch - processPackages [glpic]: Remove: archive file [/home/abi/fetcher/tmp/glpic-99.0.202404260848.tar.gz]
+[2024-04-26 10:53:12] INFO root fetch - main [MainThread]: End processing [glpic]: success
+[2024-04-26 10:53:12] INFO root fetch - processPackages [core-pro]: Remove: archive file [/home/abi/fetcher/tmp/core_pro-0.0.8.tar.gz]
+[2024-04-26 10:53:12] INFO root fetch - processPackages [core-pro]: Remove: archive file [/home/abi/fetcher/tmp/core_pro-0.0.9.tar.gz]
+[2024-04-26 10:53:12] INFO root fetch - main [MainThread]: End processing [core-pro]: success
+[2024-04-26 10:53:13] INFO root fetch - processPackages [extended-configparser]: Remove: archive file [/home/abi/fetcher/tmp/extended_configparser-1.0.0.tar.gz]
+[2024-04-26 10:53:13] INFO root fetch - processPackages [extended-configparser]: Remove: archive file [/home/abi/fetcher/tmp/extended_configparser-1.0.1.tar.gz]
+[2024-04-26 10:53:13] INFO root fetch - main [MainThread]: End processing [extended-configparser]: success
+[2024-04-26 10:53:13] INFO root fetch - main [MainThread]: Store serial: [22945366]
