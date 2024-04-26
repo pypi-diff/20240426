@@ -17064,3 +17064,69 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 12:11:39] INFO root fetch - processPackages [pyZlBus]: Remove: archive file [/home/abi/fetcher/tmp/pyZlBus-0.1.9-py3-none-any.whl.zip]
 [2024-04-26 12:11:39] INFO root fetch - main [MainThread]: End processing [pyZlBus]: success
 [2024-04-26 12:11:39] INFO root fetch - main [MainThread]: Store serial: [22946132]
+[2024-04-26 12:13:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22946132]
+[2024-04-26 12:13:48] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-26 12:13:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tf-keras-nightly
+[2024-04-26 12:13:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-aws
+[2024-04-26 12:13:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: few-shot-priming
+[2024-04-26 12:13:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: digimat.mbio
+[2024-04-26 12:13:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ExoJAX
+[2024-04-26 12:13:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ANTConnect
+[2024-04-26 12:13:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: osparc-filecomms
+[2024-04-26 12:13:48] INFO root fetch - processPackages [digimat.mbio]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-26 12:13:48] INFO root fetch - processPackages [osparc-filecomms]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-26 12:13:48] INFO root fetch - processPackages [ANTConnect]: New version: [2023.9.9] Old Version: [2023.9.8rc1]
+[2024-04-26 12:13:48] INFO root fetch - processPackages [tf-keras-nightly]: New version: [2.17.0.dev2024042509] Old Version: [2.17.0.dev2024042409]
+[2024-04-26 12:13:48] INFO root fetch - processPackages [pulumi-aws]: New version: [6.9.0a1700084435] Old Version: [6.9.0a1699991594]
+[2024-04-26 12:13:48] INFO root fetch - processPackages [ExoJAX]: New version: [1.5] Old Version: [1.4.2]
+[2024-04-26 12:13:48] INFO root fetch - processPackages [osparc-filecomms]: Downloading https://files.pythonhosted.org/packages/db/a1/399a8fe9ea29cf2997a35d7b43959f7bcfa5d1a7c91f32418b7ff0da7ffc/osparc_filecomms-1.0.1-py2.py3-none-any.whl
+[2024-04-26 12:13:48] INFO root fetch - processPackages [digimat.mbio]: Downloading https://files.pythonhosted.org/packages/71/e2/320c5b884cd4c2ec53c579c63ffa353c0113149d9856b2cbe51c5a7dc258/digimat.mbio-0.1.8.tar.gz
+[2024-04-26 12:13:48] INFO root fetch - processPackages [few-shot-priming]: New version: [0.3.99] Old Version: [0.3.98]
+[2024-04-26 12:13:48] INFO root fetch - processPackages [ANTConnect]: Downloading https://files.pythonhosted.org/packages/bf/d2/03a351661f7c2aa8c63415b4c151d81562d81e4f4d4b1d5a612f9575ea8d/ANTConnect-2023.9.8rc1.tar.gz
+[2024-04-26 12:13:48] INFO root fetch - processPackages [tf-keras-nightly]: Downloading https://files.pythonhosted.org/packages/52/c7/f8e982ea082959515d06388df4878009379c741e79fc6f95fc3aefc96d9f/tf_keras_nightly-2.17.0.dev2024042409.tar.gz
+[2024-04-26 12:13:48] INFO root fetch - processPackages [pulumi-aws]: Downloading https://files.pythonhosted.org/packages/e1/df/14b748e40340692e18bd19ad3631916881c3bfc6ab8cc9db1f79ca1fb86a/pulumi_aws-6.9.0a1699991594.tar.gz
+[2024-04-26 12:13:48] INFO root fetch - processPackages [ExoJAX]: Downloading https://files.pythonhosted.org/packages/e7/da/7c6b697fe7e4a6380e7d95283bbc376261af0da6922599eec5da499babf2/ExoJAX-1.4.2-py2.py3-none-any.whl
+[2024-04-26 12:13:48] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/eb/67/d15b11d0bfb57369fa16ba7f8c97cd3ddec8f771e6da8f11a3d819004b69/few_shot_priming-0.3.98-py3-none-any.whl
+[2024-04-26 12:13:48] INFO root fetch - processPackages [osparc-filecomms]: Downloading https://files.pythonhosted.org/packages/6a/f8/3a4fd33c23e28cf1fe10cdb751b40e7e0b650fc9824eb8760100d879a25a/osparc_filecomms-1.0.2-py2.py3-none-any.whl
+[2024-04-26 12:13:48] INFO root fetch - processPackages [ANTConnect]: Downloading https://files.pythonhosted.org/packages/25/3b/0c2b38c4af90b8da37162d7abc993adfee42ec327696062002bf5532b73d/ANTConnect-2023.9.9.tar.gz
+[2024-04-26 12:13:48] INFO root fetch - processPackages [digimat.mbio]: Downloading https://files.pythonhosted.org/packages/39/6e/5bdff2534466d804cce6dfcbaca73554b2c423069c02d31759fddbe8406b/digimat.mbio-0.1.9.tar.gz
+[2024-04-26 12:13:49] INFO root fetch - processPackages [osparc-filecomms]: executing diffoscope
+[2024-04-26 12:13:49] INFO root fetch - processPackages [osparc-filecomms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osparc_filecomms-1.0.1-py2.py3-none-any.whl.zip tmp/osparc_filecomms-1.0.2-py2.py3-none-any.whl.zip --markdown 20240426/o/osparc-filecomms/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-26 12:13:49] INFO root fetch - processPackages [ANTConnect]: executing diffoscope
+[2024-04-26 12:13:49] INFO root fetch - processPackages [ANTConnect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ANTConnect-2023.9.8rc1.tar.gz tmp/ANTConnect-2023.9.9.tar.gz --markdown 20240426/A/ANTConnect/2023.9.8rc1-2023.9.9/README.md --exclude *.pyd
+[2024-04-26 12:13:49] INFO root fetch - processPackages [digimat.mbio]: executing diffoscope
+[2024-04-26 12:13:49] INFO root fetch - processPackages [digimat.mbio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digimat.mbio-0.1.8.tar.gz tmp/digimat.mbio-0.1.9.tar.gz --markdown 20240426/d/digimat.mbio/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-26 12:13:49] INFO root fetch - processPackages [tf-keras-nightly]: Downloading https://files.pythonhosted.org/packages/1a/6e/bf640f3cf20ec91c68d705f071e85f083f7788d3b1be3b6d00e07ff7f4c3/tf_keras_nightly-2.17.0.dev2024042509.tar.gz
+[2024-04-26 12:13:49] INFO root fetch - processPackages [pulumi-aws]: Downloading https://files.pythonhosted.org/packages/f3/70/32e3669ea3bb0042d4f4aac12c2584c3217ddc25b9e1646f05b9a9e1a24f/pulumi_aws-6.9.0a1700084435.tar.gz
+[2024-04-26 12:13:49] INFO root fetch - processPackages [tf-keras-nightly]: executing diffoscope
+[2024-04-26 12:13:49] INFO root fetch - processPackages [tf-keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_keras_nightly-2.17.0.dev2024042409.tar.gz tmp/tf_keras_nightly-2.17.0.dev2024042509.tar.gz --markdown 20240426/t/tf-keras-nightly/2.17.0.dev2024042409-2.17.0.dev2024042509/README.md --exclude *.pyd
+[2024-04-26 12:13:49] INFO root fetch - processPackages [ExoJAX]: Downloading https://files.pythonhosted.org/packages/ef/57/5b15ffd701c754bcc7d99d85021fc24768cfec92462bd3f2db8d57ebae87/ExoJAX-1.5-py2.py3-none-any.whl
+[2024-04-26 12:13:49] INFO root fetch - processPackages [pulumi-aws]: executing diffoscope
+[2024-04-26 12:13:49] INFO root fetch - processPackages [pulumi-aws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aws-6.9.0a1699991594.tar.gz tmp/pulumi_aws-6.9.0a1700084435.tar.gz --markdown 20240426/p/pulumi-aws/6.9.0a1699991594-6.9.0a1700084435/README.md --exclude *.pyd
+[2024-04-26 12:13:49] INFO root fetch - processPackages [digimat.mbio]: Remove: archive file [/home/abi/fetcher/tmp/digimat.mbio-0.1.8.tar.gz]
+[2024-04-26 12:13:49] INFO root fetch - processPackages [digimat.mbio]: Remove: archive file [/home/abi/fetcher/tmp/digimat.mbio-0.1.9.tar.gz]
+[2024-04-26 12:13:49] INFO root fetch - main [MainThread]: End processing [digimat.mbio]: success
+[2024-04-26 12:13:49] INFO root fetch - processPackages [ANTConnect]: Remove: archive file [/home/abi/fetcher/tmp/ANTConnect-2023.9.8rc1.tar.gz]
+[2024-04-26 12:13:49] INFO root fetch - processPackages [ANTConnect]: Remove: archive file [/home/abi/fetcher/tmp/ANTConnect-2023.9.9.tar.gz]
+[2024-04-26 12:13:49] INFO root fetch - main [MainThread]: End processing [ANTConnect]: success
+[2024-04-26 12:13:49] INFO root fetch - processPackages [osparc-filecomms]: Remove: archive file [/home/abi/fetcher/tmp/osparc_filecomms-1.0.1-py2.py3-none-any.whl.zip]
+[2024-04-26 12:13:49] INFO root fetch - processPackages [osparc-filecomms]: Remove: archive file [/home/abi/fetcher/tmp/osparc_filecomms-1.0.2-py2.py3-none-any.whl.zip]
+[2024-04-26 12:13:49] INFO root fetch - main [MainThread]: End processing [osparc-filecomms]: success
+[2024-04-26 12:13:49] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/ff/11/548f6e96803602e6431dc610d736d401b20fde986f85c35c8ad19a6d0958/few_shot_priming-0.3.99-py3-none-any.whl
+[2024-04-26 12:13:49] INFO root fetch - processPackages [ExoJAX]: executing diffoscope
+[2024-04-26 12:13:49] INFO root fetch - processPackages [ExoJAX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ExoJAX-1.4.2-py2.py3-none-any.whl.zip tmp/ExoJAX-1.5-py2.py3-none-any.whl.zip --markdown 20240426/E/ExoJAX/1.4.2-1.5/README.md --exclude *.pyd
+[2024-04-26 12:13:50] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2024-04-26 12:13:50] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip --markdown 20240426/f/few-shot-priming/0.3.98-0.3.99/README.md --exclude *.pyd
+[2024-04-26 12:13:51] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip]
+[2024-04-26 12:13:51] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip]
+[2024-04-26 12:13:51] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2024-04-26 12:13:51] INFO root fetch - processPackages [tf-keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_keras_nightly-2.17.0.dev2024042409.tar.gz]
+[2024-04-26 12:13:51] INFO root fetch - processPackages [tf-keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_keras_nightly-2.17.0.dev2024042509.tar.gz]
+[2024-04-26 12:13:51] INFO root fetch - main [MainThread]: End processing [tf-keras-nightly]: success
+[2024-04-26 12:13:52] INFO root fetch - processPackages [ExoJAX]: Remove: archive file [/home/abi/fetcher/tmp/ExoJAX-1.4.2-py2.py3-none-any.whl.zip]
+[2024-04-26 12:13:52] INFO root fetch - processPackages [ExoJAX]: Remove: archive file [/home/abi/fetcher/tmp/ExoJAX-1.5-py2.py3-none-any.whl.zip]
+[2024-04-26 12:13:52] INFO root fetch - main [MainThread]: End processing [ExoJAX]: success
+[2024-04-26 12:14:06] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-6.9.0a1699991594.tar.gz]
+[2024-04-26 12:14:06] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-6.9.0a1700084435.tar.gz]
+[2024-04-26 12:14:06] INFO root fetch - main [MainThread]: End processing [pulumi-aws]: success
+[2024-04-26 12:14:06] INFO root fetch - main [MainThread]: Store serial: [22946152]
