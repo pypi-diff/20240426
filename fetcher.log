@@ -12739,3 +12739,85 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 09:22:58] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202404251549.tar.gz]
 [2024-04-26 09:22:58] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2024-04-26 09:22:58] INFO root fetch - main [MainThread]: Store serial: [22944207]
+[2024-04-26 09:25:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22944207]
+[2024-04-26 09:25:07] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-26 09:25:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: KratosMultiphysics-all
+[2024-04-26 09:25:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: KratosOptimizationApplication
+[2024-04-26 09:25:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ncmlistdownloader
+[2024-04-26 09:25:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: KratosPoromechanicsApplication
+[2024-04-26 09:25:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: KratosRANSApplication
+[2024-04-26 09:25:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ncmlistdownloader
+[2024-04-26 09:25:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kfish
+[2024-04-26 09:25:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: KratosRomApplication
+[2024-04-26 09:25:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: smartieee
+[2024-04-26 09:25:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: KratosShallowWaterApplication
+[2024-04-26 09:25:07] INFO root fetch - processPackages [ncmlistdownloader]: New version: [1.0.1.240426] Old Version: [1.0.1.240425a1]
+[2024-04-26 09:25:07] INFO root fetch - processPackages [ncmlistdownloader]: New version: [1.0.1.240426] Old Version: [1.0.1.240425a1]
+[2024-04-26 09:25:07] INFO root fetch - processPackages [kfish]: New version: [99.0.202404251552] Old Version: [99.0.202404251548]
+[2024-04-26 09:25:07] INFO root fetch - processPackages [ncmlistdownloader]: Downloading https://files.pythonhosted.org/packages/c0/3a/fcee3f30926ab9463b82282a65e630794f8188609fc4ee95b177e89097b7/ncmlistdownloader-1.0.1.240425a1.tar.gz
+[2024-04-26 09:25:07] INFO root fetch - processPackages [KratosOptimizationApplication]: New version: [9.5] Old Version: [9.4.5]
+[2024-04-26 09:25:07] INFO root fetch - processPackages [KratosMultiphysics-all]: New version: [9.5] Old Version: [9.4.5]
+[2024-04-26 09:25:07] WARNING root fetch - processPackages [smartieee]: Skipping, unable to determine old version
+[2024-04-26 09:25:07] INFO root fetch - main [MainThread]: End processing [smartieee] error
+[2024-04-26 09:25:07] INFO root fetch - processPackages [KratosRomApplication]: New version: [9.5] Old Version: [9.4.5]
+[2024-04-26 09:25:07] INFO root fetch - processPackages [KratosRANSApplication]: New version: [9.5] Old Version: [9.4.6]
+[2024-04-26 09:25:07] INFO root fetch - processPackages [KratosPoromechanicsApplication]: New version: [9.5] Old Version: [9.4.6]
+[2024-04-26 09:25:07] INFO root fetch - processPackages [ncmlistdownloader]: Downloading https://files.pythonhosted.org/packages/c0/3a/fcee3f30926ab9463b82282a65e630794f8188609fc4ee95b177e89097b7/ncmlistdownloader-1.0.1.240425a1.tar.gz
+[2024-04-26 09:25:07] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/a9/07/8cf6a390248232aa26248ebdc2fa540696de3b149a18171abc6b1c7dacb3/kfish-99.0.202404251548-py3-none-any.whl
+[2024-04-26 09:25:07] INFO root fetch - processPackages [KratosShallowWaterApplication]: New version: [9.5] Old Version: [9.4.5]
+[2024-04-26 09:25:07] INFO root fetch - processPackages [KratosOptimizationApplication]: Downloading https://files.pythonhosted.org/packages/8c/49/024618362f70e556f8219f555031a79ec25da1f57a18d29e5b40556d348e/KratosOptimizationApplication-9.4.5-cp39-cp39-win_amd64.whl
+[2024-04-26 09:25:07] INFO root fetch - processPackages [KratosMultiphysics-all]: Downloading https://files.pythonhosted.org/packages/6b/c0/2bd9d2447b49a0562fe0392d8d7046d0596d1e109dcfa30c07fd82de85f1/KratosMultiphysics_all-9.4.5-py3-none-any.whl
+[2024-04-26 09:25:08] INFO root fetch - processPackages [KratosRomApplication]: Downloading https://files.pythonhosted.org/packages/bd/e3/ad0b022fa5c67c36d152cd713e78afd0a9fdf4fec3f704fb4e8528d8a6f9/KratosRomApplication-9.4.5-cp39-cp39-win_amd64.whl
+[2024-04-26 09:25:08] INFO root fetch - processPackages [KratosRANSApplication]: Downloading https://files.pythonhosted.org/packages/4c/00/e5ca82f8075de88ae24e80c88a97b19b006fba2057fe95041cd2030daeae/KratosRANSApplication-9.4.6-cp39-cp39-win_amd64.whl
+[2024-04-26 09:25:08] INFO root fetch - processPackages [KratosPoromechanicsApplication]: Downloading https://files.pythonhosted.org/packages/36/5b/cdc91e00737944a95bf280fee0366ea0a04c256ee53e628acfb998a15ba6/KratosPoromechanicsApplication-9.4.6-cp39-cp39-win_amd64.whl
+[2024-04-26 09:25:08] INFO root fetch - processPackages [KratosShallowWaterApplication]: Downloading https://files.pythonhosted.org/packages/30/63/383cf12f4424bee7838aa20f3c1ba6729f103d8d91e37bacf5b6e86a3c6c/KratosShallowWaterApplication-9.4.5-cp39-cp39-win_amd64.whl
+[2024-04-26 09:25:08] INFO root fetch - processPackages [ncmlistdownloader]: Downloading https://files.pythonhosted.org/packages/f4/e0/e3c127e59359830857a952421f6c4113a82b3aba810a15bf3316d988cacc/ncmlistdownloader-1.0.1.240426.tar.gz
+[2024-04-26 09:25:08] INFO root fetch - processPackages [ncmlistdownloader]: Downloading https://files.pythonhosted.org/packages/f4/e0/e3c127e59359830857a952421f6c4113a82b3aba810a15bf3316d988cacc/ncmlistdownloader-1.0.1.240426.tar.gz
+[2024-04-26 09:25:08] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/7a/95/4f7d6ac6245a68027ce6c1147812fb986182834673978233f1675ba0e481/kfish-99.0.202404251552-py3-none-any.whl
+[2024-04-26 09:25:08] INFO root fetch - processPackages [ncmlistdownloader]: executing diffoscope
+[2024-04-26 09:25:08] INFO root fetch - processPackages [ncmlistdownloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ncmlistdownloader-1.0.1.240425a1.tar.gz tmp/ncmlistdownloader-1.0.1.240426.tar.gz --markdown 20240426/n/ncmlistdownloader/1.0.1.240425a1-1.0.1.240426/README.md --exclude *.pyd
+[2024-04-26 09:25:08] INFO root fetch - processPackages [ncmlistdownloader]: executing diffoscope
+[2024-04-26 09:25:08] INFO root fetch - processPackages [ncmlistdownloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ncmlistdownloader-1.0.1.240425a1.tar.gz tmp/ncmlistdownloader-1.0.1.240426.tar.gz --markdown 20240426/n/ncmlistdownloader/1.0.1.240425a1-1.0.1.240426/README.md --exclude *.pyd
+[2024-04-26 09:25:08] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2024-04-26 09:25:08] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202404251548-py3-none-any.whl.zip tmp/kfish-99.0.202404251552-py3-none-any.whl.zip --markdown 20240426/k/kfish/99.0.202404251548-99.0.202404251552/README.md --exclude *.pyd
+[2024-04-26 09:25:08] INFO root fetch - processPackages [KratosMultiphysics-all]: Downloading https://files.pythonhosted.org/packages/e2/4b/8d6ab86389c74d0196c4751ec41bc700d49913c5c8ea7edcc1e533e87767/KratosMultiphysics_all-9.5-py3-none-any.whl
+[2024-04-26 09:25:08] INFO root fetch - processPackages [KratosMultiphysics-all]: executing diffoscope
+[2024-04-26 09:25:08] INFO root fetch - processPackages [KratosMultiphysics-all]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KratosMultiphysics_all-9.4.5-py3-none-any.whl.zip tmp/KratosMultiphysics_all-9.5-py3-none-any.whl.zip --markdown 20240426/K/KratosMultiphysics-all/9.4.5-9.5/README.md --exclude *.pyd
+[2024-04-26 09:25:08] INFO root fetch - processPackages [KratosRANSApplication]: Downloading https://files.pythonhosted.org/packages/4a/39/441d53f25e3f9e5cb6a46103db961e2d166af54d37d479e54aec79e89602/KratosRANSApplication-9.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-26 09:25:08] INFO root fetch - processPackages [KratosRomApplication]: Downloading https://files.pythonhosted.org/packages/47/bb/bc7174c2125806077b2fa959f314e448dbc540e3bbfc20db629da35bb350/KratosRomApplication-9.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-26 09:25:08] INFO root fetch - processPackages [KratosOptimizationApplication]: Downloading https://files.pythonhosted.org/packages/e0/cf/89feb3d8ad39c4024586f03a7413addb63bb1415c2cacd2a684e87d5568b/KratosOptimizationApplication-9.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-26 09:25:08] INFO root fetch - processPackages [KratosPoromechanicsApplication]: Downloading https://files.pythonhosted.org/packages/2f/7e/0d4888e1e2af6efd74cdde4c764c79544b9e345ef80c06c5b3a89697a131/KratosPoromechanicsApplication-9.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-26 09:25:08] INFO root fetch - processPackages [KratosShallowWaterApplication]: Downloading https://files.pythonhosted.org/packages/63/34/f41ca7cb40fe52af060e16e001ce019b32aa65c824c036648d41dcdaf865/KratosShallowWaterApplication-9.5-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-26 09:25:08] WARNING root fetch - processPackages [KratosRANSApplication]: Skipping package: exceeds size limit 16438314>=10485760
+[2024-04-26 09:25:08] INFO root fetch - main [MainThread]: End processing [KratosRANSApplication] error
+[2024-04-26 09:25:08] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202404251548-py3-none-any.whl.zip]
+[2024-04-26 09:25:08] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202404251552-py3-none-any.whl.zip]
+[2024-04-26 09:25:08] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2024-04-26 09:25:08] INFO root fetch - processPackages [ncmlistdownloader]: Remove: archive file [/home/abi/fetcher/tmp/ncmlistdownloader-1.0.1.240425a1.tar.gz]
+[2024-04-26 09:25:08] INFO root fetch - processPackages [ncmlistdownloader]: Remove: archive file [/home/abi/fetcher/tmp/ncmlistdownloader-1.0.1.240426.tar.gz]
+[2024-04-26 09:25:08] INFO root fetch - main [MainThread]: End processing [ncmlistdownloader]: success
+[2024-04-26 09:25:09] INFO root fetch - main [MainThread]: End processing [ncmlistdownloader]: success
+[2024-04-26 09:25:09] INFO root fetch - processPackages [KratosMultiphysics-all]: Remove: archive file [/home/abi/fetcher/tmp/KratosMultiphysics_all-9.4.5-py3-none-any.whl.zip]
+[2024-04-26 09:25:09] INFO root fetch - processPackages [KratosMultiphysics-all]: Remove: archive file [/home/abi/fetcher/tmp/KratosMultiphysics_all-9.5-py3-none-any.whl.zip]
+[2024-04-26 09:25:09] INFO root fetch - main [MainThread]: End processing [KratosMultiphysics-all]: success
+[2024-04-26 09:25:09] INFO root fetch - processPackages [KratosOptimizationApplication]: executing diffoscope
+[2024-04-26 09:25:09] INFO root fetch - processPackages [KratosOptimizationApplication]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KratosOptimizationApplication-9.4.5-cp39-cp39-win_amd64.whl.zip tmp/KratosOptimizationApplication-9.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240426/K/KratosOptimizationApplication/9.4.5-9.5/README.md --exclude *.pyd
+[2024-04-26 09:25:09] INFO root fetch - processPackages [KratosRomApplication]: executing diffoscope
+[2024-04-26 09:25:09] INFO root fetch - processPackages [KratosRomApplication]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KratosRomApplication-9.4.5-cp39-cp39-win_amd64.whl.zip tmp/KratosRomApplication-9.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240426/K/KratosRomApplication/9.4.5-9.5/README.md --exclude *.pyd
+[2024-04-26 09:25:09] INFO root fetch - processPackages [KratosPoromechanicsApplication]: executing diffoscope
+[2024-04-26 09:25:09] INFO root fetch - processPackages [KratosPoromechanicsApplication]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KratosPoromechanicsApplication-9.4.6-cp39-cp39-win_amd64.whl.zip tmp/KratosPoromechanicsApplication-9.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240426/K/KratosPoromechanicsApplication/9.4.6-9.5/README.md --exclude *.pyd
+[2024-04-26 09:25:10] INFO root fetch - processPackages [KratosRomApplication]: Remove: archive file [/home/abi/fetcher/tmp/KratosRomApplication-9.4.5-cp39-cp39-win_amd64.whl.zip]
+[2024-04-26 09:25:10] INFO root fetch - processPackages [KratosRomApplication]: Remove: archive file [/home/abi/fetcher/tmp/KratosRomApplication-9.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-26 09:25:10] INFO root fetch - main [MainThread]: End processing [KratosRomApplication]: success
+[2024-04-26 09:25:10] INFO root fetch - processPackages [KratosOptimizationApplication]: Remove: archive file [/home/abi/fetcher/tmp/KratosOptimizationApplication-9.4.5-cp39-cp39-win_amd64.whl.zip]
+[2024-04-26 09:25:10] INFO root fetch - processPackages [KratosOptimizationApplication]: Remove: archive file [/home/abi/fetcher/tmp/KratosOptimizationApplication-9.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-26 09:25:10] INFO root fetch - main [MainThread]: End processing [KratosOptimizationApplication]: success
+[2024-04-26 09:25:10] INFO root fetch - processPackages [KratosShallowWaterApplication]: executing diffoscope
+[2024-04-26 09:25:10] INFO root fetch - processPackages [KratosShallowWaterApplication]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KratosShallowWaterApplication-9.4.5-cp39-cp39-win_amd64.whl.zip tmp/KratosShallowWaterApplication-9.5-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240426/K/KratosShallowWaterApplication/9.4.5-9.5/README.md --exclude *.pyd
+[2024-04-26 09:25:10] INFO root fetch - processPackages [KratosPoromechanicsApplication]: Remove: archive file [/home/abi/fetcher/tmp/KratosPoromechanicsApplication-9.4.6-cp39-cp39-win_amd64.whl.zip]
+[2024-04-26 09:25:10] INFO root fetch - processPackages [KratosPoromechanicsApplication]: Remove: archive file [/home/abi/fetcher/tmp/KratosPoromechanicsApplication-9.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-26 09:25:10] INFO root fetch - main [MainThread]: End processing [KratosPoromechanicsApplication]: success
+[2024-04-26 09:25:11] INFO root fetch - processPackages [KratosShallowWaterApplication]: Remove: archive file [/home/abi/fetcher/tmp/KratosShallowWaterApplication-9.4.5-cp39-cp39-win_amd64.whl.zip]
+[2024-04-26 09:25:11] INFO root fetch - processPackages [KratosShallowWaterApplication]: Remove: archive file [/home/abi/fetcher/tmp/KratosShallowWaterApplication-9.5-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-26 09:25:11] INFO root fetch - main [MainThread]: End processing [KratosShallowWaterApplication]: success
+[2024-04-26 09:25:11] INFO root fetch - main [MainThread]: Store serial: [22944274]
