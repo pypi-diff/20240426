@@ -9311,3 +9311,33 @@
 [2024-04-26 06:53:58] INFO root fetch - processPackages [kfre]: Remove: archive file [/home/abi/fetcher/tmp/kfre-0.1.0a2.tar.gz]
 [2024-04-26 06:53:58] INFO root fetch - main [MainThread]: End processing [kfre]: success
 [2024-04-26 06:53:58] INFO root fetch - main [MainThread]: Store serial: [22942730]
+[2024-04-26 06:56:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22942730]
+[2024-04-26 06:56:08] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-26 06:56:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mainshortcuts
+[2024-04-26 06:56:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyscinloopsr
+[2024-04-26 06:56:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-sync-env
+[2024-04-26 06:56:08] INFO root fetch - processPackages [pyscinloopsr]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-26 06:56:08] INFO root fetch - processPackages [django-sync-env]: New version: [0.3.1a5] Old Version: [0.3.1a4]
+[2024-04-26 06:56:08] INFO root fetch - processPackages [mainshortcuts]: New version: [1.6.80] Old Version: [1.6.79]
+[2024-04-26 06:56:08] INFO root fetch - processPackages [pyscinloopsr]: Downloading https://files.pythonhosted.org/packages/c3/50/6f1e7709cda927bcbeca4cac6d2316d5c6e137de0d430fb89ffc1bd239fb/pyscinloopsr-1.0.2.tar.gz
+[2024-04-26 06:56:08] INFO root fetch - processPackages [django-sync-env]: Downloading https://files.pythonhosted.org/packages/63/74/f49a34479e56a622198792442439e0ef08f2237e3a298d88081c719a93bc/django_sync_env-0.3.1a4.tar.gz
+[2024-04-26 06:56:08] INFO root fetch - processPackages [mainshortcuts]: Downloading https://files.pythonhosted.org/packages/bb/2c/921783686a9ba4bffb055762386f09f9cdf1af26ab45f5173b36f10daf6b/mainshortcuts-1.6.79.tar.gz
+[2024-04-26 06:56:08] INFO root fetch - processPackages [pyscinloopsr]: Downloading https://files.pythonhosted.org/packages/27/ea/053628aa633648299954c820cf75bc92240b42cf9ba32b100a1dcb0c480c/pyscinloopsr-1.0.3.tar.gz
+[2024-04-26 06:56:08] INFO root fetch - processPackages [mainshortcuts]: Downloading https://files.pythonhosted.org/packages/ec/69/a4a9d877338640bc7a3f1316a26b48a011ba0645b1b9d1104f35c81c0b99/mainshortcuts-1.6.80.tar.gz
+[2024-04-26 06:56:09] INFO root fetch - processPackages [pyscinloopsr]: executing diffoscope
+[2024-04-26 06:56:09] INFO root fetch - processPackages [pyscinloopsr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyscinloopsr-1.0.2.tar.gz tmp/pyscinloopsr-1.0.3.tar.gz --markdown 20240426/p/pyscinloopsr/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-04-26 06:56:09] INFO root fetch - processPackages [django-sync-env]: Downloading https://files.pythonhosted.org/packages/77/6b/d3fbf652bb96febcce5457345b9b864b7f1c0d66a784db848117c4f3be72/django_sync_env-0.3.1a5.tar.gz
+[2024-04-26 06:56:09] INFO root fetch - processPackages [mainshortcuts]: executing diffoscope
+[2024-04-26 06:56:09] INFO root fetch - processPackages [mainshortcuts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mainshortcuts-1.6.79.tar.gz tmp/mainshortcuts-1.6.80.tar.gz --markdown 20240426/m/mainshortcuts/1.6.79-1.6.80/README.md --exclude *.pyd
+[2024-04-26 06:56:09] INFO root fetch - processPackages [django-sync-env]: executing diffoscope
+[2024-04-26 06:56:09] INFO root fetch - processPackages [django-sync-env]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_sync_env-0.3.1a4.tar.gz tmp/django_sync_env-0.3.1a5.tar.gz --markdown 20240426/d/django-sync-env/0.3.1a4-0.3.1a5/README.md --exclude *.pyd
+[2024-04-26 06:56:09] INFO root fetch - processPackages [pyscinloopsr]: Remove: archive file [/home/abi/fetcher/tmp/pyscinloopsr-1.0.2.tar.gz]
+[2024-04-26 06:56:09] INFO root fetch - processPackages [pyscinloopsr]: Remove: archive file [/home/abi/fetcher/tmp/pyscinloopsr-1.0.3.tar.gz]
+[2024-04-26 06:56:09] INFO root fetch - main [MainThread]: End processing [pyscinloopsr]: success
+[2024-04-26 06:56:09] INFO root fetch - processPackages [mainshortcuts]: Remove: archive file [/home/abi/fetcher/tmp/mainshortcuts-1.6.79.tar.gz]
+[2024-04-26 06:56:09] INFO root fetch - processPackages [mainshortcuts]: Remove: archive file [/home/abi/fetcher/tmp/mainshortcuts-1.6.80.tar.gz]
+[2024-04-26 06:56:09] INFO root fetch - main [MainThread]: End processing [mainshortcuts]: success
+[2024-04-26 06:56:09] INFO root fetch - processPackages [django-sync-env]: Remove: archive file [/home/abi/fetcher/tmp/django_sync_env-0.3.1a4.tar.gz]
+[2024-04-26 06:56:09] INFO root fetch - processPackages [django-sync-env]: Remove: archive file [/home/abi/fetcher/tmp/django_sync_env-0.3.1a5.tar.gz]
+[2024-04-26 06:56:09] INFO root fetch - main [MainThread]: End processing [django-sync-env]: success
+[2024-04-26 06:56:09] INFO root fetch - main [MainThread]: Store serial: [22942739]
