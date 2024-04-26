@@ -13481,3 +13481,80 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 09:59:10] INFO root fetch - processPackages [aiida-workgraph]: Remove: archive file [/home/abi/fetcher/tmp/aiida_workgraph-0.2.1.tar.gz]
 [2024-04-26 09:59:10] INFO root fetch - main [MainThread]: End processing [aiida-workgraph]: success
 [2024-04-26 09:59:10] INFO root fetch - main [MainThread]: Store serial: [22944566]
+[2024-04-26 10:01:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22944566]
+[2024-04-26 10:01:28] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-26 10:01:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aiida-workgraph
+[2024-04-26 10:01:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pandasai
+[2024-04-26 10:01:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hello-world-suraj-test
+[2024-04-26 10:01:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: prcpy
+[2024-04-26 10:01:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kimmdy
+[2024-04-26 10:01:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: py2docfx
+[2024-04-26 10:01:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tf-nightly
+[2024-04-26 10:01:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ixoncdkingress
+[2024-04-26 10:01:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: plcdoc
+[2024-04-26 10:01:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: leadguru-jobs
+[2024-04-26 10:01:29] INFO root fetch - processPackages [prcpy]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-26 10:01:29] INFO root fetch - processPackages [aiida-workgraph]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-26 10:01:29] INFO root fetch - processPackages [py2docfx]: New version: [0.1.5rc1706277] Old Version: [0.1.5rc1704966]
+[2024-04-26 10:01:29] INFO root fetch - processPackages [leadguru-jobs]: New version: [0.99.0] Old Version: [0.98.0]
+[2024-04-26 10:01:29] INFO root fetch - processPackages [prcpy]: Downloading https://files.pythonhosted.org/packages/2c/4b/04358999e84574c069740fc4a88a65616dc81fae5046a936911b4d1f6f5e/prcpy-0.1.7.tar.gz
+[2024-04-26 10:01:29] INFO root fetch - processPackages [aiida-workgraph]: Downloading https://files.pythonhosted.org/packages/40/2f/cf1044ca7f397322ea2efc39aed99d39391a6ddbd4a0290cf8ee2136d1d5/aiida_workgraph-0.2.0.tar.gz
+[2024-04-26 10:01:29] INFO root fetch - processPackages [ixoncdkingress]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-26 10:01:29] INFO root fetch - processPackages [kimmdy]: New version: [6.6.0] Old Version: [6.5.0]
+[2024-04-26 10:01:29] WARNING root fetch - processPackages [hello-world-suraj-test]: Skipping, unable to determine old version
+[2024-04-26 10:01:29] INFO root fetch - main [MainThread]: End processing [hello-world-suraj-test] error
+[2024-04-26 10:01:29] WARNING root fetch - processPackages [plcdoc]: Skipping, unable to determine old version
+[2024-04-26 10:01:29] INFO root fetch - main [MainThread]: End processing [plcdoc] error
+[2024-04-26 10:01:29] INFO root fetch - processPackages [pandasai]: New version: [2.0a9] Old Version: [2.0a8]
+[2024-04-26 10:01:29] INFO root fetch - processPackages [py2docfx]: Downloading https://files.pythonhosted.org/packages/f7/c2/d4bd2ca9855cc2078537e54ece7d1522d78240960cac73d26ce097c9d8dc/py2docfx-0.1.5rc1704966-py3-none-any.whl
+[2024-04-26 10:01:29] INFO root fetch - processPackages [tf-nightly]: New version: [2.17.0.dev20240426] Old Version: [2.17.0.dev20240425]
+[2024-04-26 10:01:29] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/58/0a/904c1f8e92c5b6adf3bf97a755cae87648f67ca82bb52bc30055558e0ce3/leadguru_jobs-0.98.0.tar.gz
+[2024-04-26 10:01:29] INFO root fetch - processPackages [kimmdy]: Downloading https://files.pythonhosted.org/packages/5d/e7/f132487c34a12ae7647e9c6c468c5a0ddbbdae4a967ff27ec43c2a6cbec3/kimmdy-6.5.0.tar.gz
+[2024-04-26 10:01:29] INFO root fetch - processPackages [ixoncdkingress]: Downloading https://files.pythonhosted.org/packages/b3/1b/2738933755f61b85947702010ca1d9403e64824e49dcdc082f1b61a07b4a/ixoncdkingress-0.0.8.tar.gz
+[2024-04-26 10:01:29] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/c3/a9/c641dbf8ccf70eb6a95f85e59868b581a5c171fb44413dce46c304f39a5c/tf_nightly-2.17.0.dev20240425-cp39-cp39-win_amd64.whl
+[2024-04-26 10:01:29] WARNING root fetch - processPackages [kimmdy]: Skipping package: exceeds size limit 38437796>=10485760
+[2024-04-26 10:01:29] INFO root fetch - main [MainThread]: End processing [kimmdy] error
+[2024-04-26 10:01:29] INFO root fetch - processPackages [pandasai]: Downloading https://files.pythonhosted.org/packages/45/d0/411589316f7a6ef5ebd6102b368912a4af989b793a0944b97d0d900e6161/pandasai-2.0a8.tar.gz
+[2024-04-26 10:01:29] INFO root fetch - processPackages [py2docfx]: Downloading https://files.pythonhosted.org/packages/6d/fd/2ee1dbdcb0431d14994e51aa2cc18b78f1c0e5a8e8fc4b3eea6f478b35d9/py2docfx-0.1.5rc1706277-py3-none-any.whl
+[2024-04-26 10:01:29] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/e4/7f/189fe7a4dc1256297dd1956413531652ee35cd4ee527f02aa7f2d608775a/leadguru_jobs-0.99.0.tar.gz
+[2024-04-26 10:01:29] INFO root fetch - processPackages [prcpy]: Downloading https://files.pythonhosted.org/packages/47/2e/45d7a68b731c6c672c17f700a152c75c44bdd53a2b300e8950d57dc9457d/prcpy-0.1.8.tar.gz
+[2024-04-26 10:01:29] INFO root fetch - processPackages [py2docfx]: executing diffoscope
+[2024-04-26 10:01:29] INFO root fetch - processPackages [py2docfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py2docfx-0.1.5rc1704966-py3-none-any.whl.zip tmp/py2docfx-0.1.5rc1706277-py3-none-any.whl.zip --markdown 20240426/p/py2docfx/0.1.5rc1704966-0.1.5rc1706277/README.md --exclude *.pyd
+[2024-04-26 10:01:29] INFO root fetch - processPackages [leadguru-jobs]: executing diffoscope
+[2024-04-26 10:01:29] INFO root fetch - processPackages [leadguru-jobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_jobs-0.98.0.tar.gz tmp/leadguru_jobs-0.99.0.tar.gz --markdown 20240426/l/leadguru-jobs/0.98.0-0.99.0/README.md --exclude *.pyd
+[2024-04-26 10:01:29] INFO root fetch - processPackages [prcpy]: executing diffoscope
+[2024-04-26 10:01:29] INFO root fetch - processPackages [prcpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prcpy-0.1.7.tar.gz tmp/prcpy-0.1.8.tar.gz --markdown 20240426/p/prcpy/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-26 10:01:29] INFO root fetch - processPackages [aiida-workgraph]: Downloading https://files.pythonhosted.org/packages/e6/d4/f3a5a90958b49c508716bfa17a2fe8800dbd79f60ca17ac6069c678ab44e/aiida_workgraph-0.2.1.tar.gz
+[2024-04-26 10:01:29] INFO root fetch - processPackages [ixoncdkingress]: Downloading https://files.pythonhosted.org/packages/81/5d/64486ddfc794e9b261c3c76607feaa76e92ecb01cd26ffd13bced3ecac65/ixoncdkingress-0.0.9.tar.gz
+[2024-04-26 10:01:29] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/5f/05/76d75b4faef0493676b92a836ee5d5ea0b3499240648b41d951cb2d066b5/tf_nightly-2.17.0.dev20240426-cp39-cp39-win_amd64.whl
+[2024-04-26 10:01:29] INFO root fetch - processPackages [pandasai]: Downloading https://files.pythonhosted.org/packages/a1/20/3561bdae1b48497693d449a6c68b80514d1748d9bb36a7928867f863159a/pandasai-2.0a9.tar.gz
+[2024-04-26 10:01:29] INFO root fetch - processPackages [ixoncdkingress]: executing diffoscope
+[2024-04-26 10:01:29] INFO root fetch - processPackages [ixoncdkingress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ixoncdkingress-0.0.8.tar.gz tmp/ixoncdkingress-0.0.9.tar.gz --markdown 20240426/i/ixoncdkingress/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-26 10:01:30] INFO root fetch - processPackages [tf-nightly]: executing diffoscope
+[2024-04-26 10:01:30] INFO root fetch - processPackages [tf-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly-2.17.0.dev20240425-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly-2.17.0.dev20240426-cp39-cp39-win_amd64.whl.zip --markdown 20240426/t/tf-nightly/2.17.0.dev20240425-2.17.0.dev20240426/README.md --exclude *.pyd
+[2024-04-26 10:01:30] INFO root fetch - processPackages [pandasai]: executing diffoscope
+[2024-04-26 10:01:30] INFO root fetch - processPackages [pandasai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandasai-2.0a8.tar.gz tmp/pandasai-2.0a9.tar.gz --markdown 20240426/p/pandasai/2.0a8-2.0a9/README.md --exclude *.pyd
+[2024-04-26 10:01:30] INFO root fetch - processPackages [aiida-workgraph]: executing diffoscope
+[2024-04-26 10:01:30] INFO root fetch - processPackages [aiida-workgraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiida_workgraph-0.2.0.tar.gz tmp/aiida_workgraph-0.2.1.tar.gz --markdown 20240426/a/aiida-workgraph/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-04-26 10:01:30] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.98.0.tar.gz]
+[2024-04-26 10:01:30] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.99.0.tar.gz]
+[2024-04-26 10:01:30] INFO root fetch - main [MainThread]: End processing [leadguru-jobs]: success
+[2024-04-26 10:01:30] INFO root fetch - processPackages [prcpy]: Remove: archive file [/home/abi/fetcher/tmp/prcpy-0.1.7.tar.gz]
+[2024-04-26 10:01:30] INFO root fetch - processPackages [prcpy]: Remove: archive file [/home/abi/fetcher/tmp/prcpy-0.1.8.tar.gz]
+[2024-04-26 10:01:30] INFO root fetch - main [MainThread]: End processing [prcpy]: success
+[2024-04-26 10:01:30] INFO root fetch - processPackages [ixoncdkingress]: Remove: archive file [/home/abi/fetcher/tmp/ixoncdkingress-0.0.8.tar.gz]
+[2024-04-26 10:01:30] INFO root fetch - processPackages [ixoncdkingress]: Remove: archive file [/home/abi/fetcher/tmp/ixoncdkingress-0.0.9.tar.gz]
+[2024-04-26 10:01:30] INFO root fetch - main [MainThread]: End processing [ixoncdkingress]: success
+[2024-04-26 10:01:30] INFO root fetch - processPackages [tf-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly-2.17.0.dev20240425-cp39-cp39-win_amd64.whl.zip]
+[2024-04-26 10:01:30] INFO root fetch - processPackages [tf-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly-2.17.0.dev20240426-cp39-cp39-win_amd64.whl.zip]
+[2024-04-26 10:01:30] INFO root fetch - main [MainThread]: End processing [tf-nightly]: success
+[2024-04-26 10:01:30] INFO root fetch - processPackages [py2docfx]: Remove: archive file [/home/abi/fetcher/tmp/py2docfx-0.1.5rc1704966-py3-none-any.whl.zip]
+[2024-04-26 10:01:30] INFO root fetch - processPackages [py2docfx]: Remove: archive file [/home/abi/fetcher/tmp/py2docfx-0.1.5rc1706277-py3-none-any.whl.zip]
+[2024-04-26 10:01:30] INFO root fetch - main [MainThread]: End processing [py2docfx]: success
+[2024-04-26 10:01:30] INFO root fetch - processPackages [pandasai]: Remove: archive file [/home/abi/fetcher/tmp/pandasai-2.0a8.tar.gz]
+[2024-04-26 10:01:30] INFO root fetch - processPackages [pandasai]: Remove: archive file [/home/abi/fetcher/tmp/pandasai-2.0a9.tar.gz]
+[2024-04-26 10:01:30] INFO root fetch - main [MainThread]: End processing [pandasai]: success
+[2024-04-26 10:02:14] INFO root fetch - processPackages [aiida-workgraph]: Remove: archive file [/home/abi/fetcher/tmp/aiida_workgraph-0.2.0.tar.gz]
+[2024-04-26 10:02:14] INFO root fetch - processPackages [aiida-workgraph]: Remove: archive file [/home/abi/fetcher/tmp/aiida_workgraph-0.2.1.tar.gz]
+[2024-04-26 10:02:14] INFO root fetch - main [MainThread]: End processing [aiida-workgraph]: success
+[2024-04-26 10:02:14] INFO root fetch - main [MainThread]: Store serial: [22944601]
