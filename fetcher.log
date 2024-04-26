@@ -19035,3 +19035,52 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 13:33:42] WARNING root fetch - processPackages [particleannotation]: Skipping package: exceeds size limit 49926853>=10485760
 [2024-04-26 13:33:42] INFO root fetch - main [MainThread]: End processing [particleannotation] error
 [2024-04-26 13:33:42] INFO root fetch - main [MainThread]: Store serial: [22946948]
+[2024-04-26 13:35:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22946948]
+[2024-04-26 13:35:51] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-26 13:35:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bigdl-core-xe
+[2024-04-26 13:35:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mxcubecore
+[2024-04-26 13:35:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tradedangerous
+[2024-04-26 13:35:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: caen-hv-py
+[2024-04-26 13:35:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Simba-UW-tf-dev
+[2024-04-26 13:35:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyretailscience
+[2024-04-26 13:35:51] INFO root fetch - processPackages [caen-hv-py]: New version: [1.4] Old Version: [1.3]
+[2024-04-26 13:35:51] INFO root fetch - processPackages [Simba-UW-tf-dev]: New version: [1.90.7] Old Version: [1.90.6]
+[2024-04-26 13:35:51] INFO root fetch - processPackages [caen-hv-py]: Downloading https://files.pythonhosted.org/packages/02/b2/36c7910b228a019a93d11bda43ce0b1c2c390670b883ae1685c7b0c46f9f/caen_hv_py-1.3.tar.gz
+[2024-04-26 13:35:51] INFO root fetch - processPackages [bigdl-core-xe]: New version: [2.5.0b20240426] Old Version: [2.5.0b20240425]
+[2024-04-26 13:35:51] INFO root fetch - processPackages [mxcubecore]: New version: [1.97.0] Old Version: [1.96.0]
+[2024-04-26 13:35:51] INFO root fetch - processPackages [pyretailscience]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-04-26 13:35:51] INFO root fetch - processPackages [tradedangerous]: New version: [11.0.4] Old Version: [11.0.3]
+[2024-04-26 13:35:51] INFO root fetch - processPackages [Simba-UW-tf-dev]: Downloading https://files.pythonhosted.org/packages/37/e2/0e1d77e4db2cbdd2172a5028f5a73779377a9d5adf2e5529467de1cf11f1/Simba-UW-tf-dev-1.90.6.tar.gz
+[2024-04-26 13:35:51] INFO root fetch - processPackages [mxcubecore]: Downloading https://files.pythonhosted.org/packages/aa/91/fce228bbe3daca7cdd461ceda994d422a29aa99dc4f8e6eaa9292357b554/mxcubecore-1.96.0.tar.gz
+[2024-04-26 13:35:51] INFO root fetch - processPackages [bigdl-core-xe]: Downloading https://files.pythonhosted.org/packages/96/6f/3120a0bcabddc352cce7524cf4546900f1122bbc9541c71f88d889d437da/bigdl_core_xe-2.5.0b20240425-cp39-cp39-manylinux2010_x86_64.whl
+[2024-04-26 13:35:51] INFO root fetch - processPackages [tradedangerous]: Downloading https://files.pythonhosted.org/packages/3e/0e/401a493cc985221762691fcd686a5864f8a28cd1346c48f37c95c72ef7f4/tradedangerous-11.0.3.tar.gz
+[2024-04-26 13:35:51] WARNING root fetch - processPackages [mxcubecore]: Skipping package: exceeds size limit 30978545>=10485760
+[2024-04-26 13:35:51] INFO root fetch - main [MainThread]: End processing [mxcubecore] error
+[2024-04-26 13:35:51] WARNING root fetch - processPackages [bigdl-core-xe]: Skipping package: exceeds size limit 105429477>=10485760
+[2024-04-26 13:35:51] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe] error
+[2024-04-26 13:35:51] INFO root fetch - processPackages [pyretailscience]: Downloading https://files.pythonhosted.org/packages/c4/cc/c6b8bff2a1be9e7be14e94ba1b83f9be1d50b3bd8fbdc5981f4f856e466c/pyretailscience-0.2.0.tar.gz
+[2024-04-26 13:35:51] INFO root fetch - processPackages [caen-hv-py]: Downloading https://files.pythonhosted.org/packages/98/17/348c4c32d2e0d6bda56cbab8636db980792c1b1a61da12b9e57c1db7d1ac/caen_hv_py-1.4.tar.gz
+[2024-04-26 13:35:51] INFO root fetch - processPackages [caen-hv-py]: executing diffoscope
+[2024-04-26 13:35:51] INFO root fetch - processPackages [caen-hv-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caen_hv_py-1.3.tar.gz tmp/caen_hv_py-1.4.tar.gz --markdown 20240426/c/caen-hv-py/1.3-1.4/README.md --exclude *.pyd
+[2024-04-26 13:35:51] INFO root fetch - processPackages [Simba-UW-tf-dev]: Downloading https://files.pythonhosted.org/packages/ed/53/c59861152f4a53abf3a8a6b7a5438c2ea03185ad1ee7398f9cbe28f2602a/Simba-UW-tf-dev-1.90.7.tar.gz
+[2024-04-26 13:35:51] INFO root fetch - processPackages [pyretailscience]: Downloading https://files.pythonhosted.org/packages/14/c4/704707cee14e4bad4031e54ecf2137812188d631006d9a7f29c7416dd88f/pyretailscience-0.3.0.tar.gz
+[2024-04-26 13:35:51] INFO root fetch - processPackages [tradedangerous]: Downloading https://files.pythonhosted.org/packages/3b/67/c48b039d34ee1b49b14afe49dbf419ba4dca02f21b82434ce3626fc02279/tradedangerous-11.0.4.tar.gz
+[2024-04-26 13:35:51] INFO root fetch - processPackages [tradedangerous]: executing diffoscope
+[2024-04-26 13:35:51] INFO root fetch - processPackages [tradedangerous]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tradedangerous-11.0.3.tar.gz tmp/tradedangerous-11.0.4.tar.gz --markdown 20240426/t/tradedangerous/11.0.3-11.0.4/README.md --exclude *.pyd
+[2024-04-26 13:35:52] INFO root fetch - processPackages [pyretailscience]: executing diffoscope
+[2024-04-26 13:35:52] INFO root fetch - processPackages [pyretailscience]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyretailscience-0.2.0.tar.gz tmp/pyretailscience-0.3.0.tar.gz --markdown 20240426/p/pyretailscience/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-04-26 13:35:52] INFO root fetch - processPackages [Simba-UW-tf-dev]: executing diffoscope
+[2024-04-26 13:35:52] INFO root fetch - processPackages [Simba-UW-tf-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Simba-UW-tf-dev-1.90.6.tar.gz tmp/Simba-UW-tf-dev-1.90.7.tar.gz --markdown 20240426/S/Simba-UW-tf-dev/1.90.6-1.90.7/README.md --exclude *.pyd
+[2024-04-26 13:35:52] INFO root fetch - processPackages [caen-hv-py]: Remove: archive file [/home/abi/fetcher/tmp/caen_hv_py-1.3.tar.gz]
+[2024-04-26 13:35:52] INFO root fetch - processPackages [caen-hv-py]: Remove: archive file [/home/abi/fetcher/tmp/caen_hv_py-1.4.tar.gz]
+[2024-04-26 13:35:52] INFO root fetch - main [MainThread]: End processing [caen-hv-py]: success
+[2024-04-26 13:35:52] INFO root fetch - processPackages [pyretailscience]: Remove: archive file [/home/abi/fetcher/tmp/pyretailscience-0.2.0.tar.gz]
+[2024-04-26 13:35:52] INFO root fetch - processPackages [pyretailscience]: Remove: archive file [/home/abi/fetcher/tmp/pyretailscience-0.3.0.tar.gz]
+[2024-04-26 13:35:52] INFO root fetch - main [MainThread]: End processing [pyretailscience]: success
+[2024-04-26 13:35:52] INFO root fetch - processPackages [tradedangerous]: Remove: archive file [/home/abi/fetcher/tmp/tradedangerous-11.0.3.tar.gz]
+[2024-04-26 13:35:52] INFO root fetch - processPackages [tradedangerous]: Remove: archive file [/home/abi/fetcher/tmp/tradedangerous-11.0.4.tar.gz]
+[2024-04-26 13:35:52] INFO root fetch - main [MainThread]: End processing [tradedangerous]: success
+[2024-04-26 13:35:55] INFO root fetch - processPackages [Simba-UW-tf-dev]: Remove: archive file [/home/abi/fetcher/tmp/Simba-UW-tf-dev-1.90.6.tar.gz]
+[2024-04-26 13:35:55] INFO root fetch - processPackages [Simba-UW-tf-dev]: Remove: archive file [/home/abi/fetcher/tmp/Simba-UW-tf-dev-1.90.7.tar.gz]
+[2024-04-26 13:35:55] INFO root fetch - main [MainThread]: End processing [Simba-UW-tf-dev]: success
+[2024-04-26 13:35:55] INFO root fetch - main [MainThread]: Store serial: [22946966]
