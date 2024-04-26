@@ -19866,3 +19866,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 14:17:42] INFO root fetch - processPackages [assemblyline]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-4.5.1.dev99.tar.gz]
 [2024-04-26 14:17:42] INFO root fetch - main [MainThread]: End processing [assemblyline]: success
 [2024-04-26 14:17:42] INFO root fetch - main [MainThread]: Store serial: [22947284]
+[2024-04-26 14:19:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22947284]
+[2024-04-26 14:19:50] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-26 14:19:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: assemblyline-core
+[2024-04-26 14:19:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kabaret
+[2024-04-26 14:19:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: arched-emailer
+[2024-04-26 14:19:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: UEVaultManager
+[2024-04-26 14:19:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rd-api
+[2024-04-26 14:19:51] INFO root fetch - processPackages [arched-emailer]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-26 14:19:51] INFO root fetch - processPackages [kabaret]: New version: [2.3.0rc5] Old Version: [2.3.0rc4]
+[2024-04-26 14:19:51] INFO root fetch - processPackages [arched-emailer]: Downloading https://files.pythonhosted.org/packages/7d/fe/5ae701f92d849fc90a56add98ff658f1dd1f598a6e90497326e1f15e49c8/arched_emailer-0.2.8-py3-none-any.whl
+[2024-04-26 14:19:51] INFO root fetch - processPackages [rd-api]: New version: [1.6.0.0] Old Version: [1.5.0.1]
+[2024-04-26 14:19:51] INFO root fetch - processPackages [UEVaultManager]: New version: [1.9.5] Old Version: [1.9.4]
+[2024-04-26 14:19:51] INFO root fetch - processPackages [assemblyline-core]: New version: [4.5.1.dev99] Old Version: [4.5.1.dev98]
+[2024-04-26 14:19:51] INFO root fetch - processPackages [assemblyline-core]: Downloading https://files.pythonhosted.org/packages/12/39/7c12a7e1a83b7fa7f13d7afc4173ec9dc6b78ca4552bf0b9a435ba01ae68/assemblyline-core-4.5.1.dev98.tar.gz
+[2024-04-26 14:19:51] INFO root fetch - processPackages [arched-emailer]: Downloading https://files.pythonhosted.org/packages/9a/79/402e3c65dee3487bcdae55e09b52826e1cd2dc797d4fba7dc467946672e0/arched_emailer-0.2.9-py3-none-any.whl
+[2024-04-26 14:19:51] INFO root fetch - processPackages [kabaret]: Downloading https://files.pythonhosted.org/packages/e8/18/5803f2ca8a4adf3ddf75e62c1f7952996f619b504c3ac964384c62a34786/kabaret-2.3.0rc4.tar.gz
+[2024-04-26 14:19:51] INFO root fetch - processPackages [UEVaultManager]: Downloading https://files.pythonhosted.org/packages/05/76/b206cf0be89434e324ff7e7d27393b75c94aeef7b5e7851b0aaea271bba4/UEVaultManager-1.9.4.tar.gz
+[2024-04-26 14:19:51] INFO root fetch - processPackages [rd-api]: Downloading https://files.pythonhosted.org/packages/c5/08/ff648005e19bf65013dce510aa15920ab845662f90592a6602844a28e208/rd_api-1.5.0.1-py2.py3-none-any.whl
+[2024-04-26 14:19:51] INFO root fetch - processPackages [arched-emailer]: executing diffoscope
+[2024-04-26 14:19:51] INFO root fetch - processPackages [arched-emailer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arched_emailer-0.2.8-py3-none-any.whl.zip tmp/arched_emailer-0.2.9-py3-none-any.whl.zip --markdown 20240426/a/arched-emailer/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-26 14:19:51] INFO root fetch - processPackages [assemblyline-core]: Downloading https://files.pythonhosted.org/packages/e8/d3/c564610dd6dce1127f1151c7f3563431d86d9d02164cb93935506731edf0/assemblyline-core-4.5.1.dev99.tar.gz
+[2024-04-26 14:19:51] INFO root fetch - processPackages [assemblyline-core]: executing diffoscope
+[2024-04-26 14:19:51] INFO root fetch - processPackages [assemblyline-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline-core-4.5.1.dev98.tar.gz tmp/assemblyline-core-4.5.1.dev99.tar.gz --markdown 20240426/a/assemblyline-core/4.5.1.dev98-4.5.1.dev99/README.md --exclude *.pyd
+[2024-04-26 14:19:51] INFO root fetch - processPackages [kabaret]: Downloading https://files.pythonhosted.org/packages/6f/96/b993bfcd6ca270bac5a44301e08b6668b02fa199ce5253ce7b8bf253ab4f/kabaret-2.3.0rc5.tar.gz
+[2024-04-26 14:19:51] INFO root fetch - processPackages [UEVaultManager]: Downloading https://files.pythonhosted.org/packages/62/25/2ba3e93967bbaacf75b30aae4dbeefc6e0af5996d7b448871a9958efab77/UEVaultManager-1.9.5.tar.gz
+[2024-04-26 14:19:51] INFO root fetch - processPackages [UEVaultManager]: executing diffoscope
+[2024-04-26 14:19:51] INFO root fetch - processPackages [UEVaultManager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UEVaultManager-1.9.4.tar.gz tmp/UEVaultManager-1.9.5.tar.gz --markdown 20240426/U/UEVaultManager/1.9.4-1.9.5/README.md --exclude *.pyd
+[2024-04-26 14:19:51] INFO root fetch - processPackages [kabaret]: executing diffoscope
+[2024-04-26 14:19:51] INFO root fetch - processPackages [kabaret]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kabaret-2.3.0rc4.tar.gz tmp/kabaret-2.3.0rc5.tar.gz --markdown 20240426/k/kabaret/2.3.0rc4-2.3.0rc5/README.md --exclude *.pyd
+[2024-04-26 14:19:52] INFO root fetch - processPackages [arched-emailer]: Remove: archive file [/home/abi/fetcher/tmp/arched_emailer-0.2.8-py3-none-any.whl.zip]
+[2024-04-26 14:19:52] INFO root fetch - processPackages [arched-emailer]: Remove: archive file [/home/abi/fetcher/tmp/arched_emailer-0.2.9-py3-none-any.whl.zip]
+[2024-04-26 14:19:52] INFO root fetch - main [MainThread]: End processing [arched-emailer]: success
+[2024-04-26 14:19:52] INFO root fetch - processPackages [assemblyline-core]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-core-4.5.1.dev98.tar.gz]
+[2024-04-26 14:19:52] INFO root fetch - processPackages [assemblyline-core]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-core-4.5.1.dev99.tar.gz]
+[2024-04-26 14:19:52] INFO root fetch - main [MainThread]: End processing [assemblyline-core]: success
+[2024-04-26 14:19:52] INFO root fetch - processPackages [UEVaultManager]: Remove: archive file [/home/abi/fetcher/tmp/UEVaultManager-1.9.4.tar.gz]
+[2024-04-26 14:19:52] INFO root fetch - processPackages [UEVaultManager]: Remove: archive file [/home/abi/fetcher/tmp/UEVaultManager-1.9.5.tar.gz]
+[2024-04-26 14:19:52] INFO root fetch - main [MainThread]: End processing [UEVaultManager]: success
+[2024-04-26 14:19:52] INFO root fetch - processPackages [rd-api]: Downloading https://files.pythonhosted.org/packages/c4/e7/487fe27681177b09ef2dcc3599cf81078abdca5fbf76ef88a85494149ad6/rd_api-1.6.0.0-py2.py3-none-any.whl
+[2024-04-26 14:19:53] INFO root fetch - processPackages [rd-api]: executing diffoscope
+[2024-04-26 14:19:53] INFO root fetch - processPackages [rd-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rd_api-1.5.0.1-py2.py3-none-any.whl.zip tmp/rd_api-1.6.0.0-py2.py3-none-any.whl.zip --markdown 20240426/r/rd-api/1.5.0.1-1.6.0.0/README.md --exclude *.pyd
+[2024-04-26 14:19:53] INFO root fetch - processPackages [kabaret]: Remove: archive file [/home/abi/fetcher/tmp/kabaret-2.3.0rc4.tar.gz]
+[2024-04-26 14:19:53] INFO root fetch - processPackages [kabaret]: Remove: archive file [/home/abi/fetcher/tmp/kabaret-2.3.0rc5.tar.gz]
+[2024-04-26 14:19:53] INFO root fetch - main [MainThread]: End processing [kabaret]: success
+[2024-04-26 14:21:18] INFO root fetch - processPackages [rd-api]: Remove: archive file [/home/abi/fetcher/tmp/rd_api-1.5.0.1-py2.py3-none-any.whl.zip]
+[2024-04-26 14:21:18] INFO root fetch - processPackages [rd-api]: Remove: archive file [/home/abi/fetcher/tmp/rd_api-1.6.0.0-py2.py3-none-any.whl.zip]
+[2024-04-26 14:21:18] INFO root fetch - main [MainThread]: End processing [rd-api]: success
+[2024-04-26 14:21:18] INFO root fetch - main [MainThread]: Store serial: [22947296]
