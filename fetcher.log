@@ -13636,3 +13636,114 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 10:04:37] INFO root fetch - processPackages [cognite-neat]: Remove: archive file [/home/abi/fetcher/tmp/cognite_neat-0.75.6.tar.gz]
 [2024-04-26 10:04:37] INFO root fetch - main [MainThread]: End processing [cognite-neat]: success
 [2024-04-26 10:04:37] INFO root fetch - main [MainThread]: Store serial: [22944630]
+[2024-04-26 10:06:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22944630]
+[2024-04-26 10:06:46] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2024-04-26 10:06:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gimera
+[2024-04-26 10:06:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ih-common
+[2024-04-26 10:06:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: prefsampling
+[2024-04-26 10:06:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: recce-nightly
+[2024-04-26 10:06:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: logger-aux
+[2024-04-26 10:06:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mlx-llm
+[2024-04-26 10:06:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-l10n-ro-stock-account-landed-cost
+[2024-04-26 10:06:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-l10n-ro-stock-picking-valued-report
+[2024-04-26 10:06:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-l10n-ro-stock-account
+[2024-04-26 10:06:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: qs-codec
+[2024-04-26 10:06:46] INFO root fetch - processPackages [logger-aux]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-26 10:06:46] INFO root fetch - processPackages [ih-common]: New version: [2.8.0] Old Version: [2.7.1]
+[2024-04-26 10:06:46] INFO root fetch - processPackages [prefsampling]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-26 10:06:46] INFO root fetch - processPackages [recce-nightly]: New version: [0.9.0.20240313] Old Version: [0.9.0.20240312]
+[2024-04-26 10:06:46] INFO root fetch - processPackages [qs-codec]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-26 10:06:46] INFO root fetch - processPackages [gimera]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-04-26 10:06:46] WARNING root fetch - processPackages [mlx-llm]: Skipping, unable to determine old version
+[2024-04-26 10:06:46] INFO root fetch - processPackages [mlx-llm]: Start processing: odoo-addon-l10n-ro-stock-account-notice
+[2024-04-26 10:06:46] INFO root fetch - main [MainThread]: End processing [mlx-llm] error
+[2024-04-26 10:06:46] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-picking-valued-report]: New version: [16.0.0.6.0] Old Version: [16.0.0.5.0]
+[2024-04-26 10:06:46] INFO root fetch - processPackages [ih-common]: Downloading https://files.pythonhosted.org/packages/4d/0c/cf8504e53ab0ecc31714dd7033f42cbb6b0de8dfd679755465688b66f914/ih_common-2.7.1.tar.gz
+[2024-04-26 10:06:46] WARNING root fetch - processPackages [odoo-addon-l10n-ro-stock-account-landed-cost]: Skipping, unable to determine old version
+[2024-04-26 10:06:46] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account-landed-cost]: Start processing: r-shepard
+[2024-04-26 10:06:46] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-ro-stock-account-landed-cost] error
+[2024-04-26 10:06:46] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: New version: [16.0.1.9.0.1] Old Version: [16.0.1.9.0]
+[2024-04-26 10:06:46] INFO root fetch - processPackages [recce-nightly]: Downloading https://files.pythonhosted.org/packages/c6/8c/cde0615abf888d0ccade0e1fc90482c4c402fedef38bf8fb00d1202e6ad2/recce-nightly-0.9.0.20240312.tar.gz
+[2024-04-26 10:06:46] INFO root fetch - processPackages [prefsampling]: Downloading https://files.pythonhosted.org/packages/99/65/f9167a72c9377d844371a15877b70225e50468b119ac13955d39081f7278/prefsampling-0.1.8.tar.gz
+[2024-04-26 10:06:46] INFO root fetch - processPackages [r-shepard]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-26 10:06:46] INFO root fetch - processPackages [logger-aux]: Downloading https://files.pythonhosted.org/packages/2f/07/8e01de60f00327999c194f90dbfddc7a70c6ee4a5396240f85d99940c5f2/logger_aux-0.0.1.tar.gz
+[2024-04-26 10:06:46] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account-notice]: New version: [16.0.4.7.0] Old Version: [16.0.4.6.0]
+[2024-04-26 10:06:46] INFO root fetch - processPackages [qs-codec]: Downloading https://files.pythonhosted.org/packages/fa/d7/0bac2ce529c8a1bc1e98927273c7cc41390d866a94b32719040d2750e8cb/qs_codec-0.1.0.tar.gz
+[2024-04-26 10:06:46] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-picking-valued-report]: Downloading https://files.pythonhosted.org/packages/d2/04/f0e4a8395158b136054839b6c1991109dc7c765a7f1d088d721edb557453/odoo_addon_l10n_ro_stock_picking_valued_report-16.0.0.5.0-py3-none-any.whl
+[2024-04-26 10:06:46] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: Downloading https://files.pythonhosted.org/packages/8f/0d/f0a4dbd6c93fecdf81aab008537d34c514cb265b028b30bf1f011bd2120b/odoo_addon_l10n_ro_stock_account-16.0.1.9.0-py3-none-any.whl
+[2024-04-26 10:06:47] INFO root fetch - processPackages [ih-common]: Downloading https://files.pythonhosted.org/packages/37/56/56af585e51da9a974b871731c3a293e02d9df6211d0f51f48aef65de6085/ih_common-2.8.0.tar.gz
+[2024-04-26 10:06:47] INFO root fetch - processPackages [prefsampling]: Downloading https://files.pythonhosted.org/packages/fc/7d/59768af33065d50ccdf2c9ac4d390b93526341068f07138f8d60a6c79250/prefsampling-0.1.9.tar.gz
+[2024-04-26 10:06:47] INFO root fetch - processPackages [gimera]: Downloading https://files.pythonhosted.org/packages/2e/3e/38d88141bd3707f8ae8e6b3e159b24edc9461c0f4a93e883a527e9762ea2/gimera-0.7.8.tar.gz
+[2024-04-26 10:06:47] INFO root fetch - processPackages [r-shepard]: Downloading https://files.pythonhosted.org/packages/62/0b/78b642a1b52ea1cc9a3937c6c88f82fa8faef05a66b2c2b37cac011249ce/r_shepard-0.1.0.tar.gz
+[2024-04-26 10:06:47] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account-notice]: Downloading https://files.pythonhosted.org/packages/80/98/a4aa36491f650f1f38af82092f0141c4a1b58b994df12a04990d17d24a9c/odoo_addon_l10n_ro_stock_account_notice-16.0.4.6.0-py3-none-any.whl
+[2024-04-26 10:06:47] INFO root fetch - processPackages [recce-nightly]: Downloading https://files.pythonhosted.org/packages/52/11/d0c59f6609b46f5766293823d2b30e4fd872dbea146425e2d959b41a44a4/recce-nightly-0.9.0.20240313.tar.gz
+[2024-04-26 10:06:47] INFO root fetch - processPackages [ih-common]: executing diffoscope
+[2024-04-26 10:06:47] INFO root fetch - processPackages [ih-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ih_common-2.7.1.tar.gz tmp/ih_common-2.8.0.tar.gz --markdown 20240426/i/ih-common/2.7.1-2.8.0/README.md --exclude *.pyd
+[2024-04-26 10:06:47] INFO root fetch - processPackages [prefsampling]: executing diffoscope
+[2024-04-26 10:06:47] INFO root fetch - processPackages [prefsampling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prefsampling-0.1.8.tar.gz tmp/prefsampling-0.1.9.tar.gz --markdown 20240426/p/prefsampling/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-26 10:06:47] INFO root fetch - processPackages [logger-aux]: Downloading https://files.pythonhosted.org/packages/05/b8/f0c2550c2bde708d879ea68f753d12cf4fb1b7ca2ab07b5c09e4ef65c475/logger_aux-0.0.2.tar.gz
+[2024-04-26 10:06:47] INFO root fetch - processPackages [qs-codec]: Downloading https://files.pythonhosted.org/packages/eb/ae/6e19c2750a1debca9ead6ba500c5c695ca6e8eb07ea2746befc0ea50aaa9/qs_codec-0.1.1.tar.gz
+[2024-04-26 10:06:47] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-picking-valued-report]: Downloading https://files.pythonhosted.org/packages/ee/c4/af9ee178fd336cef65db71f43f0b6c262aa991040665baeae644cfc1ec38/odoo_addon_l10n_ro_stock_picking_valued_report-16.0.0.6.0-py3-none-any.whl
+[2024-04-26 10:06:47] INFO root fetch - processPackages [logger-aux]: executing diffoscope
+[2024-04-26 10:06:47] INFO root fetch - processPackages [logger-aux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logger_aux-0.0.1.tar.gz tmp/logger_aux-0.0.2.tar.gz --markdown 20240426/l/logger-aux/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-26 10:06:47] INFO root fetch - processPackages [recce-nightly]: executing diffoscope
+[2024-04-26 10:06:47] INFO root fetch - processPackages [recce-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recce-nightly-0.9.0.20240312.tar.gz tmp/recce-nightly-0.9.0.20240313.tar.gz --markdown 20240426/r/recce-nightly/0.9.0.20240312-0.9.0.20240313/README.md --exclude *.pyd
+[2024-04-26 10:06:47] INFO root fetch - processPackages [gimera]: Downloading https://files.pythonhosted.org/packages/b1/dc/c80f85a8b614af02ff8abe5853e4f4f5d0076d026ec6a58b86c4694563bd/gimera-0.7.9.tar.gz
+[2024-04-26 10:06:47] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: Downloading https://files.pythonhosted.org/packages/2e/c1/0b4ee4e8d187050909da48ed46ea7dc6338bb0fb432adc7a15e51481cd60/odoo_addon_l10n_ro_stock_account-16.0.1.9.0.1-py3-none-any.whl
+[2024-04-26 10:06:47] INFO root fetch - processPackages [qs-codec]: executing diffoscope
+[2024-04-26 10:06:47] INFO root fetch - processPackages [qs-codec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qs_codec-0.1.0.tar.gz tmp/qs_codec-0.1.1.tar.gz --markdown 20240426/q/qs-codec/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-26 10:06:47] INFO root fetch - processPackages [r-shepard]: Downloading https://files.pythonhosted.org/packages/9b/06/72445caa1516622c3d99080f935338861f7705277c3254f2b3eb85ae7a31/r_shepard-0.1.1.tar.gz
+[2024-04-26 10:06:47] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account-notice]: Downloading https://files.pythonhosted.org/packages/c2/d4/9a6c98b53160d794e4365bef09045ec7f50b975fc00e38e5dd0788dc0fd7/odoo_addon_l10n_ro_stock_account_notice-16.0.4.7.0-py3-none-any.whl
+[2024-04-26 10:06:47] INFO root fetch - processPackages [gimera]: executing diffoscope
+[2024-04-26 10:06:47] INFO root fetch - processPackages [gimera]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gimera-0.7.8.tar.gz tmp/gimera-0.7.9.tar.gz --markdown 20240426/g/gimera/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-04-26 10:06:47] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: executing diffoscope
+[2024-04-26 10:06:47] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_ro_stock_account-16.0.1.9.0-py3-none-any.whl.zip tmp/odoo_addon_l10n_ro_stock_account-16.0.1.9.0.1-py3-none-any.whl.zip --markdown 20240426/o/odoo-addon-l10n-ro-stock-account/16.0.1.9.0-16.0.1.9.0.1/README.md --exclude *.pyd
+[2024-04-26 10:06:47] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-picking-valued-report]: executing diffoscope
+[2024-04-26 10:06:47] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-picking-valued-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_ro_stock_picking_valued_report-16.0.0.5.0-py3-none-any.whl.zip tmp/odoo_addon_l10n_ro_stock_picking_valued_report-16.0.0.6.0-py3-none-any.whl.zip --markdown 20240426/o/odoo-addon-l10n-ro-stock-picking-valued-report/16.0.0.5.0-16.0.0.6.0/README.md --exclude *.pyd
+[2024-04-26 10:06:47] INFO root fetch - processPackages [r-shepard]: executing diffoscope
+[2024-04-26 10:06:47] INFO root fetch - processPackages [r-shepard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/r_shepard-0.1.0.tar.gz tmp/r_shepard-0.1.1.tar.gz --markdown 20240426/r/r-shepard/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-26 10:06:47] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account-notice]: executing diffoscope
+[2024-04-26 10:06:47] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account-notice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_ro_stock_account_notice-16.0.4.6.0-py3-none-any.whl.zip tmp/odoo_addon_l10n_ro_stock_account_notice-16.0.4.7.0-py3-none-any.whl.zip --markdown 20240426/o/odoo-addon-l10n-ro-stock-account-notice/16.0.4.6.0-16.0.4.7.0/README.md --exclude *.pyd
+[2024-04-26 10:06:48] INFO root fetch - processPackages [ih-common]: Remove: archive file [/home/abi/fetcher/tmp/ih_common-2.7.1.tar.gz]
+[2024-04-26 10:06:48] INFO root fetch - processPackages [ih-common]: Remove: archive file [/home/abi/fetcher/tmp/ih_common-2.8.0.tar.gz]
+[2024-04-26 10:06:48] INFO root fetch - processPackages [ih-common]: Start processing: odoo-addon-l10n-ro-stock-account-tracking
+[2024-04-26 10:06:48] INFO root fetch - main [MainThread]: End processing [ih-common]: success
+[2024-04-26 10:06:48] INFO root fetch - processPackages [prefsampling]: Remove: archive file [/home/abi/fetcher/tmp/prefsampling-0.1.8.tar.gz]
+[2024-04-26 10:06:48] INFO root fetch - processPackages [prefsampling]: Remove: archive file [/home/abi/fetcher/tmp/prefsampling-0.1.9.tar.gz]
+[2024-04-26 10:06:48] INFO root fetch - processPackages [prefsampling]: Start processing: odoo-addon-l10n-ro-dvi
+[2024-04-26 10:06:48] INFO root fetch - main [MainThread]: End processing [prefsampling]: success
+[2024-04-26 10:06:48] WARNING root fetch - processPackages [odoo-addon-l10n-ro-stock-account-tracking]: Skipping, unable to determine old version
+[2024-04-26 10:06:48] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-ro-stock-account-tracking] error
+[2024-04-26 10:06:48] INFO root fetch - processPackages [logger-aux]: Remove: archive file [/home/abi/fetcher/tmp/logger_aux-0.0.1.tar.gz]
+[2024-04-26 10:06:48] INFO root fetch - processPackages [logger-aux]: Remove: archive file [/home/abi/fetcher/tmp/logger_aux-0.0.2.tar.gz]
+[2024-04-26 10:06:48] INFO root fetch - main [MainThread]: End processing [logger-aux]: success
+[2024-04-26 10:06:48] INFO root fetch - processPackages [odoo-addon-l10n-ro-dvi]: New version: [16.0.1.7.0] Old Version: [16.0.1.6.0]
+[2024-04-26 10:06:48] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-picking-valued-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_stock_picking_valued_report-16.0.0.5.0-py3-none-any.whl.zip]
+[2024-04-26 10:06:48] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-picking-valued-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_stock_picking_valued_report-16.0.0.6.0-py3-none-any.whl.zip]
+[2024-04-26 10:06:48] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-ro-stock-picking-valued-report]: success
+[2024-04-26 10:06:48] INFO root fetch - processPackages [qs-codec]: Remove: archive file [/home/abi/fetcher/tmp/qs_codec-0.1.0.tar.gz]
+[2024-04-26 10:06:48] INFO root fetch - processPackages [qs-codec]: Remove: archive file [/home/abi/fetcher/tmp/qs_codec-0.1.1.tar.gz]
+[2024-04-26 10:06:48] INFO root fetch - main [MainThread]: End processing [qs-codec]: success
+[2024-04-26 10:06:48] INFO root fetch - processPackages [r-shepard]: Remove: archive file [/home/abi/fetcher/tmp/r_shepard-0.1.0.tar.gz]
+[2024-04-26 10:06:48] INFO root fetch - processPackages [r-shepard]: Remove: archive file [/home/abi/fetcher/tmp/r_shepard-0.1.1.tar.gz]
+[2024-04-26 10:06:48] INFO root fetch - main [MainThread]: End processing [r-shepard]: success
+[2024-04-26 10:06:48] INFO root fetch - processPackages [gimera]: Remove: archive file [/home/abi/fetcher/tmp/gimera-0.7.8.tar.gz]
+[2024-04-26 10:06:48] INFO root fetch - processPackages [gimera]: Remove: archive file [/home/abi/fetcher/tmp/gimera-0.7.9.tar.gz]
+[2024-04-26 10:06:48] INFO root fetch - main [MainThread]: End processing [gimera]: success
+[2024-04-26 10:06:48] INFO root fetch - processPackages [odoo-addon-l10n-ro-dvi]: Downloading https://files.pythonhosted.org/packages/3f/f2/b1a781105095effd6586ccb7cd27fcb4d96799e6b72ceb1fb3367b28b3e2/odoo_addon_l10n_ro_dvi-16.0.1.6.0-py3-none-any.whl
+[2024-04-26 10:06:48] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account-notice]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_stock_account_notice-16.0.4.6.0-py3-none-any.whl.zip]
+[2024-04-26 10:06:48] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account-notice]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_stock_account_notice-16.0.4.7.0-py3-none-any.whl.zip]
+[2024-04-26 10:06:48] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-ro-stock-account-notice]: success
+[2024-04-26 10:06:48] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_stock_account-16.0.1.9.0-py3-none-any.whl.zip]
+[2024-04-26 10:06:48] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_stock_account-16.0.1.9.0.1-py3-none-any.whl.zip]
+[2024-04-26 10:06:48] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-ro-stock-account]: success
+[2024-04-26 10:06:49] INFO root fetch - processPackages [odoo-addon-l10n-ro-dvi]: Downloading https://files.pythonhosted.org/packages/de/25/f903d0b3688e6cf0919c009370f135a7fa0228ecf8bf0653654e7f3b29fd/odoo_addon_l10n_ro_dvi-16.0.1.7.0-py3-none-any.whl
+[2024-04-26 10:06:49] INFO root fetch - processPackages [odoo-addon-l10n-ro-dvi]: executing diffoscope
+[2024-04-26 10:06:49] INFO root fetch - processPackages [odoo-addon-l10n-ro-dvi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_ro_dvi-16.0.1.6.0-py3-none-any.whl.zip tmp/odoo_addon_l10n_ro_dvi-16.0.1.7.0-py3-none-any.whl.zip --markdown 20240426/o/odoo-addon-l10n-ro-dvi/16.0.1.6.0-16.0.1.7.0/README.md --exclude *.pyd
+[2024-04-26 10:06:49] INFO root fetch - processPackages [recce-nightly]: Remove: archive file [/home/abi/fetcher/tmp/recce-nightly-0.9.0.20240312.tar.gz]
+[2024-04-26 10:06:49] INFO root fetch - processPackages [recce-nightly]: Remove: archive file [/home/abi/fetcher/tmp/recce-nightly-0.9.0.20240313.tar.gz]
+[2024-04-26 10:06:49] INFO root fetch - main [MainThread]: End processing [recce-nightly]: success
+[2024-04-26 10:06:49] INFO root fetch - processPackages [odoo-addon-l10n-ro-dvi]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_dvi-16.0.1.6.0-py3-none-any.whl.zip]
+[2024-04-26 10:06:49] INFO root fetch - processPackages [odoo-addon-l10n-ro-dvi]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_dvi-16.0.1.7.0-py3-none-any.whl.zip]
+[2024-04-26 10:06:49] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-ro-dvi]: success
+[2024-04-26 10:06:49] INFO root fetch - main [MainThread]: Store serial: [22944670]
