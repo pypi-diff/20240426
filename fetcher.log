@@ -21653,3 +21653,63 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 15:36:12] INFO root fetch - processPackages [djehuty]: Remove: archive file [/home/abi/fetcher/tmp/djehuty-24.4.tar.gz]
 [2024-04-26 15:36:12] INFO root fetch - main [MainThread]: End processing [djehuty]: success
 [2024-04-26 15:36:12] INFO root fetch - main [MainThread]: Store serial: [22948125]
+[2024-04-26 15:38:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22948125]
+[2024-04-26 15:38:21] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-26 15:38:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: smfsb
+[2024-04-26 15:38:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: phamclust
+[2024-04-26 15:38:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nonebot-plugin-sticker-saver
+[2024-04-26 15:38:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: catalyst-sdwan-lab
+[2024-04-26 15:38:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyridy
+[2024-04-26 15:38:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nestipy
+[2024-04-26 15:38:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: prodigy-prot
+[2024-04-26 15:38:22] INFO root fetch - processPackages [phamclust]: New version: [1.3.1] Old Version: [1.3.0]
+[2024-04-26 15:38:22] INFO root fetch - processPackages [smfsb]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-26 15:38:22] WARNING root fetch - processPackages [prodigy-prot]: Skipping, unable to determine old version
+[2024-04-26 15:38:22] INFO root fetch - main [MainThread]: End processing [prodigy-prot] error
+[2024-04-26 15:38:22] INFO root fetch - processPackages [nonebot-plugin-sticker-saver]: New version: [0.1.2] Old Version: [0.1.0]
+[2024-04-26 15:38:22] INFO root fetch - processPackages [catalyst-sdwan-lab]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-04-26 15:38:22] INFO root fetch - processPackages [smfsb]: Downloading https://files.pythonhosted.org/packages/73/e7/cec453cc3304f929e05cce941c239b059010e547b6b4cc22e10e38752cb6/smfsb-1.0.0.tar.gz
+[2024-04-26 15:38:22] INFO root fetch - processPackages [nestipy]: New version: [0.2.0] Old Version: [0.1.7]
+[2024-04-26 15:38:22] INFO root fetch - processPackages [phamclust]: Downloading https://files.pythonhosted.org/packages/3a/4e/a2af0b0af337df82bdc2bbb5f85ee97eb1b6a78c8ae733e59f4d061ee76e/phamclust-1.3.0.tar.gz
+[2024-04-26 15:38:22] INFO root fetch - processPackages [pyridy]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-26 15:38:22] INFO root fetch - processPackages [nonebot-plugin-sticker-saver]: Downloading https://files.pythonhosted.org/packages/6d/e3/d1d94309ef075c3ce6c3f414f806e6e6132542f9c2ea1034ecc068ab22a2/nonebot_plugin_sticker_saver-0.1.0.tar.gz
+[2024-04-26 15:38:22] INFO root fetch - processPackages [catalyst-sdwan-lab]: Downloading https://files.pythonhosted.org/packages/ad/63/d86c58f92f8f97194c146811bb62781510fa38ac2bfd4d4cb9a55393a5f7/catalyst_sdwan_lab-2.0.8.tar.gz
+[2024-04-26 15:38:22] INFO root fetch - processPackages [nestipy]: Downloading https://files.pythonhosted.org/packages/ed/f9/31de653c7482542ce0c27281bbd12768a76a1872920de049251a4f3d808b/nestipy-0.1.7.tar.gz
+[2024-04-26 15:38:22] INFO root fetch - processPackages [pyridy]: Downloading https://files.pythonhosted.org/packages/9f/57/fe09d84af3eb2b3ccbe52b8ae893bf5c8aa286beaa9745d4fcf7ede22959/pyridy-1.0.3.tar.gz
+[2024-04-26 15:38:22] INFO root fetch - processPackages [phamclust]: Downloading https://files.pythonhosted.org/packages/d1/44/48c362624378ecbcc1838697f697fd530ba13355b425e55a66865eb22a39/phamclust-1.3.1.tar.gz
+[2024-04-26 15:38:22] INFO root fetch - processPackages [smfsb]: Downloading https://files.pythonhosted.org/packages/66/4b/f79056329fde29c1ce2bc7bc39863e9dc7bbe3b792a97bf5954281309b80/smfsb-1.0.1-py3-none-any.whl
+[2024-04-26 15:38:22] INFO root fetch - processPackages [phamclust]: executing diffoscope
+[2024-04-26 15:38:22] INFO root fetch - processPackages [phamclust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phamclust-1.3.0.tar.gz tmp/phamclust-1.3.1.tar.gz --markdown 20240426/p/phamclust/1.3.0-1.3.1/README.md --exclude *.pyd
+[2024-04-26 15:38:22] INFO root fetch - processPackages [nonebot-plugin-sticker-saver]: Downloading https://files.pythonhosted.org/packages/b1/c4/aee1338f6dc3785dfda56642a7c8f96b7b9577305d2750c560d2db36796a/nonebot_plugin_sticker_saver-0.1.2.tar.gz
+[2024-04-26 15:38:22] INFO root fetch - processPackages [smfsb]: executing diffoscope
+[2024-04-26 15:38:22] INFO root fetch - processPackages [smfsb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smfsb-1.0.0.tar.gz tmp/smfsb-1.0.1-py3-none-any.whl.zip --markdown 20240426/s/smfsb/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-26 15:38:22] INFO root fetch - processPackages [catalyst-sdwan-lab]: Downloading https://files.pythonhosted.org/packages/f1/23/dc98d2ac80682973787a6c392b53ab57a680b6dff8bac0b815c0864b0692/catalyst_sdwan_lab-2.0.9.tar.gz
+[2024-04-26 15:38:22] INFO root fetch - processPackages [nonebot-plugin-sticker-saver]: executing diffoscope
+[2024-04-26 15:38:22] INFO root fetch - processPackages [nonebot-plugin-sticker-saver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_sticker_saver-0.1.0.tar.gz tmp/nonebot_plugin_sticker_saver-0.1.2.tar.gz --markdown 20240426/n/nonebot-plugin-sticker-saver/0.1.0-0.1.2/README.md --exclude *.pyd
+[2024-04-26 15:38:22] INFO root fetch - processPackages [nestipy]: Downloading https://files.pythonhosted.org/packages/ff/8e/f915de233fa05c4d3703de7d18329af44a81ce118fa7c41f66a5418db098/nestipy-0.2.0.tar.gz
+[2024-04-26 15:38:22] INFO root fetch - processPackages [catalyst-sdwan-lab]: executing diffoscope
+[2024-04-26 15:38:22] INFO root fetch - processPackages [catalyst-sdwan-lab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/catalyst_sdwan_lab-2.0.8.tar.gz tmp/catalyst_sdwan_lab-2.0.9.tar.gz --markdown 20240426/c/catalyst-sdwan-lab/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-04-26 15:38:22] INFO root fetch - processPackages [pyridy]: Downloading https://files.pythonhosted.org/packages/6a/c3/1d4442287369c1a9694d93a7a645db4bb2c80822371b845598aa6244ea31/pyridy-1.0.4.tar.gz
+[2024-04-26 15:38:23] INFO root fetch - processPackages [nestipy]: executing diffoscope
+[2024-04-26 15:38:23] INFO root fetch - processPackages [nestipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nestipy-0.1.7.tar.gz tmp/nestipy-0.2.0.tar.gz --markdown 20240426/n/nestipy/0.1.7-0.2.0/README.md --exclude *.pyd
+[2024-04-26 15:38:23] INFO root fetch - processPackages [pyridy]: executing diffoscope
+[2024-04-26 15:38:23] INFO root fetch - processPackages [pyridy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyridy-1.0.3.tar.gz tmp/pyridy-1.0.4.tar.gz --markdown 20240426/p/pyridy/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-04-26 15:38:23] INFO root fetch - processPackages [smfsb]: Remove: archive file [/home/abi/fetcher/tmp/smfsb-1.0.0.tar.gz]
+[2024-04-26 15:38:23] INFO root fetch - processPackages [smfsb]: Remove: archive file [/home/abi/fetcher/tmp/smfsb-1.0.1-py3-none-any.whl.zip]
+[2024-04-26 15:38:23] INFO root fetch - main [MainThread]: End processing [smfsb]: success
+[2024-04-26 15:38:23] INFO root fetch - processPackages [nonebot-plugin-sticker-saver]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_sticker_saver-0.1.0.tar.gz]
+[2024-04-26 15:38:23] INFO root fetch - processPackages [nonebot-plugin-sticker-saver]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_sticker_saver-0.1.2.tar.gz]
+[2024-04-26 15:38:23] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-sticker-saver]: success
+[2024-04-26 15:38:23] INFO root fetch - processPackages [phamclust]: Remove: archive file [/home/abi/fetcher/tmp/phamclust-1.3.0.tar.gz]
+[2024-04-26 15:38:23] INFO root fetch - processPackages [phamclust]: Remove: archive file [/home/abi/fetcher/tmp/phamclust-1.3.1.tar.gz]
+[2024-04-26 15:38:23] INFO root fetch - main [MainThread]: End processing [phamclust]: success
+[2024-04-26 15:38:23] INFO root fetch - processPackages [nestipy]: Remove: archive file [/home/abi/fetcher/tmp/nestipy-0.1.7.tar.gz]
+[2024-04-26 15:38:23] INFO root fetch - processPackages [nestipy]: Remove: archive file [/home/abi/fetcher/tmp/nestipy-0.2.0.tar.gz]
+[2024-04-26 15:38:23] INFO root fetch - main [MainThread]: End processing [nestipy]: success
+[2024-04-26 15:38:23] INFO root fetch - processPackages [pyridy]: Remove: archive file [/home/abi/fetcher/tmp/pyridy-1.0.3.tar.gz]
+[2024-04-26 15:38:23] INFO root fetch - processPackages [pyridy]: Remove: archive file [/home/abi/fetcher/tmp/pyridy-1.0.4.tar.gz]
+[2024-04-26 15:38:23] INFO root fetch - main [MainThread]: End processing [pyridy]: success
+[2024-04-26 15:38:24] INFO root fetch - processPackages [catalyst-sdwan-lab]: Remove: archive file [/home/abi/fetcher/tmp/catalyst_sdwan_lab-2.0.8.tar.gz]
+[2024-04-26 15:38:24] INFO root fetch - processPackages [catalyst-sdwan-lab]: Remove: archive file [/home/abi/fetcher/tmp/catalyst_sdwan_lab-2.0.9.tar.gz]
+[2024-04-26 15:38:24] INFO root fetch - main [MainThread]: End processing [catalyst-sdwan-lab]: success
+[2024-04-26 15:38:24] INFO root fetch - main [MainThread]: Store serial: [22948148]
