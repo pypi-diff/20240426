@@ -16939,3 +16939,29 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 12:02:50] INFO root fetch - processPackages [mkt-retv]: Remove: archive file [/home/abi/fetcher/tmp/mkt-retv-1.408.tar.gz]
 [2024-04-26 12:02:50] INFO root fetch - main [MainThread]: End processing [mkt-retv]: success
 [2024-04-26 12:02:50] INFO root fetch - main [MainThread]: Store serial: [22946081]
+[2024-04-26 12:04:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22946081]
+[2024-04-26 12:04:59] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-26 12:04:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: authress
+[2024-04-26 12:04:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: deep-trainer
+[2024-04-26 12:04:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: home-assistant-frontend
+[2024-04-26 12:04:59] INFO root fetch - processPackages [authress]: New version: [3.0.66] Old Version: [3.0.63]
+[2024-04-26 12:04:59] INFO root fetch - processPackages [deep-trainer]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-26 12:04:59] INFO root fetch - processPackages [home-assistant-frontend]: New version: [20240426.0] Old Version: [20240424.1]
+[2024-04-26 12:04:59] INFO root fetch - processPackages [deep-trainer]: Downloading https://files.pythonhosted.org/packages/88/c9/382854740df40e90305e753e88949d4c4698fe61a24ce78891ba4c67760d/deep-trainer-0.1.3.tar.gz
+[2024-04-26 12:04:59] INFO root fetch - processPackages [authress]: Downloading https://files.pythonhosted.org/packages/48/4d/410013d3251018b9f290bf0c77e90a10bc215c036142d6fb868320bc8335/authress-3.0.63.tar.gz
+[2024-04-26 12:04:59] INFO root fetch - processPackages [home-assistant-frontend]: Downloading https://files.pythonhosted.org/packages/9c/39/5b7a2661389638de1ff41b0354c1c5500efac482d047c6457bea17a231d7/home_assistant_frontend-20240424.1-py3-none-any.whl
+[2024-04-26 12:04:59] WARNING root fetch - processPackages [home-assistant-frontend]: Skipping package: exceeds size limit 54723829>=10485760
+[2024-04-26 12:04:59] INFO root fetch - main [MainThread]: End processing [home-assistant-frontend] error
+[2024-04-26 12:04:59] INFO root fetch - processPackages [deep-trainer]: Downloading https://files.pythonhosted.org/packages/f1/e6/3ab0e6d3995f4c69edea908ddaf95679b92ef069666803533695db4f7b04/deep_trainer-0.1.4.tar.gz
+[2024-04-26 12:04:59] INFO root fetch - processPackages [authress]: Downloading https://files.pythonhosted.org/packages/67/3b/9ea169534111ceb7b26cce0dccb3fae697f2b8dc1ae3bfa9ea834bcf2f9e/authress-3.0.66.tar.gz
+[2024-04-26 12:05:00] INFO root fetch - processPackages [deep-trainer]: executing diffoscope
+[2024-04-26 12:05:00] INFO root fetch - processPackages [deep-trainer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deep-trainer-0.1.3.tar.gz tmp/deep_trainer-0.1.4.tar.gz --markdown 20240426/d/deep-trainer/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-26 12:05:00] INFO root fetch - processPackages [authress]: executing diffoscope
+[2024-04-26 12:05:00] INFO root fetch - processPackages [authress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/authress-3.0.63.tar.gz tmp/authress-3.0.66.tar.gz --markdown 20240426/a/authress/3.0.63-3.0.66/README.md --exclude *.pyd
+[2024-04-26 12:05:00] INFO root fetch - processPackages [deep-trainer]: Remove: archive file [/home/abi/fetcher/tmp/deep-trainer-0.1.3.tar.gz]
+[2024-04-26 12:05:00] INFO root fetch - processPackages [deep-trainer]: Remove: archive file [/home/abi/fetcher/tmp/deep_trainer-0.1.4.tar.gz]
+[2024-04-26 12:05:00] INFO root fetch - main [MainThread]: End processing [deep-trainer]: success
+[2024-04-26 12:05:01] INFO root fetch - processPackages [authress]: Remove: archive file [/home/abi/fetcher/tmp/authress-3.0.63.tar.gz]
+[2024-04-26 12:05:01] INFO root fetch - processPackages [authress]: Remove: archive file [/home/abi/fetcher/tmp/authress-3.0.66.tar.gz]
+[2024-04-26 12:05:01] INFO root fetch - main [MainThread]: End processing [authress]: success
+[2024-04-26 12:05:01] INFO root fetch - main [MainThread]: Store serial: [22946089]
