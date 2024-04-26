@@ -15912,3 +15912,50 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 11:19:53] INFO root fetch - processPackages [repoqa]: Remove: archive file [/home/abi/fetcher/tmp/repoqa-0.1.0rc2.tar.gz]
 [2024-04-26 11:19:53] INFO root fetch - main [MainThread]: End processing [repoqa]: success
 [2024-04-26 11:19:53] INFO root fetch - main [MainThread]: Store serial: [22945669]
+[2024-04-26 11:21:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22945669]
+[2024-04-26 11:22:01] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-26 11:22:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ssb-arbmark-fagfunksjoner
+[2024-04-26 11:22:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bd-scan-yocto
+[2024-04-26 11:22:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tq42-grpc-client
+[2024-04-26 11:22:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pygradflow
+[2024-04-26 11:22:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pSevenCore
+[2024-04-26 11:22:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: expyrun
+[2024-04-26 11:22:02] INFO root fetch - processPackages [tq42-grpc-client]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-04-26 11:22:02] INFO root fetch - processPackages [tq42-grpc-client]: Downloading https://files.pythonhosted.org/packages/f2/bc/b6b38a6e4dae6de52384d9e036f68f22c0dccd82b37b9bf4dcc753671afd/tq42_grpc_client-1.0.98.tar.gz
+[2024-04-26 11:22:02] INFO root fetch - processPackages [ssb-arbmark-fagfunksjoner]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-26 11:22:02] INFO root fetch - processPackages [pSevenCore]: New version: [2024.4.26] Old Version: [2024.3.21]
+[2024-04-26 11:22:02] INFO root fetch - processPackages [pygradflow]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-26 11:22:02] WARNING root fetch - processPackages [bd-scan-yocto]: Skipping, unable to determine old version
+[2024-04-26 11:22:02] INFO root fetch - main [MainThread]: End processing [bd-scan-yocto] error
+[2024-04-26 11:22:02] INFO root fetch - processPackages [expyrun]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-26 11:22:02] INFO root fetch - processPackages [ssb-arbmark-fagfunksjoner]: Downloading https://files.pythonhosted.org/packages/9f/7c/1d1bf4a90d5ede0b772f70ffaf7c329b82aca9a236519be5b287a69a02a2/ssb_arbmark_fagfunksjoner-0.0.8.tar.gz
+[2024-04-26 11:22:02] INFO root fetch - processPackages [pygradflow]: Downloading https://files.pythonhosted.org/packages/8d/97/466512a27693a94bea9b5a20af95d190a8825b4e8ebff008651eb4b29c00/pygradflow-0.3.8.tar.gz
+[2024-04-26 11:22:02] INFO root fetch - processPackages [tq42-grpc-client]: Downloading https://files.pythonhosted.org/packages/c5/9d/1449160d0c285ac0d5baa8e0b780b4be4873244452a54befd42e6224614c/tq42_grpc_client-1.0.99.tar.gz
+[2024-04-26 11:22:02] INFO root fetch - processPackages [pSevenCore]: Downloading https://files.pythonhosted.org/packages/9a/a3/1505f8ab7a678872281b315ec35255de52fc8367ab9ab9f3cb9056d89f87/pSevenCore-2024.3.21-py2.py3-none-win_amd64.whl
+[2024-04-26 11:22:02] INFO root fetch - processPackages [expyrun]: Downloading https://files.pythonhosted.org/packages/bf/6b/5f9294228dfe5977ea8afb16c5fc0c41b283f113d5c8aec06691f01d4594/expyrun-0.0.7.tar.gz
+[2024-04-26 11:22:02] WARNING root fetch - processPackages [pSevenCore]: Skipping package: exceeds size limit 25789809>=10485760
+[2024-04-26 11:22:02] INFO root fetch - main [MainThread]: End processing [pSevenCore] error
+[2024-04-26 11:22:02] INFO root fetch - processPackages [tq42-grpc-client]: executing diffoscope
+[2024-04-26 11:22:02] INFO root fetch - processPackages [tq42-grpc-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tq42_grpc_client-1.0.98.tar.gz tmp/tq42_grpc_client-1.0.99.tar.gz --markdown 20240426/t/tq42-grpc-client/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-04-26 11:22:02] INFO root fetch - processPackages [expyrun]: Downloading https://files.pythonhosted.org/packages/5f/a9/566bfd32b7dd9cffb4669fb143feb0a90c1c5a7c93d0e0f05c7f99db6a89/expyrun-0.0.8.tar.gz
+[2024-04-26 11:22:02] INFO root fetch - processPackages [ssb-arbmark-fagfunksjoner]: Downloading https://files.pythonhosted.org/packages/30/58/1aae8e7ab8bdc135378e36ac87d04487156f4cb588548148276269523f2c/ssb_arbmark_fagfunksjoner-0.0.9.tar.gz
+[2024-04-26 11:22:02] INFO root fetch - processPackages [pygradflow]: Downloading https://files.pythonhosted.org/packages/4b/1b/0008264973f4bdf1e4cd76a6872629558ae00b4f9c12b560b1503830bf97/pygradflow-0.3.9.tar.gz
+[2024-04-26 11:22:03] INFO root fetch - processPackages [ssb-arbmark-fagfunksjoner]: executing diffoscope
+[2024-04-26 11:22:03] INFO root fetch - processPackages [ssb-arbmark-fagfunksjoner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssb_arbmark_fagfunksjoner-0.0.8.tar.gz tmp/ssb_arbmark_fagfunksjoner-0.0.9.tar.gz --markdown 20240426/s/ssb-arbmark-fagfunksjoner/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-26 11:22:03] INFO root fetch - processPackages [expyrun]: executing diffoscope
+[2024-04-26 11:22:03] INFO root fetch - processPackages [expyrun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/expyrun-0.0.7.tar.gz tmp/expyrun-0.0.8.tar.gz --markdown 20240426/e/expyrun/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-26 11:22:03] INFO root fetch - processPackages [pygradflow]: executing diffoscope
+[2024-04-26 11:22:03] INFO root fetch - processPackages [pygradflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygradflow-0.3.8.tar.gz tmp/pygradflow-0.3.9.tar.gz --markdown 20240426/p/pygradflow/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-04-26 11:22:03] INFO root fetch - processPackages [ssb-arbmark-fagfunksjoner]: Remove: archive file [/home/abi/fetcher/tmp/ssb_arbmark_fagfunksjoner-0.0.8.tar.gz]
+[2024-04-26 11:22:03] INFO root fetch - processPackages [ssb-arbmark-fagfunksjoner]: Remove: archive file [/home/abi/fetcher/tmp/ssb_arbmark_fagfunksjoner-0.0.9.tar.gz]
+[2024-04-26 11:22:03] INFO root fetch - main [MainThread]: End processing [ssb-arbmark-fagfunksjoner]: success
+[2024-04-26 11:22:03] INFO root fetch - processPackages [expyrun]: Remove: archive file [/home/abi/fetcher/tmp/expyrun-0.0.7.tar.gz]
+[2024-04-26 11:22:03] INFO root fetch - processPackages [expyrun]: Remove: archive file [/home/abi/fetcher/tmp/expyrun-0.0.8.tar.gz]
+[2024-04-26 11:22:03] INFO root fetch - main [MainThread]: End processing [expyrun]: success
+[2024-04-26 11:22:03] INFO root fetch - processPackages [pygradflow]: Remove: archive file [/home/abi/fetcher/tmp/pygradflow-0.3.8.tar.gz]
+[2024-04-26 11:22:03] INFO root fetch - processPackages [pygradflow]: Remove: archive file [/home/abi/fetcher/tmp/pygradflow-0.3.9.tar.gz]
+[2024-04-26 11:22:03] INFO root fetch - main [MainThread]: End processing [pygradflow]: success
+[2024-04-26 11:22:04] INFO root fetch - processPackages [tq42-grpc-client]: Remove: archive file [/home/abi/fetcher/tmp/tq42_grpc_client-1.0.98.tar.gz]
+[2024-04-26 11:22:04] INFO root fetch - processPackages [tq42-grpc-client]: Remove: archive file [/home/abi/fetcher/tmp/tq42_grpc_client-1.0.99.tar.gz]
+[2024-04-26 11:22:04] INFO root fetch - main [MainThread]: End processing [tq42-grpc-client]: success
+[2024-04-26 11:22:04] INFO root fetch - main [MainThread]: Store serial: [22945689]
