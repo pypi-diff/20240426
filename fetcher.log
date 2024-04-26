@@ -2827,3 +2827,38 @@
 [2024-04-26 02:56:27] INFO root fetch - processPackages [camply]: Remove: archive file [/home/abi/fetcher/tmp/camply-0.9.3.tar.gz]
 [2024-04-26 02:56:27] INFO root fetch - main [MainThread]: End processing [camply]: success
 [2024-04-26 02:56:27] INFO root fetch - main [MainThread]: Store serial: [22940228]
+[2024-04-26 02:58:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22940228]
+[2024-04-26 02:58:35] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-26 02:58:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: neon-stt-plugin-nemo
+[2024-04-26 02:58:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: geotask
+[2024-04-26 02:58:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: uxarray
+[2024-04-26 02:58:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: language-toolkit
+[2024-04-26 02:58:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gingerai
+[2024-04-26 02:58:35] INFO root fetch - processPackages [neon-stt-plugin-nemo]: New version: [0.0.5a1] Old Version: [0.0.4a1]
+[2024-04-26 02:58:35] INFO root fetch - processPackages [gingerai]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-26 02:58:35] INFO root fetch - processPackages [neon-stt-plugin-nemo]: Downloading https://files.pythonhosted.org/packages/eb/f7/170eb399650dc0bde39a73110e34d8f6db42c9820da1118bc76452f26e0d/neon-stt-plugin-nemo-0.0.4a1.tar.gz
+[2024-04-26 02:58:35] INFO root fetch - processPackages [gingerai]: Downloading https://files.pythonhosted.org/packages/93/63/5f4a6d2549870026eff659d1fc9aac0f6c9532ea741f07ac2083cd3a1cfe/gingerai-0.1.8.tar.gz
+[2024-04-26 02:58:35] INFO root fetch - processPackages [geotask]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-26 02:58:35] INFO root fetch - processPackages [uxarray]: New version: [2024.4.0] Old Version: [2024.3.0]
+[2024-04-26 02:58:35] WARNING root fetch - processPackages [language-toolkit]: Skipping, unable to determine old version
+[2024-04-26 02:58:35] INFO root fetch - main [MainThread]: End processing [language-toolkit] error
+[2024-04-26 02:58:35] INFO root fetch - processPackages [geotask]: Downloading https://files.pythonhosted.org/packages/a1/ae/f139d0bb41db5ead16ed08a5e680253e28d3e467a4107124638ea8cc46e5/geotask-0.0.4.tar.gz
+[2024-04-26 02:58:35] INFO root fetch - processPackages [neon-stt-plugin-nemo]: Downloading https://files.pythonhosted.org/packages/cc/90/30ce4c3370c3365601398e14277f5c74cd64c13ee85f037efaac4039368d/neon-stt-plugin-nemo-0.0.5a1.tar.gz
+[2024-04-26 02:58:35] INFO root fetch - processPackages [gingerai]: Downloading https://files.pythonhosted.org/packages/33/65/a59be7a360a71da6fb875287e72120e252018dc037eef33b15ac50759b89/gingerai-0.1.9.tar.gz
+[2024-04-26 02:58:35] INFO root fetch - processPackages [uxarray]: Downloading https://files.pythonhosted.org/packages/0b/80/e6277088ab809a7d331c4660c85ddb1bbf43b8e2688b3ccdda74fa1b6b58/uxarray-2024.3.0.tar.gz
+[2024-04-26 02:58:35] WARNING root fetch - processPackages [uxarray]: Skipping package: exceeds size limit 14460765>=10485760
+[2024-04-26 02:58:35] INFO root fetch - main [MainThread]: End processing [uxarray] error
+[2024-04-26 02:58:35] INFO root fetch - processPackages [gingerai]: executing diffoscope
+[2024-04-26 02:58:35] INFO root fetch - processPackages [gingerai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gingerai-0.1.8.tar.gz tmp/gingerai-0.1.9.tar.gz --markdown 20240426/g/gingerai/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-26 02:58:35] INFO root fetch - processPackages [neon-stt-plugin-nemo]: executing diffoscope
+[2024-04-26 02:58:35] INFO root fetch - processPackages [neon-stt-plugin-nemo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon-stt-plugin-nemo-0.0.4a1.tar.gz tmp/neon-stt-plugin-nemo-0.0.5a1.tar.gz --markdown 20240426/n/neon-stt-plugin-nemo/0.0.4a1-0.0.5a1/README.md --exclude *.pyd
+[2024-04-26 02:58:35] INFO root fetch - processPackages [geotask]: Downloading https://files.pythonhosted.org/packages/64/f1/4ec3f19a836ea119b393ded30dd4c805bc5330afd452d5c8314ee95e363d/geotask-0.0.5.tar.gz
+[2024-04-26 02:58:35] WARNING root fetch - processPackages [geotask]: Skipping package: exceeds size limit 17192565>=10485760
+[2024-04-26 02:58:35] INFO root fetch - main [MainThread]: End processing [geotask] error
+[2024-04-26 02:58:36] INFO root fetch - processPackages [neon-stt-plugin-nemo]: Remove: archive file [/home/abi/fetcher/tmp/neon-stt-plugin-nemo-0.0.4a1.tar.gz]
+[2024-04-26 02:58:36] INFO root fetch - processPackages [neon-stt-plugin-nemo]: Remove: archive file [/home/abi/fetcher/tmp/neon-stt-plugin-nemo-0.0.5a1.tar.gz]
+[2024-04-26 02:58:36] INFO root fetch - main [MainThread]: End processing [neon-stt-plugin-nemo]: success
+[2024-04-26 02:58:36] INFO root fetch - processPackages [gingerai]: Remove: archive file [/home/abi/fetcher/tmp/gingerai-0.1.8.tar.gz]
+[2024-04-26 02:58:36] INFO root fetch - processPackages [gingerai]: Remove: archive file [/home/abi/fetcher/tmp/gingerai-0.1.9.tar.gz]
+[2024-04-26 02:58:36] INFO root fetch - main [MainThread]: End processing [gingerai]: success
+[2024-04-26 02:58:36] INFO root fetch - main [MainThread]: Store serial: [22940244]
