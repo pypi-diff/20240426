@@ -11964,3 +11964,43 @@
 [2024-04-26 09:02:28] INFO root fetch - processPackages [dynareadout]: Remove: archive file [/home/abi/fetcher/tmp/dynareadout-24.4.tar.gz]
 [2024-04-26 09:02:28] INFO root fetch - main [MainThread]: End processing [dynareadout]: success
 [2024-04-26 09:02:28] INFO root fetch - main [MainThread]: Store serial: [22943781]
+[2024-04-26 09:04:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22943781]
+[2024-04-26 09:04:37] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-26 09:04:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gingerai
+[2024-04-26 09:04:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fosslight-scanner
+[2024-04-26 09:04:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gingerai
+[2024-04-26 09:04:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: raydify
+[2024-04-26 09:04:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-rancher2
+[2024-04-26 09:04:37] INFO root fetch - processPackages [gingerai]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-26 09:04:37] INFO root fetch - processPackages [gingerai]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-26 09:04:37] INFO root fetch - processPackages [gingerai]: Downloading https://files.pythonhosted.org/packages/93/63/5f4a6d2549870026eff659d1fc9aac0f6c9532ea741f07ac2083cd3a1cfe/gingerai-0.1.8.tar.gz
+[2024-04-26 09:04:37] WARNING root fetch - processPackages [raydify]: Skipping, unable to determine old version
+[2024-04-26 09:04:37] INFO root fetch - main [MainThread]: End processing [raydify] error
+[2024-04-26 09:04:37] INFO root fetch - processPackages [gingerai]: Downloading https://files.pythonhosted.org/packages/93/63/5f4a6d2549870026eff659d1fc9aac0f6c9532ea741f07ac2083cd3a1cfe/gingerai-0.1.8.tar.gz
+[2024-04-26 09:04:37] INFO root fetch - processPackages [fosslight-scanner]: New version: [1.7.9] Old Version: [1.7.8]
+[2024-04-26 09:04:37] INFO root fetch - processPackages [pulumi-rancher2]: New version: [6.2.0a1714112296] Old Version: [6.2.0a1713907178]
+[2024-04-26 09:04:37] INFO root fetch - processPackages [fosslight-scanner]: Downloading https://files.pythonhosted.org/packages/29/52/ebbdf6a6e063398271f8932f5b6fefdcd270f750b972a29bf2f956dd3cc7/fosslight_scanner-1.7.8.tar.gz
+[2024-04-26 09:04:37] INFO root fetch - processPackages [gingerai]: Downloading https://files.pythonhosted.org/packages/33/65/a59be7a360a71da6fb875287e72120e252018dc037eef33b15ac50759b89/gingerai-0.1.9.tar.gz
+[2024-04-26 09:04:37] INFO root fetch - processPackages [gingerai]: Downloading https://files.pythonhosted.org/packages/33/65/a59be7a360a71da6fb875287e72120e252018dc037eef33b15ac50759b89/gingerai-0.1.9.tar.gz
+[2024-04-26 09:04:37] INFO root fetch - processPackages [pulumi-rancher2]: Downloading https://files.pythonhosted.org/packages/6c/2c/8e847a8c723959b6ea861e26b73f72c40181e6c8087cb266bdaf46c9bd8a/pulumi_rancher2-6.2.0a1713907178.tar.gz
+[2024-04-26 09:04:37] INFO root fetch - processPackages [gingerai]: executing diffoscope
+[2024-04-26 09:04:37] INFO root fetch - processPackages [gingerai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gingerai-0.1.8.tar.gz tmp/gingerai-0.1.9.tar.gz --markdown 20240426/g/gingerai/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-26 09:04:37] INFO root fetch - processPackages [gingerai]: executing diffoscope
+[2024-04-26 09:04:37] INFO root fetch - processPackages [gingerai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gingerai-0.1.8.tar.gz tmp/gingerai-0.1.9.tar.gz --markdown 20240426/g/gingerai/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-26 09:04:37] INFO root fetch - processPackages [pulumi-rancher2]: Downloading https://files.pythonhosted.org/packages/cf/43/6b2176ac6aad2e39c4d915adc48054203e2085a8bd7dc7be10d64733060e/pulumi_rancher2-6.2.0a1714112296.tar.gz
+[2024-04-26 09:04:38] INFO root fetch - processPackages [pulumi-rancher2]: executing diffoscope
+[2024-04-26 09:04:38] INFO root fetch - processPackages [pulumi-rancher2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_rancher2-6.2.0a1713907178.tar.gz tmp/pulumi_rancher2-6.2.0a1714112296.tar.gz --markdown 20240426/p/pulumi-rancher2/6.2.0a1713907178-6.2.0a1714112296/README.md --exclude *.pyd
+[2024-04-26 09:04:38] INFO root fetch - processPackages [gingerai]: Remove: archive file [/home/abi/fetcher/tmp/gingerai-0.1.8.tar.gz]
+[2024-04-26 09:04:38] INFO root fetch - processPackages [gingerai]: Remove: archive file [/home/abi/fetcher/tmp/gingerai-0.1.9.tar.gz]
+[2024-04-26 09:04:38] INFO root fetch - main [MainThread]: End processing [gingerai]: success
+[2024-04-26 09:04:38] INFO root fetch - main [MainThread]: End processing [gingerai]: success
+[2024-04-26 09:04:38] INFO root fetch - processPackages [fosslight-scanner]: Downloading https://files.pythonhosted.org/packages/49/60/6eb1e1a4606d6df3400213c55f545bc24a747a7ac1293839763561673e0d/fosslight_scanner-1.7.9.tar.gz
+[2024-04-26 09:04:38] INFO root fetch - processPackages [fosslight-scanner]: executing diffoscope
+[2024-04-26 09:04:38] INFO root fetch - processPackages [fosslight-scanner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fosslight_scanner-1.7.8.tar.gz tmp/fosslight_scanner-1.7.9.tar.gz --markdown 20240426/f/fosslight-scanner/1.7.8-1.7.9/README.md --exclude *.pyd
+[2024-04-26 09:04:39] INFO root fetch - processPackages [fosslight-scanner]: Remove: archive file [/home/abi/fetcher/tmp/fosslight_scanner-1.7.8.tar.gz]
+[2024-04-26 09:04:39] INFO root fetch - processPackages [fosslight-scanner]: Remove: archive file [/home/abi/fetcher/tmp/fosslight_scanner-1.7.9.tar.gz]
+[2024-04-26 09:04:39] INFO root fetch - main [MainThread]: End processing [fosslight-scanner]: success
+[2024-04-26 09:04:39] INFO root fetch - processPackages [pulumi-rancher2]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rancher2-6.2.0a1713907178.tar.gz]
+[2024-04-26 09:04:39] INFO root fetch - processPackages [pulumi-rancher2]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rancher2-6.2.0a1714112296.tar.gz]
+[2024-04-26 09:04:39] INFO root fetch - main [MainThread]: End processing [pulumi-rancher2]: success
+[2024-04-26 09:04:39] INFO root fetch - main [MainThread]: Store serial: [22943800]
