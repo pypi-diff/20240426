@@ -1863,3 +1863,42 @@
 [2024-04-26 01:58:55] INFO root fetch - processPackages [omnivoreql]: Remove: archive file [/home/abi/fetcher/tmp/omnivoreql-0.2.2-py3-none-any.whl.zip]
 [2024-04-26 01:58:55] INFO root fetch - main [MainThread]: End processing [omnivoreql]: success
 [2024-04-26 01:58:55] INFO root fetch - main [MainThread]: Store serial: [22939707]
+[2024-04-26 02:00:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22939707]
+[2024-04-26 02:01:03] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-26 02:01:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gingerai
+[2024-04-26 02:01:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: streamlit-carousel
+[2024-04-26 02:01:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xl-database
+[2024-04-26 02:01:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: foundationdb
+[2024-04-26 02:01:03] INFO root fetch - processPackages [gingerai]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-26 02:01:03] INFO root fetch - processPackages [gingerai]: Downloading https://files.pythonhosted.org/packages/93/63/5f4a6d2549870026eff659d1fc9aac0f6c9532ea741f07ac2083cd3a1cfe/gingerai-0.1.8.tar.gz
+[2024-04-26 02:01:03] INFO root fetch - processPackages [streamlit-carousel]: New version: [1.0.0] Old Version: [0.0.4]
+[2024-04-26 02:01:03] INFO root fetch - processPackages [xl-database]: New version: [0.6.5] Old Version: [0.6.3]
+[2024-04-26 02:01:03] INFO root fetch - processPackages [foundationdb]: New version: [7.3.9] Old Version: [7.3.8]
+[2024-04-26 02:01:04] INFO root fetch - processPackages [xl-database]: Downloading https://files.pythonhosted.org/packages/8b/b6/efc3dec951be5359797798118b80888b1026b78824dfae6079dd0faea14a/xl_database-0.6.3.tar.gz
+[2024-04-26 02:01:04] INFO root fetch - processPackages [gingerai]: Downloading https://files.pythonhosted.org/packages/33/65/a59be7a360a71da6fb875287e72120e252018dc037eef33b15ac50759b89/gingerai-0.1.9.tar.gz
+[2024-04-26 02:01:04] INFO root fetch - processPackages [streamlit-carousel]: Downloading https://files.pythonhosted.org/packages/49/bf/2cecfebe6faa6e5f4fc9a74d37aba0b1f1fee4193376ff304b4f049957a4/streamlit_carousel-0.0.4.tar.gz
+[2024-04-26 02:01:04] INFO root fetch - processPackages [foundationdb]: Downloading https://files.pythonhosted.org/packages/36/96/36db8b7aba7d9fb4662c1a3a88b362801e73bb1c0d469e8c291a11b74c97/foundationdb-7.3.8.tar.gz
+[2024-04-26 02:01:04] INFO root fetch - processPackages [gingerai]: executing diffoscope
+[2024-04-26 02:01:04] INFO root fetch - processPackages [gingerai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gingerai-0.1.8.tar.gz tmp/gingerai-0.1.9.tar.gz --markdown 20240426/g/gingerai/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-26 02:01:04] INFO root fetch - processPackages [xl-database]: Downloading https://files.pythonhosted.org/packages/cf/44/02defcde45f842cc7efbda52337a03c0e67b7c5c9b4aa020238c75566def/xl_database-0.6.5.tar.gz
+[2024-04-26 02:01:04] INFO root fetch - processPackages [xl-database]: executing diffoscope
+[2024-04-26 02:01:04] INFO root fetch - processPackages [xl-database]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xl_database-0.6.3.tar.gz tmp/xl_database-0.6.5.tar.gz --markdown 20240426/x/xl-database/0.6.3-0.6.5/README.md --exclude *.pyd
+[2024-04-26 02:01:04] INFO root fetch - processPackages [foundationdb]: Downloading https://files.pythonhosted.org/packages/5b/02/44abfcfdcc2abd0e108e45890ed5a02185aceeb90e378a8531fc45597dd9/foundationdb-7.3.9.tar.gz
+[2024-04-26 02:01:04] INFO root fetch - processPackages [streamlit-carousel]: Downloading https://files.pythonhosted.org/packages/95/5b/4bfda5482c42355b6766e108eea00b00767ed4160e81ec9a9d2caf89abc1/streamlit_carousel-1.0.0.tar.gz
+[2024-04-26 02:01:04] INFO root fetch - processPackages [gingerai]: Remove: archive file [/home/abi/fetcher/tmp/gingerai-0.1.8.tar.gz]
+[2024-04-26 02:01:04] INFO root fetch - processPackages [gingerai]: Remove: archive file [/home/abi/fetcher/tmp/gingerai-0.1.9.tar.gz]
+[2024-04-26 02:01:04] INFO root fetch - main [MainThread]: End processing [gingerai]: success
+[2024-04-26 02:01:04] INFO root fetch - processPackages [foundationdb]: executing diffoscope
+[2024-04-26 02:01:04] INFO root fetch - processPackages [foundationdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foundationdb-7.3.8.tar.gz tmp/foundationdb-7.3.9.tar.gz --markdown 20240426/f/foundationdb/7.3.8-7.3.9/README.md --exclude *.pyd
+[2024-04-26 02:01:04] INFO root fetch - processPackages [streamlit-carousel]: executing diffoscope
+[2024-04-26 02:01:04] INFO root fetch - processPackages [streamlit-carousel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit_carousel-0.0.4.tar.gz tmp/streamlit_carousel-1.0.0.tar.gz --markdown 20240426/s/streamlit-carousel/0.0.4-1.0.0/README.md --exclude *.pyd
+[2024-04-26 02:01:05] INFO root fetch - processPackages [xl-database]: Remove: archive file [/home/abi/fetcher/tmp/xl_database-0.6.3.tar.gz]
+[2024-04-26 02:01:05] INFO root fetch - processPackages [xl-database]: Remove: archive file [/home/abi/fetcher/tmp/xl_database-0.6.5.tar.gz]
+[2024-04-26 02:01:05] INFO root fetch - main [MainThread]: End processing [xl-database]: success
+[2024-04-26 02:01:05] INFO root fetch - processPackages [foundationdb]: Remove: archive file [/home/abi/fetcher/tmp/foundationdb-7.3.8.tar.gz]
+[2024-04-26 02:01:05] INFO root fetch - processPackages [foundationdb]: Remove: archive file [/home/abi/fetcher/tmp/foundationdb-7.3.9.tar.gz]
+[2024-04-26 02:01:05] INFO root fetch - main [MainThread]: End processing [foundationdb]: success
+[2024-04-26 02:01:15] INFO root fetch - processPackages [streamlit-carousel]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_carousel-0.0.4.tar.gz]
+[2024-04-26 02:01:15] INFO root fetch - processPackages [streamlit-carousel]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_carousel-1.0.0.tar.gz]
+[2024-04-26 02:01:15] INFO root fetch - main [MainThread]: End processing [streamlit-carousel]: success
+[2024-04-26 02:01:15] INFO root fetch - main [MainThread]: Store serial: [22939719]
