@@ -10429,3 +10429,33 @@
 [2024-04-26 07:58:09] INFO root fetch - processPackages [oelint-adv]: Remove: archive file [/home/abi/fetcher/tmp/oelint_adv-5.3.1.tar.gz]
 [2024-04-26 07:58:09] INFO root fetch - main [MainThread]: End processing [oelint-adv]: success
 [2024-04-26 07:58:09] INFO root fetch - main [MainThread]: Store serial: [22943131]
+[2024-04-26 08:00:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22943131]
+[2024-04-26 08:00:18] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-26 08:00:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo12-addon-base-tier-validation
+[2024-04-26 08:00:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-digitalocean
+[2024-04-26 08:00:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: agsconfig
+[2024-04-26 08:00:18] INFO root fetch - processPackages [agsconfig]: New version: [0.3.4] Old Version: [0.3.3]
+[2024-04-26 08:00:18] INFO root fetch - processPackages [odoo12-addon-base-tier-validation]: New version: [12.0.3.9.3.99.dev3] Old Version: [12.0.3.9.3.99.dev2]
+[2024-04-26 08:00:18] INFO root fetch - processPackages [pulumi-digitalocean]: New version: [4.9.0a1637244514] Old Version: [4.9.0]
+[2024-04-26 08:00:18] INFO root fetch - processPackages [odoo12-addon-base-tier-validation]: Downloading https://files.pythonhosted.org/packages/51/44/327dc16b0532b510002aa018491b147fd6461f1a9a5dbb2e5392457384ec/odoo12_addon_base_tier_validation-12.0.3.9.3.99.dev2-py3-none-any.whl
+[2024-04-26 08:00:18] INFO root fetch - processPackages [agsconfig]: Downloading https://files.pythonhosted.org/packages/3e/a6/483ed71404110740091f872349817cb108beef712526ac56354db675470e/agsconfig-0.3.3-py2.py3-none-any.whl
+[2024-04-26 08:00:19] INFO root fetch - processPackages [pulumi-digitalocean]: Downloading https://files.pythonhosted.org/packages/27/fe/88f79d9daf961f609409c5330a59d5bf5ff3effa841b5317256e773c92dd/pulumi_digitalocean-4.9.0.tar.gz
+[2024-04-26 08:00:19] INFO root fetch - processPackages [agsconfig]: Downloading https://files.pythonhosted.org/packages/cb/e8/b05a0e020bc9a804cf23e1478eb858e21911c5e68bba56cb5e1d91631849/agsconfig-0.3.4-py2.py3-none-any.whl
+[2024-04-26 08:00:19] INFO root fetch - processPackages [odoo12-addon-base-tier-validation]: Downloading https://files.pythonhosted.org/packages/e2/21/6d99e964c3de0bd11e20dd8da484e4e328094b7b36aa3adc32d87dbc06d1/odoo12_addon_base_tier_validation-12.0.3.9.3.99.dev3-py3-none-any.whl
+[2024-04-26 08:00:19] INFO root fetch - processPackages [pulumi-digitalocean]: Downloading https://files.pythonhosted.org/packages/aa/e4/0dfa539667fb3462b4c16072050ebf8e1a80d862ac88c8b00ae29b019195/pulumi_digitalocean-4.9.0a1637244514.tar.gz
+[2024-04-26 08:00:19] INFO root fetch - processPackages [agsconfig]: executing diffoscope
+[2024-04-26 08:00:19] INFO root fetch - processPackages [agsconfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agsconfig-0.3.3-py2.py3-none-any.whl.zip tmp/agsconfig-0.3.4-py2.py3-none-any.whl.zip --markdown 20240426/a/agsconfig/0.3.3-0.3.4/README.md --exclude *.pyd
+[2024-04-26 08:00:19] INFO root fetch - processPackages [odoo12-addon-base-tier-validation]: executing diffoscope
+[2024-04-26 08:00:19] INFO root fetch - processPackages [odoo12-addon-base-tier-validation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_base_tier_validation-12.0.3.9.3.99.dev2-py3-none-any.whl.zip tmp/odoo12_addon_base_tier_validation-12.0.3.9.3.99.dev3-py3-none-any.whl.zip --markdown 20240426/o/odoo12-addon-base-tier-validation/12.0.3.9.3.99.dev2-12.0.3.9.3.99.dev3/README.md --exclude *.pyd
+[2024-04-26 08:00:19] INFO root fetch - processPackages [pulumi-digitalocean]: executing diffoscope
+[2024-04-26 08:00:19] INFO root fetch - processPackages [pulumi-digitalocean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_digitalocean-4.9.0.tar.gz tmp/pulumi_digitalocean-4.9.0a1637244514.tar.gz --markdown 20240426/p/pulumi-digitalocean/4.9.0-4.9.0a1637244514/README.md --exclude *.pyd
+[2024-04-26 08:00:20] INFO root fetch - processPackages [agsconfig]: Remove: archive file [/home/abi/fetcher/tmp/agsconfig-0.3.3-py2.py3-none-any.whl.zip]
+[2024-04-26 08:00:20] INFO root fetch - processPackages [agsconfig]: Remove: archive file [/home/abi/fetcher/tmp/agsconfig-0.3.4-py2.py3-none-any.whl.zip]
+[2024-04-26 08:00:20] INFO root fetch - main [MainThread]: End processing [agsconfig]: success
+[2024-04-26 08:00:20] INFO root fetch - processPackages [odoo12-addon-base-tier-validation]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_base_tier_validation-12.0.3.9.3.99.dev2-py3-none-any.whl.zip]
+[2024-04-26 08:00:20] INFO root fetch - processPackages [odoo12-addon-base-tier-validation]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_base_tier_validation-12.0.3.9.3.99.dev3-py3-none-any.whl.zip]
+[2024-04-26 08:00:20] INFO root fetch - main [MainThread]: End processing [odoo12-addon-base-tier-validation]: success
+[2024-04-26 08:00:20] INFO root fetch - processPackages [pulumi-digitalocean]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_digitalocean-4.9.0.tar.gz]
+[2024-04-26 08:00:20] INFO root fetch - processPackages [pulumi-digitalocean]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_digitalocean-4.9.0a1637244514.tar.gz]
+[2024-04-26 08:00:20] INFO root fetch - main [MainThread]: End processing [pulumi-digitalocean]: success
+[2024-04-26 08:00:20] INFO root fetch - main [MainThread]: Store serial: [22943138]
