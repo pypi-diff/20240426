@@ -9341,3 +9341,48 @@
 [2024-04-26 06:56:09] INFO root fetch - processPackages [django-sync-env]: Remove: archive file [/home/abi/fetcher/tmp/django_sync_env-0.3.1a5.tar.gz]
 [2024-04-26 06:56:09] INFO root fetch - main [MainThread]: End processing [django-sync-env]: success
 [2024-04-26 06:56:09] INFO root fetch - main [MainThread]: Store serial: [22942739]
+[2024-04-26 06:58:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22942739]
+[2024-04-26 06:58:17] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-26 06:58:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: VSVNApplicationMonitoring
+[2024-04-26 06:58:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cmlibs.exporter
+[2024-04-26 06:58:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: GS-Edit
+[2024-04-26 06:58:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: stac-fastapi.mongo
+[2024-04-26 06:58:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fastapix-py
+[2024-04-26 06:58:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: VSVNApplicationMonitoring
+[2024-04-26 06:58:18] WARNING root fetch - processPackages [VSVNApplicationMonitoring]: Skipping, unable to determine old version
+[2024-04-26 06:58:18] INFO root fetch - main [MainThread]: End processing [VSVNApplicationMonitoring] error
+[2024-04-26 06:58:18] INFO root fetch - processPackages [fastapix-py]: New version: [0.8.0] Old Version: [0.7.7]
+[2024-04-26 06:58:18] WARNING root fetch - processPackages [VSVNApplicationMonitoring]: Skipping, unable to determine old version
+[2024-04-26 06:58:18] INFO root fetch - main [MainThread]: End processing [VSVNApplicationMonitoring] error
+[2024-04-26 06:58:18] INFO root fetch - processPackages [fastapix-py]: Downloading https://files.pythonhosted.org/packages/ce/a6/f01b5bc34414edf161dfcb757c6c7fdd236bfbbaedaa71fc90a70204a46a/fastapix_py-0.7.7-py3-none-any.whl
+[2024-04-26 06:58:18] INFO root fetch - processPackages [stac-fastapi.mongo]: New version: [3.1.0] Old Version: [3.0.1]
+[2024-04-26 06:58:18] INFO root fetch - processPackages [cmlibs.exporter]: New version: [0.6.2] Old Version: [0.6.1]
+[2024-04-26 06:58:18] INFO root fetch - processPackages [GS-Edit]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-04-26 06:58:18] INFO root fetch - processPackages [stac-fastapi.mongo]: Downloading https://files.pythonhosted.org/packages/0d/d7/98d9179a69d812976935833ae9b5b06359e21aab47358a6b02347625e045/stac_fastapi_mongo-3.0.1.tar.gz
+[2024-04-26 06:58:18] INFO root fetch - processPackages [GS-Edit]: Downloading https://files.pythonhosted.org/packages/0b/e6/114510f6d94ba29aef688b1ccd5d27d3991bc86697d3ac556d78f3eb9ab9/gs_edit-0.2.4.tar.gz
+[2024-04-26 06:58:18] INFO root fetch - processPackages [cmlibs.exporter]: Downloading https://files.pythonhosted.org/packages/0e/40/046a0cca7c2eb770529e5bcf226cd63ac9af9cde974aac2c873576ca1a9d/cmlibs.exporter-0.6.1-py3-none-any.whl
+[2024-04-26 06:58:18] INFO root fetch - processPackages [fastapix-py]: Downloading https://files.pythonhosted.org/packages/2e/c2/690c150d0ade764e462d92de0b1735423e0e6979fa9c5adc742821f5beac/fastapix_py-0.8.0-py3-none-any.whl
+[2024-04-26 06:58:18] INFO root fetch - processPackages [stac-fastapi.mongo]: Downloading https://files.pythonhosted.org/packages/8d/8a/a7170b07452386ab6f28cb9e0e08095ff6f8dd94552cb36d080f4d39cefb/stac_fastapi_mongo-3.1.0.tar.gz
+[2024-04-26 06:58:18] INFO root fetch - processPackages [cmlibs.exporter]: Downloading https://files.pythonhosted.org/packages/e6/64/4fa8a82c75d59045d3344b4af51eb6ddc2e94d59fac82f94e4196b270137/cmlibs.exporter-0.6.2-py3-none-any.whl
+[2024-04-26 06:58:18] INFO root fetch - processPackages [stac-fastapi.mongo]: executing diffoscope
+[2024-04-26 06:58:18] INFO root fetch - processPackages [stac-fastapi.mongo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stac_fastapi_mongo-3.0.1.tar.gz tmp/stac_fastapi_mongo-3.1.0.tar.gz --markdown 20240426/s/stac-fastapi.mongo/3.0.1-3.1.0/README.md --exclude *.pyd
+[2024-04-26 06:58:18] INFO root fetch - processPackages [cmlibs.exporter]: executing diffoscope
+[2024-04-26 06:58:18] INFO root fetch - processPackages [cmlibs.exporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmlibs.exporter-0.6.1-py3-none-any.whl.zip tmp/cmlibs.exporter-0.6.2-py3-none-any.whl.zip --markdown 20240426/c/cmlibs.exporter/0.6.1-0.6.2/README.md --exclude *.pyd
+[2024-04-26 06:58:18] INFO root fetch - processPackages [GS-Edit]: Downloading https://files.pythonhosted.org/packages/d3/05/eb8b3124645e3a48cf667583dda035ac797211d00c2c30600dc153a8bab7/GS_Edit-0.2.5-py3-none-any.whl
+[2024-04-26 06:58:18] INFO root fetch - processPackages [fastapix-py]: executing diffoscope
+[2024-04-26 06:58:18] INFO root fetch - processPackages [fastapix-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapix_py-0.7.7-py3-none-any.whl.zip tmp/fastapix_py-0.8.0-py3-none-any.whl.zip --markdown 20240426/f/fastapix-py/0.7.7-0.8.0/README.md --exclude *.pyd
+[2024-04-26 06:58:19] INFO root fetch - processPackages [stac-fastapi.mongo]: Remove: archive file [/home/abi/fetcher/tmp/stac_fastapi_mongo-3.0.1.tar.gz]
+[2024-04-26 06:58:19] INFO root fetch - processPackages [stac-fastapi.mongo]: Remove: archive file [/home/abi/fetcher/tmp/stac_fastapi_mongo-3.1.0.tar.gz]
+[2024-04-26 06:58:19] INFO root fetch - main [MainThread]: End processing [stac-fastapi.mongo]: success
+[2024-04-26 06:58:19] INFO root fetch - processPackages [GS-Edit]: executing diffoscope
+[2024-04-26 06:58:19] INFO root fetch - processPackages [GS-Edit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gs_edit-0.2.4.tar.gz tmp/GS_Edit-0.2.5-py3-none-any.whl.zip --markdown 20240426/G/GS-Edit/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-04-26 06:58:19] INFO root fetch - processPackages [cmlibs.exporter]: Remove: archive file [/home/abi/fetcher/tmp/cmlibs.exporter-0.6.1-py3-none-any.whl.zip]
+[2024-04-26 06:58:19] INFO root fetch - processPackages [cmlibs.exporter]: Remove: archive file [/home/abi/fetcher/tmp/cmlibs.exporter-0.6.2-py3-none-any.whl.zip]
+[2024-04-26 06:58:19] INFO root fetch - main [MainThread]: End processing [cmlibs.exporter]: success
+[2024-04-26 06:58:19] INFO root fetch - processPackages [fastapix-py]: Remove: archive file [/home/abi/fetcher/tmp/fastapix_py-0.7.7-py3-none-any.whl.zip]
+[2024-04-26 06:58:19] INFO root fetch - processPackages [fastapix-py]: Remove: archive file [/home/abi/fetcher/tmp/fastapix_py-0.8.0-py3-none-any.whl.zip]
+[2024-04-26 06:58:19] INFO root fetch - main [MainThread]: End processing [fastapix-py]: success
+[2024-04-26 06:58:20] INFO root fetch - processPackages [GS-Edit]: Remove: archive file [/home/abi/fetcher/tmp/gs_edit-0.2.4.tar.gz]
+[2024-04-26 06:58:20] INFO root fetch - processPackages [GS-Edit]: Remove: archive file [/home/abi/fetcher/tmp/GS_Edit-0.2.5-py3-none-any.whl.zip]
+[2024-04-26 06:58:20] INFO root fetch - main [MainThread]: End processing [GS-Edit]: success
+[2024-04-26 06:58:20] INFO root fetch - main [MainThread]: Store serial: [22942753]
