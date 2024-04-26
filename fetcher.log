@@ -18077,3 +18077,63 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 12:52:01] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.4.3.18.28.17.tar.gz]
 [2024-04-26 12:52:01] INFO root fetch - main [MainThread]: End processing [chatllm]: success
 [2024-04-26 12:52:01] INFO root fetch - main [MainThread]: Store serial: [22946510]
+[2024-04-26 12:54:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22946510]
+[2024-04-26 12:54:10] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-26 12:54:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cyclonedx-python-lib
+[2024-04-26 12:54:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pldag
+[2024-04-26 12:54:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: AresHook
+[2024-04-26 12:54:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spacepy
+[2024-04-26 12:54:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nonebot_plugin_setu_collection
+[2024-04-26 12:54:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sttpg-qats
+[2024-04-26 12:54:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tinybird-cdk
+[2024-04-26 12:54:10] INFO root fetch - processPackages [AresHook]: New version: [0.1.1] Old Version: [0.1]
+[2024-04-26 12:54:10] INFO root fetch - processPackages [pldag]: New version: [0.7.5] Old Version: [0.7.4]
+[2024-04-26 12:54:10] INFO root fetch - processPackages [AresHook]: Downloading https://files.pythonhosted.org/packages/54/b7/37d635f39372edd538d90dca7621135f59bb2125bfea35676470f2c1c897/AresHook-0.1.tar.gz
+[2024-04-26 12:54:10] INFO root fetch - processPackages [pldag]: Downloading https://files.pythonhosted.org/packages/bd/f7/46cd7aa8e950e992ac44eb237cb9b0be37c4696a37b72c9f3d20eadee3e8/pldag-0.7.4.tar.gz
+[2024-04-26 12:54:10] INFO root fetch - processPackages [nonebot_plugin_setu_collection]: New version: [0.2.0] Old Version: [0.1.8]
+[2024-04-26 12:54:10] INFO root fetch - processPackages [spacepy]: New version: [0.6.0] Old Version: [0.5.0]
+[2024-04-26 12:54:10] WARNING root fetch - processPackages [sttpg-qats]: Skipping, unable to determine old version
+[2024-04-26 12:54:10] INFO root fetch - main [MainThread]: End processing [sttpg-qats] error
+[2024-04-26 12:54:10] INFO root fetch - processPackages [cyclonedx-python-lib]: New version: [7.3.2] Old Version: [7.3.1]
+[2024-04-26 12:54:10] INFO root fetch - processPackages [tinybird-cdk]: New version: [0.17.9] Old Version: [0.17.7]
+[2024-04-26 12:54:10] INFO root fetch - processPackages [AresHook]: Downloading https://files.pythonhosted.org/packages/e5/7a/56a6da4d25c72395d59f2bc1b8ecf0653b1e5c7248fca7dc0cd5a032255a/AresHook-0.1.1.tar.gz
+[2024-04-26 12:54:10] INFO root fetch - processPackages [cyclonedx-python-lib]: Downloading https://files.pythonhosted.org/packages/25/78/a233e9bfc022d84fecfcadaa27527ecd26c927ef8a4262db38f70392ed53/cyclonedx_python_lib-7.3.1.tar.gz
+[2024-04-26 12:54:10] INFO root fetch - processPackages [nonebot_plugin_setu_collection]: Downloading https://files.pythonhosted.org/packages/7f/ed/4dd26202a6dc289ae78f7aee17ff59dee75531e8565a5f9710329a94dc56/nonebot_plugin_setu_collection-0.1.8.tar.gz
+[2024-04-26 12:54:10] INFO root fetch - processPackages [spacepy]: Downloading https://files.pythonhosted.org/packages/ee/89/dfa5275f44a3edf99057243c1c1969c8b335bca487731b9f31be07c25504/spacepy-0.5.0.tar.gz
+[2024-04-26 12:54:10] INFO root fetch - processPackages [tinybird-cdk]: Downloading https://files.pythonhosted.org/packages/f3/81/f30f9f528ee749955097b3b30e9e4a3bda7150fe0f441e292388e5b3538f/tinybird_cdk-0.17.7.tar.gz
+[2024-04-26 12:54:10] INFO root fetch - processPackages [pldag]: Downloading https://files.pythonhosted.org/packages/40/c5/5e53be88cb1dba8ad3e07f504a6f012a8c7a5a555c9f0561dd9953aa773c/pldag-0.7.5.tar.gz
+[2024-04-26 12:54:10] INFO root fetch - processPackages [AresHook]: executing diffoscope
+[2024-04-26 12:54:10] INFO root fetch - processPackages [AresHook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AresHook-0.1.tar.gz tmp/AresHook-0.1.1.tar.gz --markdown 20240426/A/AresHook/0.1-0.1.1/README.md --exclude *.pyd
+[2024-04-26 12:54:11] INFO root fetch - processPackages [pldag]: executing diffoscope
+[2024-04-26 12:54:11] INFO root fetch - processPackages [pldag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pldag-0.7.4.tar.gz tmp/pldag-0.7.5.tar.gz --markdown 20240426/p/pldag/0.7.4-0.7.5/README.md --exclude *.pyd
+[2024-04-26 12:54:11] INFO root fetch - processPackages [nonebot_plugin_setu_collection]: Downloading https://files.pythonhosted.org/packages/85/a1/d8378460aef85276c6ca9fb36780cb602c416a43f7ee86c33015bf63deb2/nonebot_plugin_setu_collection-0.2.0.tar.gz
+[2024-04-26 12:54:11] INFO root fetch - processPackages [tinybird-cdk]: Downloading https://files.pythonhosted.org/packages/c0/52/ca33789ac475a5f5a554bfa9bed5120e1b89730afac4d6adf74847cf8839/tinybird_cdk-0.17.9.tar.gz
+[2024-04-26 12:54:11] INFO root fetch - processPackages [cyclonedx-python-lib]: Downloading https://files.pythonhosted.org/packages/3a/31/e87ec9cce7977e115fd2eca25fc6d2cd454f423073bb799f4a212d096107/cyclonedx_python_lib-7.3.2.tar.gz
+[2024-04-26 12:54:11] INFO root fetch - processPackages [tinybird-cdk]: executing diffoscope
+[2024-04-26 12:54:11] INFO root fetch - processPackages [tinybird-cdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinybird_cdk-0.17.7.tar.gz tmp/tinybird_cdk-0.17.9.tar.gz --markdown 20240426/t/tinybird-cdk/0.17.7-0.17.9/README.md --exclude *.pyd
+[2024-04-26 12:54:11] INFO root fetch - processPackages [nonebot_plugin_setu_collection]: executing diffoscope
+[2024-04-26 12:54:11] INFO root fetch - processPackages [nonebot_plugin_setu_collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_setu_collection-0.1.8.tar.gz tmp/nonebot_plugin_setu_collection-0.2.0.tar.gz --markdown 20240426/n/nonebot_plugin_setu_collection/0.1.8-0.2.0/README.md --exclude *.pyd
+[2024-04-26 12:54:11] INFO root fetch - processPackages [spacepy]: Downloading https://files.pythonhosted.org/packages/a1/2e/04948f505fca26390f25f607180ab6a14ad97f196ca31af57b2d6c8b0449/spacepy-0.6.0-cp36-cp36m-macosx_10_9_x86_64.whl
+[2024-04-26 12:54:11] INFO root fetch - processPackages [pldag]: Remove: archive file [/home/abi/fetcher/tmp/pldag-0.7.4.tar.gz]
+[2024-04-26 12:54:11] INFO root fetch - processPackages [pldag]: Remove: archive file [/home/abi/fetcher/tmp/pldag-0.7.5.tar.gz]
+[2024-04-26 12:54:11] INFO root fetch - main [MainThread]: End processing [pldag]: success
+[2024-04-26 12:54:11] INFO root fetch - processPackages [AresHook]: Remove: archive file [/home/abi/fetcher/tmp/AresHook-0.1.tar.gz]
+[2024-04-26 12:54:11] INFO root fetch - processPackages [AresHook]: Remove: archive file [/home/abi/fetcher/tmp/AresHook-0.1.1.tar.gz]
+[2024-04-26 12:54:11] INFO root fetch - main [MainThread]: End processing [AresHook]: success
+[2024-04-26 12:54:11] INFO root fetch - processPackages [cyclonedx-python-lib]: executing diffoscope
+[2024-04-26 12:54:11] INFO root fetch - processPackages [cyclonedx-python-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyclonedx_python_lib-7.3.1.tar.gz tmp/cyclonedx_python_lib-7.3.2.tar.gz --markdown 20240426/c/cyclonedx-python-lib/7.3.1-7.3.2/README.md --exclude *.pyd
+[2024-04-26 12:54:11] INFO root fetch - processPackages [nonebot_plugin_setu_collection]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_setu_collection-0.1.8.tar.gz]
+[2024-04-26 12:54:11] INFO root fetch - processPackages [nonebot_plugin_setu_collection]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_setu_collection-0.2.0.tar.gz]
+[2024-04-26 12:54:11] INFO root fetch - main [MainThread]: End processing [nonebot_plugin_setu_collection]: success
+[2024-04-26 12:54:12] INFO root fetch - processPackages [tinybird-cdk]: Remove: archive file [/home/abi/fetcher/tmp/tinybird_cdk-0.17.7.tar.gz]
+[2024-04-26 12:54:12] INFO root fetch - processPackages [tinybird-cdk]: Remove: archive file [/home/abi/fetcher/tmp/tinybird_cdk-0.17.9.tar.gz]
+[2024-04-26 12:54:12] INFO root fetch - main [MainThread]: End processing [tinybird-cdk]: success
+[2024-04-26 12:54:12] INFO root fetch - processPackages [spacepy]: executing diffoscope
+[2024-04-26 12:54:12] INFO root fetch - processPackages [spacepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spacepy-0.5.0.tar.gz tmp/spacepy-0.6.0-cp36-cp36m-macosx_10_9_x86_64.whl.zip --markdown 20240426/s/spacepy/0.5.0-0.6.0/README.md --exclude *.pyd
+[2024-04-26 12:54:13] INFO root fetch - processPackages [spacepy]: Remove: archive file [/home/abi/fetcher/tmp/spacepy-0.5.0.tar.gz]
+[2024-04-26 12:54:13] INFO root fetch - processPackages [spacepy]: Remove: archive file [/home/abi/fetcher/tmp/spacepy-0.6.0-cp36-cp36m-macosx_10_9_x86_64.whl.zip]
+[2024-04-26 12:54:13] INFO root fetch - main [MainThread]: End processing [spacepy]: success
+[2024-04-26 12:54:15] INFO root fetch - processPackages [cyclonedx-python-lib]: Remove: archive file [/home/abi/fetcher/tmp/cyclonedx_python_lib-7.3.1.tar.gz]
+[2024-04-26 12:54:15] INFO root fetch - processPackages [cyclonedx-python-lib]: Remove: archive file [/home/abi/fetcher/tmp/cyclonedx_python_lib-7.3.2.tar.gz]
+[2024-04-26 12:54:15] INFO root fetch - main [MainThread]: End processing [cyclonedx-python-lib]: success
+[2024-04-26 12:54:15] INFO root fetch - main [MainThread]: Store serial: [22946540]
