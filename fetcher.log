@@ -7486,3 +7486,29 @@
 [2024-04-26 04:29:36] INFO root fetch - processPackages [flet-iconoir]: Remove: archive file [/home/abi/fetcher/tmp/flet_iconoir-0.2.0.tar.gz]
 [2024-04-26 04:29:36] INFO root fetch - main [MainThread]: End processing [flet-iconoir]: success
 [2024-04-26 04:29:36] INFO root fetch - main [MainThread]: Store serial: [22941955]
+[2024-04-26 04:31:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22941955]
+[2024-04-26 04:31:44] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-26 04:31:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: poke-frm-donpolloloco
+[2024-04-26 04:31:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bento-tools
+[2024-04-26 04:31:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cxalio-studio-tools
+[2024-04-26 04:31:45] INFO root fetch - processPackages [poke-frm-donpolloloco]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-26 04:31:45] INFO root fetch - processPackages [poke-frm-donpolloloco]: Downloading https://files.pythonhosted.org/packages/62/ba/2494f77e42e638ea944de291927f5f8b49095302d155bf3537d9cafd0a51/poke_frm_donpolloloco-1.0.0.tar.gz
+[2024-04-26 04:31:45] INFO root fetch - processPackages [bento-tools]: New version: [2.1.0a0] Old Version: [2.1]
+[2024-04-26 04:31:45] INFO root fetch - processPackages [cxalio-studio-tools]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-04-26 04:31:45] INFO root fetch - processPackages [bento-tools]: Downloading https://files.pythonhosted.org/packages/c3/f0/aed3e0da566ecb357fea64a9feebd3816906ca23fdb213aedb86a2d3ba23/bento_tools-2.1.tar.gz
+[2024-04-26 04:31:45] INFO root fetch - processPackages [poke-frm-donpolloloco]: Downloading https://files.pythonhosted.org/packages/cf/ea/ee02e30c4017961f272f3823a0ba1ce87fe9853bc74473f0c9bc0e83aba4/poke_frm_donpolloloco-1.0.1.tar.gz
+[2024-04-26 04:31:45] WARNING root fetch - processPackages [bento-tools]: Skipping package: exceeds size limit 40081435>=10485760
+[2024-04-26 04:31:45] INFO root fetch - main [MainThread]: End processing [bento-tools] error
+[2024-04-26 04:31:45] INFO root fetch - processPackages [cxalio-studio-tools]: Downloading https://files.pythonhosted.org/packages/a1/96/fad7c654a5d935eb151c79cae3b33fe0db766deefc7e9b43363a9623a6a7/cxalio_studio_tools-0.1.6.tar.gz
+[2024-04-26 04:31:45] INFO root fetch - processPackages [poke-frm-donpolloloco]: executing diffoscope
+[2024-04-26 04:31:45] INFO root fetch - processPackages [poke-frm-donpolloloco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poke_frm_donpolloloco-1.0.0.tar.gz tmp/poke_frm_donpolloloco-1.0.1.tar.gz --markdown 20240426/p/poke-frm-donpolloloco/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-26 04:31:45] INFO root fetch - processPackages [cxalio-studio-tools]: Downloading https://files.pythonhosted.org/packages/5f/60/7546855a4e4518c7a60abf77232acb51e6676a848ca8560770cfd4bdfa6a/cxalio_studio_tools-0.1.7.tar.gz
+[2024-04-26 04:31:45] INFO root fetch - processPackages [cxalio-studio-tools]: executing diffoscope
+[2024-04-26 04:31:45] INFO root fetch - processPackages [cxalio-studio-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cxalio_studio_tools-0.1.6.tar.gz tmp/cxalio_studio_tools-0.1.7.tar.gz --markdown 20240426/c/cxalio-studio-tools/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-04-26 04:31:45] INFO root fetch - processPackages [poke-frm-donpolloloco]: Remove: archive file [/home/abi/fetcher/tmp/poke_frm_donpolloloco-1.0.0.tar.gz]
+[2024-04-26 04:31:45] INFO root fetch - processPackages [poke-frm-donpolloloco]: Remove: archive file [/home/abi/fetcher/tmp/poke_frm_donpolloloco-1.0.1.tar.gz]
+[2024-04-26 04:31:45] INFO root fetch - main [MainThread]: End processing [poke-frm-donpolloloco]: success
+[2024-04-26 04:31:46] INFO root fetch - processPackages [cxalio-studio-tools]: Remove: archive file [/home/abi/fetcher/tmp/cxalio_studio_tools-0.1.6.tar.gz]
+[2024-04-26 04:31:46] INFO root fetch - processPackages [cxalio-studio-tools]: Remove: archive file [/home/abi/fetcher/tmp/cxalio_studio_tools-0.1.7.tar.gz]
+[2024-04-26 04:31:46] INFO root fetch - main [MainThread]: End processing [cxalio-studio-tools]: success
+[2024-04-26 04:31:46] INFO root fetch - main [MainThread]: Store serial: [22941964]
