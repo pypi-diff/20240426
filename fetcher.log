@@ -22360,3 +22360,60 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 16:00:34] INFO root fetch - processPackages [ccf]: Remove: archive file [/home/abi/fetcher/tmp/ccf-5.0.0.dev9-py3-none-any.whl.zip]
 [2024-04-26 16:00:34] INFO root fetch - main [MainThread]: End processing [ccf]: success
 [2024-04-26 16:00:34] INFO root fetch - main [MainThread]: Store serial: [22948405]
+[2024-04-26 16:02:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22948405]
+[2024-04-26 16:02:43] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-26 16:02:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ccf
+[2024-04-26 16:02:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rad
+[2024-04-26 16:02:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: few-shot-priming
+[2024-04-26 16:02:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: langchain_zhipu
+[2024-04-26 16:02:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jsx
+[2024-04-26 16:02:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hnt-nf-jira-library
+[2024-04-26 16:02:43] INFO root fetch - processPackages [ccf]: New version: [5.0.0.dev9] Old Version: [5.0.0.dev8]
+[2024-04-26 16:02:43] INFO root fetch - processPackages [hnt-nf-jira-library]: New version: [0.4.3] Old Version: [0.4.2]
+[2024-04-26 16:02:43] INFO root fetch - processPackages [few-shot-priming]: New version: [0.3.99] Old Version: [0.3.98]
+[2024-04-26 16:02:43] INFO root fetch - processPackages [jsx]: New version: [0.6.5] Old Version: [0.6.4]
+[2024-04-26 16:02:43] INFO root fetch - processPackages [ccf]: Downloading https://files.pythonhosted.org/packages/a1/70/e658fd72f0e833434c29a9b5a16aa4e8c730464daafc4e1ad56781eb9071/ccf-5.0.0.dev8-py3-none-any.whl
+[2024-04-26 16:02:43] INFO root fetch - processPackages [hnt-nf-jira-library]: Downloading https://files.pythonhosted.org/packages/7c/30/a8dec021e3966127c758b7b1f34e2e8eda5c80aabab230a8af6e1736d1bd/hnt_nf_jira_library-0.4.2.tar.gz
+[2024-04-26 16:02:43] INFO root fetch - processPackages [langchain_zhipu]: New version: [4.1.3] Old Version: [4.1.2]
+[2024-04-26 16:02:43] INFO root fetch - processPackages [rad]: New version: [0.19.3] Old Version: [0.19.2]
+[2024-04-26 16:02:43] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/eb/67/d15b11d0bfb57369fa16ba7f8c97cd3ddec8f771e6da8f11a3d819004b69/few_shot_priming-0.3.98-py3-none-any.whl
+[2024-04-26 16:02:43] INFO root fetch - processPackages [jsx]: Downloading https://files.pythonhosted.org/packages/09/15/a6460cc55f5b53c1f0a31f317b0f3b6c67f4f712151da190cf804c60f7d8/jsx-0.6.4.tar.gz
+[2024-04-26 16:02:43] INFO root fetch - processPackages [langchain_zhipu]: Downloading https://files.pythonhosted.org/packages/d5/b6/69e74017d78e1fd61385d2a1fe0e2d580f1078948deb24ae4f08c6429654/langchain_zhipu-4.1.2.tar.gz
+[2024-04-26 16:02:43] INFO root fetch - processPackages [ccf]: Downloading https://files.pythonhosted.org/packages/b4/37/f3e82e97a61b06326407f98b9753fbc669d87d6bccca3eb859d08078f1f9/ccf-5.0.0.dev9-py3-none-any.whl
+[2024-04-26 16:02:43] INFO root fetch - processPackages [rad]: Downloading https://files.pythonhosted.org/packages/76/39/9a0daad467eefd8c0e290ed2555b75fc8bd5c392e8b163e2a231029ce488/rad-0.19.2.tar.gz
+[2024-04-26 16:02:43] INFO root fetch - processPackages [hnt-nf-jira-library]: Downloading https://files.pythonhosted.org/packages/fd/d5/db7f0bea582eed3f21395b4d28fcfad408a7760e9c55ec2b867ac83fdab5/hnt_nf_jira_library-0.4.3.tar.gz
+[2024-04-26 16:02:43] INFO root fetch - processPackages [ccf]: executing diffoscope
+[2024-04-26 16:02:43] INFO root fetch - processPackages [ccf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccf-5.0.0.dev8-py3-none-any.whl.zip tmp/ccf-5.0.0.dev9-py3-none-any.whl.zip --markdown 20240426/c/ccf/5.0.0.dev8-5.0.0.dev9/README.md --exclude *.pyd
+[2024-04-26 16:02:43] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/ff/11/548f6e96803602e6431dc610d736d401b20fde986f85c35c8ad19a6d0958/few_shot_priming-0.3.99-py3-none-any.whl
+[2024-04-26 16:02:43] INFO root fetch - processPackages [hnt-nf-jira-library]: executing diffoscope
+[2024-04-26 16:02:43] INFO root fetch - processPackages [hnt-nf-jira-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hnt_nf_jira_library-0.4.2.tar.gz tmp/hnt_nf_jira_library-0.4.3.tar.gz --markdown 20240426/h/hnt-nf-jira-library/0.4.2-0.4.3/README.md --exclude *.pyd
+[2024-04-26 16:02:43] INFO root fetch - processPackages [langchain_zhipu]: Downloading https://files.pythonhosted.org/packages/a1/9e/983622959baa152d96acd1b2f4809c85368b2c8402077ae87146907fa687/langchain_zhipu-4.1.3.tar.gz
+[2024-04-26 16:02:43] INFO root fetch - processPackages [jsx]: Downloading https://files.pythonhosted.org/packages/51/d8/aadc9598d01cf432aaf682daf5d88bf70fee4db3887878dcd99113d3fcc2/jsx-0.6.5.tar.gz
+[2024-04-26 16:02:43] INFO root fetch - processPackages [rad]: Downloading https://files.pythonhosted.org/packages/20/c3/dfec2d9434bae7592d208d6d5bdc5dbba628e8570ac4e31e053463c21713/rad-0.19.3.tar.gz
+[2024-04-26 16:02:43] INFO root fetch - processPackages [langchain_zhipu]: executing diffoscope
+[2024-04-26 16:02:43] INFO root fetch - processPackages [langchain_zhipu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_zhipu-4.1.2.tar.gz tmp/langchain_zhipu-4.1.3.tar.gz --markdown 20240426/l/langchain_zhipu/4.1.2-4.1.3/README.md --exclude *.pyd
+[2024-04-26 16:02:44] INFO root fetch - processPackages [rad]: executing diffoscope
+[2024-04-26 16:02:44] INFO root fetch - processPackages [rad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rad-0.19.2.tar.gz tmp/rad-0.19.3.tar.gz --markdown 20240426/r/rad/0.19.2-0.19.3/README.md --exclude *.pyd
+[2024-04-26 16:02:44] INFO root fetch - processPackages [jsx]: executing diffoscope
+[2024-04-26 16:02:44] INFO root fetch - processPackages [jsx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsx-0.6.4.tar.gz tmp/jsx-0.6.5.tar.gz --markdown 20240426/j/jsx/0.6.4-0.6.5/README.md --exclude *.pyd
+[2024-04-26 16:02:44] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2024-04-26 16:02:44] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip --markdown 20240426/f/few-shot-priming/0.3.98-0.3.99/README.md --exclude *.pyd
+[2024-04-26 16:02:44] INFO root fetch - processPackages [hnt-nf-jira-library]: Remove: archive file [/home/abi/fetcher/tmp/hnt_nf_jira_library-0.4.2.tar.gz]
+[2024-04-26 16:02:44] INFO root fetch - processPackages [hnt-nf-jira-library]: Remove: archive file [/home/abi/fetcher/tmp/hnt_nf_jira_library-0.4.3.tar.gz]
+[2024-04-26 16:02:44] INFO root fetch - main [MainThread]: End processing [hnt-nf-jira-library]: success
+[2024-04-26 16:02:44] INFO root fetch - processPackages [ccf]: Remove: archive file [/home/abi/fetcher/tmp/ccf-5.0.0.dev8-py3-none-any.whl.zip]
+[2024-04-26 16:02:44] INFO root fetch - processPackages [ccf]: Remove: archive file [/home/abi/fetcher/tmp/ccf-5.0.0.dev9-py3-none-any.whl.zip]
+[2024-04-26 16:02:44] INFO root fetch - main [MainThread]: End processing [ccf]: success
+[2024-04-26 16:02:44] INFO root fetch - processPackages [langchain_zhipu]: Remove: archive file [/home/abi/fetcher/tmp/langchain_zhipu-4.1.2.tar.gz]
+[2024-04-26 16:02:44] INFO root fetch - processPackages [langchain_zhipu]: Remove: archive file [/home/abi/fetcher/tmp/langchain_zhipu-4.1.3.tar.gz]
+[2024-04-26 16:02:44] INFO root fetch - main [MainThread]: End processing [langchain_zhipu]: success
+[2024-04-26 16:02:44] INFO root fetch - processPackages [jsx]: Remove: archive file [/home/abi/fetcher/tmp/jsx-0.6.4.tar.gz]
+[2024-04-26 16:02:44] INFO root fetch - processPackages [jsx]: Remove: archive file [/home/abi/fetcher/tmp/jsx-0.6.5.tar.gz]
+[2024-04-26 16:02:44] INFO root fetch - main [MainThread]: End processing [jsx]: success
+[2024-04-26 16:02:45] INFO root fetch - processPackages [rad]: Remove: archive file [/home/abi/fetcher/tmp/rad-0.19.2.tar.gz]
+[2024-04-26 16:02:45] INFO root fetch - processPackages [rad]: Remove: archive file [/home/abi/fetcher/tmp/rad-0.19.3.tar.gz]
+[2024-04-26 16:02:45] INFO root fetch - main [MainThread]: End processing [rad]: success
+[2024-04-26 16:02:45] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip]
+[2024-04-26 16:02:45] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip]
+[2024-04-26 16:02:45] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2024-04-26 16:02:45] INFO root fetch - main [MainThread]: Store serial: [22948421]
