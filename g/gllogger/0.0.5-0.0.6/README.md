@@ -1,0 +1,463 @@
+# Comparing `tmp/gllogger-0.0.5.tar.gz` & `tmp/gllogger-0.0.6.tar.gz`
+
+## filetype from file(1)
+
+```diff
+@@ -1 +1 @@
+-gzip compressed data, was "gllogger-0.0.5.tar", last modified: Fri Apr 26 10:47:30 2024, max compression
++gzip compressed data, was "gllogger-0.0.6.tar", last modified: Fri Apr 26 11:39:23 2024, max compression
+```
+
+## Comparing `gllogger-0.0.5.tar` & `gllogger-0.0.6.tar`
+
+### file list
+
+```diff
+@@ -1,15 +1,15 @@
+-drwxr-xr-x   0 runner    (1001) docker     (127)        0 2024-04-26 10:47:30.651988 gllogger-0.0.5/
+--rw-r--r--   0 runner    (1001) docker     (127)     1691 2024-04-26 10:47:30.651988 gllogger-0.0.5/PKG-INFO
+--rw-r--r--   0 runner    (1001) docker     (127)     1253 2024-04-26 10:47:26.000000 gllogger-0.0.5/README.md
+--rw-r--r--   0 runner    (1001) docker     (127)      501 2024-04-26 10:47:26.000000 gllogger-0.0.5/pyproject.toml
+--rw-r--r--   0 runner    (1001) docker     (127)       38 2024-04-26 10:47:30.651988 gllogger-0.0.5/setup.cfg
+-drwxr-xr-x   0 runner    (1001) docker     (127)        0 2024-04-26 10:47:30.647988 gllogger-0.0.5/src/
+-drwxr-xr-x   0 runner    (1001) docker     (127)        0 2024-04-26 10:47:30.651988 gllogger-0.0.5/src/gllogger.egg-info/
+--rw-r--r--   0 runner    (1001) docker     (127)     1691 2024-04-26 10:47:30.000000 gllogger-0.0.5/src/gllogger.egg-info/PKG-INFO
+--rw-r--r--   0 runner    (1001) docker     (127)      232 2024-04-26 10:47:30.000000 gllogger-0.0.5/src/gllogger.egg-info/SOURCES.txt
+--rw-r--r--   0 runner    (1001) docker     (127)        1 2024-04-26 10:47:30.000000 gllogger-0.0.5/src/gllogger.egg-info/dependency_links.txt
+--rw-r--r--   0 runner    (1001) docker     (127)       18 2024-04-26 10:47:30.000000 gllogger-0.0.5/src/gllogger.egg-info/requires.txt
+--rw-r--r--   0 runner    (1001) docker     (127)        9 2024-04-26 10:47:30.000000 gllogger-0.0.5/src/gllogger.egg-info/top_level.txt
+--rw-r--r--   0 runner    (1001) docker     (127)    19750 2024-04-26 10:47:26.000000 gllogger-0.0.5/src/gllogger.py
+-drwxr-xr-x   0 runner    (1001) docker     (127)        0 2024-04-26 10:47:30.647988 gllogger-0.0.5/test/
+--rw-r--r--   0 runner    (1001) docker     (127)      894 2024-04-26 10:47:26.000000 gllogger-0.0.5/test/test.py
++drwxr-xr-x   0 runner    (1001) docker     (127)        0 2024-04-26 11:39:23.162022 gllogger-0.0.6/
++-rw-r--r--   0 runner    (1001) docker     (127)     1798 2024-04-26 11:39:23.162022 gllogger-0.0.6/PKG-INFO
++-rw-r--r--   0 runner    (1001) docker     (127)     1360 2024-04-26 11:39:18.000000 gllogger-0.0.6/README.md
++-rw-r--r--   0 runner    (1001) docker     (127)      501 2024-04-26 11:39:18.000000 gllogger-0.0.6/pyproject.toml
++-rw-r--r--   0 runner    (1001) docker     (127)       38 2024-04-26 11:39:23.162022 gllogger-0.0.6/setup.cfg
++drwxr-xr-x   0 runner    (1001) docker     (127)        0 2024-04-26 11:39:23.162022 gllogger-0.0.6/src/
++drwxr-xr-x   0 runner    (1001) docker     (127)        0 2024-04-26 11:39:23.162022 gllogger-0.0.6/src/gllogger.egg-info/
++-rw-r--r--   0 runner    (1001) docker     (127)     1798 2024-04-26 11:39:23.000000 gllogger-0.0.6/src/gllogger.egg-info/PKG-INFO
++-rw-r--r--   0 runner    (1001) docker     (127)      232 2024-04-26 11:39:23.000000 gllogger-0.0.6/src/gllogger.egg-info/SOURCES.txt
++-rw-r--r--   0 runner    (1001) docker     (127)        1 2024-04-26 11:39:23.000000 gllogger-0.0.6/src/gllogger.egg-info/dependency_links.txt
++-rw-r--r--   0 runner    (1001) docker     (127)       18 2024-04-26 11:39:23.000000 gllogger-0.0.6/src/gllogger.egg-info/requires.txt
++-rw-r--r--   0 runner    (1001) docker     (127)        9 2024-04-26 11:39:23.000000 gllogger-0.0.6/src/gllogger.egg-info/top_level.txt
++-rw-r--r--   0 runner    (1001) docker     (127)    20134 2024-04-26 11:39:18.000000 gllogger-0.0.6/src/gllogger.py
++drwxr-xr-x   0 runner    (1001) docker     (127)        0 2024-04-26 11:39:23.162022 gllogger-0.0.6/test/
++-rw-r--r--   0 runner    (1001) docker     (127)       62 2024-04-26 11:39:18.000000 gllogger-0.0.6/test/test.py
+```
+
+### Comparing `gllogger-0.0.5/PKG-INFO` & `gllogger-0.0.6/PKG-INFO`
+
+ * *Files 10% similar despite different names*
+
+```diff
+@@ -1,44 +1,45 @@
+ Metadata-Version: 2.1
+ Name: gllogger
+-Version: 0.0.5
++Version: 0.0.6
+ Summary: gllogger
+ Author-email: calm51 <calm51@protonmail.com>
+ Project-URL: Homepage, https://github.com/calm510/gllogger
+ Project-URL: Issues, https://github.com/calm510/gllogger/issues
+ Keywords: logger,global logger,logger hook,easy logger
+ Classifier: Programming Language :: Python :: 3
+ Requires-Python: >=3.6
+ Description-Content-Type: text/markdown
+ Requires-Dist: better_exceptions
+ 
+ ```python3
+ # NOTE: You should import gllogger before executing any other code.
+ from gllogger import gL
+ 
+-gL.getLogger(__name__)
+ gL.setGlobalLevel(logging.DEBUG)
++if gL.getLogger(__name__).name == "__main__":
++    gL.setLoggerClass()
+ 
+ ...
+ ```
+ 
+ ```python3
+ # You can log into the console,
+-gL.init(gL.OT_console)
++gL.getLogger(__name__).init(gL.OT_console)
+ 
+ # or you can pass logs into a function,
+ def gL_function(text):
+     print(text)
+ gL.setFunction(gL_function)
+-gL.init(gL.OT_function)
++gL.getLogger(__name__).init(gL.OT_function)
+ 
+ # or you can write logs to files.
+ import os
+ gL.setLogDir(os.path.join(os.getcwd(), "log", ))
+-gL.init(gL.OT_logging)
++gL.getLogger(__name__).init(gL.OT_logging)
+ 
+ 
+ # Then, use the following function anywhere to log.
+ gL.debugs("a", 1, True, )
+ gL.infos()
+ gL.warns()
+ gL.errors()
+```
+
+### Comparing `gllogger-0.0.5/README.md` & `gllogger-0.0.6/README.md`
+
+ * *Files 12% similar despite different names*
+
+```diff
+@@ -1,79 +1,85 @@
+ 00000000: 6060 6070 7974 686f 6e33 0a23 204e 4f54  ```python3.# NOT
+ 00000010: 453a 2059 6f75 2073 686f 756c 6420 696d  E: You should im
+ 00000020: 706f 7274 2067 6c6c 6f67 6765 7220 6265  port gllogger be
+ 00000030: 666f 7265 2065 7865 6375 7469 6e67 2061  fore executing a
+ 00000040: 6e79 206f 7468 6572 2063 6f64 652e 0a66  ny other code..f
+ 00000050: 726f 6d20 676c 6c6f 6767 6572 2069 6d70  rom gllogger imp
+-00000060: 6f72 7420 674c 0a0a 674c 2e67 6574 4c6f  ort gL..gL.getLo
+-00000070: 6767 6572 285f 5f6e 616d 655f 5f29 0a67  gger(__name__).g
+-00000080: 4c2e 7365 7447 6c6f 6261 6c4c 6576 656c  L.setGlobalLevel
+-00000090: 286c 6f67 6769 6e67 2e44 4542 5547 290a  (logging.DEBUG).
+-000000a0: 0a2e 2e2e 0a60 6060 0a0a 6060 6070 7974  .....```..```pyt
+-000000b0: 686f 6e33 0a23 2059 6f75 2063 616e 206c  hon3.# You can l
+-000000c0: 6f67 2069 6e74 6f20 7468 6520 636f 6e73  og into the cons
+-000000d0: 6f6c 652c 0a67 4c2e 696e 6974 2867 4c2e  ole,.gL.init(gL.
+-000000e0: 4f54 5f63 6f6e 736f 6c65 290a 0a23 206f  OT_console)..# o
+-000000f0: 7220 796f 7520 6361 6e20 7061 7373 206c  r you can pass l
+-00000100: 6f67 7320 696e 746f 2061 2066 756e 6374  ogs into a funct
+-00000110: 696f 6e2c 0a64 6566 2067 4c5f 6675 6e63  ion,.def gL_func
+-00000120: 7469 6f6e 2874 6578 7429 3a0a 2020 2020  tion(text):.    
+-00000130: 7072 696e 7428 7465 7874 290a 674c 2e73  print(text).gL.s
+-00000140: 6574 4675 6e63 7469 6f6e 2867 4c5f 6675  etFunction(gL_fu
+-00000150: 6e63 7469 6f6e 290a 674c 2e69 6e69 7428  nction).gL.init(
+-00000160: 674c 2e4f 545f 6675 6e63 7469 6f6e 290a  gL.OT_function).
+-00000170: 0a23 206f 7220 796f 7520 6361 6e20 7772  .# or you can wr
+-00000180: 6974 6520 6c6f 6773 2074 6f20 6669 6c65  ite logs to file
+-00000190: 732e 0a69 6d70 6f72 7420 6f73 0a67 4c2e  s..import os.gL.
+-000001a0: 7365 744c 6f67 4469 7228 6f73 2e70 6174  setLogDir(os.pat
+-000001b0: 682e 6a6f 696e 286f 732e 6765 7463 7764  h.join(os.getcwd
+-000001c0: 2829 2c20 226c 6f67 222c 2029 290a 674c  (), "log", )).gL
+-000001d0: 2e69 6e69 7428 674c 2e4f 545f 6c6f 6767  .init(gL.OT_logg
+-000001e0: 696e 6729 0a0a 0a23 2054 6865 6e2c 2075  ing)...# Then, u
+-000001f0: 7365 2074 6865 2066 6f6c 6c6f 7769 6e67  se the following
+-00000200: 2066 756e 6374 696f 6e20 616e 7977 6865   function anywhe
+-00000210: 7265 2074 6f20 6c6f 672e 0a67 4c2e 6465  re to log..gL.de
+-00000220: 6275 6773 2822 6122 2c20 312c 2054 7275  bugs("a", 1, Tru
+-00000230: 652c 2029 0a67 4c2e 696e 666f 7328 290a  e, ).gL.infos().
+-00000240: 674c 2e77 6172 6e73 2829 0a67 4c2e 6572  gL.warns().gL.er
+-00000250: 726f 7273 2829 0a0a 2222 220a 5b44 4542  rors()..""".[DEB
+-00000260: 5547 2030 303a 3030 3a30 3020 6d61 696e  UG 00:00:00 main
+-00000270: 5b31 355d 2e3c 6d6f 6475 6c65 3e5d 2061  [15].<module>] a
+-00000280: 2031 2054 7275 650a 2222 220a 0a60 6060   1 True."""..```
+-00000290: 0a0a 6060 6070 7974 686f 6e33 0a23 2059  ..```python3.# Y
+-000002a0: 6f75 2063 616e 2075 7365 2027 674c 2845  ou can use 'gL(E
+-000002b0: 7863 6570 7469 6f6e 2927 2074 6f20 656e  xception)' to en
+-000002c0: 6162 6c65 206c 6f67 6769 6e67 206f 6620  able logging of 
+-000002d0: 636f 6d70 6c65 7465 2065 7863 6570 7469  complete excepti
+-000002e0: 6f6e 2074 7261 6365 6261 636b 732c 0a23  on tracebacks,.#
+-000002f0: 2061 6e64 2069 6620 796f 7520 6861 7665   and if you have
+-00000300: 2027 6265 7474 6572 5f65 7863 6570 7469   'better_excepti
+-00000310: 6f6e 7327 2069 6e73 7461 6c6c 6564 2c20  ons' installed, 
+-00000320: 7468 6520 7472 6163 6562 6163 6b73 2077  the tracebacks w
+-00000330: 696c 6c20 6265 2065 7665 6e20 6d6f 7265  ill be even more
+-00000340: 2064 6574 6169 6c65 642e 0a23 2024 2070   detailed..# $ p
+-00000350: 6970 2069 6e73 7461 6c6c 2062 6574 7465  ip install bette
+-00000360: 725f 6578 6365 7074 696f 6e73 0a0a 7472  r_exceptions..tr
+-00000370: 793a 0a20 2020 2064 6566 2066 2861 2c20  y:.    def f(a, 
+-00000380: 6229 3a0a 2020 2020 2020 2020 7265 7475  b):.        retu
+-00000390: 726e 2061 202f 2062 0a20 2020 2066 2831  rn a / b.    f(1
+-000003a0: 2c20 3029 0a65 7863 6570 7420 5a65 726f  , 0).except Zero
+-000003b0: 4469 7669 7369 6f6e 4572 726f 7220 6173  DivisionError as
+-000003c0: 2065 3a0a 2020 2020 674c 2e77 6172 6e73   e:.    gL.warns
+-000003d0: 2867 4c28 6529 290a 0a22 2222 0a5b 5741  (gL(e))..""".[WA
+-000003e0: 524e 494e 4720 3030 3a30 303a 3030 206d  RNING 00:00:00 m
+-000003f0: 6169 6e5b 3130 5d2e 3c6d 6f64 756c 653e  ain[10].<module>
+-00000400: 5d20 5472 6163 6562 6163 6b20 286d 6f73  ] Traceback (mos
+-00000410: 7420 7265 6365 6e74 2063 616c 6c20 6c61  t recent call la
+-00000420: 7374 293a 0a20 2046 696c 6520 222f 746d  st):.  File "/tm
+-00000430: 702f 6d61 696e 2e70 7922 2c20 6c69 6e65  p/main.py", line
+-00000440: 2038 2c20 696e 203c 6d6f 6475 6c65 3e0a   8, in <module>.
+-00000450: 2020 2020 6628 312c 2030 290a 2020 2020      f(1, 0).    
+-00000460: e294 9420 3c66 756e 6374 696f 6e20 6620  ... <function f 
+-00000470: 6174 2030 7830 3445 3236 3441 383e 0a20  at 0x04E264A8>. 
+-00000480: 2046 696c 6520 222f 746d 702f 6d61 696e   File "/tmp/main
+-00000490: 2e70 7922 2c20 6c69 6e65 2036 2c20 696e  .py", line 6, in
+-000004a0: 2066 0a20 2020 2072 6574 7572 6e20 6120   f.    return a 
+-000004b0: 2f20 620a 2020 2020 2020 2020 2020 20e2  / b.           .
+-000004c0: 9482 2020 20e2 9494 2030 0a20 2020 2020  ..   ... 0.     
+-000004d0: 2020 2020 2020 e294 9420 310a 2222 220a        ... 1.""".
+-000004e0: 0a60 6060 0a                             .```.
++00000060: 6f72 7420 674c 0a0a 674c 2e73 6574 476c  ort gL..gL.setGl
++00000070: 6f62 616c 4c65 7665 6c28 6c6f 6767 696e  obalLevel(loggin
++00000080: 672e 4445 4255 4729 0a69 6620 674c 2e67  g.DEBUG).if gL.g
++00000090: 6574 4c6f 6767 6572 285f 5f6e 616d 655f  etLogger(__name_
++000000a0: 5f29 2e6e 616d 6520 3d3d 2022 5f5f 6d61  _).name == "__ma
++000000b0: 696e 5f5f 223a 0a20 2020 2067 4c2e 7365  in__":.    gL.se
++000000c0: 744c 6f67 6765 7243 6c61 7373 2829 0a0a  tLoggerClass()..
++000000d0: 2e2e 2e0a 6060 600a 0a60 6060 7079 7468  ....```..```pyth
++000000e0: 6f6e 330a 2320 596f 7520 6361 6e20 6c6f  on3.# You can lo
++000000f0: 6720 696e 746f 2074 6865 2063 6f6e 736f  g into the conso
++00000100: 6c65 2c0a 674c 2e67 6574 4c6f 6767 6572  le,.gL.getLogger
++00000110: 285f 5f6e 616d 655f 5f29 2e69 6e69 7428  (__name__).init(
++00000120: 674c 2e4f 545f 636f 6e73 6f6c 6529 0a0a  gL.OT_console)..
++00000130: 2320 6f72 2079 6f75 2063 616e 2070 6173  # or you can pas
++00000140: 7320 6c6f 6773 2069 6e74 6f20 6120 6675  s logs into a fu
++00000150: 6e63 7469 6f6e 2c0a 6465 6620 674c 5f66  nction,.def gL_f
++00000160: 756e 6374 696f 6e28 7465 7874 293a 0a20  unction(text):. 
++00000170: 2020 2070 7269 6e74 2874 6578 7429 0a67     print(text).g
++00000180: 4c2e 7365 7446 756e 6374 696f 6e28 674c  L.setFunction(gL
++00000190: 5f66 756e 6374 696f 6e29 0a67 4c2e 6765  _function).gL.ge
++000001a0: 744c 6f67 6765 7228 5f5f 6e61 6d65 5f5f  tLogger(__name__
++000001b0: 292e 696e 6974 2867 4c2e 4f54 5f66 756e  ).init(gL.OT_fun
++000001c0: 6374 696f 6e29 0a0a 2320 6f72 2079 6f75  ction)..# or you
++000001d0: 2063 616e 2077 7269 7465 206c 6f67 7320   can write logs 
++000001e0: 746f 2066 696c 6573 2e0a 696d 706f 7274  to files..import
++000001f0: 206f 730a 674c 2e73 6574 4c6f 6744 6972   os.gL.setLogDir
++00000200: 286f 732e 7061 7468 2e6a 6f69 6e28 6f73  (os.path.join(os
++00000210: 2e67 6574 6377 6428 292c 2022 6c6f 6722  .getcwd(), "log"
++00000220: 2c20 2929 0a67 4c2e 6765 744c 6f67 6765  , )).gL.getLogge
++00000230: 7228 5f5f 6e61 6d65 5f5f 292e 696e 6974  r(__name__).init
++00000240: 2867 4c2e 4f54 5f6c 6f67 6769 6e67 290a  (gL.OT_logging).
++00000250: 0a0a 2320 5468 656e 2c20 7573 6520 7468  ..# Then, use th
++00000260: 6520 666f 6c6c 6f77 696e 6720 6675 6e63  e following func
++00000270: 7469 6f6e 2061 6e79 7768 6572 6520 746f  tion anywhere to
++00000280: 206c 6f67 2e0a 674c 2e64 6562 7567 7328   log..gL.debugs(
++00000290: 2261 222c 2031 2c20 5472 7565 2c20 290a  "a", 1, True, ).
++000002a0: 674c 2e69 6e66 6f73 2829 0a67 4c2e 7761  gL.infos().gL.wa
++000002b0: 726e 7328 290a 674c 2e65 7272 6f72 7328  rns().gL.errors(
++000002c0: 290a 0a22 2222 0a5b 4445 4255 4720 3030  )..""".[DEBUG 00
++000002d0: 3a30 303a 3030 206d 6169 6e5b 3135 5d2e  :00:00 main[15].
++000002e0: 3c6d 6f64 756c 653e 5d20 6120 3120 5472  <module>] a 1 Tr
++000002f0: 7565 0a22 2222 0a0a 6060 600a 0a60 6060  ue."""..```..```
++00000300: 7079 7468 6f6e 330a 2320 596f 7520 6361  python3.# You ca
++00000310: 6e20 7573 6520 2767 4c28 4578 6365 7074  n use 'gL(Except
++00000320: 696f 6e29 2720 746f 2065 6e61 626c 6520  ion)' to enable 
++00000330: 6c6f 6767 696e 6720 6f66 2063 6f6d 706c  logging of compl
++00000340: 6574 6520 6578 6365 7074 696f 6e20 7472  ete exception tr
++00000350: 6163 6562 6163 6b73 2c0a 2320 616e 6420  acebacks,.# and 
++00000360: 6966 2079 6f75 2068 6176 6520 2762 6574  if you have 'bet
++00000370: 7465 725f 6578 6365 7074 696f 6e73 2720  ter_exceptions' 
++00000380: 696e 7374 616c 6c65 642c 2074 6865 2074  installed, the t
++00000390: 7261 6365 6261 636b 7320 7769 6c6c 2062  racebacks will b
++000003a0: 6520 6576 656e 206d 6f72 6520 6465 7461  e even more deta
++000003b0: 696c 6564 2e0a 2320 2420 7069 7020 696e  iled..# $ pip in
++000003c0: 7374 616c 6c20 6265 7474 6572 5f65 7863  stall better_exc
++000003d0: 6570 7469 6f6e 730a 0a74 7279 3a0a 2020  eptions..try:.  
++000003e0: 2020 6465 6620 6628 612c 2062 293a 0a20    def f(a, b):. 
++000003f0: 2020 2020 2020 2072 6574 7572 6e20 6120         return a 
++00000400: 2f20 620a 2020 2020 6628 312c 2030 290a  / b.    f(1, 0).
++00000410: 6578 6365 7074 205a 6572 6f44 6976 6973  except ZeroDivis
++00000420: 696f 6e45 7272 6f72 2061 7320 653a 0a20  ionError as e:. 
++00000430: 2020 2067 4c2e 7761 726e 7328 674c 2865     gL.warns(gL(e
++00000440: 2929 0a0a 2222 220a 5b57 4152 4e49 4e47  ))..""".[WARNING
++00000450: 2030 303a 3030 3a30 3020 6d61 696e 5b31   00:00:00 main[1
++00000460: 305d 2e3c 6d6f 6475 6c65 3e5d 2054 7261  0].<module>] Tra
++00000470: 6365 6261 636b 2028 6d6f 7374 2072 6563  ceback (most rec
++00000480: 656e 7420 6361 6c6c 206c 6173 7429 3a0a  ent call last):.
++00000490: 2020 4669 6c65 2022 2f74 6d70 2f6d 6169    File "/tmp/mai
++000004a0: 6e2e 7079 222c 206c 696e 6520 382c 2069  n.py", line 8, i
++000004b0: 6e20 3c6d 6f64 756c 653e 0a20 2020 2066  n <module>.    f
++000004c0: 2831 2c20 3029 0a20 2020 20e2 9494 203c  (1, 0).    ... <
++000004d0: 6675 6e63 7469 6f6e 2066 2061 7420 3078  function f at 0x
++000004e0: 3034 4532 3634 4138 3e0a 2020 4669 6c65  04E264A8>.  File
++000004f0: 2022 2f74 6d70 2f6d 6169 6e2e 7079 222c   "/tmp/main.py",
++00000500: 206c 696e 6520 362c 2069 6e20 660a 2020   line 6, in f.  
++00000510: 2020 7265 7475 726e 2061 202f 2062 0a20    return a / b. 
++00000520: 2020 2020 2020 2020 2020 e294 8220 2020            ...   
++00000530: e294 9420 300a 2020 2020 2020 2020 2020  ... 0.          
++00000540: 20e2 9494 2031 0a22 2222 0a0a 6060 600a   ... 1."""..```.
+```
+
+### Comparing `gllogger-0.0.5/src/gllogger.egg-info/PKG-INFO` & `gllogger-0.0.6/src/gllogger.egg-info/PKG-INFO`
+
+ * *Files 10% similar despite different names*
+
+```diff
+@@ -1,44 +1,45 @@
+ Metadata-Version: 2.1
+ Name: gllogger
+-Version: 0.0.5
++Version: 0.0.6
+ Summary: gllogger
+ Author-email: calm51 <calm51@protonmail.com>
+ Project-URL: Homepage, https://github.com/calm510/gllogger
+ Project-URL: Issues, https://github.com/calm510/gllogger/issues
+ Keywords: logger,global logger,logger hook,easy logger
+ Classifier: Programming Language :: Python :: 3
+ Requires-Python: >=3.6
+ Description-Content-Type: text/markdown
+ Requires-Dist: better_exceptions
+ 
+ ```python3
+ # NOTE: You should import gllogger before executing any other code.
+ from gllogger import gL
+ 
+-gL.getLogger(__name__)
+ gL.setGlobalLevel(logging.DEBUG)
++if gL.getLogger(__name__).name == "__main__":
++    gL.setLoggerClass()
+ 
+ ...
+ ```
+ 
+ ```python3
+ # You can log into the console,
+-gL.init(gL.OT_console)
++gL.getLogger(__name__).init(gL.OT_console)
+ 
+ # or you can pass logs into a function,
+ def gL_function(text):
+     print(text)
+ gL.setFunction(gL_function)
+-gL.init(gL.OT_function)
++gL.getLogger(__name__).init(gL.OT_function)
+ 
+ # or you can write logs to files.
+ import os
+ gL.setLogDir(os.path.join(os.getcwd(), "log", ))
+-gL.init(gL.OT_logging)
++gL.getLogger(__name__).init(gL.OT_logging)
+ 
+ 
+ # Then, use the following function anywhere to log.
+ gL.debugs("a", 1, True, )
+ gL.infos()
+ gL.warns()
+ gL.errors()
+```
+
+### Comparing `gllogger-0.0.5/src/gllogger.py` & `gllogger-0.0.6/src/gllogger.py`
+
+ * *Files 1% similar despite different names*
+
+```diff
+@@ -1,22 +1,23 @@
+ """
+ from gllogger import gL
+ 
+-gL.getLogger(__name__)
+ gL.setGlobalLevel(logging.DEBUG)
++if gL.getLogger(__name__).name == "__main__":
++    gL.setLoggerClass()
+ 
+-gL.init(gL.OT_console)
++gL.getLogger(__name__).init(gL.OT_console)
+ 
+ def gL_function(text):
+     print(text)
+ gL.setFunction(gL_function)
+-gL.init(gL.OT_function)
++gL.getLogger(__name__).init(gL.OT_function)
+ 
+ gL.setLogDir(os.path.join(os.getcwd(), "log", ))
+-gL.init(gL.OT_logging)
++gL.getLogger(__name__).init(gL.OT_logging)
+ 
+ gL.debugs("a", 1, True, )
+ gL.infos()
+ gL.warns()
+ gL.errors()
+ 
+ # pip install better_exceptions==0.3.3
+@@ -140,14 +141,15 @@
+         self.log_file_path = None
+         self.log_file_fp = None
+         self.log_handler = None
+ 
+     def init(self, output):
+         if output not in (self.OT_console, self.OT_function, self.OT_logging,):
+             raise ValueError(f'parameter "output" cannot be {output}.')
++        if self.name != "__main__": return
+         self.output = output
+         self.log_start_time = time.time()
+         self.log_file_path = os.path.join(self.log_dir_path, time.strftime("%Y-%m-%d_%H-%M-%S.log", self.utc8()))
+         if self.output == self.OT_console:
+             self.log_handler = GlobalLogger.StreamHandler(None)
+         elif self.output == self.OT_function:
+             self.log_handler = GlobalLogger.FunctionHandler()
+@@ -171,14 +173,15 @@
+ 
+     @staticmethod
+     def utc8(*args, **kwargs):
+         # (datetime.datetime.utcnow() + datetime.timedelta(hours=8)).timetuple()
+         return time.gmtime(time.time() + (8 * 3600))  # gmtime localtime
+ 
+     def switch(self, ):
++        if self.name != "__main__": return
+         if self.output != self.OT_logging: return
+         self.infos(f"""switch log files.""")
+         os.makedirs(self.log_dir_path, exist_ok=True)
+         self.unset_handler()
+         self.log_handler.stream.close()
+         self.log_start_time = time.time()
+         self.log_file_path = os.path.join(self.log_dir_path, time.strftime("%Y-%m-%d_%H-%M-%S.log", self.utc8()))
+@@ -191,23 +194,27 @@
+     def check_switch():
+         if GlobalLogger._instance.output != GlobalLogger.OT_logging: return
+         if time.time() - GlobalLogger._instance.log_start_time >= 60 * 60 * 12:
+             GlobalLogger._instance.switch()
+ 
+     @staticmethod
+     def unset_handler():
+-        # GlobalLogger._instance.removeHandler(GlobalLogger._instance.log_handler)
+-        logging.getLogger().removeHandler(GlobalLogger._instance.log_handler)
++        if GlobalLogger._had_setLoggerClass:
++            logging.getLogger().removeHandler(GlobalLogger._instance.log_handler)
++        else:
++            GlobalLogger._instance.removeHandler(GlobalLogger._instance.log_handler)
+         # for logger_name in logging.Logger.manager.loggerDict:
+         #     logging.getLogger(logger_name).removeHandler(GlobalLogger._instance.log_handler)
+ 
+     @staticmethod
+     def set_handler():
+-        # GlobalLogger._instance.addHandler(GlobalLogger._instance.log_handler)
+-        logging.getLogger().addHandler(GlobalLogger._instance.log_handler)
++        if GlobalLogger._had_setLoggerClass:
++            logging.getLogger().addHandler(GlobalLogger._instance.log_handler)
++        else:
++            GlobalLogger._instance.addHandler(GlobalLogger._instance.log_handler)
+         # logging.getLogger("abc").addHandler(self.log_handler)
+         # logging.basicConfig(level=logging.DEBUG, handlers=[self.log_handler, ])
+         # for logger_name in logging.Logger.manager.loggerDict:
+         #     print(logging.getLogger(logger_name), )
+         #     logging.getLogger(logger_name).addHandler(GlobalLogger._instance.log_handler)
+ 
+     """====================================="""
+@@ -360,16 +367,19 @@
+     def getLogger(name):
+         return logging.getLogger(name)
+ 
+     @staticmethod
+     def setGlobalLevel(level):
+         return logging.getLogger().setLevel(level)
+ 
++    _had_setLoggerClass = False
++
+     @staticmethod
+     def setLoggerClass():
++        GlobalLogger._had_setLoggerClass = True
+         logging.setLoggerClass(GlobalLogger)
+         logging.setLoggerClass = lambda *args, **kwargs: GlobalLogger._instance.warns(args, kwargs)
+         return
+ 
+     @staticmethod
+     def loggers():
+         # [print(i) for i in gL.loggers()]
+@@ -417,13 +427,12 @@
+                 # if _i == len(_ts) - 1 and len(i) == 0: continue
+                 _text.append(f"{html.escape(i)}" if len(_text) == 0 else
+                              f'<p style="margin: 0;padding: 0;">{html.escape(i).replace(" ", _space)}</p>')
+             return f'<p style="color:{c};margin: 0;padding: 0;">{html.escape(head)}<span style="color:inherit;">{_text[0]}</span></p>{"".join(_text[1:])}'
+ 
+ 
+ gL = GlobalLogger
+-gL.setLoggerClass()
+ gL.setGlobalLevel(logging.DEBUG)
+ import os, sys, time, inspect, asyncio, threading, re, html
+ 
+ _re1__color = re.compile(r"^(\[.+?])(\s[\s\S]+)$")
+ _re2__color = re.compile(r"^\[(\w+)")
+```
+

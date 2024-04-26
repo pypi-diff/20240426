@@ -19355,3 +19355,56 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 13:48:59] INFO root fetch - processPackages [mxcubeweb]: Remove: archive file [/home/abi/fetcher/tmp/mxcubeweb-4.9.0.tar.gz]
 [2024-04-26 13:48:59] INFO root fetch - main [MainThread]: End processing [mxcubeweb]: success
 [2024-04-26 13:48:59] INFO root fetch - main [MainThread]: Store serial: [22947080]
+[2024-04-26 13:51:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22947080]
+[2024-04-26 13:51:08] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-26 13:51:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gllogger
+[2024-04-26 13:51:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: capellambse
+[2024-04-26 13:51:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: grib2io
+[2024-04-26 13:51:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cc-py-commons
+[2024-04-26 13:51:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: NoobStuffs
+[2024-04-26 13:51:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: arched-emailer
+[2024-04-26 13:51:08] INFO root fetch - processPackages [gllogger]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-26 13:51:08] INFO root fetch - processPackages [capellambse]: New version: [0.5.9.dev5] Old Version: [0.5.9]
+[2024-04-26 13:51:08] INFO root fetch - processPackages [gllogger]: Downloading https://files.pythonhosted.org/packages/cf/1d/5602ba27ea8a9067a4b683120449faeb0e7c77a0f7bd512ab26ce833e7f1/gllogger-0.0.5.tar.gz
+[2024-04-26 13:51:08] INFO root fetch - processPackages [arched-emailer]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-26 13:51:08] INFO root fetch - processPackages [NoobStuffs]: New version: [2.0.6] Old Version: [2.0.5]
+[2024-04-26 13:51:08] INFO root fetch - processPackages [cc-py-commons]: New version: [0.3.95] Old Version: [0.3.94]
+[2024-04-26 13:51:08] INFO root fetch - processPackages [grib2io]: New version: [2.2.1] Old Version: [2.2.0]
+[2024-04-26 13:51:08] INFO root fetch - processPackages [capellambse]: Downloading https://files.pythonhosted.org/packages/0a/bb/e7974d92c6a3d93dbf30730a6d9302f37f52093b4985246d97e22939147d/capellambse-0.5.9.tar.gz
+[2024-04-26 13:51:08] INFO root fetch - processPackages [grib2io]: Downloading https://files.pythonhosted.org/packages/73/b4/49ae33f52a8d4664a59bb5dd67b8ea66b867f6ed5eac56b363abac780ca9/grib2io-2.2.0.tar.gz
+[2024-04-26 13:51:08] INFO root fetch - processPackages [NoobStuffs]: Downloading https://files.pythonhosted.org/packages/29/2f/741300a1ed5269781c7afbc857e25ec05938718988fcc4b7a4cb0d01767b/noobstuffs-2.0.5.tar.gz
+[2024-04-26 13:51:08] INFO root fetch - processPackages [arched-emailer]: Downloading https://files.pythonhosted.org/packages/7d/fe/5ae701f92d849fc90a56add98ff658f1dd1f598a6e90497326e1f15e49c8/arched_emailer-0.2.8-py3-none-any.whl
+[2024-04-26 13:51:08] INFO root fetch - processPackages [cc-py-commons]: Downloading https://files.pythonhosted.org/packages/f8/f0/1f024814a780d3606b14c1da97ea3c7e519684f108526f5f81cbd880d097/cc_py_commons-0.3.94.tar.gz
+[2024-04-26 13:51:09] WARNING root fetch - processPackages [grib2io]: Skipping package: exceeds size limit 46652697>=10485760
+[2024-04-26 13:51:09] INFO root fetch - main [MainThread]: End processing [grib2io] error
+[2024-04-26 13:51:09] INFO root fetch - processPackages [gllogger]: Downloading https://files.pythonhosted.org/packages/9d/6c/dc4b61360172fbf81ee4d41d82d15b15feb3757d4e1ccc612ea160f9510e/gllogger-0.0.6.tar.gz
+[2024-04-26 13:51:09] INFO root fetch - processPackages [gllogger]: executing diffoscope
+[2024-04-26 13:51:09] INFO root fetch - processPackages [gllogger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gllogger-0.0.5.tar.gz tmp/gllogger-0.0.6.tar.gz --markdown 20240426/g/gllogger/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-26 13:51:09] INFO root fetch - processPackages [capellambse]: Downloading https://files.pythonhosted.org/packages/31/3c/3a68e2e4cc3165b37471f5302bc500647962d3db54edea8081d0ced76387/capellambse-0.5.9.dev5.tar.gz
+[2024-04-26 13:51:09] INFO root fetch - processPackages [NoobStuffs]: Downloading https://files.pythonhosted.org/packages/2e/10/e396545fac43f643e4129b7834e156d4e80862f9932934fa297a02d8f284/noobstuffs-2.0.6.tar.gz
+[2024-04-26 13:51:09] INFO root fetch - processPackages [cc-py-commons]: Downloading https://files.pythonhosted.org/packages/42/3d/40b2fd2a333bd4ef5e476ea87919a8526c98415ac555cc94853e8e2adcab/cc_py_commons-0.3.95.tar.gz
+[2024-04-26 13:51:09] INFO root fetch - processPackages [arched-emailer]: Downloading https://files.pythonhosted.org/packages/9a/79/402e3c65dee3487bcdae55e09b52826e1cd2dc797d4fba7dc467946672e0/arched_emailer-0.2.9-py3-none-any.whl
+[2024-04-26 13:51:09] INFO root fetch - processPackages [NoobStuffs]: executing diffoscope
+[2024-04-26 13:51:09] INFO root fetch - processPackages [NoobStuffs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/noobstuffs-2.0.5.tar.gz tmp/noobstuffs-2.0.6.tar.gz --markdown 20240426/N/NoobStuffs/2.0.5-2.0.6/README.md --exclude *.pyd
+[2024-04-26 13:51:09] INFO root fetch - processPackages [cc-py-commons]: executing diffoscope
+[2024-04-26 13:51:09] INFO root fetch - processPackages [cc-py-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cc_py_commons-0.3.94.tar.gz tmp/cc_py_commons-0.3.95.tar.gz --markdown 20240426/c/cc-py-commons/0.3.94-0.3.95/README.md --exclude *.pyd
+[2024-04-26 13:51:09] INFO root fetch - processPackages [arched-emailer]: executing diffoscope
+[2024-04-26 13:51:09] INFO root fetch - processPackages [arched-emailer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arched_emailer-0.2.8-py3-none-any.whl.zip tmp/arched_emailer-0.2.9-py3-none-any.whl.zip --markdown 20240426/a/arched-emailer/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-26 13:51:09] INFO root fetch - processPackages [capellambse]: executing diffoscope
+[2024-04-26 13:51:09] INFO root fetch - processPackages [capellambse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capellambse-0.5.9.tar.gz tmp/capellambse-0.5.9.dev5.tar.gz --markdown 20240426/c/capellambse/0.5.9-0.5.9.dev5/README.md --exclude *.pyd
+[2024-04-26 13:51:09] INFO root fetch - processPackages [gllogger]: Remove: archive file [/home/abi/fetcher/tmp/gllogger-0.0.5.tar.gz]
+[2024-04-26 13:51:09] INFO root fetch - processPackages [gllogger]: Remove: archive file [/home/abi/fetcher/tmp/gllogger-0.0.6.tar.gz]
+[2024-04-26 13:51:09] INFO root fetch - main [MainThread]: End processing [gllogger]: success
+[2024-04-26 13:51:09] INFO root fetch - processPackages [NoobStuffs]: Remove: archive file [/home/abi/fetcher/tmp/noobstuffs-2.0.5.tar.gz]
+[2024-04-26 13:51:09] INFO root fetch - processPackages [NoobStuffs]: Remove: archive file [/home/abi/fetcher/tmp/noobstuffs-2.0.6.tar.gz]
+[2024-04-26 13:51:09] INFO root fetch - main [MainThread]: End processing [NoobStuffs]: success
+[2024-04-26 13:51:10] INFO root fetch - processPackages [arched-emailer]: Remove: archive file [/home/abi/fetcher/tmp/arched_emailer-0.2.8-py3-none-any.whl.zip]
+[2024-04-26 13:51:10] INFO root fetch - processPackages [arched-emailer]: Remove: archive file [/home/abi/fetcher/tmp/arched_emailer-0.2.9-py3-none-any.whl.zip]
+[2024-04-26 13:51:10] INFO root fetch - main [MainThread]: End processing [arched-emailer]: success
+[2024-04-26 13:51:10] INFO root fetch - processPackages [cc-py-commons]: Remove: archive file [/home/abi/fetcher/tmp/cc_py_commons-0.3.94.tar.gz]
+[2024-04-26 13:51:10] INFO root fetch - processPackages [cc-py-commons]: Remove: archive file [/home/abi/fetcher/tmp/cc_py_commons-0.3.95.tar.gz]
+[2024-04-26 13:51:10] INFO root fetch - main [MainThread]: End processing [cc-py-commons]: success
+[2024-04-26 13:51:14] INFO root fetch - processPackages [capellambse]: Remove: archive file [/home/abi/fetcher/tmp/capellambse-0.5.9.tar.gz]
+[2024-04-26 13:51:14] INFO root fetch - processPackages [capellambse]: Remove: archive file [/home/abi/fetcher/tmp/capellambse-0.5.9.dev5.tar.gz]
+[2024-04-26 13:51:14] INFO root fetch - main [MainThread]: End processing [capellambse]: success
+[2024-04-26 13:51:14] INFO root fetch - main [MainThread]: Store serial: [22947096]
