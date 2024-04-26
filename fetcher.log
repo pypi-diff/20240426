@@ -10738,3 +10738,51 @@
 [2024-04-26 08:11:28] INFO root fetch - processPackages [pytplot-mpl-temp]: Remove: archive file [/home/abi/fetcher/tmp/pytplot-mpl-temp-2.2.9.tar.gz]
 [2024-04-26 08:11:28] INFO root fetch - main [MainThread]: End processing [pytplot-mpl-temp]: success
 [2024-04-26 08:11:28] INFO root fetch - main [MainThread]: Store serial: [22943231]
+[2024-04-26 08:13:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22943231]
+[2024-04-26 08:13:37] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-26 08:13:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tq42-grpc-client
+[2024-04-26 08:13:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: polars-qt
+[2024-04-26 08:13:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cos-ruleengine
+[2024-04-26 08:13:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyg-nightly
+[2024-04-26 08:13:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-mailgun
+[2024-04-26 08:13:37] INFO root fetch - processPackages [cos-ruleengine]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-26 08:13:37] INFO root fetch - processPackages [tq42-grpc-client]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-04-26 08:13:37] INFO root fetch - processPackages [pyg-nightly]: New version: [2.6.0.dev20240425] Old Version: [2.6.0.dev20240424]
+[2024-04-26 08:13:37] INFO root fetch - processPackages [polars-qt]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-26 08:13:37] INFO root fetch - processPackages [pulumi-mailgun]: New version: [3.6.0a1714110617] Old Version: [3.6.0a1713899287]
+[2024-04-26 08:13:37] INFO root fetch - processPackages [cos-ruleengine]: Downloading https://files.pythonhosted.org/packages/ee/f2/b83d102b212a31fc585b31e819ece8bc847c843398a0385f458e38a56f07/cos-ruleengine-0.1.8.tar.gz
+[2024-04-26 08:13:37] INFO root fetch - processPackages [tq42-grpc-client]: Downloading https://files.pythonhosted.org/packages/f2/bc/b6b38a6e4dae6de52384d9e036f68f22c0dccd82b37b9bf4dcc753671afd/tq42_grpc_client-1.0.98.tar.gz
+[2024-04-26 08:13:37] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/e0/6f/17580999e4bb1de435e72503ef8a6a82564c90c2c90ba7ad62f8e4486bf2/pyg_nightly-2.6.0.dev20240424.tar.gz
+[2024-04-26 08:13:37] INFO root fetch - processPackages [polars-qt]: Downloading https://files.pythonhosted.org/packages/ee/bc/4973f1e5557e28230eab9637758c3c632dc8c3510d8715540c6e927b7f81/polars_qt-0.1.8.tar.gz
+[2024-04-26 08:13:37] INFO root fetch - processPackages [pulumi-mailgun]: Downloading https://files.pythonhosted.org/packages/03/25/149ba22942336c26e8f81fdc4d9deba54b9a11472b4cc0718ed168566bdc/pulumi_mailgun-3.6.0a1713899287.tar.gz
+[2024-04-26 08:13:37] INFO root fetch - processPackages [cos-ruleengine]: Downloading https://files.pythonhosted.org/packages/99/23/f847856821d81c172f7d394b6a8e074ce726036e665452ebd4c08d66f92c/cos-ruleengine-0.1.9.tar.gz
+[2024-04-26 08:13:37] INFO root fetch - processPackages [tq42-grpc-client]: Downloading https://files.pythonhosted.org/packages/c5/9d/1449160d0c285ac0d5baa8e0b780b4be4873244452a54befd42e6224614c/tq42_grpc_client-1.0.99.tar.gz
+[2024-04-26 08:13:37] INFO root fetch - processPackages [cos-ruleengine]: executing diffoscope
+[2024-04-26 08:13:37] INFO root fetch - processPackages [cos-ruleengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cos-ruleengine-0.1.8.tar.gz tmp/cos-ruleengine-0.1.9.tar.gz --markdown 20240426/c/cos-ruleengine/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-26 08:13:37] INFO root fetch - processPackages [tq42-grpc-client]: executing diffoscope
+[2024-04-26 08:13:37] INFO root fetch - processPackages [tq42-grpc-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tq42_grpc_client-1.0.98.tar.gz tmp/tq42_grpc_client-1.0.99.tar.gz --markdown 20240426/t/tq42-grpc-client/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-04-26 08:13:37] INFO root fetch - processPackages [polars-qt]: Downloading https://files.pythonhosted.org/packages/73/6c/62e671b9f15009e2b2d31e7f9bb2c5dedf8e43c2327891e2307f52e81618/polars_qt-0.1.9.tar.gz
+[2024-04-26 08:13:37] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/53/46/b1a6eff1f5d96e31f06f743b00e3ea6e7f630f83131b09c12dbd7fc64c8d/pyg_nightly-2.6.0.dev20240425.tar.gz
+[2024-04-26 08:13:37] INFO root fetch - processPackages [pulumi-mailgun]: Downloading https://files.pythonhosted.org/packages/fd/7a/c79017f7341ca3899cb43ad75919a7a80539f469970d9bfb5a256178c2f1/pulumi_mailgun-3.6.0a1714110617.tar.gz
+[2024-04-26 08:13:37] INFO root fetch - processPackages [polars-qt]: executing diffoscope
+[2024-04-26 08:13:37] INFO root fetch - processPackages [polars-qt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polars_qt-0.1.8.tar.gz tmp/polars_qt-0.1.9.tar.gz --markdown 20240426/p/polars-qt/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-26 08:13:38] INFO root fetch - processPackages [pyg-nightly]: executing diffoscope
+[2024-04-26 08:13:38] INFO root fetch - processPackages [pyg-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg_nightly-2.6.0.dev20240424.tar.gz tmp/pyg_nightly-2.6.0.dev20240425.tar.gz --markdown 20240426/p/pyg-nightly/2.6.0.dev20240424-2.6.0.dev20240425/README.md --exclude *.pyd
+[2024-04-26 08:13:38] INFO root fetch - processPackages [pulumi-mailgun]: executing diffoscope
+[2024-04-26 08:13:38] INFO root fetch - processPackages [pulumi-mailgun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_mailgun-3.6.0a1713899287.tar.gz tmp/pulumi_mailgun-3.6.0a1714110617.tar.gz --markdown 20240426/p/pulumi-mailgun/3.6.0a1713899287-3.6.0a1714110617/README.md --exclude *.pyd
+[2024-04-26 08:13:38] INFO root fetch - processPackages [cos-ruleengine]: Remove: archive file [/home/abi/fetcher/tmp/cos-ruleengine-0.1.8.tar.gz]
+[2024-04-26 08:13:38] INFO root fetch - processPackages [cos-ruleengine]: Remove: archive file [/home/abi/fetcher/tmp/cos-ruleengine-0.1.9.tar.gz]
+[2024-04-26 08:13:38] INFO root fetch - main [MainThread]: End processing [cos-ruleengine]: success
+[2024-04-26 08:13:38] INFO root fetch - processPackages [polars-qt]: Remove: archive file [/home/abi/fetcher/tmp/polars_qt-0.1.8.tar.gz]
+[2024-04-26 08:13:38] INFO root fetch - processPackages [polars-qt]: Remove: archive file [/home/abi/fetcher/tmp/polars_qt-0.1.9.tar.gz]
+[2024-04-26 08:13:38] INFO root fetch - main [MainThread]: End processing [polars-qt]: success
+[2024-04-26 08:13:38] INFO root fetch - processPackages [pulumi-mailgun]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mailgun-3.6.0a1713899287.tar.gz]
+[2024-04-26 08:13:38] INFO root fetch - processPackages [pulumi-mailgun]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mailgun-3.6.0a1714110617.tar.gz]
+[2024-04-26 08:13:38] INFO root fetch - main [MainThread]: End processing [pulumi-mailgun]: success
+[2024-04-26 08:13:39] INFO root fetch - processPackages [tq42-grpc-client]: Remove: archive file [/home/abi/fetcher/tmp/tq42_grpc_client-1.0.98.tar.gz]
+[2024-04-26 08:13:39] INFO root fetch - processPackages [tq42-grpc-client]: Remove: archive file [/home/abi/fetcher/tmp/tq42_grpc_client-1.0.99.tar.gz]
+[2024-04-26 08:13:39] INFO root fetch - main [MainThread]: End processing [tq42-grpc-client]: success
+[2024-04-26 08:13:40] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.6.0.dev20240424.tar.gz]
+[2024-04-26 08:13:40] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.6.0.dev20240425.tar.gz]
+[2024-04-26 08:13:40] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
+[2024-04-26 08:13:40] INFO root fetch - main [MainThread]: Store serial: [22943264]
