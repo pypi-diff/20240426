@@ -19540,3 +19540,41 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 14:00:08] INFO root fetch - processPackages [c2cwsgiutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cwsgiutils-6.1.0.dev99.tar.gz]
 [2024-04-26 14:00:08] INFO root fetch - main [MainThread]: End processing [c2cwsgiutils]: success
 [2024-04-26 14:00:08] INFO root fetch - main [MainThread]: Store serial: [22947166]
+[2024-04-26 14:02:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22947166]
+[2024-04-26 14:02:18] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-26 14:02:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: apz-math
+[2024-04-26 14:02:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rws-ddlpy
+[2024-04-26 14:02:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mxcubecore
+[2024-04-26 14:02:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: databricks-labs-pylint
+[2024-04-26 14:02:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kkpyai
+[2024-04-26 14:02:18] INFO root fetch - processPackages [mxcubecore]: New version: [1.98.0] Old Version: [1.97.0]
+[2024-04-26 14:02:18] INFO root fetch - processPackages [kkpyai]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-26 14:02:18] WARNING root fetch - processPackages [apz-math]: Skipping, unable to determine old version
+[2024-04-26 14:02:18] INFO root fetch - main [MainThread]: End processing [apz-math] error
+[2024-04-26 14:02:18] INFO root fetch - processPackages [rws-ddlpy]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-04-26 14:02:18] INFO root fetch - processPackages [databricks-labs-pylint]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-04-26 14:02:18] INFO root fetch - processPackages [kkpyai]: Downloading https://files.pythonhosted.org/packages/41/d3/9eaff2d61cda5a93cc3aa554dac6f205851c8b6303358abc745bc574c29b/kkpyai-0.8.0.tar.gz
+[2024-04-26 14:02:18] INFO root fetch - processPackages [mxcubecore]: Downloading https://files.pythonhosted.org/packages/1c/03/39982e911ba2c3016d54f24cfba7c72e54114b25e1841d37dd678618b6bf/mxcubecore-1.97.0.tar.gz
+[2024-04-26 14:02:19] INFO root fetch - processPackages [rws-ddlpy]: Downloading https://files.pythonhosted.org/packages/f6/a4/a37e4d8f7e0de51e308af7ee7e9fc1f1612804f5bdc40611ccbab23ac2d2/rws-ddlpy-0.4.0.tar.gz
+[2024-04-26 14:02:19] WARNING root fetch - processPackages [mxcubecore]: Skipping package: exceeds size limit 30978522>=10485760
+[2024-04-26 14:02:19] INFO root fetch - main [MainThread]: End processing [mxcubecore] error
+[2024-04-26 14:02:19] INFO root fetch - processPackages [databricks-labs-pylint]: Downloading https://files.pythonhosted.org/packages/6d/55/b980a30b141b5d8f79f13d9f671d66b543e2c909ec645f6b3d878a956826/databricks_labs_pylint-0.3.0.tar.gz
+[2024-04-26 14:02:19] INFO root fetch - processPackages [kkpyai]: Downloading https://files.pythonhosted.org/packages/5d/fb/68ee41a5230bff7f50616754d4177eecd0f6602c85b5310d16ae044f2361/kkpyai-0.9.0.tar.gz
+[2024-04-26 14:02:19] INFO root fetch - processPackages [kkpyai]: executing diffoscope
+[2024-04-26 14:02:19] INFO root fetch - processPackages [kkpyai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kkpyai-0.8.0.tar.gz tmp/kkpyai-0.9.0.tar.gz --markdown 20240426/k/kkpyai/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-26 14:02:19] INFO root fetch - processPackages [rws-ddlpy]: Downloading https://files.pythonhosted.org/packages/f6/df/a7c68456e4671501630b10524da5bdc505f597b2ad6f8e90db898f277fac/rws_ddlpy-0.5.0.tar.gz
+[2024-04-26 14:02:19] INFO root fetch - processPackages [databricks-labs-pylint]: Downloading https://files.pythonhosted.org/packages/e0/78/d0ac1d424b3c3a9f3b8533afe2ac651d287efed9366a1d78a7f1b743e223/databricks_labs_pylint-0.4.0.tar.gz
+[2024-04-26 14:02:19] INFO root fetch - processPackages [rws-ddlpy]: executing diffoscope
+[2024-04-26 14:02:19] INFO root fetch - processPackages [rws-ddlpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rws-ddlpy-0.4.0.tar.gz tmp/rws_ddlpy-0.5.0.tar.gz --markdown 20240426/r/rws-ddlpy/0.4.0-0.5.0/README.md --exclude *.pyd
+[2024-04-26 14:02:19] INFO root fetch - processPackages [databricks-labs-pylint]: executing diffoscope
+[2024-04-26 14:02:19] INFO root fetch - processPackages [databricks-labs-pylint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databricks_labs_pylint-0.3.0.tar.gz tmp/databricks_labs_pylint-0.4.0.tar.gz --markdown 20240426/d/databricks-labs-pylint/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-04-26 14:02:19] INFO root fetch - processPackages [kkpyai]: Remove: archive file [/home/abi/fetcher/tmp/kkpyai-0.8.0.tar.gz]
+[2024-04-26 14:02:19] INFO root fetch - processPackages [kkpyai]: Remove: archive file [/home/abi/fetcher/tmp/kkpyai-0.9.0.tar.gz]
+[2024-04-26 14:02:19] INFO root fetch - main [MainThread]: End processing [kkpyai]: success
+[2024-04-26 14:02:20] INFO root fetch - processPackages [rws-ddlpy]: Remove: archive file [/home/abi/fetcher/tmp/rws-ddlpy-0.4.0.tar.gz]
+[2024-04-26 14:02:20] INFO root fetch - processPackages [rws-ddlpy]: Remove: archive file [/home/abi/fetcher/tmp/rws_ddlpy-0.5.0.tar.gz]
+[2024-04-26 14:02:20] INFO root fetch - main [MainThread]: End processing [rws-ddlpy]: success
+[2024-04-26 14:02:20] INFO root fetch - processPackages [databricks-labs-pylint]: Remove: archive file [/home/abi/fetcher/tmp/databricks_labs_pylint-0.3.0.tar.gz]
+[2024-04-26 14:02:20] INFO root fetch - processPackages [databricks-labs-pylint]: Remove: archive file [/home/abi/fetcher/tmp/databricks_labs_pylint-0.4.0.tar.gz]
+[2024-04-26 14:02:20] INFO root fetch - main [MainThread]: End processing [databricks-labs-pylint]: success
+[2024-04-26 14:02:20] INFO root fetch - main [MainThread]: Store serial: [22947182]
