@@ -21713,3 +21713,69 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 15:38:24] INFO root fetch - processPackages [catalyst-sdwan-lab]: Remove: archive file [/home/abi/fetcher/tmp/catalyst_sdwan_lab-2.0.9.tar.gz]
 [2024-04-26 15:38:24] INFO root fetch - main [MainThread]: End processing [catalyst-sdwan-lab]: success
 [2024-04-26 15:38:24] INFO root fetch - main [MainThread]: Store serial: [22948148]
+[2024-04-26 15:40:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22948148]
+[2024-04-26 15:40:33] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-26 15:40:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pipez
+[2024-04-26 15:40:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: schorle
+[2024-04-26 15:40:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: truefoundry
+[2024-04-26 15:40:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wasmfunc
+[2024-04-26 15:40:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zoltraak
+[2024-04-26 15:40:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: caillou
+[2024-04-26 15:40:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jeedomdaemon
+[2024-04-26 15:40:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: incorporeal-cms
+[2024-04-26 15:40:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: vadi
+[2024-04-26 15:40:33] INFO root fetch - processPackages [jeedomdaemon]: New version: [0.7.3] Old Version: [0.7.2]
+[2024-04-26 15:40:33] WARNING root fetch - processPackages [wasmfunc]: Skipping, unable to determine old version
+[2024-04-26 15:40:33] INFO root fetch - main [MainThread]: End processing [wasmfunc] error
+[2024-04-26 15:40:33] INFO root fetch - processPackages [vadi]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-26 15:40:33] INFO root fetch - processPackages [zoltraak]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-26 15:40:33] INFO root fetch - processPackages [pipez]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-26 15:40:33] WARNING root fetch - processPackages [incorporeal-cms]: Skipping, unable to determine old version
+[2024-04-26 15:40:33] INFO root fetch - main [MainThread]: End processing [incorporeal-cms] error
+[2024-04-26 15:40:33] INFO root fetch - processPackages [jeedomdaemon]: Downloading https://files.pythonhosted.org/packages/b8/b2/c41e1af98ab97255a16f5a6ab867aabc7f7a3208d341d8d72fabe611b14c/jeedomdaemon-0.7.2.tar.gz
+[2024-04-26 15:40:33] INFO root fetch - processPackages [truefoundry]: New version: [0.2.0rc8] Old Version: [0.2.0rc7]
+[2024-04-26 15:40:33] INFO root fetch - processPackages [schorle]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-26 15:40:33] WARNING root fetch - processPackages [caillou]: Skipping, unable to determine old version
+[2024-04-26 15:40:33] INFO root fetch - main [MainThread]: End processing [caillou] error
+[2024-04-26 15:40:33] INFO root fetch - processPackages [vadi]: Downloading https://files.pythonhosted.org/packages/9f/2c/fb571004b6e0a221ed3e6976f60ae25966b9f3308b101bb7bbb7c9c9ba3d/vadi-0.0.5.tar.gz
+[2024-04-26 15:40:33] INFO root fetch - processPackages [zoltraak]: Downloading https://files.pythonhosted.org/packages/06/9c/d65d421bf6b430d7ac28d3088f268c0039d2b66b6d35800b7531b8f54fbb/zoltraak-0.1.8.tar.gz
+[2024-04-26 15:40:33] INFO root fetch - processPackages [pipez]: Downloading https://files.pythonhosted.org/packages/c8/62/5b717f40c0fa19b721b0c32e9704e07e3efc6ef66d9e9235e125637ee655/pipez-0.0.98.tar.gz
+[2024-04-26 15:40:33] INFO root fetch - processPackages [schorle]: Downloading https://files.pythonhosted.org/packages/73/f6/ec6c7c9aaeb72ff74b47ec134a733cedf30833fe19e4ba079b66bb61dcfd/schorle-0.0.8.tar.gz
+[2024-04-26 15:40:33] INFO root fetch - processPackages [truefoundry]: Downloading https://files.pythonhosted.org/packages/e8/c7/6d01e95e1dd503f66efa75aade2d109470185f9094389fe09ffb5bf401da/truefoundry-0.2.0rc7.tar.gz
+[2024-04-26 15:40:33] INFO root fetch - processPackages [vadi]: Downloading https://files.pythonhosted.org/packages/99/2d/47f2cdffa5ad83fba2e4fed8f97bb80af643b8837ae9c9a3ce3aa3348a24/vadi-0.0.6.tar.gz
+[2024-04-26 15:40:33] INFO root fetch - processPackages [zoltraak]: Downloading https://files.pythonhosted.org/packages/1f/93/85a56a179b7ebc679c5ad02b221b5954c726a55fc3b490b8ce90a6919ccb/zoltraak-0.1.9.tar.gz
+[2024-04-26 15:40:33] INFO root fetch - processPackages [jeedomdaemon]: Downloading https://files.pythonhosted.org/packages/60/ae/c4e3827bb0dd0158fc2948c46b99137957b10f8bbd320d571502b6940746/jeedomdaemon-0.7.3.tar.gz
+[2024-04-26 15:40:33] INFO root fetch - processPackages [vadi]: executing diffoscope
+[2024-04-26 15:40:33] INFO root fetch - processPackages [vadi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vadi-0.0.5.tar.gz tmp/vadi-0.0.6.tar.gz --markdown 20240426/v/vadi/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-26 15:40:33] INFO root fetch - processPackages [zoltraak]: executing diffoscope
+[2024-04-26 15:40:33] INFO root fetch - processPackages [zoltraak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zoltraak-0.1.8.tar.gz tmp/zoltraak-0.1.9.tar.gz --markdown 20240426/z/zoltraak/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-26 15:40:33] INFO root fetch - processPackages [jeedomdaemon]: executing diffoscope
+[2024-04-26 15:40:33] INFO root fetch - processPackages [jeedomdaemon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jeedomdaemon-0.7.2.tar.gz tmp/jeedomdaemon-0.7.3.tar.gz --markdown 20240426/j/jeedomdaemon/0.7.2-0.7.3/README.md --exclude *.pyd
+[2024-04-26 15:40:33] INFO root fetch - processPackages [pipez]: Downloading https://files.pythonhosted.org/packages/e6/6e/340bc500f971bf2861a377a6dd615982ddeeb6ee3175f01910d829d31484/pipez-0.0.99.tar.gz
+[2024-04-26 15:40:33] INFO root fetch - processPackages [schorle]: Downloading https://files.pythonhosted.org/packages/05/ea/7c8ebb7abf70218a117ac67fcfef05737e130c82eec05e7071ed715a4450/schorle-0.0.9.tar.gz
+[2024-04-26 15:40:34] INFO root fetch - processPackages [truefoundry]: Downloading https://files.pythonhosted.org/packages/0a/ba/56d831ddf0462f0fdd5a69e97431fd425a3c2f36e4eaf631946f3b7ccac3/truefoundry-0.2.0rc8.tar.gz
+[2024-04-26 15:40:34] INFO root fetch - processPackages [schorle]: executing diffoscope
+[2024-04-26 15:40:34] INFO root fetch - processPackages [schorle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/schorle-0.0.8.tar.gz tmp/schorle-0.0.9.tar.gz --markdown 20240426/s/schorle/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-26 15:40:34] INFO root fetch - processPackages [pipez]: executing diffoscope
+[2024-04-26 15:40:34] INFO root fetch - processPackages [pipez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipez-0.0.98.tar.gz tmp/pipez-0.0.99.tar.gz --markdown 20240426/p/pipez/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-04-26 15:40:34] INFO root fetch - processPackages [truefoundry]: executing diffoscope
+[2024-04-26 15:40:34] INFO root fetch - processPackages [truefoundry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/truefoundry-0.2.0rc7.tar.gz tmp/truefoundry-0.2.0rc8.tar.gz --markdown 20240426/t/truefoundry/0.2.0rc7-0.2.0rc8/README.md --exclude *.pyd
+[2024-04-26 15:40:34] INFO root fetch - processPackages [vadi]: Remove: archive file [/home/abi/fetcher/tmp/vadi-0.0.5.tar.gz]
+[2024-04-26 15:40:34] INFO root fetch - processPackages [vadi]: Remove: archive file [/home/abi/fetcher/tmp/vadi-0.0.6.tar.gz]
+[2024-04-26 15:40:34] INFO root fetch - main [MainThread]: End processing [vadi]: success
+[2024-04-26 15:40:34] INFO root fetch - processPackages [zoltraak]: Remove: archive file [/home/abi/fetcher/tmp/zoltraak-0.1.8.tar.gz]
+[2024-04-26 15:40:34] INFO root fetch - processPackages [zoltraak]: Remove: archive file [/home/abi/fetcher/tmp/zoltraak-0.1.9.tar.gz]
+[2024-04-26 15:40:34] INFO root fetch - main [MainThread]: End processing [zoltraak]: success
+[2024-04-26 15:40:34] INFO root fetch - processPackages [jeedomdaemon]: Remove: archive file [/home/abi/fetcher/tmp/jeedomdaemon-0.7.2.tar.gz]
+[2024-04-26 15:40:34] INFO root fetch - processPackages [jeedomdaemon]: Remove: archive file [/home/abi/fetcher/tmp/jeedomdaemon-0.7.3.tar.gz]
+[2024-04-26 15:40:34] INFO root fetch - main [MainThread]: End processing [jeedomdaemon]: success
+[2024-04-26 15:40:34] INFO root fetch - processPackages [schorle]: Remove: archive file [/home/abi/fetcher/tmp/schorle-0.0.8.tar.gz]
+[2024-04-26 15:40:34] INFO root fetch - processPackages [schorle]: Remove: archive file [/home/abi/fetcher/tmp/schorle-0.0.9.tar.gz]
+[2024-04-26 15:40:34] INFO root fetch - main [MainThread]: End processing [schorle]: success
+[2024-04-26 15:40:34] INFO root fetch - processPackages [truefoundry]: Remove: archive file [/home/abi/fetcher/tmp/truefoundry-0.2.0rc7.tar.gz]
+[2024-04-26 15:40:34] INFO root fetch - processPackages [truefoundry]: Remove: archive file [/home/abi/fetcher/tmp/truefoundry-0.2.0rc8.tar.gz]
+[2024-04-26 15:40:34] INFO root fetch - main [MainThread]: End processing [truefoundry]: success
+[2024-04-26 15:40:35] INFO root fetch - processPackages [pipez]: Remove: archive file [/home/abi/fetcher/tmp/pipez-0.0.98.tar.gz]
+[2024-04-26 15:40:35] INFO root fetch - processPackages [pipez]: Remove: archive file [/home/abi/fetcher/tmp/pipez-0.0.99.tar.gz]
+[2024-04-26 15:40:35] INFO root fetch - main [MainThread]: End processing [pipez]: success
+[2024-04-26 15:40:35] INFO root fetch - main [MainThread]: Store serial: [22948182]
