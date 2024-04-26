@@ -7184,3 +7184,33 @@
 [2024-04-26 03:56:57] INFO root fetch - processPackages [SnakesInSpace]: Remove: archive file [/home/abi/fetcher/tmp/SnakesInSpace-0.0.9.tar.gz]
 [2024-04-26 03:56:57] INFO root fetch - main [MainThread]: End processing [SnakesInSpace]: success
 [2024-04-26 03:56:57] INFO root fetch - main [MainThread]: Store serial: [22941803]
+[2024-04-26 03:59:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22941803]
+[2024-04-26 03:59:06] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-26 03:59:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: eqsolver
+[2024-04-26 03:59:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rel
+[2024-04-26 03:59:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: momonga
+[2024-04-26 03:59:06] INFO root fetch - processPackages [eqsolver]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-26 03:59:06] INFO root fetch - processPackages [rel]: New version: [0.4.9.9] Old Version: [0.4.9.8]
+[2024-04-26 03:59:06] INFO root fetch - processPackages [eqsolver]: Downloading https://files.pythonhosted.org/packages/4b/d5/26d1e62562c247b8f0f39d2cd3d35ef802234e1fc16e385ea15783004eb9/eqsolver-0.2.2-py3-none-any.whl
+[2024-04-26 03:59:06] INFO root fetch - processPackages [rel]: Downloading https://files.pythonhosted.org/packages/e4/e3/10318da1c90cf22ae6b178342946d3e614a0f467dce98225a6ca78f84c39/rel-0.4.9.8-py3-none-any.whl
+[2024-04-26 03:59:06] INFO root fetch - processPackages [momonga]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-26 03:59:06] INFO root fetch - processPackages [rel]: Downloading https://files.pythonhosted.org/packages/9e/20/2e43dfac115c1784bfbb18a0f141215d27e937046a4115b2d3988d889c19/rel-0.4.9.9-py3-none-any.whl
+[2024-04-26 03:59:06] INFO root fetch - processPackages [momonga]: Downloading https://files.pythonhosted.org/packages/44/1e/cf3af1d4f4448958de4eb313ae6e3579d46b515afc131c2fa38fb216d09a/momonga-0.0.5-py3-none-any.whl
+[2024-04-26 03:59:06] INFO root fetch - processPackages [eqsolver]: Downloading https://files.pythonhosted.org/packages/bd/40/9f102482ae3d5b5acf3dd00681925253d7ce362807f8c206561a590b1077/eqsolver-0.2.3-py3-none-any.whl
+[2024-04-26 03:59:06] INFO root fetch - processPackages [rel]: executing diffoscope
+[2024-04-26 03:59:06] INFO root fetch - processPackages [rel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rel-0.4.9.8-py3-none-any.whl.zip tmp/rel-0.4.9.9-py3-none-any.whl.zip --markdown 20240426/r/rel/0.4.9.8-0.4.9.9/README.md --exclude *.pyd
+[2024-04-26 03:59:07] INFO root fetch - processPackages [eqsolver]: executing diffoscope
+[2024-04-26 03:59:07] INFO root fetch - processPackages [eqsolver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eqsolver-0.2.2-py3-none-any.whl.zip tmp/eqsolver-0.2.3-py3-none-any.whl.zip --markdown 20240426/e/eqsolver/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-04-26 03:59:07] INFO root fetch - processPackages [momonga]: Downloading https://files.pythonhosted.org/packages/3a/aa/1dfd25a996f8af3669149547e8df22e4264ce3fd349c71be1ce4cc9abc14/momonga-0.0.6-py3-none-any.whl
+[2024-04-26 03:59:07] INFO root fetch - processPackages [momonga]: executing diffoscope
+[2024-04-26 03:59:07] INFO root fetch - processPackages [momonga]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/momonga-0.0.5-py3-none-any.whl.zip tmp/momonga-0.0.6-py3-none-any.whl.zip --markdown 20240426/m/momonga/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-26 03:59:07] INFO root fetch - processPackages [rel]: Remove: archive file [/home/abi/fetcher/tmp/rel-0.4.9.8-py3-none-any.whl.zip]
+[2024-04-26 03:59:07] INFO root fetch - processPackages [rel]: Remove: archive file [/home/abi/fetcher/tmp/rel-0.4.9.9-py3-none-any.whl.zip]
+[2024-04-26 03:59:07] INFO root fetch - main [MainThread]: End processing [rel]: success
+[2024-04-26 03:59:07] INFO root fetch - processPackages [eqsolver]: Remove: archive file [/home/abi/fetcher/tmp/eqsolver-0.2.2-py3-none-any.whl.zip]
+[2024-04-26 03:59:07] INFO root fetch - processPackages [eqsolver]: Remove: archive file [/home/abi/fetcher/tmp/eqsolver-0.2.3-py3-none-any.whl.zip]
+[2024-04-26 03:59:07] INFO root fetch - main [MainThread]: End processing [eqsolver]: success
+[2024-04-26 03:59:07] INFO root fetch - processPackages [momonga]: Remove: archive file [/home/abi/fetcher/tmp/momonga-0.0.5-py3-none-any.whl.zip]
+[2024-04-26 03:59:07] INFO root fetch - processPackages [momonga]: Remove: archive file [/home/abi/fetcher/tmp/momonga-0.0.6-py3-none-any.whl.zip]
+[2024-04-26 03:59:07] INFO root fetch - main [MainThread]: End processing [momonga]: success
+[2024-04-26 03:59:07] INFO root fetch - main [MainThread]: Store serial: [22941809]
