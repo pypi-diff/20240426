@@ -16664,3 +16664,90 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 11:49:41] INFO root fetch - main [MainThread]: End processing [udata-front]: success
 [2024-04-26 11:49:42] INFO root fetch - main [MainThread]: End processing [udata-front]: success
 [2024-04-26 11:49:42] INFO root fetch - main [MainThread]: Store serial: [22945970]
+[2024-04-26 11:51:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22945970]
+[2024-04-26 11:51:50] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-26 11:51:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sysexit
+[2024-04-26 11:51:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aliyun-python-sdk-dms-enterprise
+[2024-04-26 11:51:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gentccode
+[2024-04-26 11:51:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pytest-minio-mock
+[2024-04-26 11:51:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fplab
+[2024-04-26 11:51:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: einx
+[2024-04-26 11:51:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: alibabacloud-dms-enterprise20181101-py2
+[2024-04-26 11:51:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ccs-digitalmarketplace-frontend-jinja
+[2024-04-26 11:51:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pypnnomenclature
+[2024-04-26 11:51:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: alibabacloud-dms-enterprise20181101
+[2024-04-26 11:51:51] INFO root fetch - processPackages [fplab]: New version: [0.0.2.4] Old Version: [0.0.2.3]
+[2024-04-26 11:51:51] INFO root fetch - processPackages [einx]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-26 11:51:51] WARNING root fetch - processPackages [sysexit]: Skipping, unable to determine old version
+[2024-04-26 11:51:51] INFO root fetch - main [MainThread]: End processing [sysexit] error
+[2024-04-26 11:51:51] INFO root fetch - processPackages [ccs-digitalmarketplace-frontend-jinja]: New version: [2.2.0] Old Version: [2.1.1]
+[2024-04-26 11:51:51] INFO root fetch - processPackages [fplab]: Downloading https://files.pythonhosted.org/packages/4d/e4/f946ed7c2e958e029360231a8abacc3e0c2b9d5702275f1e514f7e4f6afe/fplab-0.0.2.3.tar.gz
+[2024-04-26 11:51:51] INFO root fetch - processPackages [alibabacloud-dms-enterprise20181101-py2]: New version: [1.20.0] Old Version: [1.19.1]
+[2024-04-26 11:51:51] INFO root fetch - processPackages [pypnnomenclature]: New version: [1.6.2] Old Version: [1.6.1]
+[2024-04-26 11:51:51] INFO root fetch - processPackages [gentccode]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-26 11:51:51] INFO root fetch - processPackages [alibabacloud-dms-enterprise20181101]: New version: [1.61.0] Old Version: [1.60.1]
+[2024-04-26 11:51:51] INFO root fetch - processPackages [pytest-minio-mock]: New version: [0.3.13] Old Version: [0.2.11]
+[2024-04-26 11:51:51] INFO root fetch - processPackages [aliyun-python-sdk-dms-enterprise]: New version: [1.9.0] Old Version: [1.8.1]
+[2024-04-26 11:51:51] INFO root fetch - processPackages [einx]: Downloading https://files.pythonhosted.org/packages/26/1d/8b9713ff42423032577b6d886bf7638fc856348ccb21cb2f8c6efe9bbf52/einx-0.2.1.tar.gz
+[2024-04-26 11:51:51] INFO root fetch - processPackages [alibabacloud-dms-enterprise20181101-py2]: Downloading https://files.pythonhosted.org/packages/a0/26/cb748b9d16348d859805e38951ab8409536667d6950fbf2a4a9f3e4e923e/alibabacloud_dms-enterprise20181101_py2-1.19.1.tar.gz
+[2024-04-26 11:51:51] INFO root fetch - processPackages [ccs-digitalmarketplace-frontend-jinja]: Downloading https://files.pythonhosted.org/packages/d0/6f/d1ef21427d762eb5d82e9db0289786dd02d1b2f4dfda1e1004a6df14c2dc/ccs-digitalmarketplace-frontend-jinja-2.1.1.tar.gz
+[2024-04-26 11:51:51] INFO root fetch - processPackages [fplab]: Downloading https://files.pythonhosted.org/packages/24/93/d8dcad6195dcf7cc3a63f7f1ce16d0a6bc7a3b78ea1d50b889498d010db0/fplab-0.0.2.4.tar.gz
+[2024-04-26 11:51:51] INFO root fetch - processPackages [pypnnomenclature]: Downloading https://files.pythonhosted.org/packages/5d/dd/60d1de3a4a87e8057d99794d5a9846b13a195a17ee8fc1f66d795aabba67/pypnnomenclature-1.6.1.tar.gz
+[2024-04-26 11:51:51] INFO root fetch - processPackages [alibabacloud-dms-enterprise20181101]: Downloading https://files.pythonhosted.org/packages/ae/dd/14967c0b791360b3bd18d7a1b3af938f1d26d5ee5c8b61a732d152186f0c/alibabacloud_dms-enterprise20181101-1.60.1.tar.gz
+[2024-04-26 11:51:51] INFO root fetch - processPackages [pytest-minio-mock]: Downloading https://files.pythonhosted.org/packages/10/27/842d5cab82ee5aad0c1affb5b158c2fe53e1de37e7ce730aa2e8107d9015/pytest_minio_mock-0.2.11.tar.gz
+[2024-04-26 11:51:51] INFO root fetch - processPackages [aliyun-python-sdk-dms-enterprise]: Downloading https://files.pythonhosted.org/packages/e9/0e/cc33345f33fd2060514b36001a119546260044795ae49fdf813af3054969/aliyun-python-sdk-dms-enterprise-1.8.1.tar.gz
+[2024-04-26 11:51:51] INFO root fetch - processPackages [gentccode]: Downloading https://files.pythonhosted.org/packages/3c/13/2226588658de89ff262e7dd00715ac8562f24ae44522c5abda9a9859e7d7/gentccode-0.2.8.tar.gz
+[2024-04-26 11:51:51] INFO root fetch - processPackages [fplab]: executing diffoscope
+[2024-04-26 11:51:51] INFO root fetch - processPackages [fplab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fplab-0.0.2.3.tar.gz tmp/fplab-0.0.2.4.tar.gz --markdown 20240426/f/fplab/0.0.2.3-0.0.2.4/README.md --exclude *.pyd
+[2024-04-26 11:51:51] INFO root fetch - processPackages [einx]: Downloading https://files.pythonhosted.org/packages/96/a0/3fa2f5593b2537bd6fd4e786c4996ef3ace61c7e5bf89aa7b4b591bdbb57/einx-0.2.2.tar.gz
+[2024-04-26 11:51:51] INFO root fetch - processPackages [alibabacloud-dms-enterprise20181101-py2]: Downloading https://files.pythonhosted.org/packages/b0/f1/044d14ee565aaf95bca77dfee8799fec15d5cab80f72e1d21a75b7650c38/alibabacloud_dms-enterprise20181101_py2-1.20.0.tar.gz
+[2024-04-26 11:51:51] INFO root fetch - processPackages [ccs-digitalmarketplace-frontend-jinja]: Downloading https://files.pythonhosted.org/packages/fa/84/f7d06fd6455c7164317ff189357b6cffd7f93fdac21e8b32d08edd8786bd/ccs-digitalmarketplace-frontend-jinja-2.2.0.tar.gz
+[2024-04-26 11:51:51] INFO root fetch - processPackages [pytest-minio-mock]: Downloading https://files.pythonhosted.org/packages/85/58/695421bcde40a6f38f99baa6feb17221f77ecdfa516af8f33315a84fac86/pytest_minio_mock-0.3.13.tar.gz
+[2024-04-26 11:51:51] INFO root fetch - processPackages [alibabacloud-dms-enterprise20181101]: Downloading https://files.pythonhosted.org/packages/e6/67/6361c1636a408927f7655fd7baec6a1c59edf75a7dddbd741bc5ba8d51d9/alibabacloud_dms-enterprise20181101-1.61.0.tar.gz
+[2024-04-26 11:51:51] INFO root fetch - processPackages [einx]: executing diffoscope
+[2024-04-26 11:51:51] INFO root fetch - processPackages [einx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/einx-0.2.1.tar.gz tmp/einx-0.2.2.tar.gz --markdown 20240426/e/einx/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-04-26 11:51:51] INFO root fetch - processPackages [pypnnomenclature]: Downloading https://files.pythonhosted.org/packages/0d/30/00cae3a3ddf62cb4711d3b8d6f586c15ff62747a206b2d508ac77b759ca9/pypnnomenclature-1.6.2.tar.gz
+[2024-04-26 11:51:52] INFO root fetch - processPackages [gentccode]: Downloading https://files.pythonhosted.org/packages/f7/d1/5c17a5c4500f9e17ea50ca48d92414e2937dbc16b71848c2f9db82eadcaf/gentccode-0.2.9.tar.gz
+[2024-04-26 11:51:52] INFO root fetch - processPackages [aliyun-python-sdk-dms-enterprise]: Downloading https://files.pythonhosted.org/packages/c8/92/69c136282903fc0309554d335276dc109c35317870d7a85e4e7ad0799ae9/aliyun-python-sdk-dms-enterprise-1.9.0.tar.gz
+[2024-04-26 11:51:52] INFO root fetch - processPackages [ccs-digitalmarketplace-frontend-jinja]: executing diffoscope
+[2024-04-26 11:51:52] INFO root fetch - processPackages [ccs-digitalmarketplace-frontend-jinja]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccs-digitalmarketplace-frontend-jinja-2.1.1.tar.gz tmp/ccs-digitalmarketplace-frontend-jinja-2.2.0.tar.gz --markdown 20240426/c/ccs-digitalmarketplace-frontend-jinja/2.1.1-2.2.0/README.md --exclude *.pyd
+[2024-04-26 11:51:52] INFO root fetch - processPackages [alibabacloud-dms-enterprise20181101-py2]: executing diffoscope
+[2024-04-26 11:51:52] INFO root fetch - processPackages [alibabacloud-dms-enterprise20181101-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_dms-enterprise20181101_py2-1.19.1.tar.gz tmp/alibabacloud_dms-enterprise20181101_py2-1.20.0.tar.gz --markdown 20240426/a/alibabacloud-dms-enterprise20181101-py2/1.19.1-1.20.0/README.md --exclude *.pyd
+[2024-04-26 11:51:52] INFO root fetch - processPackages [pytest-minio-mock]: executing diffoscope
+[2024-04-26 11:51:52] INFO root fetch - processPackages [pytest-minio-mock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_minio_mock-0.2.11.tar.gz tmp/pytest_minio_mock-0.3.13.tar.gz --markdown 20240426/p/pytest-minio-mock/0.2.11-0.3.13/README.md --exclude *.pyd
+[2024-04-26 11:51:52] INFO root fetch - processPackages [gentccode]: executing diffoscope
+[2024-04-26 11:51:52] INFO root fetch - processPackages [gentccode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gentccode-0.2.8.tar.gz tmp/gentccode-0.2.9.tar.gz --markdown 20240426/g/gentccode/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-26 11:51:52] INFO root fetch - processPackages [aliyun-python-sdk-dms-enterprise]: executing diffoscope
+[2024-04-26 11:51:52] INFO root fetch - processPackages [aliyun-python-sdk-dms-enterprise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-dms-enterprise-1.8.1.tar.gz tmp/aliyun-python-sdk-dms-enterprise-1.9.0.tar.gz --markdown 20240426/a/aliyun-python-sdk-dms-enterprise/1.8.1-1.9.0/README.md --exclude *.pyd
+[2024-04-26 11:51:52] INFO root fetch - processPackages [alibabacloud-dms-enterprise20181101]: executing diffoscope
+[2024-04-26 11:51:52] INFO root fetch - processPackages [alibabacloud-dms-enterprise20181101]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_dms-enterprise20181101-1.60.1.tar.gz tmp/alibabacloud_dms-enterprise20181101-1.61.0.tar.gz --markdown 20240426/a/alibabacloud-dms-enterprise20181101/1.60.1-1.61.0/README.md --exclude *.pyd
+[2024-04-26 11:51:52] INFO root fetch - processPackages [pypnnomenclature]: executing diffoscope
+[2024-04-26 11:51:52] INFO root fetch - processPackages [pypnnomenclature]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypnnomenclature-1.6.1.tar.gz tmp/pypnnomenclature-1.6.2.tar.gz --markdown 20240426/p/pypnnomenclature/1.6.1-1.6.2/README.md --exclude *.pyd
+[2024-04-26 11:51:52] INFO root fetch - processPackages [fplab]: Remove: archive file [/home/abi/fetcher/tmp/fplab-0.0.2.3.tar.gz]
+[2024-04-26 11:51:52] INFO root fetch - processPackages [fplab]: Remove: archive file [/home/abi/fetcher/tmp/fplab-0.0.2.4.tar.gz]
+[2024-04-26 11:51:52] INFO root fetch - main [MainThread]: End processing [fplab]: success
+[2024-04-26 11:51:52] INFO root fetch - processPackages [ccs-digitalmarketplace-frontend-jinja]: Remove: archive file [/home/abi/fetcher/tmp/ccs-digitalmarketplace-frontend-jinja-2.1.1.tar.gz]
+[2024-04-26 11:51:52] INFO root fetch - processPackages [ccs-digitalmarketplace-frontend-jinja]: Remove: archive file [/home/abi/fetcher/tmp/ccs-digitalmarketplace-frontend-jinja-2.2.0.tar.gz]
+[2024-04-26 11:51:52] INFO root fetch - main [MainThread]: End processing [ccs-digitalmarketplace-frontend-jinja]: success
+[2024-04-26 11:51:52] INFO root fetch - processPackages [gentccode]: Remove: archive file [/home/abi/fetcher/tmp/gentccode-0.2.8.tar.gz]
+[2024-04-26 11:51:52] INFO root fetch - processPackages [gentccode]: Remove: archive file [/home/abi/fetcher/tmp/gentccode-0.2.9.tar.gz]
+[2024-04-26 11:51:52] INFO root fetch - main [MainThread]: End processing [gentccode]: success
+[2024-04-26 11:51:52] INFO root fetch - processPackages [pytest-minio-mock]: Remove: archive file [/home/abi/fetcher/tmp/pytest_minio_mock-0.2.11.tar.gz]
+[2024-04-26 11:51:52] INFO root fetch - processPackages [pytest-minio-mock]: Remove: archive file [/home/abi/fetcher/tmp/pytest_minio_mock-0.3.13.tar.gz]
+[2024-04-26 11:51:52] INFO root fetch - main [MainThread]: End processing [pytest-minio-mock]: success
+[2024-04-26 11:51:53] INFO root fetch - processPackages [einx]: Remove: archive file [/home/abi/fetcher/tmp/einx-0.2.1.tar.gz]
+[2024-04-26 11:51:53] INFO root fetch - processPackages [einx]: Remove: archive file [/home/abi/fetcher/tmp/einx-0.2.2.tar.gz]
+[2024-04-26 11:51:53] INFO root fetch - main [MainThread]: End processing [einx]: success
+[2024-04-26 11:51:53] INFO root fetch - processPackages [pypnnomenclature]: Remove: archive file [/home/abi/fetcher/tmp/pypnnomenclature-1.6.1.tar.gz]
+[2024-04-26 11:51:53] INFO root fetch - processPackages [pypnnomenclature]: Remove: archive file [/home/abi/fetcher/tmp/pypnnomenclature-1.6.2.tar.gz]
+[2024-04-26 11:51:53] INFO root fetch - main [MainThread]: End processing [pypnnomenclature]: success
+[2024-04-26 11:51:53] INFO root fetch - processPackages [aliyun-python-sdk-dms-enterprise]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-dms-enterprise-1.8.1.tar.gz]
+[2024-04-26 11:51:53] INFO root fetch - processPackages [aliyun-python-sdk-dms-enterprise]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-dms-enterprise-1.9.0.tar.gz]
+[2024-04-26 11:51:53] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-dms-enterprise]: success
+[2024-04-26 11:51:53] INFO root fetch - processPackages [alibabacloud-dms-enterprise20181101-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dms-enterprise20181101_py2-1.19.1.tar.gz]
+[2024-04-26 11:51:53] INFO root fetch - processPackages [alibabacloud-dms-enterprise20181101-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dms-enterprise20181101_py2-1.20.0.tar.gz]
+[2024-04-26 11:51:53] INFO root fetch - main [MainThread]: End processing [alibabacloud-dms-enterprise20181101-py2]: success
+[2024-04-26 11:51:54] INFO root fetch - processPackages [alibabacloud-dms-enterprise20181101]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dms-enterprise20181101-1.60.1.tar.gz]
+[2024-04-26 11:51:54] INFO root fetch - processPackages [alibabacloud-dms-enterprise20181101]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dms-enterprise20181101-1.61.0.tar.gz]
+[2024-04-26 11:51:54] INFO root fetch - main [MainThread]: End processing [alibabacloud-dms-enterprise20181101]: success
+[2024-04-26 11:51:54] INFO root fetch - main [MainThread]: Store serial: [22946003]
