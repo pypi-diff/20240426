@@ -22644,3 +22644,47 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 16:11:33] INFO root fetch - processPackages [lenscraft]: Remove: archive file [/home/abi/fetcher/tmp/lenscraft-1.0.3.tar.gz]
 [2024-04-26 16:11:33] INFO root fetch - main [MainThread]: End processing [lenscraft]: success
 [2024-04-26 16:11:33] INFO root fetch - main [MainThread]: Store serial: [22948520]
+[2024-04-26 16:13:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22948520]
+[2024-04-26 16:13:42] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-26 16:13:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ng-data-pipelines-sdk
+[2024-04-26 16:13:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zodchy
+[2024-04-26 16:13:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lips-benchmark
+[2024-04-26 16:13:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gradio
+[2024-04-26 16:13:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: snapmap-archiver
+[2024-04-26 16:13:42] INFO root fetch - processPackages [snapmap-archiver]: New version: [2.1.2] Old Version: [2.1.0]
+[2024-04-26 16:13:42] INFO root fetch - processPackages [gradio]: New version: [4.9.1] Old Version: [4.9.0]
+[2024-04-26 16:13:42] INFO root fetch - processPackages [snapmap-archiver]: Downloading https://files.pythonhosted.org/packages/55/e8/0f0547bad877c6ca3af39c7f16a538258bcefa78c7bd9ab464bf9ee49338/snapmap-archiver-2.1.0.tar.gz
+[2024-04-26 16:13:42] INFO root fetch - processPackages [ng-data-pipelines-sdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-26 16:13:42] INFO root fetch - processPackages [zodchy]: New version: [0.2.0] Old Version: [0.1.4]
+[2024-04-26 16:13:42] INFO root fetch - processPackages [lips-benchmark]: New version: [0.2.3] Old Version: [0.2.1]
+[2024-04-26 16:13:42] INFO root fetch - processPackages [gradio]: Downloading https://files.pythonhosted.org/packages/eb/a2/56c39c590c6c0e5d2583115b6e478de4bf1c9aa42b45cc47d81d88f93665/gradio-4.9.0.tar.gz
+[2024-04-26 16:13:42] WARNING root fetch - processPackages [gradio]: Skipping package: exceeds size limit 26124496>=10485760
+[2024-04-26 16:13:42] INFO root fetch - main [MainThread]: End processing [gradio] error
+[2024-04-26 16:13:42] INFO root fetch - processPackages [ng-data-pipelines-sdk]: Downloading https://files.pythonhosted.org/packages/92/93/904681ee732581545813ff40e5c8835b76ad0b2e829baf3785350aaee651/ng_data_pipelines_sdk-0.1.8.tar.gz
+[2024-04-26 16:13:42] INFO root fetch - processPackages [snapmap-archiver]: Downloading https://files.pythonhosted.org/packages/be/a3/7578d405a2f98cc1e447cf8d5800b21902a7dd5b1f88299c5a266ed76d4d/snapmap_archiver-2.1.2.tar.gz
+[2024-04-26 16:13:42] INFO root fetch - processPackages [zodchy]: Downloading https://files.pythonhosted.org/packages/dc/10/bc8a9f6ec65add0374712badf5b4369ed81b5f63bea7a25ff054e85059f4/zodchy-0.1.4.tar.gz
+[2024-04-26 16:13:42] INFO root fetch - processPackages [lips-benchmark]: Downloading https://files.pythonhosted.org/packages/a5/26/b3fca88a095082d552adb66da6fbc2e748146a00710cb506c36590dc2c78/lips-benchmark-0.2.1.tar.gz
+[2024-04-26 16:13:42] INFO root fetch - processPackages [snapmap-archiver]: executing diffoscope
+[2024-04-26 16:13:42] INFO root fetch - processPackages [snapmap-archiver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snapmap-archiver-2.1.0.tar.gz tmp/snapmap_archiver-2.1.2.tar.gz --markdown 20240426/s/snapmap-archiver/2.1.0-2.1.2/README.md --exclude *.pyd
+[2024-04-26 16:13:42] INFO root fetch - processPackages [ng-data-pipelines-sdk]: Downloading https://files.pythonhosted.org/packages/14/43/cb1770312014d4487f88701d6a7ed55b552c63e92c20fc8ffff1c3ff3d71/ng_data_pipelines_sdk-0.1.9.tar.gz
+[2024-04-26 16:13:42] INFO root fetch - processPackages [zodchy]: Downloading https://files.pythonhosted.org/packages/6c/bc/59641173ae54c0b8f2c863210ac045e28372cc67a7c4fe66e1c64b4fd234/zodchy-0.2.0.tar.gz
+[2024-04-26 16:13:42] INFO root fetch - processPackages [ng-data-pipelines-sdk]: executing diffoscope
+[2024-04-26 16:13:42] INFO root fetch - processPackages [ng-data-pipelines-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ng_data_pipelines_sdk-0.1.8.tar.gz tmp/ng_data_pipelines_sdk-0.1.9.tar.gz --markdown 20240426/n/ng-data-pipelines-sdk/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-26 16:13:43] INFO root fetch - processPackages [zodchy]: executing diffoscope
+[2024-04-26 16:13:43] INFO root fetch - processPackages [zodchy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zodchy-0.1.4.tar.gz tmp/zodchy-0.2.0.tar.gz --markdown 20240426/z/zodchy/0.1.4-0.2.0/README.md --exclude *.pyd
+[2024-04-26 16:13:43] INFO root fetch - processPackages [lips-benchmark]: Downloading https://files.pythonhosted.org/packages/77/75/45545038a2fcd1c70cd6438854521f9dcd7b22dfe6162103bc16c83a28e2/lips-benchmark-0.2.3.tar.gz
+[2024-04-26 16:13:43] INFO root fetch - processPackages [snapmap-archiver]: Remove: archive file [/home/abi/fetcher/tmp/snapmap-archiver-2.1.0.tar.gz]
+[2024-04-26 16:13:43] INFO root fetch - processPackages [snapmap-archiver]: Remove: archive file [/home/abi/fetcher/tmp/snapmap_archiver-2.1.2.tar.gz]
+[2024-04-26 16:13:43] INFO root fetch - main [MainThread]: End processing [snapmap-archiver]: success
+[2024-04-26 16:13:43] INFO root fetch - processPackages [ng-data-pipelines-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ng_data_pipelines_sdk-0.1.8.tar.gz]
+[2024-04-26 16:13:43] INFO root fetch - processPackages [ng-data-pipelines-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ng_data_pipelines_sdk-0.1.9.tar.gz]
+[2024-04-26 16:13:43] INFO root fetch - main [MainThread]: End processing [ng-data-pipelines-sdk]: success
+[2024-04-26 16:13:43] INFO root fetch - processPackages [zodchy]: Remove: archive file [/home/abi/fetcher/tmp/zodchy-0.1.4.tar.gz]
+[2024-04-26 16:13:43] INFO root fetch - processPackages [zodchy]: Remove: archive file [/home/abi/fetcher/tmp/zodchy-0.2.0.tar.gz]
+[2024-04-26 16:13:43] INFO root fetch - main [MainThread]: End processing [zodchy]: success
+[2024-04-26 16:13:43] INFO root fetch - processPackages [lips-benchmark]: executing diffoscope
+[2024-04-26 16:13:43] INFO root fetch - processPackages [lips-benchmark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lips-benchmark-0.2.1.tar.gz tmp/lips-benchmark-0.2.3.tar.gz --markdown 20240426/l/lips-benchmark/0.2.1-0.2.3/README.md --exclude *.pyd
+[2024-04-26 16:13:45] INFO root fetch - processPackages [lips-benchmark]: Remove: archive file [/home/abi/fetcher/tmp/lips-benchmark-0.2.1.tar.gz]
+[2024-04-26 16:13:45] INFO root fetch - processPackages [lips-benchmark]: Remove: archive file [/home/abi/fetcher/tmp/lips-benchmark-0.2.3.tar.gz]
+[2024-04-26 16:13:45] INFO root fetch - main [MainThread]: End processing [lips-benchmark]: success
+[2024-04-26 16:13:45] INFO root fetch - main [MainThread]: Store serial: [22948537]
