@@ -15865,3 +15865,50 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 11:17:42] INFO root fetch - processPackages [coconut-develop]: Remove: archive file [/home/abi/fetcher/tmp/coconut-develop-3.1.0.post0.dev9.tar.gz]
 [2024-04-26 11:17:42] INFO root fetch - main [MainThread]: End processing [coconut-develop]: success
 [2024-04-26 11:17:42] INFO root fetch - main [MainThread]: Store serial: [22945647]
+[2024-04-26 11:19:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22945647]
+[2024-04-26 11:19:50] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-26 11:19:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kitab
+[2024-04-26 11:19:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: smartieee
+[2024-04-26 11:19:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: transformers-js-py
+[2024-04-26 11:19:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dagster-toolbox
+[2024-04-26 11:19:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: torch-tps
+[2024-04-26 11:19:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: repoqa
+[2024-04-26 11:19:50] INFO root fetch - processPackages [kitab]: New version: [0.0.21] Old Version: [0.0.20]
+[2024-04-26 11:19:51] WARNING root fetch - processPackages [smartieee]: Skipping, unable to determine old version
+[2024-04-26 11:19:51] INFO root fetch - main [MainThread]: End processing [smartieee] error
+[2024-04-26 11:19:51] INFO root fetch - processPackages [kitab]: Downloading https://files.pythonhosted.org/packages/cc/a8/d2fa80514bc14520ed444557593521a6f041a2f3618b04b54b9c2fa4ce6e/kitab-0.0.20.tar.gz
+[2024-04-26 11:19:51] INFO root fetch - processPackages [torch-tps]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-04-26 11:19:51] INFO root fetch - processPackages [dagster-toolbox]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-26 11:19:51] INFO root fetch - processPackages [transformers-js-py]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-04-26 11:19:51] INFO root fetch - processPackages [repoqa]: New version: [0.1.0rc2] Old Version: [0.1.0rc1]
+[2024-04-26 11:19:51] INFO root fetch - processPackages [torch-tps]: Downloading https://files.pythonhosted.org/packages/f4/3b/8664848654def95bd3255a3f41e09d6ec0499383701bd3562808c778309a/torch-tps-1.1.0.tar.gz
+[2024-04-26 11:19:51] INFO root fetch - processPackages [dagster-toolbox]: Downloading https://files.pythonhosted.org/packages/81/cc/33840416f22e9cedd1d0dcbedc15117fe3695e9ddd263039c591c0dd4efa/dagster-toolbox-0.0.8.tar.gz
+[2024-04-26 11:19:51] INFO root fetch - processPackages [transformers-js-py]: Downloading https://files.pythonhosted.org/packages/e9/d4/245ab3f4c5f82c00b652b8ff4b0d02cde64e88d462ead1ae460fdf5a43df/transformers_js_py-0.8.1.tar.gz
+[2024-04-26 11:19:51] ERROR root fetch - processPackages [kitab]: Unable to fetch info: No such project/version 'kitab' 0.0.21
+[2024-04-26 11:19:51] INFO root fetch - main [MainThread]: End processing [kitab] error
+[2024-04-26 11:19:51] INFO root fetch - processPackages [repoqa]: Downloading https://files.pythonhosted.org/packages/43/e5/e44200e420e9471b6ab56c1421524b5393fc3affdf36f4a682570d56e4b6/repoqa-0.1.0rc1.tar.gz
+[2024-04-26 11:19:51] INFO root fetch - processPackages [torch-tps]: Downloading https://files.pythonhosted.org/packages/63/4c/c042b7b0c6e4c66626a945b2d734dd27be82401e800019899bcaa06d04a3/torch_tps-1.1.1.tar.gz
+[2024-04-26 11:19:51] INFO root fetch - processPackages [dagster-toolbox]: Downloading https://files.pythonhosted.org/packages/9a/6b/b9a026c41f2d2b39ba0fcb5ab35c4d26a67f87fe2e7701a3c0d492d27289/dagster-toolbox-0.0.9.tar.gz
+[2024-04-26 11:19:51] INFO root fetch - processPackages [transformers-js-py]: Downloading https://files.pythonhosted.org/packages/69/a5/f53e404079de13cda9053663becf9d7e3a3351cfa3b254d9a695544db414/transformers_js_py-0.9.0.tar.gz
+[2024-04-26 11:19:51] INFO root fetch - processPackages [torch-tps]: executing diffoscope
+[2024-04-26 11:19:51] INFO root fetch - processPackages [torch-tps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch-tps-1.1.0.tar.gz tmp/torch_tps-1.1.1.tar.gz --markdown 20240426/t/torch-tps/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-04-26 11:19:51] INFO root fetch - processPackages [transformers-js-py]: executing diffoscope
+[2024-04-26 11:19:51] INFO root fetch - processPackages [transformers-js-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transformers_js_py-0.8.1.tar.gz tmp/transformers_js_py-0.9.0.tar.gz --markdown 20240426/t/transformers-js-py/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-04-26 11:19:51] INFO root fetch - processPackages [dagster-toolbox]: executing diffoscope
+[2024-04-26 11:19:51] INFO root fetch - processPackages [dagster-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagster-toolbox-0.0.8.tar.gz tmp/dagster-toolbox-0.0.9.tar.gz --markdown 20240426/d/dagster-toolbox/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-26 11:19:51] INFO root fetch - processPackages [repoqa]: Downloading https://files.pythonhosted.org/packages/b1/04/3f8dd85adafd614747ce9a07223426070ca0ccc543ad013c070f21aa27a9/repoqa-0.1.0rc2.tar.gz
+[2024-04-26 11:19:52] INFO root fetch - processPackages [torch-tps]: Remove: archive file [/home/abi/fetcher/tmp/torch-tps-1.1.0.tar.gz]
+[2024-04-26 11:19:52] INFO root fetch - processPackages [torch-tps]: Remove: archive file [/home/abi/fetcher/tmp/torch_tps-1.1.1.tar.gz]
+[2024-04-26 11:19:52] INFO root fetch - processPackages [repoqa]: executing diffoscope
+[2024-04-26 11:19:52] INFO root fetch - processPackages [repoqa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/repoqa-0.1.0rc1.tar.gz tmp/repoqa-0.1.0rc2.tar.gz --markdown 20240426/r/repoqa/0.1.0rc1-0.1.0rc2/README.md --exclude *.pyd
+[2024-04-26 11:19:52] INFO root fetch - main [MainThread]: End processing [torch-tps]: success
+[2024-04-26 11:19:52] INFO root fetch - processPackages [transformers-js-py]: Remove: archive file [/home/abi/fetcher/tmp/transformers_js_py-0.8.1.tar.gz]
+[2024-04-26 11:19:52] INFO root fetch - processPackages [transformers-js-py]: Remove: archive file [/home/abi/fetcher/tmp/transformers_js_py-0.9.0.tar.gz]
+[2024-04-26 11:19:52] INFO root fetch - main [MainThread]: End processing [transformers-js-py]: success
+[2024-04-26 11:19:52] INFO root fetch - processPackages [dagster-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/dagster-toolbox-0.0.8.tar.gz]
+[2024-04-26 11:19:52] INFO root fetch - processPackages [dagster-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/dagster-toolbox-0.0.9.tar.gz]
+[2024-04-26 11:19:52] INFO root fetch - main [MainThread]: End processing [dagster-toolbox]: success
+[2024-04-26 11:19:53] INFO root fetch - processPackages [repoqa]: Remove: archive file [/home/abi/fetcher/tmp/repoqa-0.1.0rc1.tar.gz]
+[2024-04-26 11:19:53] INFO root fetch - processPackages [repoqa]: Remove: archive file [/home/abi/fetcher/tmp/repoqa-0.1.0rc2.tar.gz]
+[2024-04-26 11:19:53] INFO root fetch - main [MainThread]: End processing [repoqa]: success
+[2024-04-26 11:19:53] INFO root fetch - main [MainThread]: Store serial: [22945669]
