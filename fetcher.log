@@ -10786,3 +10786,135 @@
 [2024-04-26 08:13:40] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.6.0.dev20240425.tar.gz]
 [2024-04-26 08:13:40] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
 [2024-04-26 08:13:40] INFO root fetch - main [MainThread]: Store serial: [22943264]
+[2024-04-26 08:15:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22943264]
+[2024-04-26 08:15:48] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2024-04-26 08:15:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk8s-awscdk-resolver
+[2024-04-26 08:15:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-minio
+[2024-04-26 08:15:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyplotlib
+[2024-04-26 08:15:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: moobius
+[2024-04-26 08:15:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-gitlab
+[2024-04-26 08:15:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mteb
+[2024-04-26 08:15:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dirigera
+[2024-04-26 08:15:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-libvirt
+[2024-04-26 08:15:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ccml2021
+[2024-04-26 08:15:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pretext
+[2024-04-26 08:15:49] INFO root fetch - processPackages [pyplotlib]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-26 08:15:49] INFO root fetch - processPackages [pretext]: New version: [2.3.9.dev20240302] Old Version: [2.3.9.dev20240229]
+[2024-04-26 08:15:49] INFO root fetch - processPackages [mteb]: New version: [1.7.9] Old Version: [1.7.8]
+[2024-04-26 08:15:49] INFO root fetch - processPackages [pulumi-gitlab]: New version: [6.9.0a1708340471] Old Version: [6.9.0a1708063247]
+[2024-04-26 08:15:49] INFO root fetch - processPackages [moobius]: New version: [1.2.0] Old Version: [1.1.9]
+[2024-04-26 08:15:49] INFO root fetch - processPackages [ccml2021]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-04-26 08:15:49] INFO root fetch - processPackages [dirigera]: New version: [1.1.6] Old Version: [1.1.5]
+[2024-04-26 08:15:49] INFO root fetch - processPackages [pyplotlib]: Downloading https://files.pythonhosted.org/packages/28/bb/58ba19c8fed8024ef2c0efd0523dded73560d64857fcd7916d35aa6aa8af/pyplotlib-0.0.8.tar.gz
+[2024-04-26 08:15:49] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: New version: [0.0.9] Old Version: [0.0.88]
+[2024-04-26 08:15:49] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/b5/e7/1ffcd000a118bd6a4b183610de5d0891ab9c767ccabb6c7e3f63ba9edb45/mteb-1.7.8.tar.gz
+[2024-04-26 08:15:49] INFO root fetch - processPackages [pulumi-libvirt]: New version: [0.4.6a1714110532] Old Version: [0.4.6a1713903728]
+[2024-04-26 08:15:49] INFO root fetch - processPackages [pulumi-minio]: New version: [0.9.1a1682440158] Old Version: [0.9.1a1681933919]
+[2024-04-26 08:15:49] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/ce/64/85bc57578fbf3322df1cb4958d7c6cf0dda4d8184eb5611f8245cb5d98eb/pretext-2.3.9.dev20240229.tar.gz
+[2024-04-26 08:15:49] INFO root fetch - processPackages [pulumi-gitlab]: Downloading https://files.pythonhosted.org/packages/58/07/ab2778876b4db96da370ecc6d084f38b132c7d1e47cda0350b3de396d7e4/pulumi_gitlab-6.9.0a1708063247.tar.gz
+[2024-04-26 08:15:49] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: Downloading https://files.pythonhosted.org/packages/22/a1/5e64da59bd1053c4192abc541b99e1512087589ce7ec8a04cf1128cdf7d7/cdk8s-awscdk-resolver-0.0.88.tar.gz
+[2024-04-26 08:15:49] INFO root fetch - processPackages [moobius]: Downloading https://files.pythonhosted.org/packages/34/9d/6293c2aa4642e5ba55a6a5274e267234cfcc96d20973169693dc564e18cd/moobius-1.1.9.tar.gz
+[2024-04-26 08:15:49] INFO root fetch - processPackages [ccml2021]: Downloading https://files.pythonhosted.org/packages/53/88/3aac5483b90117a4e2e3605cba4b4881738fe289bbcf062849a1371bed43/ccml2021-0.2.5.tar.gz
+[2024-04-26 08:15:49] INFO root fetch - processPackages [pulumi-libvirt]: Downloading https://files.pythonhosted.org/packages/d7/b8/4e1bcfa59d3ac1decef3ca4a5986fd8dc5fc9c7afb4c2311da085ac0190b/pulumi_libvirt-0.4.6a1713903728.tar.gz
+[2024-04-26 08:15:49] INFO root fetch - processPackages [pulumi-minio]: Downloading https://files.pythonhosted.org/packages/ff/08/d2cadf5bfe93247a9689d335d5a90c90c3437bae7996f31d22e6a1e18bc8/pulumi_minio-0.9.1a1681933919.tar.gz
+[2024-04-26 08:15:49] INFO root fetch - processPackages [dirigera]: Downloading https://files.pythonhosted.org/packages/ac/c4/63292b951822294dd69affff18ab52b65c49a3491092736488715385d31d/dirigera-1.1.5.tar.gz
+[2024-04-26 08:15:49] INFO root fetch - processPackages [pyplotlib]: Downloading https://files.pythonhosted.org/packages/8b/f8/1cec6ba77c9aee645ad1564c6fe928db135b36bec387a9574c6422edd191/pyplotlib-0.0.9.tar.gz
+[2024-04-26 08:15:49] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/eb/d9/b925270f0a2467b3204b0f467cc702668d24bd9a8e876306ea7e3da17507/mteb-1.7.9.tar.gz
+[2024-04-26 08:15:49] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/3f/2d/22e687f1fb945aeb16176a4f9c25da1aab63664c88cd2966d7ad79f1b144/pretext-2.3.9.dev20240302.tar.gz
+[2024-04-26 08:15:49] INFO root fetch - processPackages [pyplotlib]: executing diffoscope
+[2024-04-26 08:15:49] INFO root fetch - processPackages [pyplotlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyplotlib-0.0.8.tar.gz tmp/pyplotlib-0.0.9.tar.gz --markdown 20240426/p/pyplotlib/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-26 08:15:49] INFO root fetch - processPackages [mteb]: executing diffoscope
+[2024-04-26 08:15:49] INFO root fetch - processPackages [mteb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mteb-1.7.8.tar.gz tmp/mteb-1.7.9.tar.gz --markdown 20240426/m/mteb/1.7.8-1.7.9/README.md --exclude *.pyd
+[2024-04-26 08:15:49] INFO root fetch - processPackages [pulumi-gitlab]: Downloading https://files.pythonhosted.org/packages/ec/de/e27b5fc2f3f3a7a5f878850b1b8d0f82d5624c70b642a39146c756ea3d5c/pulumi_gitlab-6.9.0a1708340471.tar.gz
+[2024-04-26 08:15:49] INFO root fetch - processPackages [ccml2021]: Downloading https://files.pythonhosted.org/packages/f2/db/6cb802e1da4db926776226a0cb6db9957a184aa0ad0d2dd051bfc11b6111/ccml2021-0.2.6.tar.gz
+[2024-04-26 08:15:50] INFO root fetch - processPackages [pulumi-libvirt]: Downloading https://files.pythonhosted.org/packages/c1/70/05ef7aa2ef2fac0e4c79cc1ddd31aa084bec1f4c00cca89a855c5865e587/pulumi_libvirt-0.4.6a1714110532.tar.gz
+[2024-04-26 08:15:50] INFO root fetch - processPackages [moobius]: Downloading https://files.pythonhosted.org/packages/c0/a3/82fd9edbf54ac1d6252add581bbf38a303d1df84cbf28401e4543cb43f4c/moobius-1.2.0.tar.gz
+[2024-04-26 08:15:50] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: Downloading https://files.pythonhosted.org/packages/e4/ba/3b1af2b8b411cdb77e57e6b1d4e656a18d1c62c5fddbd831b369378f4fbd/cdk8s-awscdk-resolver-0.0.9.tar.gz
+[2024-04-26 08:15:50] INFO root fetch - processPackages [pretext]: executing diffoscope
+[2024-04-26 08:15:50] INFO root fetch - processPackages [pulumi-minio]: Downloading https://files.pythonhosted.org/packages/15/55/586e40a427bb324461e4077406c21f75ad5bd1d406ec365a59f65e7790bd/pulumi_minio-0.9.1a1682440158.tar.gz
+[2024-04-26 08:15:50] INFO root fetch - processPackages [pretext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pretext-2.3.9.dev20240229.tar.gz tmp/pretext-2.3.9.dev20240302.tar.gz --markdown 20240426/p/pretext/2.3.9.dev20240229-2.3.9.dev20240302/README.md --exclude *.pyd
+[2024-04-26 08:15:50] INFO root fetch - processPackages [dirigera]: Downloading https://files.pythonhosted.org/packages/30/d1/b2e985501d52b3c082fd611c9b8e24d5522ae5bb8ce22e9658a5c974eeaf/dirigera-1.1.6.tar.gz
+[2024-04-26 08:15:50] INFO root fetch - processPackages [moobius]: executing diffoscope
+[2024-04-26 08:15:50] INFO root fetch - processPackages [moobius]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moobius-1.1.9.tar.gz tmp/moobius-1.2.0.tar.gz --markdown 20240426/m/moobius/1.1.9-1.2.0/README.md --exclude *.pyd
+[2024-04-26 08:15:50] INFO root fetch - processPackages [pulumi-gitlab]: executing diffoscope
+[2024-04-26 08:15:50] INFO root fetch - processPackages [pulumi-gitlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_gitlab-6.9.0a1708063247.tar.gz tmp/pulumi_gitlab-6.9.0a1708340471.tar.gz --markdown 20240426/p/pulumi-gitlab/6.9.0a1708063247-6.9.0a1708340471/README.md --exclude *.pyd
+[2024-04-26 08:15:50] INFO root fetch - processPackages [pulumi-minio]: executing diffoscope
+[2024-04-26 08:15:50] INFO root fetch - processPackages [pulumi-minio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_minio-0.9.1a1681933919.tar.gz tmp/pulumi_minio-0.9.1a1682440158.tar.gz --markdown 20240426/p/pulumi-minio/0.9.1a1681933919-0.9.1a1682440158/README.md --exclude *.pyd
+[2024-04-26 08:15:50] INFO root fetch - processPackages [ccml2021]: executing diffoscope
+[2024-04-26 08:15:50] INFO root fetch - processPackages [ccml2021]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccml2021-0.2.5.tar.gz tmp/ccml2021-0.2.6.tar.gz --markdown 20240426/c/ccml2021/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-04-26 08:15:50] INFO root fetch - processPackages [pulumi-libvirt]: executing diffoscope
+[2024-04-26 08:15:50] INFO root fetch - processPackages [pulumi-libvirt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_libvirt-0.4.6a1713903728.tar.gz tmp/pulumi_libvirt-0.4.6a1714110532.tar.gz --markdown 20240426/p/pulumi-libvirt/0.4.6a1713903728-0.4.6a1714110532/README.md --exclude *.pyd
+[2024-04-26 08:15:50] INFO root fetch - processPackages [dirigera]: executing diffoscope
+[2024-04-26 08:15:50] INFO root fetch - processPackages [dirigera]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dirigera-1.1.5.tar.gz tmp/dirigera-1.1.6.tar.gz --markdown 20240426/d/dirigera/1.1.5-1.1.6/README.md --exclude *.pyd
+[2024-04-26 08:15:50] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: executing diffoscope
+[2024-04-26 08:15:50] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-awscdk-resolver-0.0.88.tar.gz tmp/cdk8s-awscdk-resolver-0.0.9.tar.gz --markdown 20240426/c/cdk8s-awscdk-resolver/0.0.88-0.0.9/README.md --exclude *.pyd
+[2024-04-26 08:15:50] INFO root fetch - processPackages [pyplotlib]: Remove: archive file [/home/abi/fetcher/tmp/pyplotlib-0.0.8.tar.gz]
+[2024-04-26 08:15:50] INFO root fetch - processPackages [pyplotlib]: Remove: archive file [/home/abi/fetcher/tmp/pyplotlib-0.0.9.tar.gz]
+[2024-04-26 08:15:50] INFO root fetch - processPackages [pyplotlib]: Start processing: GaiaScript
+[2024-04-26 08:15:50] INFO root fetch - main [MainThread]: End processing [pyplotlib]: success
+[2024-04-26 08:15:50] INFO root fetch - processPackages [GaiaScript]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-26 08:15:50] INFO root fetch - processPackages [GaiaScript]: Downloading https://files.pythonhosted.org/packages/79/d9/f7e5d1326af5f7d1a39f86e42e4525116cfa3855bbe5d96b72b082131980/GaiaScript-0.1.0.tar.gz
+[2024-04-26 08:15:51] INFO root fetch - processPackages [ccml2021]: Remove: archive file [/home/abi/fetcher/tmp/ccml2021-0.2.5.tar.gz]
+[2024-04-26 08:15:51] INFO root fetch - processPackages [ccml2021]: Remove: archive file [/home/abi/fetcher/tmp/ccml2021-0.2.6.tar.gz]
+[2024-04-26 08:15:51] INFO root fetch - processPackages [ccml2021]: Start processing: puyapy
+[2024-04-26 08:15:51] INFO root fetch - main [MainThread]: End processing [ccml2021]: success
+[2024-04-26 08:15:51] INFO root fetch - processPackages [moobius]: Remove: archive file [/home/abi/fetcher/tmp/moobius-1.1.9.tar.gz]
+[2024-04-26 08:15:51] INFO root fetch - processPackages [moobius]: Remove: archive file [/home/abi/fetcher/tmp/moobius-1.2.0.tar.gz]
+[2024-04-26 08:15:51] INFO root fetch - processPackages [moobius]: Start processing: algorand-python
+[2024-04-26 08:15:51] INFO root fetch - main [MainThread]: End processing [moobius]: success
+[2024-04-26 08:15:51] INFO root fetch - processPackages [puyapy]: New version: [2.0.0] Old Version: [1.0.1]
+[2024-04-26 08:15:51] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-awscdk-resolver-0.0.88.tar.gz]
+[2024-04-26 08:15:51] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-awscdk-resolver-0.0.9.tar.gz]
+[2024-04-26 08:15:51] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: Start processing: fake-bpy-module-latest
+[2024-04-26 08:15:51] INFO root fetch - main [MainThread]: End processing [cdk8s-awscdk-resolver]: success
+[2024-04-26 08:15:51] INFO root fetch - processPackages [algorand-python]: New version: [1.1.0] Old Version: [1.0.1]
+[2024-04-26 08:15:51] INFO root fetch - processPackages [dirigera]: Remove: archive file [/home/abi/fetcher/tmp/dirigera-1.1.5.tar.gz]
+[2024-04-26 08:15:51] INFO root fetch - processPackages [dirigera]: Remove: archive file [/home/abi/fetcher/tmp/dirigera-1.1.6.tar.gz]
+[2024-04-26 08:15:51] INFO root fetch - processPackages [dirigera]: Start processing: dbinfer-bench
+[2024-04-26 08:15:51] INFO root fetch - main [MainThread]: End processing [dirigera]: success
+[2024-04-26 08:15:51] INFO root fetch - processPackages [GaiaScript]: Downloading https://files.pythonhosted.org/packages/89/47/203b4f817489ed1844fe83244405cc75bfe4387dc69e26831aff28c36ef1/GaiaScript-0.1.1.tar.gz
+[2024-04-26 08:15:51] INFO root fetch - processPackages [pulumi-minio]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_minio-0.9.1a1681933919.tar.gz]
+[2024-04-26 08:15:51] INFO root fetch - processPackages [pulumi-minio]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_minio-0.9.1a1682440158.tar.gz]
+[2024-04-26 08:15:51] INFO root fetch - main [MainThread]: End processing [pulumi-minio]: success
+[2024-04-26 08:15:51] INFO root fetch - processPackages [pulumi-libvirt]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_libvirt-0.4.6a1713903728.tar.gz]
+[2024-04-26 08:15:51] INFO root fetch - processPackages [pulumi-libvirt]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_libvirt-0.4.6a1714110532.tar.gz]
+[2024-04-26 08:15:51] INFO root fetch - main [MainThread]: End processing [pulumi-libvirt]: success
+[2024-04-26 08:15:51] INFO root fetch - processPackages [GaiaScript]: executing diffoscope
+[2024-04-26 08:15:51] INFO root fetch - processPackages [GaiaScript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GaiaScript-0.1.0.tar.gz tmp/GaiaScript-0.1.1.tar.gz --markdown 20240426/G/GaiaScript/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-26 08:15:51] INFO root fetch - processPackages [puyapy]: Downloading https://files.pythonhosted.org/packages/9d/77/b12497df52386192e53e6f72244190ca9883ac1587de71125df0b75d2255/puyapy-1.0.1-py3-none-any.whl
+[2024-04-26 08:15:51] WARNING root fetch - processPackages [dbinfer-bench]: Skipping, unable to determine old version
+[2024-04-26 08:15:51] INFO root fetch - main [MainThread]: End processing [dbinfer-bench] error
+[2024-04-26 08:15:51] INFO root fetch - processPackages [algorand-python]: Downloading https://files.pythonhosted.org/packages/15/b4/94cc30c24bd7889537ebc6068e5672c8b4540fa1ba9defdbda704b014015/algorand_python-1.0.1-py3-none-any.whl
+[2024-04-26 08:15:51] INFO root fetch - processPackages [algorand-python]: Downloading https://files.pythonhosted.org/packages/29/35/9aacc3b07a3f9ec7b1e0735e2ce8844c7041f54e9b4cd6de73806e095494/algorand_python-1.1.0-py3-none-any.whl
+[2024-04-26 08:15:52] INFO root fetch - processPackages [puyapy]: Downloading https://files.pythonhosted.org/packages/4a/40/a41ebb4b2abbe11f0779ba09ee4f2bf581f65ed46590ed933c6630361b68/puyapy-2.0.0-py3-none-any.whl
+[2024-04-26 08:15:52] INFO root fetch - processPackages [fake-bpy-module-latest]: New version: [20240426] Old Version: [20240424]
+[2024-04-26 08:15:52] INFO root fetch - processPackages [GaiaScript]: Remove: archive file [/home/abi/fetcher/tmp/GaiaScript-0.1.0.tar.gz]
+[2024-04-26 08:15:52] INFO root fetch - processPackages [GaiaScript]: Remove: archive file [/home/abi/fetcher/tmp/GaiaScript-0.1.1.tar.gz]
+[2024-04-26 08:15:52] INFO root fetch - main [MainThread]: End processing [GaiaScript]: success
+[2024-04-26 08:15:52] INFO root fetch - processPackages [algorand-python]: executing diffoscope
+[2024-04-26 08:15:52] INFO root fetch - processPackages [algorand-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/algorand_python-1.0.1-py3-none-any.whl.zip tmp/algorand_python-1.1.0-py3-none-any.whl.zip --markdown 20240426/a/algorand-python/1.0.1-1.1.0/README.md --exclude *.pyd
+[2024-04-26 08:15:52] INFO root fetch - processPackages [pulumi-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gitlab-6.9.0a1708063247.tar.gz]
+[2024-04-26 08:15:52] INFO root fetch - processPackages [pulumi-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gitlab-6.9.0a1708340471.tar.gz]
+[2024-04-26 08:15:52] INFO root fetch - main [MainThread]: End processing [pulumi-gitlab]: success
+[2024-04-26 08:15:52] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/90/cb/7ec93b8884f4691173c4f60351f8bc6753806d2f7ef3362da155b7bd227b/fake_bpy_module_latest-20240424.tar.gz
+[2024-04-26 08:15:52] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.7.8.tar.gz]
+[2024-04-26 08:15:52] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.7.9.tar.gz]
+[2024-04-26 08:15:52] INFO root fetch - main [MainThread]: End processing [mteb]: success
+[2024-04-26 08:15:52] INFO root fetch - processPackages [puyapy]: executing diffoscope
+[2024-04-26 08:15:52] INFO root fetch - processPackages [puyapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/puyapy-1.0.1-py3-none-any.whl.zip tmp/puyapy-2.0.0-py3-none-any.whl.zip --markdown 20240426/p/puyapy/1.0.1-2.0.0/README.md --exclude *.pyd
+[2024-04-26 08:15:52] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/f1/6e/1959c2f0abc3d133fb0029a581e46fb1f61511ae222fb6e54f9a266c0bc1/fake_bpy_module_latest-20240426.tar.gz
+[2024-04-26 08:15:52] INFO root fetch - processPackages [algorand-python]: Remove: archive file [/home/abi/fetcher/tmp/algorand_python-1.0.1-py3-none-any.whl.zip]
+[2024-04-26 08:15:52] INFO root fetch - processPackages [algorand-python]: Remove: archive file [/home/abi/fetcher/tmp/algorand_python-1.1.0-py3-none-any.whl.zip]
+[2024-04-26 08:15:52] INFO root fetch - main [MainThread]: End processing [algorand-python]: success
+[2024-04-26 08:15:53] INFO root fetch - processPackages [fake-bpy-module-latest]: executing diffoscope
+[2024-04-26 08:15:53] INFO root fetch - processPackages [fake-bpy-module-latest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake_bpy_module_latest-20240424.tar.gz tmp/fake_bpy_module_latest-20240426.tar.gz --markdown 20240426/f/fake-bpy-module-latest/20240424-20240426/README.md --exclude *.pyd
+[2024-04-26 08:15:54] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-2.3.9.dev20240229.tar.gz]
+[2024-04-26 08:15:54] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-2.3.9.dev20240302.tar.gz]
+[2024-04-26 08:15:54] INFO root fetch - main [MainThread]: End processing [pretext]: success
+[2024-04-26 08:15:58] INFO root fetch - processPackages [puyapy]: Remove: archive file [/home/abi/fetcher/tmp/puyapy-1.0.1-py3-none-any.whl.zip]
+[2024-04-26 08:15:58] INFO root fetch - processPackages [puyapy]: Remove: archive file [/home/abi/fetcher/tmp/puyapy-2.0.0-py3-none-any.whl.zip]
+[2024-04-26 08:15:58] INFO root fetch - main [MainThread]: End processing [puyapy]: success
+[2024-04-26 08:16:01] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module_latest-20240424.tar.gz]
+[2024-04-26 08:16:01] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module_latest-20240426.tar.gz]
+[2024-04-26 08:16:01] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
+[2024-04-26 08:16:01] INFO root fetch - main [MainThread]: Store serial: [22943357]
