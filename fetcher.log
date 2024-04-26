@@ -9736,3 +9736,18 @@
 [2024-04-26 07:20:36] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.7.9.tar.gz]
 [2024-04-26 07:20:36] INFO root fetch - main [MainThread]: End processing [mteb]: success
 [2024-04-26 07:20:36] INFO root fetch - main [MainThread]: Store serial: [22942888]
+[2024-04-26 07:22:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22942888]
+[2024-04-26 07:22:45] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-26 07:22:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyscinloopsr
+[2024-04-26 07:22:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Espinosa
+[2024-04-26 07:22:45] INFO root fetch - processPackages [pyscinloopsr]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-26 07:22:45] WARNING root fetch - processPackages [Espinosa]: Skipping, unable to determine old version
+[2024-04-26 07:22:45] INFO root fetch - main [MainThread]: End processing [Espinosa] error
+[2024-04-26 07:22:45] INFO root fetch - processPackages [pyscinloopsr]: Downloading https://files.pythonhosted.org/packages/8c/c2/d6434af412026ddb01e4c1f0bf2ead31afe39cfce6e9ea75efb2fd22b878/pyscinloopsr-1.0.4.tar.gz
+[2024-04-26 07:22:46] INFO root fetch - processPackages [pyscinloopsr]: Downloading https://files.pythonhosted.org/packages/00/d2/016a44daeba7af678ab17255e85a5ba5398386db231a43c783baf9043cd4/pyscinloopsr-1.0.5.tar.gz
+[2024-04-26 07:22:46] INFO root fetch - processPackages [pyscinloopsr]: executing diffoscope
+[2024-04-26 07:22:46] INFO root fetch - processPackages [pyscinloopsr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyscinloopsr-1.0.4.tar.gz tmp/pyscinloopsr-1.0.5.tar.gz --markdown 20240426/p/pyscinloopsr/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-04-26 07:22:46] INFO root fetch - processPackages [pyscinloopsr]: Remove: archive file [/home/abi/fetcher/tmp/pyscinloopsr-1.0.4.tar.gz]
+[2024-04-26 07:22:46] INFO root fetch - processPackages [pyscinloopsr]: Remove: archive file [/home/abi/fetcher/tmp/pyscinloopsr-1.0.5.tar.gz]
+[2024-04-26 07:22:46] INFO root fetch - main [MainThread]: End processing [pyscinloopsr]: success
+[2024-04-26 07:22:46] INFO root fetch - main [MainThread]: Store serial: [22942894]
