@@ -18515,3 +18515,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 13:14:03] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip]
 [2024-04-26 13:14:03] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
 [2024-04-26 13:14:03] INFO root fetch - main [MainThread]: Store serial: [22946700]
+[2024-04-26 13:16:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22946700]
+[2024-04-26 13:16:13] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-26 13:16:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: eral
+[2024-04-26 13:16:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: buildarr-prowlarr
+[2024-04-26 13:16:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: exl2conv
+[2024-04-26 13:16:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cnlitellm
+[2024-04-26 13:16:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: capellambse
+[2024-04-26 13:16:13] INFO root fetch - processPackages [cnlitellm]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-26 13:16:13] INFO root fetch - processPackages [eral]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-26 13:16:13] INFO root fetch - processPackages [capellambse]: New version: [0.5.9.dev5] Old Version: [0.5.9]
+[2024-04-26 13:16:13] INFO root fetch - processPackages [cnlitellm]: Downloading https://files.pythonhosted.org/packages/29/9d/5a8d25de541390bfb6f590bcffb5f06497f3bff2d68eba94030105a675be/cnlitellm-0.2.2.tar.gz
+[2024-04-26 13:16:13] INFO root fetch - processPackages [buildarr-prowlarr]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-04-26 13:16:13] INFO root fetch - processPackages [capellambse]: Downloading https://files.pythonhosted.org/packages/0a/bb/e7974d92c6a3d93dbf30730a6d9302f37f52093b4985246d97e22939147d/capellambse-0.5.9.tar.gz
+[2024-04-26 13:16:13] INFO root fetch - processPackages [exl2conv]: New version: [0.0.19] Old Version: [0.0.18]
+[2024-04-26 13:16:13] INFO root fetch - processPackages [eral]: Downloading https://files.pythonhosted.org/packages/2a/f9/af8b27a8228ffc366b3358717b9f1adea88506d80f9194b5d48c0c0335c3/eral-0.0.2.tar.gz
+[2024-04-26 13:16:13] INFO root fetch - processPackages [buildarr-prowlarr]: Downloading https://files.pythonhosted.org/packages/05/1f/484a58f291433c04e11efb19dfd080e8aa02df838daf5ea01775bd5ef132/buildarr_prowlarr-0.5.1.tar.gz
+[2024-04-26 13:16:13] INFO root fetch - processPackages [exl2conv]: Downloading https://files.pythonhosted.org/packages/39/e4/0a7e40ff8a7d7b8c41c37dca5cb1deb8956438b220df986e318a8ed81c4d/exl2conv-0.0.18.tar.gz
+[2024-04-26 13:16:13] INFO root fetch - processPackages [cnlitellm]: Downloading https://files.pythonhosted.org/packages/73/47/bfbd6ac325f7c84bdd3fe9c06f4b7f647a887cc633473dffb3438f4038a2/cnlitellm-0.2.3.tar.gz
+[2024-04-26 13:16:13] INFO root fetch - processPackages [eral]: Downloading https://files.pythonhosted.org/packages/74/f7/4163694bab25557e68c4f38cfd13feaa5ae8005262aa86fcc2a3da839b57/eral-0.0.3.tar.gz
+[2024-04-26 13:16:13] INFO root fetch - processPackages [cnlitellm]: executing diffoscope
+[2024-04-26 13:16:13] INFO root fetch - processPackages [cnlitellm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cnlitellm-0.2.2.tar.gz tmp/cnlitellm-0.2.3.tar.gz --markdown 20240426/c/cnlitellm/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-04-26 13:16:13] INFO root fetch - processPackages [buildarr-prowlarr]: Downloading https://files.pythonhosted.org/packages/9c/ae/ec20ce05f5c7e0fe57ab5bcf2399ee33a616dcfff87986e36323e68afc99/buildarr_prowlarr-0.5.2.tar.gz
+[2024-04-26 13:16:13] INFO root fetch - processPackages [eral]: executing diffoscope
+[2024-04-26 13:16:13] INFO root fetch - processPackages [eral]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eral-0.0.2.tar.gz tmp/eral-0.0.3.tar.gz --markdown 20240426/e/eral/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-26 13:16:13] INFO root fetch - processPackages [capellambse]: Downloading https://files.pythonhosted.org/packages/31/3c/3a68e2e4cc3165b37471f5302bc500647962d3db54edea8081d0ced76387/capellambse-0.5.9.dev5.tar.gz
+[2024-04-26 13:16:13] INFO root fetch - processPackages [buildarr-prowlarr]: executing diffoscope
+[2024-04-26 13:16:13] INFO root fetch - processPackages [buildarr-prowlarr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buildarr_prowlarr-0.5.1.tar.gz tmp/buildarr_prowlarr-0.5.2.tar.gz --markdown 20240426/b/buildarr-prowlarr/0.5.1-0.5.2/README.md --exclude *.pyd
+[2024-04-26 13:16:14] INFO root fetch - processPackages [exl2conv]: Downloading https://files.pythonhosted.org/packages/56/00/2d9ce353f9e484d40f55604fcb2a6c7424bcdd0da7a903d96263e61462c7/exl2conv-0.0.19.tar.gz
+[2024-04-26 13:16:14] INFO root fetch - processPackages [capellambse]: executing diffoscope
+[2024-04-26 13:16:14] INFO root fetch - processPackages [capellambse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capellambse-0.5.9.tar.gz tmp/capellambse-0.5.9.dev5.tar.gz --markdown 20240426/c/capellambse/0.5.9-0.5.9.dev5/README.md --exclude *.pyd
+[2024-04-26 13:16:14] INFO root fetch - processPackages [cnlitellm]: Remove: archive file [/home/abi/fetcher/tmp/cnlitellm-0.2.2.tar.gz]
+[2024-04-26 13:16:14] INFO root fetch - processPackages [cnlitellm]: Remove: archive file [/home/abi/fetcher/tmp/cnlitellm-0.2.3.tar.gz]
+[2024-04-26 13:16:14] INFO root fetch - main [MainThread]: End processing [cnlitellm]: success
+[2024-04-26 13:16:14] INFO root fetch - processPackages [eral]: Remove: archive file [/home/abi/fetcher/tmp/eral-0.0.2.tar.gz]
+[2024-04-26 13:16:14] INFO root fetch - processPackages [eral]: Remove: archive file [/home/abi/fetcher/tmp/eral-0.0.3.tar.gz]
+[2024-04-26 13:16:14] INFO root fetch - main [MainThread]: End processing [eral]: success
+[2024-04-26 13:16:14] INFO root fetch - processPackages [exl2conv]: executing diffoscope
+[2024-04-26 13:16:14] INFO root fetch - processPackages [exl2conv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exl2conv-0.0.18.tar.gz tmp/exl2conv-0.0.19.tar.gz --markdown 20240426/e/exl2conv/0.0.18-0.0.19/README.md --exclude *.pyd
+[2024-04-26 13:16:14] INFO root fetch - processPackages [buildarr-prowlarr]: Remove: archive file [/home/abi/fetcher/tmp/buildarr_prowlarr-0.5.1.tar.gz]
+[2024-04-26 13:16:14] INFO root fetch - processPackages [buildarr-prowlarr]: Remove: archive file [/home/abi/fetcher/tmp/buildarr_prowlarr-0.5.2.tar.gz]
+[2024-04-26 13:16:14] INFO root fetch - main [MainThread]: End processing [buildarr-prowlarr]: success
+[2024-04-26 13:16:15] INFO root fetch - processPackages [exl2conv]: Remove: archive file [/home/abi/fetcher/tmp/exl2conv-0.0.18.tar.gz]
+[2024-04-26 13:16:15] INFO root fetch - processPackages [exl2conv]: Remove: archive file [/home/abi/fetcher/tmp/exl2conv-0.0.19.tar.gz]
+[2024-04-26 13:16:15] INFO root fetch - main [MainThread]: End processing [exl2conv]: success
+[2024-04-26 13:16:19] INFO root fetch - processPackages [capellambse]: Remove: archive file [/home/abi/fetcher/tmp/capellambse-0.5.9.tar.gz]
+[2024-04-26 13:16:19] INFO root fetch - processPackages [capellambse]: Remove: archive file [/home/abi/fetcher/tmp/capellambse-0.5.9.dev5.tar.gz]
+[2024-04-26 13:16:19] INFO root fetch - main [MainThread]: End processing [capellambse]: success
+[2024-04-26 13:16:19] INFO root fetch - main [MainThread]: Store serial: [22946716]
