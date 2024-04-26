@@ -7415,3 +7415,17 @@
 [2024-04-26 04:23:04] INFO root fetch - processPackages [Pokeam-Base]: Remove: archive file [/home/abi/fetcher/tmp/pokeam_base-1.0.2.tar.gz]
 [2024-04-26 04:23:04] INFO root fetch - main [MainThread]: End processing [Pokeam-Base]: success
 [2024-04-26 04:23:04] INFO root fetch - main [MainThread]: Store serial: [22941932]
+[2024-04-26 04:25:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22941932]
+[2024-04-26 04:25:14] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-26 04:27:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22941934]
+[2024-04-26 04:27:19] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-26 04:27:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyhasura
+[2024-04-26 04:27:20] INFO root fetch - processPackages [pyhasura]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-04-26 04:27:20] INFO root fetch - processPackages [pyhasura]: Downloading https://files.pythonhosted.org/packages/3c/f1/05d877253f75c89b0176ce40f7960b6dd2eace46ca70bf8c1e48529d10d6/pyhasura-1.0.5.tar.gz
+[2024-04-26 04:27:20] INFO root fetch - processPackages [pyhasura]: Downloading https://files.pythonhosted.org/packages/9a/51/aec3eb1df37db784942db862c654dbfa6dbd5a50e92df17ee86c306b2e8f/pyhasura-1.0.6.tar.gz
+[2024-04-26 04:27:20] INFO root fetch - processPackages [pyhasura]: executing diffoscope
+[2024-04-26 04:27:20] INFO root fetch - processPackages [pyhasura]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhasura-1.0.5.tar.gz tmp/pyhasura-1.0.6.tar.gz --markdown 20240426/p/pyhasura/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-04-26 04:27:21] INFO root fetch - processPackages [pyhasura]: Remove: archive file [/home/abi/fetcher/tmp/pyhasura-1.0.5.tar.gz]
+[2024-04-26 04:27:21] INFO root fetch - processPackages [pyhasura]: Remove: archive file [/home/abi/fetcher/tmp/pyhasura-1.0.6.tar.gz]
+[2024-04-26 04:27:21] INFO root fetch - main [MainThread]: End processing [pyhasura]: success
+[2024-04-26 04:27:21] INFO root fetch - main [MainThread]: Store serial: [22941938]
