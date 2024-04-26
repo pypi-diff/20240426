@@ -17333,3 +17333,81 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 12:21:03] INFO root fetch - processPackages [STASCAN]: Remove: archive file [/home/abi/fetcher/tmp/STASCAN-1.1.0.tar.gz]
 [2024-04-26 12:21:03] INFO root fetch - main [MainThread]: End processing [STASCAN]: success
 [2024-04-26 12:21:03] INFO root fetch - main [MainThread]: Store serial: [22946215]
+[2024-04-26 12:23:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22946215]
+[2024-04-26 12:23:12] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-26 12:23:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nvfuser-cu121
+[2024-04-26 12:23:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: langwatch
+[2024-04-26 12:23:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pysql-repo
+[2024-04-26 12:23:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: troi
+[2024-04-26 12:23:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nvfuser-cu118
+[2024-04-26 12:23:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-account-commission
+[2024-04-26 12:23:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-commission
+[2024-04-26 12:23:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: alphaz-next
+[2024-04-26 12:23:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: abha
+[2024-04-26 12:23:13] INFO root fetch - processPackages [pysql-repo]: New version: [0.6.1] Old Version: [0.6.0]
+[2024-04-26 12:23:13] INFO root fetch - processPackages [nvfuser-cu118]: New version: [0.2.3.dev20240425] Old Version: [0.2.3.dev20240424]
+[2024-04-26 12:23:13] INFO root fetch - processPackages [nvfuser-cu121]: New version: [0.2.3.dev20240425] Old Version: [0.2.3.dev20240424]
+[2024-04-26 12:23:13] INFO root fetch - processPackages [alphaz-next]: New version: [0.5.7] Old Version: [0.5.6]
+[2024-04-26 12:23:13] INFO root fetch - processPackages [pysql-repo]: Downloading https://files.pythonhosted.org/packages/7e/4c/eecc1a16d784ffc161d4e3c983c7ebd7d6181d846a1415ac945a0604b737/pysql-repo-0.6.0.tar.gz
+[2024-04-26 12:23:13] INFO root fetch - processPackages [langwatch]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-26 12:23:13] INFO root fetch - processPackages [troi]: New version: [2024.4.26.0] Old Version: [2024.2.9.0]
+[2024-04-26 12:23:13] WARNING root fetch - processPackages [abha]: Skipping, unable to determine old version
+[2024-04-26 12:23:13] INFO root fetch - main [MainThread]: End processing [abha] error
+[2024-04-26 12:23:13] INFO root fetch - processPackages [odoo-addon-account-commission]: New version: [16.0.2.4.0] Old Version: [16.0.2.3.0.1]
+[2024-04-26 12:23:13] INFO root fetch - processPackages [odoo-addon-commission]: New version: [17.0.1.0.0.5] Old Version: [17.0.1.0.0.4]
+[2024-04-26 12:23:13] INFO root fetch - processPackages [nvfuser-cu118]: Downloading https://files.pythonhosted.org/packages/7f/8e/58fd8368de5476abf3478e152ab88cb4ca2ce686e705fab066a375fb6f47/nvfuser_cu118-0.2.3.dev20240424.tar.gz
+[2024-04-26 12:23:13] INFO root fetch - processPackages [alphaz-next]: Downloading https://files.pythonhosted.org/packages/fa/25/9001ad2ad7685cde496756975dd394fd15160f7389048f4e2c4c72411ec0/alphaz-next-0.5.6.tar.gz
+[2024-04-26 12:23:13] INFO root fetch - processPackages [nvfuser-cu121]: Downloading https://files.pythonhosted.org/packages/a7/4b/8645f9e571484ea411d61772c65feb92f6e26f97959ab8546b1429a7914f/nvfuser_cu121-0.2.3.dev20240424.tar.gz
+[2024-04-26 12:23:13] INFO root fetch - processPackages [troi]: Downloading https://files.pythonhosted.org/packages/92/2e/8e203c9b603a03cd1bdded35d2dc1e9dedcf3657f504e68d825da3fc4109/troi-2024.2.9.0.tar.gz
+[2024-04-26 12:23:13] INFO root fetch - processPackages [langwatch]: Downloading https://files.pythonhosted.org/packages/5a/e9/3864799ca400b5ae11962a267077e41212e295457c88da2b48a58594d35b/langwatch-0.0.8.tar.gz
+[2024-04-26 12:23:13] INFO root fetch - processPackages [odoo-addon-commission]: Downloading https://files.pythonhosted.org/packages/f8/36/24e37368a21041c63ac24fde57d0b5f064634ac3d188c2a9977d18016c5d/odoo_addon_commission-17.0.1.0.0.4-py3-none-any.whl
+[2024-04-26 12:23:13] INFO root fetch - processPackages [nvfuser-cu118]: Downloading https://files.pythonhosted.org/packages/ec/0c/10cef930a67cd11bb3f08dd51f29eafe68408d73c32937b7e352f7406857/nvfuser_cu118-0.2.3.dev20240425.tar.gz
+[2024-04-26 12:23:13] INFO root fetch - processPackages [nvfuser-cu121]: Downloading https://files.pythonhosted.org/packages/81/7e/897db9218f81daf45ec462f51a7fca55987703462a77e5359d03602b8448/nvfuser_cu121-0.2.3.dev20240425.tar.gz
+[2024-04-26 12:23:13] INFO root fetch - processPackages [odoo-addon-account-commission]: Downloading https://files.pythonhosted.org/packages/c3/13/7122feb4d0a538e46136a643f3137b51eb9f6d0bda52f6084120cec234a5/odoo_addon_account_commission-16.0.2.3.0.1-py3-none-any.whl
+[2024-04-26 12:23:13] INFO root fetch - processPackages [pysql-repo]: Downloading https://files.pythonhosted.org/packages/94/90/71ce9305f158c8c45b0608a33b1adb7b4dc728325645adb5a36882073e03/pysql-repo-0.6.1.tar.gz
+[2024-04-26 12:23:13] INFO root fetch - processPackages [nvfuser-cu118]: executing diffoscope
+[2024-04-26 12:23:13] INFO root fetch - processPackages [nvfuser-cu118]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu118-0.2.3.dev20240424.tar.gz tmp/nvfuser_cu118-0.2.3.dev20240425.tar.gz --markdown 20240426/n/nvfuser-cu118/0.2.3.dev20240424-0.2.3.dev20240425/README.md --exclude *.pyd
+[2024-04-26 12:23:13] INFO root fetch - processPackages [alphaz-next]: Downloading https://files.pythonhosted.org/packages/81/9f/d9cb60da04b42916313b9eae62a847902171c9f8066c36fec7228d2a48d6/alphaz-next-0.5.7.tar.gz
+[2024-04-26 12:23:13] INFO root fetch - processPackages [nvfuser-cu121]: executing diffoscope
+[2024-04-26 12:23:13] INFO root fetch - processPackages [nvfuser-cu121]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu121-0.2.3.dev20240424.tar.gz tmp/nvfuser_cu121-0.2.3.dev20240425.tar.gz --markdown 20240426/n/nvfuser-cu121/0.2.3.dev20240424-0.2.3.dev20240425/README.md --exclude *.pyd
+[2024-04-26 12:23:13] INFO root fetch - processPackages [pysql-repo]: executing diffoscope
+[2024-04-26 12:23:13] INFO root fetch - processPackages [pysql-repo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysql-repo-0.6.0.tar.gz tmp/pysql-repo-0.6.1.tar.gz --markdown 20240426/p/pysql-repo/0.6.0-0.6.1/README.md --exclude *.pyd
+[2024-04-26 12:23:13] INFO root fetch - processPackages [troi]: Downloading https://files.pythonhosted.org/packages/8a/c5/917cdc085962e0995a42ce1f0b626a3fb5add7eba59fd07c2079ca67a551/troi-2024.4.26.0.tar.gz
+[2024-04-26 12:23:13] INFO root fetch - processPackages [alphaz-next]: executing diffoscope
+[2024-04-26 12:23:13] INFO root fetch - processPackages [alphaz-next]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alphaz-next-0.5.6.tar.gz tmp/alphaz-next-0.5.7.tar.gz --markdown 20240426/a/alphaz-next/0.5.6-0.5.7/README.md --exclude *.pyd
+[2024-04-26 12:23:13] INFO root fetch - processPackages [langwatch]: Downloading https://files.pythonhosted.org/packages/ca/d2/7dba8299d65257fe500a9d804ac2a4a507381a01516d584c45950754b775/langwatch-0.0.9.tar.gz
+[2024-04-26 12:23:13] INFO root fetch - processPackages [odoo-addon-commission]: Downloading https://files.pythonhosted.org/packages/75/1f/bf1cb0eb36159b0ad122b37fb99fe773c4d66b32f18fc0dc99b9d8382223/odoo_addon_commission-17.0.1.0.0.5-py3-none-any.whl
+[2024-04-26 12:23:13] INFO root fetch - processPackages [odoo-addon-account-commission]: Downloading https://files.pythonhosted.org/packages/2d/f8/e50513c2f47291cbada338d97606739f48321a83821074a853b3cf4fd050/odoo_addon_account_commission-16.0.2.4.0-py3-none-any.whl
+[2024-04-26 12:23:13] INFO root fetch - processPackages [troi]: executing diffoscope
+[2024-04-26 12:23:13] INFO root fetch - processPackages [troi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/troi-2024.2.9.0.tar.gz tmp/troi-2024.4.26.0.tar.gz --markdown 20240426/t/troi/2024.2.9.0-2024.4.26.0/README.md --exclude *.pyd
+[2024-04-26 12:23:13] INFO root fetch - processPackages [odoo-addon-commission]: executing diffoscope
+[2024-04-26 12:23:13] INFO root fetch - processPackages [odoo-addon-commission]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_commission-17.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_commission-17.0.1.0.0.5-py3-none-any.whl.zip --markdown 20240426/o/odoo-addon-commission/17.0.1.0.0.4-17.0.1.0.0.5/README.md --exclude *.pyd
+[2024-04-26 12:23:13] INFO root fetch - processPackages [langwatch]: executing diffoscope
+[2024-04-26 12:23:13] INFO root fetch - processPackages [langwatch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langwatch-0.0.8.tar.gz tmp/langwatch-0.0.9.tar.gz --markdown 20240426/l/langwatch/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-26 12:23:14] INFO root fetch - processPackages [odoo-addon-account-commission]: executing diffoscope
+[2024-04-26 12:23:14] INFO root fetch - processPackages [odoo-addon-account-commission]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_commission-16.0.2.3.0.1-py3-none-any.whl.zip tmp/odoo_addon_account_commission-16.0.2.4.0-py3-none-any.whl.zip --markdown 20240426/o/odoo-addon-account-commission/16.0.2.3.0.1-16.0.2.4.0/README.md --exclude *.pyd
+[2024-04-26 12:23:14] INFO root fetch - processPackages [nvfuser-cu121]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu121-0.2.3.dev20240424.tar.gz]
+[2024-04-26 12:23:14] INFO root fetch - processPackages [nvfuser-cu121]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu121-0.2.3.dev20240425.tar.gz]
+[2024-04-26 12:23:14] INFO root fetch - main [MainThread]: End processing [nvfuser-cu121]: success
+[2024-04-26 12:23:14] INFO root fetch - processPackages [nvfuser-cu118]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu118-0.2.3.dev20240424.tar.gz]
+[2024-04-26 12:23:14] INFO root fetch - processPackages [nvfuser-cu118]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu118-0.2.3.dev20240425.tar.gz]
+[2024-04-26 12:23:14] INFO root fetch - main [MainThread]: End processing [nvfuser-cu118]: success
+[2024-04-26 12:23:14] INFO root fetch - processPackages [pysql-repo]: Remove: archive file [/home/abi/fetcher/tmp/pysql-repo-0.6.0.tar.gz]
+[2024-04-26 12:23:14] INFO root fetch - processPackages [pysql-repo]: Remove: archive file [/home/abi/fetcher/tmp/pysql-repo-0.6.1.tar.gz]
+[2024-04-26 12:23:14] INFO root fetch - main [MainThread]: End processing [pysql-repo]: success
+[2024-04-26 12:23:14] INFO root fetch - processPackages [alphaz-next]: Remove: archive file [/home/abi/fetcher/tmp/alphaz-next-0.5.6.tar.gz]
+[2024-04-26 12:23:14] INFO root fetch - processPackages [alphaz-next]: Remove: archive file [/home/abi/fetcher/tmp/alphaz-next-0.5.7.tar.gz]
+[2024-04-26 12:23:14] INFO root fetch - main [MainThread]: End processing [alphaz-next]: success
+[2024-04-26 12:23:14] INFO root fetch - processPackages [langwatch]: Remove: archive file [/home/abi/fetcher/tmp/langwatch-0.0.8.tar.gz]
+[2024-04-26 12:23:14] INFO root fetch - processPackages [langwatch]: Remove: archive file [/home/abi/fetcher/tmp/langwatch-0.0.9.tar.gz]
+[2024-04-26 12:23:14] INFO root fetch - main [MainThread]: End processing [langwatch]: success
+[2024-04-26 12:23:14] INFO root fetch - processPackages [odoo-addon-account-commission]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_commission-16.0.2.3.0.1-py3-none-any.whl.zip]
+[2024-04-26 12:23:14] INFO root fetch - processPackages [odoo-addon-account-commission]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_commission-16.0.2.4.0-py3-none-any.whl.zip]
+[2024-04-26 12:23:14] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-commission]: success
+[2024-04-26 12:23:14] INFO root fetch - processPackages [odoo-addon-commission]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_commission-17.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-04-26 12:23:14] INFO root fetch - processPackages [odoo-addon-commission]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_commission-17.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-04-26 12:23:14] INFO root fetch - main [MainThread]: End processing [odoo-addon-commission]: success
+[2024-04-26 12:23:15] INFO root fetch - processPackages [troi]: Remove: archive file [/home/abi/fetcher/tmp/troi-2024.2.9.0.tar.gz]
+[2024-04-26 12:23:15] INFO root fetch - processPackages [troi]: Remove: archive file [/home/abi/fetcher/tmp/troi-2024.4.26.0.tar.gz]
+[2024-04-26 12:23:15] INFO root fetch - main [MainThread]: End processing [troi]: success
+[2024-04-26 12:23:15] INFO root fetch - main [MainThread]: Store serial: [22946240]
