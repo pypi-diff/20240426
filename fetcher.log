@@ -6648,3 +6648,69 @@
 [2024-04-26 03:19:10] INFO root fetch - processPackages [mapclient]: Remove: archive file [/home/abi/fetcher/tmp/mapclient-0.21.0-py3-none-any.whl.zip]
 [2024-04-26 03:19:10] INFO root fetch - main [MainThread]: End processing [mapclient]: success
 [2024-04-26 03:19:10] INFO root fetch - main [MainThread]: Store serial: [22941148]
+[2024-04-26 03:21:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22941148]
+[2024-04-26 03:21:25] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-26 03:21:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flet-iconoir
+[2024-04-26 03:21:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: RedVert
+[2024-04-26 03:21:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: f4
+[2024-04-26 03:21:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: monit-agd
+[2024-04-26 03:21:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: offchain
+[2024-04-26 03:21:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: helios-ml
+[2024-04-26 03:21:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cloudforet-console-api-v2
+[2024-04-26 03:21:25] INFO root fetch - processPackages [monit-agd]: New version: [1.3.5] Old Version: [1.3.4]
+[2024-04-26 03:21:25] INFO root fetch - processPackages [helios-ml]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-26 03:21:25] INFO root fetch - processPackages [flet-iconoir]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-26 03:21:25] INFO root fetch - processPackages [monit-agd]: Downloading https://files.pythonhosted.org/packages/ce/ad/76bc01196ca3a907b9458669ff87cc6003fd1de13c4e2392657a16c76129/monit-agd-1.3.4.tar.gz
+[2024-04-26 03:21:25] INFO root fetch - processPackages [helios-ml]: Downloading https://files.pythonhosted.org/packages/3c/e3/e16a0c719ec3ea4a696dd0d92b002bd46f5d391aa24be98a55f302e24a1d/helios_ml-0.1.3.tar.gz
+[2024-04-26 03:21:25] INFO root fetch - processPackages [offchain]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-04-26 03:21:25] INFO root fetch - processPackages [flet-iconoir]: Downloading https://files.pythonhosted.org/packages/7f/7c/80525ca0a507b59e2044f0ac1f3b5e88164c593ae0bfaa79100f42307aae/flet_iconoir-0.1.3.tar.gz
+[2024-04-26 03:21:25] INFO root fetch - processPackages [RedVert]: New version: [1.3.1] Old Version: [1.3.0]
+[2024-04-26 03:21:25] INFO root fetch - processPackages [f4]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-26 03:21:25] INFO root fetch - processPackages [cloudforet-console-api-v2]: New version: [2.0.dev99] Old Version: [2.0.dev98]
+[2024-04-26 03:21:26] INFO root fetch - processPackages [RedVert]: Downloading https://files.pythonhosted.org/packages/7d/cf/ac3b7e23182c7962b843e3ae597e4e37e6a4430f31d3965de5f740671280/redvert-1.3.0.tar.gz
+[2024-04-26 03:21:26] INFO root fetch - processPackages [offchain]: Downloading https://files.pythonhosted.org/packages/f7/d2/462b2d8ffc3adb1aa57318431f3d9d488311b9d4c2e6578f899bf238d6e9/offchain-0.3.2.tar.gz
+[2024-04-26 03:21:26] INFO root fetch - processPackages [f4]: Downloading https://files.pythonhosted.org/packages/f5/df/7aa6fee7f3660779359c0ca3981433892fa4ea4be3662a9d8c61050cede6/f4-0.9.8.tar.gz
+[2024-04-26 03:21:26] INFO root fetch - processPackages [cloudforet-console-api-v2]: Downloading https://files.pythonhosted.org/packages/b1/83/382d576c7baaf1076b4ba63610379bfef3bb2bd2d564ad1843394c61f1a8/cloudforet-console-api-v2-2.0.dev98.tar.gz
+[2024-04-26 03:21:26] INFO root fetch - processPackages [monit-agd]: Downloading https://files.pythonhosted.org/packages/c7/08/bcca48970e1896b7442ac509ae36a42482364d1d5f4c077de15729ca0716/monit-agd-1.3.5.tar.gz
+[2024-04-26 03:21:26] INFO root fetch - processPackages [flet-iconoir]: Downloading https://files.pythonhosted.org/packages/74/e5/1d7a1e039b854a0b90cb15182bd4c6f06ca04ed43727250d498b1fb3d329/flet_iconoir-0.1.4.tar.gz
+[2024-04-26 03:21:26] INFO root fetch - processPackages [helios-ml]: Downloading https://files.pythonhosted.org/packages/ce/6f/d4d60641a9af018d44e5638d324962879aef931b201dbe214c3d6186d06d/helios_ml-0.1.4.tar.gz
+[2024-04-26 03:21:26] INFO root fetch - processPackages [monit-agd]: executing diffoscope
+[2024-04-26 03:21:26] INFO root fetch - processPackages [monit-agd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monit-agd-1.3.4.tar.gz tmp/monit-agd-1.3.5.tar.gz --markdown 20240426/m/monit-agd/1.3.4-1.3.5/README.md --exclude *.pyd
+[2024-04-26 03:21:26] INFO root fetch - processPackages [RedVert]: Downloading https://files.pythonhosted.org/packages/0a/03/bc2981ff559c27d882105e9d517db5265a5fa7c9e400db623f330ff05c1a/redvert-1.3.1.tar.gz
+[2024-04-26 03:21:26] INFO root fetch - processPackages [helios-ml]: executing diffoscope
+[2024-04-26 03:21:26] INFO root fetch - processPackages [helios-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/helios_ml-0.1.3.tar.gz tmp/helios_ml-0.1.4.tar.gz --markdown 20240426/h/helios-ml/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-26 03:21:26] INFO root fetch - processPackages [flet-iconoir]: executing diffoscope
+[2024-04-26 03:21:26] INFO root fetch - processPackages [flet-iconoir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_iconoir-0.1.3.tar.gz tmp/flet_iconoir-0.1.4.tar.gz --markdown 20240426/f/flet-iconoir/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-26 03:21:26] INFO root fetch - processPackages [offchain]: Downloading https://files.pythonhosted.org/packages/70/e6/56dbe65e55e7831102438bf99840af1a9152b115a540d1238ebf4a4a14b1/offchain-0.3.3.tar.gz
+[2024-04-26 03:21:26] INFO root fetch - processPackages [f4]: Downloading https://files.pythonhosted.org/packages/7b/c3/b7fd71e9fae8350677e8790b2e47787a47cbfbb2797e68349ec069045d03/f4-0.9.9.tar.gz
+[2024-04-26 03:21:26] INFO root fetch - processPackages [RedVert]: executing diffoscope
+[2024-04-26 03:21:26] INFO root fetch - processPackages [RedVert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redvert-1.3.0.tar.gz tmp/redvert-1.3.1.tar.gz --markdown 20240426/R/RedVert/1.3.0-1.3.1/README.md --exclude *.pyd
+[2024-04-26 03:21:26] INFO root fetch - processPackages [offchain]: executing diffoscope
+[2024-04-26 03:21:26] INFO root fetch - processPackages [offchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/offchain-0.3.2.tar.gz tmp/offchain-0.3.3.tar.gz --markdown 20240426/o/offchain/0.3.2-0.3.3/README.md --exclude *.pyd
+[2024-04-26 03:21:26] INFO root fetch - processPackages [f4]: executing diffoscope
+[2024-04-26 03:21:26] INFO root fetch - processPackages [f4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/f4-0.9.8.tar.gz tmp/f4-0.9.9.tar.gz --markdown 20240426/f/f4/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-26 03:21:26] INFO root fetch - processPackages [cloudforet-console-api-v2]: Downloading https://files.pythonhosted.org/packages/cc/3a/2cab122ef371d628e0e339e8a0b5233e79840b362512069527bd9fce8f78/cloudforet-console-api-v2-2.0.dev99.tar.gz
+[2024-04-26 03:21:26] INFO root fetch - processPackages [cloudforet-console-api-v2]: executing diffoscope
+[2024-04-26 03:21:26] INFO root fetch - processPackages [cloudforet-console-api-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudforet-console-api-v2-2.0.dev98.tar.gz tmp/cloudforet-console-api-v2-2.0.dev99.tar.gz --markdown 20240426/c/cloudforet-console-api-v2/2.0.dev98-2.0.dev99/README.md --exclude *.pyd
+[2024-04-26 03:21:27] INFO root fetch - processPackages [monit-agd]: Remove: archive file [/home/abi/fetcher/tmp/monit-agd-1.3.4.tar.gz]
+[2024-04-26 03:21:27] INFO root fetch - processPackages [monit-agd]: Remove: archive file [/home/abi/fetcher/tmp/monit-agd-1.3.5.tar.gz]
+[2024-04-26 03:21:27] INFO root fetch - main [MainThread]: End processing [monit-agd]: success
+[2024-04-26 03:21:27] INFO root fetch - processPackages [RedVert]: Remove: archive file [/home/abi/fetcher/tmp/redvert-1.3.0.tar.gz]
+[2024-04-26 03:21:27] INFO root fetch - processPackages [RedVert]: Remove: archive file [/home/abi/fetcher/tmp/redvert-1.3.1.tar.gz]
+[2024-04-26 03:21:27] INFO root fetch - main [MainThread]: End processing [RedVert]: success
+[2024-04-26 03:21:27] INFO root fetch - processPackages [helios-ml]: Remove: archive file [/home/abi/fetcher/tmp/helios_ml-0.1.3.tar.gz]
+[2024-04-26 03:21:27] INFO root fetch - processPackages [helios-ml]: Remove: archive file [/home/abi/fetcher/tmp/helios_ml-0.1.4.tar.gz]
+[2024-04-26 03:21:27] INFO root fetch - main [MainThread]: End processing [helios-ml]: success
+[2024-04-26 03:21:27] INFO root fetch - processPackages [f4]: Remove: archive file [/home/abi/fetcher/tmp/f4-0.9.8.tar.gz]
+[2024-04-26 03:21:27] INFO root fetch - processPackages [f4]: Remove: archive file [/home/abi/fetcher/tmp/f4-0.9.9.tar.gz]
+[2024-04-26 03:21:27] INFO root fetch - main [MainThread]: End processing [f4]: success
+[2024-04-26 03:21:27] INFO root fetch - processPackages [offchain]: Remove: archive file [/home/abi/fetcher/tmp/offchain-0.3.2.tar.gz]
+[2024-04-26 03:21:27] INFO root fetch - processPackages [offchain]: Remove: archive file [/home/abi/fetcher/tmp/offchain-0.3.3.tar.gz]
+[2024-04-26 03:21:27] INFO root fetch - main [MainThread]: End processing [offchain]: success
+[2024-04-26 03:21:27] INFO root fetch - processPackages [cloudforet-console-api-v2]: Remove: archive file [/home/abi/fetcher/tmp/cloudforet-console-api-v2-2.0.dev98.tar.gz]
+[2024-04-26 03:21:27] INFO root fetch - processPackages [cloudforet-console-api-v2]: Remove: archive file [/home/abi/fetcher/tmp/cloudforet-console-api-v2-2.0.dev99.tar.gz]
+[2024-04-26 03:21:27] INFO root fetch - main [MainThread]: End processing [cloudforet-console-api-v2]: success
+[2024-04-26 03:21:32] INFO root fetch - processPackages [flet-iconoir]: Remove: archive file [/home/abi/fetcher/tmp/flet_iconoir-0.1.3.tar.gz]
+[2024-04-26 03:21:32] INFO root fetch - processPackages [flet-iconoir]: Remove: archive file [/home/abi/fetcher/tmp/flet_iconoir-0.1.4.tar.gz]
+[2024-04-26 03:21:32] INFO root fetch - main [MainThread]: End processing [flet-iconoir]: success
+[2024-04-26 03:21:32] INFO root fetch - main [MainThread]: Store serial: [22941240]
