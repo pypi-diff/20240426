@@ -17130,3 +17130,85 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 12:14:06] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-6.9.0a1700084435.tar.gz]
 [2024-04-26 12:14:06] INFO root fetch - main [MainThread]: End processing [pulumi-aws]: success
 [2024-04-26 12:14:06] INFO root fetch - main [MainThread]: Store serial: [22946152]
+[2024-04-26 12:16:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22946152]
+[2024-04-26 12:16:15] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-26 12:16:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ssb-statstruk
+[2024-04-26 12:16:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bitwarden-import-msecure
+[2024-04-26 12:16:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alphaz-next
+[2024-04-26 12:16:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: acquire
+[2024-04-26 12:16:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nova
+[2024-04-26 12:16:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: streply-sdk
+[2024-04-26 12:16:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PREN-flawas
+[2024-04-26 12:16:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ares-ai
+[2024-04-26 12:16:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ares-ai
+[2024-04-26 12:16:15] INFO root fetch - processPackages [bitwarden-import-msecure]: New version: [1.6.0] Old Version: [1.5.0]
+[2024-04-26 12:16:15] INFO root fetch - processPackages [PREN-flawas]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-26 12:16:15] INFO root fetch - processPackages [acquire]: New version: [3.9.dev9] Old Version: [3.9.dev8]
+[2024-04-26 12:16:15] INFO root fetch - processPackages [alphaz-next]: New version: [0.5.6] Old Version: [0.5.5]
+[2024-04-26 12:16:15] INFO root fetch - processPackages [bitwarden-import-msecure]: Downloading https://files.pythonhosted.org/packages/ac/52/5e7ad8b6686ff61e30e75eaed455f67de348bf806c464fd51fd1ce3c8f8b/bitwarden_import_msecure-1.5.0.tar.gz
+[2024-04-26 12:16:15] INFO root fetch - processPackages [ares-ai]: New version: [0.5.4] Old Version: [0.2.4]
+[2024-04-26 12:16:15] INFO root fetch - processPackages [ares-ai]: New version: [0.5.4] Old Version: [0.2.4]
+[2024-04-26 12:16:15] INFO root fetch - processPackages [streply-sdk]: New version: [0.0.3] Old Version: [0.0.1]
+[2024-04-26 12:16:15] INFO root fetch - processPackages [ssb-statstruk]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-26 12:16:15] INFO root fetch - processPackages [nova]: New version: [29.0.1] Old Version: [29.0.0.0rc1]
+[2024-04-26 12:16:15] INFO root fetch - processPackages [PREN-flawas]: Downloading https://files.pythonhosted.org/packages/7a/00/f05441614283fc3106d11a7c88cbbe431478d04d88ad321018774cec9a00/pren_flawas-0.0.8.tar.gz
+[2024-04-26 12:16:15] INFO root fetch - processPackages [alphaz-next]: Downloading https://files.pythonhosted.org/packages/a8/dd/5633d65c630d345cfc49744bdc4b4f7c6e2cd6faca4022ce04eeca554cf9/alphaz-next-0.5.5.tar.gz
+[2024-04-26 12:16:15] INFO root fetch - processPackages [ares-ai]: Downloading https://files.pythonhosted.org/packages/03/c1/c770b1004fb357623a5a420e5c38874963cc8ab4bf127a0c170b886965fc/ares_ai-0.2.4.tar.gz
+[2024-04-26 12:16:15] INFO root fetch - processPackages [ares-ai]: Downloading https://files.pythonhosted.org/packages/03/c1/c770b1004fb357623a5a420e5c38874963cc8ab4bf127a0c170b886965fc/ares_ai-0.2.4.tar.gz
+[2024-04-26 12:16:15] INFO root fetch - processPackages [acquire]: Downloading https://files.pythonhosted.org/packages/84/93/0ad75506614e6982b031006a623fa4914f082e8791f6297b87e24cd0f382/acquire-3.9.dev8.tar.gz
+[2024-04-26 12:16:15] INFO root fetch - processPackages [ssb-statstruk]: Downloading https://files.pythonhosted.org/packages/36/7f/cb5d94bb735e1259565bd7963811e6e933d01d66d2564f73b9e2e834c140/ssb_statstruk-0.0.5.tar.gz
+[2024-04-26 12:16:15] INFO root fetch - processPackages [streply-sdk]: Downloading https://files.pythonhosted.org/packages/ae/6c/32415b58af710ab924fbe691bcfb66c5abd1f37b7f7a47cf2fbf5dba0b4f/streply_sdk-0.0.1.tar.gz
+[2024-04-26 12:16:15] INFO root fetch - processPackages [nova]: Downloading https://files.pythonhosted.org/packages/76/c8/9246d62ae3f2f1e5edf9ae1d09c18d7e6422ace7aff5733c9c9cd3e7bd65/nova-29.0.0.0rc1.tar.gz
+[2024-04-26 12:16:15] INFO root fetch - processPackages [bitwarden-import-msecure]: Downloading https://files.pythonhosted.org/packages/85/70/0c4c7bceb8ef36eef7e7e68c3fcdc667f797d15af0b9321d3b28bd6a3083/bitwarden_import_msecure-1.6.0.tar.gz
+[2024-04-26 12:16:15] INFO root fetch - processPackages [PREN-flawas]: Downloading https://files.pythonhosted.org/packages/26/0e/1c9f4343ee2bb5893b69f1ad4a5d4e7e1d61864fea4f62bee7194882470e/pren_flawas-0.0.9.tar.gz
+[2024-04-26 12:16:15] INFO root fetch - processPackages [bitwarden-import-msecure]: executing diffoscope
+[2024-04-26 12:16:15] INFO root fetch - processPackages [bitwarden-import-msecure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bitwarden_import_msecure-1.5.0.tar.gz tmp/bitwarden_import_msecure-1.6.0.tar.gz --markdown 20240426/b/bitwarden-import-msecure/1.5.0-1.6.0/README.md --exclude *.pyd
+[2024-04-26 12:16:16] INFO root fetch - processPackages [alphaz-next]: Downloading https://files.pythonhosted.org/packages/fa/25/9001ad2ad7685cde496756975dd394fd15160f7389048f4e2c4c72411ec0/alphaz-next-0.5.6.tar.gz
+[2024-04-26 12:16:16] INFO root fetch - processPackages [streply-sdk]: Downloading https://files.pythonhosted.org/packages/cc/5f/56e142e10021be1a9bc078345ab275f4aa6418c84597af43f0aae4d5b453/streply_sdk-0.0.3.tar.gz
+[2024-04-26 12:16:16] INFO root fetch - processPackages [ssb-statstruk]: Downloading https://files.pythonhosted.org/packages/af/4f/fca09647782f5e6d0e93c4056ca2b69f08bff4f1892776c055ae6b2e756e/ssb_statstruk-0.0.6.tar.gz
+[2024-04-26 12:16:16] INFO root fetch - processPackages [acquire]: Downloading https://files.pythonhosted.org/packages/a5/45/14009b331bc74be537a1be7f24ceae3e6bd070ca28f848a7f1002bd95f8e/acquire-3.9.dev9.tar.gz
+[2024-04-26 12:16:16] INFO root fetch - processPackages [ares-ai]: Downloading https://files.pythonhosted.org/packages/71/a2/93c9a62902b63670f8a278b2b870ef9f11acdfdf1d07407096d11f813a2b/ares_ai-0.5.4.tar.gz
+[2024-04-26 12:16:16] INFO root fetch - processPackages [ares-ai]: Downloading https://files.pythonhosted.org/packages/71/a2/93c9a62902b63670f8a278b2b870ef9f11acdfdf1d07407096d11f813a2b/ares_ai-0.5.4.tar.gz
+[2024-04-26 12:16:16] INFO root fetch - processPackages [alphaz-next]: executing diffoscope
+[2024-04-26 12:16:16] INFO root fetch - processPackages [alphaz-next]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alphaz-next-0.5.5.tar.gz tmp/alphaz-next-0.5.6.tar.gz --markdown 20240426/a/alphaz-next/0.5.5-0.5.6/README.md --exclude *.pyd
+[2024-04-26 12:16:16] INFO root fetch - processPackages [streply-sdk]: executing diffoscope
+[2024-04-26 12:16:16] INFO root fetch - processPackages [streply-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streply_sdk-0.0.1.tar.gz tmp/streply_sdk-0.0.3.tar.gz --markdown 20240426/s/streply-sdk/0.0.1-0.0.3/README.md --exclude *.pyd
+[2024-04-26 12:16:16] INFO root fetch - processPackages [PREN-flawas]: executing diffoscope
+[2024-04-26 12:16:16] INFO root fetch - processPackages [PREN-flawas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pren_flawas-0.0.8.tar.gz tmp/pren_flawas-0.0.9.tar.gz --markdown 20240426/P/PREN-flawas/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-26 12:16:16] INFO root fetch - processPackages [ssb-statstruk]: executing diffoscope
+[2024-04-26 12:16:16] INFO root fetch - processPackages [ssb-statstruk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssb_statstruk-0.0.5.tar.gz tmp/ssb_statstruk-0.0.6.tar.gz --markdown 20240426/s/ssb-statstruk/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-26 12:16:16] INFO root fetch - processPackages [acquire]: executing diffoscope
+[2024-04-26 12:16:16] INFO root fetch - processPackages [acquire]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acquire-3.9.dev8.tar.gz tmp/acquire-3.9.dev9.tar.gz --markdown 20240426/a/acquire/3.9.dev8-3.9.dev9/README.md --exclude *.pyd
+[2024-04-26 12:16:16] INFO root fetch - processPackages [ares-ai]: executing diffoscope
+[2024-04-26 12:16:16] INFO root fetch - processPackages [ares-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ares_ai-0.2.4.tar.gz tmp/ares_ai-0.5.4.tar.gz --markdown 20240426/a/ares-ai/0.2.4-0.5.4/README.md --exclude *.pyd
+[2024-04-26 12:16:16] INFO root fetch - processPackages [ares-ai]: executing diffoscope
+[2024-04-26 12:16:16] INFO root fetch - processPackages [ares-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ares_ai-0.2.4.tar.gz tmp/ares_ai-0.5.4.tar.gz --markdown 20240426/a/ares-ai/0.2.4-0.5.4/README.md --exclude *.pyd
+[2024-04-26 12:16:16] INFO root fetch - processPackages [bitwarden-import-msecure]: Remove: archive file [/home/abi/fetcher/tmp/bitwarden_import_msecure-1.5.0.tar.gz]
+[2024-04-26 12:16:16] INFO root fetch - processPackages [bitwarden-import-msecure]: Remove: archive file [/home/abi/fetcher/tmp/bitwarden_import_msecure-1.6.0.tar.gz]
+[2024-04-26 12:16:16] INFO root fetch - main [MainThread]: End processing [bitwarden-import-msecure]: success
+[2024-04-26 12:16:17] INFO root fetch - processPackages [ssb-statstruk]: Remove: archive file [/home/abi/fetcher/tmp/ssb_statstruk-0.0.5.tar.gz]
+[2024-04-26 12:16:17] INFO root fetch - processPackages [ssb-statstruk]: Remove: archive file [/home/abi/fetcher/tmp/ssb_statstruk-0.0.6.tar.gz]
+[2024-04-26 12:16:17] INFO root fetch - main [MainThread]: End processing [ssb-statstruk]: success
+[2024-04-26 12:16:17] INFO root fetch - processPackages [alphaz-next]: Remove: archive file [/home/abi/fetcher/tmp/alphaz-next-0.5.5.tar.gz]
+[2024-04-26 12:16:17] INFO root fetch - processPackages [alphaz-next]: Remove: archive file [/home/abi/fetcher/tmp/alphaz-next-0.5.6.tar.gz]
+[2024-04-26 12:16:17] INFO root fetch - main [MainThread]: End processing [alphaz-next]: success
+[2024-04-26 12:16:17] INFO root fetch - processPackages [streply-sdk]: Remove: archive file [/home/abi/fetcher/tmp/streply_sdk-0.0.1.tar.gz]
+[2024-04-26 12:16:17] INFO root fetch - processPackages [streply-sdk]: Remove: archive file [/home/abi/fetcher/tmp/streply_sdk-0.0.3.tar.gz]
+[2024-04-26 12:16:17] INFO root fetch - main [MainThread]: End processing [streply-sdk]: success
+[2024-04-26 12:16:17] INFO root fetch - processPackages [acquire]: Remove: archive file [/home/abi/fetcher/tmp/acquire-3.9.dev8.tar.gz]
+[2024-04-26 12:16:17] INFO root fetch - processPackages [acquire]: Remove: archive file [/home/abi/fetcher/tmp/acquire-3.9.dev9.tar.gz]
+[2024-04-26 12:16:17] INFO root fetch - main [MainThread]: End processing [acquire]: success
+[2024-04-26 12:16:17] INFO root fetch - processPackages [PREN-flawas]: Remove: archive file [/home/abi/fetcher/tmp/pren_flawas-0.0.8.tar.gz]
+[2024-04-26 12:16:17] INFO root fetch - processPackages [PREN-flawas]: Remove: archive file [/home/abi/fetcher/tmp/pren_flawas-0.0.9.tar.gz]
+[2024-04-26 12:16:17] INFO root fetch - main [MainThread]: End processing [PREN-flawas]: success
+[2024-04-26 12:16:17] INFO root fetch - processPackages [ares-ai]: Remove: archive file [/home/abi/fetcher/tmp/ares_ai-0.2.4.tar.gz]
+[2024-04-26 12:16:17] INFO root fetch - processPackages [ares-ai]: Remove: archive file [/home/abi/fetcher/tmp/ares_ai-0.5.4.tar.gz]
+[2024-04-26 12:16:17] INFO root fetch - main [MainThread]: End processing [ares-ai]: success
+[2024-04-26 12:16:17] INFO root fetch - main [MainThread]: End processing [ares-ai]: success
+[2024-04-26 12:16:17] INFO root fetch - processPackages [nova]: Downloading https://files.pythonhosted.org/packages/8d/6b/ff5cf31b4688013e469745a0917d9029392e343353daa6401901a9044aab/nova-29.0.1.tar.gz
+[2024-04-26 12:16:19] INFO root fetch - processPackages [nova]: executing diffoscope
+[2024-04-26 12:16:19] INFO root fetch - processPackages [nova]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nova-29.0.0.0rc1.tar.gz tmp/nova-29.0.1.tar.gz --markdown 20240426/n/nova/29.0.0.0rc1-29.0.1/README.md --exclude *.pyd
+[2024-04-26 12:16:38] INFO root fetch - processPackages [nova]: Remove: archive file [/home/abi/fetcher/tmp/nova-29.0.0.0rc1.tar.gz]
+[2024-04-26 12:16:38] INFO root fetch - processPackages [nova]: Remove: archive file [/home/abi/fetcher/tmp/nova-29.0.1.tar.gz]
+[2024-04-26 12:16:38] INFO root fetch - main [MainThread]: End processing [nova]: success
+[2024-04-26 12:16:38] INFO root fetch - main [MainThread]: Store serial: [22946180]
