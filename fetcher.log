@@ -7802,3 +7802,39 @@
 [2024-04-26 04:58:04] INFO root fetch - processPackages [tensorpc]: Remove: archive file [/home/abi/fetcher/tmp/tensorpc-0.10.4.tar.gz]
 [2024-04-26 04:58:04] INFO root fetch - main [MainThread]: End processing [tensorpc]: success
 [2024-04-26 04:58:04] INFO root fetch - main [MainThread]: Store serial: [22942092]
+[2024-04-26 05:00:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22942092]
+[2024-04-26 05:00:13] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-26 05:00:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: 3lc
+[2024-04-26 05:00:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: threadmem
+[2024-04-26 05:00:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tddschn-utils
+[2024-04-26 05:00:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: YaraForge
+[2024-04-26 05:00:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyrnnoise
+[2024-04-26 05:00:13] WARNING root fetch - processPackages [pyrnnoise]: Skipping, unable to determine old version
+[2024-04-26 05:00:13] INFO root fetch - main [MainThread]: End processing [pyrnnoise] error
+[2024-04-26 05:00:13] INFO root fetch - processPackages [threadmem]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-26 05:00:13] INFO root fetch - processPackages [threadmem]: Downloading https://files.pythonhosted.org/packages/d1/30/a9cf7f0975ba0079eb4b0074823ecadf7175a720835daa0dfe3c4994eb7a/threadmem-0.2.8.tar.gz
+[2024-04-26 05:00:13] INFO root fetch - processPackages [YaraForge]: New version: [0.1.5b1] Old Version: [0.1.4b1]
+[2024-04-26 05:00:13] INFO root fetch - processPackages [3lc]: New version: [2.3.92] Old Version: [2.3.84]
+[2024-04-26 05:00:13] WARNING root fetch - processPackages [tddschn-utils]: Skipping, unable to determine old version
+[2024-04-26 05:00:13] INFO root fetch - main [MainThread]: End processing [tddschn-utils] error
+[2024-04-26 05:00:13] INFO root fetch - processPackages [3lc]: Downloading https://files.pythonhosted.org/packages/78/c0/3a80c98f8317ddd2a9848544408371edb666ba4d5cd5d186d83ddb0aac5a/3lc-2.3.84-0-cp39-cp39-win_amd64.whl
+[2024-04-26 05:00:13] INFO root fetch - processPackages [YaraForge]: Downloading https://files.pythonhosted.org/packages/b3/63/08fc5a81b7ee9dc079aeffbecdfcf9d817f5c144b7dce7c611f620445740/YaraForge-0.1.4b1.tar.gz
+[2024-04-26 05:00:13] INFO root fetch - processPackages [threadmem]: Downloading https://files.pythonhosted.org/packages/87/25/85a9dacfcff4df9fa520c1badc3111f837a0e83a4abc57ead714a4c4b42b/threadmem-0.2.9.tar.gz
+[2024-04-26 05:00:13] INFO root fetch - processPackages [threadmem]: executing diffoscope
+[2024-04-26 05:00:13] INFO root fetch - processPackages [threadmem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threadmem-0.2.8.tar.gz tmp/threadmem-0.2.9.tar.gz --markdown 20240426/t/threadmem/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-26 05:00:13] INFO root fetch - processPackages [YaraForge]: Downloading https://files.pythonhosted.org/packages/2b/16/67e7b62dc373d369a6a63a379a8d2af50cb227b8f3ac5aed1d3adf92a7ef/YaraForge-0.1.5b1.tar.gz
+[2024-04-26 05:00:14] INFO root fetch - processPackages [3lc]: Downloading https://files.pythonhosted.org/packages/3c/9c/4fe63fb62a9ad0f423cbb7b20d33b2ed33da53ed901f452ef5441e32a513/3lc-2.3.92-0-cp39-cp39-win_amd64.whl
+[2024-04-26 05:00:14] INFO root fetch - processPackages [YaraForge]: executing diffoscope
+[2024-04-26 05:00:14] INFO root fetch - processPackages [YaraForge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/YaraForge-0.1.4b1.tar.gz tmp/YaraForge-0.1.5b1.tar.gz --markdown 20240426/Y/YaraForge/0.1.4b1-0.1.5b1/README.md --exclude *.pyd
+[2024-04-26 05:00:14] INFO root fetch - processPackages [threadmem]: Remove: archive file [/home/abi/fetcher/tmp/threadmem-0.2.8.tar.gz]
+[2024-04-26 05:00:14] INFO root fetch - processPackages [threadmem]: Remove: archive file [/home/abi/fetcher/tmp/threadmem-0.2.9.tar.gz]
+[2024-04-26 05:00:14] INFO root fetch - main [MainThread]: End processing [threadmem]: success
+[2024-04-26 05:00:14] INFO root fetch - processPackages [3lc]: executing diffoscope
+[2024-04-26 05:00:14] INFO root fetch - processPackages [3lc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/3lc-2.3.84-0-cp39-cp39-win_amd64.whl.zip tmp/3lc-2.3.92-0-cp39-cp39-win_amd64.whl.zip --markdown 20240426/3/3lc/2.3.84-2.3.92/README.md --exclude *.pyd
+[2024-04-26 05:00:15] INFO root fetch - processPackages [YaraForge]: Remove: archive file [/home/abi/fetcher/tmp/YaraForge-0.1.4b1.tar.gz]
+[2024-04-26 05:00:15] INFO root fetch - processPackages [YaraForge]: Remove: archive file [/home/abi/fetcher/tmp/YaraForge-0.1.5b1.tar.gz]
+[2024-04-26 05:00:15] INFO root fetch - main [MainThread]: End processing [YaraForge]: success
+[2024-04-26 05:00:17] INFO root fetch - processPackages [3lc]: Remove: archive file [/home/abi/fetcher/tmp/3lc-2.3.84-0-cp39-cp39-win_amd64.whl.zip]
+[2024-04-26 05:00:17] INFO root fetch - processPackages [3lc]: Remove: archive file [/home/abi/fetcher/tmp/3lc-2.3.92-0-cp39-cp39-win_amd64.whl.zip]
+[2024-04-26 05:00:17] INFO root fetch - main [MainThread]: End processing [3lc]: success
+[2024-04-26 05:00:17] INFO root fetch - main [MainThread]: Store serial: [22942121]
