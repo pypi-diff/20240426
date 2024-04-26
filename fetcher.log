@@ -18459,3 +18459,59 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 13:11:52] INFO root fetch - processPackages [ephysiopy]: Remove: archive file [/home/abi/fetcher/tmp/ephysiopy-2.0.9.tar.gz]
 [2024-04-26 13:11:52] INFO root fetch - main [MainThread]: End processing [ephysiopy]: success
 [2024-04-26 13:11:52] INFO root fetch - main [MainThread]: Store serial: [22946679]
+[2024-04-26 13:13:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22946679]
+[2024-04-26 13:14:01] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-26 13:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: peaqevcore
+[2024-04-26 13:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: logger-aux
+[2024-04-26 13:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tb-nightly
+[2024-04-26 13:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jetline
+[2024-04-26 13:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xlrd-2024
+[2024-04-26 13:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bigdl-core-cpp
+[2024-04-26 13:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: misc-python-utils
+[2024-04-26 13:14:01] WARNING root fetch - processPackages [xlrd-2024]: Skipping, unable to determine old version
+[2024-04-26 13:14:01] INFO root fetch - main [MainThread]: End processing [xlrd-2024] error
+[2024-04-26 13:14:01] INFO root fetch - processPackages [jetline]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-26 13:14:01] INFO root fetch - processPackages [logger-aux]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-26 13:14:01] INFO root fetch - processPackages [bigdl-core-cpp]: New version: [2.5.0b20240425] Old Version: [2.5.0b20240424]
+[2024-04-26 13:14:01] INFO root fetch - processPackages [tb-nightly]: New version: [2.9.0a20220502] Old Version: [2.9.0a20220501]
+[2024-04-26 13:14:01] INFO root fetch - processPackages [jetline]: Downloading https://files.pythonhosted.org/packages/e3/f4/b5802ae490072c74e48aa7eaf1f13a54a04217824821a8c3dd9d0ff31617/jetline-0.1.0.tar.gz
+[2024-04-26 13:14:01] INFO root fetch - processPackages [misc-python-utils]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-26 13:14:01] INFO root fetch - processPackages [logger-aux]: Downloading https://files.pythonhosted.org/packages/6f/02/d2444a487133012bbb6774dec128fc2868329824b4e3b3e3a8524bf0905e/logger_aux-0.0.3.tar.gz
+[2024-04-26 13:14:01] INFO root fetch - processPackages [bigdl-core-cpp]: Downloading https://files.pythonhosted.org/packages/74/2b/158ea91385f3657a341fc22c41bb21584c73b7e5c76dc6c6cb67dea2bb6a/bigdl_core_cpp-2.5.0b20240424-py3-none-win_amd64.whl
+[2024-04-26 13:14:01] INFO root fetch - processPackages [peaqevcore]: New version: [9.2.3] Old Version: [9.2.2]
+[2024-04-26 13:14:01] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/cc/bf/76bb32cf070e37f4b777ed5596c5d082fb60a1bfc06e9463401d07021a8a/tb_nightly-2.9.0a20220501-py3-none-any.whl
+[2024-04-26 13:14:01] WARNING root fetch - processPackages [bigdl-core-cpp]: Skipping package: exceeds size limit 57075509>=10485760
+[2024-04-26 13:14:01] INFO root fetch - main [MainThread]: End processing [bigdl-core-cpp] error
+[2024-04-26 13:14:01] INFO root fetch - processPackages [misc-python-utils]: Downloading https://files.pythonhosted.org/packages/4b/bd/ea88605154e7091f2a3191908b2ffddeda0817e17ffc29758cfc7731ceaf/misc_python_utils-0.1.8.tar.gz
+[2024-04-26 13:14:01] INFO root fetch - processPackages [peaqevcore]: Downloading https://files.pythonhosted.org/packages/d3/3a/d595706eb589ecf59a8cba9b6d5b0456fc65fe7e1d2c1e2aec7feee838b8/peaqevcore-9.2.2.tar.gz
+[2024-04-26 13:14:01] INFO root fetch - processPackages [logger-aux]: Downloading https://files.pythonhosted.org/packages/a7/bd/61af518b0f61ad6c4a44734fc76ba2e74c959bb2aa077fc448c656e77002/logger_aux-0.0.4.tar.gz
+[2024-04-26 13:14:01] INFO root fetch - processPackages [jetline]: Downloading https://files.pythonhosted.org/packages/e5/37/824145f843c309cf2a3cb5b3a950f60324637cd646c1328501fe49e250ef/jetline-0.1.1.tar.gz
+[2024-04-26 13:14:01] INFO root fetch - processPackages [logger-aux]: executing diffoscope
+[2024-04-26 13:14:01] INFO root fetch - processPackages [logger-aux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logger_aux-0.0.3.tar.gz tmp/logger_aux-0.0.4.tar.gz --markdown 20240426/l/logger-aux/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-26 13:14:01] INFO root fetch - processPackages [jetline]: executing diffoscope
+[2024-04-26 13:14:01] INFO root fetch - processPackages [jetline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jetline-0.1.0.tar.gz tmp/jetline-0.1.1.tar.gz --markdown 20240426/j/jetline/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-26 13:14:02] INFO root fetch - processPackages [misc-python-utils]: Downloading https://files.pythonhosted.org/packages/57/f1/4625809fcb39f4081b4224a6763539efee7a380db502a5dede93b1c12c2e/misc_python_utils-0.1.9.tar.gz
+[2024-04-26 13:14:02] INFO root fetch - processPackages [peaqevcore]: Downloading https://files.pythonhosted.org/packages/7d/ed/173dd45b11e856f6a0a37a2fe90750405b19807684a9c94bd5e9388c29a2/peaqevcore-9.2.3.tar.gz
+[2024-04-26 13:14:02] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/68/8e/03bca092830a4abf26a80c7387b02478c5f948656cb79d63c1bffab65c00/tb_nightly-2.9.0a20220502-py3-none-any.whl
+[2024-04-26 13:14:02] INFO root fetch - processPackages [misc-python-utils]: executing diffoscope
+[2024-04-26 13:14:02] INFO root fetch - processPackages [misc-python-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/misc_python_utils-0.1.8.tar.gz tmp/misc_python_utils-0.1.9.tar.gz --markdown 20240426/m/misc-python-utils/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-26 13:14:02] INFO root fetch - processPackages [peaqevcore]: executing diffoscope
+[2024-04-26 13:14:02] INFO root fetch - processPackages [peaqevcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peaqevcore-9.2.2.tar.gz tmp/peaqevcore-9.2.3.tar.gz --markdown 20240426/p/peaqevcore/9.2.2-9.2.3/README.md --exclude *.pyd
+[2024-04-26 13:14:02] INFO root fetch - processPackages [tb-nightly]: executing diffoscope
+[2024-04-26 13:14:02] INFO root fetch - processPackages [tb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip --markdown 20240426/t/tb-nightly/2.9.0a20220501-2.9.0a20220502/README.md --exclude *.pyd
+[2024-04-26 13:14:02] INFO root fetch - processPackages [logger-aux]: Remove: archive file [/home/abi/fetcher/tmp/logger_aux-0.0.3.tar.gz]
+[2024-04-26 13:14:02] INFO root fetch - processPackages [logger-aux]: Remove: archive file [/home/abi/fetcher/tmp/logger_aux-0.0.4.tar.gz]
+[2024-04-26 13:14:02] INFO root fetch - main [MainThread]: End processing [logger-aux]: success
+[2024-04-26 13:14:02] INFO root fetch - processPackages [jetline]: Remove: archive file [/home/abi/fetcher/tmp/jetline-0.1.0.tar.gz]
+[2024-04-26 13:14:02] INFO root fetch - processPackages [jetline]: Remove: archive file [/home/abi/fetcher/tmp/jetline-0.1.1.tar.gz]
+[2024-04-26 13:14:02] INFO root fetch - main [MainThread]: End processing [jetline]: success
+[2024-04-26 13:14:02] INFO root fetch - processPackages [misc-python-utils]: Remove: archive file [/home/abi/fetcher/tmp/misc_python_utils-0.1.8.tar.gz]
+[2024-04-26 13:14:02] INFO root fetch - processPackages [misc-python-utils]: Remove: archive file [/home/abi/fetcher/tmp/misc_python_utils-0.1.9.tar.gz]
+[2024-04-26 13:14:02] INFO root fetch - main [MainThread]: End processing [misc-python-utils]: success
+[2024-04-26 13:14:03] INFO root fetch - processPackages [peaqevcore]: Remove: archive file [/home/abi/fetcher/tmp/peaqevcore-9.2.2.tar.gz]
+[2024-04-26 13:14:03] INFO root fetch - processPackages [peaqevcore]: Remove: archive file [/home/abi/fetcher/tmp/peaqevcore-9.2.3.tar.gz]
+[2024-04-26 13:14:03] INFO root fetch - main [MainThread]: End processing [peaqevcore]: success
+[2024-04-26 13:14:03] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip]
+[2024-04-26 13:14:03] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip]
+[2024-04-26 13:14:03] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
+[2024-04-26 13:14:03] INFO root fetch - main [MainThread]: Store serial: [22946700]
