@@ -1,4 +1,4 @@
-# Comparing `tmp/llm_monitoring_sascha-0.0.1-py3-none-any.whl.zip` & `tmp/llm_monitoring_sascha-0.0.2-py3-none-any.whl.zip`
+# Comparing `tmp/llm_monitoring_sascha-0.0.1.tar.gz` & `tmp/llm_monitoring_sascha-0.0.2.tar.gz`
 
 ## zipinfo {}
 
@@ -22,7 +22,7 @@
 +7 files, 8010 bytes uncompressed, 2950 bytes compressed:  63.2%
 ```
 
-## zipnote {}
+## zipnote «TEMP»/diffoscope_h4ltvoak_/tmpnaold0qn_.zip
 
 ```diff
 @@ -1,22 +1,22 @@
