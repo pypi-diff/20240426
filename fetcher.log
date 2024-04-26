@@ -2073,3 +2073,78 @@
 [2024-04-26 02:12:23] INFO root fetch - processPackages [log10-io]: Remove: archive file [/home/abi/fetcher/tmp/log10_io-0.8.3.tar.gz]
 [2024-04-26 02:12:23] INFO root fetch - main [MainThread]: End processing [log10-io]: success
 [2024-04-26 02:12:23] INFO root fetch - main [MainThread]: Store serial: [22939823]
+[2024-04-26 02:14:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22939823]
+[2024-04-26 02:14:33] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-26 02:14:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: log10-io
+[2024-04-26 02:14:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-nag
+[2024-04-26 02:14:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdktf-gitlab-runner
+[2024-04-26 02:14:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-skylight
+[2024-04-26 02:14:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-events-notify
+[2024-04-26 02:14:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ollama
+[2024-04-26 02:14:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pytorch-ignite
+[2024-04-26 02:14:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk-common
+[2024-04-26 02:14:33] INFO root fetch - processPackages [cdk-skylight]: New version: [1.1.99] Old Version: [1.1.98]
+[2024-04-26 02:14:33] INFO root fetch - processPackages [log10-io]: New version: [0.8.3] Old Version: [0.8.2]
+[2024-04-26 02:14:33] INFO root fetch - processPackages [pytorch-ignite]: New version: [0.6.0.dev20240425] Old Version: [0.6.0.dev20240424]
+[2024-04-26 02:14:33] INFO root fetch - processPackages [cdktf-gitlab-runner]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-26 02:14:33] INFO root fetch - processPackages [cdk-nag]: New version: [2.9.7] Old Version: [2.9.6]
+[2024-04-26 02:14:33] INFO root fetch - processPackages [cdk-common]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-04-26 02:14:33] INFO root fetch - processPackages [ollama]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-26 02:14:33] INFO root fetch - processPackages [log10-io]: Downloading https://files.pythonhosted.org/packages/0d/39/f2501c92d246fb4ce66845b280aad1ab867a97404864e1c6ff3b23facb64/log10_io-0.8.2.tar.gz
+[2024-04-26 02:14:33] INFO root fetch - processPackages [cdk-skylight]: Downloading https://files.pythonhosted.org/packages/86/f2/01b58f6183b48ce1105016a7f5045925a49464b8c20408459bd101fe5f25/cdk-skylight-1.1.98.tar.gz
+[2024-04-26 02:14:33] INFO root fetch - processPackages [cdk-events-notify]: New version: [2.2.99] Old Version: [2.2.98]
+[2024-04-26 02:14:33] INFO root fetch - processPackages [cdktf-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/8a/6e/f1c520e407ce3adf90b51d2d1ca84d283a08c808fc00c9deeff4f4734d82/cdktf-gitlab-runner-0.0.98.tar.gz
+[2024-04-26 02:14:33] INFO root fetch - processPackages [cdk-nag]: Downloading https://files.pythonhosted.org/packages/26/bc/b8768e307b8d360b78f45303ac30baa4232637f372296203b0005cd07cd4/cdk-nag-2.9.6.tar.gz
+[2024-04-26 02:14:33] INFO root fetch - processPackages [pytorch-ignite]: Downloading https://files.pythonhosted.org/packages/34/17/5ed255b3a6cb25cd4fcc0f8f76af301a37bf485c65115c6b73da4a6ad88e/pytorch-ignite-0.6.0.dev20240424.tar.gz
+[2024-04-26 02:14:33] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/f3/30/796e7080e9a9b293ccf386b0d95f40dde8e214e0415d2c59be9c661105a9/cdk-common-2.0.98.tar.gz
+[2024-04-26 02:14:33] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/b7/7d/50ca1bff3db85ede28826faf2d11bb449770cac87fe89483636e0fe57d94/cdk-events-notify-2.2.98.tar.gz
+[2024-04-26 02:14:33] INFO root fetch - processPackages [ollama]: Downloading https://files.pythonhosted.org/packages/c4/06/dfecee276290268c88436588b91812fb453cdcec68bdc30f98a1d366300b/ollama-0.1.8.tar.gz
+[2024-04-26 02:14:34] INFO root fetch - processPackages [log10-io]: Downloading https://files.pythonhosted.org/packages/67/90/3ca144aebed59027513cc363d9feff8580a0f34346474e65f8bfe8be16fe/log10_io-0.8.3.tar.gz
+[2024-04-26 02:14:34] INFO root fetch - processPackages [cdk-skylight]: Downloading https://files.pythonhosted.org/packages/59/49/3e035cb98d5f97f79c174e211129a2dbe596df70c5df50ac701242fabea2/cdk-skylight-1.1.99.tar.gz
+[2024-04-26 02:14:34] INFO root fetch - processPackages [cdktf-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/59/f2/0d7ab5ec05a2b43bd92c00fd237afddb1e2770c7edaf03b1f7ddef6c0793/cdktf-gitlab-runner-0.0.99.tar.gz
+[2024-04-26 02:14:34] INFO root fetch - processPackages [cdk-nag]: Downloading https://files.pythonhosted.org/packages/71/78/6a2d0c627f1033774d5be3d2faca465e0bc0b07cf97cec491c795775999a/cdk-nag-2.9.7.tar.gz
+[2024-04-26 02:14:34] INFO root fetch - processPackages [pytorch-ignite]: Downloading https://files.pythonhosted.org/packages/b4/ae/d8cf9a17550ecce862344b1bbc67f0c722447e405103a047c5afe63e7fcf/pytorch-ignite-0.6.0.dev20240425.tar.gz
+[2024-04-26 02:14:34] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/56/4a/9c2a145913d7a35ac252cb2bddabca89cdc95c802a8e342f192100f709be/cdk-events-notify-2.2.99.tar.gz
+[2024-04-26 02:14:34] INFO root fetch - processPackages [log10-io]: executing diffoscope
+[2024-04-26 02:14:34] INFO root fetch - processPackages [log10-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/log10_io-0.8.2.tar.gz tmp/log10_io-0.8.3.tar.gz --markdown 20240426/l/log10-io/0.8.2-0.8.3/README.md --exclude *.pyd
+[2024-04-26 02:14:34] INFO root fetch - processPackages [cdktf-gitlab-runner]: executing diffoscope
+[2024-04-26 02:14:34] INFO root fetch - processPackages [cdktf-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-gitlab-runner-0.0.98.tar.gz tmp/cdktf-gitlab-runner-0.0.99.tar.gz --markdown 20240426/c/cdktf-gitlab-runner/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-04-26 02:14:34] INFO root fetch - processPackages [cdk-skylight]: executing diffoscope
+[2024-04-26 02:14:34] INFO root fetch - processPackages [cdk-skylight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-skylight-1.1.98.tar.gz tmp/cdk-skylight-1.1.99.tar.gz --markdown 20240426/c/cdk-skylight/1.1.98-1.1.99/README.md --exclude *.pyd
+[2024-04-26 02:14:34] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/11/10/ca183f281275ec945ede082d9491c0bb5bfb9152c437124c86e37cba7079/cdk-common-2.0.99.tar.gz
+[2024-04-26 02:14:34] INFO root fetch - processPackages [ollama]: Downloading https://files.pythonhosted.org/packages/48/88/3b7094ddfc38a350a7fa8cce88ef584ca08cf127c9f5e4ce9e6504cd3b61/ollama-0.1.9.tar.gz
+[2024-04-26 02:14:34] INFO root fetch - processPackages [pytorch-ignite]: executing diffoscope
+[2024-04-26 02:14:34] INFO root fetch - processPackages [pytorch-ignite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytorch-ignite-0.6.0.dev20240424.tar.gz tmp/pytorch-ignite-0.6.0.dev20240425.tar.gz --markdown 20240426/p/pytorch-ignite/0.6.0.dev20240424-0.6.0.dev20240425/README.md --exclude *.pyd
+[2024-04-26 02:14:34] INFO root fetch - processPackages [cdk-nag]: executing diffoscope
+[2024-04-26 02:14:34] INFO root fetch - processPackages [cdk-events-notify]: executing diffoscope
+[2024-04-26 02:14:34] INFO root fetch - processPackages [cdk-events-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-events-notify-2.2.98.tar.gz tmp/cdk-events-notify-2.2.99.tar.gz --markdown 20240426/c/cdk-events-notify/2.2.98-2.2.99/README.md --exclude *.pyd
+[2024-04-26 02:14:34] INFO root fetch - processPackages [cdk-nag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-nag-2.9.6.tar.gz tmp/cdk-nag-2.9.7.tar.gz --markdown 20240426/c/cdk-nag/2.9.6-2.9.7/README.md --exclude *.pyd
+[2024-04-26 02:14:34] INFO root fetch - processPackages [ollama]: executing diffoscope
+[2024-04-26 02:14:34] INFO root fetch - processPackages [ollama]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ollama-0.1.8.tar.gz tmp/ollama-0.1.9.tar.gz --markdown 20240426/o/ollama/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-26 02:14:34] INFO root fetch - processPackages [cdk-common]: executing diffoscope
+[2024-04-26 02:14:34] INFO root fetch - processPackages [cdk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-common-2.0.98.tar.gz tmp/cdk-common-2.0.99.tar.gz --markdown 20240426/c/cdk-common/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-04-26 02:14:35] INFO root fetch - processPackages [cdktf-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-gitlab-runner-0.0.98.tar.gz]
+[2024-04-26 02:14:35] INFO root fetch - processPackages [cdktf-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-gitlab-runner-0.0.99.tar.gz]
+[2024-04-26 02:14:35] INFO root fetch - main [MainThread]: End processing [cdktf-gitlab-runner]: success
+[2024-04-26 02:14:35] INFO root fetch - processPackages [cdk-skylight]: Remove: archive file [/home/abi/fetcher/tmp/cdk-skylight-1.1.98.tar.gz]
+[2024-04-26 02:14:35] INFO root fetch - processPackages [cdk-skylight]: Remove: archive file [/home/abi/fetcher/tmp/cdk-skylight-1.1.99.tar.gz]
+[2024-04-26 02:14:35] INFO root fetch - main [MainThread]: End processing [cdk-skylight]: success
+[2024-04-26 02:14:35] INFO root fetch - processPackages [log10-io]: Remove: archive file [/home/abi/fetcher/tmp/log10_io-0.8.2.tar.gz]
+[2024-04-26 02:14:35] INFO root fetch - processPackages [log10-io]: Remove: archive file [/home/abi/fetcher/tmp/log10_io-0.8.3.tar.gz]
+[2024-04-26 02:14:35] INFO root fetch - main [MainThread]: End processing [log10-io]: success
+[2024-04-26 02:14:35] INFO root fetch - processPackages [cdk-nag]: Remove: archive file [/home/abi/fetcher/tmp/cdk-nag-2.9.6.tar.gz]
+[2024-04-26 02:14:35] INFO root fetch - processPackages [cdk-nag]: Remove: archive file [/home/abi/fetcher/tmp/cdk-nag-2.9.7.tar.gz]
+[2024-04-26 02:14:35] INFO root fetch - main [MainThread]: End processing [cdk-nag]: success
+[2024-04-26 02:14:35] INFO root fetch - processPackages [ollama]: Remove: archive file [/home/abi/fetcher/tmp/ollama-0.1.8.tar.gz]
+[2024-04-26 02:14:35] INFO root fetch - processPackages [ollama]: Remove: archive file [/home/abi/fetcher/tmp/ollama-0.1.9.tar.gz]
+[2024-04-26 02:14:35] INFO root fetch - main [MainThread]: End processing [ollama]: success
+[2024-04-26 02:14:35] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.2.98.tar.gz]
+[2024-04-26 02:14:35] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.2.99.tar.gz]
+[2024-04-26 02:14:35] INFO root fetch - main [MainThread]: End processing [cdk-events-notify]: success
+[2024-04-26 02:14:35] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.98.tar.gz]
+[2024-04-26 02:14:35] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
+[2024-04-26 02:14:35] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
+[2024-04-26 02:14:35] INFO root fetch - processPackages [pytorch-ignite]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-ignite-0.6.0.dev20240424.tar.gz]
+[2024-04-26 02:14:35] INFO root fetch - processPackages [pytorch-ignite]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-ignite-0.6.0.dev20240425.tar.gz]
+[2024-04-26 02:14:35] INFO root fetch - main [MainThread]: End processing [pytorch-ignite]: success
+[2024-04-26 02:14:35] INFO root fetch - main [MainThread]: Store serial: [22939854]
