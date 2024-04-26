@@ -2585,3 +2585,24 @@
 [2024-04-26 02:35:51] INFO root fetch - processPackages [state-machine-semaphore]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-semaphore-0.1.99.tar.gz]
 [2024-04-26 02:35:51] INFO root fetch - main [MainThread]: End processing [state-machine-semaphore]: success
 [2024-04-26 02:35:51] INFO root fetch - main [MainThread]: Store serial: [22940058]
+[2024-04-26 02:37:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22940058]
+[2024-04-26 02:37:59] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-26 02:37:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: focanocodigo
+[2024-04-26 02:37:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flet-iconoir
+[2024-04-26 02:38:00] INFO root fetch - processPackages [flet-iconoir]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-26 02:38:00] INFO root fetch - processPackages [focanocodigo]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-26 02:38:00] INFO root fetch - processPackages [focanocodigo]: Downloading https://files.pythonhosted.org/packages/38/75/703ae40db59948c743407532f99257a42a67ed3ebdd10aa8151b506af35f/focanocodigo-1.0.0.tar.gz
+[2024-04-26 02:38:00] INFO root fetch - processPackages [flet-iconoir]: Downloading https://files.pythonhosted.org/packages/95/7d/b8487d7edc6f1dffafa286e83287d78bcbcec2f55ea05fdd5abf39a823ac/flet_iconoir-0.1.1.tar.gz
+[2024-04-26 02:38:00] INFO root fetch - processPackages [focanocodigo]: Downloading https://files.pythonhosted.org/packages/a7/14/f848aadd08ba19609a610bb1dc2ae8b1db03d0f31e404ee404800ce564c4/focanocodigo-1.0.1.tar.gz
+[2024-04-26 02:38:00] INFO root fetch - processPackages [focanocodigo]: executing diffoscope
+[2024-04-26 02:38:00] INFO root fetch - processPackages [focanocodigo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/focanocodigo-1.0.0.tar.gz tmp/focanocodigo-1.0.1.tar.gz --markdown 20240426/f/focanocodigo/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-26 02:38:00] INFO root fetch - processPackages [flet-iconoir]: Downloading https://files.pythonhosted.org/packages/76/df/386bb0b843abf8489346146dbe34fd3d563854b2518835dba453864c5edc/flet_iconoir-0.1.2.tar.gz
+[2024-04-26 02:38:00] INFO root fetch - processPackages [flet-iconoir]: executing diffoscope
+[2024-04-26 02:38:00] INFO root fetch - processPackages [flet-iconoir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_iconoir-0.1.1.tar.gz tmp/flet_iconoir-0.1.2.tar.gz --markdown 20240426/f/flet-iconoir/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-26 02:38:01] INFO root fetch - processPackages [focanocodigo]: Remove: archive file [/home/abi/fetcher/tmp/focanocodigo-1.0.0.tar.gz]
+[2024-04-26 02:38:01] INFO root fetch - processPackages [focanocodigo]: Remove: archive file [/home/abi/fetcher/tmp/focanocodigo-1.0.1.tar.gz]
+[2024-04-26 02:38:01] INFO root fetch - main [MainThread]: End processing [focanocodigo]: success
+[2024-04-26 02:38:06] INFO root fetch - processPackages [flet-iconoir]: Remove: archive file [/home/abi/fetcher/tmp/flet_iconoir-0.1.1.tar.gz]
+[2024-04-26 02:38:06] INFO root fetch - processPackages [flet-iconoir]: Remove: archive file [/home/abi/fetcher/tmp/flet_iconoir-0.1.2.tar.gz]
+[2024-04-26 02:38:06] INFO root fetch - main [MainThread]: End processing [flet-iconoir]: success
+[2024-04-26 02:38:06] INFO root fetch - main [MainThread]: Store serial: [22940065]
