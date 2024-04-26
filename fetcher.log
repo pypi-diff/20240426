@@ -21224,3 +21224,72 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 15:18:40] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2024.4.26-cp39-cp39-manylinux2014_x86_64.whl.zip]
 [2024-04-26 15:18:40] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
 [2024-04-26 15:18:40] INFO root fetch - main [MainThread]: Store serial: [22947914]
+[2024-04-26 15:20:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22947914]
+[2024-04-26 15:20:50] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-26 15:20:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: shadow4
+[2024-04-26 15:20:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: moltx
+[2024-04-26 15:20:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-ddmrp-report-part-flow-index
+[2024-04-26 15:20:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kfish
+[2024-04-26 15:20:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yeref
+[2024-04-26 15:20:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: catdns
+[2024-04-26 15:20:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: OASYS1-shadow4
+[2024-04-26 15:20:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: RepoAuditor
+[2024-04-26 15:20:50] INFO root fetch - processPackages [yeref]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-26 15:20:50] INFO root fetch - processPackages [kfish]: New version: [99.0.202404261106] Old Version: [99.0.202404261011]
+[2024-04-26 15:20:50] INFO root fetch - processPackages [shadow4]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-26 15:20:51] INFO root fetch - processPackages [odoo-addon-ddmrp-report-part-flow-index]: New version: [16.0.1.1.0] Old Version: [16.0.1.0.0.3]
+[2024-04-26 15:20:51] WARNING root fetch - processPackages [catdns]: Skipping, unable to determine old version
+[2024-04-26 15:20:51] INFO root fetch - main [MainThread]: End processing [catdns] error
+[2024-04-26 15:20:51] INFO root fetch - processPackages [RepoAuditor]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-26 15:20:51] INFO root fetch - processPackages [OASYS1-shadow4]: New version: [0.0.9] Old Version: [0.0.6]
+[2024-04-26 15:20:51] INFO root fetch - processPackages [moltx]: New version: [0.9.8] Old Version: [0.9.7]
+[2024-04-26 15:20:51] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/ec/cb/204e6fbe233bbb61cf29c1b491e8c638c8a843edc47fb4e1d8cc8c26608c/yeref-0.9.8.tar.gz
+[2024-04-26 15:20:51] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/41/24/caeb1fbb55dd6f4e55966df85fa850eeeef07dc0823628f176d2d4edfeba/kfish-99.0.202404261011-py3-none-any.whl
+[2024-04-26 15:20:51] INFO root fetch - processPackages [shadow4]: Downloading https://files.pythonhosted.org/packages/a6/b9/ac8e00d6a7f0613406e5e1987e0a2b80021d7d304b85bccf02a34c9bce5b/shadow4-0.1.7.tar.gz
+[2024-04-26 15:20:51] INFO root fetch - processPackages [odoo-addon-ddmrp-report-part-flow-index]: Downloading https://files.pythonhosted.org/packages/f6/57/4316619df4d573563d7726d64893360a3e545aa89a36bb3292eb06fb502c/odoo_addon_ddmrp_report_part_flow_index-16.0.1.0.0.3-py3-none-any.whl
+[2024-04-26 15:20:51] INFO root fetch - processPackages [moltx]: Downloading https://files.pythonhosted.org/packages/e6/63/8e088ac0a6856d7b9144620a782ee94981e751d979f1fe6deed48a4039ce/moltx-0.9.7.tar.gz
+[2024-04-26 15:20:51] INFO root fetch - processPackages [RepoAuditor]: Downloading https://files.pythonhosted.org/packages/25/b2/a8e03ac9c407dc95ccc49fc72e8ec6cfd3538763bdfdb9a8f5c3b8103a5f/RepoAuditor-0.1.0-py3-none-any.whl
+[2024-04-26 15:20:51] INFO root fetch - processPackages [OASYS1-shadow4]: Downloading https://files.pythonhosted.org/packages/28/85/9a7b2aabe4f3fd024ac7d42f7e15a59f20b9cd73888be705eedb4b3b3f71/OASYS1-shadow4-0.0.6.tar.gz
+[2024-04-26 15:20:51] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/01/13/0f11bb3dfb27aaf16ed48b0046f50ac65b1fde32662fbc314d53e2558b2d/yeref-0.9.9.tar.gz
+[2024-04-26 15:20:51] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/6e/29/ea0c72620b6b157c5cd15c7f026a52442a3ef3be08a8b91d27df7de736c4/kfish-99.0.202404261106-py3-none-any.whl
+[2024-04-26 15:20:51] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2024-04-26 15:20:51] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202404261011-py3-none-any.whl.zip tmp/kfish-99.0.202404261106-py3-none-any.whl.zip --markdown 20240426/k/kfish/99.0.202404261011-99.0.202404261106/README.md --exclude *.pyd
+[2024-04-26 15:20:51] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2024-04-26 15:20:51] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.9.8.tar.gz tmp/yeref-0.9.9.tar.gz --markdown 20240426/y/yeref/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-26 15:20:51] INFO root fetch - processPackages [moltx]: Downloading https://files.pythonhosted.org/packages/1d/2e/870870567093aebc997134d37aaf06cfb17b7d118fdf690d11e8a1f12f68/moltx-0.9.8.tar.gz
+[2024-04-26 15:20:51] INFO root fetch - processPackages [odoo-addon-ddmrp-report-part-flow-index]: Downloading https://files.pythonhosted.org/packages/ee/23/4df96d28da6d3fab777b2cc63963294829df497c7259cf38f3a14d1b4f68/odoo_addon_ddmrp_report_part_flow_index-16.0.1.1.0-py3-none-any.whl
+[2024-04-26 15:20:51] INFO root fetch - processPackages [RepoAuditor]: Downloading https://files.pythonhosted.org/packages/60/19/582954ace0744fe75e06c15e85277a48b52206edc1c206e78856a2891284/RepoAuditor-0.1.1-py3-none-any.whl
+[2024-04-26 15:20:51] INFO root fetch - processPackages [shadow4]: Downloading https://files.pythonhosted.org/packages/81/9e/206eac068e97b86f0fa1135294d89ce933346d6b00c250170234fac88668/shadow4-0.1.8.tar.gz
+[2024-04-26 15:20:51] INFO root fetch - processPackages [odoo-addon-ddmrp-report-part-flow-index]: executing diffoscope
+[2024-04-26 15:20:51] INFO root fetch - processPackages [odoo-addon-ddmrp-report-part-flow-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_ddmrp_report_part_flow_index-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_ddmrp_report_part_flow_index-16.0.1.1.0-py3-none-any.whl.zip --markdown 20240426/o/odoo-addon-ddmrp-report-part-flow-index/16.0.1.0.0.3-16.0.1.1.0/README.md --exclude *.pyd
+[2024-04-26 15:20:51] INFO root fetch - processPackages [OASYS1-shadow4]: Downloading https://files.pythonhosted.org/packages/2a/7e/7bf83d2fc7487cd1b2eb273894b1415af0ec1123dd558e4e8df4e1d4acf7/OASYS1-shadow4-0.0.9.tar.gz
+[2024-04-26 15:20:51] INFO root fetch - processPackages [moltx]: executing diffoscope
+[2024-04-26 15:20:51] INFO root fetch - processPackages [moltx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moltx-0.9.7.tar.gz tmp/moltx-0.9.8.tar.gz --markdown 20240426/m/moltx/0.9.7-0.9.8/README.md --exclude *.pyd
+[2024-04-26 15:20:51] INFO root fetch - processPackages [shadow4]: executing diffoscope
+[2024-04-26 15:20:51] INFO root fetch - processPackages [shadow4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shadow4-0.1.7.tar.gz tmp/shadow4-0.1.8.tar.gz --markdown 20240426/s/shadow4/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-26 15:20:51] INFO root fetch - processPackages [RepoAuditor]: executing diffoscope
+[2024-04-26 15:20:51] INFO root fetch - processPackages [RepoAuditor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RepoAuditor-0.1.0-py3-none-any.whl.zip tmp/RepoAuditor-0.1.1-py3-none-any.whl.zip --markdown 20240426/R/RepoAuditor/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-26 15:20:51] INFO root fetch - processPackages [OASYS1-shadow4]: executing diffoscope
+[2024-04-26 15:20:51] INFO root fetch - processPackages [OASYS1-shadow4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OASYS1-shadow4-0.0.6.tar.gz tmp/OASYS1-shadow4-0.0.9.tar.gz --markdown 20240426/O/OASYS1-shadow4/0.0.6-0.0.9/README.md --exclude *.pyd
+[2024-04-26 15:20:52] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202404261011-py3-none-any.whl.zip]
+[2024-04-26 15:20:52] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202404261106-py3-none-any.whl.zip]
+[2024-04-26 15:20:52] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2024-04-26 15:20:52] INFO root fetch - processPackages [odoo-addon-ddmrp-report-part-flow-index]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_ddmrp_report_part_flow_index-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-04-26 15:20:52] INFO root fetch - processPackages [odoo-addon-ddmrp-report-part-flow-index]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_ddmrp_report_part_flow_index-16.0.1.1.0-py3-none-any.whl.zip]
+[2024-04-26 15:20:52] INFO root fetch - main [MainThread]: End processing [odoo-addon-ddmrp-report-part-flow-index]: success
+[2024-04-26 15:20:52] INFO root fetch - processPackages [moltx]: Remove: archive file [/home/abi/fetcher/tmp/moltx-0.9.7.tar.gz]
+[2024-04-26 15:20:52] INFO root fetch - processPackages [moltx]: Remove: archive file [/home/abi/fetcher/tmp/moltx-0.9.8.tar.gz]
+[2024-04-26 15:20:52] INFO root fetch - main [MainThread]: End processing [moltx]: success
+[2024-04-26 15:20:52] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.8.tar.gz]
+[2024-04-26 15:20:52] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
+[2024-04-26 15:20:52] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2024-04-26 15:20:52] INFO root fetch - processPackages [RepoAuditor]: Remove: archive file [/home/abi/fetcher/tmp/RepoAuditor-0.1.0-py3-none-any.whl.zip]
+[2024-04-26 15:20:52] INFO root fetch - processPackages [RepoAuditor]: Remove: archive file [/home/abi/fetcher/tmp/RepoAuditor-0.1.1-py3-none-any.whl.zip]
+[2024-04-26 15:20:52] INFO root fetch - main [MainThread]: End processing [RepoAuditor]: success
+[2024-04-26 15:20:52] INFO root fetch - processPackages [OASYS1-shadow4]: Remove: archive file [/home/abi/fetcher/tmp/OASYS1-shadow4-0.0.6.tar.gz]
+[2024-04-26 15:20:52] INFO root fetch - processPackages [OASYS1-shadow4]: Remove: archive file [/home/abi/fetcher/tmp/OASYS1-shadow4-0.0.9.tar.gz]
+[2024-04-26 15:20:52] INFO root fetch - main [MainThread]: End processing [OASYS1-shadow4]: success
+[2024-04-26 15:20:52] INFO root fetch - processPackages [shadow4]: Remove: archive file [/home/abi/fetcher/tmp/shadow4-0.1.7.tar.gz]
+[2024-04-26 15:20:52] INFO root fetch - processPackages [shadow4]: Remove: archive file [/home/abi/fetcher/tmp/shadow4-0.1.8.tar.gz]
+[2024-04-26 15:20:52] INFO root fetch - main [MainThread]: End processing [shadow4]: success
+[2024-04-26 15:20:52] INFO root fetch - main [MainThread]: Store serial: [22947936]
