@@ -19983,3 +19983,45 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 14:23:37] INFO root fetch - processPackages [data-repo-client]: Remove: archive file [/home/abi/fetcher/tmp/data-repo-client-2.50.0.tar.gz]
 [2024-04-26 14:23:37] INFO root fetch - main [MainThread]: End processing [data-repo-client]: success
 [2024-04-26 14:23:37] INFO root fetch - main [MainThread]: Store serial: [22947324]
+[2024-04-26 14:25:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22947324]
+[2024-04-26 14:25:46] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-26 14:25:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dagger-io
+[2024-04-26 14:25:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autogrammer
+[2024-04-26 14:25:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ds20kdb-avt
+[2024-04-26 14:25:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: SAMBA-ilum
+[2024-04-26 14:25:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: binaryen.py
+[2024-04-26 14:25:46] INFO root fetch - processPackages [SAMBA-ilum]: New version: [1.0.0.5] Old Version: [1.0.0.4]
+[2024-04-26 14:25:46] INFO root fetch - processPackages [ds20kdb-avt]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-26 14:25:46] WARNING root fetch - processPackages [autogrammer]: Skipping, unable to determine old version
+[2024-04-26 14:25:46] INFO root fetch - main [MainThread]: End processing [autogrammer] error
+[2024-04-26 14:25:46] INFO root fetch - processPackages [dagger-io]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-26 14:25:46] INFO root fetch - processPackages [binaryen.py]: New version: [117.1.1] Old Version: [117.1.0]
+[2024-04-26 14:25:46] INFO root fetch - processPackages [SAMBA-ilum]: Downloading https://files.pythonhosted.org/packages/a3/74/2ad477916f24e975e3dd406ab15cebf73cfbd452030f2ac5ce6bd2e8bb45/SAMBA_ilum-1.0.0.4.tar.gz
+[2024-04-26 14:25:46] INFO root fetch - processPackages [ds20kdb-avt]: Downloading https://files.pythonhosted.org/packages/54/fc/d6eb13c3159fe18627b8d7e0c76dfc177e657a384ee411738c5950b0ff8f/ds20kdb_avt-1.0.8.tar.gz
+[2024-04-26 14:25:46] INFO root fetch - processPackages [dagger-io]: Downloading https://files.pythonhosted.org/packages/e9/d3/a12127507defc646ab3473c8e939bd97d6fbf5d03f96bb50adf54f568b7d/dagger_io-0.9.8.tar.gz
+[2024-04-26 14:25:46] INFO root fetch - processPackages [binaryen.py]: Downloading https://files.pythonhosted.org/packages/ff/a1/91e6a778259a13e7f0af61aa06c4c9c7ce933da109c3f26ca5cfd7479722/binaryen_py-117.1.0.tar.gz
+[2024-04-26 14:25:46] INFO root fetch - processPackages [dagger-io]: Downloading https://files.pythonhosted.org/packages/22/da/b1058863686424a36ad9fb7beba1a5ee490b6620adfe4c4b44432bd2a683/dagger_io-0.9.9.tar.gz
+[2024-04-26 14:25:46] INFO root fetch - processPackages [ds20kdb-avt]: Downloading https://files.pythonhosted.org/packages/83/28/16e823ee489c38fd36674be8fd026fb3db3cfcad54433558f118ad2bfbdc/ds20kdb_avt-1.0.9.tar.gz
+[2024-04-26 14:25:46] INFO root fetch - processPackages [binaryen.py]: Downloading https://files.pythonhosted.org/packages/ec/56/3594f94e829f195b7b478f94d8d1f258634d8aec36f85cc80a91efcdab8b/binaryen.py-117.1.1-cp312-cp312-macosx_10_9_x86_64.whl
+[2024-04-26 14:25:46] INFO root fetch - processPackages [SAMBA-ilum]: Downloading https://files.pythonhosted.org/packages/5d/53/3faea6bf4a52336d6a498908357394f98374cbf5e7dc8f459f209e729525/SAMBA_ilum-1.0.0.5.tar.gz
+[2024-04-26 14:25:47] INFO root fetch - processPackages [ds20kdb-avt]: executing diffoscope
+[2024-04-26 14:25:47] INFO root fetch - processPackages [ds20kdb-avt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ds20kdb_avt-1.0.8.tar.gz tmp/ds20kdb_avt-1.0.9.tar.gz --markdown 20240426/d/ds20kdb-avt/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-26 14:25:47] INFO root fetch - processPackages [dagger-io]: executing diffoscope
+[2024-04-26 14:25:47] INFO root fetch - processPackages [dagger-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagger_io-0.9.8.tar.gz tmp/dagger_io-0.9.9.tar.gz --markdown 20240426/d/dagger-io/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-26 14:25:47] INFO root fetch - processPackages [SAMBA-ilum]: executing diffoscope
+[2024-04-26 14:25:47] INFO root fetch - processPackages [SAMBA-ilum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SAMBA_ilum-1.0.0.4.tar.gz tmp/SAMBA_ilum-1.0.0.5.tar.gz --markdown 20240426/S/SAMBA-ilum/1.0.0.4-1.0.0.5/README.md --exclude *.pyd
+[2024-04-26 14:25:47] INFO root fetch - processPackages [dagger-io]: Remove: archive file [/home/abi/fetcher/tmp/dagger_io-0.9.8.tar.gz]
+[2024-04-26 14:25:47] INFO root fetch - processPackages [dagger-io]: Remove: archive file [/home/abi/fetcher/tmp/dagger_io-0.9.9.tar.gz]
+[2024-04-26 14:25:47] INFO root fetch - main [MainThread]: End processing [dagger-io]: success
+[2024-04-26 14:25:47] INFO root fetch - processPackages [ds20kdb-avt]: Remove: archive file [/home/abi/fetcher/tmp/ds20kdb_avt-1.0.8.tar.gz]
+[2024-04-26 14:25:47] INFO root fetch - processPackages [ds20kdb-avt]: Remove: archive file [/home/abi/fetcher/tmp/ds20kdb_avt-1.0.9.tar.gz]
+[2024-04-26 14:25:47] INFO root fetch - main [MainThread]: End processing [ds20kdb-avt]: success
+[2024-04-26 14:25:48] INFO root fetch - processPackages [SAMBA-ilum]: Remove: archive file [/home/abi/fetcher/tmp/SAMBA_ilum-1.0.0.4.tar.gz]
+[2024-04-26 14:25:48] INFO root fetch - processPackages [SAMBA-ilum]: Remove: archive file [/home/abi/fetcher/tmp/SAMBA_ilum-1.0.0.5.tar.gz]
+[2024-04-26 14:25:48] INFO root fetch - main [MainThread]: End processing [SAMBA-ilum]: success
+[2024-04-26 14:25:48] INFO root fetch - processPackages [binaryen.py]: executing diffoscope
+[2024-04-26 14:25:48] INFO root fetch - processPackages [binaryen.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/binaryen_py-117.1.0.tar.gz tmp/binaryen.py-117.1.1-cp312-cp312-macosx_10_9_x86_64.whl.zip --markdown 20240426/b/binaryen.py/117.1.0-117.1.1/README.md --exclude *.pyd
+[2024-04-26 14:25:49] INFO root fetch - processPackages [binaryen.py]: Remove: archive file [/home/abi/fetcher/tmp/binaryen_py-117.1.0.tar.gz]
+[2024-04-26 14:25:49] INFO root fetch - processPackages [binaryen.py]: Remove: archive file [/home/abi/fetcher/tmp/binaryen.py-117.1.1-cp312-cp312-macosx_10_9_x86_64.whl.zip]
+[2024-04-26 14:25:49] INFO root fetch - main [MainThread]: End processing [binaryen.py]: success
+[2024-04-26 14:25:49] INFO root fetch - main [MainThread]: Store serial: [22947338]
