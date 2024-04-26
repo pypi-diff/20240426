@@ -1,4 +1,4 @@
-# Comparing `tmp/KratosCSharpWrapperApplication-9.4.6-cp39-cp39-win_amd64.whl.zip` & `tmp/KratosCSharpWrapperApplication-9.5-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip`
+# Comparing `tmp/KratosCSharpWrapperApplication-9.4.6-cp39-cp39-win_amd64.whl.zip` & `tmp/KratosCSharpWrapperApplication-9.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip`
 
 ## zipinfo -v {}
 
