@@ -15015,3 +15015,24 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 10:46:39] INFO root fetch - processPackages [qis]: Remove: archive file [/home/abi/fetcher/tmp/qis-2.0.9.tar.gz]
 [2024-04-26 10:46:39] INFO root fetch - main [MainThread]: End processing [qis]: success
 [2024-04-26 10:46:39] INFO root fetch - main [MainThread]: Store serial: [22945297]
+[2024-04-26 10:48:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22945297]
+[2024-04-26 10:48:48] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-26 10:48:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: llm-monitoring-sascha
+[2024-04-26 10:48:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: physicsml
+[2024-04-26 10:48:48] INFO root fetch - processPackages [llm-monitoring-sascha]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-26 10:48:48] INFO root fetch - processPackages [physicsml]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-04-26 10:48:48] INFO root fetch - processPackages [physicsml]: Downloading https://files.pythonhosted.org/packages/03/90/9ec005854dc009effa8f02456d1aa7c6800385938b6b1bc016f3d4d691da/physicsml-0.2.3.tar.gz
+[2024-04-26 10:48:48] INFO root fetch - processPackages [llm-monitoring-sascha]: Downloading https://files.pythonhosted.org/packages/35/79/1a9fe83e85ba36882c747844a00611d48f91f6666068a5b34749a070b035/llm_monitoring_sascha-0.0.4.tar.gz
+[2024-04-26 10:48:48] INFO root fetch - processPackages [llm-monitoring-sascha]: Downloading https://files.pythonhosted.org/packages/cd/2c/b9f79253bef919de96e61516f481b25586f0cd1f0dfba52161e6ac204d20/llm_monitoring_sascha-0.0.5.tar.gz
+[2024-04-26 10:48:49] INFO root fetch - processPackages [llm-monitoring-sascha]: executing diffoscope
+[2024-04-26 10:48:49] INFO root fetch - processPackages [llm-monitoring-sascha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm_monitoring_sascha-0.0.4.tar.gz tmp/llm_monitoring_sascha-0.0.5.tar.gz --markdown 20240426/l/llm-monitoring-sascha/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-26 10:48:49] INFO root fetch - processPackages [physicsml]: Downloading https://files.pythonhosted.org/packages/94/6a/73758a56fbe87683c55da5cc8678f6e34271b9339b270ea3493628cdd246/physicsml-0.2.4.tar.gz
+[2024-04-26 10:48:49] INFO root fetch - processPackages [physicsml]: executing diffoscope
+[2024-04-26 10:48:49] INFO root fetch - processPackages [physicsml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/physicsml-0.2.3.tar.gz tmp/physicsml-0.2.4.tar.gz --markdown 20240426/p/physicsml/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-04-26 10:48:49] INFO root fetch - processPackages [llm-monitoring-sascha]: Remove: archive file [/home/abi/fetcher/tmp/llm_monitoring_sascha-0.0.4.tar.gz]
+[2024-04-26 10:48:49] INFO root fetch - processPackages [llm-monitoring-sascha]: Remove: archive file [/home/abi/fetcher/tmp/llm_monitoring_sascha-0.0.5.tar.gz]
+[2024-04-26 10:48:49] INFO root fetch - main [MainThread]: End processing [llm-monitoring-sascha]: success
+[2024-04-26 10:48:51] INFO root fetch - processPackages [physicsml]: Remove: archive file [/home/abi/fetcher/tmp/physicsml-0.2.3.tar.gz]
+[2024-04-26 10:48:51] INFO root fetch - processPackages [physicsml]: Remove: archive file [/home/abi/fetcher/tmp/physicsml-0.2.4.tar.gz]
+[2024-04-26 10:48:51] INFO root fetch - main [MainThread]: End processing [physicsml]: success
+[2024-04-26 10:48:51] INFO root fetch - main [MainThread]: Store serial: [22945307]
