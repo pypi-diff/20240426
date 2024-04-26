@@ -8693,3 +8693,79 @@
 [2024-04-26 06:03:55] INFO root fetch - processPackages [pwrdrvr.microapps.cdk]: Remove: archive file [/home/abi/fetcher/tmp/pwrdrvr.microapps.cdk-1.0.1.tar.gz]
 [2024-04-26 06:03:55] INFO root fetch - main [MainThread]: End processing [pwrdrvr.microapps.cdk]: success
 [2024-04-26 06:03:55] INFO root fetch - main [MainThread]: Store serial: [22942486]
+[2024-04-26 06:05:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22942486]
+[2024-04-26 06:06:04] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-26 06:06:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chromedriver-binary
+[2024-04-26 06:06:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chromedriver-binary
+[2024-04-26 06:06:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-somfy
+[2024-04-26 06:06:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-l10n-br-contract
+[2024-04-26 06:06:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: seleniumbase
+[2024-04-26 06:06:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-l10n-br-fiscal
+[2024-04-26 06:06:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: strnn-hv
+[2024-04-26 06:06:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo14-addon-l10n-br-pos
+[2024-04-26 06:06:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo14-addon-l10n-br-purchase
+[2024-04-26 06:06:04] INFO root fetch - processPackages [chromedriver-binary]: New version: [99.0.4844.51.0] Old Version: [99.0.4844.35.0]
+[2024-04-26 06:06:04] INFO root fetch - processPackages [chromedriver-binary]: New version: [99.0.4844.51.0] Old Version: [99.0.4844.35.0]
+[2024-04-26 06:06:04] INFO root fetch - processPackages [odoo14-addon-l10n-br-purchase]: New version: [14.0.3.6.1.dev1] Old Version: [14.0.3.6.0]
+[2024-04-26 06:06:04] INFO root fetch - processPackages [odoo14-addon-l10n-br-pos]: New version: [14.0.1.5.3.dev9] Old Version: [14.0.1.5.3.dev8]
+[2024-04-26 06:06:04] INFO root fetch - processPackages [python-somfy]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-04-26 06:06:04] WARNING root fetch - processPackages [strnn-hv]: Skipping, unable to determine old version
+[2024-04-26 06:06:04] INFO root fetch - main [MainThread]: End processing [strnn-hv] error
+[2024-04-26 06:06:04] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/50/a2/f36a3d2f2aa37ccc496e5f81d594f06e3965b836712da14b4b01d2f05ca8/chromedriver-binary-99.0.4844.35.0.tar.gz
+[2024-04-26 06:06:04] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/50/a2/f36a3d2f2aa37ccc496e5f81d594f06e3965b836712da14b4b01d2f05ca8/chromedriver-binary-99.0.4844.35.0.tar.gz
+[2024-04-26 06:06:04] INFO root fetch - processPackages [odoo14-addon-l10n-br-contract]: New version: [14.0.2.3.4.dev9] Old Version: [14.0.2.3.4.dev8]
+[2024-04-26 06:06:04] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: New version: [14.0.9.2.1.dev3] Old Version: [14.0.9.2.1.dev2]
+[2024-04-26 06:06:04] INFO root fetch - processPackages [seleniumbase]: New version: [4.9.9] Old Version: [4.9.8]
+[2024-04-26 06:06:04] INFO root fetch - processPackages [odoo14-addon-l10n-br-purchase]: Downloading https://files.pythonhosted.org/packages/a9/34/b6c6a65fec514bb647800eb5d2e94fa9694fe8e4f065e004c6e84c691ce8/odoo14_addon_l10n_br_purchase-14.0.3.6.0-py3-none-any.whl
+[2024-04-26 06:06:04] INFO root fetch - processPackages [odoo14-addon-l10n-br-pos]: Downloading https://files.pythonhosted.org/packages/f1/56/2f6037b4aa9e1bf3ced072b311ab048e3e7a04fd72a138a731f70260aeda/odoo14_addon_l10n_br_pos-14.0.1.5.3.dev8-py3-none-any.whl
+[2024-04-26 06:06:04] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/d9/eb/3bd2a308b9e6f7441fbed7b759578bddade2cb983bb4ffe7fc3777863314/chromedriver-binary-99.0.4844.51.0.tar.gz
+[2024-04-26 06:06:04] INFO root fetch - processPackages [python-somfy]: Downloading https://files.pythonhosted.org/packages/6d/3f/b6f2142f0935e61615888f505fb24ede9ecbd53e4612ec43c11258221203/python_somfy-1.0.0.tar.gz
+[2024-04-26 06:06:04] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/d9/eb/3bd2a308b9e6f7441fbed7b759578bddade2cb983bb4ffe7fc3777863314/chromedriver-binary-99.0.4844.51.0.tar.gz
+[2024-04-26 06:06:04] INFO root fetch - processPackages [odoo14-addon-l10n-br-contract]: Downloading https://files.pythonhosted.org/packages/93/84/a4a9de73e397124771ae8c84a8017e60514c2d8a57c2d0bd9d7abc23c02e/odoo14_addon_l10n_br_contract-14.0.2.3.4.dev8-py3-none-any.whl
+[2024-04-26 06:06:04] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: Downloading https://files.pythonhosted.org/packages/b6/ae/9800d777e4d7166c8a0ee02cd7c2602421433738397b582d529f48db7c5b/odoo14_addon_l10n_br_fiscal-14.0.9.2.1.dev2-py3-none-any.whl
+[2024-04-26 06:06:04] INFO root fetch - processPackages [seleniumbase]: Downloading https://files.pythonhosted.org/packages/d5/06/b4c4aa69540cf3a9c497a53072da777eefd704403fc8f952a88c69208ad1/seleniumbase-4.9.8.tar.gz
+[2024-04-26 06:06:05] INFO root fetch - processPackages [chromedriver-binary]: executing diffoscope
+[2024-04-26 06:06:05] INFO root fetch - processPackages [chromedriver-binary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chromedriver-binary-99.0.4844.35.0.tar.gz tmp/chromedriver-binary-99.0.4844.51.0.tar.gz --markdown 20240426/c/chromedriver-binary/99.0.4844.35.0-99.0.4844.51.0/README.md --exclude *.pyd
+[2024-04-26 06:06:05] INFO root fetch - processPackages [chromedriver-binary]: executing diffoscope
+[2024-04-26 06:06:05] INFO root fetch - processPackages [chromedriver-binary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chromedriver-binary-99.0.4844.35.0.tar.gz tmp/chromedriver-binary-99.0.4844.51.0.tar.gz --markdown 20240426/c/chromedriver-binary/99.0.4844.35.0-99.0.4844.51.0/README.md --exclude *.pyd
+[2024-04-26 06:06:05] INFO root fetch - processPackages [odoo14-addon-l10n-br-purchase]: Downloading https://files.pythonhosted.org/packages/e2/c4/c51528914b71a7f733012cb7d43fecc8cd91242ea28836131669251ec094/odoo14_addon_l10n_br_purchase-14.0.3.6.1.dev1-py3-none-any.whl
+[2024-04-26 06:06:05] INFO root fetch - processPackages [odoo14-addon-l10n-br-contract]: Downloading https://files.pythonhosted.org/packages/9b/6c/0ade2fdd7503fb398e16d861940f116d1e0f05c9148c1f8b5bf2bc9185ba/odoo14_addon_l10n_br_contract-14.0.2.3.4.dev9-py3-none-any.whl
+[2024-04-26 06:06:05] INFO root fetch - processPackages [odoo14-addon-l10n-br-pos]: Downloading https://files.pythonhosted.org/packages/c4/5a/00631840ff1a58fa5c3a89868c29231e557f255e18efdcc354f00572ed2a/odoo14_addon_l10n_br_pos-14.0.1.5.3.dev9-py3-none-any.whl
+[2024-04-26 06:06:05] INFO root fetch - processPackages [python-somfy]: Downloading https://files.pythonhosted.org/packages/bd/98/46ac876a42ef089463e2c0a5db4651ce20abd26c606fb2ba30b20b7b97b5/python_somfy-1.1.0.tar.gz
+[2024-04-26 06:06:05] INFO root fetch - processPackages [odoo14-addon-l10n-br-contract]: executing diffoscope
+[2024-04-26 06:06:05] INFO root fetch - processPackages [odoo14-addon-l10n-br-contract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_contract-14.0.2.3.4.dev8-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_contract-14.0.2.3.4.dev9-py3-none-any.whl.zip --markdown 20240426/o/odoo14-addon-l10n-br-contract/14.0.2.3.4.dev8-14.0.2.3.4.dev9/README.md --exclude *.pyd
+[2024-04-26 06:06:05] INFO root fetch - processPackages [python-somfy]: executing diffoscope
+[2024-04-26 06:06:05] INFO root fetch - processPackages [python-somfy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_somfy-1.0.0.tar.gz tmp/python_somfy-1.1.0.tar.gz --markdown 20240426/p/python-somfy/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-04-26 06:06:05] INFO root fetch - processPackages [odoo14-addon-l10n-br-pos]: executing diffoscope
+[2024-04-26 06:06:05] INFO root fetch - processPackages [odoo14-addon-l10n-br-pos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_pos-14.0.1.5.3.dev8-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_pos-14.0.1.5.3.dev9-py3-none-any.whl.zip --markdown 20240426/o/odoo14-addon-l10n-br-pos/14.0.1.5.3.dev8-14.0.1.5.3.dev9/README.md --exclude *.pyd
+[2024-04-26 06:06:05] INFO root fetch - processPackages [odoo14-addon-l10n-br-purchase]: executing diffoscope
+[2024-04-26 06:06:05] INFO root fetch - processPackages [odoo14-addon-l10n-br-purchase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_purchase-14.0.3.6.0-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_purchase-14.0.3.6.1.dev1-py3-none-any.whl.zip --markdown 20240426/o/odoo14-addon-l10n-br-purchase/14.0.3.6.0-14.0.3.6.1.dev1/README.md --exclude *.pyd
+[2024-04-26 06:06:05] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: Downloading https://files.pythonhosted.org/packages/3e/9d/f06739d0fc5ac83076dbdce19b1fc1ffc33e068724d0f81d8a08b9fed2ef/odoo14_addon_l10n_br_fiscal-14.0.9.2.1.dev3-py3-none-any.whl
+[2024-04-26 06:06:05] INFO root fetch - processPackages [seleniumbase]: Downloading https://files.pythonhosted.org/packages/9d/0f/462449b9921267bb9f0f0db257c72435e50ec2fcd4219764bb131be70686/seleniumbase-4.9.9.tar.gz
+[2024-04-26 06:06:05] INFO root fetch - processPackages [chromedriver-binary]: Remove: archive file [/home/abi/fetcher/tmp/chromedriver-binary-99.0.4844.35.0.tar.gz]
+[2024-04-26 06:06:05] INFO root fetch - processPackages [chromedriver-binary]: Remove: archive file [/home/abi/fetcher/tmp/chromedriver-binary-99.0.4844.51.0.tar.gz]
+[2024-04-26 06:06:05] INFO root fetch - main [MainThread]: End processing [chromedriver-binary]: success
+[2024-04-26 06:06:05] INFO root fetch - main [MainThread]: End processing [chromedriver-binary]: success
+[2024-04-26 06:06:05] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: executing diffoscope
+[2024-04-26 06:06:05] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_fiscal-14.0.9.2.1.dev2-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_fiscal-14.0.9.2.1.dev3-py3-none-any.whl.zip --markdown 20240426/o/odoo14-addon-l10n-br-fiscal/14.0.9.2.1.dev2-14.0.9.2.1.dev3/README.md --exclude *.pyd
+[2024-04-26 06:06:05] INFO root fetch - processPackages [seleniumbase]: executing diffoscope
+[2024-04-26 06:06:05] INFO root fetch - processPackages [seleniumbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seleniumbase-4.9.8.tar.gz tmp/seleniumbase-4.9.9.tar.gz --markdown 20240426/s/seleniumbase/4.9.8-4.9.9/README.md --exclude *.pyd
+[2024-04-26 06:06:06] INFO root fetch - processPackages [odoo14-addon-l10n-br-contract]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_contract-14.0.2.3.4.dev8-py3-none-any.whl.zip]
+[2024-04-26 06:06:06] INFO root fetch - processPackages [odoo14-addon-l10n-br-contract]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_contract-14.0.2.3.4.dev9-py3-none-any.whl.zip]
+[2024-04-26 06:06:06] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-contract]: success
+[2024-04-26 06:06:06] INFO root fetch - processPackages [python-somfy]: Remove: archive file [/home/abi/fetcher/tmp/python_somfy-1.0.0.tar.gz]
+[2024-04-26 06:06:06] INFO root fetch - processPackages [python-somfy]: Remove: archive file [/home/abi/fetcher/tmp/python_somfy-1.1.0.tar.gz]
+[2024-04-26 06:06:06] INFO root fetch - main [MainThread]: End processing [python-somfy]: success
+[2024-04-26 06:06:06] INFO root fetch - processPackages [odoo14-addon-l10n-br-pos]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_pos-14.0.1.5.3.dev8-py3-none-any.whl.zip]
+[2024-04-26 06:06:06] INFO root fetch - processPackages [odoo14-addon-l10n-br-pos]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_pos-14.0.1.5.3.dev9-py3-none-any.whl.zip]
+[2024-04-26 06:06:06] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-pos]: success
+[2024-04-26 06:06:06] INFO root fetch - processPackages [odoo14-addon-l10n-br-purchase]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_purchase-14.0.3.6.0-py3-none-any.whl.zip]
+[2024-04-26 06:06:06] INFO root fetch - processPackages [odoo14-addon-l10n-br-purchase]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_purchase-14.0.3.6.1.dev1-py3-none-any.whl.zip]
+[2024-04-26 06:06:06] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-purchase]: success
+[2024-04-26 06:06:06] INFO root fetch - processPackages [seleniumbase]: Remove: archive file [/home/abi/fetcher/tmp/seleniumbase-4.9.8.tar.gz]
+[2024-04-26 06:06:06] INFO root fetch - processPackages [seleniumbase]: Remove: archive file [/home/abi/fetcher/tmp/seleniumbase-4.9.9.tar.gz]
+[2024-04-26 06:06:06] INFO root fetch - main [MainThread]: End processing [seleniumbase]: success
+[2024-04-26 06:06:07] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_fiscal-14.0.9.2.1.dev2-py3-none-any.whl.zip]
+[2024-04-26 06:06:07] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_fiscal-14.0.9.2.1.dev3-py3-none-any.whl.zip]
+[2024-04-26 06:06:07] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-fiscal]: success
+[2024-04-26 06:06:07] INFO root fetch - main [MainThread]: Store serial: [22942509]
