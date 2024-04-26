@@ -11352,3 +11352,33 @@
 [2024-04-26 08:33:54] INFO root fetch - processPackages [kfre]: Remove: archive file [/home/abi/fetcher/tmp/kfre-0.1.1a5.tar.gz]
 [2024-04-26 08:33:54] INFO root fetch - main [MainThread]: End processing [kfre]: success
 [2024-04-26 08:33:54] INFO root fetch - main [MainThread]: Store serial: [22943523]
+[2024-04-26 08:35:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22943523]
+[2024-04-26 08:36:03] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-26 08:36:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-pagerduty
+[2024-04-26 08:36:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-opsgenie
+[2024-04-26 08:36:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django_bocor_ds
+[2024-04-26 08:36:03] INFO root fetch - processPackages [django_bocor_ds]: New version: [2.1.0] Old Version: [2.0.6]
+[2024-04-26 08:36:03] INFO root fetch - processPackages [pulumi-opsgenie]: New version: [1.4.0a1714111665] Old Version: [1.4.0a1713903127]
+[2024-04-26 08:36:03] INFO root fetch - processPackages [pulumi-pagerduty]: New version: [4.9.0a1709566454] Old Version: [4.9.0a1709366773]
+[2024-04-26 08:36:03] INFO root fetch - processPackages [pulumi-pagerduty]: Downloading https://files.pythonhosted.org/packages/ba/dc/468cc1cc3ab57e83660f1775ea0d9f1dcfc62c6de9c10832b834d737ec1a/pulumi_pagerduty-4.9.0a1709366773.tar.gz
+[2024-04-26 08:36:03] INFO root fetch - processPackages [pulumi-opsgenie]: Downloading https://files.pythonhosted.org/packages/5c/55/ef9f06e3bd5361576c40555b447780dfbac836a06f7aed53cafd0c31a4ab/pulumi_opsgenie-1.4.0a1713903127.tar.gz
+[2024-04-26 08:36:03] INFO root fetch - processPackages [django_bocor_ds]: Downloading https://files.pythonhosted.org/packages/ba/89/415672261fab2d721825a58bdb8af63f0c993f59161e5d554da60bcb90e2/django_bocor_ds-2.0.6.tar.gz
+[2024-04-26 08:36:03] INFO root fetch - processPackages [pulumi-pagerduty]: Downloading https://files.pythonhosted.org/packages/ea/4e/a77d2efabe6daeb6878eeed9b4c2b3c43c2b854c19e3be4b3d627c2c0427/pulumi_pagerduty-4.9.0a1709566454.tar.gz
+[2024-04-26 08:36:04] INFO root fetch - processPackages [pulumi-opsgenie]: Downloading https://files.pythonhosted.org/packages/e8/1c/f50d834ca31c4ae5d63f9181332bddfbd5ed376bcae3dd3dac1338786774/pulumi_opsgenie-1.4.0a1714111665.tar.gz
+[2024-04-26 08:36:04] INFO root fetch - processPackages [pulumi-opsgenie]: executing diffoscope
+[2024-04-26 08:36:04] INFO root fetch - processPackages [pulumi-opsgenie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_opsgenie-1.4.0a1713903127.tar.gz tmp/pulumi_opsgenie-1.4.0a1714111665.tar.gz --markdown 20240426/p/pulumi-opsgenie/1.4.0a1713903127-1.4.0a1714111665/README.md --exclude *.pyd
+[2024-04-26 08:36:04] INFO root fetch - processPackages [pulumi-pagerduty]: executing diffoscope
+[2024-04-26 08:36:04] INFO root fetch - processPackages [pulumi-pagerduty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_pagerduty-4.9.0a1709366773.tar.gz tmp/pulumi_pagerduty-4.9.0a1709566454.tar.gz --markdown 20240426/p/pulumi-pagerduty/4.9.0a1709366773-4.9.0a1709566454/README.md --exclude *.pyd
+[2024-04-26 08:36:04] INFO root fetch - processPackages [django_bocor_ds]: Downloading https://files.pythonhosted.org/packages/9a/6c/bb8757f7eff77394c40cc86c33781f30de538750c497e5b1d81ef94d6743/django_bocor_ds-2.1.0-py2.py3-none-any.whl
+[2024-04-26 08:36:04] INFO root fetch - processPackages [pulumi-opsgenie]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opsgenie-1.4.0a1713903127.tar.gz]
+[2024-04-26 08:36:04] INFO root fetch - processPackages [pulumi-opsgenie]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opsgenie-1.4.0a1714111665.tar.gz]
+[2024-04-26 08:36:04] INFO root fetch - main [MainThread]: End processing [pulumi-opsgenie]: success
+[2024-04-26 08:36:04] INFO root fetch - processPackages [django_bocor_ds]: executing diffoscope
+[2024-04-26 08:36:04] INFO root fetch - processPackages [django_bocor_ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_bocor_ds-2.0.6.tar.gz tmp/django_bocor_ds-2.1.0-py2.py3-none-any.whl.zip --markdown 20240426/d/django_bocor_ds/2.0.6-2.1.0/README.md --exclude *.pyd
+[2024-04-26 08:36:05] INFO root fetch - processPackages [pulumi-pagerduty]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_pagerduty-4.9.0a1709366773.tar.gz]
+[2024-04-26 08:36:05] INFO root fetch - processPackages [pulumi-pagerduty]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_pagerduty-4.9.0a1709566454.tar.gz]
+[2024-04-26 08:36:05] INFO root fetch - main [MainThread]: End processing [pulumi-pagerduty]: success
+[2024-04-26 08:36:06] INFO root fetch - processPackages [django_bocor_ds]: Remove: archive file [/home/abi/fetcher/tmp/django_bocor_ds-2.0.6.tar.gz]
+[2024-04-26 08:36:06] INFO root fetch - processPackages [django_bocor_ds]: Remove: archive file [/home/abi/fetcher/tmp/django_bocor_ds-2.1.0-py2.py3-none-any.whl.zip]
+[2024-04-26 08:36:06] INFO root fetch - main [MainThread]: End processing [django_bocor_ds]: success
+[2024-04-26 08:36:06] INFO root fetch - main [MainThread]: Store serial: [22943531]
