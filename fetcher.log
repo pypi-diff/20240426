@@ -21910,3 +21910,78 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 15:44:59] INFO root fetch - processPackages [Simba-UW-tf-dev]: Remove: archive file [/home/abi/fetcher/tmp/Simba-UW-tf-dev-1.90.8.tar.gz]
 [2024-04-26 15:44:59] INFO root fetch - main [MainThread]: End processing [Simba-UW-tf-dev]: success
 [2024-04-26 15:44:59] INFO root fetch - main [MainThread]: Store serial: [22948231]
+[2024-04-26 15:47:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22948231]
+[2024-04-26 15:47:09] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-26 15:47:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pynanovna
+[2024-04-26 15:47:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jy_lib
+[2024-04-26 15:47:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: message-local
+[2024-04-26 15:47:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: met-annot-unifier
+[2024-04-26 15:47:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: saagieapi
+[2024-04-26 15:47:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: poetry-plugin-dotenv
+[2024-04-26 15:47:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: torch-utilities
+[2024-04-26 15:47:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: olas-operate-middleware
+[2024-04-26 15:47:10] INFO root fetch - processPackages [pynanovna]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-26 15:47:10] INFO root fetch - processPackages [jy_lib]: New version: [0.6.8] Old Version: [0.6.7]
+[2024-04-26 15:47:10] INFO root fetch - processPackages [poetry-plugin-dotenv]: New version: [1.0.0] Old Version: [0.8.4]
+[2024-04-26 15:47:10] INFO root fetch - processPackages [message-local]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-26 15:47:10] INFO root fetch - processPackages [met-annot-unifier]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-26 15:47:10] INFO root fetch - processPackages [pynanovna]: Downloading https://files.pythonhosted.org/packages/c6/71/64a448e1f1ded1a5b860f679a51b5d78e2949f6babc69b2eb6974647e6fb/pynanovna-0.0.1.tar.gz
+[2024-04-26 15:47:10] INFO root fetch - processPackages [jy_lib]: Downloading https://files.pythonhosted.org/packages/c7/f7/5cbe0ade04b20a5f72673aee8f7f8a041e08d2dafd79e0063e244d0829ad/jy_lib-0.6.7.tar.gz
+[2024-04-26 15:47:10] INFO root fetch - processPackages [poetry-plugin-dotenv]: Downloading https://files.pythonhosted.org/packages/97/29/9d2b0aaf92c8fa63dc8f9a54af7d74de7ea0e6707d36a23ef5c7acaaffc8/poetry_plugin_dotenv-0.8.4.tar.gz
+[2024-04-26 15:47:10] INFO root fetch - processPackages [torch-utilities]: New version: [1.1.5] Old Version: [1.1.4]
+[2024-04-26 15:47:10] INFO root fetch - processPackages [olas-operate-middleware]: New version: [0.1.0rc9] Old Version: [0.1.0rc8]
+[2024-04-26 15:47:10] INFO root fetch - processPackages [saagieapi]: New version: [2.9.2] Old Version: [2.9.1]
+[2024-04-26 15:47:10] INFO root fetch - processPackages [message-local]: Downloading https://files.pythonhosted.org/packages/58/98/6002a91d9f0eb23b635ecf892333a787e13c1e810b92090bc53584aa2f18/message-local-0.0.98.tar.gz
+[2024-04-26 15:47:10] INFO root fetch - processPackages [met-annot-unifier]: Downloading https://files.pythonhosted.org/packages/80/b5/ab056a86292a8d041feee606c328fa3d0e3667f900713f04e89c1bee9d3e/met_annot_unifier-0.0.3.tar.gz
+[2024-04-26 15:47:10] INFO root fetch - processPackages [saagieapi]: Downloading https://files.pythonhosted.org/packages/37/57/625c8bad283c4a236abdd86523d5182566fc964f3a6553ffd29e89d7dc3e/saagieapi-2.9.1.tar.gz
+[2024-04-26 15:47:10] INFO root fetch - processPackages [torch-utilities]: Downloading https://files.pythonhosted.org/packages/6d/e9/139afb97cfde5449e4598d42d090687b3b681470e2b49585158ba5e2a5c3/torch_utilities-1.1.4.tar.gz
+[2024-04-26 15:47:10] INFO root fetch - processPackages [olas-operate-middleware]: Downloading https://files.pythonhosted.org/packages/d2/22/dc91171f9f5c12f72fbef4ec6b6962b4e66e69f3a3fde86b4f32a9648c5c/olas_operate_middleware-0.1.0rc8.tar.gz
+[2024-04-26 15:47:10] INFO root fetch - processPackages [pynanovna]: Downloading https://files.pythonhosted.org/packages/e9/0a/04a8d0c9e5431d454dde61a574a2f331ed55e5e539ca51237edf8fa514e4/pynanovna-0.0.2.tar.gz
+[2024-04-26 15:47:10] INFO root fetch - processPackages [message-local]: Downloading https://files.pythonhosted.org/packages/78/17/d149670c7821186afe25a7b74020f68bd8db48497b170965d75952fbe2d8/message-local-0.0.99.tar.gz
+[2024-04-26 15:47:10] INFO root fetch - processPackages [poetry-plugin-dotenv]: Downloading https://files.pythonhosted.org/packages/c8/ef/47f7e6f90407449df9fb20f11de06b3a8f8b95c6666a411bacbf1335a2ff/poetry_plugin_dotenv-1.0.0.tar.gz
+[2024-04-26 15:47:10] INFO root fetch - processPackages [pynanovna]: executing diffoscope
+[2024-04-26 15:47:10] INFO root fetch - processPackages [pynanovna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynanovna-0.0.1.tar.gz tmp/pynanovna-0.0.2.tar.gz --markdown 20240426/p/pynanovna/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-26 15:47:10] INFO root fetch - processPackages [message-local]: executing diffoscope
+[2024-04-26 15:47:10] INFO root fetch - processPackages [message-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/message-local-0.0.98.tar.gz tmp/message-local-0.0.99.tar.gz --markdown 20240426/m/message-local/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-04-26 15:47:10] INFO root fetch - processPackages [poetry-plugin-dotenv]: executing diffoscope
+[2024-04-26 15:47:10] INFO root fetch - processPackages [poetry-plugin-dotenv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poetry_plugin_dotenv-0.8.4.tar.gz tmp/poetry_plugin_dotenv-1.0.0.tar.gz --markdown 20240426/p/poetry-plugin-dotenv/0.8.4-1.0.0/README.md --exclude *.pyd
+[2024-04-26 15:47:10] INFO root fetch - processPackages [met-annot-unifier]: Downloading https://files.pythonhosted.org/packages/f5/66/30377fd46bbe3069f1c7753bc4d8c781bf9051b6c2b31948872a95b11966/met_annot_unifier-0.0.4.tar.gz
+[2024-04-26 15:47:10] INFO root fetch - processPackages [jy_lib]: Downloading https://files.pythonhosted.org/packages/9d/1a/6d32b56a182985f7d29655c5052cedfbe0f43fa5a12fa011a36e0b1e793f/jy_lib-0.6.8.tar.gz
+[2024-04-26 15:47:10] INFO root fetch - processPackages [met-annot-unifier]: executing diffoscope
+[2024-04-26 15:47:10] INFO root fetch - processPackages [met-annot-unifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/met_annot_unifier-0.0.3.tar.gz tmp/met_annot_unifier-0.0.4.tar.gz --markdown 20240426/m/met-annot-unifier/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-26 15:47:10] INFO root fetch - processPackages [olas-operate-middleware]: Downloading https://files.pythonhosted.org/packages/8f/69/3a83cbcad75fcbdca3d7a77b5edfa7b4511dea20e87d2aacfe22a9188bc8/olas_operate_middleware-0.1.0rc9.tar.gz
+[2024-04-26 15:47:10] INFO root fetch - processPackages [jy_lib]: executing diffoscope
+[2024-04-26 15:47:10] INFO root fetch - processPackages [jy_lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jy_lib-0.6.7.tar.gz tmp/jy_lib-0.6.8.tar.gz --markdown 20240426/j/jy_lib/0.6.7-0.6.8/README.md --exclude *.pyd
+[2024-04-26 15:47:10] INFO root fetch - processPackages [saagieapi]: Downloading https://files.pythonhosted.org/packages/34/48/07e71b999b241e27c6ae98156a3367c6f7ab78917c2ede16c342a90e81a8/saagieapi-2.9.2.tar.gz
+[2024-04-26 15:47:11] INFO root fetch - processPackages [torch-utilities]: Downloading https://files.pythonhosted.org/packages/ec/99/0c7c3e804efbb7fe10206e5b5a8669226ab14768373d047abc434d6a0dc5/torch_utilities-1.1.5.tar.gz
+[2024-04-26 15:47:11] INFO root fetch - processPackages [saagieapi]: executing diffoscope
+[2024-04-26 15:47:11] INFO root fetch - processPackages [saagieapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/saagieapi-2.9.1.tar.gz tmp/saagieapi-2.9.2.tar.gz --markdown 20240426/s/saagieapi/2.9.1-2.9.2/README.md --exclude *.pyd
+[2024-04-26 15:47:11] INFO root fetch - processPackages [olas-operate-middleware]: executing diffoscope
+[2024-04-26 15:47:11] INFO root fetch - processPackages [olas-operate-middleware]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/olas_operate_middleware-0.1.0rc8.tar.gz tmp/olas_operate_middleware-0.1.0rc9.tar.gz --markdown 20240426/o/olas-operate-middleware/0.1.0rc8-0.1.0rc9/README.md --exclude *.pyd
+[2024-04-26 15:47:11] INFO root fetch - processPackages [torch-utilities]: executing diffoscope
+[2024-04-26 15:47:11] INFO root fetch - processPackages [torch-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_utilities-1.1.4.tar.gz tmp/torch_utilities-1.1.5.tar.gz --markdown 20240426/t/torch-utilities/1.1.4-1.1.5/README.md --exclude *.pyd
+[2024-04-26 15:47:11] INFO root fetch - processPackages [pynanovna]: Remove: archive file [/home/abi/fetcher/tmp/pynanovna-0.0.1.tar.gz]
+[2024-04-26 15:47:11] INFO root fetch - processPackages [pynanovna]: Remove: archive file [/home/abi/fetcher/tmp/pynanovna-0.0.2.tar.gz]
+[2024-04-26 15:47:11] INFO root fetch - main [MainThread]: End processing [pynanovna]: success
+[2024-04-26 15:47:11] INFO root fetch - processPackages [message-local]: Remove: archive file [/home/abi/fetcher/tmp/message-local-0.0.98.tar.gz]
+[2024-04-26 15:47:11] INFO root fetch - processPackages [message-local]: Remove: archive file [/home/abi/fetcher/tmp/message-local-0.0.99.tar.gz]
+[2024-04-26 15:47:11] INFO root fetch - main [MainThread]: End processing [message-local]: success
+[2024-04-26 15:47:11] INFO root fetch - processPackages [poetry-plugin-dotenv]: Remove: archive file [/home/abi/fetcher/tmp/poetry_plugin_dotenv-0.8.4.tar.gz]
+[2024-04-26 15:47:11] INFO root fetch - processPackages [poetry-plugin-dotenv]: Remove: archive file [/home/abi/fetcher/tmp/poetry_plugin_dotenv-1.0.0.tar.gz]
+[2024-04-26 15:47:11] INFO root fetch - main [MainThread]: End processing [poetry-plugin-dotenv]: success
+[2024-04-26 15:47:11] INFO root fetch - processPackages [jy_lib]: Remove: archive file [/home/abi/fetcher/tmp/jy_lib-0.6.7.tar.gz]
+[2024-04-26 15:47:11] INFO root fetch - processPackages [jy_lib]: Remove: archive file [/home/abi/fetcher/tmp/jy_lib-0.6.8.tar.gz]
+[2024-04-26 15:47:11] INFO root fetch - main [MainThread]: End processing [jy_lib]: success
+[2024-04-26 15:47:11] INFO root fetch - processPackages [met-annot-unifier]: Remove: archive file [/home/abi/fetcher/tmp/met_annot_unifier-0.0.3.tar.gz]
+[2024-04-26 15:47:11] INFO root fetch - processPackages [met-annot-unifier]: Remove: archive file [/home/abi/fetcher/tmp/met_annot_unifier-0.0.4.tar.gz]
+[2024-04-26 15:47:11] INFO root fetch - main [MainThread]: End processing [met-annot-unifier]: success
+[2024-04-26 15:47:11] INFO root fetch - processPackages [olas-operate-middleware]: Remove: archive file [/home/abi/fetcher/tmp/olas_operate_middleware-0.1.0rc8.tar.gz]
+[2024-04-26 15:47:11] INFO root fetch - processPackages [olas-operate-middleware]: Remove: archive file [/home/abi/fetcher/tmp/olas_operate_middleware-0.1.0rc9.tar.gz]
+[2024-04-26 15:47:11] INFO root fetch - main [MainThread]: End processing [olas-operate-middleware]: success
+[2024-04-26 15:47:11] INFO root fetch - processPackages [saagieapi]: Remove: archive file [/home/abi/fetcher/tmp/saagieapi-2.9.1.tar.gz]
+[2024-04-26 15:47:11] INFO root fetch - processPackages [saagieapi]: Remove: archive file [/home/abi/fetcher/tmp/saagieapi-2.9.2.tar.gz]
+[2024-04-26 15:47:11] INFO root fetch - main [MainThread]: End processing [saagieapi]: success
+[2024-04-26 15:47:12] INFO root fetch - processPackages [torch-utilities]: Remove: archive file [/home/abi/fetcher/tmp/torch_utilities-1.1.4.tar.gz]
+[2024-04-26 15:47:12] INFO root fetch - processPackages [torch-utilities]: Remove: archive file [/home/abi/fetcher/tmp/torch_utilities-1.1.5.tar.gz]
+[2024-04-26 15:47:12] INFO root fetch - main [MainThread]: End processing [torch-utilities]: success
+[2024-04-26 15:47:12] INFO root fetch - main [MainThread]: Store serial: [22948259]
