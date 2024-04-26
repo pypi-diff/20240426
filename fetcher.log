@@ -9823,3 +9823,33 @@
 [2024-04-26 07:27:09] INFO root fetch - processPackages [quarkstudio]: Remove: archive file [/home/abi/fetcher/tmp/quarkstudio-6.6.2.20-cp312-none-win_amd64.whl.zip]
 [2024-04-26 07:27:09] INFO root fetch - main [MainThread]: End processing [quarkstudio]: success
 [2024-04-26 07:27:09] INFO root fetch - main [MainThread]: Store serial: [22942923]
+[2024-04-26 07:29:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22942923]
+[2024-04-26 07:29:19] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-26 07:29:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Giraffe-View
+[2024-04-26 07:29:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: crazy-thursday
+[2024-04-26 07:29:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: daisyfl
+[2024-04-26 07:29:19] INFO root fetch - processPackages [crazy-thursday]: New version: [2024.4.26.0] Old Version: [2024.4.25.1]
+[2024-04-26 07:29:19] INFO root fetch - processPackages [Giraffe-View]: New version: [0.1.0.9] Old Version: [0.1.0.8]
+[2024-04-26 07:29:19] INFO root fetch - processPackages [daisyfl]: New version: [0.5.3] Old Version: [0.5.2]
+[2024-04-26 07:29:19] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/6b/2e/9820e827bc889f3a0b34b1edf7fbea9d66c734d1a807fce068262e8e086b/crazy_thursday-2024.4.25.1.tar.gz
+[2024-04-26 07:29:19] INFO root fetch - processPackages [Giraffe-View]: Downloading https://files.pythonhosted.org/packages/5e/d1/3b21947f5243b9d054c8bbbfc868ae33a3306d13a5385e034588840b90a3/Giraffe_View-0.1.0.8.tar.gz
+[2024-04-26 07:29:19] INFO root fetch - processPackages [daisyfl]: Downloading https://files.pythonhosted.org/packages/39/8c/7f903f5b93912aaa889e1db64b9fa1b706b6a40d6dc590083635714551a4/daisyfl-0.5.2.tar.gz
+[2024-04-26 07:29:19] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/15/ae/ba9b5203c7077925f5707b2378e88d26f39b0884f13fde4f910c49246b94/crazy_thursday-2024.4.26.0.tar.gz
+[2024-04-26 07:29:20] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2024-04-26 07:29:20] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy_thursday-2024.4.25.1.tar.gz tmp/crazy_thursday-2024.4.26.0.tar.gz --markdown 20240426/c/crazy-thursday/2024.4.25.1-2024.4.26.0/README.md --exclude *.pyd
+[2024-04-26 07:29:20] INFO root fetch - processPackages [Giraffe-View]: Downloading https://files.pythonhosted.org/packages/d3/33/d5f0286895afba52d87f10608b964e0cbe3b00c9f083d501cf1b0f4efa81/Giraffe_View-0.1.0.9.tar.gz
+[2024-04-26 07:29:20] INFO root fetch - processPackages [Giraffe-View]: executing diffoscope
+[2024-04-26 07:29:20] INFO root fetch - processPackages [Giraffe-View]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Giraffe_View-0.1.0.8.tar.gz tmp/Giraffe_View-0.1.0.9.tar.gz --markdown 20240426/G/Giraffe-View/0.1.0.8-0.1.0.9/README.md --exclude *.pyd
+[2024-04-26 07:29:20] INFO root fetch - processPackages [daisyfl]: Downloading https://files.pythonhosted.org/packages/20/e5/cecf0c5490ce93bf0b0ae6e8a0d2dd0b5013b5f843c337266890654d354e/daisyfl-0.5.3.tar.gz
+[2024-04-26 07:29:20] INFO root fetch - processPackages [daisyfl]: executing diffoscope
+[2024-04-26 07:29:20] INFO root fetch - processPackages [daisyfl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/daisyfl-0.5.2.tar.gz tmp/daisyfl-0.5.3.tar.gz --markdown 20240426/d/daisyfl/0.5.2-0.5.3/README.md --exclude *.pyd
+[2024-04-26 07:29:20] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy_thursday-2024.4.25.1.tar.gz]
+[2024-04-26 07:29:20] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy_thursday-2024.4.26.0.tar.gz]
+[2024-04-26 07:29:20] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2024-04-26 07:29:20] INFO root fetch - processPackages [Giraffe-View]: Remove: archive file [/home/abi/fetcher/tmp/Giraffe_View-0.1.0.8.tar.gz]
+[2024-04-26 07:29:20] INFO root fetch - processPackages [Giraffe-View]: Remove: archive file [/home/abi/fetcher/tmp/Giraffe_View-0.1.0.9.tar.gz]
+[2024-04-26 07:29:20] INFO root fetch - main [MainThread]: End processing [Giraffe-View]: success
+[2024-04-26 07:29:21] INFO root fetch - processPackages [daisyfl]: Remove: archive file [/home/abi/fetcher/tmp/daisyfl-0.5.2.tar.gz]
+[2024-04-26 07:29:21] INFO root fetch - processPackages [daisyfl]: Remove: archive file [/home/abi/fetcher/tmp/daisyfl-0.5.3.tar.gz]
+[2024-04-26 07:29:21] INFO root fetch - main [MainThread]: End processing [daisyfl]: success
+[2024-04-26 07:29:21] INFO root fetch - main [MainThread]: Store serial: [22942932]
