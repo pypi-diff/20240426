@@ -8585,3 +8585,45 @@
 [2024-04-26 05:57:21] INFO root fetch - processPackages [graph-validation-tests]: Remove: archive file [/home/abi/fetcher/tmp/graph_validation_tests-0.0.9.tar.gz]
 [2024-04-26 05:57:21] INFO root fetch - main [MainThread]: End processing [graph-validation-tests]: success
 [2024-04-26 05:57:21] INFO root fetch - main [MainThread]: Store serial: [22942423]
+[2024-04-26 05:59:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22942423]
+[2024-04-26 05:59:30] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-26 05:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Pokemona
+[2024-04-26 05:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyrnnoise
+[2024-04-26 05:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ciounreal
+[2024-04-26 05:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pytctracer
+[2024-04-26 05:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ctrip-app-ui
+[2024-04-26 05:59:30] INFO root fetch - processPackages [ctrip-app-ui]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-26 05:59:30] INFO root fetch - processPackages [pytctracer]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-26 05:59:30] INFO root fetch - processPackages [pytctracer]: Downloading https://files.pythonhosted.org/packages/e3/2a/828b6fa19b77f089af90c5f79a2f863dd0b8377007a2b9e713db32119886/pytctracer-0.2.1.tar.gz
+[2024-04-26 05:59:30] INFO root fetch - processPackages [pyrnnoise]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-26 05:59:30] INFO root fetch - processPackages [ctrip-app-ui]: Downloading https://files.pythonhosted.org/packages/45/d6/3afaabb1e153e948857aef0695eae361a951a4bc63083d8b2f5545f36cdf/ctrip-app-ui-0.1.8.tar.gz
+[2024-04-26 05:59:30] WARNING root fetch - processPackages [Pokemona]: Skipping, unable to determine old version
+[2024-04-26 05:59:30] INFO root fetch - main [MainThread]: End processing [Pokemona] error
+[2024-04-26 05:59:30] INFO root fetch - processPackages [ciounreal]: New version: [0.1.0b3] Old Version: [0.1.0b2]
+[2024-04-26 05:59:31] INFO root fetch - processPackages [pytctracer]: Downloading https://files.pythonhosted.org/packages/82/da/964c4040405538aee9f9e80afbcd0d07fd40470ba908358f807e0e429d8d/pytctracer-0.2.2.tar.gz
+[2024-04-26 05:59:31] INFO root fetch - processPackages [ciounreal]: Downloading https://files.pythonhosted.org/packages/5a/72/65571a801fe56bb54a86c3bac6100a1bcdb4169b9d7effa36fdeec1cce3a/ciounreal-0.1.0b2-py2.py3-none-any.whl
+[2024-04-26 05:59:31] INFO root fetch - processPackages [pyrnnoise]: Downloading https://files.pythonhosted.org/packages/69/39/58016cfc405faad39f416a86316081650348927d30a2824dc9c9f9cd8710/pyrnnoise-0.1.1-py3-none-manylinux1_x86_64.whl
+[2024-04-26 05:59:31] INFO root fetch - processPackages [pytctracer]: executing diffoscope
+[2024-04-26 05:59:31] INFO root fetch - processPackages [pytctracer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytctracer-0.2.1.tar.gz tmp/pytctracer-0.2.2.tar.gz --markdown 20240426/p/pytctracer/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-04-26 05:59:31] INFO root fetch - processPackages [ctrip-app-ui]: Downloading https://files.pythonhosted.org/packages/98/19/690d6d58715eaf50db4632aa219a5b8aaa253937b9399b28f088989d288a/ctrip-app-ui-0.1.9.tar.gz
+[2024-04-26 05:59:31] INFO root fetch - processPackages [ctrip-app-ui]: executing diffoscope
+[2024-04-26 05:59:31] INFO root fetch - processPackages [ctrip-app-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctrip-app-ui-0.1.8.tar.gz tmp/ctrip-app-ui-0.1.9.tar.gz --markdown 20240426/c/ctrip-app-ui/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-26 05:59:31] INFO root fetch - processPackages [ciounreal]: Downloading https://files.pythonhosted.org/packages/fd/ee/904509ae68d4267cbf8650fc23a90c4a596d7f3b229ef39808841ece0867/ciounreal-0.1.0b3-py2.py3-none-any.whl
+[2024-04-26 05:59:31] INFO root fetch - processPackages [ciounreal]: executing diffoscope
+[2024-04-26 05:59:31] INFO root fetch - processPackages [ciounreal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ciounreal-0.1.0b2-py2.py3-none-any.whl.zip tmp/ciounreal-0.1.0b3-py2.py3-none-any.whl.zip --markdown 20240426/c/ciounreal/0.1.0b2-0.1.0b3/README.md --exclude *.pyd
+[2024-04-26 05:59:31] INFO root fetch - processPackages [pyrnnoise]: Downloading https://files.pythonhosted.org/packages/60/1e/81fca2f22030cf2d8ac7078402b13f62df279b1d58a160741fefd91bc556/pyrnnoise-0.1.2-py3-none-manylinux1_x86_64.whl
+[2024-04-26 05:59:32] INFO root fetch - processPackages [ctrip-app-ui]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-app-ui-0.1.8.tar.gz]
+[2024-04-26 05:59:32] INFO root fetch - processPackages [ctrip-app-ui]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-app-ui-0.1.9.tar.gz]
+[2024-04-26 05:59:32] INFO root fetch - main [MainThread]: End processing [ctrip-app-ui]: success
+[2024-04-26 05:59:32] INFO root fetch - processPackages [pytctracer]: Remove: archive file [/home/abi/fetcher/tmp/pytctracer-0.2.1.tar.gz]
+[2024-04-26 05:59:32] INFO root fetch - processPackages [pytctracer]: Remove: archive file [/home/abi/fetcher/tmp/pytctracer-0.2.2.tar.gz]
+[2024-04-26 05:59:32] INFO root fetch - main [MainThread]: End processing [pytctracer]: success
+[2024-04-26 05:59:32] INFO root fetch - processPackages [pyrnnoise]: executing diffoscope
+[2024-04-26 05:59:32] INFO root fetch - processPackages [pyrnnoise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrnnoise-0.1.1-py3-none-manylinux1_x86_64.whl.zip tmp/pyrnnoise-0.1.2-py3-none-manylinux1_x86_64.whl.zip --markdown 20240426/p/pyrnnoise/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-26 05:59:32] INFO root fetch - processPackages [ciounreal]: Remove: archive file [/home/abi/fetcher/tmp/ciounreal-0.1.0b2-py2.py3-none-any.whl.zip]
+[2024-04-26 05:59:32] INFO root fetch - processPackages [ciounreal]: Remove: archive file [/home/abi/fetcher/tmp/ciounreal-0.1.0b3-py2.py3-none-any.whl.zip]
+[2024-04-26 05:59:32] INFO root fetch - main [MainThread]: End processing [ciounreal]: success
+[2024-04-26 05:59:33] INFO root fetch - processPackages [pyrnnoise]: Remove: archive file [/home/abi/fetcher/tmp/pyrnnoise-0.1.1-py3-none-manylinux1_x86_64.whl.zip]
+[2024-04-26 05:59:33] INFO root fetch - processPackages [pyrnnoise]: Remove: archive file [/home/abi/fetcher/tmp/pyrnnoise-0.1.2-py3-none-manylinux1_x86_64.whl.zip]
+[2024-04-26 05:59:33] INFO root fetch - main [MainThread]: End processing [pyrnnoise]: success
+[2024-04-26 05:59:33] INFO root fetch - main [MainThread]: Store serial: [22942439]
