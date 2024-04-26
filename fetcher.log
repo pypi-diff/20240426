@@ -6714,3 +6714,20 @@
 [2024-04-26 03:21:32] INFO root fetch - processPackages [flet-iconoir]: Remove: archive file [/home/abi/fetcher/tmp/flet_iconoir-0.1.4.tar.gz]
 [2024-04-26 03:21:32] INFO root fetch - main [MainThread]: End processing [flet-iconoir]: success
 [2024-04-26 03:21:32] INFO root fetch - main [MainThread]: Store serial: [22941240]
+[2024-04-26 03:23:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22941240]
+[2024-04-26 03:23:41] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-26 03:23:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: psyke
+[2024-04-26 03:23:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ovos-core
+[2024-04-26 03:23:41] INFO root fetch - processPackages [ovos-core]: New version: [0.0.8a92] Old Version: [0.0.8a91]
+[2024-04-26 03:23:41] INFO root fetch - processPackages [psyke]: New version: [0.8.2.dev9] Old Version: [0.8.2.dev8]
+[2024-04-26 03:23:41] INFO root fetch - processPackages [psyke]: Downloading https://files.pythonhosted.org/packages/4c/87/d0daf125b499e7076b921acf89cc606746e5e1f3a77d1ade86f88680589c/psyke-0.8.2.dev8.tar.gz
+[2024-04-26 03:23:41] INFO root fetch - processPackages [ovos-core]: Downloading https://files.pythonhosted.org/packages/32/b4/4105f0bcace4dc537b6d2751cae134360b89d94a8fbe16f9688fdef835db/ovos_core-0.0.8a91-py3-none-any.whl
+[2024-04-26 03:23:41] WARNING root fetch - processPackages [ovos-core]: Skipping package: exceeds size limit 18553615>=10485760
+[2024-04-26 03:23:41] INFO root fetch - main [MainThread]: End processing [ovos-core] error
+[2024-04-26 03:23:41] INFO root fetch - processPackages [psyke]: Downloading https://files.pythonhosted.org/packages/4d/10/38c1d77a7ecc2283b9776552e9357b48c218e56be545b001f617c2ccd262/psyke-0.8.2.dev9.tar.gz
+[2024-04-26 03:23:41] INFO root fetch - processPackages [psyke]: executing diffoscope
+[2024-04-26 03:23:41] INFO root fetch - processPackages [psyke]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psyke-0.8.2.dev8.tar.gz tmp/psyke-0.8.2.dev9.tar.gz --markdown 20240426/p/psyke/0.8.2.dev8-0.8.2.dev9/README.md --exclude *.pyd
+[2024-04-26 03:23:42] INFO root fetch - processPackages [psyke]: Remove: archive file [/home/abi/fetcher/tmp/psyke-0.8.2.dev8.tar.gz]
+[2024-04-26 03:23:42] INFO root fetch - processPackages [psyke]: Remove: archive file [/home/abi/fetcher/tmp/psyke-0.8.2.dev9.tar.gz]
+[2024-04-26 03:23:42] INFO root fetch - main [MainThread]: End processing [psyke]: success
+[2024-04-26 03:23:42] INFO root fetch - main [MainThread]: Store serial: [22941313]
