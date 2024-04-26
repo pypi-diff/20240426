@@ -21434,3 +21434,36 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 15:27:24] INFO root fetch - processPackages [badkeys]: Remove: archive file [/home/abi/fetcher/tmp/badkeys-0.0.8.tar.gz]
 [2024-04-26 15:27:24] INFO root fetch - main [MainThread]: End processing [badkeys]: success
 [2024-04-26 15:27:24] INFO root fetch - main [MainThread]: Store serial: [22948050]
+[2024-04-26 15:29:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22948050]
+[2024-04-26 15:29:33] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-26 15:29:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: NREL-mlclouds
+[2024-04-26 15:29:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: poetry-plugin-dotenv
+[2024-04-26 15:29:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: f4
+[2024-04-26 15:29:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: telegram-markdown-text
+[2024-04-26 15:29:33] INFO root fetch - processPackages [f4]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-26 15:29:33] INFO root fetch - processPackages [telegram-markdown-text]: New version: [0.4] Old Version: [0.3]
+[2024-04-26 15:29:33] INFO root fetch - processPackages [f4]: Downloading https://files.pythonhosted.org/packages/f5/df/7aa6fee7f3660779359c0ca3981433892fa4ea4be3662a9d8c61050cede6/f4-0.9.8.tar.gz
+[2024-04-26 15:29:33] WARNING root fetch - processPackages [NREL-mlclouds]: Skipping, unable to determine old version
+[2024-04-26 15:29:33] INFO root fetch - main [MainThread]: End processing [NREL-mlclouds] error
+[2024-04-26 15:29:34] INFO root fetch - processPackages [poetry-plugin-dotenv]: New version: [1.0.0] Old Version: [0.8.4]
+[2024-04-26 15:29:34] INFO root fetch - processPackages [poetry-plugin-dotenv]: Downloading https://files.pythonhosted.org/packages/97/29/9d2b0aaf92c8fa63dc8f9a54af7d74de7ea0e6707d36a23ef5c7acaaffc8/poetry_plugin_dotenv-0.8.4.tar.gz
+[2024-04-26 15:29:34] INFO root fetch - processPackages [telegram-markdown-text]: Downloading https://files.pythonhosted.org/packages/ec/12/9bcd9b9bcd046e1b6a524dbb81d18ff691d34093f712172ad084c61e772d/telegram-markdown-text-0.3.tar.gz
+[2024-04-26 15:29:34] INFO root fetch - processPackages [f4]: Downloading https://files.pythonhosted.org/packages/7b/c3/b7fd71e9fae8350677e8790b2e47787a47cbfbb2797e68349ec069045d03/f4-0.9.9.tar.gz
+[2024-04-26 15:29:34] INFO root fetch - processPackages [f4]: executing diffoscope
+[2024-04-26 15:29:34] INFO root fetch - processPackages [f4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/f4-0.9.8.tar.gz tmp/f4-0.9.9.tar.gz --markdown 20240426/f/f4/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-26 15:29:34] INFO root fetch - processPackages [poetry-plugin-dotenv]: Downloading https://files.pythonhosted.org/packages/c8/ef/47f7e6f90407449df9fb20f11de06b3a8f8b95c6666a411bacbf1335a2ff/poetry_plugin_dotenv-1.0.0.tar.gz
+[2024-04-26 15:29:34] INFO root fetch - processPackages [telegram-markdown-text]: Downloading https://files.pythonhosted.org/packages/81/6e/6e2ef377f2df5d113729713fffe27924bdf2cafef461a3d5f392f59d2e01/telegram_markdown_text-0.4.tar.gz
+[2024-04-26 15:29:34] INFO root fetch - processPackages [poetry-plugin-dotenv]: executing diffoscope
+[2024-04-26 15:29:34] INFO root fetch - processPackages [poetry-plugin-dotenv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poetry_plugin_dotenv-0.8.4.tar.gz tmp/poetry_plugin_dotenv-1.0.0.tar.gz --markdown 20240426/p/poetry-plugin-dotenv/0.8.4-1.0.0/README.md --exclude *.pyd
+[2024-04-26 15:29:34] INFO root fetch - processPackages [telegram-markdown-text]: executing diffoscope
+[2024-04-26 15:29:34] INFO root fetch - processPackages [telegram-markdown-text]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telegram-markdown-text-0.3.tar.gz tmp/telegram_markdown_text-0.4.tar.gz --markdown 20240426/t/telegram-markdown-text/0.3-0.4/README.md --exclude *.pyd
+[2024-04-26 15:29:35] INFO root fetch - processPackages [f4]: Remove: archive file [/home/abi/fetcher/tmp/f4-0.9.8.tar.gz]
+[2024-04-26 15:29:35] INFO root fetch - processPackages [f4]: Remove: archive file [/home/abi/fetcher/tmp/f4-0.9.9.tar.gz]
+[2024-04-26 15:29:35] INFO root fetch - main [MainThread]: End processing [f4]: success
+[2024-04-26 15:29:35] INFO root fetch - processPackages [poetry-plugin-dotenv]: Remove: archive file [/home/abi/fetcher/tmp/poetry_plugin_dotenv-0.8.4.tar.gz]
+[2024-04-26 15:29:35] INFO root fetch - processPackages [poetry-plugin-dotenv]: Remove: archive file [/home/abi/fetcher/tmp/poetry_plugin_dotenv-1.0.0.tar.gz]
+[2024-04-26 15:29:35] INFO root fetch - main [MainThread]: End processing [poetry-plugin-dotenv]: success
+[2024-04-26 15:29:35] INFO root fetch - processPackages [telegram-markdown-text]: Remove: archive file [/home/abi/fetcher/tmp/telegram-markdown-text-0.3.tar.gz]
+[2024-04-26 15:29:35] INFO root fetch - processPackages [telegram-markdown-text]: Remove: archive file [/home/abi/fetcher/tmp/telegram_markdown_text-0.4.tar.gz]
+[2024-04-26 15:29:35] INFO root fetch - main [MainThread]: End processing [telegram-markdown-text]: success
+[2024-04-26 15:29:35] INFO root fetch - main [MainThread]: Store serial: [22948063]
