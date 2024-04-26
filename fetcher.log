@@ -19914,3 +19914,72 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 14:21:18] INFO root fetch - processPackages [rd-api]: Remove: archive file [/home/abi/fetcher/tmp/rd_api-1.6.0.0-py2.py3-none-any.whl.zip]
 [2024-04-26 14:21:18] INFO root fetch - main [MainThread]: End processing [rd-api]: success
 [2024-04-26 14:21:18] INFO root fetch - main [MainThread]: Store serial: [22947296]
+[2024-04-26 14:23:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22947296]
+[2024-04-26 14:23:34] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-26 14:23:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ophyd-async
+[2024-04-26 14:23:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: data-repo-client
+[2024-04-26 14:23:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: variable-local
+[2024-04-26 14:23:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: testplans
+[2024-04-26 14:23:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: samples-filter
+[2024-04-26 14:23:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: geopic-tag-reader
+[2024-04-26 14:23:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: clovers
+[2024-04-26 14:23:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lazy-k
+[2024-04-26 14:23:34] INFO root fetch - processPackages [clovers]: New version: [0.1.5] Old Version: [0.1.4.post1]
+[2024-04-26 14:23:34] WARNING root fetch - processPackages [lazy-k]: Skipping, unable to determine old version
+[2024-04-26 14:23:34] INFO root fetch - main [MainThread]: End processing [lazy-k] error
+[2024-04-26 14:23:34] INFO root fetch - processPackages [clovers]: Downloading https://files.pythonhosted.org/packages/9b/83/8ebada3aff0ed3d2bd2253eadac169cb7f2cccf7899b565c7dde92984dd5/clovers-0.1.4.post1.tar.gz
+[2024-04-26 14:23:34] INFO root fetch - processPackages [ophyd-async]: New version: [0.3a2] Old Version: [0.3a1]
+[2024-04-26 14:23:34] INFO root fetch - processPackages [variable-local]: New version: [0.0.91] Old Version: [0.0.90]
+[2024-04-26 14:23:34] INFO root fetch - processPackages [samples-filter]: New version: [0.1.4] Old Version: [0.0.4]
+[2024-04-26 14:23:34] INFO root fetch - processPackages [testplans]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-26 14:23:34] INFO root fetch - processPackages [geopic-tag-reader]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-04-26 14:23:34] INFO root fetch - processPackages [data-repo-client]: New version: [2.50.0] Old Version: [2.49.0]
+[2024-04-26 14:23:34] INFO root fetch - processPackages [ophyd-async]: Downloading https://files.pythonhosted.org/packages/65/3e/6bdd0b37e3ead7c3c87be357c749a346dba63a759073785bcfd4efad401b/ophyd-async-0.3a1.tar.gz
+[2024-04-26 14:23:34] INFO root fetch - processPackages [variable-local]: Downloading https://files.pythonhosted.org/packages/c9/39/cb95c415f0aa38f46c8afc325eb384e90cda05c77271eb077a7b1bd9b95b/variable_local-0.0.90.tar.gz
+[2024-04-26 14:23:34] INFO root fetch - processPackages [geopic-tag-reader]: Downloading https://files.pythonhosted.org/packages/f5/7b/894dab75864e1e0e5fde6e6a0435d99c9376eb55f9e9431a25a2cb4c082a/geopic_tag_reader-1.1.0.tar.gz
+[2024-04-26 14:23:34] INFO root fetch - processPackages [samples-filter]: Downloading https://files.pythonhosted.org/packages/05/a7/7a1e97bcf7574895386b47b86a149a619db3c98854c47a17c02ab5345458/samples-filter-0.0.4.tar.gz
+[2024-04-26 14:23:34] INFO root fetch - processPackages [testplans]: Downloading https://files.pythonhosted.org/packages/59/88/30884a4162f222b97e393849965b9fe69ee6c74b3fea526ad2745fd1edd6/testplans-0.2.2.tar.gz
+[2024-04-26 14:23:34] INFO root fetch - processPackages [clovers]: Downloading https://files.pythonhosted.org/packages/68/ec/8de206bf48ad7d113057d9629eb36d2461600948ae1bfc7d428185ba5996/clovers-0.1.5.tar.gz
+[2024-04-26 14:23:34] INFO root fetch - processPackages [data-repo-client]: Downloading https://files.pythonhosted.org/packages/91/cd/f16d022d5d9cd607adc28c976e2bfaefa31047a117ac54d042d514305cc9/data-repo-client-2.49.0.tar.gz
+[2024-04-26 14:23:34] INFO root fetch - processPackages [clovers]: executing diffoscope
+[2024-04-26 14:23:34] INFO root fetch - processPackages [clovers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clovers-0.1.4.post1.tar.gz tmp/clovers-0.1.5.tar.gz --markdown 20240426/c/clovers/0.1.4.post1-0.1.5/README.md --exclude *.pyd
+[2024-04-26 14:23:35] INFO root fetch - processPackages [ophyd-async]: Downloading https://files.pythonhosted.org/packages/64/59/75707880dce3abdd46513bc3141e40ebc9f6487b947b7165f0e1c690822a/ophyd_async-0.3a2.tar.gz
+[2024-04-26 14:23:35] INFO root fetch - processPackages [variable-local]: Downloading https://files.pythonhosted.org/packages/52/a3/e4b890a20e2ace7c684dedbe876d134bb14c1cb35c63399f3e88bdad1cd2/variable_local-0.0.91.tar.gz
+[2024-04-26 14:23:35] INFO root fetch - processPackages [testplans]: Downloading https://files.pythonhosted.org/packages/1a/e5/d8dd20e62f876ef4bcc2ef1a67850bfa26213e2bcccac90a2b7d5d98ef18/testplans-0.2.3.tar.gz
+[2024-04-26 14:23:35] INFO root fetch - processPackages [geopic-tag-reader]: Downloading https://files.pythonhosted.org/packages/4e/11/822abd0881ed0466259d7191d740fadb1458949cb2e3b173fc6400e328c6/geopic_tag_reader-1.1.1.tar.gz
+[2024-04-26 14:23:35] INFO root fetch - processPackages [data-repo-client]: Downloading https://files.pythonhosted.org/packages/74/76/275ef7cf22348784b0800eb4f8e4884b48b24a55d4170a04e8898160cadc/data-repo-client-2.50.0.tar.gz
+[2024-04-26 14:23:35] INFO root fetch - processPackages [samples-filter]: Downloading https://files.pythonhosted.org/packages/22/82/9156156935b5eaf0be055acc85cbb7bd6d547c3785c57ce40275ddfbdde4/samples-filter-0.1.4.tar.gz
+[2024-04-26 14:23:35] INFO root fetch - processPackages [variable-local]: executing diffoscope
+[2024-04-26 14:23:35] INFO root fetch - processPackages [variable-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/variable_local-0.0.90.tar.gz tmp/variable_local-0.0.91.tar.gz --markdown 20240426/v/variable-local/0.0.90-0.0.91/README.md --exclude *.pyd
+[2024-04-26 14:23:35] INFO root fetch - processPackages [testplans]: executing diffoscope
+[2024-04-26 14:23:35] INFO root fetch - processPackages [testplans]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testplans-0.2.2.tar.gz tmp/testplans-0.2.3.tar.gz --markdown 20240426/t/testplans/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-04-26 14:23:35] INFO root fetch - processPackages [ophyd-async]: executing diffoscope
+[2024-04-26 14:23:35] INFO root fetch - processPackages [ophyd-async]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ophyd-async-0.3a1.tar.gz tmp/ophyd_async-0.3a2.tar.gz --markdown 20240426/o/ophyd-async/0.3a1-0.3a2/README.md --exclude *.pyd
+[2024-04-26 14:23:35] INFO root fetch - processPackages [data-repo-client]: executing diffoscope
+[2024-04-26 14:23:35] INFO root fetch - processPackages [data-repo-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data-repo-client-2.49.0.tar.gz tmp/data-repo-client-2.50.0.tar.gz --markdown 20240426/d/data-repo-client/2.49.0-2.50.0/README.md --exclude *.pyd
+[2024-04-26 14:23:35] INFO root fetch - processPackages [samples-filter]: executing diffoscope
+[2024-04-26 14:23:35] INFO root fetch - processPackages [samples-filter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/samples-filter-0.0.4.tar.gz tmp/samples-filter-0.1.4.tar.gz --markdown 20240426/s/samples-filter/0.0.4-0.1.4/README.md --exclude *.pyd
+[2024-04-26 14:23:35] INFO root fetch - processPackages [geopic-tag-reader]: executing diffoscope
+[2024-04-26 14:23:35] INFO root fetch - processPackages [geopic-tag-reader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geopic_tag_reader-1.1.0.tar.gz tmp/geopic_tag_reader-1.1.1.tar.gz --markdown 20240426/g/geopic-tag-reader/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-04-26 14:23:35] INFO root fetch - processPackages [clovers]: Remove: archive file [/home/abi/fetcher/tmp/clovers-0.1.4.post1.tar.gz]
+[2024-04-26 14:23:35] INFO root fetch - processPackages [clovers]: Remove: archive file [/home/abi/fetcher/tmp/clovers-0.1.5.tar.gz]
+[2024-04-26 14:23:35] INFO root fetch - main [MainThread]: End processing [clovers]: success
+[2024-04-26 14:23:35] INFO root fetch - processPackages [testplans]: Remove: archive file [/home/abi/fetcher/tmp/testplans-0.2.2.tar.gz]
+[2024-04-26 14:23:35] INFO root fetch - processPackages [testplans]: Remove: archive file [/home/abi/fetcher/tmp/testplans-0.2.3.tar.gz]
+[2024-04-26 14:23:35] INFO root fetch - main [MainThread]: End processing [testplans]: success
+[2024-04-26 14:23:35] INFO root fetch - processPackages [variable-local]: Remove: archive file [/home/abi/fetcher/tmp/variable_local-0.0.90.tar.gz]
+[2024-04-26 14:23:35] INFO root fetch - processPackages [variable-local]: Remove: archive file [/home/abi/fetcher/tmp/variable_local-0.0.91.tar.gz]
+[2024-04-26 14:23:35] INFO root fetch - main [MainThread]: End processing [variable-local]: success
+[2024-04-26 14:23:35] INFO root fetch - processPackages [samples-filter]: Remove: archive file [/home/abi/fetcher/tmp/samples-filter-0.0.4.tar.gz]
+[2024-04-26 14:23:35] INFO root fetch - processPackages [samples-filter]: Remove: archive file [/home/abi/fetcher/tmp/samples-filter-0.1.4.tar.gz]
+[2024-04-26 14:23:35] INFO root fetch - main [MainThread]: End processing [samples-filter]: success
+[2024-04-26 14:23:36] INFO root fetch - processPackages [geopic-tag-reader]: Remove: archive file [/home/abi/fetcher/tmp/geopic_tag_reader-1.1.0.tar.gz]
+[2024-04-26 14:23:36] INFO root fetch - processPackages [geopic-tag-reader]: Remove: archive file [/home/abi/fetcher/tmp/geopic_tag_reader-1.1.1.tar.gz]
+[2024-04-26 14:23:36] INFO root fetch - main [MainThread]: End processing [geopic-tag-reader]: success
+[2024-04-26 14:23:36] INFO root fetch - processPackages [ophyd-async]: Remove: archive file [/home/abi/fetcher/tmp/ophyd-async-0.3a1.tar.gz]
+[2024-04-26 14:23:36] INFO root fetch - processPackages [ophyd-async]: Remove: archive file [/home/abi/fetcher/tmp/ophyd_async-0.3a2.tar.gz]
+[2024-04-26 14:23:36] INFO root fetch - main [MainThread]: End processing [ophyd-async]: success
+[2024-04-26 14:23:37] INFO root fetch - processPackages [data-repo-client]: Remove: archive file [/home/abi/fetcher/tmp/data-repo-client-2.49.0.tar.gz]
+[2024-04-26 14:23:37] INFO root fetch - processPackages [data-repo-client]: Remove: archive file [/home/abi/fetcher/tmp/data-repo-client-2.50.0.tar.gz]
+[2024-04-26 14:23:37] INFO root fetch - main [MainThread]: End processing [data-repo-client]: success
+[2024-04-26 14:23:37] INFO root fetch - main [MainThread]: Store serial: [22947324]
