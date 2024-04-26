@@ -22477,3 +22477,56 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 16:04:57] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.7.9.tar.gz]
 [2024-04-26 16:04:57] INFO root fetch - main [MainThread]: End processing [mteb]: success
 [2024-04-26 16:04:57] INFO root fetch - main [MainThread]: Store serial: [22948446]
+[2024-04-26 16:07:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22948446]
+[2024-04-26 16:07:06] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-26 16:07:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: retrofix
+[2024-04-26 16:07:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: siliconcompiler
+[2024-04-26 16:07:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yabadaba
+[2024-04-26 16:07:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ICONCLASS
+[2024-04-26 16:07:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: shipyard-tableau
+[2024-04-26 16:07:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: snapmap-archiver
+[2024-04-26 16:07:06] INFO root fetch - processPackages [ICONCLASS]: New version: [0.9] Old Version: [0.7]
+[2024-04-26 16:07:06] INFO root fetch - processPackages [shipyard-tableau]: New version: [0.2.1] Old Version: [0.2.0a2]
+[2024-04-26 16:07:06] INFO root fetch - processPackages [retrofix]: New version: [0.9] Old Version: [0.8]
+[2024-04-26 16:07:06] INFO root fetch - processPackages [snapmap-archiver]: New version: [2.1.2] Old Version: [2.1.0]
+[2024-04-26 16:07:06] INFO root fetch - processPackages [yabadaba]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-26 16:07:07] INFO root fetch - processPackages [siliconcompiler]: New version: [0.9.6] Old Version: [0.9.5]
+[2024-04-26 16:07:07] INFO root fetch - processPackages [shipyard-tableau]: Downloading https://files.pythonhosted.org/packages/b4/08/7fe8aecc0dd5cd44ce9aac1c00f375cecda68fa385e49ed25dd59284f2b8/shipyard_tableau-0.2.0a2.tar.gz
+[2024-04-26 16:07:07] INFO root fetch - processPackages [ICONCLASS]: Downloading https://files.pythonhosted.org/packages/96/06/b4361fdc783a309c057c0b0b7bc94c01209e7af2f7f03bcd32683912a8f5/ICONCLASS-0.7.tar.gz
+[2024-04-26 16:07:07] INFO root fetch - processPackages [snapmap-archiver]: Downloading https://files.pythonhosted.org/packages/55/e8/0f0547bad877c6ca3af39c7f16a538258bcefa78c7bd9ab464bf9ee49338/snapmap-archiver-2.1.0.tar.gz
+[2024-04-26 16:07:07] INFO root fetch - processPackages [yabadaba]: Downloading https://files.pythonhosted.org/packages/23/ad/442002199d05eeab182ba9229ab985f9ecf478f169d587638e06a97f47d6/yabadaba-0.2.1.tar.gz
+[2024-04-26 16:07:07] INFO root fetch - processPackages [retrofix]: Downloading https://files.pythonhosted.org/packages/b4/8e/b66dcada310838a8e464776f0b1c3bc978cd5f337b42a0814b4e33364ba6/retrofix-0.8.tar.gz
+[2024-04-26 16:07:07] INFO root fetch - processPackages [siliconcompiler]: Downloading https://files.pythonhosted.org/packages/a8/9e/5a4bc1cc4a24cd9394b181819bbc3e7094009e594403bc9bc0abb5147ff4/siliconcompiler-0.9.6-cp39-cp39-win_amd64.whl
+[2024-04-26 16:07:07] INFO root fetch - processPackages [shipyard-tableau]: Downloading https://files.pythonhosted.org/packages/db/a0/7244dc1b9c5e90729a34d6d4c852627368d630c7d1eaba584ffe80919447/shipyard_tableau-0.2.1.tar.gz
+[2024-04-26 16:07:07] INFO root fetch - processPackages [yabadaba]: Downloading https://files.pythonhosted.org/packages/f5/82/389ef6a00dd36588d7bd0ca835b6bc51b5bfb579e316b0a4369c533eaad6/yabadaba-0.2.2.tar.gz
+[2024-04-26 16:07:07] INFO root fetch - processPackages [snapmap-archiver]: Downloading https://files.pythonhosted.org/packages/be/a3/7578d405a2f98cc1e447cf8d5800b21902a7dd5b1f88299c5a266ed76d4d/snapmap_archiver-2.1.2.tar.gz
+[2024-04-26 16:07:07] WARNING root fetch - processPackages [siliconcompiler]: Skipping package: exceeds size limit 37222537>=10485760
+[2024-04-26 16:07:07] INFO root fetch - main [MainThread]: End processing [siliconcompiler] error
+[2024-04-26 16:07:07] INFO root fetch - processPackages [ICONCLASS]: Downloading https://files.pythonhosted.org/packages/bd/6e/3d28566fa2f683dc7e99a524bedcb37121799a8e720e8e4435b9bdaef0ec/ICONCLASS-0.9.tar.gz
+[2024-04-26 16:07:07] INFO root fetch - processPackages [retrofix]: Downloading https://files.pythonhosted.org/packages/8c/c3/9af43c0fce9f8afdd6bb90493f66665488e9f51f5875f7f1cedcb5670637/retrofix-0.9.tar.gz
+[2024-04-26 16:07:07] INFO root fetch - processPackages [shipyard-tableau]: executing diffoscope
+[2024-04-26 16:07:07] INFO root fetch - processPackages [shipyard-tableau]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shipyard_tableau-0.2.0a2.tar.gz tmp/shipyard_tableau-0.2.1.tar.gz --markdown 20240426/s/shipyard-tableau/0.2.0a2-0.2.1/README.md --exclude *.pyd
+[2024-04-26 16:07:07] INFO root fetch - processPackages [ICONCLASS]: executing diffoscope
+[2024-04-26 16:07:07] INFO root fetch - processPackages [ICONCLASS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ICONCLASS-0.7.tar.gz tmp/ICONCLASS-0.9.tar.gz --markdown 20240426/I/ICONCLASS/0.7-0.9/README.md --exclude *.pyd
+[2024-04-26 16:07:07] INFO root fetch - processPackages [snapmap-archiver]: executing diffoscope
+[2024-04-26 16:07:07] INFO root fetch - processPackages [snapmap-archiver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snapmap-archiver-2.1.0.tar.gz tmp/snapmap_archiver-2.1.2.tar.gz --markdown 20240426/s/snapmap-archiver/2.1.0-2.1.2/README.md --exclude *.pyd
+[2024-04-26 16:07:07] INFO root fetch - processPackages [yabadaba]: executing diffoscope
+[2024-04-26 16:07:07] INFO root fetch - processPackages [yabadaba]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yabadaba-0.2.1.tar.gz tmp/yabadaba-0.2.2.tar.gz --markdown 20240426/y/yabadaba/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-04-26 16:07:07] INFO root fetch - processPackages [retrofix]: executing diffoscope
+[2024-04-26 16:07:07] INFO root fetch - processPackages [retrofix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/retrofix-0.8.tar.gz tmp/retrofix-0.9.tar.gz --markdown 20240426/r/retrofix/0.8-0.9/README.md --exclude *.pyd
+[2024-04-26 16:07:08] INFO root fetch - processPackages [ICONCLASS]: Remove: archive file [/home/abi/fetcher/tmp/ICONCLASS-0.7.tar.gz]
+[2024-04-26 16:07:08] INFO root fetch - processPackages [ICONCLASS]: Remove: archive file [/home/abi/fetcher/tmp/ICONCLASS-0.9.tar.gz]
+[2024-04-26 16:07:08] INFO root fetch - main [MainThread]: End processing [ICONCLASS]: success
+[2024-04-26 16:07:08] INFO root fetch - processPackages [shipyard-tableau]: Remove: archive file [/home/abi/fetcher/tmp/shipyard_tableau-0.2.0a2.tar.gz]
+[2024-04-26 16:07:08] INFO root fetch - processPackages [shipyard-tableau]: Remove: archive file [/home/abi/fetcher/tmp/shipyard_tableau-0.2.1.tar.gz]
+[2024-04-26 16:07:08] INFO root fetch - main [MainThread]: End processing [shipyard-tableau]: success
+[2024-04-26 16:07:08] INFO root fetch - processPackages [snapmap-archiver]: Remove: archive file [/home/abi/fetcher/tmp/snapmap-archiver-2.1.0.tar.gz]
+[2024-04-26 16:07:08] INFO root fetch - processPackages [snapmap-archiver]: Remove: archive file [/home/abi/fetcher/tmp/snapmap_archiver-2.1.2.tar.gz]
+[2024-04-26 16:07:08] INFO root fetch - main [MainThread]: End processing [snapmap-archiver]: success
+[2024-04-26 16:07:08] INFO root fetch - processPackages [yabadaba]: Remove: archive file [/home/abi/fetcher/tmp/yabadaba-0.2.1.tar.gz]
+[2024-04-26 16:07:08] INFO root fetch - processPackages [yabadaba]: Remove: archive file [/home/abi/fetcher/tmp/yabadaba-0.2.2.tar.gz]
+[2024-04-26 16:07:08] INFO root fetch - main [MainThread]: End processing [yabadaba]: success
+[2024-04-26 16:07:08] INFO root fetch - processPackages [retrofix]: Remove: archive file [/home/abi/fetcher/tmp/retrofix-0.8.tar.gz]
+[2024-04-26 16:07:08] INFO root fetch - processPackages [retrofix]: Remove: archive file [/home/abi/fetcher/tmp/retrofix-0.9.tar.gz]
+[2024-04-26 16:07:08] INFO root fetch - main [MainThread]: End processing [retrofix]: success
+[2024-04-26 16:07:08] INFO root fetch - main [MainThread]: Store serial: [22948486]
