@@ -22943,3 +22943,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 16:24:55] INFO root fetch - processPackages [elevenlabs]: Remove: archive file [/home/abi/fetcher/tmp/elevenlabs-1.2.0.tar.gz]
 [2024-04-26 16:24:55] INFO root fetch - main [MainThread]: End processing [elevenlabs]: success
 [2024-04-26 16:24:55] INFO root fetch - main [MainThread]: Store serial: [22948634]
+[2024-04-26 16:27:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22948634]
+[2024-04-26 16:27:05] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-26 16:27:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-115
+[2024-04-26 16:27:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pycloudlib
+[2024-04-26 16:27:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lib4sbom
+[2024-04-26 16:27:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: prophecy-libs
+[2024-04-26 16:27:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: joulescope-ui
+[2024-04-26 16:27:05] INFO root fetch - processPackages [prophecy-libs]: New version: [1.8.9] Old Version: [1.8.8]
+[2024-04-26 16:27:05] INFO root fetch - processPackages [lib4sbom]: New version: [0.7.1] Old Version: [0.7.0]
+[2024-04-26 16:27:05] INFO root fetch - processPackages [python-115]: New version: [0.0.6.8] Old Version: [0.0.6.7]
+[2024-04-26 16:27:05] INFO root fetch - processPackages [prophecy-libs]: Downloading https://files.pythonhosted.org/packages/55/0a/90561ca774443a2a8fc7836ec65bd203b9a55822454194896bfcda5affbb/prophecy-libs-1.8.8.tar.gz
+[2024-04-26 16:27:05] INFO root fetch - processPackages [pycloudlib]: New version: [18.8] Old Version: [18.7]
+[2024-04-26 16:27:05] INFO root fetch - processPackages [joulescope-ui]: New version: [1.1.6] Old Version: [1.1.5]
+[2024-04-26 16:27:05] INFO root fetch - processPackages [python-115]: Downloading https://files.pythonhosted.org/packages/de/8d/ec61257ef193c865a02a5f79934cb240baa2fd76e5142c0c07b754700e38/python_115-0.0.6.7.tar.gz
+[2024-04-26 16:27:05] INFO root fetch - processPackages [lib4sbom]: Downloading https://files.pythonhosted.org/packages/55/d7/fcfe8a7eea63676fe203bfa636175e5ec3ffa586949932cd5f717e757c07/lib4sbom-0.7.0-py2.py3-none-any.whl
+[2024-04-26 16:27:05] INFO root fetch - processPackages [pycloudlib]: Downloading https://files.pythonhosted.org/packages/b4/b3/256ce90cc58f246bf143f0ea7feb695013cd5f55958af99b8d1b9ded19d5/pycloudlib-18.7.tar.gz
+[2024-04-26 16:27:05] INFO root fetch - processPackages [prophecy-libs]: Downloading https://files.pythonhosted.org/packages/4d/26/13eca2b0b22483c0bcc9a426ef208809d6e938fda5d639cd2122eaf7bd06/prophecy-libs-1.8.9.tar.gz
+[2024-04-26 16:27:05] INFO root fetch - processPackages [joulescope-ui]: Downloading https://files.pythonhosted.org/packages/e0/7a/aea202bdbe853711f9e500867b1747cde3666f230c964bd90ddab4f66a43/joulescope_ui-1.1.5.tar.gz
+[2024-04-26 16:27:05] INFO root fetch - processPackages [prophecy-libs]: executing diffoscope
+[2024-04-26 16:27:05] INFO root fetch - processPackages [prophecy-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prophecy-libs-1.8.8.tar.gz tmp/prophecy-libs-1.8.9.tar.gz --markdown 20240426/p/prophecy-libs/1.8.8-1.8.9/README.md --exclude *.pyd
+[2024-04-26 16:27:06] INFO root fetch - processPackages [python-115]: Downloading https://files.pythonhosted.org/packages/0d/82/b9dc2663abe8e57bd0094c411156e50e539a5716a7046c349ddff3125ecc/python_115-0.0.6.8.tar.gz
+[2024-04-26 16:27:06] INFO root fetch - processPackages [lib4sbom]: Downloading https://files.pythonhosted.org/packages/9f/d8/5b505698b107a6cb5a20f89063559ed17bb89cbf0a6d8d57eb1a636f12cd/lib4sbom-0.7.1-py2.py3-none-any.whl
+[2024-04-26 16:27:06] INFO root fetch - processPackages [pycloudlib]: Downloading https://files.pythonhosted.org/packages/62/b0/59f3c2c5507d62557aff2e04e4aee94470596d1461bfe074b7248a6d10c6/pycloudlib-18.8.tar.gz
+[2024-04-26 16:27:06] INFO root fetch - processPackages [python-115]: executing diffoscope
+[2024-04-26 16:27:06] INFO root fetch - processPackages [python-115]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_115-0.0.6.7.tar.gz tmp/python_115-0.0.6.8.tar.gz --markdown 20240426/p/python-115/0.0.6.7-0.0.6.8/README.md --exclude *.pyd
+[2024-04-26 16:27:06] INFO root fetch - processPackages [pycloudlib]: executing diffoscope
+[2024-04-26 16:27:06] INFO root fetch - processPackages [pycloudlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycloudlib-18.7.tar.gz tmp/pycloudlib-18.8.tar.gz --markdown 20240426/p/pycloudlib/18.7-18.8/README.md --exclude *.pyd
+[2024-04-26 16:27:06] INFO root fetch - processPackages [lib4sbom]: executing diffoscope
+[2024-04-26 16:27:06] INFO root fetch - processPackages [lib4sbom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lib4sbom-0.7.0-py2.py3-none-any.whl.zip tmp/lib4sbom-0.7.1-py2.py3-none-any.whl.zip --markdown 20240426/l/lib4sbom/0.7.0-0.7.1/README.md --exclude *.pyd
+[2024-04-26 16:27:06] INFO root fetch - processPackages [joulescope-ui]: Downloading https://files.pythonhosted.org/packages/29/01/fa327cff0b80e57c88166d74e315315b047ece1bff45d9bdc4a24b3c5125/joulescope_ui-1.1.6.tar.gz
+[2024-04-26 16:27:06] INFO root fetch - processPackages [prophecy-libs]: Remove: archive file [/home/abi/fetcher/tmp/prophecy-libs-1.8.8.tar.gz]
+[2024-04-26 16:27:06] INFO root fetch - processPackages [prophecy-libs]: Remove: archive file [/home/abi/fetcher/tmp/prophecy-libs-1.8.9.tar.gz]
+[2024-04-26 16:27:06] INFO root fetch - main [MainThread]: End processing [prophecy-libs]: success
+[2024-04-26 16:27:06] INFO root fetch - processPackages [pycloudlib]: Remove: archive file [/home/abi/fetcher/tmp/pycloudlib-18.7.tar.gz]
+[2024-04-26 16:27:06] INFO root fetch - processPackages [pycloudlib]: Remove: archive file [/home/abi/fetcher/tmp/pycloudlib-18.8.tar.gz]
+[2024-04-26 16:27:06] INFO root fetch - main [MainThread]: End processing [pycloudlib]: success
+[2024-04-26 16:27:06] INFO root fetch - processPackages [python-115]: Remove: archive file [/home/abi/fetcher/tmp/python_115-0.0.6.7.tar.gz]
+[2024-04-26 16:27:06] INFO root fetch - processPackages [python-115]: Remove: archive file [/home/abi/fetcher/tmp/python_115-0.0.6.8.tar.gz]
+[2024-04-26 16:27:06] INFO root fetch - main [MainThread]: End processing [python-115]: success
+[2024-04-26 16:27:07] INFO root fetch - processPackages [joulescope-ui]: executing diffoscope
+[2024-04-26 16:27:07] INFO root fetch - processPackages [joulescope-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/joulescope_ui-1.1.5.tar.gz tmp/joulescope_ui-1.1.6.tar.gz --markdown 20240426/j/joulescope-ui/1.1.5-1.1.6/README.md --exclude *.pyd
+[2024-04-26 16:27:07] INFO root fetch - processPackages [lib4sbom]: Remove: archive file [/home/abi/fetcher/tmp/lib4sbom-0.7.0-py2.py3-none-any.whl.zip]
+[2024-04-26 16:27:07] INFO root fetch - processPackages [lib4sbom]: Remove: archive file [/home/abi/fetcher/tmp/lib4sbom-0.7.1-py2.py3-none-any.whl.zip]
+[2024-04-26 16:27:07] INFO root fetch - main [MainThread]: End processing [lib4sbom]: success
+[2024-04-26 16:27:10] INFO root fetch - processPackages [joulescope-ui]: Remove: archive file [/home/abi/fetcher/tmp/joulescope_ui-1.1.5.tar.gz]
+[2024-04-26 16:27:10] INFO root fetch - processPackages [joulescope-ui]: Remove: archive file [/home/abi/fetcher/tmp/joulescope_ui-1.1.6.tar.gz]
+[2024-04-26 16:27:10] INFO root fetch - main [MainThread]: End processing [joulescope-ui]: success
+[2024-04-26 16:27:10] INFO root fetch - main [MainThread]: Store serial: [22948647]
