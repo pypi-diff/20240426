@@ -8431,3 +8431,15 @@
 [2024-04-26 05:44:21] INFO root fetch - processPackages [absbox]: Remove: archive file [/home/abi/fetcher/tmp/AbsBox-0.9.3.tar.gz]
 [2024-04-26 05:44:21] INFO root fetch - main [MainThread]: End processing [absbox]: success
 [2024-04-26 05:44:21] INFO root fetch - main [MainThread]: Store serial: [22942368]
+[2024-04-26 05:46:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22942368]
+[2024-04-26 05:46:30] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-26 05:46:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: singer-sdk
+[2024-04-26 05:46:30] INFO root fetch - processPackages [singer-sdk]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-26 05:46:30] INFO root fetch - processPackages [singer-sdk]: Downloading https://files.pythonhosted.org/packages/16/fc/2fcefbd35f8e35880f2cf18e530bf587569a718eed5e5a605905901383d9/singer-sdk-0.8.0.tar.gz
+[2024-04-26 05:46:30] INFO root fetch - processPackages [singer-sdk]: Downloading https://files.pythonhosted.org/packages/05/79/7e708f089c810918cd509b974785a1488530d0bb96a38f44d8aafb5e5e8e/singer-sdk-0.9.0.tar.gz
+[2024-04-26 05:46:31] INFO root fetch - processPackages [singer-sdk]: executing diffoscope
+[2024-04-26 05:46:31] INFO root fetch - processPackages [singer-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/singer-sdk-0.8.0.tar.gz tmp/singer-sdk-0.9.0.tar.gz --markdown 20240426/s/singer-sdk/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-26 05:46:31] INFO root fetch - processPackages [singer-sdk]: Remove: archive file [/home/abi/fetcher/tmp/singer-sdk-0.8.0.tar.gz]
+[2024-04-26 05:46:31] INFO root fetch - processPackages [singer-sdk]: Remove: archive file [/home/abi/fetcher/tmp/singer-sdk-0.9.0.tar.gz]
+[2024-04-26 05:46:31] INFO root fetch - main [MainThread]: End processing [singer-sdk]: success
+[2024-04-26 05:46:31] INFO root fetch - main [MainThread]: Store serial: [22942371]
