@@ -16977,3 +16977,33 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 12:07:14] INFO root fetch - processPackages [polars-candle]: Remove: archive file [/home/abi/fetcher/tmp/polars_candle-0.1.5-cp39-cp39-manylinux_2_34_x86_64.whl.zip]
 [2024-04-26 12:07:14] INFO root fetch - main [MainThread]: End processing [polars-candle]: success
 [2024-04-26 12:07:14] INFO root fetch - main [MainThread]: Store serial: [22946104]
+[2024-04-26 12:09:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22946104]
+[2024-04-26 12:09:24] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-26 12:09:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: CTK-Desert
+[2024-04-26 12:09:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kcli
+[2024-04-26 12:09:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: deepl
+[2024-04-26 12:09:24] INFO root fetch - processPackages [CTK-Desert]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-26 12:09:24] INFO root fetch - processPackages [CTK-Desert]: Downloading https://files.pythonhosted.org/packages/9a/73/c7239044a3b6edf571c3f5feded6aab241cff792f7acd98dd42652e44c95/CTK_Desert-0.0.8.tar.gz
+[2024-04-26 12:09:24] INFO root fetch - processPackages [deepl]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-26 12:09:24] INFO root fetch - processPackages [kcli]: New version: [99.0.202404261008] Old Version: [99.0.202404260943]
+[2024-04-26 12:09:24] INFO root fetch - processPackages [deepl]: Downloading https://files.pythonhosted.org/packages/8e/61/ccac1037a2f7395dc015edc66a7ecdb91487f9b55f2f022136ce14e6be3f/deepl-1.8.0.tar.gz
+[2024-04-26 12:09:24] INFO root fetch - processPackages [CTK-Desert]: Downloading https://files.pythonhosted.org/packages/6d/b4/d3af97e7bf9ae492dceb1aad8191e260b603096af0a9755ffd707156f69f/CTK_Desert-0.0.9.tar.gz
+[2024-04-26 12:09:24] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/04/e3/9190da91d028cb934205a1d62c745aaf4c19559f252d05f7acf86e8417ff/kcli-99.0.202404260943.tar.gz
+[2024-04-26 12:09:24] INFO root fetch - processPackages [CTK-Desert]: executing diffoscope
+[2024-04-26 12:09:24] INFO root fetch - processPackages [CTK-Desert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CTK_Desert-0.0.8.tar.gz tmp/CTK_Desert-0.0.9.tar.gz --markdown 20240426/C/CTK-Desert/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-26 12:09:24] INFO root fetch - processPackages [deepl]: Downloading https://files.pythonhosted.org/packages/42/2c/ec4d4408acc436f0873fe3adabc7c3bd9aad634bba0066e6957aaa0f76ed/deepl-1.9.0.tar.gz
+[2024-04-26 12:09:24] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/b1/6c/a85e40f78ce3283b42659cd80ce178568105cc85eb1b637d843fd16b067d/kcli-99.0.202404261008.tar.gz
+[2024-04-26 12:09:25] INFO root fetch - processPackages [deepl]: executing diffoscope
+[2024-04-26 12:09:25] INFO root fetch - processPackages [deepl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepl-1.8.0.tar.gz tmp/deepl-1.9.0.tar.gz --markdown 20240426/d/deepl/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-04-26 12:09:25] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2024-04-26 12:09:25] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202404260943.tar.gz tmp/kcli-99.0.202404261008.tar.gz --markdown 20240426/k/kcli/99.0.202404260943-99.0.202404261008/README.md --exclude *.pyd
+[2024-04-26 12:09:25] INFO root fetch - processPackages [CTK-Desert]: Remove: archive file [/home/abi/fetcher/tmp/CTK_Desert-0.0.8.tar.gz]
+[2024-04-26 12:09:25] INFO root fetch - processPackages [CTK-Desert]: Remove: archive file [/home/abi/fetcher/tmp/CTK_Desert-0.0.9.tar.gz]
+[2024-04-26 12:09:25] INFO root fetch - main [MainThread]: End processing [CTK-Desert]: success
+[2024-04-26 12:09:25] INFO root fetch - processPackages [deepl]: Remove: archive file [/home/abi/fetcher/tmp/deepl-1.8.0.tar.gz]
+[2024-04-26 12:09:25] INFO root fetch - processPackages [deepl]: Remove: archive file [/home/abi/fetcher/tmp/deepl-1.9.0.tar.gz]
+[2024-04-26 12:09:25] INFO root fetch - main [MainThread]: End processing [deepl]: success
+[2024-04-26 12:09:27] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202404260943.tar.gz]
+[2024-04-26 12:09:27] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202404261008.tar.gz]
+[2024-04-26 12:09:27] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2024-04-26 12:09:27] INFO root fetch - main [MainThread]: Store serial: [22946116]
