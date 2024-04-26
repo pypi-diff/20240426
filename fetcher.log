@@ -19675,3 +19675,47 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 14:08:52] INFO root fetch - processPackages [p-template-generator]: Remove: archive file [/home/abi/fetcher/tmp/p-template-generator-0.1.99.tar.gz]
 [2024-04-26 14:08:52] INFO root fetch - main [MainThread]: End processing [p-template-generator]: success
 [2024-04-26 14:08:52] INFO root fetch - main [MainThread]: Store serial: [22947224]
+[2024-04-26 14:10:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22947224]
+[2024-04-26 14:11:02] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-26 14:11:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: torcheval-nightly
+[2024-04-26 14:11:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: p-template-generator
+[2024-04-26 14:11:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: recs-searcher
+[2024-04-26 14:11:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odp-sdk
+[2024-04-26 14:11:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: network_as_code
+[2024-04-26 14:11:02] INFO root fetch - processPackages [p-template-generator]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-26 14:11:02] INFO root fetch - processPackages [torcheval-nightly]: New version: [2024.4.9] Old Version: [2024.4.8]
+[2024-04-26 14:11:02] INFO root fetch - processPackages [p-template-generator]: Downloading https://files.pythonhosted.org/packages/5c/a2/02f0b3cf41b76949deb937b95c8970f032447d82aa090fc0b68084fc59df/p-template-generator-0.1.98.tar.gz
+[2024-04-26 14:11:02] INFO root fetch - processPackages [recs-searcher]: New version: [0.1.0] Old Version: [0.0.9]
+[2024-04-26 14:11:02] INFO root fetch - processPackages [network_as_code]: New version: [2.2.0] Old Version: [2.1.0]
+[2024-04-26 14:11:02] INFO root fetch - processPackages [odp-sdk]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-04-26 14:11:02] INFO root fetch - processPackages [torcheval-nightly]: Downloading https://files.pythonhosted.org/packages/a3/6d/794af2087c6d670c1d6bd148a897d3a59b68e8d4b82c381b57d3e20ab544/torcheval-nightly-2024.4.8.tar.gz
+[2024-04-26 14:11:02] INFO root fetch - processPackages [recs-searcher]: Downloading https://files.pythonhosted.org/packages/f8/8a/f43fc9bfadb6a92488172945b6bb574043462b71343b46c8086e716a7bfa/recs-searcher-0.0.9.tar.gz
+[2024-04-26 14:11:02] INFO root fetch - processPackages [odp-sdk]: Downloading https://files.pythonhosted.org/packages/0c/d7/6786eab810e93a55929b9db3e01f60e5730ec2afe2830751c9bc30a33eb7/odp_sdk-0.4.8.tar.gz
+[2024-04-26 14:11:02] INFO root fetch - processPackages [network_as_code]: Downloading https://files.pythonhosted.org/packages/91/d6/69e1fbc747a3321db1e42f33a754ef653312d8190fc7702be3a5013b2f7f/network_as_code-2.1.0.tar.gz
+[2024-04-26 14:11:02] INFO root fetch - processPackages [torcheval-nightly]: Downloading https://files.pythonhosted.org/packages/01/5f/5d3ae8fee972a25478395600694aa6da7aecdf0fdc15b5bb79b52a372737/torcheval-nightly-2024.4.9.tar.gz
+[2024-04-26 14:11:02] INFO root fetch - processPackages [torcheval-nightly]: executing diffoscope
+[2024-04-26 14:11:02] INFO root fetch - processPackages [torcheval-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torcheval-nightly-2024.4.8.tar.gz tmp/torcheval-nightly-2024.4.9.tar.gz --markdown 20240426/t/torcheval-nightly/2024.4.8-2024.4.9/README.md --exclude *.pyd
+[2024-04-26 14:11:03] ERROR root fetch - processPackages [network_as_code]: Unable to fetch info: No such project/version 'network_as_code' 2.2.0
+[2024-04-26 14:11:03] INFO root fetch - main [MainThread]: End processing [network_as_code] error
+[2024-04-26 14:11:03] INFO root fetch - processPackages [odp-sdk]: Downloading https://files.pythonhosted.org/packages/2d/a3/afccdb1099b3b43252f67f4255e00d2fe91582b91933dc6065455fd43ec8/odp_sdk-0.4.9.tar.gz
+[2024-04-26 14:11:03] INFO root fetch - processPackages [recs-searcher]: Downloading https://files.pythonhosted.org/packages/15/b6/10c7db014f8a6e2760ea53b639068e3cd121021f7a1babfb83c682bad2be/recs-searcher-0.1.0.tar.gz
+[2024-04-26 14:11:03] INFO root fetch - processPackages [odp-sdk]: executing diffoscope
+[2024-04-26 14:11:03] INFO root fetch - processPackages [odp-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odp_sdk-0.4.8.tar.gz tmp/odp_sdk-0.4.9.tar.gz --markdown 20240426/o/odp-sdk/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-04-26 14:11:03] INFO root fetch - processPackages [p-template-generator]: Downloading https://files.pythonhosted.org/packages/f6/11/746908384a91b5aacce7afb9782527293e24c5740c72a201daffb937e988/p-template-generator-0.1.99.tar.gz
+[2024-04-26 14:11:03] INFO root fetch - processPackages [recs-searcher]: executing diffoscope
+[2024-04-26 14:11:03] INFO root fetch - processPackages [recs-searcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recs-searcher-0.0.9.tar.gz tmp/recs-searcher-0.1.0.tar.gz --markdown 20240426/r/recs-searcher/0.0.9-0.1.0/README.md --exclude *.pyd
+[2024-04-26 14:11:03] INFO root fetch - processPackages [p-template-generator]: executing diffoscope
+[2024-04-26 14:11:03] INFO root fetch - processPackages [p-template-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/p-template-generator-0.1.98.tar.gz tmp/p-template-generator-0.1.99.tar.gz --markdown 20240426/p/p-template-generator/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-04-26 14:11:03] INFO root fetch - processPackages [odp-sdk]: Remove: archive file [/home/abi/fetcher/tmp/odp_sdk-0.4.8.tar.gz]
+[2024-04-26 14:11:03] INFO root fetch - processPackages [odp-sdk]: Remove: archive file [/home/abi/fetcher/tmp/odp_sdk-0.4.9.tar.gz]
+[2024-04-26 14:11:03] INFO root fetch - main [MainThread]: End processing [odp-sdk]: success
+[2024-04-26 14:11:03] INFO root fetch - processPackages [torcheval-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torcheval-nightly-2024.4.8.tar.gz]
+[2024-04-26 14:11:03] INFO root fetch - processPackages [torcheval-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torcheval-nightly-2024.4.9.tar.gz]
+[2024-04-26 14:11:03] INFO root fetch - main [MainThread]: End processing [torcheval-nightly]: success
+[2024-04-26 14:11:04] INFO root fetch - processPackages [recs-searcher]: Remove: archive file [/home/abi/fetcher/tmp/recs-searcher-0.0.9.tar.gz]
+[2024-04-26 14:11:04] INFO root fetch - processPackages [recs-searcher]: Remove: archive file [/home/abi/fetcher/tmp/recs-searcher-0.1.0.tar.gz]
+[2024-04-26 14:11:04] INFO root fetch - main [MainThread]: End processing [recs-searcher]: success
+[2024-04-26 14:11:04] INFO root fetch - processPackages [p-template-generator]: Remove: archive file [/home/abi/fetcher/tmp/p-template-generator-0.1.98.tar.gz]
+[2024-04-26 14:11:04] INFO root fetch - processPackages [p-template-generator]: Remove: archive file [/home/abi/fetcher/tmp/p-template-generator-0.1.99.tar.gz]
+[2024-04-26 14:11:04] INFO root fetch - main [MainThread]: End processing [p-template-generator]: success
+[2024-04-26 14:11:04] INFO root fetch - main [MainThread]: Store serial: [22947239]
