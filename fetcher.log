@@ -13143,3 +13143,24 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 09:40:53] INFO root fetch - processPackages [plone.app.mosaic]: Remove: archive file [/home/abi/fetcher/tmp/plone_app_mosaic-3.2.0a5.tar.gz]
 [2024-04-26 09:40:53] INFO root fetch - main [MainThread]: End processing [plone.app.mosaic]: success
 [2024-04-26 09:40:53] INFO root fetch - main [MainThread]: Store serial: [22944439]
+[2024-04-26 09:42:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22944439]
+[2024-04-26 09:43:02] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-26 09:43:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tad-dftd4
+[2024-04-26 09:43:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mobio-admin-sdk
+[2024-04-26 09:43:02] INFO root fetch - processPackages [mobio-admin-sdk]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-26 09:43:02] INFO root fetch - processPackages [tad-dftd4]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-26 09:43:02] INFO root fetch - processPackages [mobio-admin-sdk]: Downloading https://files.pythonhosted.org/packages/6c/8e/a372923613b5f9d90f5223b8ba25f57780b18d3ffcbd317b0a98b3eecd4f/mobio-admin-sdk-1.0.8.tar.gz
+[2024-04-26 09:43:02] INFO root fetch - processPackages [mobio-admin-sdk]: Downloading https://files.pythonhosted.org/packages/3c/b2/a3e4036b79a86464d6bc419cd03eb080a8bf334c1eb0dd3b78921bc98b77/mobio-admin-sdk-1.0.9.tar.gz
+[2024-04-26 09:43:02] INFO root fetch - processPackages [tad-dftd4]: Downloading https://files.pythonhosted.org/packages/e9/03/89d15f216cb378a98af243f27fcf1a19db14aa001082c82982cf37adf245/tad_dftd4-0.1.0.tar.gz
+[2024-04-26 09:43:03] INFO root fetch - processPackages [mobio-admin-sdk]: executing diffoscope
+[2024-04-26 09:43:03] INFO root fetch - processPackages [mobio-admin-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mobio-admin-sdk-1.0.8.tar.gz tmp/mobio-admin-sdk-1.0.9.tar.gz --markdown 20240426/m/mobio-admin-sdk/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-26 09:43:03] INFO root fetch - processPackages [tad-dftd4]: Downloading https://files.pythonhosted.org/packages/aa/f9/86fd4cb60a813e83baa1cefe32b2f3e33f52094db73fab330d5a242fdcba/tad_dftd4-0.1.1.tar.gz
+[2024-04-26 09:43:03] INFO root fetch - processPackages [tad-dftd4]: executing diffoscope
+[2024-04-26 09:43:03] INFO root fetch - processPackages [tad-dftd4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tad_dftd4-0.1.0.tar.gz tmp/tad_dftd4-0.1.1.tar.gz --markdown 20240426/t/tad-dftd4/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-26 09:43:03] INFO root fetch - processPackages [mobio-admin-sdk]: Remove: archive file [/home/abi/fetcher/tmp/mobio-admin-sdk-1.0.8.tar.gz]
+[2024-04-26 09:43:03] INFO root fetch - processPackages [mobio-admin-sdk]: Remove: archive file [/home/abi/fetcher/tmp/mobio-admin-sdk-1.0.9.tar.gz]
+[2024-04-26 09:43:03] INFO root fetch - main [MainThread]: End processing [mobio-admin-sdk]: success
+[2024-04-26 09:43:04] INFO root fetch - processPackages [tad-dftd4]: Remove: archive file [/home/abi/fetcher/tmp/tad_dftd4-0.1.0.tar.gz]
+[2024-04-26 09:43:04] INFO root fetch - processPackages [tad-dftd4]: Remove: archive file [/home/abi/fetcher/tmp/tad_dftd4-0.1.1.tar.gz]
+[2024-04-26 09:43:04] INFO root fetch - main [MainThread]: End processing [tad-dftd4]: success
+[2024-04-26 09:43:04] INFO root fetch - main [MainThread]: Store serial: [22944446]
