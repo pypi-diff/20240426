@@ -23151,3 +23151,27 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 16:35:56] INFO root fetch - processPackages [upycli]: Remove: archive file [/home/abi/fetcher/tmp/upycli-0.2.6.tar.gz]
 [2024-04-26 16:35:56] INFO root fetch - main [MainThread]: End processing [upycli]: success
 [2024-04-26 16:35:56] INFO root fetch - main [MainThread]: Store serial: [22948707]
+[2024-04-26 16:38:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22948707]
+[2024-04-26 16:38:06] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-26 16:38:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ofnodes
+[2024-04-26 16:38:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qrisp
+[2024-04-26 16:38:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: barcocollab
+[2024-04-26 16:38:06] INFO root fetch - processPackages [ofnodes]: New version: [1.8.0] Old Version: [1.7.1]
+[2024-04-26 16:38:06] INFO root fetch - processPackages [qrisp]: New version: [0.4.5] Old Version: [0.4.4]
+[2024-04-26 16:38:06] WARNING root fetch - processPackages [barcocollab]: Skipping, unable to determine old version
+[2024-04-26 16:38:06] INFO root fetch - main [MainThread]: End processing [barcocollab] error
+[2024-04-26 16:38:06] INFO root fetch - processPackages [ofnodes]: Downloading https://files.pythonhosted.org/packages/89/8f/3e5efb90953a1e03cf14c36055c72a2f20b5711c9a77e357e2c153e852d6/ofnodes-1.7.1.tar.gz
+[2024-04-26 16:38:06] INFO root fetch - processPackages [qrisp]: Downloading https://files.pythonhosted.org/packages/3b/49/82eb1b7e14ec3c76e502a62319f61932e526f32712661a7da4a68fafa391/qrisp-0.4.4.tar.gz
+[2024-04-26 16:38:07] INFO root fetch - processPackages [ofnodes]: Downloading https://files.pythonhosted.org/packages/46/cf/728be911b83e83933019ec8dcd2c3e3f0ff8a80860e0d048b4abd4957bf5/ofnodes-1.8.0.tar.gz
+[2024-04-26 16:38:07] INFO root fetch - processPackages [qrisp]: Downloading https://files.pythonhosted.org/packages/ed/e8/9ae2f4685566a1ecebfd2c2e45e84ee6fe2e7f981d8273dbdaf0c705a88d/qrisp-0.4.5.tar.gz
+[2024-04-26 16:38:07] INFO root fetch - processPackages [ofnodes]: executing diffoscope
+[2024-04-26 16:38:07] INFO root fetch - processPackages [ofnodes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ofnodes-1.7.1.tar.gz tmp/ofnodes-1.8.0.tar.gz --markdown 20240426/o/ofnodes/1.7.1-1.8.0/README.md --exclude *.pyd
+[2024-04-26 16:38:07] INFO root fetch - processPackages [qrisp]: executing diffoscope
+[2024-04-26 16:38:07] INFO root fetch - processPackages [qrisp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qrisp-0.4.4.tar.gz tmp/qrisp-0.4.5.tar.gz --markdown 20240426/q/qrisp/0.4.4-0.4.5/README.md --exclude *.pyd
+[2024-04-26 16:38:07] INFO root fetch - processPackages [ofnodes]: Remove: archive file [/home/abi/fetcher/tmp/ofnodes-1.7.1.tar.gz]
+[2024-04-26 16:38:07] INFO root fetch - processPackages [ofnodes]: Remove: archive file [/home/abi/fetcher/tmp/ofnodes-1.8.0.tar.gz]
+[2024-04-26 16:38:07] INFO root fetch - main [MainThread]: End processing [ofnodes]: success
+[2024-04-26 16:38:08] INFO root fetch - processPackages [qrisp]: Remove: archive file [/home/abi/fetcher/tmp/qrisp-0.4.4.tar.gz]
+[2024-04-26 16:38:08] INFO root fetch - processPackages [qrisp]: Remove: archive file [/home/abi/fetcher/tmp/qrisp-0.4.5.tar.gz]
+[2024-04-26 16:38:08] INFO root fetch - main [MainThread]: End processing [qrisp]: success
+[2024-04-26 16:38:08] INFO root fetch - main [MainThread]: Store serial: [22948720]
