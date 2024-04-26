@@ -8952,3 +8952,15 @@
 [2024-04-26 06:17:07] INFO root fetch - main [MainThread]: End processing [machineroom]: success
 [2024-04-26 06:17:07] INFO root fetch - main [MainThread]: End processing [machineroom]: success
 [2024-04-26 06:17:07] INFO root fetch - main [MainThread]: Store serial: [22942588]
+[2024-04-26 06:19:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22942588]
+[2024-04-26 06:19:15] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-26 06:19:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: MobileInventoryCLI
+[2024-04-26 06:19:15] INFO root fetch - processPackages [MobileInventoryCLI]: New version: [0.4.67] Old Version: [0.4.66]
+[2024-04-26 06:19:16] INFO root fetch - processPackages [MobileInventoryCLI]: Downloading https://files.pythonhosted.org/packages/47/2d/a540e3e5cb1be4f493948020ea4d237904e52f04fde8b1ac5e6e9fc3850e/MobileInventoryCLI-0.4.66.tar.gz
+[2024-04-26 06:19:16] INFO root fetch - processPackages [MobileInventoryCLI]: Downloading https://files.pythonhosted.org/packages/06/f5/69f56e710487838c1189fd65a9499fd8e651dfa286ead3250638316320a2/MobileInventoryCLI-0.4.67.tar.gz
+[2024-04-26 06:19:16] INFO root fetch - processPackages [MobileInventoryCLI]: executing diffoscope
+[2024-04-26 06:19:16] INFO root fetch - processPackages [MobileInventoryCLI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MobileInventoryCLI-0.4.66.tar.gz tmp/MobileInventoryCLI-0.4.67.tar.gz --markdown 20240426/M/MobileInventoryCLI/0.4.66-0.4.67/README.md --exclude *.pyd
+[2024-04-26 06:19:17] INFO root fetch - processPackages [MobileInventoryCLI]: Remove: archive file [/home/abi/fetcher/tmp/MobileInventoryCLI-0.4.66.tar.gz]
+[2024-04-26 06:19:17] INFO root fetch - processPackages [MobileInventoryCLI]: Remove: archive file [/home/abi/fetcher/tmp/MobileInventoryCLI-0.4.67.tar.gz]
+[2024-04-26 06:19:17] INFO root fetch - main [MainThread]: End processing [MobileInventoryCLI]: success
+[2024-04-26 06:19:17] INFO root fetch - main [MainThread]: Store serial: [22942590]
