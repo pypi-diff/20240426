@@ -7838,3 +7838,42 @@
 [2024-04-26 05:00:17] INFO root fetch - processPackages [3lc]: Remove: archive file [/home/abi/fetcher/tmp/3lc-2.3.92-0-cp39-cp39-win_amd64.whl.zip]
 [2024-04-26 05:00:17] INFO root fetch - main [MainThread]: End processing [3lc]: success
 [2024-04-26 05:00:17] INFO root fetch - main [MainThread]: Store serial: [22942121]
+[2024-04-26 05:02:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22942121]
+[2024-04-26 05:02:28] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-26 05:02:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: csvtojsonify
+[2024-04-26 05:02:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tddschn-utils
+[2024-04-26 05:02:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pokelocopollo
+[2024-04-26 05:02:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gpp-components
+[2024-04-26 05:02:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vsvnApplicationMonitoring
+[2024-04-26 05:02:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: YaraForge
+[2024-04-26 05:02:28] INFO root fetch - processPackages [csvtojsonify]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-26 05:02:28] WARNING root fetch - processPackages [tddschn-utils]: Skipping, unable to determine old version
+[2024-04-26 05:02:28] INFO root fetch - main [MainThread]: End processing [tddschn-utils] error
+[2024-04-26 05:02:28] INFO root fetch - processPackages [YaraForge]: New version: [0.1.5b1] Old Version: [0.1.4b1]
+[2024-04-26 05:02:28] INFO root fetch - processPackages [gpp-components]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-26 05:02:28] WARNING root fetch - processPackages [vsvnApplicationMonitoring]: Skipping, unable to determine old version
+[2024-04-26 05:02:28] INFO root fetch - main [MainThread]: End processing [vsvnApplicationMonitoring] error
+[2024-04-26 05:02:28] WARNING root fetch - processPackages [pokelocopollo]: Skipping, unable to determine old version
+[2024-04-26 05:02:28] INFO root fetch - main [MainThread]: End processing [pokelocopollo] error
+[2024-04-26 05:02:28] INFO root fetch - processPackages [YaraForge]: Downloading https://files.pythonhosted.org/packages/b3/63/08fc5a81b7ee9dc079aeffbecdfcf9d817f5c144b7dce7c611f620445740/YaraForge-0.1.4b1.tar.gz
+[2024-04-26 05:02:28] INFO root fetch - processPackages [gpp-components]: Downloading https://files.pythonhosted.org/packages/77/0e/a779ffdcefbfb45f0faff36cd15341328c836424c5dd2aee3ce8ce0bc92e/gpp_components-0.1.3.tar.gz
+[2024-04-26 05:02:28] INFO root fetch - processPackages [csvtojsonify]: Downloading https://files.pythonhosted.org/packages/b2/aa/bb017d57fe338847df602e96bf66373c586d8e82cc5e74b2d262f5ef6282/csvtojsonify-1.0.0.tar.gz
+[2024-04-26 05:02:29] INFO root fetch - processPackages [gpp-components]: Downloading https://files.pythonhosted.org/packages/f8/f2/3236eee20d770311126c5200dd296702ca03bd95deb52a3511ebb00389c1/gpp_components-0.1.4.tar.gz
+[2024-04-26 05:02:29] INFO root fetch - processPackages [YaraForge]: Downloading https://files.pythonhosted.org/packages/2b/16/67e7b62dc373d369a6a63a379a8d2af50cb227b8f3ac5aed1d3adf92a7ef/YaraForge-0.1.5b1.tar.gz
+[2024-04-26 05:02:29] INFO root fetch - processPackages [gpp-components]: executing diffoscope
+[2024-04-26 05:02:29] INFO root fetch - processPackages [gpp-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpp_components-0.1.3.tar.gz tmp/gpp_components-0.1.4.tar.gz --markdown 20240426/g/gpp-components/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-26 05:02:29] INFO root fetch - processPackages [csvtojsonify]: Downloading https://files.pythonhosted.org/packages/c1/42/587da2ac8369367902a004049c1dc0ff52874ff2efbe49ab13e7acfc5715/csvtojsonify-1.0.1.tar.gz
+[2024-04-26 05:02:29] INFO root fetch - processPackages [YaraForge]: executing diffoscope
+[2024-04-26 05:02:29] INFO root fetch - processPackages [YaraForge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/YaraForge-0.1.4b1.tar.gz tmp/YaraForge-0.1.5b1.tar.gz --markdown 20240426/Y/YaraForge/0.1.4b1-0.1.5b1/README.md --exclude *.pyd
+[2024-04-26 05:02:29] INFO root fetch - processPackages [csvtojsonify]: executing diffoscope
+[2024-04-26 05:02:29] INFO root fetch - processPackages [csvtojsonify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/csvtojsonify-1.0.0.tar.gz tmp/csvtojsonify-1.0.1.tar.gz --markdown 20240426/c/csvtojsonify/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-26 05:02:29] INFO root fetch - processPackages [gpp-components]: Remove: archive file [/home/abi/fetcher/tmp/gpp_components-0.1.3.tar.gz]
+[2024-04-26 05:02:29] INFO root fetch - processPackages [gpp-components]: Remove: archive file [/home/abi/fetcher/tmp/gpp_components-0.1.4.tar.gz]
+[2024-04-26 05:02:29] INFO root fetch - main [MainThread]: End processing [gpp-components]: success
+[2024-04-26 05:02:29] INFO root fetch - processPackages [csvtojsonify]: Remove: archive file [/home/abi/fetcher/tmp/csvtojsonify-1.0.0.tar.gz]
+[2024-04-26 05:02:29] INFO root fetch - processPackages [csvtojsonify]: Remove: archive file [/home/abi/fetcher/tmp/csvtojsonify-1.0.1.tar.gz]
+[2024-04-26 05:02:29] INFO root fetch - main [MainThread]: End processing [csvtojsonify]: success
+[2024-04-26 05:02:30] INFO root fetch - processPackages [YaraForge]: Remove: archive file [/home/abi/fetcher/tmp/YaraForge-0.1.4b1.tar.gz]
+[2024-04-26 05:02:30] INFO root fetch - processPackages [YaraForge]: Remove: archive file [/home/abi/fetcher/tmp/YaraForge-0.1.5b1.tar.gz]
+[2024-04-26 05:02:30] INFO root fetch - main [MainThread]: End processing [YaraForge]: success
+[2024-04-26 05:02:30] INFO root fetch - main [MainThread]: Store serial: [22942143]
