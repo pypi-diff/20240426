@@ -10414,3 +10414,18 @@
 [2024-04-26 07:55:59] INFO root fetch - processPackages [pulumi-fastly]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_fastly-8.7.0a1714109672.tar.gz]
 [2024-04-26 07:55:59] INFO root fetch - main [MainThread]: End processing [pulumi-fastly]: success
 [2024-04-26 07:55:59] INFO root fetch - main [MainThread]: Store serial: [22943124]
+[2024-04-26 07:58:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22943124]
+[2024-04-26 07:58:07] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-26 07:58:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oelint-adv
+[2024-04-26 07:58:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: invoicing-pdf-t
+[2024-04-26 07:58:08] WARNING root fetch - processPackages [invoicing-pdf-t]: Skipping, unable to determine old version
+[2024-04-26 07:58:08] INFO root fetch - main [MainThread]: End processing [invoicing-pdf-t] error
+[2024-04-26 07:58:08] INFO root fetch - processPackages [oelint-adv]: New version: [5.3.1] Old Version: [5.3.0]
+[2024-04-26 07:58:08] INFO root fetch - processPackages [oelint-adv]: Downloading https://files.pythonhosted.org/packages/9e/b5/9c26296298aec4a4e5722e9719347016966bf67de7211f0520677274c755/oelint_adv-5.3.0.tar.gz
+[2024-04-26 07:58:08] INFO root fetch - processPackages [oelint-adv]: Downloading https://files.pythonhosted.org/packages/e5/1a/88098be103dcde033cd0897cd40b73fce8e752305228f5c09b859c47b023/oelint_adv-5.3.1.tar.gz
+[2024-04-26 07:58:08] INFO root fetch - processPackages [oelint-adv]: executing diffoscope
+[2024-04-26 07:58:08] INFO root fetch - processPackages [oelint-adv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oelint_adv-5.3.0.tar.gz tmp/oelint_adv-5.3.1.tar.gz --markdown 20240426/o/oelint-adv/5.3.0-5.3.1/README.md --exclude *.pyd
+[2024-04-26 07:58:09] INFO root fetch - processPackages [oelint-adv]: Remove: archive file [/home/abi/fetcher/tmp/oelint_adv-5.3.0.tar.gz]
+[2024-04-26 07:58:09] INFO root fetch - processPackages [oelint-adv]: Remove: archive file [/home/abi/fetcher/tmp/oelint_adv-5.3.1.tar.gz]
+[2024-04-26 07:58:09] INFO root fetch - main [MainThread]: End processing [oelint-adv]: success
+[2024-04-26 07:58:09] INFO root fetch - main [MainThread]: Store serial: [22943131]
