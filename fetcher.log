@@ -22088,3 +22088,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 15:51:40] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_sdk-2.1.7.tar.gz]
 [2024-04-26 15:51:40] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
 [2024-04-26 15:51:40] INFO root fetch - main [MainThread]: Store serial: [22948321]
+[2024-04-26 15:53:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22948321]
+[2024-04-26 15:53:50] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-26 15:53:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nestipy-cli
+[2024-04-26 15:53:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: utilmy
+[2024-04-26 15:53:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sibyl-api
+[2024-04-26 15:53:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tensordict-nightly
+[2024-04-26 15:53:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sbcli-dev
+[2024-04-26 15:53:50] INFO root fetch - processPackages [sbcli-dev]: New version: [2.4.0] Old Version: [2.3.9]
+[2024-04-26 15:53:50] INFO root fetch - processPackages [nestipy-cli]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-04-26 15:53:50] INFO root fetch - processPackages [sibyl-api]: New version: [0.1.1] Old Version: [0.1.0.2]
+[2024-04-26 15:53:50] INFO root fetch - processPackages [sbcli-dev]: Downloading https://files.pythonhosted.org/packages/b0/a3/b2412feb2e96ab04ddd38f162cd8b73696311a978d80f064fbc2bd57d921/sbcli_dev-2.3.9.zip
+[2024-04-26 15:53:50] INFO root fetch - processPackages [utilmy]: New version: [0.1.17141395] Old Version: [0.1.17138411]
+[2024-04-26 15:53:50] INFO root fetch - processPackages [nestipy-cli]: Downloading https://files.pythonhosted.org/packages/05/2b/e58c1b0da555f4ad247309733672fe6e85c827f6a6c436d6be2233739616/nestipy_cli-0.1.0.tar.gz
+[2024-04-26 15:53:50] INFO root fetch - processPackages [sibyl-api]: Downloading https://files.pythonhosted.org/packages/08/ee/7cd643e4761259a5913de3ab51be182ef826549c4de8adc83e6b085f0b90/sibyl_api-0.1.0.2.tar.gz
+[2024-04-26 15:53:50] INFO root fetch - processPackages [utilmy]: Downloading https://files.pythonhosted.org/packages/ee/61/1c925f53270cd6c526c7cc85fda406d8e1336b51168710e77534e5d29815/utilmy-0.1.17138411.tar.gz
+[2024-04-26 15:53:50] INFO root fetch - processPackages [sbcli-dev]: Downloading https://files.pythonhosted.org/packages/9b/8f/b9848e47c208f0ed707f13d03017a7c23815b86c0a821466b6ca7367870d/sbcli_dev-2.4.0.zip
+[2024-04-26 15:53:50] INFO root fetch - processPackages [tensordict-nightly]: New version: [2024.4.9] Old Version: [2024.4.8]
+[2024-04-26 15:53:50] INFO root fetch - processPackages [nestipy-cli]: Downloading https://files.pythonhosted.org/packages/1f/5d/dd314916b1b2908384d4ab3aeb1c7376ee91de98fccc0eca8bbcee90491b/nestipy_cli-0.2.0.tar.gz
+[2024-04-26 15:53:50] INFO root fetch - processPackages [sibyl-api]: Downloading https://files.pythonhosted.org/packages/d7/84/d1956207ea41cf62e61de700b8f28c00c579ddb7296aa515b09b9941be88/sibyl_api-0.1.1.tar.gz
+[2024-04-26 15:53:50] INFO root fetch - processPackages [sbcli-dev]: executing diffoscope
+[2024-04-26 15:53:50] INFO root fetch - processPackages [sbcli-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbcli_dev-2.3.9.zip tmp/sbcli_dev-2.4.0.zip --markdown 20240426/s/sbcli-dev/2.3.9-2.4.0/README.md --exclude *.pyd
+[2024-04-26 15:53:51] INFO root fetch - processPackages [nestipy-cli]: executing diffoscope
+[2024-04-26 15:53:51] INFO root fetch - processPackages [nestipy-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nestipy_cli-0.1.0.tar.gz tmp/nestipy_cli-0.2.0.tar.gz --markdown 20240426/n/nestipy-cli/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-04-26 15:53:51] INFO root fetch - processPackages [tensordict-nightly]: Downloading https://files.pythonhosted.org/packages/cd/1c/8579b410faa082f73f4c5e15b9f2df9564f5500baeca12f401c71c95762b/tensordict_nightly-2024.4.8-cp39-cp39-win_amd64.whl
+[2024-04-26 15:53:51] INFO root fetch - processPackages [sibyl-api]: executing diffoscope
+[2024-04-26 15:53:51] INFO root fetch - processPackages [sibyl-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sibyl_api-0.1.0.2.tar.gz tmp/sibyl_api-0.1.1.tar.gz --markdown 20240426/s/sibyl-api/0.1.0.2-0.1.1/README.md --exclude *.pyd
+[2024-04-26 15:53:51] INFO root fetch - processPackages [utilmy]: Downloading https://files.pythonhosted.org/packages/03/d2/ce1b320c98595170d2fb370d8833ff78533793c50e4be80e51624d2a88e8/utilmy-0.1.17141395.tar.gz
+[2024-04-26 15:53:51] INFO root fetch - processPackages [tensordict-nightly]: Downloading https://files.pythonhosted.org/packages/07/82/e5cb687b1d6b19f6d3c57c14285a0e891743c0fd72b7d62c9298fc937736/tensordict_nightly-2024.4.9-cp39-cp39-win_amd64.whl
+[2024-04-26 15:53:51] INFO root fetch - processPackages [nestipy-cli]: Remove: archive file [/home/abi/fetcher/tmp/nestipy_cli-0.1.0.tar.gz]
+[2024-04-26 15:53:51] INFO root fetch - processPackages [nestipy-cli]: Remove: archive file [/home/abi/fetcher/tmp/nestipy_cli-0.2.0.tar.gz]
+[2024-04-26 15:53:51] INFO root fetch - main [MainThread]: End processing [nestipy-cli]: success
+[2024-04-26 15:53:51] INFO root fetch - processPackages [tensordict-nightly]: executing diffoscope
+[2024-04-26 15:53:51] INFO root fetch - processPackages [tensordict-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensordict_nightly-2024.4.8-cp39-cp39-win_amd64.whl.zip tmp/tensordict_nightly-2024.4.9-cp39-cp39-win_amd64.whl.zip --markdown 20240426/t/tensordict-nightly/2024.4.8-2024.4.9/README.md --exclude *.pyd
+[2024-04-26 15:53:51] INFO root fetch - processPackages [utilmy]: executing diffoscope
+[2024-04-26 15:53:51] INFO root fetch - processPackages [utilmy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utilmy-0.1.17138411.tar.gz tmp/utilmy-0.1.17141395.tar.gz --markdown 20240426/u/utilmy/0.1.17138411-0.1.17141395/README.md --exclude *.pyd
+[2024-04-26 15:53:51] INFO root fetch - processPackages [sibyl-api]: Remove: archive file [/home/abi/fetcher/tmp/sibyl_api-0.1.0.2.tar.gz]
+[2024-04-26 15:53:51] INFO root fetch - processPackages [sibyl-api]: Remove: archive file [/home/abi/fetcher/tmp/sibyl_api-0.1.1.tar.gz]
+[2024-04-26 15:53:51] INFO root fetch - main [MainThread]: End processing [sibyl-api]: success
+[2024-04-26 15:53:51] INFO root fetch - processPackages [sbcli-dev]: Remove: archive file [/home/abi/fetcher/tmp/sbcli_dev-2.3.9.zip]
+[2024-04-26 15:53:51] INFO root fetch - processPackages [sbcli-dev]: Remove: archive file [/home/abi/fetcher/tmp/sbcli_dev-2.4.0.zip]
+[2024-04-26 15:53:51] INFO root fetch - main [MainThread]: End processing [sbcli-dev]: success
+[2024-04-26 15:53:52] INFO root fetch - processPackages [tensordict-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensordict_nightly-2024.4.8-cp39-cp39-win_amd64.whl.zip]
+[2024-04-26 15:53:52] INFO root fetch - processPackages [tensordict-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensordict_nightly-2024.4.9-cp39-cp39-win_amd64.whl.zip]
+[2024-04-26 15:53:52] INFO root fetch - main [MainThread]: End processing [tensordict-nightly]: success
+[2024-04-26 15:53:59] INFO root fetch - processPackages [utilmy]: Remove: archive file [/home/abi/fetcher/tmp/utilmy-0.1.17138411.tar.gz]
+[2024-04-26 15:53:59] INFO root fetch - processPackages [utilmy]: Remove: archive file [/home/abi/fetcher/tmp/utilmy-0.1.17141395.tar.gz]
+[2024-04-26 15:53:59] INFO root fetch - main [MainThread]: End processing [utilmy]: success
+[2024-04-26 15:53:59] INFO root fetch - main [MainThread]: Store serial: [22948330]
