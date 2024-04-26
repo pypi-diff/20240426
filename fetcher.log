@@ -22046,3 +22046,45 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 15:49:23] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.17.0.post9.tar.gz]
 [2024-04-26 15:49:23] INFO root fetch - main [MainThread]: End processing [hotsos]: success
 [2024-04-26 15:49:23] INFO root fetch - main [MainThread]: Store serial: [22948294]
+[2024-04-26 15:51:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22948294]
+[2024-04-26 15:51:33] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-26 15:51:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lusid-sdk
+[2024-04-26 15:51:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdklabs.generative-ai-cdk-constructs
+[2024-04-26 15:51:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: twitch-dota-extension
+[2024-04-26 15:51:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: annet
+[2024-04-26 15:51:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: era5-torch
+[2024-04-26 15:51:33] INFO root fetch - processPackages [twitch-dota-extension]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-26 15:51:33] INFO root fetch - processPackages [annet]: New version: [0.9] Old Version: [0.8]
+[2024-04-26 15:51:33] WARNING root fetch - processPackages [era5-torch]: Skipping, unable to determine old version
+[2024-04-26 15:51:33] INFO root fetch - main [MainThread]: End processing [era5-torch] error
+[2024-04-26 15:51:33] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-26 15:51:33] INFO root fetch - processPackages [lusid-sdk]: New version: [2.1.7] Old Version: [2.1.61]
+[2024-04-26 15:51:33] INFO root fetch - processPackages [twitch-dota-extension]: Downloading https://files.pythonhosted.org/packages/78/cc/eb5c0075826b76c223dede93a7e66f5dea44ee3c4daffe59b5c5be5b5a64/twitch_dota_extension-0.1.1.tar.gz
+[2024-04-26 15:51:33] INFO root fetch - processPackages [annet]: Downloading https://files.pythonhosted.org/packages/43/03/2bd7e8afe1cef1ffcdf8b3a53c32197a76076672190d4a3f0684979508f9/annet-0.8.tar.gz
+[2024-04-26 15:51:34] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/67/4b/8ec6ab15873e20f04b712b3ab420445fbb6f8f497393eeab6279f9ee8928/lusid_sdk-2.1.61.tar.gz
+[2024-04-26 15:51:34] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: Downloading https://files.pythonhosted.org/packages/79/87/07cb65a8c0c2fc2875a184fdc369cb5cae8af38496f859dbedf1593cf94a/cdklabs.generative-ai-cdk-constructs-0.1.98.tar.gz
+[2024-04-26 15:51:34] INFO root fetch - processPackages [twitch-dota-extension]: Downloading https://files.pythonhosted.org/packages/93/6b/f98b4732536c79baa801893bff4c8f97121d5dd58db4f9c2419812ce6ca3/twitch_dota_extension-0.1.2.tar.gz
+[2024-04-26 15:51:34] INFO root fetch - processPackages [annet]: Downloading https://files.pythonhosted.org/packages/41/c3/39483a248016582b415acc5071d94f0dfba19bb328455d81cb638d77d2ed/annet-0.9.tar.gz
+[2024-04-26 15:51:34] INFO root fetch - processPackages [twitch-dota-extension]: executing diffoscope
+[2024-04-26 15:51:34] INFO root fetch - processPackages [twitch-dota-extension]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twitch_dota_extension-0.1.1.tar.gz tmp/twitch_dota_extension-0.1.2.tar.gz --markdown 20240426/t/twitch-dota-extension/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-26 15:51:34] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: Downloading https://files.pythonhosted.org/packages/b1/3f/bb620aad2e3c9827bbd2a2a36dc64be1b0084b319f0f120e13690f4f1f17/cdklabs.generative-ai-cdk-constructs-0.1.99.tar.gz
+[2024-04-26 15:51:34] INFO root fetch - processPackages [annet]: executing diffoscope
+[2024-04-26 15:51:34] INFO root fetch - processPackages [annet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/annet-0.8.tar.gz tmp/annet-0.9.tar.gz --markdown 20240426/a/annet/0.8-0.9/README.md --exclude *.pyd
+[2024-04-26 15:51:34] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/ef/9e/cac4eb8acb9b4225644a8ecd621bda7df1f3ecf1d132898e9a3ec1ed6723/lusid_sdk-2.1.7.tar.gz
+[2024-04-26 15:51:34] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: executing diffoscope
+[2024-04-26 15:51:34] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.generative-ai-cdk-constructs-0.1.98.tar.gz tmp/cdklabs.generative-ai-cdk-constructs-0.1.99.tar.gz --markdown 20240426/c/cdklabs.generative-ai-cdk-constructs/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-04-26 15:51:34] INFO root fetch - processPackages [lusid-sdk]: executing diffoscope
+[2024-04-26 15:51:34] INFO root fetch - processPackages [lusid-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid_sdk-2.1.61.tar.gz tmp/lusid_sdk-2.1.7.tar.gz --markdown 20240426/l/lusid-sdk/2.1.61-2.1.7/README.md --exclude *.pyd
+[2024-04-26 15:51:35] INFO root fetch - processPackages [twitch-dota-extension]: Remove: archive file [/home/abi/fetcher/tmp/twitch_dota_extension-0.1.1.tar.gz]
+[2024-04-26 15:51:35] INFO root fetch - processPackages [twitch-dota-extension]: Remove: archive file [/home/abi/fetcher/tmp/twitch_dota_extension-0.1.2.tar.gz]
+[2024-04-26 15:51:35] INFO root fetch - main [MainThread]: End processing [twitch-dota-extension]: success
+[2024-04-26 15:51:35] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.generative-ai-cdk-constructs-0.1.98.tar.gz]
+[2024-04-26 15:51:35] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.generative-ai-cdk-constructs-0.1.99.tar.gz]
+[2024-04-26 15:51:35] INFO root fetch - main [MainThread]: End processing [cdklabs.generative-ai-cdk-constructs]: success
+[2024-04-26 15:51:35] INFO root fetch - processPackages [annet]: Remove: archive file [/home/abi/fetcher/tmp/annet-0.8.tar.gz]
+[2024-04-26 15:51:35] INFO root fetch - processPackages [annet]: Remove: archive file [/home/abi/fetcher/tmp/annet-0.9.tar.gz]
+[2024-04-26 15:51:35] INFO root fetch - main [MainThread]: End processing [annet]: success
+[2024-04-26 15:51:40] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_sdk-2.1.61.tar.gz]
+[2024-04-26 15:51:40] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_sdk-2.1.7.tar.gz]
+[2024-04-26 15:51:40] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
+[2024-04-26 15:51:40] INFO root fetch - main [MainThread]: Store serial: [22948321]
