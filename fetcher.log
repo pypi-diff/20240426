@@ -8251,3 +8251,45 @@
 [2024-04-26 05:29:06] INFO root fetch - processPackages [pypipr]: Remove: archive file [/home/abi/fetcher/tmp/pypipr-1.0.94.tar.gz]
 [2024-04-26 05:29:06] INFO root fetch - main [MainThread]: End processing [pypipr]: success
 [2024-04-26 05:29:06] INFO root fetch - main [MainThread]: Store serial: [22942291]
+[2024-04-26 05:31:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22942291]
+[2024-04-26 05:31:15] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-26 05:31:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: volstreet
+[2024-04-26 05:31:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: keras-nlp-nightly
+[2024-04-26 05:31:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: IslandSheds
+[2024-04-26 05:31:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wled2graph
+[2024-04-26 05:31:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jy_lib
+[2024-04-26 05:31:15] INFO root fetch - processPackages [wled2graph]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-26 05:31:15] INFO root fetch - processPackages [keras-nlp-nightly]: New version: [0.9.0.dev2024041003] Old Version: [0.9.0.dev2024040803]
+[2024-04-26 05:31:15] WARNING root fetch - processPackages [IslandSheds]: Skipping, unable to determine old version
+[2024-04-26 05:31:15] INFO root fetch - main [MainThread]: End processing [IslandSheds] error
+[2024-04-26 05:31:15] INFO root fetch - processPackages [volstreet]: New version: [8.0.1] Old Version: [8.0.0]
+[2024-04-26 05:31:15] INFO root fetch - processPackages [jy_lib]: New version: [0.6.6] Old Version: [0.6.5]
+[2024-04-26 05:31:15] INFO root fetch - processPackages [keras-nlp-nightly]: Downloading https://files.pythonhosted.org/packages/e9/c8/7f581d2ae825faa0b7973bcc73c15e31c01c7e1f5c085a746ded34473011/keras-nlp-nightly-0.9.0.dev2024040803.tar.gz
+[2024-04-26 05:31:15] INFO root fetch - processPackages [wled2graph]: Downloading https://files.pythonhosted.org/packages/bc/2e/d7a73c3a7c15c68ea2d2e7977db35645c42c1359d84cb8ba64d89fee594b/wled2graph-0.1.0.tar.gz
+[2024-04-26 05:31:15] INFO root fetch - processPackages [volstreet]: Downloading https://files.pythonhosted.org/packages/11/40/a07aabf411f4ed1cf50358c0a4591c038a9473ab3cc4a24ef69fec258900/volstreet-8.0.0.tar.gz
+[2024-04-26 05:31:15] INFO root fetch - processPackages [jy_lib]: Downloading https://files.pythonhosted.org/packages/95/83/cb0b4e6d58ef89c717cfd024400c1cfdfbbf57b76683cef7efb434d5ea62/jy_lib-0.6.5.tar.gz
+[2024-04-26 05:31:15] INFO root fetch - processPackages [keras-nlp-nightly]: Downloading https://files.pythonhosted.org/packages/74/95/bdeb12dec2c7c5b69ee11a239dcb09345f2e4180ca0e26e6f12bef8f5013/keras-nlp-nightly-0.9.0.dev2024041003.tar.gz
+[2024-04-26 05:31:15] INFO root fetch - processPackages [wled2graph]: Downloading https://files.pythonhosted.org/packages/66/ab/d32c51829187360cd1ce12e9cb94471bc6edc0f52eb7a58afe0a5921d476/wled2graph-0.1.1.tar.gz
+[2024-04-26 05:31:15] INFO root fetch - processPackages [keras-nlp-nightly]: executing diffoscope
+[2024-04-26 05:31:15] INFO root fetch - processPackages [keras-nlp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras-nlp-nightly-0.9.0.dev2024040803.tar.gz tmp/keras-nlp-nightly-0.9.0.dev2024041003.tar.gz --markdown 20240426/k/keras-nlp-nightly/0.9.0.dev2024040803-0.9.0.dev2024041003/README.md --exclude *.pyd
+[2024-04-26 05:31:15] INFO root fetch - processPackages [wled2graph]: executing diffoscope
+[2024-04-26 05:31:15] INFO root fetch - processPackages [wled2graph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wled2graph-0.1.0.tar.gz tmp/wled2graph-0.1.1.tar.gz --markdown 20240426/w/wled2graph/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-26 05:31:15] INFO root fetch - processPackages [volstreet]: Downloading https://files.pythonhosted.org/packages/51/66/430517f00d1b2fccce0765b4928ad25151f38ed716347ccccf907aedeb94/volstreet-8.0.1.tar.gz
+[2024-04-26 05:31:16] INFO root fetch - processPackages [jy_lib]: Downloading https://files.pythonhosted.org/packages/21/3b/54299b56bfe807536a16cb0f94d2d46b0c93ad8c33070f222af614bf294d/jy_lib-0.6.6.tar.gz
+[2024-04-26 05:31:16] INFO root fetch - processPackages [volstreet]: executing diffoscope
+[2024-04-26 05:31:16] INFO root fetch - processPackages [volstreet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volstreet-8.0.0.tar.gz tmp/volstreet-8.0.1.tar.gz --markdown 20240426/v/volstreet/8.0.0-8.0.1/README.md --exclude *.pyd
+[2024-04-26 05:31:16] INFO root fetch - processPackages [jy_lib]: executing diffoscope
+[2024-04-26 05:31:16] INFO root fetch - processPackages [jy_lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jy_lib-0.6.5.tar.gz tmp/jy_lib-0.6.6.tar.gz --markdown 20240426/j/jy_lib/0.6.5-0.6.6/README.md --exclude *.pyd
+[2024-04-26 05:31:16] INFO root fetch - processPackages [wled2graph]: Remove: archive file [/home/abi/fetcher/tmp/wled2graph-0.1.0.tar.gz]
+[2024-04-26 05:31:16] INFO root fetch - processPackages [wled2graph]: Remove: archive file [/home/abi/fetcher/tmp/wled2graph-0.1.1.tar.gz]
+[2024-04-26 05:31:16] INFO root fetch - main [MainThread]: End processing [wled2graph]: success
+[2024-04-26 05:31:16] INFO root fetch - processPackages [jy_lib]: Remove: archive file [/home/abi/fetcher/tmp/jy_lib-0.6.5.tar.gz]
+[2024-04-26 05:31:16] INFO root fetch - processPackages [jy_lib]: Remove: archive file [/home/abi/fetcher/tmp/jy_lib-0.6.6.tar.gz]
+[2024-04-26 05:31:16] INFO root fetch - main [MainThread]: End processing [jy_lib]: success
+[2024-04-26 05:31:16] INFO root fetch - processPackages [volstreet]: Remove: archive file [/home/abi/fetcher/tmp/volstreet-8.0.0.tar.gz]
+[2024-04-26 05:31:16] INFO root fetch - processPackages [volstreet]: Remove: archive file [/home/abi/fetcher/tmp/volstreet-8.0.1.tar.gz]
+[2024-04-26 05:31:16] INFO root fetch - main [MainThread]: End processing [volstreet]: success
+[2024-04-26 05:31:17] INFO root fetch - processPackages [keras-nlp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras-nlp-nightly-0.9.0.dev2024040803.tar.gz]
+[2024-04-26 05:31:17] INFO root fetch - processPackages [keras-nlp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras-nlp-nightly-0.9.0.dev2024041003.tar.gz]
+[2024-04-26 05:31:17] INFO root fetch - main [MainThread]: End processing [keras-nlp-nightly]: success
+[2024-04-26 05:31:17] INFO root fetch - main [MainThread]: Store serial: [22942308]
