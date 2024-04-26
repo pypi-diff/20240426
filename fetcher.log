@@ -20692,3 +20692,107 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 14:57:21] INFO root fetch - processPackages [udata-front]: Remove: archive file [/home/abi/fetcher/tmp/udata_front-4.0.2.dev19387-py2.py3-none-any.whl.zip]
 [2024-04-26 14:57:21] INFO root fetch - main [MainThread]: End processing [udata-front]: success
 [2024-04-26 14:57:21] INFO root fetch - main [MainThread]: Store serial: [22947639]
+[2024-04-26 14:59:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22947639]
+[2024-04-26 14:59:30] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2024-04-26 14:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: viktor
+[2024-04-26 14:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mostlyai
+[2024-04-26 14:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tuxsuite
+[2024-04-26 14:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: SMjournal
+[2024-04-26 14:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: clovers-leafgame
+[2024-04-26 14:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: database-common-tools
+[2024-04-26 14:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyodeint
+[2024-04-26 14:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-aws-native
+[2024-04-26 14:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pulumi-aws-native
+[2024-04-26 14:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: setga
+[2024-04-26 14:59:30] INFO root fetch - processPackages [setga]: New version: [1.4.2] Old Version: [1.4.1]
+[2024-04-26 14:59:30] INFO root fetch - processPackages [clovers-leafgame]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-26 14:59:30] INFO root fetch - processPackages [pulumi-aws-native]: New version: [0.99.1a1711556734] Old Version: [0.99.1a1711140610]
+[2024-04-26 14:59:30] INFO root fetch - processPackages [pulumi-aws-native]: New version: [0.99.1a1711556734] Old Version: [0.99.1a1711140610]
+[2024-04-26 14:59:30] INFO root fetch - processPackages [tuxsuite]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-26 14:59:30] INFO root fetch - processPackages [SMjournal]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-26 14:59:30] INFO root fetch - processPackages [mostlyai]: New version: [0.3.4] Old Version: [0.3.3]
+[2024-04-26 14:59:30] INFO root fetch - processPackages [database-common-tools]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-04-26 14:59:30] INFO root fetch - processPackages [viktor]: New version: [14.9.0] Old Version: [14.8.0rc1]
+[2024-04-26 14:59:30] INFO root fetch - processPackages [pyodeint]: New version: [0.9.8] Old Version: [0.9.7]
+[2024-04-26 14:59:30] INFO root fetch - processPackages [setga]: Downloading https://files.pythonhosted.org/packages/3b/0b/dca84af9d3bfe0d7de0670010c8a5e44f53666d357ecdd5443dcad089b08/setga-1.4.1.tar.gz
+[2024-04-26 14:59:30] INFO root fetch - processPackages [clovers-leafgame]: Downloading https://files.pythonhosted.org/packages/4c/8f/244a719a9dd232f5f5ba366cb402e76bb73566aa187a1e8115c4374bc0eb/clovers_leafgame-0.1.4.tar.gz
+[2024-04-26 14:59:30] INFO root fetch - processPackages [pulumi-aws-native]: Downloading https://files.pythonhosted.org/packages/19/c7/d03ea0c1414fd20fb080e9a3bd37d113e50575a061fa505b7748f059ce83/pulumi_aws_native-0.99.1a1711140610.tar.gz
+[2024-04-26 14:59:30] INFO root fetch - processPackages [pulumi-aws-native]: Downloading https://files.pythonhosted.org/packages/19/c7/d03ea0c1414fd20fb080e9a3bd37d113e50575a061fa505b7748f059ce83/pulumi_aws_native-0.99.1a1711140610.tar.gz
+[2024-04-26 14:59:30] INFO root fetch - processPackages [tuxsuite]: Downloading https://files.pythonhosted.org/packages/27/14/f25c40bc531aff32551c08e4d9c8b6894d4749d5ad96f37b58cc307cfb29/tuxsuite-1.8.0.tar.gz
+[2024-04-26 14:59:30] INFO root fetch - processPackages [database-common-tools]: Downloading https://files.pythonhosted.org/packages/ca/3c/6b8cd59d336e1c605691395b32685c8a043c3effb94cb81dc1d7cec6a6d8/database-common-tools-1.1.8.tar.gz
+[2024-04-26 14:59:30] INFO root fetch - processPackages [SMjournal]: Downloading https://files.pythonhosted.org/packages/50/26/69d415502b7fd7384228fb4f3217ce04a0fb706e213223218f5958446a84/SMjournal-0.0.8.tar.gz
+[2024-04-26 14:59:30] INFO root fetch - processPackages [mostlyai]: Downloading https://files.pythonhosted.org/packages/26/3f/bbcf9e36dd1fcaa081b1f03154e058fc02fe84d3c289aa785b2f9f15f5c7/mostlyai-0.3.3.tar.gz
+[2024-04-26 14:59:30] INFO root fetch - processPackages [pyodeint]: Downloading https://files.pythonhosted.org/packages/12/e8/121ff534610dfdb63a7eb99f46e74e169110ee95eecb7e47545d63603bb3/pyodeint-0.9.7.tar.gz
+[2024-04-26 14:59:31] INFO root fetch - processPackages [clovers-leafgame]: Downloading https://files.pythonhosted.org/packages/a1/20/7110f905f639b994debee6b0bb27343ad3917103848beee5abc05f90cd8c/clovers_leafgame-0.1.5.tar.gz
+[2024-04-26 14:59:31] INFO root fetch - processPackages [tuxsuite]: Downloading https://files.pythonhosted.org/packages/4d/5e/8be806f24d5782026eef566b71100557104f363339b8917671132eadf1ea/tuxsuite-1.9.0.tar.gz
+[2024-04-26 14:59:31] INFO root fetch - processPackages [setga]: Downloading https://files.pythonhosted.org/packages/ae/da/36e7a0a1da4cbc78cf21b63fb891c2489fb2b5bf2e516100b01f1a37f62d/setga-1.4.2.tar.gz
+[2024-04-26 14:59:31] INFO root fetch - processPackages [viktor]: Downloading https://files.pythonhosted.org/packages/72/3d/0811671e2a9cae44fb27ab26c1e78dc7c4491333c9620359823f9bac7670/viktor-14.9.0-cp39-cp39-win_amd64.whl
+[2024-04-26 14:59:31] INFO root fetch - processPackages [clovers-leafgame]: executing diffoscope
+[2024-04-26 14:59:31] INFO root fetch - processPackages [clovers-leafgame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clovers_leafgame-0.1.4.tar.gz tmp/clovers_leafgame-0.1.5.tar.gz --markdown 20240426/c/clovers-leafgame/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-26 14:59:31] INFO root fetch - processPackages [database-common-tools]: Downloading https://files.pythonhosted.org/packages/55/1d/f84bdab15e57cb34658d4f445048d8bfeaf6b8cd2d0da82250fefbaa75f0/database-common-tools-1.1.9.tar.gz
+[2024-04-26 14:59:31] INFO root fetch - processPackages [setga]: executing diffoscope
+[2024-04-26 14:59:31] INFO root fetch - processPackages [setga]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/setga-1.4.1.tar.gz tmp/setga-1.4.2.tar.gz --markdown 20240426/s/setga/1.4.1-1.4.2/README.md --exclude *.pyd
+[2024-04-26 14:59:31] INFO root fetch - processPackages [SMjournal]: Downloading https://files.pythonhosted.org/packages/6c/a2/5b7cfae9bef084b7e3fae4a678e440e099ff55f27c7cbfaa0435c7a82903/SMjournal-0.0.9.tar.gz
+[2024-04-26 14:59:31] INFO root fetch - processPackages [tuxsuite]: executing diffoscope
+[2024-04-26 14:59:31] INFO root fetch - processPackages [tuxsuite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tuxsuite-1.8.0.tar.gz tmp/tuxsuite-1.9.0.tar.gz --markdown 20240426/t/tuxsuite/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-04-26 14:59:31] INFO root fetch - processPackages [pulumi-aws-native]: Downloading https://files.pythonhosted.org/packages/d0/0e/7e16c6b89142943493d6c6bd57d07580a6118b74b519c157fd40acdf71b7/pulumi_aws_native-0.99.1a1711556734.tar.gz
+[2024-04-26 14:59:31] INFO root fetch - processPackages [pulumi-aws-native]: Downloading https://files.pythonhosted.org/packages/d0/0e/7e16c6b89142943493d6c6bd57d07580a6118b74b519c157fd40acdf71b7/pulumi_aws_native-0.99.1a1711556734.tar.gz
+[2024-04-26 14:59:31] INFO root fetch - processPackages [mostlyai]: Downloading https://files.pythonhosted.org/packages/ab/91/5cae4f988813d746377fc9ea4626cf891c5a3733ed36776d2a67fefc35b1/mostlyai-0.3.4.tar.gz
+[2024-04-26 14:59:31] INFO root fetch - processPackages [database-common-tools]: executing diffoscope
+[2024-04-26 14:59:31] INFO root fetch - processPackages [database-common-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/database-common-tools-1.1.8.tar.gz tmp/database-common-tools-1.1.9.tar.gz --markdown 20240426/d/database-common-tools/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-04-26 14:59:31] INFO root fetch - processPackages [SMjournal]: executing diffoscope
+[2024-04-26 14:59:31] INFO root fetch - processPackages [SMjournal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SMjournal-0.0.8.tar.gz tmp/SMjournal-0.0.9.tar.gz --markdown 20240426/S/SMjournal/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-26 14:59:31] INFO root fetch - processPackages [pyodeint]: Downloading https://files.pythonhosted.org/packages/4d/c9/25584088978acd0ceb45d3578c0069ad5d7da4750a394c58d7810a7ef27f/pyodeint-0.9.8.tar.gz
+[2024-04-26 14:59:31] INFO root fetch - processPackages [pulumi-aws-native]: executing diffoscope
+[2024-04-26 14:59:31] INFO root fetch - processPackages [pulumi-aws-native]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aws_native-0.99.1a1711140610.tar.gz tmp/pulumi_aws_native-0.99.1a1711556734.tar.gz --markdown 20240426/p/pulumi-aws-native/0.99.1a1711140610-0.99.1a1711556734/README.md --exclude *.pyd
+[2024-04-26 14:59:31] INFO root fetch - processPackages [mostlyai]: executing diffoscope
+[2024-04-26 14:59:31] INFO root fetch - processPackages [mostlyai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mostlyai-0.3.3.tar.gz tmp/mostlyai-0.3.4.tar.gz --markdown 20240426/m/mostlyai/0.3.3-0.3.4/README.md --exclude *.pyd
+[2024-04-26 14:59:31] INFO root fetch - processPackages [pulumi-aws-native]: executing diffoscope
+[2024-04-26 14:59:31] INFO root fetch - processPackages [pulumi-aws-native]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aws_native-0.99.1a1711140610.tar.gz tmp/pulumi_aws_native-0.99.1a1711556734.tar.gz --markdown 20240426/p/pulumi-aws-native/0.99.1a1711140610-0.99.1a1711556734/README.md --exclude *.pyd
+[2024-04-26 14:59:31] INFO root fetch - processPackages [pyodeint]: executing diffoscope
+[2024-04-26 14:59:31] INFO root fetch - processPackages [pyodeint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyodeint-0.9.7.tar.gz tmp/pyodeint-0.9.8.tar.gz --markdown 20240426/p/pyodeint/0.9.7-0.9.8/README.md --exclude *.pyd
+[2024-04-26 14:59:32] INFO root fetch - processPackages [viktor]: executing diffoscope
+[2024-04-26 14:59:32] INFO root fetch - processPackages [viktor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viktor-14.8.0rc1-cp39-cp39-win_amd64.whl.zip tmp/viktor-14.9.0-cp39-cp39-win_amd64.whl.zip --markdown 20240426/v/viktor/14.8.0rc1-14.9.0/README.md --exclude *.pyd
+[2024-04-26 14:59:32] INFO root fetch - processPackages [setga]: Remove: archive file [/home/abi/fetcher/tmp/setga-1.4.1.tar.gz]
+[2024-04-26 14:59:32] INFO root fetch - processPackages [setga]: Remove: archive file [/home/abi/fetcher/tmp/setga-1.4.2.tar.gz]
+[2024-04-26 14:59:32] INFO root fetch - processPackages [setga]: Start processing: pawz-core
+[2024-04-26 14:59:32] INFO root fetch - main [MainThread]: End processing [setga]: success
+[2024-04-26 14:59:32] INFO root fetch - processPackages [clovers-leafgame]: Remove: archive file [/home/abi/fetcher/tmp/clovers_leafgame-0.1.4.tar.gz]
+[2024-04-26 14:59:32] INFO root fetch - processPackages [clovers-leafgame]: Remove: archive file [/home/abi/fetcher/tmp/clovers_leafgame-0.1.5.tar.gz]
+[2024-04-26 14:59:32] INFO root fetch - processPackages [clovers-leafgame]: Start processing: pawz
+[2024-04-26 14:59:32] INFO root fetch - main [MainThread]: End processing [clovers-leafgame]: success
+[2024-04-26 14:59:32] WARNING root fetch - processPackages [pawz-core]: Skipping, unable to determine old version
+[2024-04-26 14:59:32] INFO root fetch - processPackages [pawz-core]: Start processing: Orogram
+[2024-04-26 14:59:32] INFO root fetch - main [MainThread]: End processing [pawz-core] error
+[2024-04-26 14:59:32] WARNING root fetch - processPackages [pawz]: Skipping, unable to determine old version
+[2024-04-26 14:59:32] INFO root fetch - processPackages [SMjournal]: Remove: archive file [/home/abi/fetcher/tmp/SMjournal-0.0.8.tar.gz]
+[2024-04-26 14:59:32] INFO root fetch - processPackages [pawz]: Start processing: gradio
+[2024-04-26 14:59:32] INFO root fetch - main [MainThread]: End processing [pawz] error
+[2024-04-26 14:59:32] INFO root fetch - processPackages [SMjournal]: Remove: archive file [/home/abi/fetcher/tmp/SMjournal-0.0.9.tar.gz]
+[2024-04-26 14:59:32] INFO root fetch - main [MainThread]: End processing [SMjournal]: success
+[2024-04-26 14:59:32] WARNING root fetch - processPackages [Orogram]: Skipping, unable to determine old version
+[2024-04-26 14:59:32] INFO root fetch - main [MainThread]: End processing [Orogram] error
+[2024-04-26 14:59:32] INFO root fetch - processPackages [gradio]: New version: [4.9.1] Old Version: [4.9.0]
+[2024-04-26 14:59:32] INFO root fetch - processPackages [database-common-tools]: Remove: archive file [/home/abi/fetcher/tmp/database-common-tools-1.1.8.tar.gz]
+[2024-04-26 14:59:32] INFO root fetch - processPackages [database-common-tools]: Remove: archive file [/home/abi/fetcher/tmp/database-common-tools-1.1.9.tar.gz]
+[2024-04-26 14:59:32] INFO root fetch - main [MainThread]: End processing [database-common-tools]: success
+[2024-04-26 14:59:32] INFO root fetch - processPackages [mostlyai]: Remove: archive file [/home/abi/fetcher/tmp/mostlyai-0.3.3.tar.gz]
+[2024-04-26 14:59:32] INFO root fetch - processPackages [mostlyai]: Remove: archive file [/home/abi/fetcher/tmp/mostlyai-0.3.4.tar.gz]
+[2024-04-26 14:59:32] INFO root fetch - main [MainThread]: End processing [mostlyai]: success
+[2024-04-26 14:59:32] INFO root fetch - processPackages [gradio]: Downloading https://files.pythonhosted.org/packages/eb/a2/56c39c590c6c0e5d2583115b6e478de4bf1c9aa42b45cc47d81d88f93665/gradio-4.9.0.tar.gz
+[2024-04-26 14:59:32] WARNING root fetch - processPackages [gradio]: Skipping package: exceeds size limit 26124496>=10485760
+[2024-04-26 14:59:32] INFO root fetch - main [MainThread]: End processing [gradio] error
+[2024-04-26 14:59:32] INFO root fetch - processPackages [pyodeint]: Remove: archive file [/home/abi/fetcher/tmp/pyodeint-0.9.7.tar.gz]
+[2024-04-26 14:59:32] INFO root fetch - processPackages [pyodeint]: Remove: archive file [/home/abi/fetcher/tmp/pyodeint-0.9.8.tar.gz]
+[2024-04-26 14:59:32] INFO root fetch - main [MainThread]: End processing [pyodeint]: success
+[2024-04-26 14:59:32] INFO root fetch - processPackages [tuxsuite]: Remove: archive file [/home/abi/fetcher/tmp/tuxsuite-1.8.0.tar.gz]
+[2024-04-26 14:59:32] INFO root fetch - processPackages [tuxsuite]: Remove: archive file [/home/abi/fetcher/tmp/tuxsuite-1.9.0.tar.gz]
+[2024-04-26 14:59:32] INFO root fetch - main [MainThread]: End processing [tuxsuite]: success
+[2024-04-26 14:59:35] INFO root fetch - processPackages [viktor]: Remove: archive file [/home/abi/fetcher/tmp/viktor-14.8.0rc1-cp39-cp39-win_amd64.whl.zip]
+[2024-04-26 14:59:35] INFO root fetch - processPackages [viktor]: Remove: archive file [/home/abi/fetcher/tmp/viktor-14.9.0-cp39-cp39-win_amd64.whl.zip]
+[2024-04-26 14:59:35] INFO root fetch - main [MainThread]: End processing [viktor]: success
+[2024-04-26 14:59:46] INFO root fetch - processPackages [pulumi-aws-native]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws_native-0.99.1a1711140610.tar.gz]
+[2024-04-26 14:59:46] INFO root fetch - processPackages [pulumi-aws-native]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws_native-0.99.1a1711556734.tar.gz]
+[2024-04-26 14:59:46] INFO root fetch - main [MainThread]: End processing [pulumi-aws-native]: success
+[2024-04-26 14:59:46] INFO root fetch - main [MainThread]: End processing [pulumi-aws-native]: success
+[2024-04-26 14:59:46] INFO root fetch - main [MainThread]: Store serial: [22947694]
