@@ -15663,3 +15663,45 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 11:11:06] INFO root fetch - processPackages [ipython]: Remove: archive file [/home/abi/fetcher/tmp/ipython-8.9.0.tar.gz]
 [2024-04-26 11:11:06] INFO root fetch - main [MainThread]: End processing [ipython]: success
 [2024-04-26 11:11:06] INFO root fetch - main [MainThread]: Store serial: [22945581]
+[2024-04-26 11:13:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22945581]
+[2024-04-26 11:13:15] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-26 11:13:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: clump-python
+[2024-04-26 11:13:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: george-walrus
+[2024-04-26 11:13:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: libreflow.flows
+[2024-04-26 11:13:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pvsite-datamodel
+[2024-04-26 11:13:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sttpg-qats
+[2024-04-26 11:13:15] INFO root fetch - processPackages [clump-python]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-04-26 11:13:15] INFO root fetch - processPackages [clump-python]: Downloading https://files.pythonhosted.org/packages/2b/07/3e9caa9c57aee181348c66094417ff155641f309800e53d7b19d28be548b/clump-python-0.2.4.tar.gz
+[2024-04-26 11:13:15] WARNING root fetch - processPackages [sttpg-qats]: Skipping, unable to determine old version
+[2024-04-26 11:13:15] INFO root fetch - main [MainThread]: End processing [sttpg-qats] error
+[2024-04-26 11:13:15] INFO root fetch - processPackages [george-walrus]: New version: [0.1.5rc1] Old Version: [0.1.5]
+[2024-04-26 11:13:15] INFO root fetch - processPackages [libreflow.flows]: New version: [2.1.1] Old Version: [2.1.0.1]
+[2024-04-26 11:13:15] INFO root fetch - processPackages [pvsite-datamodel]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-26 11:13:16] INFO root fetch - processPackages [george-walrus]: Downloading https://files.pythonhosted.org/packages/11/eb/bcee18daca19a1b0ce220106863820b4c8da1293567b50dfc097e562e394/george_walrus-0.1.5.tar.gz
+[2024-04-26 11:13:16] INFO root fetch - processPackages [libreflow.flows]: Downloading https://files.pythonhosted.org/packages/d2/bd/8330d4505d3e4270d5f35a90156d81bad6387318ed309c05c46e98af162e/libreflow.flows-2.1.0.1.tar.gz
+[2024-04-26 11:13:16] INFO root fetch - processPackages [pvsite-datamodel]: Downloading https://files.pythonhosted.org/packages/4f/94/17d9ce3de61a220e5960639e6088e95f0a697c74ba8a19f612cfe429b4a9/pvsite_datamodel-1.0.8.tar.gz
+[2024-04-26 11:13:16] INFO root fetch - processPackages [clump-python]: Downloading https://files.pythonhosted.org/packages/9a/f1/93b5875687b89661cb76222c0eec2475eadb5e6fed3439b26fd275316296/clump-python-0.2.5.tar.gz
+[2024-04-26 11:13:16] INFO root fetch - processPackages [george-walrus]: Downloading https://files.pythonhosted.org/packages/9d/6d/9e35dad8d9042842cdf42b031c123d3726fe5fbf38d8454ffef20301f1ce/george-walrus-0.1.5rc1.tar.gz
+[2024-04-26 11:13:16] INFO root fetch - processPackages [libreflow.flows]: Downloading https://files.pythonhosted.org/packages/66/a7/7fa41940729b906cda5c0871220bd56a24a842595bf3a5c085374dcfb736/libreflow_flows-2.1.1.tar.gz
+[2024-04-26 11:13:16] INFO root fetch - processPackages [clump-python]: executing diffoscope
+[2024-04-26 11:13:16] INFO root fetch - processPackages [clump-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clump-python-0.2.4.tar.gz tmp/clump-python-0.2.5.tar.gz --markdown 20240426/c/clump-python/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-04-26 11:13:16] INFO root fetch - processPackages [george-walrus]: executing diffoscope
+[2024-04-26 11:13:16] INFO root fetch - processPackages [george-walrus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/george_walrus-0.1.5.tar.gz tmp/george-walrus-0.1.5rc1.tar.gz --markdown 20240426/g/george-walrus/0.1.5-0.1.5rc1/README.md --exclude *.pyd
+[2024-04-26 11:13:16] INFO root fetch - processPackages [pvsite-datamodel]: Downloading https://files.pythonhosted.org/packages/09/05/b1d02e4bce0bada9effc1c581a0762ec56c98c169d8463fc2bedefa2893d/pvsite_datamodel-1.0.9.tar.gz
+[2024-04-26 11:13:16] INFO root fetch - processPackages [libreflow.flows]: executing diffoscope
+[2024-04-26 11:13:16] INFO root fetch - processPackages [libreflow.flows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libreflow.flows-2.1.0.1.tar.gz tmp/libreflow_flows-2.1.1.tar.gz --markdown 20240426/l/libreflow.flows/2.1.0.1-2.1.1/README.md --exclude *.pyd
+[2024-04-26 11:13:17] INFO root fetch - processPackages [george-walrus]: Remove: archive file [/home/abi/fetcher/tmp/george_walrus-0.1.5.tar.gz]
+[2024-04-26 11:13:17] INFO root fetch - processPackages [george-walrus]: Remove: archive file [/home/abi/fetcher/tmp/george-walrus-0.1.5rc1.tar.gz]
+[2024-04-26 11:13:17] INFO root fetch - main [MainThread]: End processing [george-walrus]: success
+[2024-04-26 11:13:17] INFO root fetch - processPackages [pvsite-datamodel]: executing diffoscope
+[2024-04-26 11:13:17] INFO root fetch - processPackages [pvsite-datamodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pvsite_datamodel-1.0.8.tar.gz tmp/pvsite_datamodel-1.0.9.tar.gz --markdown 20240426/p/pvsite-datamodel/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-26 11:13:17] INFO root fetch - processPackages [libreflow.flows]: Remove: archive file [/home/abi/fetcher/tmp/libreflow.flows-2.1.0.1.tar.gz]
+[2024-04-26 11:13:17] INFO root fetch - processPackages [libreflow.flows]: Remove: archive file [/home/abi/fetcher/tmp/libreflow_flows-2.1.1.tar.gz]
+[2024-04-26 11:13:17] INFO root fetch - main [MainThread]: End processing [libreflow.flows]: success
+[2024-04-26 11:13:17] INFO root fetch - processPackages [clump-python]: Remove: archive file [/home/abi/fetcher/tmp/clump-python-0.2.4.tar.gz]
+[2024-04-26 11:13:17] INFO root fetch - processPackages [clump-python]: Remove: archive file [/home/abi/fetcher/tmp/clump-python-0.2.5.tar.gz]
+[2024-04-26 11:13:17] INFO root fetch - main [MainThread]: End processing [clump-python]: success
+[2024-04-26 11:13:18] INFO root fetch - processPackages [pvsite-datamodel]: Remove: archive file [/home/abi/fetcher/tmp/pvsite_datamodel-1.0.8.tar.gz]
+[2024-04-26 11:13:18] INFO root fetch - processPackages [pvsite-datamodel]: Remove: archive file [/home/abi/fetcher/tmp/pvsite_datamodel-1.0.9.tar.gz]
+[2024-04-26 11:13:18] INFO root fetch - main [MainThread]: End processing [pvsite-datamodel]: success
+[2024-04-26 11:13:18] INFO root fetch - main [MainThread]: Store serial: [22945598]
