@@ -6731,3 +6731,42 @@
 [2024-04-26 03:23:42] INFO root fetch - processPackages [psyke]: Remove: archive file [/home/abi/fetcher/tmp/psyke-0.8.2.dev9.tar.gz]
 [2024-04-26 03:23:42] INFO root fetch - main [MainThread]: End processing [psyke]: success
 [2024-04-26 03:23:42] INFO root fetch - main [MainThread]: Store serial: [22941313]
+[2024-04-26 03:25:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22941313]
+[2024-04-26 03:25:50] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-26 03:25:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mov-cli-files
+[2024-04-26 03:25:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: predibase-api
+[2024-04-26 03:25:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: predibase
+[2024-04-26 03:25:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: anycrc
+[2024-04-26 03:25:51] INFO root fetch - processPackages [mov-cli-files]: New version: [1.1.0] Old Version: [1.0.3]
+[2024-04-26 03:25:51] INFO root fetch - processPackages [predibase]: New version: [2024.4.8] Old Version: [2024.4.7]
+[2024-04-26 03:25:51] INFO root fetch - processPackages [predibase-api]: New version: [2024.4.8] Old Version: [2024.4.7]
+[2024-04-26 03:25:51] INFO root fetch - processPackages [anycrc]: New version: [0.5.0] Old Version: [0.4.2]
+[2024-04-26 03:25:51] INFO root fetch - processPackages [predibase]: Downloading https://files.pythonhosted.org/packages/aa/c9/397c7ccd97273320d2617aab083c03247a5a554b344cabb4fd5ca9fd873d/predibase-2024.4.7.tar.gz
+[2024-04-26 03:25:51] INFO root fetch - processPackages [predibase-api]: Downloading https://files.pythonhosted.org/packages/12/73/1e8ca9686d6fdbd41b63304d8a69affc8a09b91134e599f0ab3a73fdfc20/predibase-api-2024.4.7.tar.gz
+[2024-04-26 03:25:51] INFO root fetch - processPackages [mov-cli-files]: Downloading https://files.pythonhosted.org/packages/62/f8/4e8e593fba54fbe2e641f0086bffcaa4b2f64fd6547b97e5ed3ea15ab139/mov-cli-files-1.0.3.tar.gz
+[2024-04-26 03:25:51] INFO root fetch - processPackages [anycrc]: Downloading https://files.pythonhosted.org/packages/76/1a/b200dd3728602fa134ca8f1d56be4909c67415a46e285032222f43c3540e/anycrc-0.4.2.tar.gz
+[2024-04-26 03:25:51] INFO root fetch - processPackages [mov-cli-files]: Downloading https://files.pythonhosted.org/packages/79/4b/7c6c29ccd78a0de1bfa1f2d2d903c8e6591c6e1e2eb3f088c7b36d650ea4/mov_cli_files-1.1.0.tar.gz
+[2024-04-26 03:25:51] INFO root fetch - processPackages [predibase-api]: Downloading https://files.pythonhosted.org/packages/50/0a/2bbc4d934413ba88af00e4955f22d28e77237cdb9ae1ed22a04d9c1075a2/predibase-api-2024.4.8.tar.gz
+[2024-04-26 03:25:51] INFO root fetch - processPackages [predibase]: Downloading https://files.pythonhosted.org/packages/57/81/d2f1533a2c021c901fa45981d33807f0cda149030b94ba7b2a72fa3428af/predibase-2024.4.8.tar.gz
+[2024-04-26 03:25:51] INFO root fetch - processPackages [mov-cli-files]: executing diffoscope
+[2024-04-26 03:25:51] INFO root fetch - processPackages [mov-cli-files]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mov-cli-files-1.0.3.tar.gz tmp/mov_cli_files-1.1.0.tar.gz --markdown 20240426/m/mov-cli-files/1.0.3-1.1.0/README.md --exclude *.pyd
+[2024-04-26 03:25:51] INFO root fetch - processPackages [anycrc]: Downloading https://files.pythonhosted.org/packages/e9/9a/a16ddf3b2dfdc2e1ff7e94b613837a0a184ae4890e2da87d1bde382003e5/anycrc-0.5.0-cp310-cp310-manylinux_2_17_i686.manylinux2014_i686.whl
+[2024-04-26 03:25:51] INFO root fetch - processPackages [predibase-api]: executing diffoscope
+[2024-04-26 03:25:51] INFO root fetch - processPackages [predibase-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/predibase-api-2024.4.7.tar.gz tmp/predibase-api-2024.4.8.tar.gz --markdown 20240426/p/predibase-api/2024.4.7-2024.4.8/README.md --exclude *.pyd
+[2024-04-26 03:25:51] INFO root fetch - processPackages [predibase]: executing diffoscope
+[2024-04-26 03:25:51] INFO root fetch - processPackages [predibase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/predibase-2024.4.7.tar.gz tmp/predibase-2024.4.8.tar.gz --markdown 20240426/p/predibase/2024.4.7-2024.4.8/README.md --exclude *.pyd
+[2024-04-26 03:25:52] INFO root fetch - processPackages [mov-cli-files]: Remove: archive file [/home/abi/fetcher/tmp/mov-cli-files-1.0.3.tar.gz]
+[2024-04-26 03:25:52] INFO root fetch - processPackages [mov-cli-files]: Remove: archive file [/home/abi/fetcher/tmp/mov_cli_files-1.1.0.tar.gz]
+[2024-04-26 03:25:52] INFO root fetch - main [MainThread]: End processing [mov-cli-files]: success
+[2024-04-26 03:25:52] INFO root fetch - processPackages [predibase-api]: Remove: archive file [/home/abi/fetcher/tmp/predibase-api-2024.4.7.tar.gz]
+[2024-04-26 03:25:52] INFO root fetch - processPackages [predibase-api]: Remove: archive file [/home/abi/fetcher/tmp/predibase-api-2024.4.8.tar.gz]
+[2024-04-26 03:25:52] INFO root fetch - main [MainThread]: End processing [predibase-api]: success
+[2024-04-26 03:25:52] INFO root fetch - processPackages [predibase]: Remove: archive file [/home/abi/fetcher/tmp/predibase-2024.4.7.tar.gz]
+[2024-04-26 03:25:52] INFO root fetch - processPackages [predibase]: Remove: archive file [/home/abi/fetcher/tmp/predibase-2024.4.8.tar.gz]
+[2024-04-26 03:25:52] INFO root fetch - main [MainThread]: End processing [predibase]: success
+[2024-04-26 03:25:52] INFO root fetch - processPackages [anycrc]: executing diffoscope
+[2024-04-26 03:25:52] INFO root fetch - processPackages [anycrc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anycrc-0.4.2.tar.gz tmp/anycrc-0.5.0-cp310-cp310-manylinux_2_17_i686.manylinux2014_i686.whl.zip --markdown 20240426/a/anycrc/0.4.2-0.5.0/README.md --exclude *.pyd
+[2024-04-26 03:25:53] INFO root fetch - processPackages [anycrc]: Remove: archive file [/home/abi/fetcher/tmp/anycrc-0.4.2.tar.gz]
+[2024-04-26 03:25:53] INFO root fetch - processPackages [anycrc]: Remove: archive file [/home/abi/fetcher/tmp/anycrc-0.5.0-cp310-cp310-manylinux_2_17_i686.manylinux2014_i686.whl.zip]
+[2024-04-26 03:25:53] INFO root fetch - main [MainThread]: End processing [anycrc]: success
+[2024-04-26 03:25:53] INFO root fetch - main [MainThread]: Store serial: [22941386]
