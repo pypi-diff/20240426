@@ -20951,3 +20951,84 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 15:07:48] INFO root fetch - processPackages [ipyaggrid]: Remove: archive file [/home/abi/fetcher/tmp/ipyaggrid-0.5.3.tar.gz]
 [2024-04-26 15:07:48] INFO root fetch - main [MainThread]: End processing [ipyaggrid]: success
 [2024-04-26 15:07:48] INFO root fetch - main [MainThread]: Store serial: [22947750]
+[2024-04-26 15:09:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22947750]
+[2024-04-26 15:09:58] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-26 15:09:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: q2label
+[2024-04-26 15:09:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: HeraData
+[2024-04-26 15:09:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yeref
+[2024-04-26 15:09:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flatpack
+[2024-04-26 15:09:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dissect.target
+[2024-04-26 15:09:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: udata-front
+[2024-04-26 15:09:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cachebox
+[2024-04-26 15:09:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jeedomdaemon
+[2024-04-26 15:09:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: udata-front
+[2024-04-26 15:09:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: variable-local
+[2024-04-26 15:09:58] WARNING root fetch - processPackages [q2label]: Skipping, unable to determine old version
+[2024-04-26 15:09:58] INFO root fetch - main [MainThread]: End processing [q2label] error
+[2024-04-26 15:09:59] INFO root fetch - processPackages [HeraData]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-26 15:09:59] INFO root fetch - processPackages [jeedomdaemon]: New version: [0.7.1] Old Version: [0.7]
+[2024-04-26 15:09:59] INFO root fetch - processPackages [udata-front]: New version: [4.0.2.dev19421] Old Version: [4.0.2.dev19387]
+[2024-04-26 15:09:59] INFO root fetch - processPackages [variable-local]: New version: [0.0.91] Old Version: [0.0.90]
+[2024-04-26 15:09:59] INFO root fetch - processPackages [flatpack]: New version: [3.3.9] Old Version: [3.3.8]
+[2024-04-26 15:09:59] INFO root fetch - processPackages [udata-front]: New version: [4.0.2.dev19421] Old Version: [4.0.2.dev19387]
+[2024-04-26 15:09:59] INFO root fetch - processPackages [cachebox]: New version: [2.2.3] Old Version: [2.2.2]
+[2024-04-26 15:09:59] INFO root fetch - processPackages [HeraData]: Downloading https://files.pythonhosted.org/packages/a5/e3/7a4f4349012a88bd4e5b66ffaa352f5ff527ed7d36361d4c064a45189ad3/HeraData-0.1.2.tar.gz
+[2024-04-26 15:09:59] INFO root fetch - processPackages [dissect.target]: New version: [3.9] Old Version: [3.8]
+[2024-04-26 15:09:59] INFO root fetch - processPackages [yeref]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-26 15:09:59] INFO root fetch - processPackages [variable-local]: Downloading https://files.pythonhosted.org/packages/c9/39/cb95c415f0aa38f46c8afc325eb384e90cda05c77271eb077a7b1bd9b95b/variable_local-0.0.90.tar.gz
+[2024-04-26 15:09:59] INFO root fetch - processPackages [udata-front]: Downloading https://files.pythonhosted.org/packages/ed/77/7fc0d7002a68ee4d943c152c861b541bd00133ac394eb104d5f78a8edb4d/udata_front-4.0.2.dev19387-py2.py3-none-any.whl
+[2024-04-26 15:09:59] INFO root fetch - processPackages [udata-front]: Downloading https://files.pythonhosted.org/packages/ed/77/7fc0d7002a68ee4d943c152c861b541bd00133ac394eb104d5f78a8edb4d/udata_front-4.0.2.dev19387-py2.py3-none-any.whl
+[2024-04-26 15:09:59] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/42/48/84e949164975b341645163f536ee4ca8329c4e3dfa6d143c2806a0849a54/flatpack-3.3.8.tar.gz
+[2024-04-26 15:09:59] INFO root fetch - processPackages [jeedomdaemon]: Downloading https://files.pythonhosted.org/packages/6f/a6/f47e07739885f8c9b06196d2c80fd7ac1f33552a55576d82f50bb2626ba9/jeedomdaemon-0.7.tar.gz
+[2024-04-26 15:09:59] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/ec/cb/204e6fbe233bbb61cf29c1b491e8c638c8a843edc47fb4e1d8cc8c26608c/yeref-0.9.8.tar.gz
+[2024-04-26 15:09:59] INFO root fetch - processPackages [dissect.target]: Downloading https://files.pythonhosted.org/packages/fd/85/dee67cb24b471b811af4e5b31762f8244b20913dcc98ec76ec5b921e9a68/dissect.target-3.8.tar.gz
+[2024-04-26 15:09:59] INFO root fetch - processPackages [cachebox]: Downloading https://files.pythonhosted.org/packages/93/ee/155357d4311cda3a5151e9b6983b44a9a4a316105dc3d048f599d0c4536c/cachebox-2.2.2.tar.gz
+[2024-04-26 15:09:59] INFO root fetch - processPackages [HeraData]: Downloading https://files.pythonhosted.org/packages/a8/ed/2661cd73361af63516848d84cbd22f7ea7a96feb04ebf635296d9397c38b/HeraData-0.1.3.tar.gz
+[2024-04-26 15:09:59] INFO root fetch - processPackages [variable-local]: Downloading https://files.pythonhosted.org/packages/52/a3/e4b890a20e2ace7c684dedbe876d134bb14c1cb35c63399f3e88bdad1cd2/variable_local-0.0.91.tar.gz
+[2024-04-26 15:09:59] WARNING root fetch - processPackages [dissect.target]: Skipping package: exceeds size limit 63551809>=10485760
+[2024-04-26 15:09:59] INFO root fetch - main [MainThread]: End processing [dissect.target] error
+[2024-04-26 15:09:59] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/11/54/065825e8640b062c83c07c97d8dea514db8a5c0ea3c272834b88c568d82e/flatpack-3.3.9.tar.gz
+[2024-04-26 15:09:59] INFO root fetch - processPackages [HeraData]: executing diffoscope
+[2024-04-26 15:09:59] INFO root fetch - processPackages [HeraData]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HeraData-0.1.2.tar.gz tmp/HeraData-0.1.3.tar.gz --markdown 20240426/H/HeraData/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-26 15:09:59] INFO root fetch - processPackages [variable-local]: executing diffoscope
+[2024-04-26 15:09:59] INFO root fetch - processPackages [variable-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/variable_local-0.0.90.tar.gz tmp/variable_local-0.0.91.tar.gz --markdown 20240426/v/variable-local/0.0.90-0.0.91/README.md --exclude *.pyd
+[2024-04-26 15:09:59] INFO root fetch - processPackages [flatpack]: executing diffoscope
+[2024-04-26 15:09:59] INFO root fetch - processPackages [flatpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flatpack-3.3.8.tar.gz tmp/flatpack-3.3.9.tar.gz --markdown 20240426/f/flatpack/3.3.8-3.3.9/README.md --exclude *.pyd
+[2024-04-26 15:09:59] INFO root fetch - processPackages [jeedomdaemon]: Downloading https://files.pythonhosted.org/packages/b8/ef/186151d4c5ab055f0e024172c3b518a5c98f5dfad3d6823bd4801da06fd1/jeedomdaemon-0.7.1.tar.gz
+[2024-04-26 15:09:59] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/01/13/0f11bb3dfb27aaf16ed48b0046f50ac65b1fde32662fbc314d53e2558b2d/yeref-0.9.9.tar.gz
+[2024-04-26 15:09:59] INFO root fetch - processPackages [cachebox]: Downloading https://files.pythonhosted.org/packages/3a/6a/1856a3e660174a96ca0450b0456ef899efd1b1da4399a7535ca70c589782/cachebox-2.2.3-pp38-pypy38_pp73-manylinux_2_17_armv7l.manylinux2014_armv7l.whl
+[2024-04-26 15:09:59] INFO root fetch - processPackages [jeedomdaemon]: executing diffoscope
+[2024-04-26 15:09:59] INFO root fetch - processPackages [jeedomdaemon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jeedomdaemon-0.7.tar.gz tmp/jeedomdaemon-0.7.1.tar.gz --markdown 20240426/j/jeedomdaemon/0.7-0.7.1/README.md --exclude *.pyd
+[2024-04-26 15:09:59] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2024-04-26 15:09:59] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.9.8.tar.gz tmp/yeref-0.9.9.tar.gz --markdown 20240426/y/yeref/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-26 15:10:00] INFO root fetch - processPackages [udata-front]: Downloading https://files.pythonhosted.org/packages/71/e8/01c7d2827545a2640cbbb4d24f5c0f886d92a85bf4a513dfae8851df43e3/udata_front-4.0.2.dev19421-py2.py3-none-any.whl
+[2024-04-26 15:10:00] INFO root fetch - processPackages [udata-front]: Downloading https://files.pythonhosted.org/packages/71/e8/01c7d2827545a2640cbbb4d24f5c0f886d92a85bf4a513dfae8851df43e3/udata_front-4.0.2.dev19421-py2.py3-none-any.whl
+[2024-04-26 15:10:00] INFO root fetch - processPackages [cachebox]: executing diffoscope
+[2024-04-26 15:10:00] INFO root fetch - processPackages [cachebox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cachebox-2.2.2.tar.gz tmp/cachebox-2.2.3-pp38-pypy38_pp73-manylinux_2_17_armv7l.manylinux2014_armv7l.whl.zip --markdown 20240426/c/cachebox/2.2.2-2.2.3/README.md --exclude *.pyd
+[2024-04-26 15:10:00] INFO root fetch - processPackages [HeraData]: Remove: archive file [/home/abi/fetcher/tmp/HeraData-0.1.2.tar.gz]
+[2024-04-26 15:10:00] INFO root fetch - processPackages [HeraData]: Remove: archive file [/home/abi/fetcher/tmp/HeraData-0.1.3.tar.gz]
+[2024-04-26 15:10:00] INFO root fetch - main [MainThread]: End processing [HeraData]: success
+[2024-04-26 15:10:00] INFO root fetch - processPackages [variable-local]: Remove: archive file [/home/abi/fetcher/tmp/variable_local-0.0.90.tar.gz]
+[2024-04-26 15:10:00] INFO root fetch - processPackages [variable-local]: Remove: archive file [/home/abi/fetcher/tmp/variable_local-0.0.91.tar.gz]
+[2024-04-26 15:10:00] INFO root fetch - main [MainThread]: End processing [variable-local]: success
+[2024-04-26 15:10:00] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.3.8.tar.gz]
+[2024-04-26 15:10:00] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.3.9.tar.gz]
+[2024-04-26 15:10:00] INFO root fetch - main [MainThread]: End processing [flatpack]: success
+[2024-04-26 15:10:00] INFO root fetch - processPackages [jeedomdaemon]: Remove: archive file [/home/abi/fetcher/tmp/jeedomdaemon-0.7.tar.gz]
+[2024-04-26 15:10:00] INFO root fetch - processPackages [jeedomdaemon]: Remove: archive file [/home/abi/fetcher/tmp/jeedomdaemon-0.7.1.tar.gz]
+[2024-04-26 15:10:00] INFO root fetch - main [MainThread]: End processing [jeedomdaemon]: success
+[2024-04-26 15:10:00] INFO root fetch - processPackages [udata-front]: executing diffoscope
+[2024-04-26 15:10:00] INFO root fetch - processPackages [udata-front]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/udata_front-4.0.2.dev19387-py2.py3-none-any.whl.zip tmp/udata_front-4.0.2.dev19421-py2.py3-none-any.whl.zip --markdown 20240426/u/udata-front/4.0.2.dev19387-4.0.2.dev19421/README.md --exclude *.pyd
+[2024-04-26 15:10:00] INFO root fetch - processPackages [udata-front]: executing diffoscope
+[2024-04-26 15:10:00] INFO root fetch - processPackages [udata-front]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/udata_front-4.0.2.dev19387-py2.py3-none-any.whl.zip tmp/udata_front-4.0.2.dev19421-py2.py3-none-any.whl.zip --markdown 20240426/u/udata-front/4.0.2.dev19387-4.0.2.dev19421/README.md --exclude *.pyd
+[2024-04-26 15:10:00] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.8.tar.gz]
+[2024-04-26 15:10:00] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
+[2024-04-26 15:10:00] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2024-04-26 15:10:01] INFO root fetch - processPackages [cachebox]: Remove: archive file [/home/abi/fetcher/tmp/cachebox-2.2.2.tar.gz]
+[2024-04-26 15:10:01] INFO root fetch - processPackages [cachebox]: Remove: archive file [/home/abi/fetcher/tmp/cachebox-2.2.3-pp38-pypy38_pp73-manylinux_2_17_armv7l.manylinux2014_armv7l.whl.zip]
+[2024-04-26 15:10:01] INFO root fetch - main [MainThread]: End processing [cachebox]: success
+[2024-04-26 15:11:27] INFO root fetch - processPackages [udata-front]: Remove: archive file [/home/abi/fetcher/tmp/udata_front-4.0.2.dev19387-py2.py3-none-any.whl.zip]
+[2024-04-26 15:11:27] INFO root fetch - processPackages [udata-front]: Remove: archive file [/home/abi/fetcher/tmp/udata_front-4.0.2.dev19421-py2.py3-none-any.whl.zip]
+[2024-04-26 15:11:27] INFO root fetch - main [MainThread]: End processing [udata-front]: success
+[2024-04-26 15:11:27] INFO root fetch - main [MainThread]: End processing [udata-front]: success
+[2024-04-26 15:11:27] INFO root fetch - main [MainThread]: Store serial: [22947828]
