@@ -8769,3 +8769,95 @@
 [2024-04-26 06:06:07] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_fiscal-14.0.9.2.1.dev3-py3-none-any.whl.zip]
 [2024-04-26 06:06:07] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-fiscal]: success
 [2024-04-26 06:06:07] INFO root fetch - main [MainThread]: Store serial: [22942509]
+[2024-04-26 06:08:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22942509]
+[2024-04-26 06:08:17] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-26 06:08:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-l10n-br-sale
+[2024-04-26 06:08:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-l10n-br-stock-account
+[2024-04-26 06:08:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-l10n-br-sale-blanket-order
+[2024-04-26 06:08:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-l10n-br-repair
+[2024-04-26 06:08:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: selenium-base
+[2024-04-26 06:08:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: moonss
+[2024-04-26 06:08:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pytest-sbase
+[2024-04-26 06:08:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Pokeemikarting
+[2024-04-26 06:08:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pytest-seleniumbase
+[2024-04-26 06:08:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sbase
+[2024-04-26 06:08:17] WARNING root fetch - processPackages [Pokeemikarting]: Skipping, unable to determine old version
+[2024-04-26 06:08:17] INFO root fetch - processPackages [Pokeemikarting]: Start processing: airbyte-source-aws-cloudtrail
+[2024-04-26 06:08:17] INFO root fetch - main [MainThread]: End processing [Pokeemikarting] error
+[2024-04-26 06:08:17] INFO root fetch - processPackages [odoo14-addon-l10n-br-sale]: New version: [14.0.3.8.1.dev1] Old Version: [14.0.3.8.0]
+[2024-04-26 06:08:17] INFO root fetch - processPackages [odoo14-addon-l10n-br-stock-account]: New version: [14.0.3.6.3.dev6] Old Version: [14.0.3.6.3.dev5]
+[2024-04-26 06:08:17] INFO root fetch - processPackages [selenium-base]: New version: [4.9.9] Old Version: [4.9.8]
+[2024-04-26 06:08:17] INFO root fetch - processPackages [moonss]: New version: [0.96] Old Version: [0.95]
+[2024-04-26 06:08:17] INFO root fetch - processPackages [odoo14-addon-l10n-br-repair]: New version: [14.0.1.1.6.dev9] Old Version: [14.0.1.1.6.dev6]
+[2024-04-26 06:08:17] INFO root fetch - processPackages [pytest-seleniumbase]: New version: [4.9.9] Old Version: [4.9.8]
+[2024-04-26 06:08:17] INFO root fetch - processPackages [odoo14-addon-l10n-br-sale-blanket-order]: New version: [14.0.1.0.2.dev8] Old Version: [14.0.1.0.2.dev6]
+[2024-04-26 06:08:17] INFO root fetch - processPackages [pytest-sbase]: New version: [4.9.9] Old Version: [4.9.8]
+[2024-04-26 06:08:17] INFO root fetch - processPackages [airbyte-source-aws-cloudtrail]: New version: [0.1.7] Old Version: [0.1.5]
+[2024-04-26 06:08:17] INFO root fetch - processPackages [sbase]: New version: [4.9.9] Old Version: [4.9.8]
+[2024-04-26 06:08:17] INFO root fetch - processPackages [odoo14-addon-l10n-br-stock-account]: Downloading https://files.pythonhosted.org/packages/79/3a/ad323223e82da5035ed3e0c30fd99bdb52cf6df0e2fd9d4abcb63cf46c94/odoo14_addon_l10n_br_stock_account-14.0.3.6.3.dev5-py3-none-any.whl
+[2024-04-26 06:08:17] INFO root fetch - processPackages [odoo14-addon-l10n-br-sale]: Downloading https://files.pythonhosted.org/packages/0b/b3/510fc33f6ccf2e6a6380cf22cb506c1965d8b7f9638ab4e09acb64a784ee/odoo14_addon_l10n_br_sale-14.0.3.8.0-py3-none-any.whl
+[2024-04-26 06:08:17] INFO root fetch - processPackages [moonss]: Downloading https://files.pythonhosted.org/packages/b5/61/3411456103bc615e29025cf7cef660a9a4aef444f77cd0e5c4fd5821f1b1/moonss-0.95.tar.gz
+[2024-04-26 06:08:18] INFO root fetch - processPackages [selenium-base]: Downloading https://files.pythonhosted.org/packages/49/eb/ad6c55d2af108681e38505aff036aef13544a2d1c09817221f499826a6f9/selenium-base-4.9.8.tar.gz
+[2024-04-26 06:08:18] INFO root fetch - processPackages [odoo14-addon-l10n-br-sale-blanket-order]: Downloading https://files.pythonhosted.org/packages/88/01/a45ef76f93cd852574b989ad221a583301b97ffcc3efb691eb7677f3bc4e/odoo14_addon_l10n_br_sale_blanket_order-14.0.1.0.2.dev6-py3-none-any.whl
+[2024-04-26 06:08:18] INFO root fetch - processPackages [pytest-seleniumbase]: Downloading https://files.pythonhosted.org/packages/40/bb/757cad3c5535e64c18cee852b145a86e4d539878bd9dce7c2934bcfb972d/pytest-seleniumbase-4.9.8.tar.gz
+[2024-04-26 06:08:18] INFO root fetch - processPackages [pytest-sbase]: Downloading https://files.pythonhosted.org/packages/91/87/a1223948d4bac31ab82915c4e7a930c22af874859aa805d6c3abd6b5bb3e/pytest-sbase-4.9.8.tar.gz
+[2024-04-26 06:08:18] INFO root fetch - processPackages [airbyte-source-aws-cloudtrail]: Downloading https://files.pythonhosted.org/packages/92/86/22d21b6a7b2e8a63a5e5a0852f93a4e33da0e8d60c8e81855a14374491fa/airbyte-source-aws-cloudtrail-0.1.5.tar.gz
+[2024-04-26 06:08:18] INFO root fetch - processPackages [sbase]: Downloading https://files.pythonhosted.org/packages/10/f9/904caa9ffcdc6c4e7625f527d7ff03e2ccbecc9c360a7557b298321e506d/sbase-4.9.8.tar.gz
+[2024-04-26 06:08:18] INFO root fetch - processPackages [moonss]: Downloading https://files.pythonhosted.org/packages/fd/e5/c6ad9a4f1e9d072cfd35d44926abdf0d264f5b9dbe1e6f4fe372d4125501/moonss-0.96.tar.gz
+[2024-04-26 06:08:18] INFO root fetch - processPackages [odoo14-addon-l10n-br-stock-account]: Downloading https://files.pythonhosted.org/packages/e5/4b/9de02e5c595e6be66506fd47999546c391653b65ea8a111451ceaede16d2/odoo14_addon_l10n_br_stock_account-14.0.3.6.3.dev6-py3-none-any.whl
+[2024-04-26 06:08:18] ERROR root fetch - processPackages [airbyte-source-aws-cloudtrail]: Unable to fetch info: No such project/version 'airbyte-source-aws-cloudtrail' 0.1.7
+[2024-04-26 06:08:18] INFO root fetch - main [MainThread]: End processing [airbyte-source-aws-cloudtrail] error
+[2024-04-26 06:08:18] INFO root fetch - processPackages [odoo14-addon-l10n-br-sale]: Downloading https://files.pythonhosted.org/packages/a2/43/ac095bd9f6373b9354fd75359bcc18dee082e175a9311b34a4e8d28d9722/odoo14_addon_l10n_br_sale-14.0.3.8.1.dev1-py3-none-any.whl
+[2024-04-26 06:08:18] INFO root fetch - processPackages [moonss]: executing diffoscope
+[2024-04-26 06:08:18] INFO root fetch - processPackages [moonss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moonss-0.95.tar.gz tmp/moonss-0.96.tar.gz --markdown 20240426/m/moonss/0.95-0.96/README.md --exclude *.pyd
+[2024-04-26 06:08:18] INFO root fetch - processPackages [odoo14-addon-l10n-br-repair]: Downloading https://files.pythonhosted.org/packages/68/25/85c9f069b4b3a32f056e64ae5dfa5ba406c3291e8e61014050017b0e8df4/odoo14_addon_l10n_br_repair-14.0.1.1.6.dev6-py3-none-any.whl
+[2024-04-26 06:08:18] INFO root fetch - processPackages [odoo14-addon-l10n-br-sale-blanket-order]: Downloading https://files.pythonhosted.org/packages/49/2f/a041449d9a9ae3af1fc498a7e12317cf4d44f93cdea838d51595c70cd610/odoo14_addon_l10n_br_sale_blanket_order-14.0.1.0.2.dev8-py3-none-any.whl
+[2024-04-26 06:08:18] INFO root fetch - processPackages [odoo14-addon-l10n-br-stock-account]: executing diffoscope
+[2024-04-26 06:08:18] INFO root fetch - processPackages [odoo14-addon-l10n-br-stock-account]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_stock_account-14.0.3.6.3.dev5-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_stock_account-14.0.3.6.3.dev6-py3-none-any.whl.zip --markdown 20240426/o/odoo14-addon-l10n-br-stock-account/14.0.3.6.3.dev5-14.0.3.6.3.dev6/README.md --exclude *.pyd
+[2024-04-26 06:08:18] INFO root fetch - processPackages [selenium-base]: Downloading https://files.pythonhosted.org/packages/0a/3b/8bdd54f85b1550af5050c8683212c3f88b854c0ef99e22fa6fe216094900/selenium-base-4.9.9.tar.gz
+[2024-04-26 06:08:18] INFO root fetch - processPackages [odoo14-addon-l10n-br-sale]: executing diffoscope
+[2024-04-26 06:08:18] INFO root fetch - processPackages [odoo14-addon-l10n-br-sale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_sale-14.0.3.8.0-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_sale-14.0.3.8.1.dev1-py3-none-any.whl.zip --markdown 20240426/o/odoo14-addon-l10n-br-sale/14.0.3.8.0-14.0.3.8.1.dev1/README.md --exclude *.pyd
+[2024-04-26 06:08:18] INFO root fetch - processPackages [sbase]: Downloading https://files.pythonhosted.org/packages/d2/57/c23bf788f4a8fba6ef62c68be73c8fb443dc5aa71c69b03726c1254377f7/sbase-4.9.9.tar.gz
+[2024-04-26 06:08:18] INFO root fetch - processPackages [pytest-sbase]: Downloading https://files.pythonhosted.org/packages/ea/6c/61da56c0f8d30ee6ecfbf486bd770ce073eba9a09e63981ae35863a37cb0/pytest-sbase-4.9.9.tar.gz
+[2024-04-26 06:08:18] INFO root fetch - processPackages [pytest-seleniumbase]: Downloading https://files.pythonhosted.org/packages/34/03/c67c6c24b8d7c3e49595b97d914034cf101d3d1d029f9e9453f497e0937a/pytest-seleniumbase-4.9.9.tar.gz
+[2024-04-26 06:08:18] INFO root fetch - processPackages [odoo14-addon-l10n-br-sale-blanket-order]: executing diffoscope
+[2024-04-26 06:08:18] INFO root fetch - processPackages [odoo14-addon-l10n-br-sale-blanket-order]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_sale_blanket_order-14.0.1.0.2.dev6-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_sale_blanket_order-14.0.1.0.2.dev8-py3-none-any.whl.zip --markdown 20240426/o/odoo14-addon-l10n-br-sale-blanket-order/14.0.1.0.2.dev6-14.0.1.0.2.dev8/README.md --exclude *.pyd
+[2024-04-26 06:08:18] INFO root fetch - processPackages [sbase]: executing diffoscope
+[2024-04-26 06:08:18] INFO root fetch - processPackages [sbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbase-4.9.8.tar.gz tmp/sbase-4.9.9.tar.gz --markdown 20240426/s/sbase/4.9.8-4.9.9/README.md --exclude *.pyd
+[2024-04-26 06:08:18] INFO root fetch - processPackages [pytest-sbase]: executing diffoscope
+[2024-04-26 06:08:18] INFO root fetch - processPackages [pytest-sbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-sbase-4.9.8.tar.gz tmp/pytest-sbase-4.9.9.tar.gz --markdown 20240426/p/pytest-sbase/4.9.8-4.9.9/README.md --exclude *.pyd
+[2024-04-26 06:08:18] INFO root fetch - processPackages [pytest-seleniumbase]: executing diffoscope
+[2024-04-26 06:08:18] INFO root fetch - processPackages [pytest-seleniumbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-seleniumbase-4.9.8.tar.gz tmp/pytest-seleniumbase-4.9.9.tar.gz --markdown 20240426/p/pytest-seleniumbase/4.9.8-4.9.9/README.md --exclude *.pyd
+[2024-04-26 06:08:18] INFO root fetch - processPackages [selenium-base]: executing diffoscope
+[2024-04-26 06:08:18] INFO root fetch - processPackages [selenium-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selenium-base-4.9.8.tar.gz tmp/selenium-base-4.9.9.tar.gz --markdown 20240426/s/selenium-base/4.9.8-4.9.9/README.md --exclude *.pyd
+[2024-04-26 06:08:18] INFO root fetch - processPackages [odoo14-addon-l10n-br-repair]: Downloading https://files.pythonhosted.org/packages/93/7b/6d52c9d3bc682320355cfd7b07db77d0f1cdcf2aff186edfc5d6d86e83f7/odoo14_addon_l10n_br_repair-14.0.1.1.6.dev9-py3-none-any.whl
+[2024-04-26 06:08:19] INFO root fetch - processPackages [odoo14-addon-l10n-br-repair]: executing diffoscope
+[2024-04-26 06:08:19] INFO root fetch - processPackages [odoo14-addon-l10n-br-repair]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_repair-14.0.1.1.6.dev6-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_repair-14.0.1.1.6.dev9-py3-none-any.whl.zip --markdown 20240426/o/odoo14-addon-l10n-br-repair/14.0.1.1.6.dev6-14.0.1.1.6.dev9/README.md --exclude *.pyd
+[2024-04-26 06:08:19] INFO root fetch - processPackages [moonss]: Remove: archive file [/home/abi/fetcher/tmp/moonss-0.95.tar.gz]
+[2024-04-26 06:08:19] INFO root fetch - processPackages [moonss]: Remove: archive file [/home/abi/fetcher/tmp/moonss-0.96.tar.gz]
+[2024-04-26 06:08:19] INFO root fetch - main [MainThread]: End processing [moonss]: success
+[2024-04-26 06:08:19] INFO root fetch - processPackages [odoo14-addon-l10n-br-stock-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_stock_account-14.0.3.6.3.dev5-py3-none-any.whl.zip]
+[2024-04-26 06:08:19] INFO root fetch - processPackages [odoo14-addon-l10n-br-stock-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_stock_account-14.0.3.6.3.dev6-py3-none-any.whl.zip]
+[2024-04-26 06:08:19] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-stock-account]: success
+[2024-04-26 06:08:19] INFO root fetch - processPackages [odoo14-addon-l10n-br-sale]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_sale-14.0.3.8.0-py3-none-any.whl.zip]
+[2024-04-26 06:08:19] INFO root fetch - processPackages [odoo14-addon-l10n-br-sale]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_sale-14.0.3.8.1.dev1-py3-none-any.whl.zip]
+[2024-04-26 06:08:19] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-sale]: success
+[2024-04-26 06:08:19] INFO root fetch - processPackages [sbase]: Remove: archive file [/home/abi/fetcher/tmp/sbase-4.9.8.tar.gz]
+[2024-04-26 06:08:19] INFO root fetch - processPackages [sbase]: Remove: archive file [/home/abi/fetcher/tmp/sbase-4.9.9.tar.gz]
+[2024-04-26 06:08:19] INFO root fetch - main [MainThread]: End processing [sbase]: success
+[2024-04-26 06:08:19] INFO root fetch - processPackages [selenium-base]: Remove: archive file [/home/abi/fetcher/tmp/selenium-base-4.9.8.tar.gz]
+[2024-04-26 06:08:19] INFO root fetch - processPackages [selenium-base]: Remove: archive file [/home/abi/fetcher/tmp/selenium-base-4.9.9.tar.gz]
+[2024-04-26 06:08:19] INFO root fetch - main [MainThread]: End processing [selenium-base]: success
+[2024-04-26 06:08:19] INFO root fetch - processPackages [odoo14-addon-l10n-br-sale-blanket-order]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_sale_blanket_order-14.0.1.0.2.dev6-py3-none-any.whl.zip]
+[2024-04-26 06:08:19] INFO root fetch - processPackages [odoo14-addon-l10n-br-sale-blanket-order]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_sale_blanket_order-14.0.1.0.2.dev8-py3-none-any.whl.zip]
+[2024-04-26 06:08:19] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-sale-blanket-order]: success
+[2024-04-26 06:08:19] INFO root fetch - processPackages [pytest-seleniumbase]: Remove: archive file [/home/abi/fetcher/tmp/pytest-seleniumbase-4.9.8.tar.gz]
+[2024-04-26 06:08:19] INFO root fetch - processPackages [pytest-seleniumbase]: Remove: archive file [/home/abi/fetcher/tmp/pytest-seleniumbase-4.9.9.tar.gz]
+[2024-04-26 06:08:19] INFO root fetch - main [MainThread]: End processing [pytest-seleniumbase]: success
+[2024-04-26 06:08:19] INFO root fetch - processPackages [pytest-sbase]: Remove: archive file [/home/abi/fetcher/tmp/pytest-sbase-4.9.8.tar.gz]
+[2024-04-26 06:08:19] INFO root fetch - processPackages [pytest-sbase]: Remove: archive file [/home/abi/fetcher/tmp/pytest-sbase-4.9.9.tar.gz]
+[2024-04-26 06:08:19] INFO root fetch - main [MainThread]: End processing [pytest-sbase]: success
+[2024-04-26 06:08:20] INFO root fetch - processPackages [odoo14-addon-l10n-br-repair]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_repair-14.0.1.1.6.dev6-py3-none-any.whl.zip]
+[2024-04-26 06:08:20] INFO root fetch - processPackages [odoo14-addon-l10n-br-repair]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_repair-14.0.1.1.6.dev9-py3-none-any.whl.zip]
+[2024-04-26 06:08:20] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-repair]: success
+[2024-04-26 06:08:20] INFO root fetch - main [MainThread]: Store serial: [22942539]
