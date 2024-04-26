@@ -19578,3 +19578,33 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 14:02:20] INFO root fetch - processPackages [databricks-labs-pylint]: Remove: archive file [/home/abi/fetcher/tmp/databricks_labs_pylint-0.4.0.tar.gz]
 [2024-04-26 14:02:20] INFO root fetch - main [MainThread]: End processing [databricks-labs-pylint]: success
 [2024-04-26 14:02:20] INFO root fetch - main [MainThread]: Store serial: [22947182]
+[2024-04-26 14:04:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22947182]
+[2024-04-26 14:04:28] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-26 14:04:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hera
+[2024-04-26 14:04:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hera-workflows
+[2024-04-26 14:04:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: oc-python-sdk
+[2024-04-26 14:04:29] INFO root fetch - processPackages [oc-python-sdk]: New version: [3.0.0] Old Version: [2.1.0]
+[2024-04-26 14:04:29] INFO root fetch - processPackages [hera-workflows]: New version: [5.9.0] Old Version: [5.8.0]
+[2024-04-26 14:04:29] INFO root fetch - processPackages [hera]: New version: [5.9.0] Old Version: [5.8.0]
+[2024-04-26 14:04:29] INFO root fetch - processPackages [oc-python-sdk]: Downloading https://files.pythonhosted.org/packages/59/24/7498f7e9d5ede68f701de08fc3f4d434acefb8d45165cffb59c2e713eb26/oc_python_sdk-2.1.0.tar.gz
+[2024-04-26 14:04:29] INFO root fetch - processPackages [hera-workflows]: Downloading https://files.pythonhosted.org/packages/d4/33/d7bb7403b9215b43a071fbbc9af830523da1e320b13bde80e5a4e63b908a/hera_workflows-5.8.0.tar.gz
+[2024-04-26 14:04:29] INFO root fetch - processPackages [hera]: Downloading https://files.pythonhosted.org/packages/ca/21/d8f3d1eec5b426e7787dff4b901f4abf3e38a66c6d65451d0b1d5c8f9ced/hera-5.8.0.tar.gz
+[2024-04-26 14:04:29] INFO root fetch - processPackages [hera-workflows]: Downloading https://files.pythonhosted.org/packages/a7/71/88cd614bcb8a6a185c779001ecf4650401c151690f88f5aa1156c4f20391/hera_workflows-5.9.0.tar.gz
+[2024-04-26 14:04:29] INFO root fetch - processPackages [hera]: Downloading https://files.pythonhosted.org/packages/a1/bd/edecc7df47fbd93b374b88145f3a8f30fb5b314776b3b272c8fbf0f36bae/hera-5.9.0.tar.gz
+[2024-04-26 14:04:29] INFO root fetch - processPackages [oc-python-sdk]: Downloading https://files.pythonhosted.org/packages/9d/bd/4328845531f8b3c7fc28a58f61b1ab2a0468e5bb8c38e05cd3d96799cfb7/oc_python_sdk-3.0.0.tar.gz
+[2024-04-26 14:04:29] INFO root fetch - processPackages [oc-python-sdk]: executing diffoscope
+[2024-04-26 14:04:29] INFO root fetch - processPackages [oc-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oc_python_sdk-2.1.0.tar.gz tmp/oc_python_sdk-3.0.0.tar.gz --markdown 20240426/o/oc-python-sdk/2.1.0-3.0.0/README.md --exclude *.pyd
+[2024-04-26 14:04:29] INFO root fetch - processPackages [hera]: executing diffoscope
+[2024-04-26 14:04:29] INFO root fetch - processPackages [hera]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hera-5.8.0.tar.gz tmp/hera-5.9.0.tar.gz --markdown 20240426/h/hera/5.8.0-5.9.0/README.md --exclude *.pyd
+[2024-04-26 14:04:29] INFO root fetch - processPackages [hera-workflows]: executing diffoscope
+[2024-04-26 14:04:29] INFO root fetch - processPackages [hera-workflows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hera_workflows-5.8.0.tar.gz tmp/hera_workflows-5.9.0.tar.gz --markdown 20240426/h/hera-workflows/5.8.0-5.9.0/README.md --exclude *.pyd
+[2024-04-26 14:04:30] INFO root fetch - processPackages [oc-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/oc_python_sdk-2.1.0.tar.gz]
+[2024-04-26 14:04:30] INFO root fetch - processPackages [oc-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/oc_python_sdk-3.0.0.tar.gz]
+[2024-04-26 14:04:30] INFO root fetch - main [MainThread]: End processing [oc-python-sdk]: success
+[2024-04-26 14:04:30] INFO root fetch - processPackages [hera]: Remove: archive file [/home/abi/fetcher/tmp/hera-5.8.0.tar.gz]
+[2024-04-26 14:04:30] INFO root fetch - processPackages [hera]: Remove: archive file [/home/abi/fetcher/tmp/hera-5.9.0.tar.gz]
+[2024-04-26 14:04:30] INFO root fetch - main [MainThread]: End processing [hera]: success
+[2024-04-26 14:04:30] INFO root fetch - processPackages [hera-workflows]: Remove: archive file [/home/abi/fetcher/tmp/hera_workflows-5.8.0.tar.gz]
+[2024-04-26 14:04:30] INFO root fetch - processPackages [hera-workflows]: Remove: archive file [/home/abi/fetcher/tmp/hera_workflows-5.9.0.tar.gz]
+[2024-04-26 14:04:30] INFO root fetch - main [MainThread]: End processing [hera-workflows]: success
+[2024-04-26 14:04:30] INFO root fetch - main [MainThread]: Store serial: [22947191]
