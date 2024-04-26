@@ -7784,3 +7784,21 @@
 [2024-04-26 04:55:53] INFO root fetch - processPackages [jz3]: Remove: archive file [/home/abi/fetcher/tmp/jz3-0.1.2.tar.gz]
 [2024-04-26 04:55:53] INFO root fetch - main [MainThread]: End processing [jz3]: success
 [2024-04-26 04:55:53] INFO root fetch - main [MainThread]: Store serial: [22942078]
+[2024-04-26 04:57:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22942078]
+[2024-04-26 04:58:02] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-26 04:58:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qdsdk
+[2024-04-26 04:58:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gammarers.aws-waf-geo-restriction-rule-group
+[2024-04-26 04:58:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tensorpc
+[2024-04-26 04:58:02] INFO root fetch - processPackages [tensorpc]: New version: [0.10.4] Old Version: [0.10.3]
+[2024-04-26 04:58:02] INFO root fetch - processPackages [tensorpc]: Downloading https://files.pythonhosted.org/packages/40/ad/6b82778dc3ca01ac7081b06b16825c84f503c97ebbd199d4e51c3f02dd64/tensorpc-0.10.3.tar.gz
+[2024-04-26 04:58:02] WARNING root fetch - processPackages [qdsdk]: Skipping, unable to determine old version
+[2024-04-26 04:58:02] INFO root fetch - main [MainThread]: End processing [qdsdk] error
+[2024-04-26 04:58:02] WARNING root fetch - processPackages [gammarers.aws-waf-geo-restriction-rule-group]: Skipping, unable to determine old version
+[2024-04-26 04:58:02] INFO root fetch - main [MainThread]: End processing [gammarers.aws-waf-geo-restriction-rule-group] error
+[2024-04-26 04:58:03] INFO root fetch - processPackages [tensorpc]: Downloading https://files.pythonhosted.org/packages/df/0d/9eefce009d4983c4080819a80f86a2c8226d65e3dc3c6d9b73b1a0f6cd4a/tensorpc-0.10.4.tar.gz
+[2024-04-26 04:58:03] INFO root fetch - processPackages [tensorpc]: executing diffoscope
+[2024-04-26 04:58:03] INFO root fetch - processPackages [tensorpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorpc-0.10.3.tar.gz tmp/tensorpc-0.10.4.tar.gz --markdown 20240426/t/tensorpc/0.10.3-0.10.4/README.md --exclude *.pyd
+[2024-04-26 04:58:04] INFO root fetch - processPackages [tensorpc]: Remove: archive file [/home/abi/fetcher/tmp/tensorpc-0.10.3.tar.gz]
+[2024-04-26 04:58:04] INFO root fetch - processPackages [tensorpc]: Remove: archive file [/home/abi/fetcher/tmp/tensorpc-0.10.4.tar.gz]
+[2024-04-26 04:58:04] INFO root fetch - main [MainThread]: End processing [tensorpc]: success
+[2024-04-26 04:58:04] INFO root fetch - main [MainThread]: Store serial: [22942092]
