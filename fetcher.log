@@ -12926,3 +12926,59 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 09:27:38] INFO root fetch - processPackages [pulumi-oci]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_oci-1.9.0a1693981063.tar.gz]
 [2024-04-26 09:27:38] INFO root fetch - main [MainThread]: End processing [pulumi-oci]: success
 [2024-04-26 09:27:38] INFO root fetch - main [MainThread]: Store serial: [22944344]
+[2024-04-26 09:29:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22944344]
+[2024-04-26 09:29:48] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-26 09:29:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jy_lib
+[2024-04-26 09:29:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vbimagetotext
+[2024-04-26 09:29:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: machineroom
+[2024-04-26 09:29:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: quantplay
+[2024-04-26 09:29:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aaz-dev
+[2024-04-26 09:29:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: twincat-tools
+[2024-04-26 09:29:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: plone.app.locales
+[2024-04-26 09:29:48] INFO root fetch - processPackages [jy_lib]: New version: [0.6.7] Old Version: [0.6.6]
+[2024-04-26 09:29:48] INFO root fetch - processPackages [machineroom]: New version: [0.47.0] Old Version: [0.46.9]
+[2024-04-26 09:29:48] INFO root fetch - processPackages [quantplay]: New version: [1.5.9] Old Version: [1.5.8]
+[2024-04-26 09:29:48] INFO root fetch - processPackages [vbimagetotext]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-26 09:29:48] INFO root fetch - processPackages [jy_lib]: Downloading https://files.pythonhosted.org/packages/21/3b/54299b56bfe807536a16cb0f94d2d46b0c93ad8c33070f222af614bf294d/jy_lib-0.6.6.tar.gz
+[2024-04-26 09:29:48] INFO root fetch - processPackages [aaz-dev]: New version: [2.6.2] Old Version: [2.6.1]
+[2024-04-26 09:29:48] WARNING root fetch - processPackages [twincat-tools]: Skipping, unable to determine old version
+[2024-04-26 09:29:48] INFO root fetch - main [MainThread]: End processing [twincat-tools] error
+[2024-04-26 09:29:48] INFO root fetch - processPackages [machineroom]: Downloading https://files.pythonhosted.org/packages/25/dd/a9d6ab603bb81b2910216f89acdf53190f131266a2f872e93c7be8bfbb89/machineroom-0.46.9.tar.gz
+[2024-04-26 09:29:48] INFO root fetch - processPackages [plone.app.locales]: New version: [6.0.9] Old Version: [6.0.8]
+[2024-04-26 09:29:48] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/71/23/85a802491d69beb714dd8831f123c9440301eb94caca43392e50be63fff6/quantplay-1.5.8.tar.gz
+[2024-04-26 09:29:48] INFO root fetch - processPackages [vbimagetotext]: Downloading https://files.pythonhosted.org/packages/3b/be/98b550c5073659930e9a674ef04a1094591884de26bbafc0b31b01921bea/vbimagetotext-0.1.1.tar.gz
+[2024-04-26 09:29:48] INFO root fetch - processPackages [aaz-dev]: Downloading https://files.pythonhosted.org/packages/f0/79/f0863812983942f8d2f349446a70c5878b991d9c36e7844f8ee6ab84fc61/aaz-dev-2.6.1.tar.gz
+[2024-04-26 09:29:48] INFO root fetch - processPackages [plone.app.locales]: Downloading https://files.pythonhosted.org/packages/07/57/7616573ed7e1e4246344ae71d2964888db7ce02be744df3f588daa4f8ba5/plone.app.locales-6.0.8.tar.gz
+[2024-04-26 09:29:48] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/29/44/bc619a0a4e2ecba52ee7f6eac8f51f600a1d90bb67f88a28638d7d9f9c62/quantplay-1.5.9.tar.gz
+[2024-04-26 09:29:48] WARNING root fetch - processPackages [plone.app.locales]: Skipping package: exceeds size limit 10880771>=10485760
+[2024-04-26 09:29:48] INFO root fetch - main [MainThread]: End processing [plone.app.locales] error
+[2024-04-26 09:29:48] INFO root fetch - processPackages [machineroom]: Downloading https://files.pythonhosted.org/packages/6c/cc/d83f96b97d1732122e0bb2fd0182fb782adc240f92b85bfcd1df9a24dd63/machineroom-0.47.0.tar.gz
+[2024-04-26 09:29:48] INFO root fetch - processPackages [jy_lib]: Downloading https://files.pythonhosted.org/packages/c7/f7/5cbe0ade04b20a5f72673aee8f7f8a041e08d2dafd79e0063e244d0829ad/jy_lib-0.6.7.tar.gz
+[2024-04-26 09:29:49] INFO root fetch - processPackages [quantplay]: executing diffoscope
+[2024-04-26 09:29:49] INFO root fetch - processPackages [quantplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantplay-1.5.8.tar.gz tmp/quantplay-1.5.9.tar.gz --markdown 20240426/q/quantplay/1.5.8-1.5.9/README.md --exclude *.pyd
+[2024-04-26 09:29:49] INFO root fetch - processPackages [machineroom]: executing diffoscope
+[2024-04-26 09:29:49] INFO root fetch - processPackages [machineroom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/machineroom-0.46.9.tar.gz tmp/machineroom-0.47.0.tar.gz --markdown 20240426/m/machineroom/0.46.9-0.47.0/README.md --exclude *.pyd
+[2024-04-26 09:29:49] INFO root fetch - processPackages [vbimagetotext]: Downloading https://files.pythonhosted.org/packages/bc/44/d832f220a3b2b31cb64ba4226f142793889b7b4dda1f64aaae632b4542cf/vbimagetotext-0.1.2.tar.gz
+[2024-04-26 09:29:49] INFO root fetch - processPackages [jy_lib]: executing diffoscope
+[2024-04-26 09:29:49] INFO root fetch - processPackages [jy_lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jy_lib-0.6.6.tar.gz tmp/jy_lib-0.6.7.tar.gz --markdown 20240426/j/jy_lib/0.6.6-0.6.7/README.md --exclude *.pyd
+[2024-04-26 09:29:49] INFO root fetch - processPackages [vbimagetotext]: executing diffoscope
+[2024-04-26 09:29:49] INFO root fetch - processPackages [vbimagetotext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vbimagetotext-0.1.1.tar.gz tmp/vbimagetotext-0.1.2.tar.gz --markdown 20240426/v/vbimagetotext/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-26 09:29:49] INFO root fetch - processPackages [aaz-dev]: Downloading https://files.pythonhosted.org/packages/f1/0c/64e0bc826ec3d018f4ad1b7aad9dc293e5cdb89fdac5984bb488d5baf7c4/aaz_dev-2.6.2.tar.gz
+[2024-04-26 09:29:49] INFO root fetch - processPackages [aaz-dev]: executing diffoscope
+[2024-04-26 09:29:49] INFO root fetch - processPackages [aaz-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aaz-dev-2.6.1.tar.gz tmp/aaz_dev-2.6.2.tar.gz --markdown 20240426/a/aaz-dev/2.6.1-2.6.2/README.md --exclude *.pyd
+[2024-04-26 09:29:49] INFO root fetch - processPackages [machineroom]: Remove: archive file [/home/abi/fetcher/tmp/machineroom-0.46.9.tar.gz]
+[2024-04-26 09:29:49] INFO root fetch - processPackages [machineroom]: Remove: archive file [/home/abi/fetcher/tmp/machineroom-0.47.0.tar.gz]
+[2024-04-26 09:29:49] INFO root fetch - main [MainThread]: End processing [machineroom]: success
+[2024-04-26 09:29:49] INFO root fetch - processPackages [jy_lib]: Remove: archive file [/home/abi/fetcher/tmp/jy_lib-0.6.6.tar.gz]
+[2024-04-26 09:29:49] INFO root fetch - processPackages [jy_lib]: Remove: archive file [/home/abi/fetcher/tmp/jy_lib-0.6.7.tar.gz]
+[2024-04-26 09:29:49] INFO root fetch - main [MainThread]: End processing [jy_lib]: success
+[2024-04-26 09:29:49] INFO root fetch - processPackages [vbimagetotext]: Remove: archive file [/home/abi/fetcher/tmp/vbimagetotext-0.1.1.tar.gz]
+[2024-04-26 09:29:49] INFO root fetch - processPackages [vbimagetotext]: Remove: archive file [/home/abi/fetcher/tmp/vbimagetotext-0.1.2.tar.gz]
+[2024-04-26 09:29:49] INFO root fetch - main [MainThread]: End processing [vbimagetotext]: success
+[2024-04-26 09:29:49] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.5.8.tar.gz]
+[2024-04-26 09:29:49] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.5.9.tar.gz]
+[2024-04-26 09:29:49] INFO root fetch - main [MainThread]: End processing [quantplay]: success
+[2024-04-26 09:29:50] INFO root fetch - processPackages [aaz-dev]: Remove: archive file [/home/abi/fetcher/tmp/aaz-dev-2.6.1.tar.gz]
+[2024-04-26 09:29:50] INFO root fetch - processPackages [aaz-dev]: Remove: archive file [/home/abi/fetcher/tmp/aaz_dev-2.6.2.tar.gz]
+[2024-04-26 09:29:50] INFO root fetch - main [MainThread]: End processing [aaz-dev]: success
+[2024-04-26 09:29:50] INFO root fetch - main [MainThread]: Store serial: [22944368]
