@@ -11587,3 +11587,24 @@
 [2024-04-26 08:44:51] INFO root fetch - processPackages [pulumi-postgresql]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_postgresql-3.9.0a1689896978.tar.gz]
 [2024-04-26 08:44:51] INFO root fetch - main [MainThread]: End processing [pulumi-postgresql]: success
 [2024-04-26 08:44:51] INFO root fetch - main [MainThread]: Store serial: [22943599]
+[2024-04-26 08:46:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22943599]
+[2024-04-26 08:47:01] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-26 08:47:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ascript-tip
+[2024-04-26 08:47:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: malariagen_data
+[2024-04-26 08:47:01] INFO root fetch - processPackages [ascript-tip]: New version: [0.0.3.40] Old Version: [0.0.3.39]
+[2024-04-26 08:47:02] INFO root fetch - processPackages [ascript-tip]: Downloading https://files.pythonhosted.org/packages/a9/45/f34b03ac76678ff48d60bd9ede5ef0c3b923194ab23de95a675b6e73a9fb/ascript-tip-0.0.3.39.tar.gz
+[2024-04-26 08:47:02] INFO root fetch - processPackages [malariagen_data]: New version: [9.0.0] Old Version: [8.8.0]
+[2024-04-26 08:47:02] INFO root fetch - processPackages [malariagen_data]: Downloading https://files.pythonhosted.org/packages/3f/17/03292e4a92999ebcda62b8f068d4eb7dff41fc62f4d8599fc4ab2462b868/malariagen_data-8.8.0.tar.gz
+[2024-04-26 08:47:02] INFO root fetch - processPackages [ascript-tip]: Downloading https://files.pythonhosted.org/packages/78/37/de99716ef30158d7c351c787dc41598a4b84a24b2dde08e919f3d435e1a8/ascript-tip-0.0.3.40.tar.gz
+[2024-04-26 08:47:02] INFO root fetch - processPackages [malariagen_data]: Downloading https://files.pythonhosted.org/packages/48/cf/dbf62cca9c39cf43ea74039b04331c748333ae6a6d7afecf3c4bbdab9094/malariagen_data-9.0.0.tar.gz
+[2024-04-26 08:47:02] INFO root fetch - processPackages [ascript-tip]: executing diffoscope
+[2024-04-26 08:47:02] INFO root fetch - processPackages [ascript-tip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ascript-tip-0.0.3.39.tar.gz tmp/ascript-tip-0.0.3.40.tar.gz --markdown 20240426/a/ascript-tip/0.0.3.39-0.0.3.40/README.md --exclude *.pyd
+[2024-04-26 08:47:02] INFO root fetch - processPackages [malariagen_data]: executing diffoscope
+[2024-04-26 08:47:02] INFO root fetch - processPackages [malariagen_data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/malariagen_data-8.8.0.tar.gz tmp/malariagen_data-9.0.0.tar.gz --markdown 20240426/m/malariagen_data/8.8.0-9.0.0/README.md --exclude *.pyd
+[2024-04-26 08:47:03] INFO root fetch - processPackages [malariagen_data]: Remove: archive file [/home/abi/fetcher/tmp/malariagen_data-8.8.0.tar.gz]
+[2024-04-26 08:47:03] INFO root fetch - processPackages [malariagen_data]: Remove: archive file [/home/abi/fetcher/tmp/malariagen_data-9.0.0.tar.gz]
+[2024-04-26 08:47:03] INFO root fetch - main [MainThread]: End processing [malariagen_data]: success
+[2024-04-26 08:47:03] INFO root fetch - processPackages [ascript-tip]: Remove: archive file [/home/abi/fetcher/tmp/ascript-tip-0.0.3.39.tar.gz]
+[2024-04-26 08:47:03] INFO root fetch - processPackages [ascript-tip]: Remove: archive file [/home/abi/fetcher/tmp/ascript-tip-0.0.3.40.tar.gz]
+[2024-04-26 08:47:03] INFO root fetch - main [MainThread]: End processing [ascript-tip]: success
+[2024-04-26 08:47:03] INFO root fetch - main [MainThread]: Store serial: [22943605]
