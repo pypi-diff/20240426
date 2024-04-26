@@ -9239,3 +9239,24 @@
 [2024-04-26 06:47:30] INFO root fetch - processPackages [pyscinloopsr]: Remove: archive file [/home/abi/fetcher/tmp/pyscinloopsr-1.0.3.tar.gz]
 [2024-04-26 06:47:30] INFO root fetch - main [MainThread]: End processing [pyscinloopsr]: success
 [2024-04-26 06:47:30] INFO root fetch - main [MainThread]: Store serial: [22942686]
+[2024-04-26 06:49:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22942686]
+[2024-04-26 06:49:38] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-26 06:49:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openlit
+[2024-04-26 06:49:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: filez4eva
+[2024-04-26 06:49:38] INFO root fetch - processPackages [openlit]: New version: [1.0.0] Old Version: [0.0.3]
+[2024-04-26 06:49:38] INFO root fetch - processPackages [filez4eva]: New version: [2.2.8] Old Version: [2.2.7]
+[2024-04-26 06:49:39] INFO root fetch - processPackages [openlit]: Downloading https://files.pythonhosted.org/packages/c5/e2/33786c1c58ef82bb76367bbf4b89d187d8d7501fbb9bd29c07d29709bae5/openlit-0.0.3.tar.gz
+[2024-04-26 06:49:39] INFO root fetch - processPackages [filez4eva]: Downloading https://files.pythonhosted.org/packages/6b/5e/ea0de329092a20cdeb6047c368cf75b828c33c47dd2843e0a715afe234ea/filez4eva-2.2.7.tar.gz
+[2024-04-26 06:49:39] INFO root fetch - processPackages [filez4eva]: Downloading https://files.pythonhosted.org/packages/ed/9d/505c65380c98968cd43bb89d814c42d53691b517b7b961508a9c9ecc9389/filez4eva-2.2.8.tar.gz
+[2024-04-26 06:49:39] INFO root fetch - processPackages [openlit]: Downloading https://files.pythonhosted.org/packages/af/fd/fdf1d607e746963a12cc296767ba23f54a6dc75176b0b30104ea61c9facd/openlit-1.0.0.tar.gz
+[2024-04-26 06:49:39] INFO root fetch - processPackages [openlit]: executing diffoscope
+[2024-04-26 06:49:39] INFO root fetch - processPackages [openlit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openlit-0.0.3.tar.gz tmp/openlit-1.0.0.tar.gz --markdown 20240426/o/openlit/0.0.3-1.0.0/README.md --exclude *.pyd
+[2024-04-26 06:49:39] INFO root fetch - processPackages [filez4eva]: executing diffoscope
+[2024-04-26 06:49:39] INFO root fetch - processPackages [filez4eva]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/filez4eva-2.2.7.tar.gz tmp/filez4eva-2.2.8.tar.gz --markdown 20240426/f/filez4eva/2.2.7-2.2.8/README.md --exclude *.pyd
+[2024-04-26 06:49:40] INFO root fetch - processPackages [openlit]: Remove: archive file [/home/abi/fetcher/tmp/openlit-0.0.3.tar.gz]
+[2024-04-26 06:49:40] INFO root fetch - processPackages [openlit]: Remove: archive file [/home/abi/fetcher/tmp/openlit-1.0.0.tar.gz]
+[2024-04-26 06:49:40] INFO root fetch - main [MainThread]: End processing [openlit]: success
+[2024-04-26 06:49:40] INFO root fetch - processPackages [filez4eva]: Remove: archive file [/home/abi/fetcher/tmp/filez4eva-2.2.7.tar.gz]
+[2024-04-26 06:49:40] INFO root fetch - processPackages [filez4eva]: Remove: archive file [/home/abi/fetcher/tmp/filez4eva-2.2.8.tar.gz]
+[2024-04-26 06:49:40] INFO root fetch - main [MainThread]: End processing [filez4eva]: success
+[2024-04-26 06:49:40] INFO root fetch - main [MainThread]: Store serial: [22942692]
