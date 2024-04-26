@@ -16302,3 +16302,104 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 11:35:01] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-3.0.3.post456-py3-none-any.whl.zip]
 [2024-04-26 11:35:01] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
 [2024-04-26 11:35:01] INFO root fetch - main [MainThread]: Store serial: [22945837]
+[2024-04-26 11:37:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22945837]
+[2024-04-26 11:37:10] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-04-26 11:37:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nucliadb-sdk
+[2024-04-26 11:37:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nucliadb-telemetry
+[2024-04-26 11:37:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sunray
+[2024-04-26 11:37:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nucliadb-utils
+[2024-04-26 11:37:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jupyterlab
+[2024-04-26 11:37:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: saiph
+[2024-04-26 11:37:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: qbosdk
+[2024-04-26 11:37:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ert
+[2024-04-26 11:37:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: coinanalyse
+[2024-04-26 11:37:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tpu-mlir-test
+[2024-04-26 11:37:10] INFO root fetch - processPackages [nucliadb-telemetry]: New version: [3.0.3.post456] Old Version: [3.0.3.post455]
+[2024-04-26 11:37:10] INFO root fetch - processPackages [nucliadb-sdk]: New version: [3.0.3.post457] Old Version: [3.0.3.post456]
+[2024-04-26 11:37:10] INFO root fetch - processPackages [jupyterlab]: New version: [4.2.0b3] Old Version: [4.2.0b2]
+[2024-04-26 11:37:10] INFO root fetch - processPackages [nucliadb-utils]: New version: [3.0.3.post456] Old Version: [3.0.3.post455]
+[2024-04-26 11:37:10] INFO root fetch - processPackages [sunray]: New version: [0.1.0b1] Old Version: [0.1.0]
+[2024-04-26 11:37:10] INFO root fetch - processPackages [ert]: New version: [9.0.9] Old Version: [9.0.8]
+[2024-04-26 11:37:10] INFO root fetch - processPackages [nucliadb-telemetry]: Downloading https://files.pythonhosted.org/packages/9b/cc/39d6b40164e999858f61861c6e4c40da81edcfedef7b0e79c9a7cdd86c10/nucliadb_telemetry-3.0.3.post455-py3-none-any.whl
+[2024-04-26 11:37:10] WARNING root fetch - processPackages [coinanalyse]: Skipping, unable to determine old version
+[2024-04-26 11:37:10] INFO root fetch - processPackages [coinanalyse]: Start processing: agentUniverse
+[2024-04-26 11:37:10] INFO root fetch - main [MainThread]: End processing [coinanalyse] error
+[2024-04-26 11:37:10] INFO root fetch - processPackages [qbosdk]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-26 11:37:10] INFO root fetch - processPackages [tpu-mlir-test]: New version: [2.49] Old Version: [2.30]
+[2024-04-26 11:37:10] INFO root fetch - processPackages [saiph]: New version: [1.5.2] Old Version: [1.5.1]
+[2024-04-26 11:37:11] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/57/8b/f09924cb8d4b5444441b802fabb3c001c2325ffecb31ff9070b6caa8f242/nucliadb_sdk-3.0.3.post456-py3-none-any.whl
+[2024-04-26 11:37:11] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/bc/41/b67bd4964222e884de8907dad9bd464b7b90f0a01ed2ccb0b40996e24276/nucliadb_utils-3.0.3.post455-py3-none-any.whl
+[2024-04-26 11:37:11] INFO root fetch - processPackages [ert]: Downloading https://files.pythonhosted.org/packages/d3/ed/1b32adc2b0f34e25ca508b858069a0b7e840006670aad8f9c91899cfb57e/ert-9.0.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-26 11:37:11] INFO root fetch - processPackages [sunray]: Downloading https://files.pythonhosted.org/packages/e4/e1/1e527ad7baa2dcbc2d6d2a323ddfee9e09da25d5ca1cd700dee58f6b7168/sunray-0.1.0-py3-none-any.whl
+[2024-04-26 11:37:11] INFO root fetch - processPackages [agentUniverse]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-26 11:37:11] INFO root fetch - processPackages [jupyterlab]: Downloading https://files.pythonhosted.org/packages/43/b5/35f460a22f83fd57b7c0e8f85e5392691ad29ae46b298cf0ddc6bb125259/jupyterlab-4.2.0b2.tar.gz
+[2024-04-26 11:37:11] WARNING root fetch - processPackages [jupyterlab]: Skipping package: exceeds size limit 21833698>=10485760
+[2024-04-26 11:37:11] INFO root fetch - processPackages [jupyterlab]: Start processing: lips-benchmark
+[2024-04-26 11:37:11] INFO root fetch - main [MainThread]: End processing [jupyterlab] error
+[2024-04-26 11:37:11] INFO root fetch - processPackages [qbosdk]: Downloading https://files.pythonhosted.org/packages/4f/79/3242c1679b16548e9e07215d36e10a4bd6140569012fe9f451fa1bd8f6d7/qbosdk-0.8.0.tar.gz
+[2024-04-26 11:37:11] INFO root fetch - processPackages [tpu-mlir-test]: Downloading https://files.pythonhosted.org/packages/ec/6d/a5235c19340747812489d66667c91a8dbfc8ca33218e18ae0db12b974b2d/tpu_mlir_test-2.30-py3-none-any.whl
+[2024-04-26 11:37:11] INFO root fetch - processPackages [saiph]: Downloading https://files.pythonhosted.org/packages/83/ff/534fc95c7d811f812e7cea7f5de9d8a5ab3cff52a0f212832f412d5b2c75/saiph-1.5.1.tar.gz
+[2024-04-26 11:37:11] INFO root fetch - processPackages [nucliadb-telemetry]: Downloading https://files.pythonhosted.org/packages/ce/cc/f6c3fbe16db94ea02605b910f5c83f90ae104b2fae242d90186441987490/nucliadb_telemetry-3.0.3.post456-py3-none-any.whl
+[2024-04-26 11:37:11] INFO root fetch - processPackages [agentUniverse]: Downloading https://files.pythonhosted.org/packages/49/5f/496ade5911e482da2b5ce72571b7ad2ac0594426e5ebd479a351866f4302/agentUniverse-0.0.3.tar.gz
+[2024-04-26 11:37:11] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/ed/d8/ce2104f0560edc7a74fb38daf324b4d25c690883423545884fc6357eeaf7/nucliadb_sdk-3.0.3.post457-py3-none-any.whl
+[2024-04-26 11:37:11] INFO root fetch - processPackages [lips-benchmark]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-26 11:37:11] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/1c/dc/661791f29311ec0c230548db7987bfd170dd44dd29ee885b20f7996730b4/nucliadb_utils-3.0.3.post456-py3-none-any.whl
+[2024-04-26 11:37:11] INFO root fetch - processPackages [ert]: Downloading https://files.pythonhosted.org/packages/8d/4f/a098d5c93dec8fbf941d7d4f60fb3b86707ea5c9f599479549a3d84e246b/ert-9.0.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-26 11:37:11] INFO root fetch - processPackages [sunray]: Downloading https://files.pythonhosted.org/packages/ec/81/ce802d08ee11c394bb6ef339f80efc7f4db7039138c4cdc77b0a0b22145e/sunray-0.1.0b1.tar.gz
+[2024-04-26 11:37:11] INFO root fetch - processPackages [nucliadb-telemetry]: executing diffoscope
+[2024-04-26 11:37:11] INFO root fetch - processPackages [nucliadb-telemetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_telemetry-3.0.3.post455-py3-none-any.whl.zip tmp/nucliadb_telemetry-3.0.3.post456-py3-none-any.whl.zip --markdown 20240426/n/nucliadb-telemetry/3.0.3.post455-3.0.3.post456/README.md --exclude *.pyd
+[2024-04-26 11:37:11] INFO root fetch - processPackages [nucliadb-sdk]: executing diffoscope
+[2024-04-26 11:37:11] INFO root fetch - processPackages [nucliadb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_sdk-3.0.3.post456-py3-none-any.whl.zip tmp/nucliadb_sdk-3.0.3.post457-py3-none-any.whl.zip --markdown 20240426/n/nucliadb-sdk/3.0.3.post456-3.0.3.post457/README.md --exclude *.pyd
+[2024-04-26 11:37:11] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2024-04-26 11:37:11] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-3.0.3.post455-py3-none-any.whl.zip tmp/nucliadb_utils-3.0.3.post456-py3-none-any.whl.zip --markdown 20240426/n/nucliadb-utils/3.0.3.post455-3.0.3.post456/README.md --exclude *.pyd
+[2024-04-26 11:37:11] INFO root fetch - processPackages [saiph]: Downloading https://files.pythonhosted.org/packages/80/13/0856fed4bc9e142576fe98e865d34d99458bfeae54717aeeef622b060eac/saiph-1.5.2.tar.gz
+[2024-04-26 11:37:11] INFO root fetch - processPackages [sunray]: executing diffoscope
+[2024-04-26 11:37:11] INFO root fetch - processPackages [sunray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sunray-0.1.0-py3-none-any.whl.zip tmp/sunray-0.1.0b1.tar.gz --markdown 20240426/s/sunray/0.1.0-0.1.0b1/README.md --exclude *.pyd
+[2024-04-26 11:37:11] INFO root fetch - processPackages [qbosdk]: Downloading https://files.pythonhosted.org/packages/c9/25/0b5d410dbc33f5d2670a67fd85e1f4aa2fbdbf037b0619574c432bcc32d0/qbosdk-0.9.0.tar.gz
+[2024-04-26 11:37:11] INFO root fetch - processPackages [tpu-mlir-test]: Downloading https://files.pythonhosted.org/packages/74/f9/94801175ea26065e71f9459a31e152cad32afb3ecb579c5c1dd3d0757b47/tpu_mlir_test-2.49-py3-none-any.whl
+[2024-04-26 11:37:11] INFO root fetch - processPackages [lips-benchmark]: Downloading https://files.pythonhosted.org/packages/a5/26/b3fca88a095082d552adb66da6fbc2e748146a00710cb506c36590dc2c78/lips-benchmark-0.2.1.tar.gz
+[2024-04-26 11:37:11] INFO root fetch - processPackages [ert]: executing diffoscope
+[2024-04-26 11:37:11] INFO root fetch - processPackages [ert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ert-9.0.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/ert-9.0.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240426/e/ert/9.0.8-9.0.9/README.md --exclude *.pyd
+[2024-04-26 11:37:11] INFO root fetch - processPackages [agentUniverse]: Downloading https://files.pythonhosted.org/packages/78/4c/963ecefad96be7712535171c4f9e19f784c4d7e6447ed6c622dcca81c283/agentUniverse-0.0.4.tar.gz
+[2024-04-26 11:37:11] INFO root fetch - processPackages [saiph]: executing diffoscope
+[2024-04-26 11:37:11] INFO root fetch - processPackages [saiph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/saiph-1.5.1.tar.gz tmp/saiph-1.5.2.tar.gz --markdown 20240426/s/saiph/1.5.1-1.5.2/README.md --exclude *.pyd
+[2024-04-26 11:37:11] INFO root fetch - processPackages [tpu-mlir-test]: executing diffoscope
+[2024-04-26 11:37:11] INFO root fetch - processPackages [tpu-mlir-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tpu_mlir_test-2.30-py3-none-any.whl.zip tmp/tpu_mlir_test-2.49-py3-none-any.whl.zip --markdown 20240426/t/tpu-mlir-test/2.30-2.49/README.md --exclude *.pyd
+[2024-04-26 11:37:11] INFO root fetch - processPackages [qbosdk]: executing diffoscope
+[2024-04-26 11:37:11] INFO root fetch - processPackages [qbosdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qbosdk-0.8.0.tar.gz tmp/qbosdk-0.9.0.tar.gz --markdown 20240426/q/qbosdk/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-26 11:37:12] INFO root fetch - processPackages [agentUniverse]: executing diffoscope
+[2024-04-26 11:37:12] INFO root fetch - processPackages [agentUniverse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agentUniverse-0.0.3.tar.gz tmp/agentUniverse-0.0.4.tar.gz --markdown 20240426/a/agentUniverse/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-26 11:37:12] INFO root fetch - processPackages [lips-benchmark]: Downloading https://files.pythonhosted.org/packages/cd/15/15036086272b48e58f0f0b8f103e9a3bafdfd2907acdb66ef02395e05ef9/lips-benchmark-0.2.2.tar.gz
+[2024-04-26 11:37:12] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-3.0.3.post456-py3-none-any.whl.zip]
+[2024-04-26 11:37:12] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-3.0.3.post457-py3-none-any.whl.zip]
+[2024-04-26 11:37:12] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
+[2024-04-26 11:37:12] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-3.0.3.post455-py3-none-any.whl.zip]
+[2024-04-26 11:37:12] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-3.0.3.post456-py3-none-any.whl.zip]
+[2024-04-26 11:37:12] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2024-04-26 11:37:12] INFO root fetch - processPackages [nucliadb-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_telemetry-3.0.3.post455-py3-none-any.whl.zip]
+[2024-04-26 11:37:12] INFO root fetch - processPackages [nucliadb-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_telemetry-3.0.3.post456-py3-none-any.whl.zip]
+[2024-04-26 11:37:12] INFO root fetch - main [MainThread]: End processing [nucliadb-telemetry]: success
+[2024-04-26 11:37:12] INFO root fetch - processPackages [sunray]: Remove: archive file [/home/abi/fetcher/tmp/sunray-0.1.0-py3-none-any.whl.zip]
+[2024-04-26 11:37:12] INFO root fetch - processPackages [sunray]: Remove: archive file [/home/abi/fetcher/tmp/sunray-0.1.0b1.tar.gz]
+[2024-04-26 11:37:12] INFO root fetch - main [MainThread]: End processing [sunray]: success
+[2024-04-26 11:37:12] INFO root fetch - processPackages [saiph]: Remove: archive file [/home/abi/fetcher/tmp/saiph-1.5.1.tar.gz]
+[2024-04-26 11:37:12] INFO root fetch - processPackages [saiph]: Remove: archive file [/home/abi/fetcher/tmp/saiph-1.5.2.tar.gz]
+[2024-04-26 11:37:12] INFO root fetch - main [MainThread]: End processing [saiph]: success
+[2024-04-26 11:37:12] INFO root fetch - processPackages [tpu-mlir-test]: Remove: archive file [/home/abi/fetcher/tmp/tpu_mlir_test-2.30-py3-none-any.whl.zip]
+[2024-04-26 11:37:12] INFO root fetch - processPackages [tpu-mlir-test]: Remove: archive file [/home/abi/fetcher/tmp/tpu_mlir_test-2.49-py3-none-any.whl.zip]
+[2024-04-26 11:37:12] INFO root fetch - main [MainThread]: End processing [tpu-mlir-test]: success
+[2024-04-26 11:37:12] INFO root fetch - processPackages [qbosdk]: Remove: archive file [/home/abi/fetcher/tmp/qbosdk-0.8.0.tar.gz]
+[2024-04-26 11:37:12] INFO root fetch - processPackages [qbosdk]: Remove: archive file [/home/abi/fetcher/tmp/qbosdk-0.9.0.tar.gz]
+[2024-04-26 11:37:12] INFO root fetch - main [MainThread]: End processing [qbosdk]: success
+[2024-04-26 11:37:13] INFO root fetch - processPackages [lips-benchmark]: executing diffoscope
+[2024-04-26 11:37:13] INFO root fetch - processPackages [lips-benchmark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lips-benchmark-0.2.1.tar.gz tmp/lips-benchmark-0.2.2.tar.gz --markdown 20240426/l/lips-benchmark/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-04-26 11:37:13] INFO root fetch - processPackages [agentUniverse]: Remove: archive file [/home/abi/fetcher/tmp/agentUniverse-0.0.3.tar.gz]
+[2024-04-26 11:37:13] INFO root fetch - processPackages [agentUniverse]: Remove: archive file [/home/abi/fetcher/tmp/agentUniverse-0.0.4.tar.gz]
+[2024-04-26 11:37:13] INFO root fetch - main [MainThread]: End processing [agentUniverse]: success
+[2024-04-26 11:37:14] INFO root fetch - processPackages [lips-benchmark]: Remove: archive file [/home/abi/fetcher/tmp/lips-benchmark-0.2.1.tar.gz]
+[2024-04-26 11:37:14] INFO root fetch - processPackages [lips-benchmark]: Remove: archive file [/home/abi/fetcher/tmp/lips-benchmark-0.2.2.tar.gz]
+[2024-04-26 11:37:14] INFO root fetch - main [MainThread]: End processing [lips-benchmark]: success
+[2024-04-26 11:37:17] INFO root fetch - processPackages [ert]: Remove: archive file [/home/abi/fetcher/tmp/ert-9.0.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-26 11:37:17] INFO root fetch - processPackages [ert]: Remove: archive file [/home/abi/fetcher/tmp/ert-9.0.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-26 11:37:17] INFO root fetch - main [MainThread]: End processing [ert]: success
+[2024-04-26 11:37:17] INFO root fetch - main [MainThread]: Store serial: [22945881]
