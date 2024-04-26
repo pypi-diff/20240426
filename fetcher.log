@@ -13203,3 +13203,33 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 09:45:15] INFO root fetch - processPackages [arthub-api]: Remove: archive file [/home/abi/fetcher/tmp/arthub_api-1.9.0.tar.gz]
 [2024-04-26 09:45:15] INFO root fetch - main [MainThread]: End processing [arthub-api]: success
 [2024-04-26 09:45:15] INFO root fetch - main [MainThread]: Store serial: [22944458]
+[2024-04-26 09:47:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22944458]
+[2024-04-26 09:47:24] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-26 09:47:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sentry-sdk
+[2024-04-26 09:47:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: air-drf-relation
+[2024-04-26 09:47:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lqbox
+[2024-04-26 09:47:24] INFO root fetch - processPackages [sentry-sdk]: New version: [2.0.0rc6] Old Version: [2.0.0rc5]
+[2024-04-26 09:47:24] INFO root fetch - processPackages [lqbox]: New version: [2.8.0] Old Version: [2.7.0]
+[2024-04-26 09:47:24] INFO root fetch - processPackages [sentry-sdk]: Downloading https://files.pythonhosted.org/packages/07/ab/dcd64cb9aec1ce2959801c128398e9c948a5010270f458c2cd80653af096/sentry-sdk-2.0.0rc5.tar.gz
+[2024-04-26 09:47:24] INFO root fetch - processPackages [air-drf-relation]: New version: [0.6.1] Old Version: [0.6.0]
+[2024-04-26 09:47:24] INFO root fetch - processPackages [lqbox]: Downloading https://files.pythonhosted.org/packages/3f/ed/a53eb1ef8f06e2358637c9a84893b18f3f1e168bd8dfeb4ea65831b30542/lqbox-2.7.0.tar.gz
+[2024-04-26 09:47:24] INFO root fetch - processPackages [air-drf-relation]: Downloading https://files.pythonhosted.org/packages/53/41/d4bf2f718f9e953c097bb1558cddf0248f0c2727229ece0064e0ad882a10/air_drf_relation-0.6.0.tar.gz
+[2024-04-26 09:47:24] INFO root fetch - processPackages [sentry-sdk]: Downloading https://files.pythonhosted.org/packages/9e/6f/6834cbfa90e787d7993dd0fcc1f22d6f8ca1be6bb400857a13bc3305e20a/sentry_sdk-2.0.0rc6.tar.gz
+[2024-04-26 09:47:24] INFO root fetch - processPackages [sentry-sdk]: executing diffoscope
+[2024-04-26 09:47:24] INFO root fetch - processPackages [sentry-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentry-sdk-2.0.0rc5.tar.gz tmp/sentry_sdk-2.0.0rc6.tar.gz --markdown 20240426/s/sentry-sdk/2.0.0rc5-2.0.0rc6/README.md --exclude *.pyd
+[2024-04-26 09:47:24] INFO root fetch - processPackages [lqbox]: Downloading https://files.pythonhosted.org/packages/99/f9/7601087ec54a2bfaf9c8e027dea36b866c7c0bb86fa92c337d5ad99a72f4/lqbox-2.8.0.tar.gz
+[2024-04-26 09:47:24] INFO root fetch - processPackages [air-drf-relation]: Downloading https://files.pythonhosted.org/packages/e1/9e/bdebc0afe3f6fc67bdf1b2eaf1c1a8bdc45ab1569abf9aa24c6ac4072068/air_drf_relation-0.6.1.tar.gz
+[2024-04-26 09:47:24] INFO root fetch - processPackages [lqbox]: executing diffoscope
+[2024-04-26 09:47:24] INFO root fetch - processPackages [lqbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lqbox-2.7.0.tar.gz tmp/lqbox-2.8.0.tar.gz --markdown 20240426/l/lqbox/2.7.0-2.8.0/README.md --exclude *.pyd
+[2024-04-26 09:47:24] INFO root fetch - processPackages [air-drf-relation]: executing diffoscope
+[2024-04-26 09:47:24] INFO root fetch - processPackages [air-drf-relation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/air_drf_relation-0.6.0.tar.gz tmp/air_drf_relation-0.6.1.tar.gz --markdown 20240426/a/air-drf-relation/0.6.0-0.6.1/README.md --exclude *.pyd
+[2024-04-26 09:47:25] INFO root fetch - processPackages [lqbox]: Remove: archive file [/home/abi/fetcher/tmp/lqbox-2.7.0.tar.gz]
+[2024-04-26 09:47:25] INFO root fetch - processPackages [lqbox]: Remove: archive file [/home/abi/fetcher/tmp/lqbox-2.8.0.tar.gz]
+[2024-04-26 09:47:25] INFO root fetch - main [MainThread]: End processing [lqbox]: success
+[2024-04-26 09:47:25] INFO root fetch - processPackages [air-drf-relation]: Remove: archive file [/home/abi/fetcher/tmp/air_drf_relation-0.6.0.tar.gz]
+[2024-04-26 09:47:25] INFO root fetch - processPackages [air-drf-relation]: Remove: archive file [/home/abi/fetcher/tmp/air_drf_relation-0.6.1.tar.gz]
+[2024-04-26 09:47:25] INFO root fetch - main [MainThread]: End processing [air-drf-relation]: success
+[2024-04-26 09:47:25] INFO root fetch - processPackages [sentry-sdk]: Remove: archive file [/home/abi/fetcher/tmp/sentry-sdk-2.0.0rc5.tar.gz]
+[2024-04-26 09:47:25] INFO root fetch - processPackages [sentry-sdk]: Remove: archive file [/home/abi/fetcher/tmp/sentry_sdk-2.0.0rc6.tar.gz]
+[2024-04-26 09:47:25] INFO root fetch - main [MainThread]: End processing [sentry-sdk]: success
+[2024-04-26 09:47:25] INFO root fetch - main [MainThread]: Store serial: [22944467]
