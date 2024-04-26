@@ -21032,3 +21032,60 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 15:11:27] INFO root fetch - main [MainThread]: End processing [udata-front]: success
 [2024-04-26 15:11:27] INFO root fetch - main [MainThread]: End processing [udata-front]: success
 [2024-04-26 15:11:27] INFO root fetch - main [MainThread]: Store serial: [22947828]
+[2024-04-26 15:13:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22947828]
+[2024-04-26 15:13:38] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-26 15:13:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: satellitevu
+[2024-04-26 15:13:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: samples-filter
+[2024-04-26 15:13:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Orogram
+[2024-04-26 15:13:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: trickkiste
+[2024-04-26 15:13:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pawz-core
+[2024-04-26 15:13:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pawz
+[2024-04-26 15:13:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: algokit-utils
+[2024-04-26 15:13:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: alphaz-next
+[2024-04-26 15:13:38] WARNING root fetch - processPackages [Orogram]: Skipping, unable to determine old version
+[2024-04-26 15:13:38] INFO root fetch - main [MainThread]: End processing [Orogram] error
+[2024-04-26 15:13:38] WARNING root fetch - processPackages [pawz]: Skipping, unable to determine old version
+[2024-04-26 15:13:38] INFO root fetch - main [MainThread]: End processing [pawz] error
+[2024-04-26 15:13:38] INFO root fetch - processPackages [samples-filter]: New version: [0.1.4] Old Version: [0.0.4]
+[2024-04-26 15:13:38] WARNING root fetch - processPackages [pawz-core]: Skipping, unable to determine old version
+[2024-04-26 15:13:38] INFO root fetch - main [MainThread]: End processing [pawz-core] error
+[2024-04-26 15:13:38] INFO root fetch - processPackages [alphaz-next]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-04-26 15:13:38] INFO root fetch - processPackages [satellitevu]: New version: [4.6.1] Old Version: [4.6.0]
+[2024-04-26 15:13:38] INFO root fetch - processPackages [samples-filter]: Downloading https://files.pythonhosted.org/packages/05/a7/7a1e97bcf7574895386b47b86a149a619db3c98854c47a17c02ab5345458/samples-filter-0.0.4.tar.gz
+[2024-04-26 15:13:38] INFO root fetch - processPackages [trickkiste]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-26 15:13:38] INFO root fetch - processPackages [alphaz-next]: Downloading https://files.pythonhosted.org/packages/e6/e6/7a4622de728066dabee091925d2d468f0162e085d8ac81d1386db32e66f0/alphaz-next-0.5.8.tar.gz
+[2024-04-26 15:13:38] INFO root fetch - processPackages [algokit-utils]: New version: [2.3.0b1] Old Version: [2.2.2b5]
+[2024-04-26 15:13:38] INFO root fetch - processPackages [satellitevu]: Downloading https://files.pythonhosted.org/packages/f4/58/907c9a02d2143c97db7c80e359e02be90f57baf8409fed007d7dad444942/satellitevu-4.6.0.tar.gz
+[2024-04-26 15:13:38] INFO root fetch - processPackages [samples-filter]: Downloading https://files.pythonhosted.org/packages/22/82/9156156935b5eaf0be055acc85cbb7bd6d547c3785c57ce40275ddfbdde4/samples-filter-0.1.4.tar.gz
+[2024-04-26 15:13:38] INFO root fetch - processPackages [trickkiste]: Downloading https://files.pythonhosted.org/packages/78/e0/58eb92fd05bdc4a4bd61a05240173799ae511f7dbad7859e00f39d1d507e/trickkiste-0.0.8.tar.gz
+[2024-04-26 15:13:38] INFO root fetch - processPackages [algokit-utils]: Downloading https://files.pythonhosted.org/packages/bd/bc/7da1d5c58f95931ebd31750cca3d905f97bb9555a6af34b659306f4c6dc0/algokit_utils-2.2.2b5-py3-none-any.whl
+[2024-04-26 15:13:38] INFO root fetch - processPackages [samples-filter]: executing diffoscope
+[2024-04-26 15:13:38] INFO root fetch - processPackages [samples-filter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/samples-filter-0.0.4.tar.gz tmp/samples-filter-0.1.4.tar.gz --markdown 20240426/s/samples-filter/0.0.4-0.1.4/README.md --exclude *.pyd
+[2024-04-26 15:13:39] INFO root fetch - processPackages [alphaz-next]: Downloading https://files.pythonhosted.org/packages/2d/91/9df6de73be4b53c78f4548229962e1314c10d2c7234b83aeddfa578f1fb1/alphaz-next-0.5.9.tar.gz
+[2024-04-26 15:13:39] INFO root fetch - processPackages [satellitevu]: Downloading https://files.pythonhosted.org/packages/ac/3d/a68ccae03ca647de5c454d9f715b944d824894607f682cfb2f27a224583f/satellitevu-4.6.1.tar.gz
+[2024-04-26 15:13:39] INFO root fetch - processPackages [alphaz-next]: executing diffoscope
+[2024-04-26 15:13:39] INFO root fetch - processPackages [alphaz-next]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alphaz-next-0.5.8.tar.gz tmp/alphaz-next-0.5.9.tar.gz --markdown 20240426/a/alphaz-next/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-04-26 15:13:39] INFO root fetch - processPackages [trickkiste]: Downloading https://files.pythonhosted.org/packages/c9/fe/c51598ca690974fec9d5b33dd72f6a37c647780087293eec5f61c46deefe/trickkiste-0.0.9.tar.gz
+[2024-04-26 15:13:39] INFO root fetch - processPackages [algokit-utils]: Downloading https://files.pythonhosted.org/packages/15/e3/ced5aaddf8e6cd19b6a155f3c83a7d76f5187a5cafde20065b8cddd9d3a3/algokit_utils-2.3.0b1-py3-none-any.whl
+[2024-04-26 15:13:39] INFO root fetch - processPackages [satellitevu]: executing diffoscope
+[2024-04-26 15:13:39] INFO root fetch - processPackages [satellitevu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/satellitevu-4.6.0.tar.gz tmp/satellitevu-4.6.1.tar.gz --markdown 20240426/s/satellitevu/4.6.0-4.6.1/README.md --exclude *.pyd
+[2024-04-26 15:13:39] INFO root fetch - processPackages [trickkiste]: executing diffoscope
+[2024-04-26 15:13:39] INFO root fetch - processPackages [trickkiste]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trickkiste-0.0.8.tar.gz tmp/trickkiste-0.0.9.tar.gz --markdown 20240426/t/trickkiste/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-26 15:13:39] INFO root fetch - processPackages [algokit-utils]: executing diffoscope
+[2024-04-26 15:13:39] INFO root fetch - processPackages [algokit-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/algokit_utils-2.2.2b5-py3-none-any.whl.zip tmp/algokit_utils-2.3.0b1-py3-none-any.whl.zip --markdown 20240426/a/algokit-utils/2.2.2b5-2.3.0b1/README.md --exclude *.pyd
+[2024-04-26 15:13:39] INFO root fetch - processPackages [samples-filter]: Remove: archive file [/home/abi/fetcher/tmp/samples-filter-0.0.4.tar.gz]
+[2024-04-26 15:13:39] INFO root fetch - processPackages [samples-filter]: Remove: archive file [/home/abi/fetcher/tmp/samples-filter-0.1.4.tar.gz]
+[2024-04-26 15:13:39] INFO root fetch - main [MainThread]: End processing [samples-filter]: success
+[2024-04-26 15:13:39] INFO root fetch - processPackages [alphaz-next]: Remove: archive file [/home/abi/fetcher/tmp/alphaz-next-0.5.8.tar.gz]
+[2024-04-26 15:13:39] INFO root fetch - processPackages [alphaz-next]: Remove: archive file [/home/abi/fetcher/tmp/alphaz-next-0.5.9.tar.gz]
+[2024-04-26 15:13:39] INFO root fetch - main [MainThread]: End processing [alphaz-next]: success
+[2024-04-26 15:13:39] INFO root fetch - processPackages [satellitevu]: Remove: archive file [/home/abi/fetcher/tmp/satellitevu-4.6.0.tar.gz]
+[2024-04-26 15:13:39] INFO root fetch - processPackages [satellitevu]: Remove: archive file [/home/abi/fetcher/tmp/satellitevu-4.6.1.tar.gz]
+[2024-04-26 15:13:39] INFO root fetch - main [MainThread]: End processing [satellitevu]: success
+[2024-04-26 15:13:40] INFO root fetch - processPackages [trickkiste]: Remove: archive file [/home/abi/fetcher/tmp/trickkiste-0.0.8.tar.gz]
+[2024-04-26 15:13:40] INFO root fetch - processPackages [trickkiste]: Remove: archive file [/home/abi/fetcher/tmp/trickkiste-0.0.9.tar.gz]
+[2024-04-26 15:13:40] INFO root fetch - main [MainThread]: End processing [trickkiste]: success
+[2024-04-26 15:13:40] INFO root fetch - processPackages [algokit-utils]: Remove: archive file [/home/abi/fetcher/tmp/algokit_utils-2.2.2b5-py3-none-any.whl.zip]
+[2024-04-26 15:13:40] INFO root fetch - processPackages [algokit-utils]: Remove: archive file [/home/abi/fetcher/tmp/algokit_utils-2.3.0b1-py3-none-any.whl.zip]
+[2024-04-26 15:13:40] INFO root fetch - main [MainThread]: End processing [algokit-utils]: success
+[2024-04-26 15:13:40] INFO root fetch - main [MainThread]: Store serial: [22947867]
