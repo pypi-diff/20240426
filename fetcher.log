@@ -7154,3 +7154,33 @@
 [2024-04-26 03:54:46] INFO root fetch - processPackages [bed-reader]: Remove: archive file [/home/abi/fetcher/tmp/bed_reader-1.0.4b2.tar.gz]
 [2024-04-26 03:54:46] INFO root fetch - main [MainThread]: End processing [bed-reader]: success
 [2024-04-26 03:54:46] INFO root fetch - main [MainThread]: Store serial: [22941795]
+[2024-04-26 03:56:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22941795]
+[2024-04-26 03:56:55] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-26 03:56:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: DXEntity
+[2024-04-26 03:56:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: SnakesInSpace
+[2024-04-26 03:56:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: eqsolver
+[2024-04-26 03:56:55] INFO root fetch - processPackages [eqsolver]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-26 03:56:56] INFO root fetch - processPackages [eqsolver]: Downloading https://files.pythonhosted.org/packages/67/07/0274f0640869f00eaeaf9ab6484b470b4f071f9e085018c838a9a2cee3b6/eqsolver-0.2.1-py3-none-any.whl
+[2024-04-26 03:56:56] INFO root fetch - processPackages [DXEntity]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-26 03:56:56] INFO root fetch - processPackages [SnakesInSpace]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-26 03:56:56] INFO root fetch - processPackages [DXEntity]: Downloading https://files.pythonhosted.org/packages/73/b1/86fdb7620f1b49e975cf16e78453b86003761bd57af363d92d30a2438b20/DXEntity-0.1.7.tar.gz
+[2024-04-26 03:56:56] INFO root fetch - processPackages [SnakesInSpace]: Downloading https://files.pythonhosted.org/packages/6b/5e/98b9f3a8f8f4c453ab879e00833ef75a6c043847efdfd888445a62ba5e74/SnakesInSpace-0.0.8.tar.gz
+[2024-04-26 03:56:56] INFO root fetch - processPackages [eqsolver]: Downloading https://files.pythonhosted.org/packages/4b/d5/26d1e62562c247b8f0f39d2cd3d35ef802234e1fc16e385ea15783004eb9/eqsolver-0.2.2-py3-none-any.whl
+[2024-04-26 03:56:56] INFO root fetch - processPackages [eqsolver]: executing diffoscope
+[2024-04-26 03:56:56] INFO root fetch - processPackages [eqsolver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eqsolver-0.2.1-py3-none-any.whl.zip tmp/eqsolver-0.2.2-py3-none-any.whl.zip --markdown 20240426/e/eqsolver/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-04-26 03:56:56] INFO root fetch - processPackages [DXEntity]: Downloading https://files.pythonhosted.org/packages/d4/85/332338c711e223962c21811c0c5b268fa1169e2ebd5320a95202856d5475/dxentity-0.1.8.tar.gz
+[2024-04-26 03:56:56] INFO root fetch - processPackages [DXEntity]: executing diffoscope
+[2024-04-26 03:56:56] INFO root fetch - processPackages [DXEntity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DXEntity-0.1.7.tar.gz tmp/dxentity-0.1.8.tar.gz --markdown 20240426/D/DXEntity/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-26 03:56:56] INFO root fetch - processPackages [SnakesInSpace]: Downloading https://files.pythonhosted.org/packages/1a/03/7dc24c18bfc3b63cff772834b0517b03a6c1559eed12bf28c61828ebab5b/SnakesInSpace-0.0.9.tar.gz
+[2024-04-26 03:56:56] INFO root fetch - processPackages [SnakesInSpace]: executing diffoscope
+[2024-04-26 03:56:56] INFO root fetch - processPackages [SnakesInSpace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SnakesInSpace-0.0.8.tar.gz tmp/SnakesInSpace-0.0.9.tar.gz --markdown 20240426/S/SnakesInSpace/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-26 03:56:57] INFO root fetch - processPackages [eqsolver]: Remove: archive file [/home/abi/fetcher/tmp/eqsolver-0.2.1-py3-none-any.whl.zip]
+[2024-04-26 03:56:57] INFO root fetch - processPackages [eqsolver]: Remove: archive file [/home/abi/fetcher/tmp/eqsolver-0.2.2-py3-none-any.whl.zip]
+[2024-04-26 03:56:57] INFO root fetch - main [MainThread]: End processing [eqsolver]: success
+[2024-04-26 03:56:57] INFO root fetch - processPackages [DXEntity]: Remove: archive file [/home/abi/fetcher/tmp/DXEntity-0.1.7.tar.gz]
+[2024-04-26 03:56:57] INFO root fetch - processPackages [DXEntity]: Remove: archive file [/home/abi/fetcher/tmp/dxentity-0.1.8.tar.gz]
+[2024-04-26 03:56:57] INFO root fetch - main [MainThread]: End processing [DXEntity]: success
+[2024-04-26 03:56:57] INFO root fetch - processPackages [SnakesInSpace]: Remove: archive file [/home/abi/fetcher/tmp/SnakesInSpace-0.0.8.tar.gz]
+[2024-04-26 03:56:57] INFO root fetch - processPackages [SnakesInSpace]: Remove: archive file [/home/abi/fetcher/tmp/SnakesInSpace-0.0.9.tar.gz]
+[2024-04-26 03:56:57] INFO root fetch - main [MainThread]: End processing [SnakesInSpace]: success
+[2024-04-26 03:56:57] INFO root fetch - main [MainThread]: Store serial: [22941803]
