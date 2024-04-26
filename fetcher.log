@@ -10354,3 +10354,24 @@
 [2024-04-26 07:51:39] INFO root fetch - processPackages [STAIR-tools]: Remove: archive file [/home/abi/fetcher/tmp/STAIR-tools-1.1.7.tar.gz]
 [2024-04-26 07:51:39] INFO root fetch - main [MainThread]: End processing [STAIR-tools]: success
 [2024-04-26 07:51:39] INFO root fetch - main [MainThread]: Store serial: [22943107]
+[2024-04-26 07:53:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22943107]
+[2024-04-26 07:53:47] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-26 07:53:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kfre
+[2024-04-26 07:53:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scarcc
+[2024-04-26 07:53:47] INFO root fetch - processPackages [kfre]: New version: [0.1.1a2] Old Version: [0.1.1a0]
+[2024-04-26 07:53:47] INFO root fetch - processPackages [scarcc]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-04-26 07:53:47] INFO root fetch - processPackages [kfre]: Downloading https://files.pythonhosted.org/packages/63/ca/28b4a0333e6ad5a9a54ad3cf911ab0cb1e476b7f7855ae9a36cef9a8282d/kfre-0.1.1a0.tar.gz
+[2024-04-26 07:53:47] INFO root fetch - processPackages [scarcc]: Downloading https://files.pythonhosted.org/packages/2d/c7/6ce183543306ec89af5950062a8d2cc76020936a02e73ba45f92a7723b2a/scarcc-0.1.6-py3-none-any.whl
+[2024-04-26 07:53:48] INFO root fetch - processPackages [kfre]: Downloading https://files.pythonhosted.org/packages/02/21/b906ef92877082bee4c516261bcf956f8bdbe0e1caf96a4235b26c076f97/kfre-0.1.1a2.tar.gz
+[2024-04-26 07:53:48] INFO root fetch - processPackages [scarcc]: Downloading https://files.pythonhosted.org/packages/cb/ec/b22637ece98a09f869d94f8c33e13f37d6536095e7bc2f184b062ddcc9b1/scarcc-0.1.7.tar.gz
+[2024-04-26 07:53:48] INFO root fetch - processPackages [kfre]: executing diffoscope
+[2024-04-26 07:53:48] INFO root fetch - processPackages [kfre]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfre-0.1.1a0.tar.gz tmp/kfre-0.1.1a2.tar.gz --markdown 20240426/k/kfre/0.1.1a0-0.1.1a2/README.md --exclude *.pyd
+[2024-04-26 07:53:48] INFO root fetch - processPackages [scarcc]: executing diffoscope
+[2024-04-26 07:53:48] INFO root fetch - processPackages [scarcc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scarcc-0.1.6-py3-none-any.whl.zip tmp/scarcc-0.1.7.tar.gz --markdown 20240426/s/scarcc/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-04-26 07:53:48] INFO root fetch - processPackages [kfre]: Remove: archive file [/home/abi/fetcher/tmp/kfre-0.1.1a0.tar.gz]
+[2024-04-26 07:53:48] INFO root fetch - processPackages [kfre]: Remove: archive file [/home/abi/fetcher/tmp/kfre-0.1.1a2.tar.gz]
+[2024-04-26 07:53:48] INFO root fetch - main [MainThread]: End processing [kfre]: success
+[2024-04-26 07:53:48] INFO root fetch - processPackages [scarcc]: Remove: archive file [/home/abi/fetcher/tmp/scarcc-0.1.6-py3-none-any.whl.zip]
+[2024-04-26 07:53:48] INFO root fetch - processPackages [scarcc]: Remove: archive file [/home/abi/fetcher/tmp/scarcc-0.1.7.tar.gz]
+[2024-04-26 07:53:48] INFO root fetch - main [MainThread]: End processing [scarcc]: success
+[2024-04-26 07:53:48] INFO root fetch - main [MainThread]: Store serial: [22943112]
