@@ -9386,3 +9386,29 @@
 [2024-04-26 06:58:20] INFO root fetch - processPackages [GS-Edit]: Remove: archive file [/home/abi/fetcher/tmp/GS_Edit-0.2.5-py3-none-any.whl.zip]
 [2024-04-26 06:58:20] INFO root fetch - main [MainThread]: End processing [GS-Edit]: success
 [2024-04-26 06:58:20] INFO root fetch - main [MainThread]: Store serial: [22942753]
+[2024-04-26 07:00:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22942753]
+[2024-04-26 07:00:29] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-26 07:00:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mainshortcuts
+[2024-04-26 07:00:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vegan
+[2024-04-26 07:00:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vehicle-lang
+[2024-04-26 07:00:30] INFO root fetch - processPackages [mainshortcuts]: New version: [1.6.81] Old Version: [1.6.80]
+[2024-04-26 07:00:30] INFO root fetch - processPackages [vehicle-lang]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-26 07:00:30] INFO root fetch - processPackages [mainshortcuts]: Downloading https://files.pythonhosted.org/packages/ec/69/a4a9d877338640bc7a3f1316a26b48a011ba0645b1b9d1104f35c81c0b99/mainshortcuts-1.6.80.tar.gz
+[2024-04-26 07:00:30] INFO root fetch - processPackages [vegan]: New version: [2.0.0] Old Version: [1.0.0]
+[2024-04-26 07:00:30] INFO root fetch - processPackages [vegan]: Downloading https://files.pythonhosted.org/packages/7b/98/3ad96ddd99ebf1a4ffed48b820a198956adcd7ac0f8f338141e370e7509a/vegan-1.0.0.tar.gz
+[2024-04-26 07:00:30] INFO root fetch - processPackages [vehicle-lang]: Downloading https://files.pythonhosted.org/packages/c2/1b/52b636efacd4e6afd6c6236685895ca935bfd2a35997f052ec125a95e762/vehicle_lang-0.8.0-cp39-cp39-win_amd64.whl
+[2024-04-26 07:00:30] WARNING root fetch - processPackages [vehicle-lang]: Skipping package: exceeds size limit 12112368>=10485760
+[2024-04-26 07:00:30] INFO root fetch - main [MainThread]: End processing [vehicle-lang] error
+[2024-04-26 07:00:30] INFO root fetch - processPackages [mainshortcuts]: Downloading https://files.pythonhosted.org/packages/ab/b3/38dec4f0cae2890aebaaaa06be8ad9835af63621c126231a89658232a16a/mainshortcuts-1.6.81.tar.gz
+[2024-04-26 07:00:30] INFO root fetch - processPackages [mainshortcuts]: executing diffoscope
+[2024-04-26 07:00:30] INFO root fetch - processPackages [mainshortcuts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mainshortcuts-1.6.80.tar.gz tmp/mainshortcuts-1.6.81.tar.gz --markdown 20240426/m/mainshortcuts/1.6.80-1.6.81/README.md --exclude *.pyd
+[2024-04-26 07:00:30] INFO root fetch - processPackages [vegan]: Downloading https://files.pythonhosted.org/packages/94/c9/1f71ebe96f7a1b08b2b0ee18d397672519ef3bffbdca9623170719980ae0/vegan-2.0.0.tar.gz
+[2024-04-26 07:00:31] INFO root fetch - processPackages [mainshortcuts]: Remove: archive file [/home/abi/fetcher/tmp/mainshortcuts-1.6.80.tar.gz]
+[2024-04-26 07:00:31] INFO root fetch - processPackages [mainshortcuts]: Remove: archive file [/home/abi/fetcher/tmp/mainshortcuts-1.6.81.tar.gz]
+[2024-04-26 07:00:31] INFO root fetch - main [MainThread]: End processing [mainshortcuts]: success
+[2024-04-26 07:00:31] INFO root fetch - processPackages [vegan]: executing diffoscope
+[2024-04-26 07:00:31] INFO root fetch - processPackages [vegan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vegan-1.0.0.tar.gz tmp/vegan-2.0.0.tar.gz --markdown 20240426/v/vegan/1.0.0-2.0.0/README.md --exclude *.pyd
+[2024-04-26 07:00:49] INFO root fetch - processPackages [vegan]: Remove: archive file [/home/abi/fetcher/tmp/vegan-1.0.0.tar.gz]
+[2024-04-26 07:00:49] INFO root fetch - processPackages [vegan]: Remove: archive file [/home/abi/fetcher/tmp/vegan-2.0.0.tar.gz]
+[2024-04-26 07:00:49] INFO root fetch - main [MainThread]: End processing [vegan]: success
+[2024-04-26 07:00:49] INFO root fetch - main [MainThread]: Store serial: [22942760]
