@@ -7524,3 +7524,41 @@
 [2024-04-26 04:33:58] INFO root fetch - processPackages [immanuel]: Remove: archive file [/home/abi/fetcher/tmp/immanuel-1.3.3.tar.gz]
 [2024-04-26 04:33:58] INFO root fetch - main [MainThread]: End processing [immanuel]: success
 [2024-04-26 04:33:58] INFO root fetch - main [MainThread]: Store serial: [22941967]
+[2024-04-26 04:36:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22941967]
+[2024-04-26 04:36:07] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-26 04:36:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tfrecord-slow
+[2024-04-26 04:36:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: khoj-cli
+[2024-04-26 04:36:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bdmc
+[2024-04-26 04:36:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fastlmm
+[2024-04-26 04:36:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jionlp
+[2024-04-26 04:36:07] WARNING root fetch - processPackages [khoj-cli]: Skipping, unable to determine old version
+[2024-04-26 04:36:07] INFO root fetch - main [MainThread]: End processing [khoj-cli] error
+[2024-04-26 04:36:07] INFO root fetch - processPackages [tfrecord-slow]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-04-26 04:36:07] INFO root fetch - processPackages [tfrecord-slow]: Downloading https://files.pythonhosted.org/packages/15/e1/7592fda438139f78f8ace5525a3fb87c5031dfb70573e7601a4bdb1ba118/tfrecord_slow-0.4.0.tar.gz
+[2024-04-26 04:36:07] INFO root fetch - processPackages [jionlp]: New version: [1.5.9] Old Version: [1.5.7]
+[2024-04-26 04:36:07] INFO root fetch - processPackages [fastlmm]: New version: [0.6.8b1] Old Version: [0.6.7]
+[2024-04-26 04:36:07] INFO root fetch - processPackages [bdmc]: New version: [0.1.4a0] Old Version: [0.1.3]
+[2024-04-26 04:36:07] INFO root fetch - processPackages [fastlmm]: Downloading https://files.pythonhosted.org/packages/ab/24/016819b7388b4de7a9311f27d72f6409ee08adf28aa2d993db54dc3d2fca/fastlmm-0.6.7.tar.gz
+[2024-04-26 04:36:07] INFO root fetch - processPackages [jionlp]: Downloading https://files.pythonhosted.org/packages/fb/ac/efbe7563b8275df6723770b47c7feb162dabbb9b4b5e15da8cb73b4b5f85/jionlp-1.5.7-py2.py3-none-any.whl
+[2024-04-26 04:36:07] INFO root fetch - processPackages [bdmc]: Downloading https://files.pythonhosted.org/packages/02/50/bdcb26f31543bd89a8872eef46fff3385cf8db4dfe63edb3640db79fdbf8/bdmc-0.1.3.tar.gz
+[2024-04-26 04:36:08] INFO root fetch - processPackages [tfrecord-slow]: Downloading https://files.pythonhosted.org/packages/79/30/ca8489967cda962361542604101428be25cc3bd61d8b226bacb9bb9ff1b0/tfrecord_slow-0.5.0.tar.gz
+[2024-04-26 04:36:08] INFO root fetch - processPackages [tfrecord-slow]: executing diffoscope
+[2024-04-26 04:36:08] INFO root fetch - processPackages [tfrecord-slow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfrecord_slow-0.4.0.tar.gz tmp/tfrecord_slow-0.5.0.tar.gz --markdown 20240426/t/tfrecord-slow/0.4.0-0.5.0/README.md --exclude *.pyd
+[2024-04-26 04:36:08] INFO root fetch - processPackages [bdmc]: Downloading https://files.pythonhosted.org/packages/83/5a/82934e746c240f98fd7cb01ce65e76f86e610a27d824ef551bd85306c4d6/bdmc-0.1.4a0.tar.gz
+[2024-04-26 04:36:08] WARNING root fetch - processPackages [jionlp]: Skipping package: exceeds size limit 19099900>=10485760
+[2024-04-26 04:36:08] INFO root fetch - main [MainThread]: End processing [jionlp] error
+[2024-04-26 04:36:08] INFO root fetch - processPackages [bdmc]: executing diffoscope
+[2024-04-26 04:36:08] INFO root fetch - processPackages [bdmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bdmc-0.1.3.tar.gz tmp/bdmc-0.1.4a0.tar.gz --markdown 20240426/b/bdmc/0.1.3-0.1.4a0/README.md --exclude *.pyd
+[2024-04-26 04:36:08] INFO root fetch - processPackages [tfrecord-slow]: Remove: archive file [/home/abi/fetcher/tmp/tfrecord_slow-0.4.0.tar.gz]
+[2024-04-26 04:36:08] INFO root fetch - processPackages [tfrecord-slow]: Remove: archive file [/home/abi/fetcher/tmp/tfrecord_slow-0.5.0.tar.gz]
+[2024-04-26 04:36:08] INFO root fetch - main [MainThread]: End processing [tfrecord-slow]: success
+[2024-04-26 04:36:08] INFO root fetch - processPackages [bdmc]: Remove: archive file [/home/abi/fetcher/tmp/bdmc-0.1.3.tar.gz]
+[2024-04-26 04:36:08] INFO root fetch - processPackages [bdmc]: Remove: archive file [/home/abi/fetcher/tmp/bdmc-0.1.4a0.tar.gz]
+[2024-04-26 04:36:08] INFO root fetch - main [MainThread]: End processing [bdmc]: success
+[2024-04-26 04:36:09] INFO root fetch - processPackages [fastlmm]: Downloading https://files.pythonhosted.org/packages/a0/e2/fa77484c7aae2084f465fd61d01e85d27062d3dfcbf2a5fdceba712e5d58/fastlmm-0.6.8b1.tar.gz
+[2024-04-26 04:36:10] INFO root fetch - processPackages [fastlmm]: executing diffoscope
+[2024-04-26 04:36:10] INFO root fetch - processPackages [fastlmm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastlmm-0.6.7.tar.gz tmp/fastlmm-0.6.8b1.tar.gz --markdown 20240426/f/fastlmm/0.6.7-0.6.8b1/README.md --exclude *.pyd
+[2024-04-26 04:36:13] INFO root fetch - processPackages [fastlmm]: Remove: archive file [/home/abi/fetcher/tmp/fastlmm-0.6.7.tar.gz]
+[2024-04-26 04:36:13] INFO root fetch - processPackages [fastlmm]: Remove: archive file [/home/abi/fetcher/tmp/fastlmm-0.6.8b1.tar.gz]
+[2024-04-26 04:36:13] INFO root fetch - main [MainThread]: End processing [fastlmm]: success
+[2024-04-26 04:36:13] INFO root fetch - main [MainThread]: Store serial: [22941981]
