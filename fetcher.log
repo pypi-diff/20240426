@@ -21467,3 +21467,27 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 15:29:35] INFO root fetch - processPackages [telegram-markdown-text]: Remove: archive file [/home/abi/fetcher/tmp/telegram_markdown_text-0.4.tar.gz]
 [2024-04-26 15:29:35] INFO root fetch - main [MainThread]: End processing [telegram-markdown-text]: success
 [2024-04-26 15:29:35] INFO root fetch - main [MainThread]: Store serial: [22948063]
+[2024-04-26 15:31:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22948063]
+[2024-04-26 15:31:44] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-26 15:31:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: twitterexplorer
+[2024-04-26 15:31:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sd212review
+[2024-04-26 15:31:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nonebot-plugin-sticker-saver
+[2024-04-26 15:31:44] INFO root fetch - processPackages [twitterexplorer]: New version: [0.7.0] Old Version: [0.6.7]
+[2024-04-26 15:31:44] INFO root fetch - processPackages [sd212review]: New version: [0.0.24] Old Version: [0.0.1]
+[2024-04-26 15:31:44] WARNING root fetch - processPackages [nonebot-plugin-sticker-saver]: Skipping, unable to determine old version
+[2024-04-26 15:31:44] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-sticker-saver] error
+[2024-04-26 15:31:44] INFO root fetch - processPackages [sd212review]: Downloading https://files.pythonhosted.org/packages/88/c2/e6182616fd94bd6486a9b0faf5ea09203cb8827ea528763dd908d6f99a4e/sd212review-0.0.1.tar.gz
+[2024-04-26 15:31:44] INFO root fetch - processPackages [twitterexplorer]: Downloading https://files.pythonhosted.org/packages/c8/1b/41fb7a691f37838a85980ade94a46d31a53d650fd7a5b9c533e13777be5d/twitterexplorer-0.6.7.tar.gz
+[2024-04-26 15:31:44] INFO root fetch - processPackages [twitterexplorer]: Downloading https://files.pythonhosted.org/packages/76/b8/21ad766d2661968f50e6e47d5310cdb2a96911c79e032a16800b499b333e/twitterexplorer-0.7.0.tar.gz
+[2024-04-26 15:31:44] INFO root fetch - processPackages [sd212review]: Downloading https://files.pythonhosted.org/packages/3d/88/91ffd17bf61701ee4035b7a0f3f14274008c6f68e026974177742bed6782/sd212review-0.0.24.tar.gz
+[2024-04-26 15:31:44] INFO root fetch - processPackages [twitterexplorer]: executing diffoscope
+[2024-04-26 15:31:44] INFO root fetch - processPackages [twitterexplorer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twitterexplorer-0.6.7.tar.gz tmp/twitterexplorer-0.7.0.tar.gz --markdown 20240426/t/twitterexplorer/0.6.7-0.7.0/README.md --exclude *.pyd
+[2024-04-26 15:31:44] INFO root fetch - processPackages [sd212review]: executing diffoscope
+[2024-04-26 15:31:44] INFO root fetch - processPackages [sd212review]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sd212review-0.0.1.tar.gz tmp/sd212review-0.0.24.tar.gz --markdown 20240426/s/sd212review/0.0.1-0.0.24/README.md --exclude *.pyd
+[2024-04-26 15:31:45] INFO root fetch - processPackages [sd212review]: Remove: archive file [/home/abi/fetcher/tmp/sd212review-0.0.1.tar.gz]
+[2024-04-26 15:31:45] INFO root fetch - processPackages [sd212review]: Remove: archive file [/home/abi/fetcher/tmp/sd212review-0.0.24.tar.gz]
+[2024-04-26 15:31:45] INFO root fetch - main [MainThread]: End processing [sd212review]: success
+[2024-04-26 15:31:46] INFO root fetch - processPackages [twitterexplorer]: Remove: archive file [/home/abi/fetcher/tmp/twitterexplorer-0.6.7.tar.gz]
+[2024-04-26 15:31:46] INFO root fetch - processPackages [twitterexplorer]: Remove: archive file [/home/abi/fetcher/tmp/twitterexplorer-0.7.0.tar.gz]
+[2024-04-26 15:31:46] INFO root fetch - main [MainThread]: End processing [twitterexplorer]: success
+[2024-04-26 15:31:46] INFO root fetch - main [MainThread]: Store serial: [22948078]
