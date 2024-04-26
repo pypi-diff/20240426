@@ -7429,3 +7429,60 @@
 [2024-04-26 04:27:21] INFO root fetch - processPackages [pyhasura]: Remove: archive file [/home/abi/fetcher/tmp/pyhasura-1.0.6.tar.gz]
 [2024-04-26 04:27:21] INFO root fetch - main [MainThread]: End processing [pyhasura]: success
 [2024-04-26 04:27:21] INFO root fetch - main [MainThread]: Store serial: [22941938]
+[2024-04-26 04:29:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22941938]
+[2024-04-26 04:29:29] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-26 04:29:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flet-iconoir
+[2024-04-26 04:29:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chepy
+[2024-04-26 04:29:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fastfuels
+[2024-04-26 04:29:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fgo-api-types
+[2024-04-26 04:29:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-docker-build
+[2024-04-26 04:29:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pytgpt-bot
+[2024-04-26 04:29:29] INFO root fetch - processPackages [pulumi-docker-build]: New version: [0.0.2] Old Version: [0.0.1a3]
+[2024-04-26 04:29:29] INFO root fetch - processPackages [pytgpt-bot]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-26 04:29:29] INFO root fetch - processPackages [flet-iconoir]: New version: [0.2.0] Old Version: [0.1.5]
+[2024-04-26 04:29:29] INFO root fetch - processPackages [fgo-api-types]: New version: [2024.4.6.2.22.3] Old Version: [2024.4.25.22.59.52]
+[2024-04-26 04:29:29] INFO root fetch - processPackages [fastfuels]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-04-26 04:29:29] INFO root fetch - processPackages [pulumi-docker-build]: Downloading https://files.pythonhosted.org/packages/7c/33/c55cefeec5d7c3f9eb07a6335fde6d1e2eb517f64c286a7a45d5dca63ba5/pulumi_docker_build-0.0.1a3.tar.gz
+[2024-04-26 04:29:29] INFO root fetch - processPackages [fgo-api-types]: Downloading https://files.pythonhosted.org/packages/19/84/f70b5bac7e94a6c048851eeb5860dfb77c5e7d6025c833a9ee41c89dfd33/fgo_api_types-2024.4.25.22.59.52.tar.gz
+[2024-04-26 04:29:29] INFO root fetch - processPackages [flet-iconoir]: Downloading https://files.pythonhosted.org/packages/7c/d2/116244a0bdb3e928bbb8a658807e62e7086b9789a4395897b9c4dd5331ac/flet_iconoir-0.1.5.tar.gz
+[2024-04-26 04:29:29] INFO root fetch - processPackages [pytgpt-bot]: Downloading https://files.pythonhosted.org/packages/94/28/d9f60d65bab76450491ee18ada6a6218f56425c21416eca21f6b3fe14a32/pytgpt_bot-0.0.6.tar.gz
+[2024-04-26 04:29:29] INFO root fetch - processPackages [chepy]: New version: [7.0.0] Old Version: [6.7.0]
+[2024-04-26 04:29:30] INFO root fetch - processPackages [pulumi-docker-build]: Downloading https://files.pythonhosted.org/packages/e1/a2/71486408865e66e6e90c4d45a45bfc8b1b75eae99bc65b6990700dc18efb/pulumi_docker_build-0.0.2.tar.gz
+[2024-04-26 04:29:30] INFO root fetch - processPackages [fastfuels]: Downloading https://files.pythonhosted.org/packages/68/ca/576995e12d1d4b4dcc5178dfd76461554c58fb91de0987436ec3838bc28f/fastfuels-1.0.5.tar.gz
+[2024-04-26 04:29:30] INFO root fetch - processPackages [fgo-api-types]: Downloading https://files.pythonhosted.org/packages/b9/41/3dbb26f0f980c564a1e8ae75299afc724991934ffaf1a8a59ab70aafb784/fgo_api_types-2024.4.6.2.22.3.tar.gz
+[2024-04-26 04:29:30] INFO root fetch - processPackages [chepy]: Downloading https://files.pythonhosted.org/packages/74/e1/c766262a04beca8b29f40f5f743a1e527a1827d0b11ed6e11aca6f020826/chepy-6.7.0.tar.gz
+[2024-04-26 04:29:30] INFO root fetch - processPackages [flet-iconoir]: Downloading https://files.pythonhosted.org/packages/ef/0b/e6bdb70737d52217d168e70ae551b1363b2f56fd3a264d911ea57e8cfe9a/flet_iconoir-0.2.0.tar.gz
+[2024-04-26 04:29:30] INFO root fetch - processPackages [pulumi-docker-build]: executing diffoscope
+[2024-04-26 04:29:30] INFO root fetch - processPackages [pulumi-docker-build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_docker_build-0.0.1a3.tar.gz tmp/pulumi_docker_build-0.0.2.tar.gz --markdown 20240426/p/pulumi-docker-build/0.0.1a3-0.0.2/README.md --exclude *.pyd
+[2024-04-26 04:29:30] INFO root fetch - processPackages [fgo-api-types]: executing diffoscope
+[2024-04-26 04:29:30] INFO root fetch - processPackages [pytgpt-bot]: Downloading https://files.pythonhosted.org/packages/57/d8/6ab87932a5df709331d1009bdc3d181d935aab7a1a072a466f53eb01215b/pytgpt_bot-0.0.7.tar.gz
+[2024-04-26 04:29:30] INFO root fetch - processPackages [fgo-api-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fgo_api_types-2024.4.25.22.59.52.tar.gz tmp/fgo_api_types-2024.4.6.2.22.3.tar.gz --markdown 20240426/f/fgo-api-types/2024.4.25.22.59.52-2024.4.6.2.22.3/README.md --exclude *.pyd
+[2024-04-26 04:29:30] INFO root fetch - processPackages [flet-iconoir]: executing diffoscope
+[2024-04-26 04:29:30] INFO root fetch - processPackages [flet-iconoir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_iconoir-0.1.5.tar.gz tmp/flet_iconoir-0.2.0.tar.gz --markdown 20240426/f/flet-iconoir/0.1.5-0.2.0/README.md --exclude *.pyd
+[2024-04-26 04:29:30] INFO root fetch - processPackages [pytgpt-bot]: executing diffoscope
+[2024-04-26 04:29:30] INFO root fetch - processPackages [pytgpt-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytgpt_bot-0.0.6.tar.gz tmp/pytgpt_bot-0.0.7.tar.gz --markdown 20240426/p/pytgpt-bot/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-26 04:29:30] INFO root fetch - processPackages [fastfuels]: Downloading https://files.pythonhosted.org/packages/80/af/59bb303a99924f879c519da20f3a932c1652ab45f6592f4fb007e86f1e6c/fastfuels-1.0.6.tar.gz
+[2024-04-26 04:29:30] INFO root fetch - processPackages [chepy]: Downloading https://files.pythonhosted.org/packages/e4/18/05b415c1a00845e28a5106fe1df11616eb3b7f4e92a8f456b93f7c6e45c3/chepy-7.0.0.tar.gz
+[2024-04-26 04:29:30] INFO root fetch - processPackages [fastfuels]: executing diffoscope
+[2024-04-26 04:29:30] INFO root fetch - processPackages [fastfuels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastfuels-1.0.5.tar.gz tmp/fastfuels-1.0.6.tar.gz --markdown 20240426/f/fastfuels/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-04-26 04:29:30] INFO root fetch - processPackages [chepy]: executing diffoscope
+[2024-04-26 04:29:30] INFO root fetch - processPackages [chepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chepy-6.7.0.tar.gz tmp/chepy-7.0.0.tar.gz --markdown 20240426/c/chepy/6.7.0-7.0.0/README.md --exclude *.pyd
+[2024-04-26 04:29:30] INFO root fetch - processPackages [pulumi-docker-build]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_docker_build-0.0.1a3.tar.gz]
+[2024-04-26 04:29:30] INFO root fetch - processPackages [pulumi-docker-build]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_docker_build-0.0.2.tar.gz]
+[2024-04-26 04:29:30] INFO root fetch - main [MainThread]: End processing [pulumi-docker-build]: success
+[2024-04-26 04:29:31] INFO root fetch - processPackages [fgo-api-types]: Remove: archive file [/home/abi/fetcher/tmp/fgo_api_types-2024.4.25.22.59.52.tar.gz]
+[2024-04-26 04:29:31] INFO root fetch - processPackages [fgo-api-types]: Remove: archive file [/home/abi/fetcher/tmp/fgo_api_types-2024.4.6.2.22.3.tar.gz]
+[2024-04-26 04:29:31] INFO root fetch - main [MainThread]: End processing [fgo-api-types]: success
+[2024-04-26 04:29:31] INFO root fetch - processPackages [pytgpt-bot]: Remove: archive file [/home/abi/fetcher/tmp/pytgpt_bot-0.0.6.tar.gz]
+[2024-04-26 04:29:31] INFO root fetch - processPackages [pytgpt-bot]: Remove: archive file [/home/abi/fetcher/tmp/pytgpt_bot-0.0.7.tar.gz]
+[2024-04-26 04:29:31] INFO root fetch - main [MainThread]: End processing [pytgpt-bot]: success
+[2024-04-26 04:29:31] INFO root fetch - processPackages [fastfuels]: Remove: archive file [/home/abi/fetcher/tmp/fastfuels-1.0.5.tar.gz]
+[2024-04-26 04:29:31] INFO root fetch - processPackages [fastfuels]: Remove: archive file [/home/abi/fetcher/tmp/fastfuels-1.0.6.tar.gz]
+[2024-04-26 04:29:31] INFO root fetch - main [MainThread]: End processing [fastfuels]: success
+[2024-04-26 04:29:31] INFO root fetch - processPackages [chepy]: Remove: archive file [/home/abi/fetcher/tmp/chepy-6.7.0.tar.gz]
+[2024-04-26 04:29:31] INFO root fetch - processPackages [chepy]: Remove: archive file [/home/abi/fetcher/tmp/chepy-7.0.0.tar.gz]
+[2024-04-26 04:29:31] INFO root fetch - main [MainThread]: End processing [chepy]: success
+[2024-04-26 04:29:36] INFO root fetch - processPackages [flet-iconoir]: Remove: archive file [/home/abi/fetcher/tmp/flet_iconoir-0.1.5.tar.gz]
+[2024-04-26 04:29:36] INFO root fetch - processPackages [flet-iconoir]: Remove: archive file [/home/abi/fetcher/tmp/flet_iconoir-0.2.0.tar.gz]
+[2024-04-26 04:29:36] INFO root fetch - main [MainThread]: End processing [flet-iconoir]: success
+[2024-04-26 04:29:36] INFO root fetch - main [MainThread]: Store serial: [22941955]
