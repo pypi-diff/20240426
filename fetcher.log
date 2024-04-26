@@ -8657,3 +8657,39 @@
 [2024-04-26 06:01:45] INFO root fetch - processPackages [odoo-addon-attachment-preview]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_attachment_preview-15.0.1.0.0.8-py3-none-any.whl.zip]
 [2024-04-26 06:01:45] INFO root fetch - main [MainThread]: End processing [odoo-addon-attachment-preview]: success
 [2024-04-26 06:01:45] INFO root fetch - main [MainThread]: Store serial: [22942447]
+[2024-04-26 06:03:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22942447]
+[2024-04-26 06:03:53] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-26 06:03:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Pokealanbs
+[2024-04-26 06:03:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bosing
+[2024-04-26 06:03:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pwrdrvr.microapps.cdk
+[2024-04-26 06:03:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vision-agent
+[2024-04-26 06:03:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: common-tools-ai-bnq
+[2024-04-26 06:03:53] INFO root fetch - processPackages [bosing]: New version: [2.0.0b5] Old Version: [2.0.0b4]
+[2024-04-26 06:03:53] INFO root fetch - processPackages [vision-agent]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-04-26 06:03:53] WARNING root fetch - processPackages [Pokealanbs]: Skipping, unable to determine old version
+[2024-04-26 06:03:53] INFO root fetch - main [MainThread]: End processing [Pokealanbs] error
+[2024-04-26 06:03:53] INFO root fetch - processPackages [bosing]: Downloading https://files.pythonhosted.org/packages/ff/0b/6e54b8d75558006593b39e1d38282e423d3245ae9295c9b9d4896056c3e2/bosing-2.0.0b4.tar.gz
+[2024-04-26 06:03:53] INFO root fetch - processPackages [pwrdrvr.microapps.cdk]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-26 06:03:53] INFO root fetch - processPackages [vision-agent]: Downloading https://files.pythonhosted.org/packages/54/a3/b9db418870ef09946d1a820d72fe6f4e0472e85b5e6c2005d6e9cbd1f260/vision_agent-0.2.6.tar.gz
+[2024-04-26 06:03:53] WARNING root fetch - processPackages [common-tools-ai-bnq]: Skipping, unable to determine old version
+[2024-04-26 06:03:53] INFO root fetch - main [MainThread]: End processing [common-tools-ai-bnq] error
+[2024-04-26 06:03:54] INFO root fetch - processPackages [bosing]: Downloading https://files.pythonhosted.org/packages/ef/6b/11a378a8301ce4db17fed41a777df076e6f9ab460b02b3bdeed03eb6e9d7/bosing-2.0.0b5.tar.gz
+[2024-04-26 06:03:54] INFO root fetch - processPackages [pwrdrvr.microapps.cdk]: Downloading https://files.pythonhosted.org/packages/14/d1/081427b62e8ebee9462dfb47eb2ae9e4c93b3929191b2e0be128c8e351f9/pwrdrvr.microapps.cdk-1.0.0.tar.gz
+[2024-04-26 06:03:54] INFO root fetch - processPackages [bosing]: executing diffoscope
+[2024-04-26 06:03:54] INFO root fetch - processPackages [bosing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bosing-2.0.0b4.tar.gz tmp/bosing-2.0.0b5.tar.gz --markdown 20240426/b/bosing/2.0.0b4-2.0.0b5/README.md --exclude *.pyd
+[2024-04-26 06:03:54] INFO root fetch - processPackages [vision-agent]: Downloading https://files.pythonhosted.org/packages/28/27/d7503c34b84bf2a9ad8ecae8a2308017f813277f53de929fe97742b6bc39/vision_agent-0.2.7.tar.gz
+[2024-04-26 06:03:54] INFO root fetch - processPackages [vision-agent]: executing diffoscope
+[2024-04-26 06:03:54] INFO root fetch - processPackages [vision-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vision_agent-0.2.6.tar.gz tmp/vision_agent-0.2.7.tar.gz --markdown 20240426/v/vision-agent/0.2.6-0.2.7/README.md --exclude *.pyd
+[2024-04-26 06:03:54] INFO root fetch - processPackages [pwrdrvr.microapps.cdk]: Downloading https://files.pythonhosted.org/packages/59/1c/5b27e3e0be92e9131107f7f5850c1a6da4fa9a002997873655635ab269e2/pwrdrvr.microapps.cdk-1.0.1.tar.gz
+[2024-04-26 06:03:54] INFO root fetch - processPackages [pwrdrvr.microapps.cdk]: executing diffoscope
+[2024-04-26 06:03:54] INFO root fetch - processPackages [pwrdrvr.microapps.cdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pwrdrvr.microapps.cdk-1.0.0.tar.gz tmp/pwrdrvr.microapps.cdk-1.0.1.tar.gz --markdown 20240426/p/pwrdrvr.microapps.cdk/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-26 06:03:54] INFO root fetch - processPackages [bosing]: Remove: archive file [/home/abi/fetcher/tmp/bosing-2.0.0b4.tar.gz]
+[2024-04-26 06:03:54] INFO root fetch - processPackages [bosing]: Remove: archive file [/home/abi/fetcher/tmp/bosing-2.0.0b5.tar.gz]
+[2024-04-26 06:03:54] INFO root fetch - main [MainThread]: End processing [bosing]: success
+[2024-04-26 06:03:55] INFO root fetch - processPackages [vision-agent]: Remove: archive file [/home/abi/fetcher/tmp/vision_agent-0.2.6.tar.gz]
+[2024-04-26 06:03:55] INFO root fetch - processPackages [vision-agent]: Remove: archive file [/home/abi/fetcher/tmp/vision_agent-0.2.7.tar.gz]
+[2024-04-26 06:03:55] INFO root fetch - main [MainThread]: End processing [vision-agent]: success
+[2024-04-26 06:03:55] INFO root fetch - processPackages [pwrdrvr.microapps.cdk]: Remove: archive file [/home/abi/fetcher/tmp/pwrdrvr.microapps.cdk-1.0.0.tar.gz]
+[2024-04-26 06:03:55] INFO root fetch - processPackages [pwrdrvr.microapps.cdk]: Remove: archive file [/home/abi/fetcher/tmp/pwrdrvr.microapps.cdk-1.0.1.tar.gz]
+[2024-04-26 06:03:55] INFO root fetch - main [MainThread]: End processing [pwrdrvr.microapps.cdk]: success
+[2024-04-26 06:03:55] INFO root fetch - main [MainThread]: Store serial: [22942486]
