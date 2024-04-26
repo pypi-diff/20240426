@@ -23136,3 +23136,18 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 16:33:45] INFO root fetch - processPackages [buildgrid]: Remove: archive file [/home/abi/fetcher/tmp/buildgrid-0.0.93.tar.gz]
 [2024-04-26 16:33:45] INFO root fetch - main [MainThread]: End processing [buildgrid]: success
 [2024-04-26 16:33:45] INFO root fetch - main [MainThread]: Store serial: [22948699]
+[2024-04-26 16:35:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22948699]
+[2024-04-26 16:35:54] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-26 16:35:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyopenweathermap
+[2024-04-26 16:35:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: upycli
+[2024-04-26 16:35:55] WARNING root fetch - processPackages [pyopenweathermap]: Skipping, unable to determine old version
+[2024-04-26 16:35:55] INFO root fetch - main [MainThread]: End processing [pyopenweathermap] error
+[2024-04-26 16:35:55] INFO root fetch - processPackages [upycli]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-04-26 16:35:55] INFO root fetch - processPackages [upycli]: Downloading https://files.pythonhosted.org/packages/2e/85/f180d66743b7177b89dc8bd5768da1c2a90cdb09cc73185dc282988f68e8/upycli-0.2.5.tar.gz
+[2024-04-26 16:35:55] INFO root fetch - processPackages [upycli]: Downloading https://files.pythonhosted.org/packages/7a/31/0edbc7c6ac675a5005749a40b8fd470c1eb5794d8c447c99d5597accfcbd/upycli-0.2.6.tar.gz
+[2024-04-26 16:35:55] INFO root fetch - processPackages [upycli]: executing diffoscope
+[2024-04-26 16:35:55] INFO root fetch - processPackages [upycli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upycli-0.2.5.tar.gz tmp/upycli-0.2.6.tar.gz --markdown 20240426/u/upycli/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-04-26 16:35:56] INFO root fetch - processPackages [upycli]: Remove: archive file [/home/abi/fetcher/tmp/upycli-0.2.5.tar.gz]
+[2024-04-26 16:35:56] INFO root fetch - processPackages [upycli]: Remove: archive file [/home/abi/fetcher/tmp/upycli-0.2.6.tar.gz]
+[2024-04-26 16:35:56] INFO root fetch - main [MainThread]: End processing [upycli]: success
+[2024-04-26 16:35:56] INFO root fetch - main [MainThread]: Store serial: [22948707]
