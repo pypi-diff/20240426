@@ -19169,3 +19169,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 13:38:07] INFO root fetch - processPackages [affixapi]: Remove: archive file [/home/abi/fetcher/tmp/affixapi-1.1.65.tar.gz]
 [2024-04-26 13:38:07] INFO root fetch - main [MainThread]: End processing [affixapi]: success
 [2024-04-26 13:38:07] INFO root fetch - main [MainThread]: Store serial: [22946992]
+[2024-04-26 13:40:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22946992]
+[2024-04-26 13:40:17] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-26 13:40:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: praetorian-cli
+[2024-04-26 13:40:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: eral
+[2024-04-26 13:40:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: awsfindingsmanagerlib
+[2024-04-26 13:40:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gllogger
+[2024-04-26 13:40:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pretix-mollie
+[2024-04-26 13:40:17] INFO root fetch - processPackages [eral]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-26 13:40:17] INFO root fetch - processPackages [gllogger]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-26 13:40:17] INFO root fetch - processPackages [eral]: Downloading https://files.pythonhosted.org/packages/b2/f3/9a0f19ae67931576dbf19c7edc45c9a65ace349c67daa070580a45df1a8a/eral-0.0.4.tar.gz
+[2024-04-26 13:40:17] INFO root fetch - processPackages [praetorian-cli]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-04-26 13:40:17] INFO root fetch - processPackages [gllogger]: Downloading https://files.pythonhosted.org/packages/c5/07/eeb567e8ec1b90a91162aad4a92391efe757ffda3c4cf9979193b6a9f216/gllogger-0.0.4.tar.gz
+[2024-04-26 13:40:17] INFO root fetch - processPackages [pretix-mollie]: New version: [2.1.1] Old Version: [2.1.0]
+[2024-04-26 13:40:17] INFO root fetch - processPackages [awsfindingsmanagerlib]: New version: [0.1.0] Old Version: [0.0.0]
+[2024-04-26 13:40:18] INFO root fetch - processPackages [praetorian-cli]: Downloading https://files.pythonhosted.org/packages/c9/e3/941a6c40c40eede3936e7031f1fd4a53143ce8e7cc7a8ed9e5ff4346e968/praetorian_cli-0.8.1.tar.gz
+[2024-04-26 13:40:18] INFO root fetch - processPackages [gllogger]: Downloading https://files.pythonhosted.org/packages/cf/1d/5602ba27ea8a9067a4b683120449faeb0e7c77a0f7bd512ab26ce833e7f1/gllogger-0.0.5.tar.gz
+[2024-04-26 13:40:18] INFO root fetch - processPackages [pretix-mollie]: Downloading https://files.pythonhosted.org/packages/f5/5d/a49451f2d956e461b64e8635473a34565c7c278e5ef27aac13989e2b01c1/pretix-mollie-2.1.0.tar.gz
+[2024-04-26 13:40:18] INFO root fetch - processPackages [awsfindingsmanagerlib]: Downloading https://files.pythonhosted.org/packages/57/f7/b72d0ae43fecc0c72e6c634d7842c767e99fd9729df1cb2b19e108264383/awsfindingsmanagerlib-0.0.0.tar.gz
+[2024-04-26 13:40:18] INFO root fetch - processPackages [eral]: Downloading https://files.pythonhosted.org/packages/86/f5/f805ad2a5ccf9241b2c5270716ca261d6c929e48205f26a2c4251ceaab53/eral-0.0.5.tar.gz
+[2024-04-26 13:40:18] INFO root fetch - processPackages [gllogger]: executing diffoscope
+[2024-04-26 13:40:18] INFO root fetch - processPackages [gllogger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gllogger-0.0.4.tar.gz tmp/gllogger-0.0.5.tar.gz --markdown 20240426/g/gllogger/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-26 13:40:18] INFO root fetch - processPackages [eral]: executing diffoscope
+[2024-04-26 13:40:18] INFO root fetch - processPackages [eral]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eral-0.0.4.tar.gz tmp/eral-0.0.5.tar.gz --markdown 20240426/e/eral/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-26 13:40:18] INFO root fetch - processPackages [praetorian-cli]: Downloading https://files.pythonhosted.org/packages/ed/93/29fb2451874e4b51aa9da51167c2c325b5757ab2cc7623ef1e13629f5845/praetorian_cli-0.9.0.tar.gz
+[2024-04-26 13:40:18] INFO root fetch - processPackages [pretix-mollie]: Downloading https://files.pythonhosted.org/packages/40/ce/4dd4517a695ff7057c5379c1fb88fd662bba5f73bbd4136b83f7ecd4725f/pretix_mollie-2.1.1.tar.gz
+[2024-04-26 13:40:18] INFO root fetch - processPackages [awsfindingsmanagerlib]: Downloading https://files.pythonhosted.org/packages/35/d9/9e0f3e9879eef70283fba6b5ea3d258c85ff12e153cec9a7b945152f83d8/awsfindingsmanagerlib-0.1.0.tar.gz
+[2024-04-26 13:40:18] INFO root fetch - processPackages [praetorian-cli]: executing diffoscope
+[2024-04-26 13:40:18] INFO root fetch - processPackages [praetorian-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/praetorian_cli-0.8.1.tar.gz tmp/praetorian_cli-0.9.0.tar.gz --markdown 20240426/p/praetorian-cli/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-04-26 13:40:18] INFO root fetch - processPackages [awsfindingsmanagerlib]: executing diffoscope
+[2024-04-26 13:40:18] INFO root fetch - processPackages [awsfindingsmanagerlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awsfindingsmanagerlib-0.0.0.tar.gz tmp/awsfindingsmanagerlib-0.1.0.tar.gz --markdown 20240426/a/awsfindingsmanagerlib/0.0.0-0.1.0/README.md --exclude *.pyd
+[2024-04-26 13:40:18] INFO root fetch - processPackages [pretix-mollie]: executing diffoscope
+[2024-04-26 13:40:18] INFO root fetch - processPackages [pretix-mollie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pretix-mollie-2.1.0.tar.gz tmp/pretix_mollie-2.1.1.tar.gz --markdown 20240426/p/pretix-mollie/2.1.0-2.1.1/README.md --exclude *.pyd
+[2024-04-26 13:40:18] INFO root fetch - processPackages [gllogger]: Remove: archive file [/home/abi/fetcher/tmp/gllogger-0.0.4.tar.gz]
+[2024-04-26 13:40:18] INFO root fetch - processPackages [gllogger]: Remove: archive file [/home/abi/fetcher/tmp/gllogger-0.0.5.tar.gz]
+[2024-04-26 13:40:18] INFO root fetch - main [MainThread]: End processing [gllogger]: success
+[2024-04-26 13:40:18] INFO root fetch - processPackages [eral]: Remove: archive file [/home/abi/fetcher/tmp/eral-0.0.4.tar.gz]
+[2024-04-26 13:40:18] INFO root fetch - processPackages [eral]: Remove: archive file [/home/abi/fetcher/tmp/eral-0.0.5.tar.gz]
+[2024-04-26 13:40:18] INFO root fetch - main [MainThread]: End processing [eral]: success
+[2024-04-26 13:40:19] INFO root fetch - processPackages [praetorian-cli]: Remove: archive file [/home/abi/fetcher/tmp/praetorian_cli-0.8.1.tar.gz]
+[2024-04-26 13:40:19] INFO root fetch - processPackages [praetorian-cli]: Remove: archive file [/home/abi/fetcher/tmp/praetorian_cli-0.9.0.tar.gz]
+[2024-04-26 13:40:19] INFO root fetch - main [MainThread]: End processing [praetorian-cli]: success
+[2024-04-26 13:40:19] INFO root fetch - processPackages [awsfindingsmanagerlib]: Remove: archive file [/home/abi/fetcher/tmp/awsfindingsmanagerlib-0.0.0.tar.gz]
+[2024-04-26 13:40:19] INFO root fetch - processPackages [awsfindingsmanagerlib]: Remove: archive file [/home/abi/fetcher/tmp/awsfindingsmanagerlib-0.1.0.tar.gz]
+[2024-04-26 13:40:19] INFO root fetch - main [MainThread]: End processing [awsfindingsmanagerlib]: success
+[2024-04-26 13:40:19] INFO root fetch - processPackages [pretix-mollie]: Remove: archive file [/home/abi/fetcher/tmp/pretix-mollie-2.1.0.tar.gz]
+[2024-04-26 13:40:19] INFO root fetch - processPackages [pretix-mollie]: Remove: archive file [/home/abi/fetcher/tmp/pretix_mollie-2.1.1.tar.gz]
+[2024-04-26 13:40:19] INFO root fetch - main [MainThread]: End processing [pretix-mollie]: success
+[2024-04-26 13:40:19] INFO root fetch - main [MainThread]: Store serial: [22947006]
