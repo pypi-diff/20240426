@@ -7627,3 +7627,54 @@
 [2024-04-26 04:44:57] WARNING root fetch - processPackages [forbiditerative]: Skipping package: exceeds size limit 64816026>=10485760
 [2024-04-26 04:44:57] INFO root fetch - main [MainThread]: End processing [forbiditerative] error
 [2024-04-26 04:44:57] INFO root fetch - main [MainThread]: Store serial: [22942010]
+[2024-04-26 04:47:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22942010]
+[2024-04-26 04:47:05] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-26 04:47:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyhasura
+[2024-04-26 04:47:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: byzerllm
+[2024-04-26 04:47:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: typedmongo
+[2024-04-26 04:47:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: calculatordsr
+[2024-04-26 04:47:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytctracer
+[2024-04-26 04:47:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo12-addon-account-invoice-tier-validation
+[2024-04-26 04:47:05] INFO root fetch - processPackages [pyhasura]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-04-26 04:47:06] INFO root fetch - processPackages [typedmongo]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-26 04:47:06] INFO root fetch - processPackages [pyhasura]: Downloading https://files.pythonhosted.org/packages/9a/51/aec3eb1df37db784942db862c654dbfa6dbd5a50e92df17ee86c306b2e8f/pyhasura-1.0.6.tar.gz
+[2024-04-26 04:47:06] INFO root fetch - processPackages [odoo12-addon-account-invoice-tier-validation]: New version: [12.0.1.0.3.99.dev4] Old Version: [12.0.1.0.3.99.dev2]
+[2024-04-26 04:47:06] WARNING root fetch - processPackages [calculatordsr]: Skipping, unable to determine old version
+[2024-04-26 04:47:06] INFO root fetch - main [MainThread]: End processing [calculatordsr] error
+[2024-04-26 04:47:06] INFO root fetch - processPackages [pytctracer]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-26 04:47:06] INFO root fetch - processPackages [typedmongo]: Downloading https://files.pythonhosted.org/packages/03/74/8e66ba950109543f9a1f1f8d8bcbb15b7d8de7e8b8078b1215db00f51b9b/typedmongo-1.0.1.tar.gz
+[2024-04-26 04:47:06] INFO root fetch - processPackages [byzerllm]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-26 04:47:06] INFO root fetch - processPackages [pytctracer]: Downloading https://files.pythonhosted.org/packages/e3/2a/828b6fa19b77f089af90c5f79a2f863dd0b8377007a2b9e713db32119886/pytctracer-0.2.1.tar.gz
+[2024-04-26 04:47:06] INFO root fetch - processPackages [odoo12-addon-account-invoice-tier-validation]: Downloading https://files.pythonhosted.org/packages/51/ec/bf46662248fa69aa5f88d3daae0d2264fc8bb40711ba9927b41a36b91adc/odoo12_addon_account_invoice_tier_validation-12.0.1.0.3.99.dev2-py3-none-any.whl
+[2024-04-26 04:47:06] INFO root fetch - processPackages [byzerllm]: Downloading https://files.pythonhosted.org/packages/98/c6/1563f4025ee67d92445c7867c7ca1ad9c523055b4708ddd5ab2dab480c51/byzerllm-0.1.8.tar.gz
+[2024-04-26 04:47:06] INFO root fetch - processPackages [pyhasura]: Downloading https://files.pythonhosted.org/packages/81/99/fe7437756a1ceead6dff9a1e4c6e210a26e22326745492716780655fd1e0/pyhasura-1.0.7.tar.gz
+[2024-04-26 04:47:06] INFO root fetch - processPackages [typedmongo]: Downloading https://files.pythonhosted.org/packages/fa/6a/1b9a5502c35cd9f9f6c3ac61d7b6aaa8af8499417c58bfa839e16a98ba7f/typedmongo-1.0.2.tar.gz
+[2024-04-26 04:47:06] INFO root fetch - processPackages [pytctracer]: Downloading https://files.pythonhosted.org/packages/82/da/964c4040405538aee9f9e80afbcd0d07fd40470ba908358f807e0e429d8d/pytctracer-0.2.2.tar.gz
+[2024-04-26 04:47:06] INFO root fetch - processPackages [pyhasura]: executing diffoscope
+[2024-04-26 04:47:06] INFO root fetch - processPackages [pyhasura]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhasura-1.0.6.tar.gz tmp/pyhasura-1.0.7.tar.gz --markdown 20240426/p/pyhasura/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-04-26 04:47:06] INFO root fetch - processPackages [typedmongo]: executing diffoscope
+[2024-04-26 04:47:06] INFO root fetch - processPackages [typedmongo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typedmongo-1.0.1.tar.gz tmp/typedmongo-1.0.2.tar.gz --markdown 20240426/t/typedmongo/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-26 04:47:06] INFO root fetch - processPackages [pytctracer]: executing diffoscope
+[2024-04-26 04:47:06] INFO root fetch - processPackages [pytctracer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytctracer-0.2.1.tar.gz tmp/pytctracer-0.2.2.tar.gz --markdown 20240426/p/pytctracer/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-04-26 04:47:06] INFO root fetch - processPackages [odoo12-addon-account-invoice-tier-validation]: Downloading https://files.pythonhosted.org/packages/33/97/3733c9dd27f6d04a1e41c549a5bb2c056bcf87ea2967740ccb6a9ec79a19/odoo12_addon_account_invoice_tier_validation-12.0.1.0.3.99.dev4-py3-none-any.whl
+[2024-04-26 04:47:06] INFO root fetch - processPackages [byzerllm]: Downloading https://files.pythonhosted.org/packages/a0/04/10289d36794dda29e2a889dcf2e412dcd39997cf2bc11d5af1bcc4670b3d/byzerllm-0.1.9.tar.gz
+[2024-04-26 04:47:06] INFO root fetch - processPackages [odoo12-addon-account-invoice-tier-validation]: executing diffoscope
+[2024-04-26 04:47:06] INFO root fetch - processPackages [odoo12-addon-account-invoice-tier-validation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_account_invoice_tier_validation-12.0.1.0.3.99.dev2-py3-none-any.whl.zip tmp/odoo12_addon_account_invoice_tier_validation-12.0.1.0.3.99.dev4-py3-none-any.whl.zip --markdown 20240426/o/odoo12-addon-account-invoice-tier-validation/12.0.1.0.3.99.dev2-12.0.1.0.3.99.dev4/README.md --exclude *.pyd
+[2024-04-26 04:47:07] INFO root fetch - processPackages [pyhasura]: Remove: archive file [/home/abi/fetcher/tmp/pyhasura-1.0.6.tar.gz]
+[2024-04-26 04:47:07] INFO root fetch - processPackages [pyhasura]: Remove: archive file [/home/abi/fetcher/tmp/pyhasura-1.0.7.tar.gz]
+[2024-04-26 04:47:07] INFO root fetch - main [MainThread]: End processing [pyhasura]: success
+[2024-04-26 04:47:07] INFO root fetch - processPackages [typedmongo]: Remove: archive file [/home/abi/fetcher/tmp/typedmongo-1.0.1.tar.gz]
+[2024-04-26 04:47:07] INFO root fetch - processPackages [typedmongo]: Remove: archive file [/home/abi/fetcher/tmp/typedmongo-1.0.2.tar.gz]
+[2024-04-26 04:47:07] INFO root fetch - main [MainThread]: End processing [typedmongo]: success
+[2024-04-26 04:47:07] INFO root fetch - processPackages [byzerllm]: executing diffoscope
+[2024-04-26 04:47:07] INFO root fetch - processPackages [byzerllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/byzerllm-0.1.8.tar.gz tmp/byzerllm-0.1.9.tar.gz --markdown 20240426/b/byzerllm/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-26 04:47:07] INFO root fetch - processPackages [pytctracer]: Remove: archive file [/home/abi/fetcher/tmp/pytctracer-0.2.1.tar.gz]
+[2024-04-26 04:47:07] INFO root fetch - processPackages [pytctracer]: Remove: archive file [/home/abi/fetcher/tmp/pytctracer-0.2.2.tar.gz]
+[2024-04-26 04:47:07] INFO root fetch - main [MainThread]: End processing [pytctracer]: success
+[2024-04-26 04:47:07] INFO root fetch - processPackages [odoo12-addon-account-invoice-tier-validation]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_account_invoice_tier_validation-12.0.1.0.3.99.dev2-py3-none-any.whl.zip]
+[2024-04-26 04:47:07] INFO root fetch - processPackages [odoo12-addon-account-invoice-tier-validation]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_account_invoice_tier_validation-12.0.1.0.3.99.dev4-py3-none-any.whl.zip]
+[2024-04-26 04:47:07] INFO root fetch - main [MainThread]: End processing [odoo12-addon-account-invoice-tier-validation]: success
+[2024-04-26 04:47:09] INFO root fetch - processPackages [byzerllm]: Remove: archive file [/home/abi/fetcher/tmp/byzerllm-0.1.8.tar.gz]
+[2024-04-26 04:47:09] INFO root fetch - processPackages [byzerllm]: Remove: archive file [/home/abi/fetcher/tmp/byzerllm-0.1.9.tar.gz]
+[2024-04-26 04:47:09] INFO root fetch - main [MainThread]: End processing [byzerllm]: success
+[2024-04-26 04:47:09] INFO root fetch - main [MainThread]: Store serial: [22942028]
