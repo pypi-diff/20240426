@@ -8344,3 +8344,33 @@
 [2024-04-26 05:35:40] INFO root fetch - processPackages [lyrebird]: Remove: archive file [/home/abi/fetcher/tmp/lyrebird-2.9.2.tar.gz]
 [2024-04-26 05:35:40] INFO root fetch - main [MainThread]: End processing [lyrebird]: success
 [2024-04-26 05:35:40] INFO root fetch - main [MainThread]: Store serial: [22942322]
+[2024-04-26 05:37:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22942322]
+[2024-04-26 05:37:49] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-26 05:37:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-kubernetes-the-hard-way
+[2024-04-26 05:37:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: uac-api
+[2024-04-26 05:37:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: unifi-tracker
+[2024-04-26 05:37:50] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: New version: [0.0.21a1714090001] Old Version: [0.0.21a1714054537]
+[2024-04-26 05:37:50] INFO root fetch - processPackages [uac-api]: New version: [0.3.0] Old Version: [0.2.3]
+[2024-04-26 05:37:50] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/b3/09/bc5cd75203baa57e4796e68e406d484c9b67fdc009bf8b8783e6731294f9/pulumi_kubernetes_the_hard_way-0.0.21a1714054537.tar.gz
+[2024-04-26 05:37:50] INFO root fetch - processPackages [unifi-tracker]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-26 05:37:50] INFO root fetch - processPackages [uac-api]: Downloading https://files.pythonhosted.org/packages/3d/af/8cc53f27937a34b31094d358035653ce66fcda5aed7c4d781f6f7ff5aa53/uac-api-0.2.3.tar.gz
+[2024-04-26 05:37:50] INFO root fetch - processPackages [uac-api]: Downloading https://files.pythonhosted.org/packages/e1/d0/c5032ed3625353ab2820a5a8066b555b26d8bea19d273dc69ac7c993b349/uac-api-0.3.0.tar.gz
+[2024-04-26 05:37:50] INFO root fetch - processPackages [unifi-tracker]: Downloading https://files.pythonhosted.org/packages/d1/05/3e07add2a932189171d8514d6a19194e943414282b5d02c8df0f9c2531f6/unifi_tracker-0.1.0.tar.gz
+[2024-04-26 05:37:50] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/82/32/cf58b2a1db7be0f7b24642b54c8434b0635903801af67e6bcade7cf25ab0/pulumi_kubernetes_the_hard_way-0.0.21a1714090001.tar.gz
+[2024-04-26 05:37:50] INFO root fetch - processPackages [uac-api]: executing diffoscope
+[2024-04-26 05:37:50] INFO root fetch - processPackages [uac-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uac-api-0.2.3.tar.gz tmp/uac-api-0.3.0.tar.gz --markdown 20240426/u/uac-api/0.2.3-0.3.0/README.md --exclude *.pyd
+[2024-04-26 05:37:50] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: executing diffoscope
+[2024-04-26 05:37:50] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kubernetes_the_hard_way-0.0.21a1714054537.tar.gz tmp/pulumi_kubernetes_the_hard_way-0.0.21a1714090001.tar.gz --markdown 20240426/p/pulumi-kubernetes-the-hard-way/0.0.21a1714054537-0.0.21a1714090001/README.md --exclude *.pyd
+[2024-04-26 05:37:50] INFO root fetch - processPackages [unifi-tracker]: Downloading https://files.pythonhosted.org/packages/c5/00/0500ecdf2cfb3456489d2f13b88a70eb851538c2d8b43beb3f8045bbb9da/unifi_tracker-0.1.1.tar.gz
+[2024-04-26 05:37:50] INFO root fetch - processPackages [unifi-tracker]: executing diffoscope
+[2024-04-26 05:37:50] INFO root fetch - processPackages [unifi-tracker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unifi_tracker-0.1.0.tar.gz tmp/unifi_tracker-0.1.1.tar.gz --markdown 20240426/u/unifi-tracker/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-26 05:37:51] INFO root fetch - processPackages [uac-api]: Remove: archive file [/home/abi/fetcher/tmp/uac-api-0.2.3.tar.gz]
+[2024-04-26 05:37:51] INFO root fetch - processPackages [uac-api]: Remove: archive file [/home/abi/fetcher/tmp/uac-api-0.3.0.tar.gz]
+[2024-04-26 05:37:51] INFO root fetch - main [MainThread]: End processing [uac-api]: success
+[2024-04-26 05:37:51] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.21a1714054537.tar.gz]
+[2024-04-26 05:37:51] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.21a1714090001.tar.gz]
+[2024-04-26 05:37:51] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes-the-hard-way]: success
+[2024-04-26 05:37:51] INFO root fetch - processPackages [unifi-tracker]: Remove: archive file [/home/abi/fetcher/tmp/unifi_tracker-0.1.0.tar.gz]
+[2024-04-26 05:37:51] INFO root fetch - processPackages [unifi-tracker]: Remove: archive file [/home/abi/fetcher/tmp/unifi_tracker-0.1.1.tar.gz]
+[2024-04-26 05:37:51] INFO root fetch - main [MainThread]: End processing [unifi-tracker]: success
+[2024-04-26 05:37:51] INFO root fetch - main [MainThread]: Store serial: [22942331]
