@@ -20796,3 +20796,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 14:59:46] INFO root fetch - main [MainThread]: End processing [pulumi-aws-native]: success
 [2024-04-26 14:59:46] INFO root fetch - main [MainThread]: End processing [pulumi-aws-native]: success
 [2024-04-26 14:59:46] INFO root fetch - main [MainThread]: Store serial: [22947694]
+[2024-04-26 15:01:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22947694]
+[2024-04-26 15:01:55] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-26 15:01:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: setga
+[2024-04-26 15:01:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flatpack
+[2024-04-26 15:01:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pellipop
+[2024-04-26 15:01:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sensestreet
+[2024-04-26 15:01:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nrstitcher-utils
+[2024-04-26 15:01:55] INFO root fetch - processPackages [setga]: New version: [1.4.3] Old Version: [1.4.2]
+[2024-04-26 15:01:55] INFO root fetch - processPackages [nrstitcher-utils]: New version: [0.1.0.dev7] Old Version: [0.1.0.dev6]
+[2024-04-26 15:01:56] INFO root fetch - processPackages [flatpack]: New version: [3.3.9] Old Version: [3.3.8]
+[2024-04-26 15:01:56] INFO root fetch - processPackages [sensestreet]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-04-26 15:01:56] INFO root fetch - processPackages [pellipop]: New version: [0.8.4] Old Version: [0.8.3]
+[2024-04-26 15:01:56] INFO root fetch - processPackages [nrstitcher-utils]: Downloading https://files.pythonhosted.org/packages/e1/aa/efcb5a5186165ba1311497b8397a1c843dedd29ad8a7d94895d24bd92256/nrstitcher_utils-0.1.0.dev6.tar.gz
+[2024-04-26 15:01:56] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/42/48/84e949164975b341645163f536ee4ca8329c4e3dfa6d143c2806a0849a54/flatpack-3.3.8.tar.gz
+[2024-04-26 15:01:56] INFO root fetch - processPackages [setga]: Downloading https://files.pythonhosted.org/packages/ae/da/36e7a0a1da4cbc78cf21b63fb891c2489fb2b5bf2e516100b01f1a37f62d/setga-1.4.2.tar.gz
+[2024-04-26 15:01:56] INFO root fetch - processPackages [sensestreet]: Downloading https://files.pythonhosted.org/packages/97/99/390804738c575de0aacacc042a4b9115bdf029804e09d3214c3ba6f43ab7/sensestreet-1.0.6.tar.gz
+[2024-04-26 15:01:56] INFO root fetch - processPackages [pellipop]: Downloading https://files.pythonhosted.org/packages/4f/90/22c607086391e13133230c6deba4620d3c2973ff452286e07d7a803f91ae/pellipop-0.8.3.tar.gz
+[2024-04-26 15:01:56] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/11/54/065825e8640b062c83c07c97d8dea514db8a5c0ea3c272834b88c568d82e/flatpack-3.3.9.tar.gz
+[2024-04-26 15:01:56] INFO root fetch - processPackages [nrstitcher-utils]: Downloading https://files.pythonhosted.org/packages/05/bc/7d782785690b6f804509eeba53c2f70d3a7f8403423dc7b5b666b7acafd4/nrstitcher_utils-0.1.0.dev7.tar.gz
+[2024-04-26 15:01:56] INFO root fetch - processPackages [setga]: Downloading https://files.pythonhosted.org/packages/e6/32/7924abe591881e03f7843f1df239e3b3ed6d12473bdd63bc94763ee575dc/setga-1.4.3.tar.gz
+[2024-04-26 15:01:56] INFO root fetch - processPackages [flatpack]: executing diffoscope
+[2024-04-26 15:01:56] INFO root fetch - processPackages [flatpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flatpack-3.3.8.tar.gz tmp/flatpack-3.3.9.tar.gz --markdown 20240426/f/flatpack/3.3.8-3.3.9/README.md --exclude *.pyd
+[2024-04-26 15:01:56] INFO root fetch - processPackages [nrstitcher-utils]: executing diffoscope
+[2024-04-26 15:01:56] INFO root fetch - processPackages [nrstitcher-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nrstitcher_utils-0.1.0.dev6.tar.gz tmp/nrstitcher_utils-0.1.0.dev7.tar.gz --markdown 20240426/n/nrstitcher-utils/0.1.0.dev6-0.1.0.dev7/README.md --exclude *.pyd
+[2024-04-26 15:01:56] INFO root fetch - processPackages [setga]: executing diffoscope
+[2024-04-26 15:01:56] INFO root fetch - processPackages [setga]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/setga-1.4.2.tar.gz tmp/setga-1.4.3.tar.gz --markdown 20240426/s/setga/1.4.2-1.4.3/README.md --exclude *.pyd
+[2024-04-26 15:01:56] INFO root fetch - processPackages [pellipop]: Downloading https://files.pythonhosted.org/packages/be/8c/f82cd5433fb1c3a1bc5f8e0f847f8111419208275a3e5d7f91f59f830072/pellipop-0.8.4.tar.gz
+[2024-04-26 15:01:56] INFO root fetch - processPackages [sensestreet]: Downloading https://files.pythonhosted.org/packages/6e/97/9c8f58af3d448d98441fceb9ef6914986752037c0905134215e67c6878b3/sensestreet-1.0.7.tar.gz
+[2024-04-26 15:01:56] INFO root fetch - processPackages [pellipop]: executing diffoscope
+[2024-04-26 15:01:56] INFO root fetch - processPackages [pellipop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pellipop-0.8.3.tar.gz tmp/pellipop-0.8.4.tar.gz --markdown 20240426/p/pellipop/0.8.3-0.8.4/README.md --exclude *.pyd
+[2024-04-26 15:01:56] INFO root fetch - processPackages [sensestreet]: executing diffoscope
+[2024-04-26 15:01:56] INFO root fetch - processPackages [sensestreet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sensestreet-1.0.6.tar.gz tmp/sensestreet-1.0.7.tar.gz --markdown 20240426/s/sensestreet/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-04-26 15:01:57] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.3.8.tar.gz]
+[2024-04-26 15:01:57] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.3.9.tar.gz]
+[2024-04-26 15:01:57] INFO root fetch - main [MainThread]: End processing [flatpack]: success
+[2024-04-26 15:01:57] INFO root fetch - processPackages [nrstitcher-utils]: Remove: archive file [/home/abi/fetcher/tmp/nrstitcher_utils-0.1.0.dev6.tar.gz]
+[2024-04-26 15:01:57] INFO root fetch - processPackages [nrstitcher-utils]: Remove: archive file [/home/abi/fetcher/tmp/nrstitcher_utils-0.1.0.dev7.tar.gz]
+[2024-04-26 15:01:57] INFO root fetch - main [MainThread]: End processing [nrstitcher-utils]: success
+[2024-04-26 15:01:57] INFO root fetch - processPackages [setga]: Remove: archive file [/home/abi/fetcher/tmp/setga-1.4.2.tar.gz]
+[2024-04-26 15:01:57] INFO root fetch - processPackages [setga]: Remove: archive file [/home/abi/fetcher/tmp/setga-1.4.3.tar.gz]
+[2024-04-26 15:01:57] INFO root fetch - main [MainThread]: End processing [setga]: success
+[2024-04-26 15:01:57] INFO root fetch - processPackages [sensestreet]: Remove: archive file [/home/abi/fetcher/tmp/sensestreet-1.0.6.tar.gz]
+[2024-04-26 15:01:57] INFO root fetch - processPackages [sensestreet]: Remove: archive file [/home/abi/fetcher/tmp/sensestreet-1.0.7.tar.gz]
+[2024-04-26 15:01:57] INFO root fetch - main [MainThread]: End processing [sensestreet]: success
+[2024-04-26 15:01:57] INFO root fetch - processPackages [pellipop]: Remove: archive file [/home/abi/fetcher/tmp/pellipop-0.8.3.tar.gz]
+[2024-04-26 15:01:57] INFO root fetch - processPackages [pellipop]: Remove: archive file [/home/abi/fetcher/tmp/pellipop-0.8.4.tar.gz]
+[2024-04-26 15:01:57] INFO root fetch - main [MainThread]: End processing [pellipop]: success
+[2024-04-26 15:01:57] INFO root fetch - main [MainThread]: Store serial: [22947711]
