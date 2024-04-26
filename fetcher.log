@@ -20111,3 +20111,33 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 14:30:15] INFO root fetch - processPackages [DynamicForms]: Remove: archive file [/home/abi/fetcher/tmp/DynamicForms-0.9.9.tar.gz]
 [2024-04-26 14:30:15] INFO root fetch - main [MainThread]: End processing [DynamicForms]: success
 [2024-04-26 14:30:15] INFO root fetch - main [MainThread]: Store serial: [22947383]
+[2024-04-26 14:32:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22947383]
+[2024-04-26 14:32:24] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-26 14:32:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rich-split
+[2024-04-26 14:32:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: CTADIRAC
+[2024-04-26 14:32:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: express-relay
+[2024-04-26 14:32:24] INFO root fetch - processPackages [express-relay]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-04-26 14:32:24] INFO root fetch - processPackages [rich-split]: New version: [0.1.0] Old Version: [0.0.1]
+[2024-04-26 14:32:24] INFO root fetch - processPackages [CTADIRAC]: New version: [2.2a3] Old Version: [2.2.9]
+[2024-04-26 14:32:24] INFO root fetch - processPackages [rich-split]: Downloading https://files.pythonhosted.org/packages/ac/f6/6df5e31127bb6e06c4cd3917c06ad7e03aa125978d08068c74cadf28796c/rich_split-0.0.1.tar.gz
+[2024-04-26 14:32:24] INFO root fetch - processPackages [CTADIRAC]: Downloading https://files.pythonhosted.org/packages/c4/fd/863c06d80a7cb3f8b807886edd3b375bed2ee4d3a384cb8b7213479f2248/CTADIRAC-2.2.9.tar.gz
+[2024-04-26 14:32:24] INFO root fetch - processPackages [express-relay]: Downloading https://files.pythonhosted.org/packages/85/ab/a6312a0d226ae33176b56431ebe3ac207ec8a4660b5e029e8060d19508a5/express_relay-0.4.1.tar.gz
+[2024-04-26 14:32:25] INFO root fetch - processPackages [rich-split]: Downloading https://files.pythonhosted.org/packages/25/bb/2065ed8ced4a9a1b1fafafb5fe061c6b0bcdb4d50629f84a9cea4b3f89db/rich_split-0.1.0.tar.gz
+[2024-04-26 14:32:25] INFO root fetch - processPackages [CTADIRAC]: Downloading https://files.pythonhosted.org/packages/b3/dc/eeb2adbd38eb21f4638e8a34f30ed6748361e02727136583e01b66570df8/CTADIRAC-2.2a3.tar.gz
+[2024-04-26 14:32:25] INFO root fetch - processPackages [express-relay]: Downloading https://files.pythonhosted.org/packages/df/f5/ba7d85967ba150e3763dd91ee83b73be2390d21ada3a9eb151ef48bbf72f/express_relay-0.4.2.tar.gz
+[2024-04-26 14:32:25] INFO root fetch - processPackages [rich-split]: executing diffoscope
+[2024-04-26 14:32:25] INFO root fetch - processPackages [rich-split]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rich_split-0.0.1.tar.gz tmp/rich_split-0.1.0.tar.gz --markdown 20240426/r/rich-split/0.0.1-0.1.0/README.md --exclude *.pyd
+[2024-04-26 14:32:25] INFO root fetch - processPackages [CTADIRAC]: executing diffoscope
+[2024-04-26 14:32:25] INFO root fetch - processPackages [CTADIRAC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CTADIRAC-2.2.9.tar.gz tmp/CTADIRAC-2.2a3.tar.gz --markdown 20240426/C/CTADIRAC/2.2.9-2.2a3/README.md --exclude *.pyd
+[2024-04-26 14:32:25] INFO root fetch - processPackages [express-relay]: executing diffoscope
+[2024-04-26 14:32:25] INFO root fetch - processPackages [express-relay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/express_relay-0.4.1.tar.gz tmp/express_relay-0.4.2.tar.gz --markdown 20240426/e/express-relay/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-04-26 14:32:25] INFO root fetch - processPackages [rich-split]: Remove: archive file [/home/abi/fetcher/tmp/rich_split-0.0.1.tar.gz]
+[2024-04-26 14:32:25] INFO root fetch - processPackages [rich-split]: Remove: archive file [/home/abi/fetcher/tmp/rich_split-0.1.0.tar.gz]
+[2024-04-26 14:32:25] INFO root fetch - main [MainThread]: End processing [rich-split]: success
+[2024-04-26 14:32:25] INFO root fetch - processPackages [express-relay]: Remove: archive file [/home/abi/fetcher/tmp/express_relay-0.4.1.tar.gz]
+[2024-04-26 14:32:25] INFO root fetch - processPackages [express-relay]: Remove: archive file [/home/abi/fetcher/tmp/express_relay-0.4.2.tar.gz]
+[2024-04-26 14:32:25] INFO root fetch - main [MainThread]: End processing [express-relay]: success
+[2024-04-26 14:32:26] INFO root fetch - processPackages [CTADIRAC]: Remove: archive file [/home/abi/fetcher/tmp/CTADIRAC-2.2.9.tar.gz]
+[2024-04-26 14:32:26] INFO root fetch - processPackages [CTADIRAC]: Remove: archive file [/home/abi/fetcher/tmp/CTADIRAC-2.2a3.tar.gz]
+[2024-04-26 14:32:26] INFO root fetch - main [MainThread]: End processing [CTADIRAC]: success
+[2024-04-26 14:32:26] INFO root fetch - main [MainThread]: Store serial: [22947395]
