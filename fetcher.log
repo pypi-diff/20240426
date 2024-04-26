@@ -15102,3 +15102,91 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 10:53:13] INFO root fetch - processPackages [extended-configparser]: Remove: archive file [/home/abi/fetcher/tmp/extended_configparser-1.0.1.tar.gz]
 [2024-04-26 10:53:13] INFO root fetch - main [MainThread]: End processing [extended-configparser]: success
 [2024-04-26 10:53:13] INFO root fetch - main [MainThread]: Store serial: [22945366]
+[2024-04-26 10:55:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22945366]
+[2024-04-26 10:55:21] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-26 10:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flet-iconoir
+[2024-04-26 10:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Plone
+[2024-04-26 10:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aug-sfutils
+[2024-04-26 10:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pycommons
+[2024-04-26 10:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dasscostorageclient
+[2024-04-26 10:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Products.CMFPlone
+[2024-04-26 10:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: julep
+[2024-04-26 10:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: smartieee
+[2024-04-26 10:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ih-common
+[2024-04-26 10:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: autofeather-dash-mantine-components
+[2024-04-26 10:55:21] INFO root fetch - processPackages [flet-iconoir]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-26 10:55:21] INFO root fetch - processPackages [Products.CMFPlone]: New version: [6.1.0a2] Old Version: [6.1.0a1]
+[2024-04-26 10:55:21] INFO root fetch - processPackages [julep]: New version: [0.3.0] Old Version: [0.2.9]
+[2024-04-26 10:55:21] INFO root fetch - processPackages [Plone]: New version: [6.1.0a2] Old Version: [6.1.0a1]
+[2024-04-26 10:55:21] INFO root fetch - processPackages [autofeather-dash-mantine-components]: New version: [0.14.3] Old Version: [0.14.25]
+[2024-04-26 10:55:21] INFO root fetch - processPackages [smartieee]: New version: [0.2a0] Old Version: [0.2]
+[2024-04-26 10:55:21] INFO root fetch - processPackages [ih-common]: New version: [2.8.0] Old Version: [2.7.1]
+[2024-04-26 10:55:21] INFO root fetch - processPackages [pycommons]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-04-26 10:55:22] INFO root fetch - processPackages [aug-sfutils]: New version: [0.9.1] Old Version: [0.8.9]
+[2024-04-26 10:55:22] INFO root fetch - processPackages [dasscostorageclient]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-26 10:55:22] INFO root fetch - processPackages [flet-iconoir]: Downloading https://files.pythonhosted.org/packages/ef/0b/e6bdb70737d52217d168e70ae551b1363b2f56fd3a264d911ea57e8cfe9a/flet_iconoir-0.2.0.tar.gz
+[2024-04-26 10:55:22] INFO root fetch - processPackages [Products.CMFPlone]: Downloading https://files.pythonhosted.org/packages/6e/16/5e1b25c0977135208e00791b74aa1a6d215f849236614eeb979cef30fb3b/Products.CMFPlone-6.1.0a1.tar.gz
+[2024-04-26 10:55:22] INFO root fetch - processPackages [julep]: Downloading https://files.pythonhosted.org/packages/ec/1f/ce9dd7c32e006afbf4cf7e7fe31a697a302e889ebc0d1b7a9c0b4ce00008/julep-0.2.9.tar.gz
+[2024-04-26 10:55:22] INFO root fetch - processPackages [Plone]: Downloading https://files.pythonhosted.org/packages/90/9c/5e84008f9f80a1b4a97494a05d24a212c1752bedbaed51ac7a05f393a601/Plone-6.1.0a1.tar.gz
+[2024-04-26 10:55:22] INFO root fetch - processPackages [pycommons]: Downloading https://files.pythonhosted.org/packages/f5/b7/e2307174b50d3416008197b30b2fd81919d123479629cd660c1128d5abec/pycommons-0.8.8.tar.gz
+[2024-04-26 10:55:22] INFO root fetch - processPackages [ih-common]: Downloading https://files.pythonhosted.org/packages/4d/0c/cf8504e53ab0ecc31714dd7033f42cbb6b0de8dfd679755465688b66f914/ih_common-2.7.1.tar.gz
+[2024-04-26 10:55:22] ERROR root fetch - processPackages [smartieee]: Unable to fetch info: No such project/version 'smartieee' 0.2
+[2024-04-26 10:55:22] INFO root fetch - main [MainThread]: End processing [smartieee] error
+[2024-04-26 10:55:22] INFO root fetch - processPackages [autofeather-dash-mantine-components]: Downloading https://files.pythonhosted.org/packages/b4/9b/33f295363c04829af835795d34cfe18d1b050b081241739f9879947a4ac5/autofeather_dash_mantine_components-0.14.25.tar.gz
+[2024-04-26 10:55:22] INFO root fetch - processPackages [dasscostorageclient]: Downloading https://files.pythonhosted.org/packages/d8/44/65d224957e2ed1b156ae2f883dbaebe53cdd51e25caf5484d4f638f6f4e3/dasscostorageclient-0.0.3.tar.gz
+[2024-04-26 10:55:22] INFO root fetch - processPackages [aug-sfutils]: Downloading https://files.pythonhosted.org/packages/f6/83/8c43ce60766cd139ba030312d973e95a0f4a53b8f9ab248eb234326cd98c/aug_sfutils-0.8.9.tar.gz
+[2024-04-26 10:55:22] INFO root fetch - processPackages [Plone]: Downloading https://files.pythonhosted.org/packages/9a/92/63b4e9334ff072209f33f20dda745989f57974957c49d3f24ca2c8f24a31/Plone-6.1.0a2.tar.gz
+[2024-04-26 10:55:22] INFO root fetch - processPackages [pycommons]: Downloading https://files.pythonhosted.org/packages/b6/ca/acae5b6b302dfdf392c815106b020283d0238189cbe02716e4a0c042a8df/pycommons-0.8.9.tar.gz
+[2024-04-26 10:55:22] INFO root fetch - processPackages [julep]: Downloading https://files.pythonhosted.org/packages/5c/d6/92c2ab110a32384e7edeb9bbadc36fab6b4bfee912b8b7441d67c9fcb0cf/julep-0.3.0.tar.gz
+[2024-04-26 10:55:22] INFO root fetch - processPackages [flet-iconoir]: Downloading https://files.pythonhosted.org/packages/c3/83/9bd7407108c522945085115c7bf2f7d6323fa31dfebf3f4e9afddfc3b1fa/flet_iconoir-0.2.1.tar.gz
+[2024-04-26 10:55:22] INFO root fetch - processPackages [Products.CMFPlone]: Downloading https://files.pythonhosted.org/packages/4f/21/b9f1a338980048101a05ba671a7392c0389d038ef516b3b9972a5c381691/Products.CMFPlone-6.1.0a2.tar.gz
+[2024-04-26 10:55:22] INFO root fetch - processPackages [Plone]: executing diffoscope
+[2024-04-26 10:55:22] INFO root fetch - processPackages [Plone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Plone-6.1.0a1.tar.gz tmp/Plone-6.1.0a2.tar.gz --markdown 20240426/P/Plone/6.1.0a1-6.1.0a2/README.md --exclude *.pyd
+[2024-04-26 10:55:22] INFO root fetch - processPackages [ih-common]: Downloading https://files.pythonhosted.org/packages/37/56/56af585e51da9a974b871731c3a293e02d9df6211d0f51f48aef65de6085/ih_common-2.8.0.tar.gz
+[2024-04-26 10:55:22] INFO root fetch - processPackages [pycommons]: executing diffoscope
+[2024-04-26 10:55:22] INFO root fetch - processPackages [pycommons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycommons-0.8.8.tar.gz tmp/pycommons-0.8.9.tar.gz --markdown 20240426/p/pycommons/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-04-26 10:55:22] INFO root fetch - processPackages [dasscostorageclient]: Downloading https://files.pythonhosted.org/packages/7b/38/d5871751e15458cf1e66141d1b1a3ed0f5805f291349a372fb71d98e4e56/dasscostorageclient-0.0.4.tar.gz
+[2024-04-26 10:55:22] INFO root fetch - processPackages [julep]: executing diffoscope
+[2024-04-26 10:55:22] INFO root fetch - processPackages [julep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/julep-0.2.9.tar.gz tmp/julep-0.3.0.tar.gz --markdown 20240426/j/julep/0.2.9-0.3.0/README.md --exclude *.pyd
+[2024-04-26 10:55:22] INFO root fetch - processPackages [autofeather-dash-mantine-components]: Downloading https://files.pythonhosted.org/packages/9d/c6/3e793263389bff2eeb22aa310853ff3ff2f8f148b6f97945071af23e205d/autofeather_dash_mantine_components-0.14.3-py3-none-any.whl
+[2024-04-26 10:55:22] INFO root fetch - processPackages [aug-sfutils]: Downloading https://files.pythonhosted.org/packages/4a/a3/e6ac6c8b6730eaa07e04c20746d8a06815323cdc7f0c1d51f896fe3125e6/aug_sfutils-0.9.1.tar.gz
+[2024-04-26 10:55:22] INFO root fetch - processPackages [flet-iconoir]: executing diffoscope
+[2024-04-26 10:55:22] INFO root fetch - processPackages [flet-iconoir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_iconoir-0.2.0.tar.gz tmp/flet_iconoir-0.2.1.tar.gz --markdown 20240426/f/flet-iconoir/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-04-26 10:55:22] INFO root fetch - processPackages [ih-common]: executing diffoscope
+[2024-04-26 10:55:22] INFO root fetch - processPackages [ih-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ih_common-2.7.1.tar.gz tmp/ih_common-2.8.0.tar.gz --markdown 20240426/i/ih-common/2.7.1-2.8.0/README.md --exclude *.pyd
+[2024-04-26 10:55:22] INFO root fetch - processPackages [dasscostorageclient]: executing diffoscope
+[2024-04-26 10:55:22] INFO root fetch - processPackages [dasscostorageclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dasscostorageclient-0.0.3.tar.gz tmp/dasscostorageclient-0.0.4.tar.gz --markdown 20240426/d/dasscostorageclient/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-26 10:55:22] INFO root fetch - processPackages [Products.CMFPlone]: executing diffoscope
+[2024-04-26 10:55:22] INFO root fetch - processPackages [Products.CMFPlone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Products.CMFPlone-6.1.0a1.tar.gz tmp/Products.CMFPlone-6.1.0a2.tar.gz --markdown 20240426/P/Products.CMFPlone/6.1.0a1-6.1.0a2/README.md --exclude *.pyd
+[2024-04-26 10:55:22] INFO root fetch - processPackages [aug-sfutils]: executing diffoscope
+[2024-04-26 10:55:22] INFO root fetch - processPackages [aug-sfutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aug_sfutils-0.8.9.tar.gz tmp/aug_sfutils-0.9.1.tar.gz --markdown 20240426/a/aug-sfutils/0.8.9-0.9.1/README.md --exclude *.pyd
+[2024-04-26 10:55:22] INFO root fetch - processPackages [autofeather-dash-mantine-components]: executing diffoscope
+[2024-04-26 10:55:22] INFO root fetch - processPackages [autofeather-dash-mantine-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autofeather_dash_mantine_components-0.14.25.tar.gz tmp/autofeather_dash_mantine_components-0.14.3-py3-none-any.whl.zip --markdown 20240426/a/autofeather-dash-mantine-components/0.14.25-0.14.3/README.md --exclude *.pyd
+[2024-04-26 10:55:23] INFO root fetch - processPackages [Plone]: Remove: archive file [/home/abi/fetcher/tmp/Plone-6.1.0a1.tar.gz]
+[2024-04-26 10:55:23] INFO root fetch - processPackages [Plone]: Remove: archive file [/home/abi/fetcher/tmp/Plone-6.1.0a2.tar.gz]
+[2024-04-26 10:55:23] INFO root fetch - main [MainThread]: End processing [Plone]: success
+[2024-04-26 10:55:23] INFO root fetch - processPackages [ih-common]: Remove: archive file [/home/abi/fetcher/tmp/ih_common-2.7.1.tar.gz]
+[2024-04-26 10:55:23] INFO root fetch - processPackages [ih-common]: Remove: archive file [/home/abi/fetcher/tmp/ih_common-2.8.0.tar.gz]
+[2024-04-26 10:55:23] INFO root fetch - main [MainThread]: End processing [ih-common]: success
+[2024-04-26 10:55:23] INFO root fetch - processPackages [dasscostorageclient]: Remove: archive file [/home/abi/fetcher/tmp/dasscostorageclient-0.0.3.tar.gz]
+[2024-04-26 10:55:23] INFO root fetch - processPackages [dasscostorageclient]: Remove: archive file [/home/abi/fetcher/tmp/dasscostorageclient-0.0.4.tar.gz]
+[2024-04-26 10:55:23] INFO root fetch - main [MainThread]: End processing [dasscostorageclient]: success
+[2024-04-26 10:55:23] INFO root fetch - processPackages [aug-sfutils]: Remove: archive file [/home/abi/fetcher/tmp/aug_sfutils-0.8.9.tar.gz]
+[2024-04-26 10:55:23] INFO root fetch - processPackages [aug-sfutils]: Remove: archive file [/home/abi/fetcher/tmp/aug_sfutils-0.9.1.tar.gz]
+[2024-04-26 10:55:23] INFO root fetch - main [MainThread]: End processing [aug-sfutils]: success
+[2024-04-26 10:55:23] INFO root fetch - processPackages [pycommons]: Remove: archive file [/home/abi/fetcher/tmp/pycommons-0.8.8.tar.gz]
+[2024-04-26 10:55:23] INFO root fetch - processPackages [pycommons]: Remove: archive file [/home/abi/fetcher/tmp/pycommons-0.8.9.tar.gz]
+[2024-04-26 10:55:23] INFO root fetch - main [MainThread]: End processing [pycommons]: success
+[2024-04-26 10:55:23] INFO root fetch - processPackages [autofeather-dash-mantine-components]: Remove: archive file [/home/abi/fetcher/tmp/autofeather_dash_mantine_components-0.14.25.tar.gz]
+[2024-04-26 10:55:23] INFO root fetch - processPackages [autofeather-dash-mantine-components]: Remove: archive file [/home/abi/fetcher/tmp/autofeather_dash_mantine_components-0.14.3-py3-none-any.whl.zip]
+[2024-04-26 10:55:23] INFO root fetch - main [MainThread]: End processing [autofeather-dash-mantine-components]: success
+[2024-04-26 10:55:24] INFO root fetch - processPackages [julep]: Remove: archive file [/home/abi/fetcher/tmp/julep-0.2.9.tar.gz]
+[2024-04-26 10:55:24] INFO root fetch - processPackages [julep]: Remove: archive file [/home/abi/fetcher/tmp/julep-0.3.0.tar.gz]
+[2024-04-26 10:55:24] INFO root fetch - main [MainThread]: End processing [julep]: success
+[2024-04-26 10:55:25] INFO root fetch - processPackages [Products.CMFPlone]: Remove: archive file [/home/abi/fetcher/tmp/Products.CMFPlone-6.1.0a1.tar.gz]
+[2024-04-26 10:55:25] INFO root fetch - processPackages [Products.CMFPlone]: Remove: archive file [/home/abi/fetcher/tmp/Products.CMFPlone-6.1.0a2.tar.gz]
+[2024-04-26 10:55:25] INFO root fetch - main [MainThread]: End processing [Products.CMFPlone]: success
+[2024-04-26 10:55:28] INFO root fetch - processPackages [flet-iconoir]: Remove: archive file [/home/abi/fetcher/tmp/flet_iconoir-0.2.0.tar.gz]
+[2024-04-26 10:55:28] INFO root fetch - processPackages [flet-iconoir]: Remove: archive file [/home/abi/fetcher/tmp/flet_iconoir-0.2.1.tar.gz]
+[2024-04-26 10:55:28] INFO root fetch - main [MainThread]: End processing [flet-iconoir]: success
+[2024-04-26 10:55:28] INFO root fetch - main [MainThread]: Store serial: [22945405]
