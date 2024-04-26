@@ -8404,3 +8404,30 @@
 [2024-04-26 05:42:11] INFO root fetch - processPackages [maxwelld]: Remove: archive file [/home/abi/fetcher/tmp/maxwelld-0.2.9.tar.gz]
 [2024-04-26 05:42:11] INFO root fetch - main [MainThread]: End processing [maxwelld]: success
 [2024-04-26 05:42:11] INFO root fetch - main [MainThread]: Store serial: [22942352]
+[2024-04-26 05:44:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22942352]
+[2024-04-26 05:44:20] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-26 05:44:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: windmill-train
+[2024-04-26 05:44:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Pokebomari
+[2024-04-26 05:44:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: POKE-DONPOLLO
+[2024-04-26 05:44:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: absbox
+[2024-04-26 05:44:20] INFO root fetch - processPackages [absbox]: New version: [0.9.3] Old Version: [0.8.9]
+[2024-04-26 05:44:20] INFO root fetch - processPackages [windmill-train]: New version: [1.0.0.9] Old Version: [1.0.0.8]
+[2024-04-26 05:44:20] INFO root fetch - processPackages [absbox]: Downloading https://files.pythonhosted.org/packages/f2/f5/d913079148fbe1aebd6fc56849f3245eda346886eb6d2488747d9a978493/AbsBox-0.8.9.tar.gz
+[2024-04-26 05:44:20] WARNING root fetch - processPackages [Pokebomari]: Skipping, unable to determine old version
+[2024-04-26 05:44:20] INFO root fetch - processPackages [windmill-train]: Downloading https://files.pythonhosted.org/packages/02/6c/166080b93ce79c9307ab8bdec7d89a8a1c6a8c5e2df94f0d77cf845e8203/windmill_train-1.0.0.8-py3-none-any.whl
+[2024-04-26 05:44:20] INFO root fetch - main [MainThread]: End processing [Pokebomari] error
+[2024-04-26 05:44:20] WARNING root fetch - processPackages [POKE-DONPOLLO]: Skipping, unable to determine old version
+[2024-04-26 05:44:20] INFO root fetch - main [MainThread]: End processing [POKE-DONPOLLO] error
+[2024-04-26 05:44:20] INFO root fetch - processPackages [windmill-train]: Downloading https://files.pythonhosted.org/packages/9f/fe/c258ffb4a942647648da914cd82683bbd155724de5bfab3f48ffa5e06046/windmill_train-1.0.0.9-py3-none-any.whl
+[2024-04-26 05:44:20] INFO root fetch - processPackages [absbox]: Downloading https://files.pythonhosted.org/packages/63/df/8bc5a95a40d1cc98f7aa27a8baf79a5df19fa8dc2f6836ff02171d21c08a/AbsBox-0.9.3.tar.gz
+[2024-04-26 05:44:20] INFO root fetch - processPackages [windmill-train]: executing diffoscope
+[2024-04-26 05:44:20] INFO root fetch - processPackages [windmill-train]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windmill_train-1.0.0.8-py3-none-any.whl.zip tmp/windmill_train-1.0.0.9-py3-none-any.whl.zip --markdown 20240426/w/windmill-train/1.0.0.8-1.0.0.9/README.md --exclude *.pyd
+[2024-04-26 05:44:20] INFO root fetch - processPackages [absbox]: executing diffoscope
+[2024-04-26 05:44:20] INFO root fetch - processPackages [absbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AbsBox-0.8.9.tar.gz tmp/AbsBox-0.9.3.tar.gz --markdown 20240426/a/absbox/0.8.9-0.9.3/README.md --exclude *.pyd
+[2024-04-26 05:44:21] INFO root fetch - processPackages [windmill-train]: Remove: archive file [/home/abi/fetcher/tmp/windmill_train-1.0.0.8-py3-none-any.whl.zip]
+[2024-04-26 05:44:21] INFO root fetch - processPackages [windmill-train]: Remove: archive file [/home/abi/fetcher/tmp/windmill_train-1.0.0.9-py3-none-any.whl.zip]
+[2024-04-26 05:44:21] INFO root fetch - main [MainThread]: End processing [windmill-train]: success
+[2024-04-26 05:44:21] INFO root fetch - processPackages [absbox]: Remove: archive file [/home/abi/fetcher/tmp/AbsBox-0.8.9.tar.gz]
+[2024-04-26 05:44:21] INFO root fetch - processPackages [absbox]: Remove: archive file [/home/abi/fetcher/tmp/AbsBox-0.9.3.tar.gz]
+[2024-04-26 05:44:21] INFO root fetch - main [MainThread]: End processing [absbox]: success
+[2024-04-26 05:44:21] INFO root fetch - main [MainThread]: Store serial: [22942368]
