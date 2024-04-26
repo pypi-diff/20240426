@@ -9751,3 +9751,54 @@
 [2024-04-26 07:22:46] INFO root fetch - processPackages [pyscinloopsr]: Remove: archive file [/home/abi/fetcher/tmp/pyscinloopsr-1.0.5.tar.gz]
 [2024-04-26 07:22:46] INFO root fetch - main [MainThread]: End processing [pyscinloopsr]: success
 [2024-04-26 07:22:46] INFO root fetch - main [MainThread]: Store serial: [22942894]
+[2024-04-26 07:24:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22942894]
+[2024-04-26 07:24:55] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-26 07:24:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-archive
+[2024-04-26 07:24:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: akhdefo-functions
+[2024-04-26 07:24:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: MeUtils
+[2024-04-26 07:24:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: esanalyzer
+[2024-04-26 07:24:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-sync-env
+[2024-04-26 07:24:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: protein-turnover
+[2024-04-26 07:24:55] INFO root fetch - processPackages [esanalyzer]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-26 07:24:55] WARNING root fetch - processPackages [protein-turnover]: Skipping, unable to determine old version
+[2024-04-26 07:24:55] INFO root fetch - main [MainThread]: End processing [protein-turnover] error
+[2024-04-26 07:24:55] INFO root fetch - processPackages [django-sync-env]: New version: [0.3.1a7] Old Version: [0.3.1a6]
+[2024-04-26 07:24:55] INFO root fetch - processPackages [esanalyzer]: Downloading https://files.pythonhosted.org/packages/4e/88/9f0d9ab78fdb3cb12c7d527e6e9eb9802a5f4433c1d2a565266194bd330e/esanalyzer-1.0.2.tar.gz
+[2024-04-26 07:24:55] INFO root fetch - processPackages [django-sync-env]: Downloading https://files.pythonhosted.org/packages/e4/c6/466a5e1840ef8b230d01f521ea21c676ea99c51e81519f2d76fe431aba4e/django_sync_env-0.3.1a6.tar.gz
+[2024-04-26 07:24:55] INFO root fetch - processPackages [akhdefo-functions]: New version: [2.5.4] Old Version: [2.5.3]
+[2024-04-26 07:24:55] INFO root fetch - processPackages [pulumi-archive]: New version: [0.0.6a1714108188] Old Version: [0.0.6a1713897280]
+[2024-04-26 07:24:55] INFO root fetch - processPackages [MeUtils]: New version: [2024.4.26.13.23.46] Old Version: [2024.4.24.9.41.8]
+[2024-04-26 07:24:55] INFO root fetch - processPackages [pulumi-archive]: Downloading https://files.pythonhosted.org/packages/49/ee/dd7f3520c4b062db1fbd4297c5addb336e6a9a560bc3185971587a1d3d9a/pulumi_archive-0.0.6a1713897280.tar.gz
+[2024-04-26 07:24:55] INFO root fetch - processPackages [akhdefo-functions]: Downloading https://files.pythonhosted.org/packages/ac/48/9d4fcf720dce84eefad46dc47994f01a73ee279c6a4b815af59658e96d3b/akhdefo_functions-2.5.3.tar.gz
+[2024-04-26 07:24:55] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/95/d1/32eb4b222d17898f04cb93baab513f04ba82f6049d36fc3973cda063aefd/MeUtils-2024.4.24.9.41.8.tar.gz
+[2024-04-26 07:24:55] INFO root fetch - processPackages [django-sync-env]: Downloading https://files.pythonhosted.org/packages/14/52/b2936fe4750dfe8455e1b94b3b47ad760da4baa474a946794ff27b54acf4/django_sync_env-0.3.1a7.tar.gz
+[2024-04-26 07:24:55] INFO root fetch - processPackages [esanalyzer]: Downloading https://files.pythonhosted.org/packages/03/42/3f85284a63635756b980c40d62b71e92c742066f3eb1a737c18f1a7601ce/esanalyzer-1.0.3.tar.gz
+[2024-04-26 07:24:55] INFO root fetch - processPackages [django-sync-env]: executing diffoscope
+[2024-04-26 07:24:55] INFO root fetch - processPackages [django-sync-env]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_sync_env-0.3.1a6.tar.gz tmp/django_sync_env-0.3.1a7.tar.gz --markdown 20240426/d/django-sync-env/0.3.1a6-0.3.1a7/README.md --exclude *.pyd
+[2024-04-26 07:24:55] INFO root fetch - processPackages [esanalyzer]: executing diffoscope
+[2024-04-26 07:24:55] INFO root fetch - processPackages [esanalyzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esanalyzer-1.0.2.tar.gz tmp/esanalyzer-1.0.3.tar.gz --markdown 20240426/e/esanalyzer/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-04-26 07:24:55] INFO root fetch - processPackages [pulumi-archive]: Downloading https://files.pythonhosted.org/packages/08/d7/ea078250700493c2b3ad927e6d07f1bc3f1f696093fa65d9e8e0e0bffe4c/pulumi_archive-0.0.6a1714108188.tar.gz
+[2024-04-26 07:24:55] INFO root fetch - processPackages [akhdefo-functions]: Downloading https://files.pythonhosted.org/packages/3f/4b/2076d9407ccf09fc8207cf3a85012e3f7339d8f03d90a2c15205e23f943e/akhdefo_functions-2.5.4.tar.gz
+[2024-04-26 07:24:56] INFO root fetch - processPackages [pulumi-archive]: executing diffoscope
+[2024-04-26 07:24:56] INFO root fetch - processPackages [pulumi-archive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_archive-0.0.6a1713897280.tar.gz tmp/pulumi_archive-0.0.6a1714108188.tar.gz --markdown 20240426/p/pulumi-archive/0.0.6a1713897280-0.0.6a1714108188/README.md --exclude *.pyd
+[2024-04-26 07:24:56] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/ff/4a/56623c0811a030be0fe8dfcb708f0ecd7ccb64eefc6b53774a5fc35e18f9/MeUtils-2024.4.26.13.23.46.tar.gz
+[2024-04-26 07:24:56] INFO root fetch - processPackages [akhdefo-functions]: executing diffoscope
+[2024-04-26 07:24:56] INFO root fetch - processPackages [akhdefo-functions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akhdefo_functions-2.5.3.tar.gz tmp/akhdefo_functions-2.5.4.tar.gz --markdown 20240426/a/akhdefo-functions/2.5.3-2.5.4/README.md --exclude *.pyd
+[2024-04-26 07:24:56] INFO root fetch - processPackages [django-sync-env]: Remove: archive file [/home/abi/fetcher/tmp/django_sync_env-0.3.1a6.tar.gz]
+[2024-04-26 07:24:56] INFO root fetch - processPackages [django-sync-env]: Remove: archive file [/home/abi/fetcher/tmp/django_sync_env-0.3.1a7.tar.gz]
+[2024-04-26 07:24:56] INFO root fetch - main [MainThread]: End processing [django-sync-env]: success
+[2024-04-26 07:24:56] INFO root fetch - processPackages [esanalyzer]: Remove: archive file [/home/abi/fetcher/tmp/esanalyzer-1.0.2.tar.gz]
+[2024-04-26 07:24:56] INFO root fetch - processPackages [esanalyzer]: Remove: archive file [/home/abi/fetcher/tmp/esanalyzer-1.0.3.tar.gz]
+[2024-04-26 07:24:56] INFO root fetch - main [MainThread]: End processing [esanalyzer]: success
+[2024-04-26 07:24:56] INFO root fetch - processPackages [pulumi-archive]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_archive-0.0.6a1713897280.tar.gz]
+[2024-04-26 07:24:56] INFO root fetch - processPackages [pulumi-archive]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_archive-0.0.6a1714108188.tar.gz]
+[2024-04-26 07:24:56] INFO root fetch - main [MainThread]: End processing [pulumi-archive]: success
+[2024-04-26 07:24:57] INFO root fetch - processPackages [akhdefo-functions]: Remove: archive file [/home/abi/fetcher/tmp/akhdefo_functions-2.5.3.tar.gz]
+[2024-04-26 07:24:57] INFO root fetch - processPackages [akhdefo-functions]: Remove: archive file [/home/abi/fetcher/tmp/akhdefo_functions-2.5.4.tar.gz]
+[2024-04-26 07:24:57] INFO root fetch - main [MainThread]: End processing [akhdefo-functions]: success
+[2024-04-26 07:24:57] INFO root fetch - processPackages [MeUtils]: executing diffoscope
+[2024-04-26 07:24:57] INFO root fetch - processPackages [MeUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MeUtils-2024.4.24.9.41.8.tar.gz tmp/MeUtils-2024.4.26.13.23.46.tar.gz --markdown 20240426/M/MeUtils/2024.4.24.9.41.8-2024.4.26.13.23.46/README.md --exclude *.pyd
+[2024-04-26 07:24:59] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2024.4.24.9.41.8.tar.gz]
+[2024-04-26 07:24:59] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2024.4.26.13.23.46.tar.gz]
+[2024-04-26 07:24:59] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
+[2024-04-26 07:24:59] INFO root fetch - main [MainThread]: Store serial: [22942912]
