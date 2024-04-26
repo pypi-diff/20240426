@@ -12982,3 +12982,69 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 09:29:50] INFO root fetch - processPackages [aaz-dev]: Remove: archive file [/home/abi/fetcher/tmp/aaz_dev-2.6.2.tar.gz]
 [2024-04-26 09:29:50] INFO root fetch - main [MainThread]: End processing [aaz-dev]: success
 [2024-04-26 09:29:50] INFO root fetch - main [MainThread]: Store serial: [22944368]
+[2024-04-26 09:31:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22944368]
+[2024-04-26 09:31:59] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-26 09:31:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: akshare
+[2024-04-26 09:31:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: unitsnet-py
+[2024-04-26 09:31:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gradio-variableslider
+[2024-04-26 09:31:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alibabacloud-cloudauth20190307-py2
+[2024-04-26 09:31:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: redis-cached
+[2024-04-26 09:31:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: refract-serving
+[2024-04-26 09:31:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: alibabacloud-cloudauth20190307
+[2024-04-26 09:31:59] INFO root fetch - processPackages [gradio-variableslider]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-26 09:31:59] INFO root fetch - processPackages [refract-serving]: New version: [1.0.1a0] Old Version: [0.0.9]
+[2024-04-26 09:31:59] INFO root fetch - processPackages [unitsnet-py]: New version: [0.1.96] Old Version: [0.1.95]
+[2024-04-26 09:31:59] INFO root fetch - processPackages [alibabacloud-cloudauth20190307-py2]: New version: [2.4.0] Old Version: [2.3.0]
+[2024-04-26 09:31:59] INFO root fetch - processPackages [gradio-variableslider]: Downloading https://files.pythonhosted.org/packages/f5/c1/e2c2502d257bf3561b0992460f2c7eedcee35b1fd80286395672f9b7b001/gradio_variableslider-0.0.3.tar.gz
+[2024-04-26 09:31:59] INFO root fetch - processPackages [alibabacloud-cloudauth20190307]: New version: [2.6.0] Old Version: [2.5.0]
+[2024-04-26 09:31:59] INFO root fetch - processPackages [redis-cached]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-04-26 09:31:59] INFO root fetch - processPackages [refract-serving]: Downloading https://files.pythonhosted.org/packages/f1/d4/c73b1d1a25f4eda7381637e4eb99e9ba23fd81f6ec44db9d2143ab5ddcdb/refract-serving-0.0.9.tar.gz
+[2024-04-26 09:32:00] INFO root fetch - processPackages [akshare]: New version: [1.9.99] Old Version: [1.9.98]
+[2024-04-26 09:32:00] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/ec/a4/f1c21d8fbb349e15f0bf76d32a496003bcff9b66215f81b940337a510e36/akshare-1.9.98.tar.gz
+[2024-04-26 09:32:00] INFO root fetch - processPackages [unitsnet-py]: Downloading https://files.pythonhosted.org/packages/f6/a2/cd26109c559f1a97c4311d3de6783173881ed9d0632d00e35cccb162909f/unitsnet-py-0.1.95.tar.gz
+[2024-04-26 09:32:00] INFO root fetch - processPackages [alibabacloud-cloudauth20190307-py2]: Downloading https://files.pythonhosted.org/packages/95/61/0100208efe189285e02ea9df2444c0656696bc2b90ae0f3e84cc3baf9abc/alibabacloud_cloudauth20190307_py2-2.3.0.tar.gz
+[2024-04-26 09:32:00] INFO root fetch - processPackages [redis-cached]: Downloading https://files.pythonhosted.org/packages/7d/8a/9dcc650835eb108638cb30f4a5232cd2a37913ca9fe14cd33d606ca8b32e/redis_cached-0.3.0.tar.gz
+[2024-04-26 09:32:00] INFO root fetch - processPackages [alibabacloud-cloudauth20190307]: Downloading https://files.pythonhosted.org/packages/30/7d/e10a5c7f5a6de47eb0c2351586962beee966c9528ebd46e97b930eab426c/alibabacloud_cloudauth20190307-2.5.0.tar.gz
+[2024-04-26 09:32:00] INFO root fetch - processPackages [gradio-variableslider]: Downloading https://files.pythonhosted.org/packages/ad/8c/cde6bdac31a3d5071093dd5d9a5978ec041b241636da68b2241e24a9dfc2/gradio_variableslider-0.0.4.tar.gz
+[2024-04-26 09:32:00] INFO root fetch - processPackages [refract-serving]: Downloading https://files.pythonhosted.org/packages/cd/90/901baff63e451378f6aa62b42db59239ec5dbfa0571c10419f3db637cade/refract-serving-1.0.1a0.tar.gz
+[2024-04-26 09:32:00] INFO root fetch - processPackages [gradio-variableslider]: executing diffoscope
+[2024-04-26 09:32:00] INFO root fetch - processPackages [gradio-variableslider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gradio_variableslider-0.0.3.tar.gz tmp/gradio_variableslider-0.0.4.tar.gz --markdown 20240426/g/gradio-variableslider/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-26 09:32:00] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/53/e8/f58e96016752567ca09f3f67abdc7e935d0afa919aded528d50590ed9170/akshare-1.9.99.tar.gz
+[2024-04-26 09:32:00] INFO root fetch - processPackages [refract-serving]: executing diffoscope
+[2024-04-26 09:32:00] INFO root fetch - processPackages [refract-serving]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/refract-serving-0.0.9.tar.gz tmp/refract-serving-1.0.1a0.tar.gz --markdown 20240426/r/refract-serving/0.0.9-1.0.1a0/README.md --exclude *.pyd
+[2024-04-26 09:32:00] INFO root fetch - processPackages [redis-cached]: Downloading https://files.pythonhosted.org/packages/33/e8/8be4b241874eaad7d6ff4d41a514efe7ab3328b7be165091ed440bb949d9/redis_cached-0.4.0.tar.gz
+[2024-04-26 09:32:00] INFO root fetch - processPackages [alibabacloud-cloudauth20190307]: Downloading https://files.pythonhosted.org/packages/1f/b9/a480dd0d3f34b5841a8c17e9f982953debb4a1a3125d6b33f5b9b06e2876/alibabacloud_cloudauth20190307-2.6.0.tar.gz
+[2024-04-26 09:32:00] INFO root fetch - processPackages [unitsnet-py]: Downloading https://files.pythonhosted.org/packages/43/5a/d9d5f3f6e80292c3e974908208dde680948d681a7754570dfca7805c817e/unitsnet-py-0.1.96.tar.gz
+[2024-04-26 09:32:00] INFO root fetch - processPackages [akshare]: executing diffoscope
+[2024-04-26 09:32:00] INFO root fetch - processPackages [akshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akshare-1.9.98.tar.gz tmp/akshare-1.9.99.tar.gz --markdown 20240426/a/akshare/1.9.98-1.9.99/README.md --exclude *.pyd
+[2024-04-26 09:32:00] INFO root fetch - processPackages [alibabacloud-cloudauth20190307-py2]: Downloading https://files.pythonhosted.org/packages/6e/59/296bd8a44dea7962270f5018115f03f690ea16996d6c94a9dca406d3791d/alibabacloud_cloudauth20190307_py2-2.4.0.tar.gz
+[2024-04-26 09:32:00] INFO root fetch - processPackages [redis-cached]: executing diffoscope
+[2024-04-26 09:32:00] INFO root fetch - processPackages [redis-cached]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redis_cached-0.3.0.tar.gz tmp/redis_cached-0.4.0.tar.gz --markdown 20240426/r/redis-cached/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-04-26 09:32:00] INFO root fetch - processPackages [alibabacloud-cloudauth20190307]: executing diffoscope
+[2024-04-26 09:32:00] INFO root fetch - processPackages [alibabacloud-cloudauth20190307]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_cloudauth20190307-2.5.0.tar.gz tmp/alibabacloud_cloudauth20190307-2.6.0.tar.gz --markdown 20240426/a/alibabacloud-cloudauth20190307/2.5.0-2.6.0/README.md --exclude *.pyd
+[2024-04-26 09:32:00] INFO root fetch - processPackages [alibabacloud-cloudauth20190307-py2]: executing diffoscope
+[2024-04-26 09:32:00] INFO root fetch - processPackages [alibabacloud-cloudauth20190307-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_cloudauth20190307_py2-2.3.0.tar.gz tmp/alibabacloud_cloudauth20190307_py2-2.4.0.tar.gz --markdown 20240426/a/alibabacloud-cloudauth20190307-py2/2.3.0-2.4.0/README.md --exclude *.pyd
+[2024-04-26 09:32:00] INFO root fetch - processPackages [unitsnet-py]: executing diffoscope
+[2024-04-26 09:32:00] INFO root fetch - processPackages [unitsnet-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unitsnet-py-0.1.95.tar.gz tmp/unitsnet-py-0.1.96.tar.gz --markdown 20240426/u/unitsnet-py/0.1.95-0.1.96/README.md --exclude *.pyd
+[2024-04-26 09:32:01] INFO root fetch - processPackages [refract-serving]: Remove: archive file [/home/abi/fetcher/tmp/refract-serving-0.0.9.tar.gz]
+[2024-04-26 09:32:01] INFO root fetch - processPackages [refract-serving]: Remove: archive file [/home/abi/fetcher/tmp/refract-serving-1.0.1a0.tar.gz]
+[2024-04-26 09:32:01] INFO root fetch - main [MainThread]: End processing [refract-serving]: success
+[2024-04-26 09:32:01] INFO root fetch - processPackages [redis-cached]: Remove: archive file [/home/abi/fetcher/tmp/redis_cached-0.3.0.tar.gz]
+[2024-04-26 09:32:01] INFO root fetch - processPackages [redis-cached]: Remove: archive file [/home/abi/fetcher/tmp/redis_cached-0.4.0.tar.gz]
+[2024-04-26 09:32:01] INFO root fetch - main [MainThread]: End processing [redis-cached]: success
+[2024-04-26 09:32:01] INFO root fetch - processPackages [alibabacloud-cloudauth20190307]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cloudauth20190307-2.5.0.tar.gz]
+[2024-04-26 09:32:01] INFO root fetch - processPackages [alibabacloud-cloudauth20190307]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cloudauth20190307-2.6.0.tar.gz]
+[2024-04-26 09:32:01] INFO root fetch - main [MainThread]: End processing [alibabacloud-cloudauth20190307]: success
+[2024-04-26 09:32:01] INFO root fetch - processPackages [alibabacloud-cloudauth20190307-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cloudauth20190307_py2-2.3.0.tar.gz]
+[2024-04-26 09:32:01] INFO root fetch - processPackages [alibabacloud-cloudauth20190307-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cloudauth20190307_py2-2.4.0.tar.gz]
+[2024-04-26 09:32:01] INFO root fetch - main [MainThread]: End processing [alibabacloud-cloudauth20190307-py2]: success
+[2024-04-26 09:32:01] INFO root fetch - processPackages [gradio-variableslider]: Remove: archive file [/home/abi/fetcher/tmp/gradio_variableslider-0.0.3.tar.gz]
+[2024-04-26 09:32:01] INFO root fetch - processPackages [gradio-variableslider]: Remove: archive file [/home/abi/fetcher/tmp/gradio_variableslider-0.0.4.tar.gz]
+[2024-04-26 09:32:01] INFO root fetch - main [MainThread]: End processing [gradio-variableslider]: success
+[2024-04-26 09:32:02] INFO root fetch - processPackages [unitsnet-py]: Remove: archive file [/home/abi/fetcher/tmp/unitsnet-py-0.1.95.tar.gz]
+[2024-04-26 09:32:02] INFO root fetch - processPackages [unitsnet-py]: Remove: archive file [/home/abi/fetcher/tmp/unitsnet-py-0.1.96.tar.gz]
+[2024-04-26 09:32:02] INFO root fetch - main [MainThread]: End processing [unitsnet-py]: success
+[2024-04-26 09:32:03] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.98.tar.gz]
+[2024-04-26 09:32:03] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
+[2024-04-26 09:32:03] INFO root fetch - main [MainThread]: End processing [akshare]: success
+[2024-04-26 09:32:03] INFO root fetch - main [MainThread]: Store serial: [22944389]
