@@ -9086,3 +9086,27 @@
 [2024-04-26 06:30:06] INFO root fetch - processPackages [discord-limits]: Remove: archive file [/home/abi/fetcher/tmp/discord_limits-2.0.1.tar.gz]
 [2024-04-26 06:30:06] INFO root fetch - main [MainThread]: End processing [discord-limits]: success
 [2024-04-26 06:30:06] INFO root fetch - main [MainThread]: Store serial: [22942634]
+[2024-04-26 06:32:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22942634]
+[2024-04-26 06:32:15] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-26 06:32:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wizlib
+[2024-04-26 06:32:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: es-contact
+[2024-04-26 06:32:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-l10n-es-aeat-mod123
+[2024-04-26 06:32:15] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod123]: New version: [16.0.2.0.0] Old Version: [16.0.1.0.2.4]
+[2024-04-26 06:32:15] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod123]: Downloading https://files.pythonhosted.org/packages/93/ac/24bb47ee62e05281d2d1828178536567f8ef4bca3e6680d0e1fcf4fbd199/odoo_addon_l10n_es_aeat_mod123-16.0.1.0.2.4-py3-none-any.whl
+[2024-04-26 06:32:15] INFO root fetch - processPackages [wizlib]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-04-26 06:32:15] WARNING root fetch - processPackages [es-contact]: Skipping, unable to determine old version
+[2024-04-26 06:32:15] INFO root fetch - main [MainThread]: End processing [es-contact] error
+[2024-04-26 06:32:15] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod123]: Downloading https://files.pythonhosted.org/packages/29/47/3c92fe234d5a08203ecde972cbc2c35635ac2fb73e470a46b68f4414597e/odoo_addon_l10n_es_aeat_mod123-16.0.2.0.0-py3-none-any.whl
+[2024-04-26 06:32:15] INFO root fetch - processPackages [wizlib]: Downloading https://files.pythonhosted.org/packages/c7/29/35737ce7846bb14f7d77201bdbf44cacd38f08ab24172460c788074062b1/wizlib-2.0.8.tar.gz
+[2024-04-26 06:32:16] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod123]: executing diffoscope
+[2024-04-26 06:32:16] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod123]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_aeat_mod123-16.0.1.0.2.4-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_aeat_mod123-16.0.2.0.0-py3-none-any.whl.zip --markdown 20240426/o/odoo-addon-l10n-es-aeat-mod123/16.0.1.0.2.4-16.0.2.0.0/README.md --exclude *.pyd
+[2024-04-26 06:32:16] INFO root fetch - processPackages [wizlib]: Downloading https://files.pythonhosted.org/packages/31/ce/96f81a7e7d0ed4536b0497ca69767df2257151675cb7d3422fb66cb5d42f/wizlib-2.0.9.tar.gz
+[2024-04-26 06:32:16] INFO root fetch - processPackages [wizlib]: executing diffoscope
+[2024-04-26 06:32:16] INFO root fetch - processPackages [wizlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wizlib-2.0.8.tar.gz tmp/wizlib-2.0.9.tar.gz --markdown 20240426/w/wizlib/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-04-26 06:32:16] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod123]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat_mod123-16.0.1.0.2.4-py3-none-any.whl.zip]
+[2024-04-26 06:32:16] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod123]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat_mod123-16.0.2.0.0-py3-none-any.whl.zip]
+[2024-04-26 06:32:16] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-aeat-mod123]: success
+[2024-04-26 06:32:16] INFO root fetch - processPackages [wizlib]: Remove: archive file [/home/abi/fetcher/tmp/wizlib-2.0.8.tar.gz]
+[2024-04-26 06:32:16] INFO root fetch - processPackages [wizlib]: Remove: archive file [/home/abi/fetcher/tmp/wizlib-2.0.9.tar.gz]
+[2024-04-26 06:32:16] INFO root fetch - main [MainThread]: End processing [wizlib]: success
+[2024-04-26 06:32:16] INFO root fetch - main [MainThread]: Store serial: [22942643]
