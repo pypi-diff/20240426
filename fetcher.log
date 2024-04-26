@@ -12070,3 +12070,69 @@
 [2024-04-26 09:06:56] INFO root fetch - processPackages [BoatBuddy]: Remove: archive file [/home/abi/fetcher/tmp/boatbuddy-0.9.5.tar.gz]
 [2024-04-26 09:06:56] INFO root fetch - main [MainThread]: End processing [BoatBuddy]: success
 [2024-04-26 09:06:56] INFO root fetch - main [MainThread]: Store serial: [22943821]
+[2024-04-26 09:09:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22943821]
+[2024-04-26 09:09:05] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-26 09:09:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-tls
+[2024-04-26 09:09:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aleph-alpha-client
+[2024-04-26 09:09:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-tailscale
+[2024-04-26 09:09:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vadi
+[2024-04-26 09:09:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: audplot
+[2024-04-26 09:09:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: monai
+[2024-04-26 09:09:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-wavefront
+[2024-04-26 09:09:05] INFO root fetch - processPackages [monai]: New version: [1.3.1rc5] Old Version: [1.3.1rc3]
+[2024-04-26 09:09:05] INFO root fetch - processPackages [vadi]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-26 09:09:05] INFO root fetch - processPackages [audplot]: New version: [1.4.7] Old Version: [1.4.6]
+[2024-04-26 09:09:05] INFO root fetch - processPackages [pulumi-tls]: New version: [5.1.0a1714114176] Old Version: [5.1.0a1713904980]
+[2024-04-26 09:09:05] INFO root fetch - processPackages [pulumi-tailscale]: New version: [0.9.1a1656330156] Old Version: [0.9.0]
+[2024-04-26 09:09:05] INFO root fetch - processPackages [aleph-alpha-client]: New version: [7.1.0] Old Version: [7.0.1]
+[2024-04-26 09:09:05] INFO root fetch - processPackages [pulumi-wavefront]: New version: [3.2.0a1714114403] Old Version: [3.2.0a1713905403]
+[2024-04-26 09:09:05] INFO root fetch - processPackages [monai]: Downloading https://files.pythonhosted.org/packages/87/aa/bf47cbdf21c217b39874d67d8c9eac6a28a01382e985c96dfa245511b4f6/monai-1.3.1rc3.tar.gz
+[2024-04-26 09:09:05] INFO root fetch - processPackages [aleph-alpha-client]: Downloading https://files.pythonhosted.org/packages/5e/9a/297566a5ba7d04b25834ecb89f6a07c6ed0ebe42fba32668e1600b4cb7d6/aleph-alpha-client-7.0.1.tar.gz
+[2024-04-26 09:09:05] INFO root fetch - processPackages [vadi]: Downloading https://files.pythonhosted.org/packages/9f/2c/fb571004b6e0a221ed3e6976f60ae25966b9f3308b101bb7bbb7c9c9ba3d/vadi-0.0.5.tar.gz
+[2024-04-26 09:09:05] INFO root fetch - processPackages [pulumi-tls]: Downloading https://files.pythonhosted.org/packages/40/24/4e8ddd01f745205a076e3d0b889fbd529de5e138cd64c8c4737a38619870/pulumi_tls-5.1.0a1713904980.tar.gz
+[2024-04-26 09:09:05] INFO root fetch - processPackages [audplot]: Downloading https://files.pythonhosted.org/packages/c0/d2/792a3b4d6082fa3a6a30ddc794fc33a25b833d18a1aa577963a9b88e7cfb/audplot-1.4.6.tar.gz
+[2024-04-26 09:09:05] INFO root fetch - processPackages [pulumi-wavefront]: Downloading https://files.pythonhosted.org/packages/2d/b2/bd0ce1fb1cd01c325bbda16b81751ce5f7f6de44382e5fae2613b2404833/pulumi_wavefront-3.2.0a1713905403.tar.gz
+[2024-04-26 09:09:05] INFO root fetch - processPackages [pulumi-tailscale]: Downloading https://files.pythonhosted.org/packages/af/fc/1aa615a8e44d21b520ec05aa57ea2ee6f62de762047b4ad8ccec73544ac3/pulumi_tailscale-0.9.0.tar.gz
+[2024-04-26 09:09:06] INFO root fetch - processPackages [aleph-alpha-client]: Downloading https://files.pythonhosted.org/packages/38/67/11dc9083df00e8b314bc627e20f3009f68c5e0ab67afc718ece60cc33791/aleph_alpha_client-7.1.0.tar.gz
+[2024-04-26 09:09:06] INFO root fetch - processPackages [vadi]: Downloading https://files.pythonhosted.org/packages/99/2d/47f2cdffa5ad83fba2e4fed8f97bb80af643b8837ae9c9a3ce3aa3348a24/vadi-0.0.6.tar.gz
+[2024-04-26 09:09:06] INFO root fetch - processPackages [pulumi-tls]: Downloading https://files.pythonhosted.org/packages/01/78/eb178b93f804a4160a2f7c35710bbb89fae37c35f3f03613de84c5f04ea8/pulumi_tls-5.1.0a1714114176.tar.gz
+[2024-04-26 09:09:06] INFO root fetch - processPackages [monai]: Downloading https://files.pythonhosted.org/packages/7a/9e/17a8529a04e746db3f43ff770eae9a4d467f5a639c3f36b4c9597a57ddae/monai-1.3.1rc5-py3-none-any.whl
+[2024-04-26 09:09:06] INFO root fetch - processPackages [vadi]: executing diffoscope
+[2024-04-26 09:09:06] INFO root fetch - processPackages [vadi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vadi-0.0.5.tar.gz tmp/vadi-0.0.6.tar.gz --markdown 20240426/v/vadi/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-26 09:09:06] INFO root fetch - processPackages [aleph-alpha-client]: executing diffoscope
+[2024-04-26 09:09:06] INFO root fetch - processPackages [aleph-alpha-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aleph-alpha-client-7.0.1.tar.gz tmp/aleph_alpha_client-7.1.0.tar.gz --markdown 20240426/a/aleph-alpha-client/7.0.1-7.1.0/README.md --exclude *.pyd
+[2024-04-26 09:09:06] INFO root fetch - processPackages [pulumi-wavefront]: Downloading https://files.pythonhosted.org/packages/c5/a6/c69e4e9738ff2cdf199bf74deeb15d608852093b1aadf9f45994bc34a053/pulumi_wavefront-3.2.0a1714114403.tar.gz
+[2024-04-26 09:09:06] INFO root fetch - processPackages [audplot]: Downloading https://files.pythonhosted.org/packages/a4/3d/0b9e2d8d9017dbd174c65ab05d65b736162de1110a926febf71af1b618d5/audplot-1.4.7.tar.gz
+[2024-04-26 09:09:06] INFO root fetch - processPackages [pulumi-tailscale]: Downloading https://files.pythonhosted.org/packages/a3/d6/938674a37f5324fe6d787b4f3efbeeebc5d750fd8c8c25fb2198b11e6a4d/pulumi_tailscale-0.9.1a1656330156.tar.gz
+[2024-04-26 09:09:06] INFO root fetch - processPackages [pulumi-tls]: executing diffoscope
+[2024-04-26 09:09:06] INFO root fetch - processPackages [pulumi-tls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_tls-5.1.0a1713904980.tar.gz tmp/pulumi_tls-5.1.0a1714114176.tar.gz --markdown 20240426/p/pulumi-tls/5.1.0a1713904980-5.1.0a1714114176/README.md --exclude *.pyd
+[2024-04-26 09:09:06] INFO root fetch - processPackages [audplot]: executing diffoscope
+[2024-04-26 09:09:06] INFO root fetch - processPackages [audplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audplot-1.4.6.tar.gz tmp/audplot-1.4.7.tar.gz --markdown 20240426/a/audplot/1.4.6-1.4.7/README.md --exclude *.pyd
+[2024-04-26 09:09:06] INFO root fetch - processPackages [pulumi-tailscale]: executing diffoscope
+[2024-04-26 09:09:06] INFO root fetch - processPackages [pulumi-tailscale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_tailscale-0.9.0.tar.gz tmp/pulumi_tailscale-0.9.1a1656330156.tar.gz --markdown 20240426/p/pulumi-tailscale/0.9.0-0.9.1a1656330156/README.md --exclude *.pyd
+[2024-04-26 09:09:06] INFO root fetch - processPackages [monai]: executing diffoscope
+[2024-04-26 09:09:06] INFO root fetch - processPackages [monai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monai-1.3.1rc3.tar.gz tmp/monai-1.3.1rc5-py3-none-any.whl.zip --markdown 20240426/m/monai/1.3.1rc3-1.3.1rc5/README.md --exclude *.pyd
+[2024-04-26 09:09:06] INFO root fetch - processPackages [pulumi-wavefront]: executing diffoscope
+[2024-04-26 09:09:06] INFO root fetch - processPackages [pulumi-wavefront]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_wavefront-3.2.0a1713905403.tar.gz tmp/pulumi_wavefront-3.2.0a1714114403.tar.gz --markdown 20240426/p/pulumi-wavefront/3.2.0a1713905403-3.2.0a1714114403/README.md --exclude *.pyd
+[2024-04-26 09:09:07] INFO root fetch - processPackages [vadi]: Remove: archive file [/home/abi/fetcher/tmp/vadi-0.0.5.tar.gz]
+[2024-04-26 09:09:07] INFO root fetch - processPackages [vadi]: Remove: archive file [/home/abi/fetcher/tmp/vadi-0.0.6.tar.gz]
+[2024-04-26 09:09:07] INFO root fetch - main [MainThread]: End processing [vadi]: success
+[2024-04-26 09:09:07] INFO root fetch - processPackages [pulumi-tls]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_tls-5.1.0a1713904980.tar.gz]
+[2024-04-26 09:09:07] INFO root fetch - processPackages [pulumi-tls]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_tls-5.1.0a1714114176.tar.gz]
+[2024-04-26 09:09:07] INFO root fetch - main [MainThread]: End processing [pulumi-tls]: success
+[2024-04-26 09:09:07] INFO root fetch - processPackages [aleph-alpha-client]: Remove: archive file [/home/abi/fetcher/tmp/aleph-alpha-client-7.0.1.tar.gz]
+[2024-04-26 09:09:07] INFO root fetch - processPackages [aleph-alpha-client]: Remove: archive file [/home/abi/fetcher/tmp/aleph_alpha_client-7.1.0.tar.gz]
+[2024-04-26 09:09:07] INFO root fetch - main [MainThread]: End processing [aleph-alpha-client]: success
+[2024-04-26 09:09:07] INFO root fetch - processPackages [pulumi-tailscale]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_tailscale-0.9.0.tar.gz]
+[2024-04-26 09:09:07] INFO root fetch - processPackages [pulumi-tailscale]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_tailscale-0.9.1a1656330156.tar.gz]
+[2024-04-26 09:09:07] INFO root fetch - main [MainThread]: End processing [pulumi-tailscale]: success
+[2024-04-26 09:09:07] INFO root fetch - processPackages [audplot]: Remove: archive file [/home/abi/fetcher/tmp/audplot-1.4.6.tar.gz]
+[2024-04-26 09:09:07] INFO root fetch - processPackages [audplot]: Remove: archive file [/home/abi/fetcher/tmp/audplot-1.4.7.tar.gz]
+[2024-04-26 09:09:07] INFO root fetch - main [MainThread]: End processing [audplot]: success
+[2024-04-26 09:09:07] INFO root fetch - processPackages [pulumi-wavefront]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_wavefront-3.2.0a1713905403.tar.gz]
+[2024-04-26 09:09:07] INFO root fetch - processPackages [pulumi-wavefront]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_wavefront-3.2.0a1714114403.tar.gz]
+[2024-04-26 09:09:07] INFO root fetch - main [MainThread]: End processing [pulumi-wavefront]: success
+[2024-04-26 09:09:07] INFO root fetch - processPackages [monai]: Remove: archive file [/home/abi/fetcher/tmp/monai-1.3.1rc3.tar.gz]
+[2024-04-26 09:09:07] INFO root fetch - processPackages [monai]: Remove: archive file [/home/abi/fetcher/tmp/monai-1.3.1rc5-py3-none-any.whl.zip]
+[2024-04-26 09:09:07] INFO root fetch - main [MainThread]: End processing [monai]: success
+[2024-04-26 09:09:07] INFO root fetch - main [MainThread]: Store serial: [22943841]
