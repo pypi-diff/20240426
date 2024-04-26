@@ -11656,3 +11656,75 @@
 [2024-04-26 08:49:16] INFO root fetch - processPackages [plonetheme.barceloneta]: Remove: archive file [/home/abi/fetcher/tmp/plonetheme_barceloneta-3.2.0a4.tar.gz]
 [2024-04-26 08:49:16] INFO root fetch - main [MainThread]: End processing [plonetheme.barceloneta]: success
 [2024-04-26 08:49:16] INFO root fetch - main [MainThread]: Store serial: [22943625]
+[2024-04-26 08:51:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22943625]
+[2024-04-26 08:51:25] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-26 08:51:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-rabbitmq
+[2024-04-26 08:51:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PyQtUIkit
+[2024-04-26 08:51:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: GaiaScript
+[2024-04-26 08:51:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vector-database
+[2024-04-26 08:51:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyplotlib
+[2024-04-26 08:51:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: data-prep-lab-kfp
+[2024-04-26 08:51:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: groqon
+[2024-04-26 08:51:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-slack
+[2024-04-26 08:51:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pms-onpremise-encoder
+[2024-04-26 08:51:25] INFO root fetch - processPackages [GaiaScript]: New version: [0.1.1.4] Old Version: [0.1.1.3]
+[2024-04-26 08:51:25] INFO root fetch - processPackages [groqon]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-26 08:51:25] INFO root fetch - processPackages [pyplotlib]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-26 08:51:25] WARNING root fetch - processPackages [vector-database]: Skipping, unable to determine old version
+[2024-04-26 08:51:25] INFO root fetch - main [MainThread]: End processing [vector-database] error
+[2024-04-26 08:51:25] INFO root fetch - processPackages [data-prep-lab-kfp]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-26 08:51:25] ERROR root fetch - processPackages [pms-onpremise-encoder]: Unable to get metadata: No such project 'pms-onpremise-encoder'
+[2024-04-26 08:51:25] INFO root fetch - main [MainThread]: End processing [pms-onpremise-encoder] error
+[2024-04-26 08:51:25] INFO root fetch - processPackages [pyplotlib]: Downloading https://files.pythonhosted.org/packages/28/bb/58ba19c8fed8024ef2c0efd0523dded73560d64857fcd7916d35aa6aa8af/pyplotlib-0.0.8.tar.gz
+[2024-04-26 08:51:25] INFO root fetch - processPackages [GaiaScript]: Downloading https://files.pythonhosted.org/packages/04/7d/2d8e40b7880ef8bebfc3f332a8b9c3928690339fb80d5db0537af82016dc/GaiaScript-0.1.1.3.tar.gz
+[2024-04-26 08:51:25] INFO root fetch - processPackages [pulumi-slack]: New version: [0.4.5a1714112741] Old Version: [0.4.5a1713904890]
+[2024-04-26 08:51:25] INFO root fetch - processPackages [PyQtUIkit]: New version: [2.8.1] Old Version: [2.7.4]
+[2024-04-26 08:51:25] INFO root fetch - processPackages [pulumi-rabbitmq]: New version: [3.4.0a1714112064] Old Version: [3.4.0a1713906996]
+[2024-04-26 08:51:25] INFO root fetch - processPackages [groqon]: Downloading https://files.pythonhosted.org/packages/45/5e/831d1a9c8345cd5c47bcf5c1828647175ea1b535b4189e475f6ed2c4f93b/groqon-0.1.0.tar.gz
+[2024-04-26 08:51:25] INFO root fetch - processPackages [pyplotlib]: Downloading https://files.pythonhosted.org/packages/8b/f8/1cec6ba77c9aee645ad1564c6fe928db135b36bec387a9574c6422edd191/pyplotlib-0.0.9.tar.gz
+[2024-04-26 08:51:25] INFO root fetch - processPackages [pulumi-rabbitmq]: Downloading https://files.pythonhosted.org/packages/e9/78/ef22507e52a71856c1668436d445a36669997843b7939f12d9f1bf45fbd2/pulumi_rabbitmq-3.4.0a1713906996.tar.gz
+[2024-04-26 08:51:26] INFO root fetch - processPackages [PyQtUIkit]: Downloading https://files.pythonhosted.org/packages/b3/5a/c9df6833d21cab200765991f7601df7adc8f085ea0ac24cbf9249d54e851/PyQtUIkit-2.7.4.tar.gz
+[2024-04-26 08:51:26] INFO root fetch - processPackages [pulumi-slack]: Downloading https://files.pythonhosted.org/packages/e0/20/ba1f3cdeac279a206f8c7af561c61467f603db4ef64132d3e70c1dc4392b/pulumi_slack-0.4.5a1713904890.tar.gz
+[2024-04-26 08:51:26] INFO root fetch - processPackages [data-prep-lab-kfp]: Downloading https://files.pythonhosted.org/packages/43/64/5565d27029a0ae26a486c9b8016c8af45394c51f603e11091358a35337e2/data_prep_lab_kfp-0.1.4.tar.gz
+[2024-04-26 08:51:26] INFO root fetch - processPackages [GaiaScript]: Downloading https://files.pythonhosted.org/packages/1c/d2/07c5c8351e98b74a98926ae80cad6dcaabf6ff77a5e5d526534856d94f31/GaiaScript-0.1.1.4.tar.gz
+[2024-04-26 08:51:26] INFO root fetch - processPackages [pyplotlib]: executing diffoscope
+[2024-04-26 08:51:26] INFO root fetch - processPackages [pyplotlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyplotlib-0.0.8.tar.gz tmp/pyplotlib-0.0.9.tar.gz --markdown 20240426/p/pyplotlib/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-26 08:51:26] INFO root fetch - processPackages [GaiaScript]: executing diffoscope
+[2024-04-26 08:51:26] INFO root fetch - processPackages [GaiaScript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GaiaScript-0.1.1.3.tar.gz tmp/GaiaScript-0.1.1.4.tar.gz --markdown 20240426/G/GaiaScript/0.1.1.3-0.1.1.4/README.md --exclude *.pyd
+[2024-04-26 08:51:26] INFO root fetch - processPackages [groqon]: Downloading https://files.pythonhosted.org/packages/b9/50/b5c6b17645e33b84ff05b555ed6f63cc81af09ca3dce9a084a692ec43ea9/groqon-0.1.1.tar.gz
+[2024-04-26 08:51:26] INFO root fetch - processPackages [pulumi-rabbitmq]: Downloading https://files.pythonhosted.org/packages/18/3a/8d20b4e2446ac1f26439e7c62f1a280300d6f9fe2d9675919f6bc3f047f1/pulumi_rabbitmq-3.4.0a1714112064.tar.gz
+[2024-04-26 08:51:26] INFO root fetch - processPackages [pulumi-slack]: Downloading https://files.pythonhosted.org/packages/05/86/cabbd04d8baa1ac6a97bcf1ad1f77bd6cf36c24f3ba940f0520dbf7717c4/pulumi_slack-0.4.5a1714112741.tar.gz
+[2024-04-26 08:51:26] INFO root fetch - processPackages [data-prep-lab-kfp]: Downloading https://files.pythonhosted.org/packages/d0/8f/715e1d415a17a2821b5e4bfeb39c4765fb96fed79011666cf938283787ce/data_prep_lab_kfp-0.1.5.tar.gz
+[2024-04-26 08:51:26] INFO root fetch - processPackages [groqon]: executing diffoscope
+[2024-04-26 08:51:26] INFO root fetch - processPackages [groqon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/groqon-0.1.0.tar.gz tmp/groqon-0.1.1.tar.gz --markdown 20240426/g/groqon/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-26 08:51:26] INFO root fetch - processPackages [pulumi-rabbitmq]: executing diffoscope
+[2024-04-26 08:51:26] INFO root fetch - processPackages [pulumi-rabbitmq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_rabbitmq-3.4.0a1713906996.tar.gz tmp/pulumi_rabbitmq-3.4.0a1714112064.tar.gz --markdown 20240426/p/pulumi-rabbitmq/3.4.0a1713906996-3.4.0a1714112064/README.md --exclude *.pyd
+[2024-04-26 08:51:26] INFO root fetch - processPackages [PyQtUIkit]: Downloading https://files.pythonhosted.org/packages/13/13/f5c452c6c6d7c08e0e07e42d98393302398da33d4e1feb1c30c3320b515f/PyQtUIkit-2.8.1.tar.gz
+[2024-04-26 08:51:26] INFO root fetch - processPackages [data-prep-lab-kfp]: executing diffoscope
+[2024-04-26 08:51:26] INFO root fetch - processPackages [data-prep-lab-kfp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_prep_lab_kfp-0.1.4.tar.gz tmp/data_prep_lab_kfp-0.1.5.tar.gz --markdown 20240426/d/data-prep-lab-kfp/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-26 08:51:26] INFO root fetch - processPackages [pulumi-slack]: executing diffoscope
+[2024-04-26 08:51:26] INFO root fetch - processPackages [pulumi-slack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_slack-0.4.5a1713904890.tar.gz tmp/pulumi_slack-0.4.5a1714112741.tar.gz --markdown 20240426/p/pulumi-slack/0.4.5a1713904890-0.4.5a1714112741/README.md --exclude *.pyd
+[2024-04-26 08:51:26] INFO root fetch - processPackages [PyQtUIkit]: executing diffoscope
+[2024-04-26 08:51:26] INFO root fetch - processPackages [PyQtUIkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyQtUIkit-2.7.4.tar.gz tmp/PyQtUIkit-2.8.1.tar.gz --markdown 20240426/P/PyQtUIkit/2.7.4-2.8.1/README.md --exclude *.pyd
+[2024-04-26 08:51:26] INFO root fetch - processPackages [GaiaScript]: Remove: archive file [/home/abi/fetcher/tmp/GaiaScript-0.1.1.3.tar.gz]
+[2024-04-26 08:51:26] INFO root fetch - processPackages [GaiaScript]: Remove: archive file [/home/abi/fetcher/tmp/GaiaScript-0.1.1.4.tar.gz]
+[2024-04-26 08:51:26] INFO root fetch - main [MainThread]: End processing [GaiaScript]: success
+[2024-04-26 08:51:26] INFO root fetch - processPackages [pyplotlib]: Remove: archive file [/home/abi/fetcher/tmp/pyplotlib-0.0.8.tar.gz]
+[2024-04-26 08:51:26] INFO root fetch - processPackages [pyplotlib]: Remove: archive file [/home/abi/fetcher/tmp/pyplotlib-0.0.9.tar.gz]
+[2024-04-26 08:51:26] INFO root fetch - main [MainThread]: End processing [pyplotlib]: success
+[2024-04-26 08:51:27] INFO root fetch - processPackages [groqon]: Remove: archive file [/home/abi/fetcher/tmp/groqon-0.1.0.tar.gz]
+[2024-04-26 08:51:27] INFO root fetch - processPackages [groqon]: Remove: archive file [/home/abi/fetcher/tmp/groqon-0.1.1.tar.gz]
+[2024-04-26 08:51:27] INFO root fetch - main [MainThread]: End processing [groqon]: success
+[2024-04-26 08:51:27] INFO root fetch - processPackages [pulumi-rabbitmq]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rabbitmq-3.4.0a1713906996.tar.gz]
+[2024-04-26 08:51:27] INFO root fetch - processPackages [pulumi-rabbitmq]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rabbitmq-3.4.0a1714112064.tar.gz]
+[2024-04-26 08:51:27] INFO root fetch - main [MainThread]: End processing [pulumi-rabbitmq]: success
+[2024-04-26 08:51:27] INFO root fetch - processPackages [data-prep-lab-kfp]: Remove: archive file [/home/abi/fetcher/tmp/data_prep_lab_kfp-0.1.4.tar.gz]
+[2024-04-26 08:51:27] INFO root fetch - processPackages [data-prep-lab-kfp]: Remove: archive file [/home/abi/fetcher/tmp/data_prep_lab_kfp-0.1.5.tar.gz]
+[2024-04-26 08:51:27] INFO root fetch - main [MainThread]: End processing [data-prep-lab-kfp]: success
+[2024-04-26 08:51:27] INFO root fetch - processPackages [pulumi-slack]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_slack-0.4.5a1713904890.tar.gz]
+[2024-04-26 08:51:27] INFO root fetch - processPackages [pulumi-slack]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_slack-0.4.5a1714112741.tar.gz]
+[2024-04-26 08:51:27] INFO root fetch - main [MainThread]: End processing [pulumi-slack]: success
+[2024-04-26 08:51:27] INFO root fetch - processPackages [PyQtUIkit]: Remove: archive file [/home/abi/fetcher/tmp/PyQtUIkit-2.7.4.tar.gz]
+[2024-04-26 08:51:27] INFO root fetch - processPackages [PyQtUIkit]: Remove: archive file [/home/abi/fetcher/tmp/PyQtUIkit-2.8.1.tar.gz]
+[2024-04-26 08:51:27] INFO root fetch - main [MainThread]: End processing [PyQtUIkit]: success
+[2024-04-26 08:51:27] INFO root fetch - main [MainThread]: Store serial: [22943658]
