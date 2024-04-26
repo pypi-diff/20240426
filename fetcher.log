@@ -9853,3 +9853,15 @@
 [2024-04-26 07:29:21] INFO root fetch - processPackages [daisyfl]: Remove: archive file [/home/abi/fetcher/tmp/daisyfl-0.5.3.tar.gz]
 [2024-04-26 07:29:21] INFO root fetch - main [MainThread]: End processing [daisyfl]: success
 [2024-04-26 07:29:21] INFO root fetch - main [MainThread]: Store serial: [22942932]
+[2024-04-26 07:31:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22942932]
+[2024-04-26 07:31:30] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-26 07:31:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cos-ruleengine
+[2024-04-26 07:31:30] INFO root fetch - processPackages [cos-ruleengine]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-26 07:31:30] INFO root fetch - processPackages [cos-ruleengine]: Downloading https://files.pythonhosted.org/packages/ee/f2/b83d102b212a31fc585b31e819ece8bc847c843398a0385f458e38a56f07/cos-ruleengine-0.1.8.tar.gz
+[2024-04-26 07:31:30] INFO root fetch - processPackages [cos-ruleengine]: Downloading https://files.pythonhosted.org/packages/99/23/f847856821d81c172f7d394b6a8e074ce726036e665452ebd4c08d66f92c/cos-ruleengine-0.1.9.tar.gz
+[2024-04-26 07:31:31] INFO root fetch - processPackages [cos-ruleengine]: executing diffoscope
+[2024-04-26 07:31:31] INFO root fetch - processPackages [cos-ruleengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cos-ruleengine-0.1.8.tar.gz tmp/cos-ruleengine-0.1.9.tar.gz --markdown 20240426/c/cos-ruleengine/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-26 07:31:31] INFO root fetch - processPackages [cos-ruleengine]: Remove: archive file [/home/abi/fetcher/tmp/cos-ruleengine-0.1.8.tar.gz]
+[2024-04-26 07:31:31] INFO root fetch - processPackages [cos-ruleengine]: Remove: archive file [/home/abi/fetcher/tmp/cos-ruleengine-0.1.9.tar.gz]
+[2024-04-26 07:31:31] INFO root fetch - main [MainThread]: End processing [cos-ruleengine]: success
+[2024-04-26 07:31:31] INFO root fetch - main [MainThread]: Store serial: [22942938]
