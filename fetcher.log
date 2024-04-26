@@ -7250,3 +7250,15 @@
 [2024-04-26 04:03:30] INFO root fetch - processPackages [dez]: Remove: archive file [/home/abi/fetcher/tmp/dez-0.9.5-py2.7.egg]
 [2024-04-26 04:03:30] INFO root fetch - main [MainThread]: End processing [dez]: success
 [2024-04-26 04:03:30] INFO root fetch - main [MainThread]: Store serial: [22941825]
+[2024-04-26 04:05:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22941825]
+[2024-04-26 04:05:39] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-26 04:05:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yut23-utils
+[2024-04-26 04:05:39] INFO root fetch - processPackages [yut23-utils]: New version: [0.2.0] Old Version: [0.1.1]
+[2024-04-26 04:05:39] INFO root fetch - processPackages [yut23-utils]: Downloading https://files.pythonhosted.org/packages/4b/2d/ec1acd76d2dedea28435f3c29e5cc2e22cfed17122fa73b8ae0790f0623e/yut23_utils-0.1.1.tar.gz
+[2024-04-26 04:05:39] INFO root fetch - processPackages [yut23-utils]: Downloading https://files.pythonhosted.org/packages/c2/30/dafb9f941a220afd48333f8e93b14f2e40e91bc0247e2aa701fd160035ae/yut23_utils-0.2.0.tar.gz
+[2024-04-26 04:05:40] INFO root fetch - processPackages [yut23-utils]: executing diffoscope
+[2024-04-26 04:05:40] INFO root fetch - processPackages [yut23-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yut23_utils-0.1.1.tar.gz tmp/yut23_utils-0.2.0.tar.gz --markdown 20240426/y/yut23-utils/0.1.1-0.2.0/README.md --exclude *.pyd
+[2024-04-26 04:05:40] INFO root fetch - processPackages [yut23-utils]: Remove: archive file [/home/abi/fetcher/tmp/yut23_utils-0.1.1.tar.gz]
+[2024-04-26 04:05:40] INFO root fetch - processPackages [yut23-utils]: Remove: archive file [/home/abi/fetcher/tmp/yut23_utils-0.2.0.tar.gz]
+[2024-04-26 04:05:40] INFO root fetch - main [MainThread]: End processing [yut23-utils]: success
+[2024-04-26 04:05:40] INFO root fetch - main [MainThread]: Store serial: [22941828]
