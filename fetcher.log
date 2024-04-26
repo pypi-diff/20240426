@@ -8482,3 +8482,26 @@
 [2024-04-26 05:48:43] INFO root fetch - processPackages [llama-index]: Remove: archive file [/home/abi/fetcher/tmp/llama_index-0.9.9.tar.gz]
 [2024-04-26 05:48:43] INFO root fetch - main [MainThread]: End processing [llama-index]: success
 [2024-04-26 05:48:43] INFO root fetch - main [MainThread]: Store serial: [22942383]
+[2024-04-26 05:50:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22942383]
+[2024-04-26 05:50:53] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-26 05:52:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22942383]
+[2024-04-26 05:52:58] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-26 05:52:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: discord-limits
+[2024-04-26 05:52:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tomata
+[2024-04-26 05:52:58] INFO root fetch - processPackages [tomata]: New version: [1.1.0] Old Version: [1.0.3]
+[2024-04-26 05:52:58] INFO root fetch - processPackages [discord-limits]: New version: [2.0.1] Old Version: [1.1.2]
+[2024-04-26 05:52:58] INFO root fetch - processPackages [discord-limits]: Downloading https://files.pythonhosted.org/packages/17/98/a9b5320ca0f9e34186c4280bf7f33dfe64f166d2c47ccce0182085b3a045/discord_limits-1.1.2.tar.gz
+[2024-04-26 05:52:58] INFO root fetch - processPackages [tomata]: Downloading https://files.pythonhosted.org/packages/0a/0f/e7237f6fb511801a584936bd0b44acae4b0f37d7708c3982e9627d4a34aa/tomata-1.0.3.tar.gz
+[2024-04-26 05:52:59] INFO root fetch - processPackages [discord-limits]: Downloading https://files.pythonhosted.org/packages/8b/97/f7f7fafdbdbee69cf24ae40aabe9668e7b7e407d1ba46020ed6342e506c3/discord_limits-2.0.1.tar.gz
+[2024-04-26 05:52:59] INFO root fetch - processPackages [tomata]: Downloading https://files.pythonhosted.org/packages/80/f3/d216ac3f7de3cb65b1da71eaee9c9271db6ed23d423c7bcaad715e3b683b/tomata-1.1.0.tar.gz
+[2024-04-26 05:52:59] INFO root fetch - processPackages [discord-limits]: executing diffoscope
+[2024-04-26 05:52:59] INFO root fetch - processPackages [discord-limits]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discord_limits-1.1.2.tar.gz tmp/discord_limits-2.0.1.tar.gz --markdown 20240426/d/discord-limits/1.1.2-2.0.1/README.md --exclude *.pyd
+[2024-04-26 05:52:59] INFO root fetch - processPackages [tomata]: executing diffoscope
+[2024-04-26 05:52:59] INFO root fetch - processPackages [tomata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tomata-1.0.3.tar.gz tmp/tomata-1.1.0.tar.gz --markdown 20240426/t/tomata/1.0.3-1.1.0/README.md --exclude *.pyd
+[2024-04-26 05:52:59] INFO root fetch - processPackages [discord-limits]: Remove: archive file [/home/abi/fetcher/tmp/discord_limits-1.1.2.tar.gz]
+[2024-04-26 05:52:59] INFO root fetch - processPackages [discord-limits]: Remove: archive file [/home/abi/fetcher/tmp/discord_limits-2.0.1.tar.gz]
+[2024-04-26 05:52:59] INFO root fetch - main [MainThread]: End processing [discord-limits]: success
+[2024-04-26 05:53:00] INFO root fetch - processPackages [tomata]: Remove: archive file [/home/abi/fetcher/tmp/tomata-1.0.3.tar.gz]
+[2024-04-26 05:53:00] INFO root fetch - processPackages [tomata]: Remove: archive file [/home/abi/fetcher/tmp/tomata-1.1.0.tar.gz]
+[2024-04-26 05:53:00] INFO root fetch - main [MainThread]: End processing [tomata]: success
+[2024-04-26 05:53:00] INFO root fetch - main [MainThread]: Store serial: [22942389]
