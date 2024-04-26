@@ -2404,3 +2404,110 @@
 [2024-04-26 02:27:02] INFO root fetch - processPackages [NMODL-nightly]: Remove: archive file [/home/abi/fetcher/tmp/NMODL_nightly-0.6.98-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-04-26 02:27:02] INFO root fetch - main [MainThread]: End processing [NMODL-nightly]: success
 [2024-04-26 02:27:02] INFO root fetch - main [MainThread]: Store serial: [22939956]
+[2024-04-26 02:29:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22939956]
+[2024-04-26 02:29:10] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-04-26 02:29:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mov-cli
+[2024-04-26 02:29:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-secret-manager-wrapper-layer
+[2024-04-26 02:29:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pxutil
+[2024-04-26 02:29:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-ecs-service-extensions
+[2024-04-26 02:29:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Unified-python-sdk
+[2024-04-26 02:29:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: focanocodigo
+[2024-04-26 02:29:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: atopile
+[2024-04-26 02:29:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk-gitlab-runner
+[2024-04-26 02:29:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdk-certbot-dns-route53
+[2024-04-26 02:29:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pygooglehelper
+[2024-04-26 02:29:11] INFO root fetch - processPackages [atopile]: New version: [0.3.0.dev0] Old Version: [0.2.9]
+[2024-04-26 02:29:11] INFO root fetch - processPackages [cdk-certbot-dns-route53]: New version: [2.4.99] Old Version: [2.4.98]
+[2024-04-26 02:29:11] INFO root fetch - processPackages [pxutil]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-26 02:29:11] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-04-26 02:29:11] INFO root fetch - processPackages [cdk-ecs-service-extensions]: New version: [2.0.1a99] Old Version: [2.0.1a98]
+[2024-04-26 02:29:11] INFO root fetch - processPackages [cdk-gitlab-runner]: New version: [2.2.99] Old Version: [2.2.98]
+[2024-04-26 02:29:11] INFO root fetch - processPackages [Unified-python-sdk]: New version: [0.21.9] Old Version: [0.21.8]
+[2024-04-26 02:29:11] INFO root fetch - processPackages [pygooglehelper]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-26 02:29:11] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/7d/4d/b1cb6c8586d736f490cc5099e0220282aadb28d3aefc028cf88e6a183b06/cdk-certbot-dns-route53-2.4.98.tar.gz
+[2024-04-26 02:29:11] INFO root fetch - processPackages [focanocodigo]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-26 02:29:11] INFO root fetch - processPackages [mov-cli]: New version: [4.3.8] Old Version: [4.3.7]
+[2024-04-26 02:29:11] INFO root fetch - processPackages [atopile]: Downloading https://files.pythonhosted.org/packages/b9/4b/f9ec536fd464d0e26a65a2027efe19630c4f5dbd38d7329e74df46ff0a91/atopile-0.2.9.tar.gz
+[2024-04-26 02:29:11] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/00/91/545869a3cc999dbc9750aad345d775087610ebf834517c928a0d0e289c4e/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz
+[2024-04-26 02:29:11] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/07/29/9f2cc8590770873b6073743e94ff15a2a7913eb0de3e6a4d2fc133008f62/cdk-gitlab-runner-2.2.98.tar.gz
+[2024-04-26 02:29:11] INFO root fetch - processPackages [pxutil]: Downloading https://files.pythonhosted.org/packages/08/08/a20d5bafe5968608bb243365578c4b4de4dc08e5854c8490951b1e38dcab/pxutil-0.0.8.tar.gz
+[2024-04-26 02:29:11] WARNING root fetch - processPackages [atopile]: Skipping package: exceeds size limit 25663075>=10485760
+[2024-04-26 02:29:11] INFO root fetch - processPackages [atopile]: Start processing: cdk-aurora-globaldatabase
+[2024-04-26 02:29:11] INFO root fetch - main [MainThread]: End processing [atopile] error
+[2024-04-26 02:29:11] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Downloading https://files.pythonhosted.org/packages/c9/ad/d7965da0f34d52de670def31464963b3971de03ac20cddf5eac577722b31/cdk-ecs-service-extensions-2.0.1a98.tar.gz
+[2024-04-26 02:29:11] INFO root fetch - processPackages [mov-cli]: Downloading https://files.pythonhosted.org/packages/ee/8e/ec1c958f335342e563bb069ad5143f81f4ae8c25d7b616e3b89a55a2a20a/mov_cli-4.3.7.tar.gz
+[2024-04-26 02:29:11] INFO root fetch - processPackages [focanocodigo]: Downloading https://files.pythonhosted.org/packages/38/75/703ae40db59948c743407532f99257a42a67ed3ebdd10aa8151b506af35f/focanocodigo-1.0.0.tar.gz
+[2024-04-26 02:29:11] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: New version: [2.3.99] Old Version: [2.3.98]
+[2024-04-26 02:29:11] INFO root fetch - processPackages [pygooglehelper]: Downloading https://files.pythonhosted.org/packages/76/32/89bccdcf46f6406ed2bfe1ac4d3593c89d5b401dc45b9b073bb0020875e3/pygooglehelper-0.0.5.tar.gz
+[2024-04-26 02:29:11] INFO root fetch - processPackages [Unified-python-sdk]: Downloading https://files.pythonhosted.org/packages/8a/e0/5b670e083dc25d18116ee96246633fe2f90a7842aae5610d89db3c1457b1/Unified-python-sdk-0.21.8.tar.gz
+[2024-04-26 02:29:11] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/28/81/76f66486f9d6f5aee6f787bb13f11ab8012414fd95d10756b575fd69b909/cdk-certbot-dns-route53-2.4.99.tar.gz
+[2024-04-26 02:29:11] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/e4/39/e997b5acac972df8d777c4a4ad6dfd9f51e03e75fc8e23c973a7772267d5/cdk-aurora-globaldatabase-2.3.98.tar.gz
+[2024-04-26 02:29:11] INFO root fetch - processPackages [pxutil]: Downloading https://files.pythonhosted.org/packages/90/df/f60fc33beb2bac107f453dbd7493779ff1208cbe453c0c76ddf0888645ff/pxutil-0.0.9.tar.gz
+[2024-04-26 02:29:11] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/c2/c5/a8a13bb72ea375e2ce99dd389e945478ce7d95d8628acf6db64f14f674f5/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz
+[2024-04-26 02:29:11] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/16/61/e9f00b4e877a6352bd641de360f7577c27548fbcedc3aab19b1cf3852b9a/cdk-gitlab-runner-2.2.99.tar.gz
+[2024-04-26 02:29:11] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Downloading https://files.pythonhosted.org/packages/9c/f7/1a593c4ae0d3c80332cec251caad8f13a27842299475718ad186eea220ba/cdk-ecs-service-extensions-2.0.1a99.tar.gz
+[2024-04-26 02:29:11] INFO root fetch - processPackages [cdk-certbot-dns-route53]: executing diffoscope
+[2024-04-26 02:29:11] INFO root fetch - processPackages [cdk-certbot-dns-route53]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-certbot-dns-route53-2.4.98.tar.gz tmp/cdk-certbot-dns-route53-2.4.99.tar.gz --markdown 20240426/c/cdk-certbot-dns-route53/2.4.98-2.4.99/README.md --exclude *.pyd
+[2024-04-26 02:29:11] INFO root fetch - processPackages [pxutil]: executing diffoscope
+[2024-04-26 02:29:11] INFO root fetch - processPackages [pxutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pxutil-0.0.8.tar.gz tmp/pxutil-0.0.9.tar.gz --markdown 20240426/p/pxutil/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-26 02:29:11] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: executing diffoscope
+[2024-04-26 02:29:11] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz --markdown 20240426/c/cdk-secret-manager-wrapper-layer/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-04-26 02:29:11] INFO root fetch - processPackages [mov-cli]: Downloading https://files.pythonhosted.org/packages/4d/1d/c33f4d15d63a1d641c0fbb9a17ed5214425655ba4a90ab9c4fbdcdda2b74/mov_cli-4.3.8.tar.gz
+[2024-04-26 02:29:11] INFO root fetch - processPackages [cdk-gitlab-runner]: executing diffoscope
+[2024-04-26 02:29:11] INFO root fetch - processPackages [cdk-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-gitlab-runner-2.2.98.tar.gz tmp/cdk-gitlab-runner-2.2.99.tar.gz --markdown 20240426/c/cdk-gitlab-runner/2.2.98-2.2.99/README.md --exclude *.pyd
+[2024-04-26 02:29:12] INFO root fetch - processPackages [focanocodigo]: Downloading https://files.pythonhosted.org/packages/a7/14/f848aadd08ba19609a610bb1dc2ae8b1db03d0f31e404ee404800ce564c4/focanocodigo-1.0.1.tar.gz
+[2024-04-26 02:29:12] INFO root fetch - processPackages [pygooglehelper]: Downloading https://files.pythonhosted.org/packages/84/f3/cbdb5b6fbe4576ca695cfce501f0d620b91eba23e33bcfb93cb5b30ae9a6/pygooglehelper-0.0.6.tar.gz
+[2024-04-26 02:29:12] INFO root fetch - processPackages [cdk-ecs-service-extensions]: executing diffoscope
+[2024-04-26 02:29:12] INFO root fetch - processPackages [cdk-ecs-service-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-ecs-service-extensions-2.0.1a98.tar.gz tmp/cdk-ecs-service-extensions-2.0.1a99.tar.gz --markdown 20240426/c/cdk-ecs-service-extensions/2.0.1a98-2.0.1a99/README.md --exclude *.pyd
+[2024-04-26 02:29:12] INFO root fetch - processPackages [Unified-python-sdk]: Downloading https://files.pythonhosted.org/packages/93/08/c0dbabec56c6743ad9b2b52a74e3ee9b7735e5a20d2230905e47d9085fa8/Unified-python-sdk-0.21.9.tar.gz
+[2024-04-26 02:29:12] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/51/53/0158facaec2becec86707148eb931de78a7ad1c2b63f80b9911a53e4c17b/cdk-aurora-globaldatabase-2.3.99.tar.gz
+[2024-04-26 02:29:12] INFO root fetch - processPackages [mov-cli]: executing diffoscope
+[2024-04-26 02:29:12] INFO root fetch - processPackages [mov-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mov_cli-4.3.7.tar.gz tmp/mov_cli-4.3.8.tar.gz --markdown 20240426/m/mov-cli/4.3.7-4.3.8/README.md --exclude *.pyd
+[2024-04-26 02:29:12] INFO root fetch - processPackages [focanocodigo]: executing diffoscope
+[2024-04-26 02:29:12] INFO root fetch - processPackages [focanocodigo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/focanocodigo-1.0.0.tar.gz tmp/focanocodigo-1.0.1.tar.gz --markdown 20240426/f/focanocodigo/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-26 02:29:12] INFO root fetch - processPackages [pygooglehelper]: executing diffoscope
+[2024-04-26 02:29:12] INFO root fetch - processPackages [pygooglehelper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygooglehelper-0.0.5.tar.gz tmp/pygooglehelper-0.0.6.tar.gz --markdown 20240426/p/pygooglehelper/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-26 02:29:12] INFO root fetch - processPackages [Unified-python-sdk]: executing diffoscope
+[2024-04-26 02:29:12] INFO root fetch - processPackages [Unified-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Unified-python-sdk-0.21.8.tar.gz tmp/Unified-python-sdk-0.21.9.tar.gz --markdown 20240426/U/Unified-python-sdk/0.21.8-0.21.9/README.md --exclude *.pyd
+[2024-04-26 02:29:12] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: executing diffoscope
+[2024-04-26 02:29:12] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz --markdown 20240426/c/cdk-aurora-globaldatabase/2.3.98-2.3.99/README.md --exclude *.pyd
+[2024-04-26 02:29:12] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.98.tar.gz]
+[2024-04-26 02:29:12] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.99.tar.gz]
+[2024-04-26 02:29:12] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Start processing: cdk-serverless-clamscan
+[2024-04-26 02:29:12] INFO root fetch - main [MainThread]: End processing [cdk-certbot-dns-route53]: success
+[2024-04-26 02:29:12] INFO root fetch - processPackages [cdk-serverless-clamscan]: New version: [2.6.99] Old Version: [2.6.98]
+[2024-04-26 02:29:12] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.2.98.tar.gz]
+[2024-04-26 02:29:12] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.2.99.tar.gz]
+[2024-04-26 02:29:12] INFO root fetch - main [MainThread]: End processing [cdk-gitlab-runner]: success
+[2024-04-26 02:29:12] INFO root fetch - processPackages [pxutil]: Remove: archive file [/home/abi/fetcher/tmp/pxutil-0.0.8.tar.gz]
+[2024-04-26 02:29:12] INFO root fetch - processPackages [pxutil]: Remove: archive file [/home/abi/fetcher/tmp/pxutil-0.0.9.tar.gz]
+[2024-04-26 02:29:12] INFO root fetch - main [MainThread]: End processing [pxutil]: success
+[2024-04-26 02:29:12] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Remove: archive file [/home/abi/fetcher/tmp/cdk-ecs-service-extensions-2.0.1a98.tar.gz]
+[2024-04-26 02:29:12] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Remove: archive file [/home/abi/fetcher/tmp/cdk-ecs-service-extensions-2.0.1a99.tar.gz]
+[2024-04-26 02:29:12] INFO root fetch - main [MainThread]: End processing [cdk-ecs-service-extensions]: success
+[2024-04-26 02:29:12] INFO root fetch - processPackages [cdk-serverless-clamscan]: Downloading https://files.pythonhosted.org/packages/04/67/6fb0e00ee65986b766391e4327a7370cec35f8458c0c80507e3b56a79e57/cdk-serverless-clamscan-2.6.98.tar.gz
+[2024-04-26 02:29:13] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz]
+[2024-04-26 02:29:13] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz]
+[2024-04-26 02:29:13] INFO root fetch - main [MainThread]: End processing [cdk-secret-manager-wrapper-layer]: success
+[2024-04-26 02:29:13] INFO root fetch - processPackages [focanocodigo]: Remove: archive file [/home/abi/fetcher/tmp/focanocodigo-1.0.0.tar.gz]
+[2024-04-26 02:29:13] INFO root fetch - processPackages [focanocodigo]: Remove: archive file [/home/abi/fetcher/tmp/focanocodigo-1.0.1.tar.gz]
+[2024-04-26 02:29:13] INFO root fetch - main [MainThread]: End processing [focanocodigo]: success
+[2024-04-26 02:29:13] INFO root fetch - processPackages [pygooglehelper]: Remove: archive file [/home/abi/fetcher/tmp/pygooglehelper-0.0.5.tar.gz]
+[2024-04-26 02:29:13] INFO root fetch - processPackages [pygooglehelper]: Remove: archive file [/home/abi/fetcher/tmp/pygooglehelper-0.0.6.tar.gz]
+[2024-04-26 02:29:13] INFO root fetch - main [MainThread]: End processing [pygooglehelper]: success
+[2024-04-26 02:29:13] INFO root fetch - processPackages [cdk-serverless-clamscan]: Downloading https://files.pythonhosted.org/packages/53/8f/ea40546b0f696761a1aaeee533ca8a5f53147131c3aa1f0aa1316112f44f/cdk-serverless-clamscan-2.6.99.tar.gz
+[2024-04-26 02:29:13] INFO root fetch - processPackages [mov-cli]: Remove: archive file [/home/abi/fetcher/tmp/mov_cli-4.3.7.tar.gz]
+[2024-04-26 02:29:13] INFO root fetch - processPackages [mov-cli]: Remove: archive file [/home/abi/fetcher/tmp/mov_cli-4.3.8.tar.gz]
+[2024-04-26 02:29:13] INFO root fetch - main [MainThread]: End processing [mov-cli]: success
+[2024-04-26 02:29:13] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz]
+[2024-04-26 02:29:13] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz]
+[2024-04-26 02:29:13] INFO root fetch - main [MainThread]: End processing [cdk-aurora-globaldatabase]: success
+[2024-04-26 02:29:13] INFO root fetch - processPackages [cdk-serverless-clamscan]: executing diffoscope
+[2024-04-26 02:29:13] INFO root fetch - processPackages [cdk-serverless-clamscan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-serverless-clamscan-2.6.98.tar.gz tmp/cdk-serverless-clamscan-2.6.99.tar.gz --markdown 20240426/c/cdk-serverless-clamscan/2.6.98-2.6.99/README.md --exclude *.pyd
+[2024-04-26 02:29:13] INFO root fetch - processPackages [cdk-serverless-clamscan]: Remove: archive file [/home/abi/fetcher/tmp/cdk-serverless-clamscan-2.6.98.tar.gz]
+[2024-04-26 02:29:13] INFO root fetch - processPackages [cdk-serverless-clamscan]: Remove: archive file [/home/abi/fetcher/tmp/cdk-serverless-clamscan-2.6.99.tar.gz]
+[2024-04-26 02:29:13] INFO root fetch - main [MainThread]: End processing [cdk-serverless-clamscan]: success
+[2024-04-26 02:29:14] INFO root fetch - processPackages [Unified-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/Unified-python-sdk-0.21.8.tar.gz]
+[2024-04-26 02:29:14] INFO root fetch - processPackages [Unified-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/Unified-python-sdk-0.21.9.tar.gz]
+[2024-04-26 02:29:14] INFO root fetch - main [MainThread]: End processing [Unified-python-sdk]: success
+[2024-04-26 02:29:14] INFO root fetch - main [MainThread]: Store serial: [22940017]
