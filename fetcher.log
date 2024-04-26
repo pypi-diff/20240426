@@ -9589,3 +9589,39 @@
 [2024-04-26 07:11:45] INFO root fetch - processPackages [pyastroweatherio]: Remove: archive file [/home/abi/fetcher/tmp/pyastroweatherio-0.43.1.dev9.tar.gz]
 [2024-04-26 07:11:45] INFO root fetch - main [MainThread]: End processing [pyastroweatherio]: success
 [2024-04-26 07:11:45] INFO root fetch - main [MainThread]: Store serial: [22942832]
+[2024-04-26 07:13:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22942832]
+[2024-04-26 07:13:53] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-26 07:13:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: protein-turnover
+[2024-04-26 07:13:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dxrt
+[2024-04-26 07:13:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Espinosa
+[2024-04-26 07:13:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: retell-sdk
+[2024-04-26 07:13:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: screcode
+[2024-04-26 07:13:53] INFO root fetch - processPackages [retell-sdk]: New version: [3.9.0] Old Version: [3.8.0]
+[2024-04-26 07:13:53] INFO root fetch - processPackages [dxrt]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-26 07:13:53] WARNING root fetch - processPackages [protein-turnover]: Skipping, unable to determine old version
+[2024-04-26 07:13:53] INFO root fetch - main [MainThread]: End processing [protein-turnover] error
+[2024-04-26 07:13:53] INFO root fetch - processPackages [retell-sdk]: Downloading https://files.pythonhosted.org/packages/e1/53/f375ee017875b3c24fc03d377dc5f55fc4f3759c3ecd37e3c7fcb29192ff/retell_sdk-3.8.0.tar.gz
+[2024-04-26 07:13:53] INFO root fetch - processPackages [dxrt]: Downloading https://files.pythonhosted.org/packages/17/5d/60c14b354378fbe9995327cd9f7164df70dfd0f6227e365a75571d6b0c4a/dxrt-1.0.1.tar.gz
+[2024-04-26 07:13:53] WARNING root fetch - processPackages [Espinosa]: Skipping, unable to determine old version
+[2024-04-26 07:13:53] INFO root fetch - main [MainThread]: End processing [Espinosa] error
+[2024-04-26 07:13:53] INFO root fetch - processPackages [screcode]: New version: [1.0.0] Old Version: [0.2.5]
+[2024-04-26 07:13:54] INFO root fetch - processPackages [retell-sdk]: Downloading https://files.pythonhosted.org/packages/75/b5/15a8ee4ce52c9f786d1bcf55ee0681a2f4e137e3c72085347dd5733e6ff0/retell_sdk-3.9.0.tar.gz
+[2024-04-26 07:13:54] INFO root fetch - processPackages [screcode]: Downloading https://files.pythonhosted.org/packages/51/16/75dc5bfb964b02614ba015db4d5d77dcf2f9441ca791eaadefc3d1f7c71a/screcode-0.2.5-py3-none-any.whl
+[2024-04-26 07:13:54] INFO root fetch - processPackages [dxrt]: Downloading https://files.pythonhosted.org/packages/79/6d/7417465a2bbee67e784be6040eafbc2acb04337073c69e3f7b98fe9dc350/dxrt-1.0.2.tar.gz
+[2024-04-26 07:13:54] INFO root fetch - processPackages [retell-sdk]: executing diffoscope
+[2024-04-26 07:13:54] INFO root fetch - processPackages [retell-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/retell_sdk-3.8.0.tar.gz tmp/retell_sdk-3.9.0.tar.gz --markdown 20240426/r/retell-sdk/3.8.0-3.9.0/README.md --exclude *.pyd
+[2024-04-26 07:13:54] INFO root fetch - processPackages [dxrt]: executing diffoscope
+[2024-04-26 07:13:54] INFO root fetch - processPackages [dxrt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dxrt-1.0.1.tar.gz tmp/dxrt-1.0.2.tar.gz --markdown 20240426/d/dxrt/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-26 07:13:54] INFO root fetch - processPackages [screcode]: Downloading https://files.pythonhosted.org/packages/1e/a8/eb7f6e945d741ddaa0068820d668a764d7f30a6cf01bc57adacb78b079cd/screcode-1.0.0.tar.gz
+[2024-04-26 07:13:54] INFO root fetch - processPackages [screcode]: executing diffoscope
+[2024-04-26 07:13:54] INFO root fetch - processPackages [screcode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/screcode-0.2.5-py3-none-any.whl.zip tmp/screcode-1.0.0.tar.gz --markdown 20240426/s/screcode/0.2.5-1.0.0/README.md --exclude *.pyd
+[2024-04-26 07:13:54] INFO root fetch - processPackages [dxrt]: Remove: archive file [/home/abi/fetcher/tmp/dxrt-1.0.1.tar.gz]
+[2024-04-26 07:13:54] INFO root fetch - processPackages [dxrt]: Remove: archive file [/home/abi/fetcher/tmp/dxrt-1.0.2.tar.gz]
+[2024-04-26 07:13:54] INFO root fetch - main [MainThread]: End processing [dxrt]: success
+[2024-04-26 07:13:54] INFO root fetch - processPackages [retell-sdk]: Remove: archive file [/home/abi/fetcher/tmp/retell_sdk-3.8.0.tar.gz]
+[2024-04-26 07:13:54] INFO root fetch - processPackages [retell-sdk]: Remove: archive file [/home/abi/fetcher/tmp/retell_sdk-3.9.0.tar.gz]
+[2024-04-26 07:13:54] INFO root fetch - main [MainThread]: End processing [retell-sdk]: success
+[2024-04-26 07:13:55] INFO root fetch - processPackages [screcode]: Remove: archive file [/home/abi/fetcher/tmp/screcode-0.2.5-py3-none-any.whl.zip]
+[2024-04-26 07:13:55] INFO root fetch - processPackages [screcode]: Remove: archive file [/home/abi/fetcher/tmp/screcode-1.0.0.tar.gz]
+[2024-04-26 07:13:55] INFO root fetch - main [MainThread]: End processing [screcode]: success
+[2024-04-26 07:13:55] INFO root fetch - main [MainThread]: Store serial: [22942852]
