@@ -15624,3 +15624,42 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 11:08:53] INFO root fetch - processPackages [py-rattler]: Remove: archive file [/home/abi/fetcher/tmp/py_rattler-0.4.0.tar.gz]
 [2024-04-26 11:08:53] INFO root fetch - main [MainThread]: End processing [py-rattler]: success
 [2024-04-26 11:08:53] INFO root fetch - main [MainThread]: Store serial: [22945565]
+[2024-04-26 11:10:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22945565]
+[2024-04-26 11:11:02] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-26 11:11:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bluecast
+[2024-04-26 11:11:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ipython
+[2024-04-26 11:11:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: big-thing-py
+[2024-04-26 11:11:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torchlpc
+[2024-04-26 11:11:02] INFO root fetch - processPackages [torchlpc]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-04-26 11:11:02] INFO root fetch - processPackages [ipython]: New version: [8.9.0] Old Version: [8.8.0]
+[2024-04-26 11:11:02] INFO root fetch - processPackages [torchlpc]: Downloading https://files.pythonhosted.org/packages/fc/a6/961a7f7ec88a1436da92b619eba40ef934c3e1ed41e14822475f26f1b620/torchlpc-0.3.1.tar.gz
+[2024-04-26 11:11:02] INFO root fetch - processPackages [bluecast]: New version: [1.0] Old Version: [0.94]
+[2024-04-26 11:11:02] INFO root fetch - processPackages [big-thing-py]: New version: [0.4.2.0] Old Version: [0.4.1.5.post9]
+[2024-04-26 11:11:02] INFO root fetch - processPackages [ipython]: Downloading https://files.pythonhosted.org/packages/f5/39/89664d8c3e4dfb0a73862cbbff8eb4028a1e3d4305da80ab0a493848ed9b/ipython-8.8.0.tar.gz
+[2024-04-26 11:11:03] INFO root fetch - processPackages [bluecast]: Downloading https://files.pythonhosted.org/packages/2c/9b/3e41060c062f4c918d12d1941eb32c0a37b1ee1eb62ebec60459d67fafa4/bluecast-0.94.tar.gz
+[2024-04-26 11:11:03] INFO root fetch - processPackages [torchlpc]: Downloading https://files.pythonhosted.org/packages/cd/f0/a97f3e861bbfc6539388f3a1beada6a9606ba8a48e3c514d8ce3141161c5/torchlpc-0.3.2.tar.gz
+[2024-04-26 11:11:03] INFO root fetch - processPackages [big-thing-py]: Downloading https://files.pythonhosted.org/packages/c4/16/c19fd249681e24bc902723cfdb7521f423966e6edb94310f46f8c9c27135/big_thing_py-0.4.1.5.post9.tar.gz
+[2024-04-26 11:11:03] INFO root fetch - processPackages [torchlpc]: executing diffoscope
+[2024-04-26 11:11:03] INFO root fetch - processPackages [torchlpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchlpc-0.3.1.tar.gz tmp/torchlpc-0.3.2.tar.gz --markdown 20240426/t/torchlpc/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-04-26 11:11:03] INFO root fetch - processPackages [bluecast]: Downloading https://files.pythonhosted.org/packages/be/8b/689cfaea2b00e4eefaae5ba72c45dca853186cc92f283bf8ae826bcb9b83/bluecast-1.0.tar.gz
+[2024-04-26 11:11:03] INFO root fetch - processPackages [bluecast]: executing diffoscope
+[2024-04-26 11:11:03] INFO root fetch - processPackages [bluecast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bluecast-0.94.tar.gz tmp/bluecast-1.0.tar.gz --markdown 20240426/b/bluecast/0.94-1.0/README.md --exclude *.pyd
+[2024-04-26 11:11:03] INFO root fetch - processPackages [big-thing-py]: Downloading https://files.pythonhosted.org/packages/0e/5e/007a31e2a6c82ed3b6cd89ab1d79d6d1214bdb905fca7d38a4bb382b9a24/big_thing_py-0.4.2.0.tar.gz
+[2024-04-26 11:11:03] INFO root fetch - processPackages [ipython]: Downloading https://files.pythonhosted.org/packages/2a/48/7a2caa38a3103d18725fc809a379a4c8047b304d0731fde5f7c4bbf6bbe9/ipython-8.9.0.tar.gz
+[2024-04-26 11:11:03] INFO root fetch - processPackages [torchlpc]: Remove: archive file [/home/abi/fetcher/tmp/torchlpc-0.3.1.tar.gz]
+[2024-04-26 11:11:03] INFO root fetch - processPackages [torchlpc]: Remove: archive file [/home/abi/fetcher/tmp/torchlpc-0.3.2.tar.gz]
+[2024-04-26 11:11:03] INFO root fetch - main [MainThread]: End processing [torchlpc]: success
+[2024-04-26 11:11:03] INFO root fetch - processPackages [big-thing-py]: executing diffoscope
+[2024-04-26 11:11:03] INFO root fetch - processPackages [big-thing-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/big_thing_py-0.4.1.5.post9.tar.gz tmp/big_thing_py-0.4.2.0.tar.gz --markdown 20240426/b/big-thing-py/0.4.1.5.post9-0.4.2.0/README.md --exclude *.pyd
+[2024-04-26 11:11:04] INFO root fetch - processPackages [ipython]: executing diffoscope
+[2024-04-26 11:11:04] INFO root fetch - processPackages [ipython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipython-8.8.0.tar.gz tmp/ipython-8.9.0.tar.gz --markdown 20240426/i/ipython/8.8.0-8.9.0/README.md --exclude *.pyd
+[2024-04-26 11:11:04] INFO root fetch - processPackages [big-thing-py]: Remove: archive file [/home/abi/fetcher/tmp/big_thing_py-0.4.1.5.post9.tar.gz]
+[2024-04-26 11:11:04] INFO root fetch - processPackages [big-thing-py]: Remove: archive file [/home/abi/fetcher/tmp/big_thing_py-0.4.2.0.tar.gz]
+[2024-04-26 11:11:04] INFO root fetch - main [MainThread]: End processing [big-thing-py]: success
+[2024-04-26 11:11:04] INFO root fetch - processPackages [bluecast]: Remove: archive file [/home/abi/fetcher/tmp/bluecast-0.94.tar.gz]
+[2024-04-26 11:11:04] INFO root fetch - processPackages [bluecast]: Remove: archive file [/home/abi/fetcher/tmp/bluecast-1.0.tar.gz]
+[2024-04-26 11:11:04] INFO root fetch - main [MainThread]: End processing [bluecast]: success
+[2024-04-26 11:11:06] INFO root fetch - processPackages [ipython]: Remove: archive file [/home/abi/fetcher/tmp/ipython-8.8.0.tar.gz]
+[2024-04-26 11:11:06] INFO root fetch - processPackages [ipython]: Remove: archive file [/home/abi/fetcher/tmp/ipython-8.9.0.tar.gz]
+[2024-04-26 11:11:06] INFO root fetch - main [MainThread]: End processing [ipython]: success
+[2024-04-26 11:11:06] INFO root fetch - main [MainThread]: Store serial: [22945581]
