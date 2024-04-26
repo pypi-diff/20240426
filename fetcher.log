@@ -10303,3 +10303,54 @@
 [2024-04-26 07:49:28] INFO root fetch - processPackages [pulumi-databricks]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_databricks-1.9.0a1678745257.tar.gz]
 [2024-04-26 07:49:28] INFO root fetch - main [MainThread]: End processing [pulumi-databricks]: success
 [2024-04-26 07:49:28] INFO root fetch - main [MainThread]: Store serial: [22943087]
+[2024-04-26 07:51:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22943087]
+[2024-04-26 07:51:37] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-26 07:51:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: KBDD
+[2024-04-26 07:51:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-external
+[2024-04-26 07:51:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sf-hamilton-sdk
+[2024-04-26 07:51:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ptsqld
+[2024-04-26 07:51:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: STAIR-tools
+[2024-04-26 07:51:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dagworks-sdk
+[2024-04-26 07:51:37] INFO root fetch - processPackages [KBDD]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-04-26 07:51:37] INFO root fetch - processPackages [sf-hamilton-sdk]: New version: [0.3.4] Old Version: [0.3.3]
+[2024-04-26 07:51:37] INFO root fetch - processPackages [dagworks-sdk]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-04-26 07:51:37] INFO root fetch - processPackages [sf-hamilton-sdk]: Downloading https://files.pythonhosted.org/packages/e6/e0/9d7286bd2d21daee3fcc26457a093198e6b856bfa4ef90d26f5b230fef5c/sf_hamilton_sdk-0.3.3.tar.gz
+[2024-04-26 07:51:37] WARNING root fetch - processPackages [ptsqld]: Skipping, unable to determine old version
+[2024-04-26 07:51:37] INFO root fetch - main [MainThread]: End processing [ptsqld] error
+[2024-04-26 07:51:37] INFO root fetch - processPackages [STAIR-tools]: New version: [1.1.7] Old Version: [1.1.6]
+[2024-04-26 07:51:37] INFO root fetch - processPackages [KBDD]: Downloading https://files.pythonhosted.org/packages/a0/87/897e665ee1b3a9a3ea70f45225df8e31ff9dfcde9d81b95ad2c897fc09cd/KBDD-0.2.7.tar.gz
+[2024-04-26 07:51:37] INFO root fetch - processPackages [pulumi-external]: New version: [0.0.5a1714109523] Old Version: [0.0.4a1713897502]
+[2024-04-26 07:51:37] INFO root fetch - processPackages [dagworks-sdk]: Downloading https://files.pythonhosted.org/packages/7c/89/010e119ce4f0c394ee9e3661917d5988b7aa9f4eb9c3a3597c1a1936aa15/dagworks-sdk-0.5.1.tar.gz
+[2024-04-26 07:51:37] INFO root fetch - processPackages [pulumi-external]: Downloading https://files.pythonhosted.org/packages/6a/f3/14de468c714e9184dee0c5aeb75e834f311c8d1e26360a241722117dea20/pulumi_external-0.0.4a1713897502.tar.gz
+[2024-04-26 07:51:37] INFO root fetch - processPackages [STAIR-tools]: Downloading https://files.pythonhosted.org/packages/0b/75/ccc3dbb663c565d8a057865c578725b5ea67fd2390fab01d588e588c1a79/STAIR-tools-1.1.6.tar.gz
+[2024-04-26 07:51:37] INFO root fetch - processPackages [dagworks-sdk]: Downloading https://files.pythonhosted.org/packages/b6/fb/a1b079b296b612a1cf574eec44d5de98aa6fff9fa636a1c5b707278b2ba1/dagworks_sdk-0.5.2.tar.gz
+[2024-04-26 07:51:38] INFO root fetch - processPackages [KBDD]: Downloading https://files.pythonhosted.org/packages/ad/71/132cb0644d80aac87eabfdac9c54096709b3a5133d79e556189bf59d55a0/KBDD-0.2.8.tar.gz
+[2024-04-26 07:51:38] INFO root fetch - processPackages [sf-hamilton-sdk]: Downloading https://files.pythonhosted.org/packages/06/c3/c0cf9897e1f0016c6a6023e3f6f7466125a15e56af0142c462cecd1b93c9/sf_hamilton_sdk-0.3.4.tar.gz
+[2024-04-26 07:51:38] INFO root fetch - processPackages [KBDD]: executing diffoscope
+[2024-04-26 07:51:38] INFO root fetch - processPackages [KBDD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KBDD-0.2.7.tar.gz tmp/KBDD-0.2.8.tar.gz --markdown 20240426/K/KBDD/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-04-26 07:51:38] INFO root fetch - processPackages [dagworks-sdk]: executing diffoscope
+[2024-04-26 07:51:38] INFO root fetch - processPackages [dagworks-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagworks-sdk-0.5.1.tar.gz tmp/dagworks_sdk-0.5.2.tar.gz --markdown 20240426/d/dagworks-sdk/0.5.1-0.5.2/README.md --exclude *.pyd
+[2024-04-26 07:51:38] INFO root fetch - processPackages [sf-hamilton-sdk]: executing diffoscope
+[2024-04-26 07:51:38] INFO root fetch - processPackages [sf-hamilton-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sf_hamilton_sdk-0.3.3.tar.gz tmp/sf_hamilton_sdk-0.3.4.tar.gz --markdown 20240426/s/sf-hamilton-sdk/0.3.3-0.3.4/README.md --exclude *.pyd
+[2024-04-26 07:51:38] INFO root fetch - processPackages [STAIR-tools]: Downloading https://files.pythonhosted.org/packages/3a/fa/82fbefd9bef41e04e2e52f5d7d36f1a269d2cb1d3402c7c062ea0304f8be/STAIR-tools-1.1.7.tar.gz
+[2024-04-26 07:51:38] INFO root fetch - processPackages [pulumi-external]: Downloading https://files.pythonhosted.org/packages/e9/e3/f44377b8389e5b1954a342ab40a4ce494cf71e9d71c90ed1257b1d942d58/pulumi_external-0.0.5a1714109523.tar.gz
+[2024-04-26 07:51:38] INFO root fetch - processPackages [pulumi-external]: executing diffoscope
+[2024-04-26 07:51:38] INFO root fetch - processPackages [pulumi-external]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_external-0.0.4a1713897502.tar.gz tmp/pulumi_external-0.0.5a1714109523.tar.gz --markdown 20240426/p/pulumi-external/0.0.4a1713897502-0.0.5a1714109523/README.md --exclude *.pyd
+[2024-04-26 07:51:38] INFO root fetch - processPackages [STAIR-tools]: executing diffoscope
+[2024-04-26 07:51:38] INFO root fetch - processPackages [STAIR-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/STAIR-tools-1.1.6.tar.gz tmp/STAIR-tools-1.1.7.tar.gz --markdown 20240426/S/STAIR-tools/1.1.6-1.1.7/README.md --exclude *.pyd
+[2024-04-26 07:51:38] INFO root fetch - processPackages [KBDD]: Remove: archive file [/home/abi/fetcher/tmp/KBDD-0.2.7.tar.gz]
+[2024-04-26 07:51:38] INFO root fetch - processPackages [KBDD]: Remove: archive file [/home/abi/fetcher/tmp/KBDD-0.2.8.tar.gz]
+[2024-04-26 07:51:38] INFO root fetch - main [MainThread]: End processing [KBDD]: success
+[2024-04-26 07:51:38] INFO root fetch - processPackages [sf-hamilton-sdk]: Remove: archive file [/home/abi/fetcher/tmp/sf_hamilton_sdk-0.3.3.tar.gz]
+[2024-04-26 07:51:38] INFO root fetch - processPackages [sf-hamilton-sdk]: Remove: archive file [/home/abi/fetcher/tmp/sf_hamilton_sdk-0.3.4.tar.gz]
+[2024-04-26 07:51:38] INFO root fetch - main [MainThread]: End processing [sf-hamilton-sdk]: success
+[2024-04-26 07:51:38] INFO root fetch - processPackages [pulumi-external]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_external-0.0.4a1713897502.tar.gz]
+[2024-04-26 07:51:38] INFO root fetch - processPackages [pulumi-external]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_external-0.0.5a1714109523.tar.gz]
+[2024-04-26 07:51:38] INFO root fetch - main [MainThread]: End processing [pulumi-external]: success
+[2024-04-26 07:51:39] INFO root fetch - processPackages [dagworks-sdk]: Remove: archive file [/home/abi/fetcher/tmp/dagworks-sdk-0.5.1.tar.gz]
+[2024-04-26 07:51:39] INFO root fetch - processPackages [dagworks-sdk]: Remove: archive file [/home/abi/fetcher/tmp/dagworks_sdk-0.5.2.tar.gz]
+[2024-04-26 07:51:39] INFO root fetch - main [MainThread]: End processing [dagworks-sdk]: success
+[2024-04-26 07:51:39] INFO root fetch - processPackages [STAIR-tools]: Remove: archive file [/home/abi/fetcher/tmp/STAIR-tools-1.1.6.tar.gz]
+[2024-04-26 07:51:39] INFO root fetch - processPackages [STAIR-tools]: Remove: archive file [/home/abi/fetcher/tmp/STAIR-tools-1.1.7.tar.gz]
+[2024-04-26 07:51:39] INFO root fetch - main [MainThread]: End processing [STAIR-tools]: success
+[2024-04-26 07:51:39] INFO root fetch - main [MainThread]: Store serial: [22943107]
