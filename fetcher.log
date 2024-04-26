@@ -22417,3 +22417,63 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 16:02:45] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip]
 [2024-04-26 16:02:45] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
 [2024-04-26 16:02:45] INFO root fetch - main [MainThread]: Store serial: [22948421]
+[2024-04-26 16:04:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22948421]
+[2024-04-26 16:04:55] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-26 16:04:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: candore
+[2024-04-26 16:04:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mteb
+[2024-04-26 16:04:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: libreflow.flows
+[2024-04-26 16:04:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hotsos
+[2024-04-26 16:04:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: paradime-io
+[2024-04-26 16:04:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: decoutilities
+[2024-04-26 16:04:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pybiolib
+[2024-04-26 16:04:55] INFO root fetch - processPackages [libreflow.flows]: New version: [2.1.2] Old Version: [2.1.1]
+[2024-04-26 16:04:55] INFO root fetch - processPackages [mteb]: New version: [1.7.9] Old Version: [1.7.8]
+[2024-04-26 16:04:55] INFO root fetch - processPackages [hotsos]: New version: [1.17.0.post9] Old Version: [1.17.0.post8]
+[2024-04-26 16:04:55] INFO root fetch - processPackages [libreflow.flows]: Downloading https://files.pythonhosted.org/packages/66/a7/7fa41940729b906cda5c0871220bd56a24a842595bf3a5c085374dcfb736/libreflow_flows-2.1.1.tar.gz
+[2024-04-26 16:04:55] INFO root fetch - processPackages [paradime-io]: New version: [4.2.0] Old Version: [4.1.1]
+[2024-04-26 16:04:55] INFO root fetch - processPackages [candore]: New version: [1.2.6] Old Version: [1.2.5]
+[2024-04-26 16:04:55] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/b5/e7/1ffcd000a118bd6a4b183610de5d0891ab9c767ccabb6c7e3f63ba9edb45/mteb-1.7.8.tar.gz
+[2024-04-26 16:04:55] WARNING root fetch - processPackages [decoutilities]: Skipping, unable to determine old version
+[2024-04-26 16:04:55] INFO root fetch - main [MainThread]: End processing [decoutilities] error
+[2024-04-26 16:04:55] INFO root fetch - processPackages [hotsos]: Downloading https://files.pythonhosted.org/packages/a7/57/15e4fe4e4dbc4381d9bf00a81267a7c13df4ca3f2dc3b2afa7db65518860/hotsos-1.17.0.post8.tar.gz
+[2024-04-26 16:04:55] INFO root fetch - processPackages [paradime-io]: Downloading https://files.pythonhosted.org/packages/08/96/099eb693e4d170ba33e78ecbae6f6224863727eafc02aebe6233ffaae1b4/paradime_io-4.1.1.tar.gz
+[2024-04-26 16:04:55] INFO root fetch - processPackages [candore]: Downloading https://files.pythonhosted.org/packages/9d/d9/6586074b0ddae611865413fab455c1fa2bb766ee17ec393d1e4e49649349/candore-1.2.5.tar.gz
+[2024-04-26 16:04:55] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/eb/d9/b925270f0a2467b3204b0f467cc702668d24bd9a8e876306ea7e3da17507/mteb-1.7.9.tar.gz
+[2024-04-26 16:04:55] INFO root fetch - processPackages [hotsos]: Downloading https://files.pythonhosted.org/packages/7f/57/f6a4fc3900f977e567bcf108bd2787ce8624445d42b84c26b710b18c7c3d/hotsos-1.17.0.post9.tar.gz
+[2024-04-26 16:04:55] INFO root fetch - processPackages [pybiolib]: New version: [1.1.999] Old Version: [1.1.997]
+[2024-04-26 16:04:56] INFO root fetch - processPackages [libreflow.flows]: Downloading https://files.pythonhosted.org/packages/f1/9e/6988d1b4cf5510c8d975a4f40c783f3088d0a623ae289669fbba55d2d32f/libreflow_flows-2.1.2.tar.gz
+[2024-04-26 16:04:56] INFO root fetch - processPackages [mteb]: executing diffoscope
+[2024-04-26 16:04:56] INFO root fetch - processPackages [mteb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mteb-1.7.8.tar.gz tmp/mteb-1.7.9.tar.gz --markdown 20240426/m/mteb/1.7.8-1.7.9/README.md --exclude *.pyd
+[2024-04-26 16:04:56] INFO root fetch - processPackages [hotsos]: executing diffoscope
+[2024-04-26 16:04:56] INFO root fetch - processPackages [hotsos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hotsos-1.17.0.post8.tar.gz tmp/hotsos-1.17.0.post9.tar.gz --markdown 20240426/h/hotsos/1.17.0.post8-1.17.0.post9/README.md --exclude *.pyd
+[2024-04-26 16:04:56] INFO root fetch - processPackages [paradime-io]: Downloading https://files.pythonhosted.org/packages/ee/b0/74995a458fb397b5948fad7498ee821027a37ae65dcf51d7031ef9f6011b/paradime_io-4.2.0.tar.gz
+[2024-04-26 16:04:56] INFO root fetch - processPackages [pybiolib]: Downloading https://files.pythonhosted.org/packages/3a/9a/8d08460188d169ab51c67693f2c3b0bab2c3fa9157e378bd6b8de3c94c22/pybiolib-1.1.997.tar.gz
+[2024-04-26 16:04:56] INFO root fetch - processPackages [candore]: Downloading https://files.pythonhosted.org/packages/50/a2/1607f7061a96466c71da8457457602430d4e6bdaa8973daf14dd3e720298/candore-1.2.6.tar.gz
+[2024-04-26 16:04:56] INFO root fetch - processPackages [libreflow.flows]: executing diffoscope
+[2024-04-26 16:04:56] INFO root fetch - processPackages [libreflow.flows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libreflow_flows-2.1.1.tar.gz tmp/libreflow_flows-2.1.2.tar.gz --markdown 20240426/l/libreflow.flows/2.1.1-2.1.2/README.md --exclude *.pyd
+[2024-04-26 16:04:56] INFO root fetch - processPackages [candore]: executing diffoscope
+[2024-04-26 16:04:56] INFO root fetch - processPackages [candore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/candore-1.2.5.tar.gz tmp/candore-1.2.6.tar.gz --markdown 20240426/c/candore/1.2.5-1.2.6/README.md --exclude *.pyd
+[2024-04-26 16:04:56] INFO root fetch - processPackages [paradime-io]: executing diffoscope
+[2024-04-26 16:04:56] INFO root fetch - processPackages [paradime-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paradime_io-4.1.1.tar.gz tmp/paradime_io-4.2.0.tar.gz --markdown 20240426/p/paradime-io/4.1.1-4.2.0/README.md --exclude *.pyd
+[2024-04-26 16:04:56] INFO root fetch - processPackages [pybiolib]: Downloading https://files.pythonhosted.org/packages/63/4d/ccfc9f32e5d27ecd72b00bec47623fd00317dfdd6724e0fa9865b2f036d3/pybiolib-1.1.999.tar.gz
+[2024-04-26 16:04:56] INFO root fetch - processPackages [pybiolib]: executing diffoscope
+[2024-04-26 16:04:56] INFO root fetch - processPackages [pybiolib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybiolib-1.1.997.tar.gz tmp/pybiolib-1.1.999.tar.gz --markdown 20240426/p/pybiolib/1.1.997-1.1.999/README.md --exclude *.pyd
+[2024-04-26 16:04:57] INFO root fetch - processPackages [libreflow.flows]: Remove: archive file [/home/abi/fetcher/tmp/libreflow_flows-2.1.1.tar.gz]
+[2024-04-26 16:04:57] INFO root fetch - processPackages [libreflow.flows]: Remove: archive file [/home/abi/fetcher/tmp/libreflow_flows-2.1.2.tar.gz]
+[2024-04-26 16:04:57] INFO root fetch - main [MainThread]: End processing [libreflow.flows]: success
+[2024-04-26 16:04:57] INFO root fetch - processPackages [paradime-io]: Remove: archive file [/home/abi/fetcher/tmp/paradime_io-4.1.1.tar.gz]
+[2024-04-26 16:04:57] INFO root fetch - processPackages [paradime-io]: Remove: archive file [/home/abi/fetcher/tmp/paradime_io-4.2.0.tar.gz]
+[2024-04-26 16:04:57] INFO root fetch - main [MainThread]: End processing [paradime-io]: success
+[2024-04-26 16:04:57] INFO root fetch - processPackages [candore]: Remove: archive file [/home/abi/fetcher/tmp/candore-1.2.5.tar.gz]
+[2024-04-26 16:04:57] INFO root fetch - processPackages [candore]: Remove: archive file [/home/abi/fetcher/tmp/candore-1.2.6.tar.gz]
+[2024-04-26 16:04:57] INFO root fetch - main [MainThread]: End processing [candore]: success
+[2024-04-26 16:04:57] INFO root fetch - processPackages [pybiolib]: Remove: archive file [/home/abi/fetcher/tmp/pybiolib-1.1.997.tar.gz]
+[2024-04-26 16:04:57] INFO root fetch - processPackages [pybiolib]: Remove: archive file [/home/abi/fetcher/tmp/pybiolib-1.1.999.tar.gz]
+[2024-04-26 16:04:57] INFO root fetch - main [MainThread]: End processing [pybiolib]: success
+[2024-04-26 16:04:57] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.17.0.post8.tar.gz]
+[2024-04-26 16:04:57] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.17.0.post9.tar.gz]
+[2024-04-26 16:04:57] INFO root fetch - main [MainThread]: End processing [hotsos]: success
+[2024-04-26 16:04:57] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.7.8.tar.gz]
+[2024-04-26 16:04:57] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.7.9.tar.gz]
+[2024-04-26 16:04:57] INFO root fetch - main [MainThread]: End processing [mteb]: success
+[2024-04-26 16:04:57] INFO root fetch - main [MainThread]: Store serial: [22948446]
