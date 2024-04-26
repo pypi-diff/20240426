@@ -7877,3 +7877,15 @@
 [2024-04-26 05:02:30] INFO root fetch - processPackages [YaraForge]: Remove: archive file [/home/abi/fetcher/tmp/YaraForge-0.1.5b1.tar.gz]
 [2024-04-26 05:02:30] INFO root fetch - main [MainThread]: End processing [YaraForge]: success
 [2024-04-26 05:02:30] INFO root fetch - main [MainThread]: Store serial: [22942143]
+[2024-04-26 05:04:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22942143]
+[2024-04-26 05:04:38] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-26 05:04:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-sync-env
+[2024-04-26 05:04:38] INFO root fetch - processPackages [django-sync-env]: New version: [0.3.1a0] Old Version: [0.3.0]
+[2024-04-26 05:04:38] INFO root fetch - processPackages [django-sync-env]: Downloading https://files.pythonhosted.org/packages/a8/85/98e54202163e115f84f73fca23dc181572af87b99f5d9ba856d0e3ec1b6a/django_sync_env-0.3.0.tar.gz
+[2024-04-26 05:04:39] INFO root fetch - processPackages [django-sync-env]: Downloading https://files.pythonhosted.org/packages/0d/93/1ecb6dc5f9b9331318fcd1c83c04b00bb202a4b6f533b54ba5c3232aee0b/django_sync_env-0.3.1a0.tar.gz
+[2024-04-26 05:04:39] INFO root fetch - processPackages [django-sync-env]: executing diffoscope
+[2024-04-26 05:04:39] INFO root fetch - processPackages [django-sync-env]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_sync_env-0.3.0.tar.gz tmp/django_sync_env-0.3.1a0.tar.gz --markdown 20240426/d/django-sync-env/0.3.0-0.3.1a0/README.md --exclude *.pyd
+[2024-04-26 05:04:39] INFO root fetch - processPackages [django-sync-env]: Remove: archive file [/home/abi/fetcher/tmp/django_sync_env-0.3.0.tar.gz]
+[2024-04-26 05:04:39] INFO root fetch - processPackages [django-sync-env]: Remove: archive file [/home/abi/fetcher/tmp/django_sync_env-0.3.1a0.tar.gz]
+[2024-04-26 05:04:39] INFO root fetch - main [MainThread]: End processing [django-sync-env]: success
+[2024-04-26 05:04:39] INFO root fetch - main [MainThread]: Store serial: [22942146]
