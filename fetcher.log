@@ -23072,3 +23072,67 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 16:31:33] INFO root fetch - processPackages [markdown-grid-tables]: Remove: archive file [/home/abi/fetcher/tmp/markdown_grid_tables-0.3.2-py3-none-any.whl.zip]
 [2024-04-26 16:31:33] INFO root fetch - main [MainThread]: End processing [markdown-grid-tables]: success
 [2024-04-26 16:31:33] INFO root fetch - main [MainThread]: Store serial: [22948673]
+[2024-04-26 16:33:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22948673]
+[2024-04-26 16:33:42] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-26 16:33:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: buildgrid
+[2024-04-26 16:33:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: auto-vtna
+[2024-04-26 16:33:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: auto-vtna
+[2024-04-26 16:33:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alphaz-next
+[2024-04-26 16:33:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: testplans
+[2024-04-26 16:33:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: druida
+[2024-04-26 16:33:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: r4ven-utils
+[2024-04-26 16:33:42] INFO root fetch - processPackages [druida]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-26 16:33:42] INFO root fetch - processPackages [testplans]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-26 16:33:42] INFO root fetch - processPackages [alphaz-next]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-04-26 16:33:42] INFO root fetch - processPackages [druida]: Downloading https://files.pythonhosted.org/packages/54/4a/598451ade8bde7f369deba69feb62cde24693585acb81aed1eb62547c114/druida-0.0.8.tar.gz
+[2024-04-26 16:33:42] INFO root fetch - processPackages [auto-vtna]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-26 16:33:42] INFO root fetch - processPackages [auto-vtna]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-26 16:33:42] INFO root fetch - processPackages [buildgrid]: New version: [0.0.93] Old Version: [0.0.92]
+[2024-04-26 16:33:43] INFO root fetch - processPackages [testplans]: Downloading https://files.pythonhosted.org/packages/59/88/30884a4162f222b97e393849965b9fe69ee6c74b3fea526ad2745fd1edd6/testplans-0.2.2.tar.gz
+[2024-04-26 16:33:43] INFO root fetch - processPackages [r4ven-utils]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-26 16:33:43] INFO root fetch - processPackages [alphaz-next]: Downloading https://files.pythonhosted.org/packages/e6/e6/7a4622de728066dabee091925d2d468f0162e085d8ac81d1386db32e66f0/alphaz-next-0.5.8.tar.gz
+[2024-04-26 16:33:43] INFO root fetch - processPackages [auto-vtna]: Downloading https://files.pythonhosted.org/packages/83/e3/f43cc1d6702de71b0457bf3a4fc1f52c280f8fa6f9e281b287b2f4520be8/auto_vtna-1.0.4.tar.gz
+[2024-04-26 16:33:43] INFO root fetch - processPackages [auto-vtna]: Downloading https://files.pythonhosted.org/packages/83/e3/f43cc1d6702de71b0457bf3a4fc1f52c280f8fa6f9e281b287b2f4520be8/auto_vtna-1.0.4.tar.gz
+[2024-04-26 16:33:43] INFO root fetch - processPackages [buildgrid]: Downloading https://files.pythonhosted.org/packages/3f/c3/a7a13ac934ad7797bd1f84c98ec95838b2ce98b292cfb244c602838eef43/buildgrid-0.0.92.tar.gz
+[2024-04-26 16:33:43] INFO root fetch - processPackages [r4ven-utils]: Downloading https://files.pythonhosted.org/packages/59/a9/0d2f18206449cf587849e48c281726b13d0f293fd7128fade497a68fca56/r4ven_utils-0.0.4.tar.gz
+[2024-04-26 16:33:43] INFO root fetch - processPackages [druida]: Downloading https://files.pythonhosted.org/packages/c2/fc/04f7092cb544ce2c35e3be2dd5ff20bee19fcc5ba5378898e0f03e15b8a9/druida-0.0.9.tar.gz
+[2024-04-26 16:33:43] INFO root fetch - processPackages [testplans]: Downloading https://files.pythonhosted.org/packages/1a/e5/d8dd20e62f876ef4bcc2ef1a67850bfa26213e2bcccac90a2b7d5d98ef18/testplans-0.2.3.tar.gz
+[2024-04-26 16:33:43] INFO root fetch - processPackages [alphaz-next]: Downloading https://files.pythonhosted.org/packages/2d/91/9df6de73be4b53c78f4548229962e1314c10d2c7234b83aeddfa578f1fb1/alphaz-next-0.5.9.tar.gz
+[2024-04-26 16:33:43] INFO root fetch - processPackages [druida]: executing diffoscope
+[2024-04-26 16:33:43] INFO root fetch - processPackages [druida]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/druida-0.0.8.tar.gz tmp/druida-0.0.9.tar.gz --markdown 20240426/d/druida/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-26 16:33:43] INFO root fetch - processPackages [testplans]: executing diffoscope
+[2024-04-26 16:33:43] INFO root fetch - processPackages [testplans]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testplans-0.2.2.tar.gz tmp/testplans-0.2.3.tar.gz --markdown 20240426/t/testplans/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-04-26 16:33:43] INFO root fetch - processPackages [alphaz-next]: executing diffoscope
+[2024-04-26 16:33:43] INFO root fetch - processPackages [alphaz-next]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alphaz-next-0.5.8.tar.gz tmp/alphaz-next-0.5.9.tar.gz --markdown 20240426/a/alphaz-next/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-04-26 16:33:43] INFO root fetch - processPackages [auto-vtna]: Downloading https://files.pythonhosted.org/packages/6d/c1/23ab5a54134aa434fbd7d28e657d3d6fa07d134bc9f936e6d021209270cc/auto_vtna-1.0.5.tar.gz
+[2024-04-26 16:33:43] INFO root fetch - processPackages [auto-vtna]: Downloading https://files.pythonhosted.org/packages/6d/c1/23ab5a54134aa434fbd7d28e657d3d6fa07d134bc9f936e6d021209270cc/auto_vtna-1.0.5.tar.gz
+[2024-04-26 16:33:43] INFO root fetch - processPackages [r4ven-utils]: Downloading https://files.pythonhosted.org/packages/44/df/48b4bc0f417e95f620c8d0832b391b47967501fbe59e9a4ae4dabae66b4b/r4ven_utils-0.0.5.tar.gz
+[2024-04-26 16:33:43] INFO root fetch - processPackages [buildgrid]: Downloading https://files.pythonhosted.org/packages/0a/51/4af416ed286b1f117a087464656af2c347578c90e6b87a906cec45d293aa/buildgrid-0.0.93.tar.gz
+[2024-04-26 16:33:43] INFO root fetch - processPackages [auto-vtna]: executing diffoscope
+[2024-04-26 16:33:43] INFO root fetch - processPackages [auto-vtna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto_vtna-1.0.4.tar.gz tmp/auto_vtna-1.0.5.tar.gz --markdown 20240426/a/auto-vtna/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-04-26 16:33:43] INFO root fetch - processPackages [auto-vtna]: executing diffoscope
+[2024-04-26 16:33:43] INFO root fetch - processPackages [auto-vtna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto_vtna-1.0.4.tar.gz tmp/auto_vtna-1.0.5.tar.gz --markdown 20240426/a/auto-vtna/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-04-26 16:33:43] INFO root fetch - processPackages [r4ven-utils]: executing diffoscope
+[2024-04-26 16:33:43] INFO root fetch - processPackages [r4ven-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/r4ven_utils-0.0.4.tar.gz tmp/r4ven_utils-0.0.5.tar.gz --markdown 20240426/r/r4ven-utils/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-26 16:33:43] INFO root fetch - processPackages [buildgrid]: executing diffoscope
+[2024-04-26 16:33:43] INFO root fetch - processPackages [buildgrid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buildgrid-0.0.92.tar.gz tmp/buildgrid-0.0.93.tar.gz --markdown 20240426/b/buildgrid/0.0.92-0.0.93/README.md --exclude *.pyd
+[2024-04-26 16:33:44] INFO root fetch - processPackages [alphaz-next]: Remove: archive file [/home/abi/fetcher/tmp/alphaz-next-0.5.8.tar.gz]
+[2024-04-26 16:33:44] INFO root fetch - processPackages [alphaz-next]: Remove: archive file [/home/abi/fetcher/tmp/alphaz-next-0.5.9.tar.gz]
+[2024-04-26 16:33:44] INFO root fetch - main [MainThread]: End processing [alphaz-next]: success
+[2024-04-26 16:33:44] INFO root fetch - processPackages [druida]: Remove: archive file [/home/abi/fetcher/tmp/druida-0.0.8.tar.gz]
+[2024-04-26 16:33:44] INFO root fetch - processPackages [druida]: Remove: archive file [/home/abi/fetcher/tmp/druida-0.0.9.tar.gz]
+[2024-04-26 16:33:44] INFO root fetch - main [MainThread]: End processing [druida]: success
+[2024-04-26 16:33:44] INFO root fetch - processPackages [testplans]: Remove: archive file [/home/abi/fetcher/tmp/testplans-0.2.2.tar.gz]
+[2024-04-26 16:33:44] INFO root fetch - processPackages [testplans]: Remove: archive file [/home/abi/fetcher/tmp/testplans-0.2.3.tar.gz]
+[2024-04-26 16:33:44] INFO root fetch - main [MainThread]: End processing [testplans]: success
+[2024-04-26 16:33:44] INFO root fetch - processPackages [auto-vtna]: Remove: archive file [/home/abi/fetcher/tmp/auto_vtna-1.0.4.tar.gz]
+[2024-04-26 16:33:44] INFO root fetch - processPackages [auto-vtna]: Remove: archive file [/home/abi/fetcher/tmp/auto_vtna-1.0.5.tar.gz]
+[2024-04-26 16:33:44] INFO root fetch - main [MainThread]: End processing [auto-vtna]: success
+[2024-04-26 16:33:44] INFO root fetch - main [MainThread]: End processing [auto-vtna]: success
+[2024-04-26 16:33:44] INFO root fetch - processPackages [r4ven-utils]: Remove: archive file [/home/abi/fetcher/tmp/r4ven_utils-0.0.4.tar.gz]
+[2024-04-26 16:33:44] INFO root fetch - processPackages [r4ven-utils]: Remove: archive file [/home/abi/fetcher/tmp/r4ven_utils-0.0.5.tar.gz]
+[2024-04-26 16:33:44] INFO root fetch - main [MainThread]: End processing [r4ven-utils]: success
+[2024-04-26 16:33:45] INFO root fetch - processPackages [buildgrid]: Remove: archive file [/home/abi/fetcher/tmp/buildgrid-0.0.92.tar.gz]
+[2024-04-26 16:33:45] INFO root fetch - processPackages [buildgrid]: Remove: archive file [/home/abi/fetcher/tmp/buildgrid-0.0.93.tar.gz]
+[2024-04-26 16:33:45] INFO root fetch - main [MainThread]: End processing [buildgrid]: success
+[2024-04-26 16:33:45] INFO root fetch - main [MainThread]: Store serial: [22948699]
