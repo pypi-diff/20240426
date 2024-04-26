@@ -7309,3 +7309,24 @@
 [2024-04-26 04:12:06] INFO root fetch - processPackages [thirdai]: Remove: archive file [/home/abi/fetcher/tmp/thirdai-0.7.9-cp39-cp39-win_amd64.whl.zip]
 [2024-04-26 04:12:06] INFO root fetch - main [MainThread]: End processing [thirdai]: success
 [2024-04-26 04:12:06] INFO root fetch - main [MainThread]: Store serial: [22941846]
+[2024-04-26 04:14:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22941846]
+[2024-04-26 04:14:14] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-26 04:14:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dcm-classifier
+[2024-04-26 04:14:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: eqsolver
+[2024-04-26 04:14:15] INFO root fetch - processPackages [eqsolver]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-26 04:14:15] INFO root fetch - processPackages [dcm-classifier]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-26 04:14:15] INFO root fetch - processPackages [eqsolver]: Downloading https://files.pythonhosted.org/packages/4b/d5/26d1e62562c247b8f0f39d2cd3d35ef802234e1fc16e385ea15783004eb9/eqsolver-0.2.2-py3-none-any.whl
+[2024-04-26 04:14:15] INFO root fetch - processPackages [eqsolver]: Downloading https://files.pythonhosted.org/packages/bd/40/9f102482ae3d5b5acf3dd00681925253d7ce362807f8c206561a590b1077/eqsolver-0.2.3-py3-none-any.whl
+[2024-04-26 04:14:15] INFO root fetch - processPackages [dcm-classifier]: Downloading https://files.pythonhosted.org/packages/b6/a5/49d3f86d45b543438c00f5203961f339105967f7d4d43794d01d37986de6/dcm_classifier-0.9.0.tar.gz
+[2024-04-26 04:14:15] INFO root fetch - processPackages [eqsolver]: executing diffoscope
+[2024-04-26 04:14:15] INFO root fetch - processPackages [eqsolver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eqsolver-0.2.2-py3-none-any.whl.zip tmp/eqsolver-0.2.3-py3-none-any.whl.zip --markdown 20240426/e/eqsolver/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-04-26 04:14:15] INFO root fetch - processPackages [dcm-classifier]: Downloading https://files.pythonhosted.org/packages/bf/62/f79a963f7bee55bddcfc581c5a582b6f9d01da02e960a441e12c0bb965f9/dcm_classifier-0.9.1.tar.gz
+[2024-04-26 04:14:15] INFO root fetch - processPackages [eqsolver]: Remove: archive file [/home/abi/fetcher/tmp/eqsolver-0.2.2-py3-none-any.whl.zip]
+[2024-04-26 04:14:15] INFO root fetch - processPackages [eqsolver]: Remove: archive file [/home/abi/fetcher/tmp/eqsolver-0.2.3-py3-none-any.whl.zip]
+[2024-04-26 04:14:15] INFO root fetch - main [MainThread]: End processing [eqsolver]: success
+[2024-04-26 04:14:16] INFO root fetch - processPackages [dcm-classifier]: executing diffoscope
+[2024-04-26 04:14:16] INFO root fetch - processPackages [dcm-classifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcm_classifier-0.9.0.tar.gz tmp/dcm_classifier-0.9.1.tar.gz --markdown 20240426/d/dcm-classifier/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-26 04:14:24] INFO root fetch - processPackages [dcm-classifier]: Remove: archive file [/home/abi/fetcher/tmp/dcm_classifier-0.9.0.tar.gz]
+[2024-04-26 04:14:24] INFO root fetch - processPackages [dcm-classifier]: Remove: archive file [/home/abi/fetcher/tmp/dcm_classifier-0.9.1.tar.gz]
+[2024-04-26 04:14:24] INFO root fetch - main [MainThread]: End processing [dcm-classifier]: success
+[2024-04-26 04:14:24] INFO root fetch - main [MainThread]: Store serial: [22941865]
