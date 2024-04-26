@@ -2347,3 +2347,60 @@
 [2024-04-26 02:23:00] INFO root fetch - processPackages [es-client]: Remove: archive file [/home/abi/fetcher/tmp/es_client-8.9.0.tar.gz]
 [2024-04-26 02:23:00] INFO root fetch - main [MainThread]: End processing [es-client]: success
 [2024-04-26 02:23:00] INFO root fetch - main [MainThread]: Store serial: [22939933]
+[2024-04-26 02:25:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22939933]
+[2024-04-26 02:25:08] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-26 02:25:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-tweet-queue
+[2024-04-26 02:25:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hdx-python-api
+[2024-04-26 02:25:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-certbot-dns-route53
+[2024-04-26 02:25:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: masscube
+[2024-04-26 02:25:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: NMODL-nightly
+[2024-04-26 02:25:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: libsrg
+[2024-04-26 02:25:08] INFO root fetch - processPackages [libsrg]: New version: [4.3.0] Old Version: [4.2.3]
+[2024-04-26 02:25:08] INFO root fetch - processPackages [cdk-tweet-queue]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-04-26 02:25:09] INFO root fetch - processPackages [masscube]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-26 02:25:09] INFO root fetch - processPackages [cdk-tweet-queue]: Downloading https://files.pythonhosted.org/packages/f2/a9/33fbe548cea174e015412108a563be3bbbdacbb6982d1ef6bf71d4abb509/cdk-tweet-queue-2.0.98.tar.gz
+[2024-04-26 02:25:09] INFO root fetch - processPackages [libsrg]: Downloading https://files.pythonhosted.org/packages/df/43/1938c12eca919c212c8d630c9f5b6d3bb0ae54f1c3b2e428a9fc4f7e0b9b/libsrg-4.2.3-py3-none-any.whl
+[2024-04-26 02:25:09] INFO root fetch - processPackages [NMODL-nightly]: New version: [0.6.98] Old Version: [0.6.93]
+[2024-04-26 02:25:09] INFO root fetch - processPackages [hdx-python-api]: New version: [6.2.8] Old Version: [6.2.7]
+[2024-04-26 02:25:09] INFO root fetch - processPackages [cdk-certbot-dns-route53]: New version: [2.4.99] Old Version: [2.4.98]
+[2024-04-26 02:25:09] INFO root fetch - processPackages [masscube]: Downloading https://files.pythonhosted.org/packages/2d/db/d89b0c94182f9a980eb8ccbe6a67015e382e56c741eb440f976bba4f6632/masscube-0.0.8.tar.gz
+[2024-04-26 02:25:09] INFO root fetch - processPackages [libsrg]: Downloading https://files.pythonhosted.org/packages/10/df/3c4863cd40fcec1ccc6b5b763a753b38b883fec8012c185e09be25e01812/libsrg-4.3.0-py3-none-any.whl
+[2024-04-26 02:25:09] INFO root fetch - processPackages [cdk-tweet-queue]: Downloading https://files.pythonhosted.org/packages/b9/df/ffba41b66fc7796cb2c763da82c2012cc28d0708e1dcb7775c98d3d9e491/cdk-tweet-queue-2.0.99.tar.gz
+[2024-04-26 02:25:09] INFO root fetch - processPackages [hdx-python-api]: Downloading https://files.pythonhosted.org/packages/f8/cb/fc4fb9179edc57e6d887159553941eff261f592aabf0002b2155caae5a9d/hdx_python_api-6.2.7.tar.gz
+[2024-04-26 02:25:09] INFO root fetch - processPackages [NMODL-nightly]: Downloading https://files.pythonhosted.org/packages/94/bf/65d51cf0f3bd818482bc6d015444c6fa5effd03ea78ae4a494c1f1a2d189/NMODL_nightly-0.6.93-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-26 02:25:09] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/7d/4d/b1cb6c8586d736f490cc5099e0220282aadb28d3aefc028cf88e6a183b06/cdk-certbot-dns-route53-2.4.98.tar.gz
+[2024-04-26 02:25:09] INFO root fetch - processPackages [libsrg]: executing diffoscope
+[2024-04-26 02:25:09] INFO root fetch - processPackages [libsrg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libsrg-4.2.3-py3-none-any.whl.zip tmp/libsrg-4.3.0-py3-none-any.whl.zip --markdown 20240426/l/libsrg/4.2.3-4.3.0/README.md --exclude *.pyd
+[2024-04-26 02:25:09] INFO root fetch - processPackages [cdk-tweet-queue]: executing diffoscope
+[2024-04-26 02:25:09] INFO root fetch - processPackages [cdk-tweet-queue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-tweet-queue-2.0.98.tar.gz tmp/cdk-tweet-queue-2.0.99.tar.gz --markdown 20240426/c/cdk-tweet-queue/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-04-26 02:25:09] INFO root fetch - processPackages [masscube]: Downloading https://files.pythonhosted.org/packages/0c/7c/bba8006bb6b76d1d8768783a3d30f994e908adfb08f2a87be88aea597a2c/masscube-0.0.9.tar.gz
+[2024-04-26 02:25:09] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/28/81/76f66486f9d6f5aee6f787bb13f11ab8012414fd95d10756b575fd69b909/cdk-certbot-dns-route53-2.4.99.tar.gz
+[2024-04-26 02:25:09] INFO root fetch - processPackages [masscube]: executing diffoscope
+[2024-04-26 02:25:09] INFO root fetch - processPackages [masscube]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/masscube-0.0.8.tar.gz tmp/masscube-0.0.9.tar.gz --markdown 20240426/m/masscube/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-26 02:25:09] INFO root fetch - processPackages [hdx-python-api]: Downloading https://files.pythonhosted.org/packages/18/22/4fbbcbf84d13626abcd64d171a5f640c3d48a014ea0cbf57e09117834f3f/hdx_python_api-6.2.8.tar.gz
+[2024-04-26 02:25:09] INFO root fetch - processPackages [cdk-certbot-dns-route53]: executing diffoscope
+[2024-04-26 02:25:09] INFO root fetch - processPackages [cdk-certbot-dns-route53]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-certbot-dns-route53-2.4.98.tar.gz tmp/cdk-certbot-dns-route53-2.4.99.tar.gz --markdown 20240426/c/cdk-certbot-dns-route53/2.4.98-2.4.99/README.md --exclude *.pyd
+[2024-04-26 02:25:09] INFO root fetch - processPackages [hdx-python-api]: executing diffoscope
+[2024-04-26 02:25:09] INFO root fetch - processPackages [hdx-python-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hdx_python_api-6.2.7.tar.gz tmp/hdx_python_api-6.2.8.tar.gz --markdown 20240426/h/hdx-python-api/6.2.7-6.2.8/README.md --exclude *.pyd
+[2024-04-26 02:25:10] INFO root fetch - processPackages [NMODL-nightly]: Downloading https://files.pythonhosted.org/packages/e7/74/0082eac701e2e33195753774345536580724cd74e073c135ec8f5e9fd1a9/NMODL_nightly-0.6.98-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-26 02:25:10] INFO root fetch - processPackages [cdk-tweet-queue]: Remove: archive file [/home/abi/fetcher/tmp/cdk-tweet-queue-2.0.98.tar.gz]
+[2024-04-26 02:25:10] INFO root fetch - processPackages [cdk-tweet-queue]: Remove: archive file [/home/abi/fetcher/tmp/cdk-tweet-queue-2.0.99.tar.gz]
+[2024-04-26 02:25:10] INFO root fetch - main [MainThread]: End processing [cdk-tweet-queue]: success
+[2024-04-26 02:25:10] INFO root fetch - processPackages [libsrg]: Remove: archive file [/home/abi/fetcher/tmp/libsrg-4.2.3-py3-none-any.whl.zip]
+[2024-04-26 02:25:10] INFO root fetch - processPackages [libsrg]: Remove: archive file [/home/abi/fetcher/tmp/libsrg-4.3.0-py3-none-any.whl.zip]
+[2024-04-26 02:25:10] INFO root fetch - main [MainThread]: End processing [libsrg]: success
+[2024-04-26 02:25:10] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.98.tar.gz]
+[2024-04-26 02:25:10] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.99.tar.gz]
+[2024-04-26 02:25:10] INFO root fetch - main [MainThread]: End processing [cdk-certbot-dns-route53]: success
+[2024-04-26 02:25:10] INFO root fetch - processPackages [NMODL-nightly]: executing diffoscope
+[2024-04-26 02:25:10] INFO root fetch - processPackages [NMODL-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NMODL_nightly-0.6.93-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/NMODL_nightly-0.6.98-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240426/N/NMODL-nightly/0.6.93-0.6.98/README.md --exclude *.pyd
+[2024-04-26 02:25:10] INFO root fetch - processPackages [masscube]: Remove: archive file [/home/abi/fetcher/tmp/masscube-0.0.8.tar.gz]
+[2024-04-26 02:25:10] INFO root fetch - processPackages [masscube]: Remove: archive file [/home/abi/fetcher/tmp/masscube-0.0.9.tar.gz]
+[2024-04-26 02:25:10] INFO root fetch - main [MainThread]: End processing [masscube]: success
+[2024-04-26 02:25:11] INFO root fetch - processPackages [hdx-python-api]: Remove: archive file [/home/abi/fetcher/tmp/hdx_python_api-6.2.7.tar.gz]
+[2024-04-26 02:25:11] INFO root fetch - processPackages [hdx-python-api]: Remove: archive file [/home/abi/fetcher/tmp/hdx_python_api-6.2.8.tar.gz]
+[2024-04-26 02:25:11] INFO root fetch - main [MainThread]: End processing [hdx-python-api]: success
+[2024-04-26 02:27:02] INFO root fetch - processPackages [NMODL-nightly]: Remove: archive file [/home/abi/fetcher/tmp/NMODL_nightly-0.6.93-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-26 02:27:02] INFO root fetch - processPackages [NMODL-nightly]: Remove: archive file [/home/abi/fetcher/tmp/NMODL_nightly-0.6.98-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-26 02:27:02] INFO root fetch - main [MainThread]: End processing [NMODL-nightly]: success
+[2024-04-26 02:27:02] INFO root fetch - main [MainThread]: Store serial: [22939956]
