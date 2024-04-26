@@ -8018,3 +8018,51 @@
 [2024-04-26 05:15:50] INFO root fetch - processPackages [cdktf-cdktf-provider-hcp]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-hcp-9.7.0.tar.gz]
 [2024-04-26 05:15:50] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-hcp]: success
 [2024-04-26 05:15:50] INFO root fetch - main [MainThread]: Store serial: [22942195]
+[2024-04-26 05:17:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22942195]
+[2024-04-26 05:17:59] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-26 05:17:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gammarers.aws-waf-geo-restriction-rule-group
+[2024-04-26 05:17:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ashpokealan10
+[2024-04-26 05:17:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdktf-cdktf-provider-spotinst
+[2024-04-26 05:17:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pigeonsai
+[2024-04-26 05:17:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: databend-driver
+[2024-04-26 05:17:59] INFO root fetch - processPackages [ashpokealan10]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-26 05:17:59] INFO root fetch - processPackages [pigeonsai]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-04-26 05:17:59] INFO root fetch - processPackages [gammarers.aws-waf-geo-restriction-rule-group]: New version: [1.4.1] Old Version: [1.4.0]
+[2024-04-26 05:17:59] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: New version: [9.0.9] Old Version: [9.0.8]
+[2024-04-26 05:18:00] INFO root fetch - processPackages [databend-driver]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-04-26 05:18:00] INFO root fetch - processPackages [ashpokealan10]: Downloading https://files.pythonhosted.org/packages/5c/ab/8a8be7f9b8e8bfc22450cce31d22b48bd5b6628d18dacd20da421d157136/ashpokealan10-1.0.0.tar.gz
+[2024-04-26 05:18:00] INFO root fetch - processPackages [gammarers.aws-waf-geo-restriction-rule-group]: Downloading https://files.pythonhosted.org/packages/8c/39/d8fefdd557f04e39d5bdce229ba7c7ae40938d7cf414275b1ffedb4b61e4/gammarers.aws-waf-geo-restriction-rule-group-1.4.0.tar.gz
+[2024-04-26 05:18:00] INFO root fetch - processPackages [pigeonsai]: Downloading https://files.pythonhosted.org/packages/f9/91/db39440c109782fdfb814f0cccda3741024272b910234bac1684a9f76b12/pigeonsai-1.0.6.tar.gz
+[2024-04-26 05:18:00] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: Downloading https://files.pythonhosted.org/packages/23/3a/ff7bddacc6d9aefca0eeeab5018195400ffe56e21e80a61d96540ae2d5ef/cdktf-cdktf-provider-spotinst-9.0.8.tar.gz
+[2024-04-26 05:18:00] INFO root fetch - processPackages [databend-driver]: Downloading https://files.pythonhosted.org/packages/9e/d2/0bd5410dd972dbb678b40872c610f4f48032a9640df408af5feea4cb50b1/databend_driver-0.9.4-cp37-abi3-win_amd64.whl
+[2024-04-26 05:18:00] INFO root fetch - processPackages [ashpokealan10]: Downloading https://files.pythonhosted.org/packages/fe/bb/91a9918af0d417fb57880bacd68be517528dfacbb24074eff5de21394185/ashpokealan10-1.0.1.tar.gz
+[2024-04-26 05:18:00] INFO root fetch - processPackages [gammarers.aws-waf-geo-restriction-rule-group]: Downloading https://files.pythonhosted.org/packages/86/f6/45782d16932b6211d1b4d00b14ec160bc07e1ddb924181fe8560a920b888/gammarers.aws-waf-geo-restriction-rule-group-1.4.1.tar.gz
+[2024-04-26 05:18:00] INFO root fetch - processPackages [pigeonsai]: Downloading https://files.pythonhosted.org/packages/2c/6f/7d655e436c39c5a489e4886d7fa7e7df18d9097c77ab09c5815eaf611911/pigeonsai-1.0.7.tar.gz
+[2024-04-26 05:18:00] INFO root fetch - processPackages [ashpokealan10]: executing diffoscope
+[2024-04-26 05:18:00] INFO root fetch - processPackages [ashpokealan10]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ashpokealan10-1.0.0.tar.gz tmp/ashpokealan10-1.0.1.tar.gz --markdown 20240426/a/ashpokealan10/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-26 05:18:00] INFO root fetch - processPackages [gammarers.aws-waf-geo-restriction-rule-group]: executing diffoscope
+[2024-04-26 05:18:00] INFO root fetch - processPackages [gammarers.aws-waf-geo-restriction-rule-group]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammarers.aws-waf-geo-restriction-rule-group-1.4.0.tar.gz tmp/gammarers.aws-waf-geo-restriction-rule-group-1.4.1.tar.gz --markdown 20240426/g/gammarers.aws-waf-geo-restriction-rule-group/1.4.0-1.4.1/README.md --exclude *.pyd
+[2024-04-26 05:18:00] INFO root fetch - processPackages [pigeonsai]: executing diffoscope
+[2024-04-26 05:18:00] INFO root fetch - processPackages [pigeonsai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pigeonsai-1.0.6.tar.gz tmp/pigeonsai-1.0.7.tar.gz --markdown 20240426/p/pigeonsai/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-04-26 05:18:01] INFO root fetch - processPackages [ashpokealan10]: Remove: archive file [/home/abi/fetcher/tmp/ashpokealan10-1.0.0.tar.gz]
+[2024-04-26 05:18:01] INFO root fetch - processPackages [ashpokealan10]: Remove: archive file [/home/abi/fetcher/tmp/ashpokealan10-1.0.1.tar.gz]
+[2024-04-26 05:18:01] INFO root fetch - main [MainThread]: End processing [ashpokealan10]: success
+[2024-04-26 05:18:01] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: Downloading https://files.pythonhosted.org/packages/b8/2c/aa878226c72dad7c19534c6713ae070650c0bb7480c80bb6e755f5ccfb7f/cdktf-cdktf-provider-spotinst-9.0.9.tar.gz
+[2024-04-26 05:18:01] INFO root fetch - processPackages [gammarers.aws-waf-geo-restriction-rule-group]: Remove: archive file [/home/abi/fetcher/tmp/gammarers.aws-waf-geo-restriction-rule-group-1.4.0.tar.gz]
+[2024-04-26 05:18:01] INFO root fetch - processPackages [gammarers.aws-waf-geo-restriction-rule-group]: Remove: archive file [/home/abi/fetcher/tmp/gammarers.aws-waf-geo-restriction-rule-group-1.4.1.tar.gz]
+[2024-04-26 05:18:01] INFO root fetch - main [MainThread]: End processing [gammarers.aws-waf-geo-restriction-rule-group]: success
+[2024-04-26 05:18:01] INFO root fetch - processPackages [pigeonsai]: Remove: archive file [/home/abi/fetcher/tmp/pigeonsai-1.0.6.tar.gz]
+[2024-04-26 05:18:01] INFO root fetch - processPackages [pigeonsai]: Remove: archive file [/home/abi/fetcher/tmp/pigeonsai-1.0.7.tar.gz]
+[2024-04-26 05:18:01] INFO root fetch - main [MainThread]: End processing [pigeonsai]: success
+[2024-04-26 05:18:01] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: executing diffoscope
+[2024-04-26 05:18:01] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-spotinst-9.0.8.tar.gz tmp/cdktf-cdktf-provider-spotinst-9.0.9.tar.gz --markdown 20240426/c/cdktf-cdktf-provider-spotinst/9.0.8-9.0.9/README.md --exclude *.pyd
+[2024-04-26 05:18:01] INFO root fetch - processPackages [databend-driver]: Downloading https://files.pythonhosted.org/packages/b7/e3/195c2e775c9ea50822c2431f0a00f48ae03a7a10be4d3e583cce489052ee/databend_driver-0.9.5-cp37-abi3-win_amd64.whl
+[2024-04-26 05:18:01] INFO root fetch - processPackages [databend-driver]: executing diffoscope
+[2024-04-26 05:18:01] INFO root fetch - processPackages [databend-driver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databend_driver-0.9.4-cp37-abi3-win_amd64.whl.zip tmp/databend_driver-0.9.5-cp37-abi3-win_amd64.whl.zip --markdown 20240426/d/databend-driver/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-04-26 05:18:02] INFO root fetch - processPackages [databend-driver]: Remove: archive file [/home/abi/fetcher/tmp/databend_driver-0.9.4-cp37-abi3-win_amd64.whl.zip]
+[2024-04-26 05:18:02] INFO root fetch - processPackages [databend-driver]: Remove: archive file [/home/abi/fetcher/tmp/databend_driver-0.9.5-cp37-abi3-win_amd64.whl.zip]
+[2024-04-26 05:18:02] INFO root fetch - main [MainThread]: End processing [databend-driver]: success
+[2024-04-26 05:18:04] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-spotinst-9.0.8.tar.gz]
+[2024-04-26 05:18:04] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-spotinst-9.0.9.tar.gz]
+[2024-04-26 05:18:04] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-spotinst]: success
+[2024-04-26 05:18:04] INFO root fetch - main [MainThread]: Store serial: [22942214]
