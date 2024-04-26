@@ -18230,3 +18230,24 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 13:00:47] INFO root fetch - processPackages [buildarr-radarr]: Remove: archive file [/home/abi/fetcher/tmp/buildarr_radarr-0.2.6.tar.gz]
 [2024-04-26 13:00:47] INFO root fetch - main [MainThread]: End processing [buildarr-radarr]: success
 [2024-04-26 13:00:47] INFO root fetch - main [MainThread]: Store serial: [22946595]
+[2024-04-26 13:02:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22946595]
+[2024-04-26 13:02:56] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-26 13:02:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: caen-hv-py
+[2024-04-26 13:02:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: eurocropsml
+[2024-04-26 13:02:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: expanse
+[2024-04-26 13:02:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: eral
+[2024-04-26 13:02:56] WARNING root fetch - processPackages [expanse]: Skipping, unable to determine old version
+[2024-04-26 13:02:56] INFO root fetch - main [MainThread]: End processing [expanse] error
+[2024-04-26 13:02:56] INFO root fetch - processPackages [caen-hv-py]: New version: [1.1] Old Version: [1.0]
+[2024-04-26 13:02:56] WARNING root fetch - processPackages [eral]: Skipping, unable to determine old version
+[2024-04-26 13:02:56] INFO root fetch - main [MainThread]: End processing [eral] error
+[2024-04-26 13:02:56] WARNING root fetch - processPackages [eurocropsml]: Skipping, unable to determine old version
+[2024-04-26 13:02:56] INFO root fetch - main [MainThread]: End processing [eurocropsml] error
+[2024-04-26 13:02:57] INFO root fetch - processPackages [caen-hv-py]: Downloading https://files.pythonhosted.org/packages/d9/08/cb0d645002046d53f6515e1b37fb22d6fb847e0c17698d925c5aed39e7df/caen_hv_py-1.0.tar.gz
+[2024-04-26 13:02:57] INFO root fetch - processPackages [caen-hv-py]: Downloading https://files.pythonhosted.org/packages/cd/58/31594f06198c1b28754afed75fa8177a526b1e934b4c034d3f2d4645a389/caen_hv_py-1.1.tar.gz
+[2024-04-26 13:02:57] INFO root fetch - processPackages [caen-hv-py]: executing diffoscope
+[2024-04-26 13:02:57] INFO root fetch - processPackages [caen-hv-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caen_hv_py-1.0.tar.gz tmp/caen_hv_py-1.1.tar.gz --markdown 20240426/c/caen-hv-py/1.0-1.1/README.md --exclude *.pyd
+[2024-04-26 13:02:58] INFO root fetch - processPackages [caen-hv-py]: Remove: archive file [/home/abi/fetcher/tmp/caen_hv_py-1.0.tar.gz]
+[2024-04-26 13:02:58] INFO root fetch - processPackages [caen-hv-py]: Remove: archive file [/home/abi/fetcher/tmp/caen_hv_py-1.1.tar.gz]
+[2024-04-26 13:02:58] INFO root fetch - main [MainThread]: End processing [caen-hv-py]: success
+[2024-04-26 13:02:58] INFO root fetch - main [MainThread]: Store serial: [22946609]
