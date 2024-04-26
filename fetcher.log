@@ -13119,3 +13119,27 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 09:38:34] INFO root fetch - processPackages [hagworm]: Remove: archive file [/home/abi/fetcher/tmp/hagworm-5.9.9.tar.gz]
 [2024-04-26 09:38:34] INFO root fetch - main [MainThread]: End processing [hagworm]: success
 [2024-04-26 09:38:34] INFO root fetch - main [MainThread]: Store serial: [22944424]
+[2024-04-26 09:40:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22944424]
+[2024-04-26 09:40:44] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-26 09:40:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: holytools
+[2024-04-26 09:40:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: plone.app.mosaic
+[2024-04-26 09:40:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: grizzly-loadtester
+[2024-04-26 09:40:44] WARNING root fetch - processPackages [holytools]: Skipping, unable to determine old version
+[2024-04-26 09:40:44] INFO root fetch - main [MainThread]: End processing [holytools] error
+[2024-04-26 09:40:44] INFO root fetch - processPackages [grizzly-loadtester]: New version: [2.9.3] Old Version: [2.9.2]
+[2024-04-26 09:40:44] INFO root fetch - processPackages [plone.app.mosaic]: New version: [3.2.0a5] Old Version: [3.2.0a4]
+[2024-04-26 09:40:44] INFO root fetch - processPackages [grizzly-loadtester]: Downloading https://files.pythonhosted.org/packages/2b/50/694e2756c5321fad1437a40079fcfe3b18e0aa8e707c330e3695c8473295/grizzly-loadtester-2.9.2.tar.gz
+[2024-04-26 09:40:44] INFO root fetch - processPackages [plone.app.mosaic]: Downloading https://files.pythonhosted.org/packages/06/22/3f40c5f08d434ff2e9aa4a61e9f53b294682c54a9b53807fe9b3a6347559/plone_app_mosaic-3.2.0a4.tar.gz
+[2024-04-26 09:40:45] INFO root fetch - processPackages [grizzly-loadtester]: Downloading https://files.pythonhosted.org/packages/08/d4/7c29a994dd1c9c43a167b3e85a2ca5a792b5b7dd0fbe7c9be76cd088391e/grizzly-loadtester-2.9.3.tar.gz
+[2024-04-26 09:40:45] INFO root fetch - processPackages [plone.app.mosaic]: Downloading https://files.pythonhosted.org/packages/6b/51/859f54aa10d55d5d5af307b4ec28ba0faac03e21b012d146c18959391974/plone_app_mosaic-3.2.0a5.tar.gz
+[2024-04-26 09:40:45] INFO root fetch - processPackages [grizzly-loadtester]: executing diffoscope
+[2024-04-26 09:40:45] INFO root fetch - processPackages [grizzly-loadtester]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grizzly-loadtester-2.9.2.tar.gz tmp/grizzly-loadtester-2.9.3.tar.gz --markdown 20240426/g/grizzly-loadtester/2.9.2-2.9.3/README.md --exclude *.pyd
+[2024-04-26 09:40:45] INFO root fetch - processPackages [plone.app.mosaic]: executing diffoscope
+[2024-04-26 09:40:45] INFO root fetch - processPackages [plone.app.mosaic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plone_app_mosaic-3.2.0a4.tar.gz tmp/plone_app_mosaic-3.2.0a5.tar.gz --markdown 20240426/p/plone.app.mosaic/3.2.0a4-3.2.0a5/README.md --exclude *.pyd
+[2024-04-26 09:40:46] INFO root fetch - processPackages [grizzly-loadtester]: Remove: archive file [/home/abi/fetcher/tmp/grizzly-loadtester-2.9.2.tar.gz]
+[2024-04-26 09:40:46] INFO root fetch - processPackages [grizzly-loadtester]: Remove: archive file [/home/abi/fetcher/tmp/grizzly-loadtester-2.9.3.tar.gz]
+[2024-04-26 09:40:46] INFO root fetch - main [MainThread]: End processing [grizzly-loadtester]: success
+[2024-04-26 09:40:53] INFO root fetch - processPackages [plone.app.mosaic]: Remove: archive file [/home/abi/fetcher/tmp/plone_app_mosaic-3.2.0a4.tar.gz]
+[2024-04-26 09:40:53] INFO root fetch - processPackages [plone.app.mosaic]: Remove: archive file [/home/abi/fetcher/tmp/plone_app_mosaic-3.2.0a5.tar.gz]
+[2024-04-26 09:40:53] INFO root fetch - main [MainThread]: End processing [plone.app.mosaic]: success
+[2024-04-26 09:40:53] INFO root fetch - main [MainThread]: Store serial: [22944439]
