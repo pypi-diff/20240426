@@ -20073,3 +20073,41 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 14:28:03] INFO root fetch - processPackages [BrickAgx]: Remove: archive file [/home/abi/fetcher/tmp/brickagx-0.7.4-cp39-cp39-win_amd64.whl.zip]
 [2024-04-26 14:28:03] INFO root fetch - main [MainThread]: End processing [BrickAgx]: success
 [2024-04-26 14:28:03] INFO root fetch - main [MainThread]: Store serial: [22947364]
+[2024-04-26 14:30:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22947364]
+[2024-04-26 14:30:12] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-26 14:30:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autoai-ts-libs
+[2024-04-26 14:30:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jeedomdaemon
+[2024-04-26 14:30:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: liionpack
+[2024-04-26 14:30:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: DynamicForms
+[2024-04-26 14:30:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: getstream
+[2024-04-26 14:30:13] WARNING root fetch - processPackages [jeedomdaemon]: Skipping, unable to determine old version
+[2024-04-26 14:30:13] INFO root fetch - main [MainThread]: End processing [jeedomdaemon] error
+[2024-04-26 14:30:13] INFO root fetch - processPackages [getstream]: New version: [1.1.0rc1] Old Version: [1.0.2rc1]
+[2024-04-26 14:30:13] INFO root fetch - processPackages [autoai-ts-libs]: New version: [4.0.4] Old Version: [4.0.2]
+[2024-04-26 14:30:13] INFO root fetch - processPackages [getstream]: Downloading https://files.pythonhosted.org/packages/38/ed/ee0cc5c9ecd3325fa107854ab0acc1927543007ad7668407be5d26f405a1/getstream-1.0.2rc1.tar.gz
+[2024-04-26 14:30:13] INFO root fetch - processPackages [liionpack]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-26 14:30:13] INFO root fetch - processPackages [DynamicForms]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-26 14:30:13] INFO root fetch - processPackages [autoai-ts-libs]: Downloading https://files.pythonhosted.org/packages/0f/41/39e2bf73cffffe2f8a31e7e2563c6be546c2ced450b837bded94a913b0ae/autoai_ts_libs-4.0.2-cp311-cp311-win_amd64.whl
+[2024-04-26 14:30:13] INFO root fetch - processPackages [liionpack]: Downloading https://files.pythonhosted.org/packages/14/98/5819a9fcbcad6287a6987dd7909010cb75f70f4b51a4eb77802ef90e7fed/liionpack-0.3.8.tar.gz
+[2024-04-26 14:30:13] INFO root fetch - processPackages [DynamicForms]: Downloading https://files.pythonhosted.org/packages/c1/a3/a9391b0a0ba21940c726b8e676f919e072e53da35bfe6fdc30f6cd4976ed/DynamicForms-0.9.8.tar.gz
+[2024-04-26 14:30:13] WARNING root fetch - processPackages [autoai-ts-libs]: Skipping package: exceeds size limit 23788117>=10485760
+[2024-04-26 14:30:13] INFO root fetch - main [MainThread]: End processing [autoai-ts-libs] error
+[2024-04-26 14:30:13] INFO root fetch - processPackages [getstream]: Downloading https://files.pythonhosted.org/packages/36/c6/c26899f32fb5fc8642587c0c00d022fba4041ab70fa4c3bb333f7ec0eba5/getstream-1.1.0rc1.tar.gz
+[2024-04-26 14:30:13] INFO root fetch - processPackages [getstream]: executing diffoscope
+[2024-04-26 14:30:13] INFO root fetch - processPackages [getstream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/getstream-1.0.2rc1.tar.gz tmp/getstream-1.1.0rc1.tar.gz --markdown 20240426/g/getstream/1.0.2rc1-1.1.0rc1/README.md --exclude *.pyd
+[2024-04-26 14:30:13] INFO root fetch - processPackages [DynamicForms]: Downloading https://files.pythonhosted.org/packages/17/92/2562c5f02d4953bc96c46e2b195343702ea6763233eceaed5091889f2ab8/DynamicForms-0.9.9.tar.gz
+[2024-04-26 14:30:13] INFO root fetch - processPackages [liionpack]: Downloading https://files.pythonhosted.org/packages/d2/88/149c75de27a611fc7dffb3a84f0bb9bf6c61de61d646dc1c3cc731384fa5/liionpack-0.3.9.tar.gz
+[2024-04-26 14:30:14] INFO root fetch - processPackages [DynamicForms]: executing diffoscope
+[2024-04-26 14:30:14] INFO root fetch - processPackages [DynamicForms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DynamicForms-0.9.8.tar.gz tmp/DynamicForms-0.9.9.tar.gz --markdown 20240426/D/DynamicForms/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-26 14:30:14] INFO root fetch - processPackages [liionpack]: executing diffoscope
+[2024-04-26 14:30:14] INFO root fetch - processPackages [liionpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liionpack-0.3.8.tar.gz tmp/liionpack-0.3.9.tar.gz --markdown 20240426/l/liionpack/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-04-26 14:30:14] INFO root fetch - processPackages [getstream]: Remove: archive file [/home/abi/fetcher/tmp/getstream-1.0.2rc1.tar.gz]
+[2024-04-26 14:30:14] INFO root fetch - processPackages [getstream]: Remove: archive file [/home/abi/fetcher/tmp/getstream-1.1.0rc1.tar.gz]
+[2024-04-26 14:30:14] INFO root fetch - main [MainThread]: End processing [getstream]: success
+[2024-04-26 14:30:15] INFO root fetch - processPackages [liionpack]: Remove: archive file [/home/abi/fetcher/tmp/liionpack-0.3.8.tar.gz]
+[2024-04-26 14:30:15] INFO root fetch - processPackages [liionpack]: Remove: archive file [/home/abi/fetcher/tmp/liionpack-0.3.9.tar.gz]
+[2024-04-26 14:30:15] INFO root fetch - main [MainThread]: End processing [liionpack]: success
+[2024-04-26 14:30:15] INFO root fetch - processPackages [DynamicForms]: Remove: archive file [/home/abi/fetcher/tmp/DynamicForms-0.9.8.tar.gz]
+[2024-04-26 14:30:15] INFO root fetch - processPackages [DynamicForms]: Remove: archive file [/home/abi/fetcher/tmp/DynamicForms-0.9.9.tar.gz]
+[2024-04-26 14:30:15] INFO root fetch - main [MainThread]: End processing [DynamicForms]: success
+[2024-04-26 14:30:15] INFO root fetch - main [MainThread]: Store serial: [22947383]
