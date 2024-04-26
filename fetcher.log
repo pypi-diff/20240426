@@ -9170,3 +9170,18 @@
 [2024-04-26 06:38:47] INFO root fetch - processPackages [odoo14-addon-ssi-helpdesk]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_helpdesk-14.0.2.18.0-py3-none-any.whl.zip]
 [2024-04-26 06:38:47] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-helpdesk]: success
 [2024-04-26 06:38:47] INFO root fetch - main [MainThread]: Store serial: [22942665]
+[2024-04-26 06:40:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22942665]
+[2024-04-26 06:40:55] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-26 06:40:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gammarers.aws-waf-ip-rate-limit-rule-group
+[2024-04-26 06:40:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-sync-env
+[2024-04-26 06:40:55] INFO root fetch - processPackages [django-sync-env]: New version: [0.3.1a4] Old Version: [0.3.1a3]
+[2024-04-26 06:40:55] INFO root fetch - processPackages [django-sync-env]: Downloading https://files.pythonhosted.org/packages/e7/59/0fab5b27cd24ed78092c699c059408c175604be6b91d8dcb2127c0f15ec6/django_sync_env-0.3.1a3.tar.gz
+[2024-04-26 06:40:55] WARNING root fetch - processPackages [gammarers.aws-waf-ip-rate-limit-rule-group]: Skipping, unable to determine old version
+[2024-04-26 06:40:55] INFO root fetch - main [MainThread]: End processing [gammarers.aws-waf-ip-rate-limit-rule-group] error
+[2024-04-26 06:40:56] INFO root fetch - processPackages [django-sync-env]: Downloading https://files.pythonhosted.org/packages/63/74/f49a34479e56a622198792442439e0ef08f2237e3a298d88081c719a93bc/django_sync_env-0.3.1a4.tar.gz
+[2024-04-26 06:40:56] INFO root fetch - processPackages [django-sync-env]: executing diffoscope
+[2024-04-26 06:40:56] INFO root fetch - processPackages [django-sync-env]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_sync_env-0.3.1a3.tar.gz tmp/django_sync_env-0.3.1a4.tar.gz --markdown 20240426/d/django-sync-env/0.3.1a3-0.3.1a4/README.md --exclude *.pyd
+[2024-04-26 06:40:56] INFO root fetch - processPackages [django-sync-env]: Remove: archive file [/home/abi/fetcher/tmp/django_sync_env-0.3.1a3.tar.gz]
+[2024-04-26 06:40:56] INFO root fetch - processPackages [django-sync-env]: Remove: archive file [/home/abi/fetcher/tmp/django_sync_env-0.3.1a4.tar.gz]
+[2024-04-26 06:40:56] INFO root fetch - main [MainThread]: End processing [django-sync-env]: success
+[2024-04-26 06:40:56] INFO root fetch - main [MainThread]: Store serial: [22942673]
