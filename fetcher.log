@@ -9703,3 +9703,36 @@
 [2024-04-26 07:18:25] INFO root fetch - processPackages [fastly]: Remove: archive file [/home/abi/fetcher/tmp/fastly-5.2.0.tar.gz]
 [2024-04-26 07:18:25] INFO root fetch - main [MainThread]: End processing [fastly]: success
 [2024-04-26 07:18:25] INFO root fetch - main [MainThread]: Store serial: [22942874]
+[2024-04-26 07:20:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22942874]
+[2024-04-26 07:20:34] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-26 07:20:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kfre
+[2024-04-26 07:20:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: embedded-build
+[2024-04-26 07:20:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mteb
+[2024-04-26 07:20:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fgo-api-types
+[2024-04-26 07:20:34] INFO root fetch - processPackages [kfre]: New version: [0.1.1a0] Old Version: [0.1.0a2]
+[2024-04-26 07:20:34] INFO root fetch - processPackages [fgo-api-types]: New version: [2024.4.6.2.22.3] Old Version: [2024.4.26.4.43.57]
+[2024-04-26 07:20:34] INFO root fetch - processPackages [kfre]: Downloading https://files.pythonhosted.org/packages/63/a3/057305288da2fb87bd9e85701d8f9be92a9ae288d80a9a2b8c8f28a6e083/kfre-0.1.0a2.tar.gz
+[2024-04-26 07:20:34] WARNING root fetch - processPackages [embedded-build]: Skipping, unable to determine old version
+[2024-04-26 07:20:34] INFO root fetch - main [MainThread]: End processing [embedded-build] error
+[2024-04-26 07:20:34] INFO root fetch - processPackages [mteb]: New version: [1.7.9] Old Version: [1.7.8]
+[2024-04-26 07:20:34] INFO root fetch - processPackages [fgo-api-types]: Downloading https://files.pythonhosted.org/packages/e9/a7/ed44baba078453bc20758f406b6fba715f93eebd7bbee2adab4d38c9b1c2/fgo_api_types-2024.4.26.4.43.57.tar.gz
+[2024-04-26 07:20:34] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/b5/e7/1ffcd000a118bd6a4b183610de5d0891ab9c767ccabb6c7e3f63ba9edb45/mteb-1.7.8.tar.gz
+[2024-04-26 07:20:34] INFO root fetch - processPackages [kfre]: Downloading https://files.pythonhosted.org/packages/63/ca/28b4a0333e6ad5a9a54ad3cf911ab0cb1e476b7f7855ae9a36cef9a8282d/kfre-0.1.1a0.tar.gz
+[2024-04-26 07:20:34] INFO root fetch - processPackages [fgo-api-types]: Downloading https://files.pythonhosted.org/packages/b9/41/3dbb26f0f980c564a1e8ae75299afc724991934ffaf1a8a59ab70aafb784/fgo_api_types-2024.4.6.2.22.3.tar.gz
+[2024-04-26 07:20:34] INFO root fetch - processPackages [kfre]: executing diffoscope
+[2024-04-26 07:20:34] INFO root fetch - processPackages [kfre]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfre-0.1.0a2.tar.gz tmp/kfre-0.1.1a0.tar.gz --markdown 20240426/k/kfre/0.1.0a2-0.1.1a0/README.md --exclude *.pyd
+[2024-04-26 07:20:34] INFO root fetch - processPackages [fgo-api-types]: executing diffoscope
+[2024-04-26 07:20:34] INFO root fetch - processPackages [fgo-api-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fgo_api_types-2024.4.26.4.43.57.tar.gz tmp/fgo_api_types-2024.4.6.2.22.3.tar.gz --markdown 20240426/f/fgo-api-types/2024.4.26.4.43.57-2024.4.6.2.22.3/README.md --exclude *.pyd
+[2024-04-26 07:20:34] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/eb/d9/b925270f0a2467b3204b0f467cc702668d24bd9a8e876306ea7e3da17507/mteb-1.7.9.tar.gz
+[2024-04-26 07:20:35] INFO root fetch - processPackages [mteb]: executing diffoscope
+[2024-04-26 07:20:35] INFO root fetch - processPackages [mteb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mteb-1.7.8.tar.gz tmp/mteb-1.7.9.tar.gz --markdown 20240426/m/mteb/1.7.8-1.7.9/README.md --exclude *.pyd
+[2024-04-26 07:20:35] INFO root fetch - processPackages [kfre]: Remove: archive file [/home/abi/fetcher/tmp/kfre-0.1.0a2.tar.gz]
+[2024-04-26 07:20:35] INFO root fetch - processPackages [kfre]: Remove: archive file [/home/abi/fetcher/tmp/kfre-0.1.1a0.tar.gz]
+[2024-04-26 07:20:35] INFO root fetch - main [MainThread]: End processing [kfre]: success
+[2024-04-26 07:20:35] INFO root fetch - processPackages [fgo-api-types]: Remove: archive file [/home/abi/fetcher/tmp/fgo_api_types-2024.4.26.4.43.57.tar.gz]
+[2024-04-26 07:20:35] INFO root fetch - processPackages [fgo-api-types]: Remove: archive file [/home/abi/fetcher/tmp/fgo_api_types-2024.4.6.2.22.3.tar.gz]
+[2024-04-26 07:20:35] INFO root fetch - main [MainThread]: End processing [fgo-api-types]: success
+[2024-04-26 07:20:36] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.7.8.tar.gz]
+[2024-04-26 07:20:36] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.7.9.tar.gz]
+[2024-04-26 07:20:36] INFO root fetch - main [MainThread]: End processing [mteb]: success
+[2024-04-26 07:20:36] INFO root fetch - main [MainThread]: Store serial: [22942888]
