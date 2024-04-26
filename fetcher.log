@@ -17967,3 +17967,68 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 12:47:35] INFO root fetch - processPackages [cofutils]: Remove: archive file [/home/abi/fetcher/tmp/cofutils-1.1.5.tar.gz]
 [2024-04-26 12:47:35] INFO root fetch - main [MainThread]: End processing [cofutils]: success
 [2024-04-26 12:47:35] INFO root fetch - main [MainThread]: Store serial: [22946469]
+[2024-04-26 12:49:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22946469]
+[2024-04-26 12:49:45] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-26 12:49:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gllogger
+[2024-04-26 12:49:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: coiled
+[2024-04-26 12:49:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Weblate
+[2024-04-26 12:49:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: medifile
+[2024-04-26 12:49:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: streamlit-nightly
+[2024-04-26 12:49:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: deepbays
+[2024-04-26 12:49:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fisspy
+[2024-04-26 12:49:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: earthkit-geo
+[2024-04-26 12:49:45] INFO root fetch - processPackages [fisspy]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-04-26 12:49:45] INFO root fetch - processPackages [Weblate]: New version: [5.5.2] Old Version: [5.5]
+[2024-04-26 12:49:45] INFO root fetch - processPackages [fisspy]: Downloading https://files.pythonhosted.org/packages/d8/42/6f78333abf780633d3a986208804f216ed631eccd9433ccdf405d80c4b7a/fisspy-1.0.6.tar.gz
+[2024-04-26 12:49:45] INFO root fetch - processPackages [gllogger]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-26 12:49:45] INFO root fetch - processPackages [earthkit-geo]: New version: [0.1.0] Old Version: [0.0.1]
+[2024-04-26 12:49:45] WARNING root fetch - processPackages [medifile]: Skipping, unable to determine old version
+[2024-04-26 12:49:45] INFO root fetch - processPackages [deepbays]: New version: [0.0.3] Old Version: [0.0.1]
+[2024-04-26 12:49:45] INFO root fetch - main [MainThread]: End processing [medifile] error
+[2024-04-26 12:49:45] INFO root fetch - processPackages [streamlit-nightly]: New version: [1.33.1.dev20240425] Old Version: [1.33.1.dev20240424]
+[2024-04-26 12:49:45] INFO root fetch - processPackages [coiled]: New version: [1.9.1.dev9] Old Version: [1.9.1.dev8]
+[2024-04-26 12:49:45] INFO root fetch - processPackages [Weblate]: Downloading https://files.pythonhosted.org/packages/b2/c8/f8a0c9edeaa19b28e5fb3a73f166b2e6c243be6a3d2bee8e0f6e22ad6efa/weblate-5.5.tar.gz
+[2024-04-26 12:49:45] WARNING root fetch - processPackages [Weblate]: Skipping package: exceeds size limit 64661155>=10485760
+[2024-04-26 12:49:45] INFO root fetch - main [MainThread]: End processing [Weblate] error
+[2024-04-26 12:49:45] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/8b/97/14337c08d9fc8bec2c9c7a5961519e141cf75d7dffa582bb987eecacefa4/coiled-1.9.1.dev8.tar.gz
+[2024-04-26 12:49:45] INFO root fetch - processPackages [gllogger]: Downloading https://files.pythonhosted.org/packages/c5/07/eeb567e8ec1b90a91162aad4a92391efe757ffda3c4cf9979193b6a9f216/gllogger-0.0.4.tar.gz
+[2024-04-26 12:49:45] INFO root fetch - processPackages [deepbays]: Downloading https://files.pythonhosted.org/packages/a4/72/a0193ecaeeb611d3e71ccbe292b93745413626e12d767c43904eae46ec1a/deepbays-0.0.1.tar.gz
+[2024-04-26 12:49:45] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/82/05/167fbe51e025ae6579b569ceafb5d058d70674db5a180e3e569640b0655b/streamlit_nightly-1.33.1.dev20240424.tar.gz
+[2024-04-26 12:49:45] INFO root fetch - processPackages [earthkit-geo]: Downloading https://files.pythonhosted.org/packages/7f/ef/38e226a52fe63c4e6f583ae2bfe730f38a98bebc591bfb429448b87c0e99/earthkit-geo-0.0.1.tar.gz
+[2024-04-26 12:49:45] INFO root fetch - processPackages [fisspy]: Downloading https://files.pythonhosted.org/packages/a4/c6/84ed740d705771502c288ed1554924b3ff205254d81119aa0530c76b1456/fisspy-1.0.7.tar.gz
+[2024-04-26 12:49:46] INFO root fetch - processPackages [fisspy]: executing diffoscope
+[2024-04-26 12:49:46] INFO root fetch - processPackages [fisspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fisspy-1.0.6.tar.gz tmp/fisspy-1.0.7.tar.gz --markdown 20240426/f/fisspy/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-04-26 12:49:46] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/58/16/aec6b9100728dfee740792b7dd55fc6e56240fdadb5ef317a1d120e019d7/coiled-1.9.1.dev9.tar.gz
+[2024-04-26 12:49:46] INFO root fetch - processPackages [gllogger]: Downloading https://files.pythonhosted.org/packages/cf/1d/5602ba27ea8a9067a4b683120449faeb0e7c77a0f7bd512ab26ce833e7f1/gllogger-0.0.5.tar.gz
+[2024-04-26 12:49:46] INFO root fetch - processPackages [deepbays]: Downloading https://files.pythonhosted.org/packages/a0/1c/0af3c05db41f6701d02ef28a0f4a507af10f4d9fcfb802be8fd9d6792fcb/deepbays-0.0.3.tar.gz
+[2024-04-26 12:49:46] INFO root fetch - processPackages [earthkit-geo]: Downloading https://files.pythonhosted.org/packages/e0/a2/0c26ef224ad8690ae022ee6d2fd8c4e2547718a683adafcd646c3d4ab7c2/earthkit_geo-0.1.0.tar.gz
+[2024-04-26 12:49:46] INFO root fetch - processPackages [gllogger]: executing diffoscope
+[2024-04-26 12:49:46] INFO root fetch - processPackages [gllogger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gllogger-0.0.4.tar.gz tmp/gllogger-0.0.5.tar.gz --markdown 20240426/g/gllogger/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-26 12:49:46] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2024-04-26 12:49:46] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-1.9.1.dev8.tar.gz tmp/coiled-1.9.1.dev9.tar.gz --markdown 20240426/c/coiled/1.9.1.dev8-1.9.1.dev9/README.md --exclude *.pyd
+[2024-04-26 12:49:46] INFO root fetch - processPackages [deepbays]: executing diffoscope
+[2024-04-26 12:49:46] INFO root fetch - processPackages [deepbays]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepbays-0.0.1.tar.gz tmp/deepbays-0.0.3.tar.gz --markdown 20240426/d/deepbays/0.0.1-0.0.3/README.md --exclude *.pyd
+[2024-04-26 12:49:46] INFO root fetch - processPackages [earthkit-geo]: executing diffoscope
+[2024-04-26 12:49:46] INFO root fetch - processPackages [earthkit-geo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/earthkit-geo-0.0.1.tar.gz tmp/earthkit_geo-0.1.0.tar.gz --markdown 20240426/e/earthkit-geo/0.0.1-0.1.0/README.md --exclude *.pyd
+[2024-04-26 12:49:46] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/d3/8d/267da3c571a755e5025c9b648f5a885c6f4b4b83f09b36200952d8bda095/streamlit_nightly-1.33.1.dev20240425.tar.gz
+[2024-04-26 12:49:46] INFO root fetch - processPackages [fisspy]: Remove: archive file [/home/abi/fetcher/tmp/fisspy-1.0.6.tar.gz]
+[2024-04-26 12:49:46] INFO root fetch - processPackages [fisspy]: Remove: archive file [/home/abi/fetcher/tmp/fisspy-1.0.7.tar.gz]
+[2024-04-26 12:49:46] INFO root fetch - main [MainThread]: End processing [fisspy]: success
+[2024-04-26 12:49:46] INFO root fetch - processPackages [deepbays]: Remove: archive file [/home/abi/fetcher/tmp/deepbays-0.0.1.tar.gz]
+[2024-04-26 12:49:46] INFO root fetch - processPackages [deepbays]: Remove: archive file [/home/abi/fetcher/tmp/deepbays-0.0.3.tar.gz]
+[2024-04-26 12:49:46] INFO root fetch - main [MainThread]: End processing [deepbays]: success
+[2024-04-26 12:49:46] INFO root fetch - processPackages [gllogger]: Remove: archive file [/home/abi/fetcher/tmp/gllogger-0.0.4.tar.gz]
+[2024-04-26 12:49:46] INFO root fetch - processPackages [gllogger]: Remove: archive file [/home/abi/fetcher/tmp/gllogger-0.0.5.tar.gz]
+[2024-04-26 12:49:46] INFO root fetch - main [MainThread]: End processing [gllogger]: success
+[2024-04-26 12:49:46] INFO root fetch - processPackages [streamlit-nightly]: executing diffoscope
+[2024-04-26 12:49:46] INFO root fetch - processPackages [streamlit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit_nightly-1.33.1.dev20240424.tar.gz tmp/streamlit_nightly-1.33.1.dev20240425.tar.gz --markdown 20240426/s/streamlit-nightly/1.33.1.dev20240424-1.33.1.dev20240425/README.md --exclude *.pyd
+[2024-04-26 12:49:47] INFO root fetch - processPackages [earthkit-geo]: Remove: archive file [/home/abi/fetcher/tmp/earthkit-geo-0.0.1.tar.gz]
+[2024-04-26 12:49:47] INFO root fetch - processPackages [earthkit-geo]: Remove: archive file [/home/abi/fetcher/tmp/earthkit_geo-0.1.0.tar.gz]
+[2024-04-26 12:49:47] INFO root fetch - main [MainThread]: End processing [earthkit-geo]: success
+[2024-04-26 12:49:47] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-1.9.1.dev8.tar.gz]
+[2024-04-26 12:49:47] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-1.9.1.dev9.tar.gz]
+[2024-04-26 12:49:47] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2024-04-26 12:49:50] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_nightly-1.33.1.dev20240424.tar.gz]
+[2024-04-26 12:49:50] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_nightly-1.33.1.dev20240425.tar.gz]
+[2024-04-26 12:49:50] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
+[2024-04-26 12:49:50] INFO root fetch - main [MainThread]: Store serial: [22946494]
