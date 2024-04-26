@@ -8443,3 +8443,42 @@
 [2024-04-26 05:46:31] INFO root fetch - processPackages [singer-sdk]: Remove: archive file [/home/abi/fetcher/tmp/singer-sdk-0.9.0.tar.gz]
 [2024-04-26 05:46:31] INFO root fetch - main [MainThread]: End processing [singer-sdk]: success
 [2024-04-26 05:46:31] INFO root fetch - main [MainThread]: Store serial: [22942371]
+[2024-04-26 05:48:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22942371]
+[2024-04-26 05:48:40] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-26 05:48:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: llama-index
+[2024-04-26 05:48:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: llama-index-embeddings-azure-openai
+[2024-04-26 05:48:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: llama-index-embeddings-openai
+[2024-04-26 05:48:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pokesel
+[2024-04-26 05:48:40] INFO root fetch - processPackages [pokesel]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-26 05:48:40] INFO root fetch - processPackages [llama-index-embeddings-openai]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-26 05:48:40] INFO root fetch - processPackages [llama-index-embeddings-azure-openai]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-26 05:48:40] INFO root fetch - processPackages [llama-index]: New version: [0.9.9] Old Version: [0.9.8.post1]
+[2024-04-26 05:48:40] INFO root fetch - processPackages [llama-index-embeddings-openai]: Downloading https://files.pythonhosted.org/packages/58/4b/93690962c63c7ce54888bd61bf69e801350b95fcd3a7e22faf19991d62bf/llama_index_embeddings_openai-0.1.8.tar.gz
+[2024-04-26 05:48:40] INFO root fetch - processPackages [llama-index-embeddings-azure-openai]: Downloading https://files.pythonhosted.org/packages/fb/58/f9ccb645b04847271caaff0f304fc5ec9a7563047e5664ae9d770e5fa714/llama_index_embeddings_azure_openai-0.1.7.tar.gz
+[2024-04-26 05:48:40] INFO root fetch - processPackages [pokesel]: Downloading https://files.pythonhosted.org/packages/f6/ad/afe9a7217d22f48aeb6bdcd36835cdb128ecabd34b801e855822ad513eb6/pokesel-1.0.1-py3-none-any.whl
+[2024-04-26 05:48:40] INFO root fetch - processPackages [llama-index]: Downloading https://files.pythonhosted.org/packages/ff/05/5239ef88ab93061d5535beb6c21d17f0b463aa0c48c1c9baa8d0a5941098/llama_index-0.9.8.post1.tar.gz
+[2024-04-26 05:48:41] INFO root fetch - processPackages [llama-index-embeddings-openai]: Downloading https://files.pythonhosted.org/packages/44/30/6e57d2cf63ce5a8cb2b80452a883a999fc3848e96583271a5b0e1fa3c943/llama_index_embeddings_openai-0.1.9.tar.gz
+[2024-04-26 05:48:41] INFO root fetch - processPackages [llama-index-embeddings-azure-openai]: Downloading https://files.pythonhosted.org/packages/3d/b2/ffdd71c51c6a184800d027dad143d64004dbd0e7b193680c80d19f0a5fe3/llama_index_embeddings_azure_openai-0.1.8.tar.gz
+[2024-04-26 05:48:41] INFO root fetch - processPackages [pokesel]: Downloading https://files.pythonhosted.org/packages/51/b2/41b5fe90676bfaf05de93d3b121de405c0712bd3a46e73c3c8ba8cd85d55/pokesel-1.0.2.tar.gz
+[2024-04-26 05:48:41] INFO root fetch - processPackages [llama-index-embeddings-openai]: executing diffoscope
+[2024-04-26 05:48:41] INFO root fetch - processPackages [llama-index-embeddings-openai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index_embeddings_openai-0.1.8.tar.gz tmp/llama_index_embeddings_openai-0.1.9.tar.gz --markdown 20240426/l/llama-index-embeddings-openai/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-26 05:48:41] INFO root fetch - processPackages [llama-index-embeddings-azure-openai]: executing diffoscope
+[2024-04-26 05:48:41] INFO root fetch - processPackages [llama-index-embeddings-azure-openai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index_embeddings_azure_openai-0.1.7.tar.gz tmp/llama_index_embeddings_azure_openai-0.1.8.tar.gz --markdown 20240426/l/llama-index-embeddings-azure-openai/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-26 05:48:41] INFO root fetch - processPackages [pokesel]: executing diffoscope
+[2024-04-26 05:48:41] INFO root fetch - processPackages [pokesel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pokesel-1.0.1-py3-none-any.whl.zip tmp/pokesel-1.0.2.tar.gz --markdown 20240426/p/pokesel/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-26 05:48:41] INFO root fetch - processPackages [llama-index]: Downloading https://files.pythonhosted.org/packages/09/9b/6a7d14763cd2bdfe4705633fd1b850857e7c64d269c6cebd5d7bbc646187/llama_index-0.9.9.tar.gz
+[2024-04-26 05:48:41] INFO root fetch - processPackages [llama-index]: executing diffoscope
+[2024-04-26 05:48:41] INFO root fetch - processPackages [llama-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index-0.9.8.post1.tar.gz tmp/llama_index-0.9.9.tar.gz --markdown 20240426/l/llama-index/0.9.8.post1-0.9.9/README.md --exclude *.pyd
+[2024-04-26 05:48:41] INFO root fetch - processPackages [pokesel]: Remove: archive file [/home/abi/fetcher/tmp/pokesel-1.0.1-py3-none-any.whl.zip]
+[2024-04-26 05:48:41] INFO root fetch - processPackages [pokesel]: Remove: archive file [/home/abi/fetcher/tmp/pokesel-1.0.2.tar.gz]
+[2024-04-26 05:48:41] INFO root fetch - main [MainThread]: End processing [pokesel]: success
+[2024-04-26 05:48:41] INFO root fetch - processPackages [llama-index-embeddings-azure-openai]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_embeddings_azure_openai-0.1.7.tar.gz]
+[2024-04-26 05:48:41] INFO root fetch - processPackages [llama-index-embeddings-azure-openai]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_embeddings_azure_openai-0.1.8.tar.gz]
+[2024-04-26 05:48:41] INFO root fetch - main [MainThread]: End processing [llama-index-embeddings-azure-openai]: success
+[2024-04-26 05:48:41] INFO root fetch - processPackages [llama-index-embeddings-openai]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_embeddings_openai-0.1.8.tar.gz]
+[2024-04-26 05:48:41] INFO root fetch - processPackages [llama-index-embeddings-openai]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_embeddings_openai-0.1.9.tar.gz]
+[2024-04-26 05:48:41] INFO root fetch - main [MainThread]: End processing [llama-index-embeddings-openai]: success
+[2024-04-26 05:48:43] INFO root fetch - processPackages [llama-index]: Remove: archive file [/home/abi/fetcher/tmp/llama_index-0.9.8.post1.tar.gz]
+[2024-04-26 05:48:43] INFO root fetch - processPackages [llama-index]: Remove: archive file [/home/abi/fetcher/tmp/llama_index-0.9.9.tar.gz]
+[2024-04-26 05:48:43] INFO root fetch - main [MainThread]: End processing [llama-index]: success
+[2024-04-26 05:48:43] INFO root fetch - main [MainThread]: Store serial: [22942383]
