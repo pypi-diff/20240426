@@ -9565,3 +9565,27 @@
 [2024-04-26 07:09:35] INFO root fetch - processPackages [odoo14-addon-pms]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_pms-14.0.2.9.0-py3-none-any.whl.zip]
 [2024-04-26 07:09:35] INFO root fetch - main [MainThread]: End processing [odoo14-addon-pms]: success
 [2024-04-26 07:09:35] INFO root fetch - main [MainThread]: Store serial: [22942828]
+[2024-04-26 07:11:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22942828]
+[2024-04-26 07:11:43] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-26 07:11:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addons-oca-pos
+[2024-04-26 07:11:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyastroweatherio
+[2024-04-26 07:11:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: protein-turnover
+[2024-04-26 07:11:44] INFO root fetch - processPackages [odoo-addons-oca-pos]: New version: [16.0.20240425.1] Old Version: [16.0.20240421.0]
+[2024-04-26 07:11:44] INFO root fetch - processPackages [pyastroweatherio]: New version: [0.43.1.dev9] Old Version: [0.43.1.dev8]
+[2024-04-26 07:11:44] WARNING root fetch - processPackages [protein-turnover]: Skipping, unable to determine old version
+[2024-04-26 07:11:44] INFO root fetch - main [MainThread]: End processing [protein-turnover] error
+[2024-04-26 07:11:44] INFO root fetch - processPackages [odoo-addons-oca-pos]: Downloading https://files.pythonhosted.org/packages/da/d9/b107eacec4f96e2c59a2386409b5256148b88614a5ceadcc8e3f8a9a5e3d/odoo_addons_oca_pos-16.0.20240421.0-py3-none-any.whl
+[2024-04-26 07:11:44] INFO root fetch - processPackages [pyastroweatherio]: Downloading https://files.pythonhosted.org/packages/52/24/2c570e0e19bb51a136edaf868d693f0156fca6c66aca91674ec5e7973a2c/pyastroweatherio-0.43.1.dev8.tar.gz
+[2024-04-26 07:11:44] INFO root fetch - processPackages [odoo-addons-oca-pos]: Downloading https://files.pythonhosted.org/packages/0d/a3/625de957576ba0d34348f3f16af1a5772818f5e5d48b2bbcf0039b23c534/odoo_addons_oca_pos-16.0.20240425.1-py3-none-any.whl
+[2024-04-26 07:11:44] INFO root fetch - processPackages [pyastroweatherio]: Downloading https://files.pythonhosted.org/packages/75/07/e7eb1179d1b5db7e5e45ea03766c9c39fee7686fa1e316830827643977ac/pyastroweatherio-0.43.1.dev9.tar.gz
+[2024-04-26 07:11:44] INFO root fetch - processPackages [odoo-addons-oca-pos]: executing diffoscope
+[2024-04-26 07:11:44] INFO root fetch - processPackages [odoo-addons-oca-pos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_pos-16.0.20240421.0-py3-none-any.whl.zip tmp/odoo_addons_oca_pos-16.0.20240425.1-py3-none-any.whl.zip --markdown 20240426/o/odoo-addons-oca-pos/16.0.20240421.0-16.0.20240425.1/README.md --exclude *.pyd
+[2024-04-26 07:11:44] INFO root fetch - processPackages [pyastroweatherio]: executing diffoscope
+[2024-04-26 07:11:44] INFO root fetch - processPackages [pyastroweatherio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyastroweatherio-0.43.1.dev8.tar.gz tmp/pyastroweatherio-0.43.1.dev9.tar.gz --markdown 20240426/p/pyastroweatherio/0.43.1.dev8-0.43.1.dev9/README.md --exclude *.pyd
+[2024-04-26 07:11:45] INFO root fetch - processPackages [odoo-addons-oca-pos]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_pos-16.0.20240421.0-py3-none-any.whl.zip]
+[2024-04-26 07:11:45] INFO root fetch - processPackages [odoo-addons-oca-pos]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_pos-16.0.20240425.1-py3-none-any.whl.zip]
+[2024-04-26 07:11:45] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-pos]: success
+[2024-04-26 07:11:45] INFO root fetch - processPackages [pyastroweatherio]: Remove: archive file [/home/abi/fetcher/tmp/pyastroweatherio-0.43.1.dev8.tar.gz]
+[2024-04-26 07:11:45] INFO root fetch - processPackages [pyastroweatherio]: Remove: archive file [/home/abi/fetcher/tmp/pyastroweatherio-0.43.1.dev9.tar.gz]
+[2024-04-26 07:11:45] INFO root fetch - main [MainThread]: End processing [pyastroweatherio]: success
+[2024-04-26 07:11:45] INFO root fetch - main [MainThread]: Store serial: [22942832]
