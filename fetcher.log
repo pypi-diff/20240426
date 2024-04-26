@@ -13823,3 +13823,78 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 10:11:12] INFO root fetch - processPackages [bioimageio.core]: Remove: archive file [/home/abi/fetcher/tmp/bioimageio.core-0.6.1.tar.gz]
 [2024-04-26 10:11:12] INFO root fetch - main [MainThread]: End processing [bioimageio.core]: success
 [2024-04-26 10:11:12] INFO root fetch - main [MainThread]: Store serial: [22944701]
+[2024-04-26 10:13:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22944701]
+[2024-04-26 10:13:21] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-26 10:13:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rcds-umdcsec
+[2024-04-26 10:13:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qgym
+[2024-04-26 10:13:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: izihawa-textutils
+[2024-04-26 10:13:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cars
+[2024-04-26 10:13:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: iris-pex-embedded-python
+[2024-04-26 10:13:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hello-world-suraj-test
+[2024-04-26 10:13:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dev-assistant-client
+[2024-04-26 10:13:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: secretscraper
+[2024-04-26 10:13:21] INFO root fetch - processPackages [hello-world-suraj-test]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-04-26 10:13:21] INFO root fetch - processPackages [rcds-umdcsec]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-26 10:13:21] INFO root fetch - processPackages [rcds-umdcsec]: Downloading https://files.pythonhosted.org/packages/b1/a7/ede8e5ea31aed2801521420ebf5ae0f2e28b30b3072fc2573cb093f22c6c/rcds_umdcsec-0.1.5.tar.gz
+[2024-04-26 10:13:21] INFO root fetch - processPackages [izihawa-textutils]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-26 10:13:21] INFO root fetch - processPackages [qgym]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-26 10:13:21] INFO root fetch - processPackages [cars]: New version: [0.7.6] Old Version: [0.7.5]
+[2024-04-26 10:13:21] INFO root fetch - processPackages [dev-assistant-client]: New version: [0.2.7] Old Version: [0.2.51]
+[2024-04-26 10:13:21] INFO root fetch - processPackages [iris-pex-embedded-python]: New version: [2.3.9] Old Version: [2.3.8]
+[2024-04-26 10:13:21] INFO root fetch - processPackages [secretscraper]: New version: [1.2] Old Version: [1.1]
+[2024-04-26 10:13:21] INFO root fetch - processPackages [hello-world-suraj-test]: Downloading https://files.pythonhosted.org/packages/01/a2/04ef4c1c58263f6bea1173070289516cb320fa30a4e82f3479aba817c8d9/hello_world_suraj_test-1.0.0.tar.gz
+[2024-04-26 10:13:21] INFO root fetch - processPackages [izihawa-textutils]: Downloading https://files.pythonhosted.org/packages/fb/ed/589e9c3d98360955cf2fee14ed272bb7b490bdd1eeaa693eeb3959746e3c/izihawa_textutils-1.0.8.tar.gz
+[2024-04-26 10:13:21] INFO root fetch - processPackages [cars]: Downloading https://files.pythonhosted.org/packages/8e/74/b0475f0d9788059e1dc886df997701722872573cd04b566518e95260e1f6/cars-0.7.5.tar.gz
+[2024-04-26 10:13:21] INFO root fetch - processPackages [qgym]: Downloading https://files.pythonhosted.org/packages/6a/4b/beb9e50e16919272ba0362334579858b03a2bd7a0cb69b89ce3e877b9ddd/qgym-0.2.0-py3-none-any.whl
+[2024-04-26 10:13:21] INFO root fetch - processPackages [dev-assistant-client]: Downloading https://files.pythonhosted.org/packages/5f/73/e92ec9aa002386fe0582797f8af85f6754770f34e7d41f23b5115f7f29f7/dev_assistant_client-0.2.51.tar.gz
+[2024-04-26 10:13:21] INFO root fetch - processPackages [iris-pex-embedded-python]: Downloading https://files.pythonhosted.org/packages/0a/1e/871a26044c71126b987a44b3ec89c4b39caccaf6ac0bb646f27aba683927/iris_pex_embedded_python-2.3.8.tar.gz
+[2024-04-26 10:13:21] INFO root fetch - processPackages [secretscraper]: Downloading https://files.pythonhosted.org/packages/61/53/d1d2706308843fa4e0dc8b602efc3517d64b527d7e07a08a4d1c6ae857d0/secretscraper-1.1.tar.gz
+[2024-04-26 10:13:21] INFO root fetch - processPackages [rcds-umdcsec]: Downloading https://files.pythonhosted.org/packages/db/62/5380a2fb291051a482a8c6d82d06df17612affe9f0fe96b3fee8fd4d6a07/rcds_umdcsec-0.1.6.tar.gz
+[2024-04-26 10:13:21] INFO root fetch - processPackages [hello-world-suraj-test]: Downloading https://files.pythonhosted.org/packages/42/d9/140061b840097b338a56f67c5ac746cb28d30c12ddd69413de17b88c9337/hello_world_suraj_test-1.1.0.tar.gz
+[2024-04-26 10:13:21] INFO root fetch - processPackages [rcds-umdcsec]: executing diffoscope
+[2024-04-26 10:13:21] INFO root fetch - processPackages [rcds-umdcsec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rcds_umdcsec-0.1.5.tar.gz tmp/rcds_umdcsec-0.1.6.tar.gz --markdown 20240426/r/rcds-umdcsec/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-04-26 10:13:22] INFO root fetch - processPackages [hello-world-suraj-test]: executing diffoscope
+[2024-04-26 10:13:22] INFO root fetch - processPackages [hello-world-suraj-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hello_world_suraj_test-1.0.0.tar.gz tmp/hello_world_suraj_test-1.1.0.tar.gz --markdown 20240426/h/hello-world-suraj-test/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-04-26 10:13:22] INFO root fetch - processPackages [dev-assistant-client]: Downloading https://files.pythonhosted.org/packages/a6/11/2ea8640b94d82d2dfd8beeed0726e71d4745df8ca04c54d6a4001a3b0132/dev_assistant_client-0.2.7.tar.gz
+[2024-04-26 10:13:22] INFO root fetch - processPackages [izihawa-textutils]: Downloading https://files.pythonhosted.org/packages/79/a9/1558e720494ea1096837a90ef420db701b90c1bb2856c96580b4facfb4df/izihawa_textutils-1.0.9.tar.gz
+[2024-04-26 10:13:22] INFO root fetch - processPackages [iris-pex-embedded-python]: Downloading https://files.pythonhosted.org/packages/1f/d9/ca808faae976325522f21347afcfc5843a9cac222c09edb7a58702c2c50b/iris_pex_embedded_python-2.3.9.tar.gz
+[2024-04-26 10:13:22] INFO root fetch - processPackages [qgym]: Downloading https://files.pythonhosted.org/packages/52/94/2e26a8987625c449db71fdb78a2a58954f8b77760dce1e8ad4a23c9658ce/qgym-0.2.1-py3-none-any.whl
+[2024-04-26 10:13:22] INFO root fetch - processPackages [dev-assistant-client]: executing diffoscope
+[2024-04-26 10:13:22] INFO root fetch - processPackages [dev-assistant-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dev_assistant_client-0.2.51.tar.gz tmp/dev_assistant_client-0.2.7.tar.gz --markdown 20240426/d/dev-assistant-client/0.2.51-0.2.7/README.md --exclude *.pyd
+[2024-04-26 10:13:22] INFO root fetch - processPackages [secretscraper]: Downloading https://files.pythonhosted.org/packages/de/06/ef08acda351f22f2137bdd9cd1668c7e130ada9a713fa450da2aa49c074b/secretscraper-1.2.tar.gz
+[2024-04-26 10:13:22] INFO root fetch - processPackages [iris-pex-embedded-python]: executing diffoscope
+[2024-04-26 10:13:22] INFO root fetch - processPackages [iris-pex-embedded-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iris_pex_embedded_python-2.3.8.tar.gz tmp/iris_pex_embedded_python-2.3.9.tar.gz --markdown 20240426/i/iris-pex-embedded-python/2.3.8-2.3.9/README.md --exclude *.pyd
+[2024-04-26 10:13:22] INFO root fetch - processPackages [qgym]: executing diffoscope
+[2024-04-26 10:13:22] INFO root fetch - processPackages [qgym]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qgym-0.2.0-py3-none-any.whl.zip tmp/qgym-0.2.1-py3-none-any.whl.zip --markdown 20240426/q/qgym/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-04-26 10:13:22] INFO root fetch - processPackages [cars]: Downloading https://files.pythonhosted.org/packages/a8/df/50424719274c427314e0ea7499fc1d30c85a65af0a348a404a4fef43ece8/cars-0.7.6.tar.gz
+[2024-04-26 10:13:22] INFO root fetch - processPackages [izihawa-textutils]: executing diffoscope
+[2024-04-26 10:13:22] INFO root fetch - processPackages [izihawa-textutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/izihawa_textutils-1.0.8.tar.gz tmp/izihawa_textutils-1.0.9.tar.gz --markdown 20240426/i/izihawa-textutils/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-26 10:13:22] INFO root fetch - processPackages [secretscraper]: executing diffoscope
+[2024-04-26 10:13:22] INFO root fetch - processPackages [secretscraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secretscraper-1.1.tar.gz tmp/secretscraper-1.2.tar.gz --markdown 20240426/s/secretscraper/1.1-1.2/README.md --exclude *.pyd
+[2024-04-26 10:13:22] INFO root fetch - processPackages [hello-world-suraj-test]: Remove: archive file [/home/abi/fetcher/tmp/hello_world_suraj_test-1.0.0.tar.gz]
+[2024-04-26 10:13:22] INFO root fetch - processPackages [hello-world-suraj-test]: Remove: archive file [/home/abi/fetcher/tmp/hello_world_suraj_test-1.1.0.tar.gz]
+[2024-04-26 10:13:22] INFO root fetch - main [MainThread]: End processing [hello-world-suraj-test]: success
+[2024-04-26 10:13:22] INFO root fetch - processPackages [cars]: executing diffoscope
+[2024-04-26 10:13:22] INFO root fetch - processPackages [cars]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cars-0.7.5.tar.gz tmp/cars-0.7.6.tar.gz --markdown 20240426/c/cars/0.7.5-0.7.6/README.md --exclude *.pyd
+[2024-04-26 10:13:22] INFO root fetch - processPackages [rcds-umdcsec]: Remove: archive file [/home/abi/fetcher/tmp/rcds_umdcsec-0.1.5.tar.gz]
+[2024-04-26 10:13:22] INFO root fetch - processPackages [rcds-umdcsec]: Remove: archive file [/home/abi/fetcher/tmp/rcds_umdcsec-0.1.6.tar.gz]
+[2024-04-26 10:13:22] INFO root fetch - main [MainThread]: End processing [rcds-umdcsec]: success
+[2024-04-26 10:13:22] INFO root fetch - processPackages [dev-assistant-client]: Remove: archive file [/home/abi/fetcher/tmp/dev_assistant_client-0.2.51.tar.gz]
+[2024-04-26 10:13:22] INFO root fetch - processPackages [dev-assistant-client]: Remove: archive file [/home/abi/fetcher/tmp/dev_assistant_client-0.2.7.tar.gz]
+[2024-04-26 10:13:22] INFO root fetch - main [MainThread]: End processing [dev-assistant-client]: success
+[2024-04-26 10:13:22] INFO root fetch - processPackages [izihawa-textutils]: Remove: archive file [/home/abi/fetcher/tmp/izihawa_textutils-1.0.8.tar.gz]
+[2024-04-26 10:13:22] INFO root fetch - processPackages [izihawa-textutils]: Remove: archive file [/home/abi/fetcher/tmp/izihawa_textutils-1.0.9.tar.gz]
+[2024-04-26 10:13:22] INFO root fetch - main [MainThread]: End processing [izihawa-textutils]: success
+[2024-04-26 10:13:23] INFO root fetch - processPackages [qgym]: Remove: archive file [/home/abi/fetcher/tmp/qgym-0.2.0-py3-none-any.whl.zip]
+[2024-04-26 10:13:23] INFO root fetch - processPackages [qgym]: Remove: archive file [/home/abi/fetcher/tmp/qgym-0.2.1-py3-none-any.whl.zip]
+[2024-04-26 10:13:23] INFO root fetch - main [MainThread]: End processing [qgym]: success
+[2024-04-26 10:13:23] INFO root fetch - processPackages [secretscraper]: Remove: archive file [/home/abi/fetcher/tmp/secretscraper-1.1.tar.gz]
+[2024-04-26 10:13:23] INFO root fetch - processPackages [secretscraper]: Remove: archive file [/home/abi/fetcher/tmp/secretscraper-1.2.tar.gz]
+[2024-04-26 10:13:23] INFO root fetch - main [MainThread]: End processing [secretscraper]: success
+[2024-04-26 10:13:23] INFO root fetch - processPackages [iris-pex-embedded-python]: Remove: archive file [/home/abi/fetcher/tmp/iris_pex_embedded_python-2.3.8.tar.gz]
+[2024-04-26 10:13:23] INFO root fetch - processPackages [iris-pex-embedded-python]: Remove: archive file [/home/abi/fetcher/tmp/iris_pex_embedded_python-2.3.9.tar.gz]
+[2024-04-26 10:13:23] INFO root fetch - main [MainThread]: End processing [iris-pex-embedded-python]: success
+[2024-04-26 10:13:24] INFO root fetch - processPackages [cars]: Remove: archive file [/home/abi/fetcher/tmp/cars-0.7.5.tar.gz]
+[2024-04-26 10:13:24] INFO root fetch - processPackages [cars]: Remove: archive file [/home/abi/fetcher/tmp/cars-0.7.6.tar.gz]
+[2024-04-26 10:13:24] INFO root fetch - main [MainThread]: End processing [cars]: success
+[2024-04-26 10:13:24] INFO root fetch - main [MainThread]: Store serial: [22944721]
