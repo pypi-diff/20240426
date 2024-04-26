@@ -9904,3 +9904,58 @@
 [2024-04-26 07:34:05] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.17.0.dev20240425-cp39-cp39-manylinux_2_34_armv7l.whl.zip]
 [2024-04-26 07:34:05] INFO root fetch - main [MainThread]: End processing [tflite-runtime-nightly]: success
 [2024-04-26 07:34:05] INFO root fetch - main [MainThread]: Store serial: [22942957]
+[2024-04-26 07:36:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22942957]
+[2024-04-26 07:36:17] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-26 07:36:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: redhat-assisted-installer
+[2024-04-26 07:36:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-sync-env
+[2024-04-26 07:36:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pdftext
+[2024-04-26 07:36:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: redhat-assisted-installer
+[2024-04-26 07:36:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Espinosa
+[2024-04-26 07:36:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ScreenPro2
+[2024-04-26 07:36:17] INFO root fetch - processPackages [redhat-assisted-installer]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-26 07:36:17] INFO root fetch - processPackages [redhat-assisted-installer]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-26 07:36:17] INFO root fetch - processPackages [django-sync-env]: New version: [0.3.1a8] Old Version: [0.3.1a7]
+[2024-04-26 07:36:17] INFO root fetch - processPackages [Espinosa]: New version: [2.0.6] Old Version: [2.0.3]
+[2024-04-26 07:36:17] INFO root fetch - processPackages [pdftext]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-26 07:36:17] INFO root fetch - processPackages [redhat-assisted-installer]: Downloading https://files.pythonhosted.org/packages/06/52/2a12f01358c5ff3c197bc2e76f9349260ce01147d2070e0f52d4e847bde6/redhat_assisted_installer-0.0.5.tar.gz
+[2024-04-26 07:36:17] INFO root fetch - processPackages [django-sync-env]: Downloading https://files.pythonhosted.org/packages/14/52/b2936fe4750dfe8455e1b94b3b47ad760da4baa474a946794ff27b54acf4/django_sync_env-0.3.1a7.tar.gz
+[2024-04-26 07:36:17] INFO root fetch - processPackages [redhat-assisted-installer]: Downloading https://files.pythonhosted.org/packages/06/52/2a12f01358c5ff3c197bc2e76f9349260ce01147d2070e0f52d4e847bde6/redhat_assisted_installer-0.0.5.tar.gz
+[2024-04-26 07:36:17] INFO root fetch - processPackages [ScreenPro2]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-26 07:36:17] INFO root fetch - processPackages [pdftext]: Downloading https://files.pythonhosted.org/packages/83/d4/1200773519043ec65f7a7dc115bc85d34728edc01290a4c74da992e12524/pdftext-0.1.0.tar.gz
+[2024-04-26 07:36:17] INFO root fetch - processPackages [Espinosa]: Downloading https://files.pythonhosted.org/packages/32/0d/811d17b79d710dfccffff0440c67890b2663028aa4623b92865af5f31cb9/espinosa-2.0.3.tar.gz
+[2024-04-26 07:36:17] INFO root fetch - processPackages [ScreenPro2]: Downloading https://files.pythonhosted.org/packages/64/10/5fd6a74f690b67d73d2f0adcb0017c7892cc5c83d022522ae67bd0d7dbcd/ScreenPro2-0.2.8-py2.py3-none-any.whl
+[2024-04-26 07:36:17] INFO root fetch - processPackages [django-sync-env]: Downloading https://files.pythonhosted.org/packages/24/78/009e2f56d84d6eb849f08471c884f6aff8d021ec213adff24e1dfb5bc33e/django_sync_env-0.3.1a8.tar.gz
+[2024-04-26 07:36:17] INFO root fetch - processPackages [redhat-assisted-installer]: Downloading https://files.pythonhosted.org/packages/41/af/2ba378280a52ab525628567818fc297aaf4a925106de5f7b34227c71b029/redhat_assisted_installer-0.0.6.tar.gz
+[2024-04-26 07:36:17] INFO root fetch - processPackages [redhat-assisted-installer]: Downloading https://files.pythonhosted.org/packages/41/af/2ba378280a52ab525628567818fc297aaf4a925106de5f7b34227c71b029/redhat_assisted_installer-0.0.6.tar.gz
+[2024-04-26 07:36:17] INFO root fetch - processPackages [pdftext]: Downloading https://files.pythonhosted.org/packages/af/cc/2a1656e3b1005ce5917af6409e321da034b16f907d887888ea281098da2e/pdftext-0.1.1.tar.gz
+[2024-04-26 07:36:17] INFO root fetch - processPackages [django-sync-env]: executing diffoscope
+[2024-04-26 07:36:17] INFO root fetch - processPackages [django-sync-env]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_sync_env-0.3.1a7.tar.gz tmp/django_sync_env-0.3.1a8.tar.gz --markdown 20240426/d/django-sync-env/0.3.1a7-0.3.1a8/README.md --exclude *.pyd
+[2024-04-26 07:36:17] INFO root fetch - processPackages [Espinosa]: Downloading https://files.pythonhosted.org/packages/2f/54/3bdec4bf251376eb791fc68901edb0b72514e44d39685760a9c04e472e24/espinosa-2.0.6.tar.gz
+[2024-04-26 07:36:17] INFO root fetch - processPackages [redhat-assisted-installer]: executing diffoscope
+[2024-04-26 07:36:17] INFO root fetch - processPackages [redhat-assisted-installer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redhat_assisted_installer-0.0.5.tar.gz tmp/redhat_assisted_installer-0.0.6.tar.gz --markdown 20240426/r/redhat-assisted-installer/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-26 07:36:17] INFO root fetch - processPackages [redhat-assisted-installer]: executing diffoscope
+[2024-04-26 07:36:17] INFO root fetch - processPackages [redhat-assisted-installer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redhat_assisted_installer-0.0.5.tar.gz tmp/redhat_assisted_installer-0.0.6.tar.gz --markdown 20240426/r/redhat-assisted-installer/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-26 07:36:17] INFO root fetch - processPackages [pdftext]: executing diffoscope
+[2024-04-26 07:36:17] INFO root fetch - processPackages [pdftext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdftext-0.1.0.tar.gz tmp/pdftext-0.1.1.tar.gz --markdown 20240426/p/pdftext/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-26 07:36:17] INFO root fetch - processPackages [ScreenPro2]: Downloading https://files.pythonhosted.org/packages/7d/8a/61bafdb52eb9fcce0d3c7b4deeef65bdf99aee21d23a408eb4bd3d9b2692/ScreenPro2-0.2.9-py2.py3-none-any.whl
+[2024-04-26 07:36:17] INFO root fetch - processPackages [Espinosa]: executing diffoscope
+[2024-04-26 07:36:17] INFO root fetch - processPackages [Espinosa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/espinosa-2.0.3.tar.gz tmp/espinosa-2.0.6.tar.gz --markdown 20240426/E/Espinosa/2.0.3-2.0.6/README.md --exclude *.pyd
+[2024-04-26 07:36:18] INFO root fetch - processPackages [ScreenPro2]: executing diffoscope
+[2024-04-26 07:36:18] INFO root fetch - processPackages [ScreenPro2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ScreenPro2-0.2.8-py2.py3-none-any.whl.zip tmp/ScreenPro2-0.2.9-py2.py3-none-any.whl.zip --markdown 20240426/S/ScreenPro2/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-26 07:36:18] INFO root fetch - processPackages [redhat-assisted-installer]: Remove: archive file [/home/abi/fetcher/tmp/redhat_assisted_installer-0.0.5.tar.gz]
+[2024-04-26 07:36:18] INFO root fetch - processPackages [redhat-assisted-installer]: Remove: archive file [/home/abi/fetcher/tmp/redhat_assisted_installer-0.0.6.tar.gz]
+[2024-04-26 07:36:18] INFO root fetch - main [MainThread]: End processing [redhat-assisted-installer]: success
+[2024-04-26 07:36:18] INFO root fetch - main [MainThread]: End processing [redhat-assisted-installer]: success
+[2024-04-26 07:36:18] INFO root fetch - processPackages [django-sync-env]: Remove: archive file [/home/abi/fetcher/tmp/django_sync_env-0.3.1a7.tar.gz]
+[2024-04-26 07:36:18] INFO root fetch - processPackages [django-sync-env]: Remove: archive file [/home/abi/fetcher/tmp/django_sync_env-0.3.1a8.tar.gz]
+[2024-04-26 07:36:18] INFO root fetch - main [MainThread]: End processing [django-sync-env]: success
+[2024-04-26 07:36:18] INFO root fetch - processPackages [pdftext]: Remove: archive file [/home/abi/fetcher/tmp/pdftext-0.1.0.tar.gz]
+[2024-04-26 07:36:18] INFO root fetch - processPackages [pdftext]: Remove: archive file [/home/abi/fetcher/tmp/pdftext-0.1.1.tar.gz]
+[2024-04-26 07:36:18] INFO root fetch - main [MainThread]: End processing [pdftext]: success
+[2024-04-26 07:36:18] INFO root fetch - processPackages [Espinosa]: Remove: archive file [/home/abi/fetcher/tmp/espinosa-2.0.3.tar.gz]
+[2024-04-26 07:36:18] INFO root fetch - processPackages [Espinosa]: Remove: archive file [/home/abi/fetcher/tmp/espinosa-2.0.6.tar.gz]
+[2024-04-26 07:36:18] INFO root fetch - main [MainThread]: End processing [Espinosa]: success
+[2024-04-26 07:36:18] INFO root fetch - processPackages [ScreenPro2]: Remove: archive file [/home/abi/fetcher/tmp/ScreenPro2-0.2.8-py2.py3-none-any.whl.zip]
+[2024-04-26 07:36:18] INFO root fetch - processPackages [ScreenPro2]: Remove: archive file [/home/abi/fetcher/tmp/ScreenPro2-0.2.9-py2.py3-none-any.whl.zip]
+[2024-04-26 07:36:18] INFO root fetch - main [MainThread]: End processing [ScreenPro2]: success
+[2024-04-26 07:36:18] INFO root fetch - main [MainThread]: Store serial: [22942974]
