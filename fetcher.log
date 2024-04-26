@@ -2675,3 +2675,33 @@
 [2024-04-26 02:42:27] INFO root fetch - processPackages [neon-phal-plugin-fan]: Remove: archive file [/home/abi/fetcher/tmp/neon-phal-plugin-fan-0.1.1a1.tar.gz]
 [2024-04-26 02:42:27] INFO root fetch - main [MainThread]: End processing [neon-phal-plugin-fan]: success
 [2024-04-26 02:42:27] INFO root fetch - main [MainThread]: Store serial: [22940146]
+[2024-04-26 02:44:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22940146]
+[2024-04-26 02:44:36] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-26 02:44:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: symetrics
+[2024-04-26 02:44:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tfds-nightly
+[2024-04-26 02:44:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: neon-phal-plugin-core-updater
+[2024-04-26 02:44:36] INFO root fetch - processPackages [tfds-nightly]: New version: [4.9.4.dev202404250044] Old Version: [4.9.4.dev202404240044]
+[2024-04-26 02:44:36] INFO root fetch - processPackages [neon-phal-plugin-core-updater]: New version: [1.3.1a1] Old Version: [1.3.0]
+[2024-04-26 02:44:36] INFO root fetch - processPackages [symetrics]: New version: [6.4.1] Old Version: [6.4.0]
+[2024-04-26 02:44:36] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/46/41/420b5ba6ce6114ae890626c5e43abae4bb51d5214736bd6a485370bbf9ae/tfds-nightly-4.9.4.dev202404240044.tar.gz
+[2024-04-26 02:44:36] INFO root fetch - processPackages [symetrics]: Downloading https://files.pythonhosted.org/packages/50/be/4dd657d3f574054e5afcbda5490c2995cde655bcbe0b41aeb89988dfc185/symetrics-6.4.0.tar.gz
+[2024-04-26 02:44:36] INFO root fetch - processPackages [neon-phal-plugin-core-updater]: Downloading https://files.pythonhosted.org/packages/e7/2d/2253789256cb4693fa6f9acc256a1dcae46ad031d9f3b41bad9d97955862/neon-phal-plugin-core-updater-1.3.0.tar.gz
+[2024-04-26 02:44:36] INFO root fetch - processPackages [symetrics]: Downloading https://files.pythonhosted.org/packages/a1/c5/47ccb1ac8bf094601a275fbd25ec9f6059c3f71936a5c5d08a37741547e3/symetrics-6.4.1.tar.gz
+[2024-04-26 02:44:36] INFO root fetch - processPackages [neon-phal-plugin-core-updater]: Downloading https://files.pythonhosted.org/packages/cd/50/e481e18dff6d0134bbc3cabdf406d1e1246054c8536ae39e11d9e0b3caaa/neon-phal-plugin-core-updater-1.3.1a1.tar.gz
+[2024-04-26 02:44:36] INFO root fetch - processPackages [symetrics]: executing diffoscope
+[2024-04-26 02:44:36] INFO root fetch - processPackages [symetrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/symetrics-6.4.0.tar.gz tmp/symetrics-6.4.1.tar.gz --markdown 20240426/s/symetrics/6.4.0-6.4.1/README.md --exclude *.pyd
+[2024-04-26 02:44:37] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/c6/e2/b861c7f92e2fa466c8ebfcf2fdab882e10aa730f5289d697717b304ea9b4/tfds-nightly-4.9.4.dev202404250044.tar.gz
+[2024-04-26 02:44:37] INFO root fetch - processPackages [neon-phal-plugin-core-updater]: executing diffoscope
+[2024-04-26 02:44:37] INFO root fetch - processPackages [neon-phal-plugin-core-updater]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon-phal-plugin-core-updater-1.3.0.tar.gz tmp/neon-phal-plugin-core-updater-1.3.1a1.tar.gz --markdown 20240426/n/neon-phal-plugin-core-updater/1.3.0-1.3.1a1/README.md --exclude *.pyd
+[2024-04-26 02:44:37] INFO root fetch - processPackages [symetrics]: Remove: archive file [/home/abi/fetcher/tmp/symetrics-6.4.0.tar.gz]
+[2024-04-26 02:44:37] INFO root fetch - processPackages [symetrics]: Remove: archive file [/home/abi/fetcher/tmp/symetrics-6.4.1.tar.gz]
+[2024-04-26 02:44:37] INFO root fetch - main [MainThread]: End processing [symetrics]: success
+[2024-04-26 02:44:37] INFO root fetch - processPackages [neon-phal-plugin-core-updater]: Remove: archive file [/home/abi/fetcher/tmp/neon-phal-plugin-core-updater-1.3.0.tar.gz]
+[2024-04-26 02:44:37] INFO root fetch - processPackages [neon-phal-plugin-core-updater]: Remove: archive file [/home/abi/fetcher/tmp/neon-phal-plugin-core-updater-1.3.1a1.tar.gz]
+[2024-04-26 02:44:37] INFO root fetch - main [MainThread]: End processing [neon-phal-plugin-core-updater]: success
+[2024-04-26 02:44:37] INFO root fetch - processPackages [tfds-nightly]: executing diffoscope
+[2024-04-26 02:44:37] INFO root fetch - processPackages [tfds-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfds-nightly-4.9.4.dev202404240044.tar.gz tmp/tfds-nightly-4.9.4.dev202404250044.tar.gz --markdown 20240426/t/tfds-nightly/4.9.4.dev202404240044-4.9.4.dev202404250044/README.md --exclude *.pyd
+[2024-04-26 02:44:46] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.4.dev202404240044.tar.gz]
+[2024-04-26 02:44:46] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.4.dev202404250044.tar.gz]
+[2024-04-26 02:44:46] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
+[2024-04-26 02:44:46] INFO root fetch - main [MainThread]: Store serial: [22940163]
