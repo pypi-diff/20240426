@@ -10645,3 +10645,45 @@
 [2024-04-26 08:06:59] INFO root fetch - processPackages [oakvar]: Remove: archive file [/home/abi/fetcher/tmp/oakvar-2.9.99.tar.gz]
 [2024-04-26 08:06:59] INFO root fetch - main [MainThread]: End processing [oakvar]: success
 [2024-04-26 08:06:59] INFO root fetch - main [MainThread]: Store serial: [22943198]
+[2024-04-26 08:09:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22943198]
+[2024-04-26 08:09:08] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-26 08:09:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-alicloud
+[2024-04-26 08:09:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-kong
+[2024-04-26 08:09:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-kafka
+[2024-04-26 08:09:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-keycloak
+[2024-04-26 08:09:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pms-onpremise-encoder
+[2024-04-26 08:09:08] WARNING root fetch - processPackages [pms-onpremise-encoder]: Skipping, unable to determine old version
+[2024-04-26 08:09:08] INFO root fetch - main [MainThread]: End processing [pms-onpremise-encoder] error
+[2024-04-26 08:09:08] INFO root fetch - processPackages [pulumi-kong]: New version: [4.6.0a1714110449] Old Version: [4.6.0a1713898350]
+[2024-04-26 08:09:08] INFO root fetch - processPackages [pulumi-keycloak]: New version: [5.4.0a1714110241] Old Version: [5.4.0a1713899008]
+[2024-04-26 08:09:08] INFO root fetch - processPackages [pulumi-alicloud]: New version: [3.9.0a1637592974] Old Version: [3.9.0a1635778307]
+[2024-04-26 08:09:08] INFO root fetch - processPackages [pulumi-kafka]: New version: [3.8.0a1714110387] Old Version: [3.8.0a1713898464]
+[2024-04-26 08:09:08] INFO root fetch - processPackages [pulumi-keycloak]: Downloading https://files.pythonhosted.org/packages/5b/af/2aab424eb028301a03b3b9489649c5118cb9dfbb1f595d836ef8de479ad8/pulumi_keycloak-5.4.0a1713899008.tar.gz
+[2024-04-26 08:09:08] INFO root fetch - processPackages [pulumi-kong]: Downloading https://files.pythonhosted.org/packages/dd/09/48359b02b7d3329181bc67b0c9f2ff00aa3910dfa6a04a98ad56f2205479/pulumi_kong-4.6.0a1713898350.tar.gz
+[2024-04-26 08:09:08] INFO root fetch - processPackages [pulumi-alicloud]: Downloading https://files.pythonhosted.org/packages/be/79/da6d86e1953fc7bde0762279ac850d45fe8ad91ff27a3c837009ede717a4/pulumi_alicloud-3.9.0a1635778307.tar.gz
+[2024-04-26 08:09:08] INFO root fetch - processPackages [pulumi-kafka]: Downloading https://files.pythonhosted.org/packages/d7/cd/42bdbe7489337b2964db347ce709c8a8f0e1ee511f78026643f0c7b50344/pulumi_kafka-3.8.0a1713898464.tar.gz
+[2024-04-26 08:09:09] INFO root fetch - processPackages [pulumi-kong]: Downloading https://files.pythonhosted.org/packages/73/47/5c45b4fadeddc8112fa3fe26ebb1aa1c78141dc1cf6cf0e887d3fb75c18f/pulumi_kong-4.6.0a1714110449.tar.gz
+[2024-04-26 08:09:09] INFO root fetch - processPackages [pulumi-kafka]: Downloading https://files.pythonhosted.org/packages/73/6e/d3d0e94c81511944e07259203106c767fc938dfb0f786663788f26a37b00/pulumi_kafka-3.8.0a1714110387.tar.gz
+[2024-04-26 08:09:09] INFO root fetch - processPackages [pulumi-keycloak]: Downloading https://files.pythonhosted.org/packages/72/65/3c0a2063742e15118d08a06c5884dc0558bb1c0631d9dc6a359778547349/pulumi_keycloak-5.4.0a1714110241.tar.gz
+[2024-04-26 08:09:09] INFO root fetch - processPackages [pulumi-kong]: executing diffoscope
+[2024-04-26 08:09:09] INFO root fetch - processPackages [pulumi-kong]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kong-4.6.0a1713898350.tar.gz tmp/pulumi_kong-4.6.0a1714110449.tar.gz --markdown 20240426/p/pulumi-kong/4.6.0a1713898350-4.6.0a1714110449/README.md --exclude *.pyd
+[2024-04-26 08:09:09] INFO root fetch - processPackages [pulumi-kafka]: executing diffoscope
+[2024-04-26 08:09:09] INFO root fetch - processPackages [pulumi-kafka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kafka-3.8.0a1713898464.tar.gz tmp/pulumi_kafka-3.8.0a1714110387.tar.gz --markdown 20240426/p/pulumi-kafka/3.8.0a1713898464-3.8.0a1714110387/README.md --exclude *.pyd
+[2024-04-26 08:09:09] INFO root fetch - processPackages [pulumi-alicloud]: Downloading https://files.pythonhosted.org/packages/7a/b5/f47603b555625f7ec29ec6dcdc2cf74fe00dc52cba5fad75ddd65d3bd99e/pulumi_alicloud-3.9.0a1637592974.tar.gz
+[2024-04-26 08:09:09] INFO root fetch - processPackages [pulumi-alicloud]: executing diffoscope
+[2024-04-26 08:09:09] INFO root fetch - processPackages [pulumi-alicloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_alicloud-3.9.0a1635778307.tar.gz tmp/pulumi_alicloud-3.9.0a1637592974.tar.gz --markdown 20240426/p/pulumi-alicloud/3.9.0a1635778307-3.9.0a1637592974/README.md --exclude *.pyd
+[2024-04-26 08:09:09] INFO root fetch - processPackages [pulumi-keycloak]: executing diffoscope
+[2024-04-26 08:09:09] INFO root fetch - processPackages [pulumi-keycloak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_keycloak-5.4.0a1713899008.tar.gz tmp/pulumi_keycloak-5.4.0a1714110241.tar.gz --markdown 20240426/p/pulumi-keycloak/5.4.0a1713899008-5.4.0a1714110241/README.md --exclude *.pyd
+[2024-04-26 08:09:09] INFO root fetch - processPackages [pulumi-kafka]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kafka-3.8.0a1713898464.tar.gz]
+[2024-04-26 08:09:09] INFO root fetch - processPackages [pulumi-kafka]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kafka-3.8.0a1714110387.tar.gz]
+[2024-04-26 08:09:09] INFO root fetch - main [MainThread]: End processing [pulumi-kafka]: success
+[2024-04-26 08:09:09] INFO root fetch - processPackages [pulumi-kong]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kong-4.6.0a1713898350.tar.gz]
+[2024-04-26 08:09:09] INFO root fetch - processPackages [pulumi-kong]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kong-4.6.0a1714110449.tar.gz]
+[2024-04-26 08:09:09] INFO root fetch - main [MainThread]: End processing [pulumi-kong]: success
+[2024-04-26 08:09:10] INFO root fetch - processPackages [pulumi-keycloak]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_keycloak-5.4.0a1713899008.tar.gz]
+[2024-04-26 08:09:10] INFO root fetch - processPackages [pulumi-keycloak]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_keycloak-5.4.0a1714110241.tar.gz]
+[2024-04-26 08:09:10] INFO root fetch - main [MainThread]: End processing [pulumi-keycloak]: success
+[2024-04-26 08:09:17] INFO root fetch - processPackages [pulumi-alicloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_alicloud-3.9.0a1635778307.tar.gz]
+[2024-04-26 08:09:17] INFO root fetch - processPackages [pulumi-alicloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_alicloud-3.9.0a1637592974.tar.gz]
+[2024-04-26 08:09:17] INFO root fetch - main [MainThread]: End processing [pulumi-alicloud]: success
+[2024-04-26 08:09:17] INFO root fetch - main [MainThread]: Store serial: [22943215]
