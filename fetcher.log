@@ -22883,3 +22883,24 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 16:20:31] INFO root fetch - processPackages [housekeeper]: Remove: archive file [/home/abi/fetcher/tmp/housekeeper-4.8.8.tar.gz]
 [2024-04-26 16:20:31] INFO root fetch - main [MainThread]: End processing [housekeeper]: success
 [2024-04-26 16:20:31] INFO root fetch - main [MainThread]: Store serial: [22948615]
+[2024-04-26 16:22:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22948615]
+[2024-04-26 16:22:39] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-26 16:22:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: few-shot-priming
+[2024-04-26 16:22:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: quantconnect-stubs
+[2024-04-26 16:22:39] INFO root fetch - processPackages [few-shot-priming]: New version: [0.3.99] Old Version: [0.3.98]
+[2024-04-26 16:22:40] INFO root fetch - processPackages [quantconnect-stubs]: New version: [9998] Old Version: [9997]
+[2024-04-26 16:22:40] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/eb/67/d15b11d0bfb57369fa16ba7f8c97cd3ddec8f771e6da8f11a3d819004b69/few_shot_priming-0.3.98-py3-none-any.whl
+[2024-04-26 16:22:40] INFO root fetch - processPackages [quantconnect-stubs]: Downloading https://files.pythonhosted.org/packages/c1/05/f15c16a3f852decfd032ce1688dfdf02fd7289f1780742453533e8c55209/quantconnect-stubs-9997.tar.gz
+[2024-04-26 16:22:40] INFO root fetch - processPackages [quantconnect-stubs]: Downloading https://files.pythonhosted.org/packages/b7/4c/71e6bb724f14efcd8865f2aa692528a4c45877c58f5cf8c964a8e0fc0e74/quantconnect-stubs-9998.tar.gz
+[2024-04-26 16:22:40] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/ff/11/548f6e96803602e6431dc610d736d401b20fde986f85c35c8ad19a6d0958/few_shot_priming-0.3.99-py3-none-any.whl
+[2024-04-26 16:22:40] INFO root fetch - processPackages [quantconnect-stubs]: executing diffoscope
+[2024-04-26 16:22:40] INFO root fetch - processPackages [quantconnect-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantconnect-stubs-9997.tar.gz tmp/quantconnect-stubs-9998.tar.gz --markdown 20240426/q/quantconnect-stubs/9997-9998/README.md --exclude *.pyd
+[2024-04-26 16:22:40] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2024-04-26 16:22:40] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip --markdown 20240426/f/few-shot-priming/0.3.98-0.3.99/README.md --exclude *.pyd
+[2024-04-26 16:22:41] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip]
+[2024-04-26 16:22:41] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip]
+[2024-04-26 16:22:41] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2024-04-26 16:22:43] INFO root fetch - processPackages [quantconnect-stubs]: Remove: archive file [/home/abi/fetcher/tmp/quantconnect-stubs-9997.tar.gz]
+[2024-04-26 16:22:43] INFO root fetch - processPackages [quantconnect-stubs]: Remove: archive file [/home/abi/fetcher/tmp/quantconnect-stubs-9998.tar.gz]
+[2024-04-26 16:22:43] INFO root fetch - main [MainThread]: End processing [quantconnect-stubs]: success
+[2024-04-26 16:22:43] INFO root fetch - main [MainThread]: Store serial: [22948623]
