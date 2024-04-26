@@ -20380,3 +20380,30 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 14:41:15] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.5.0b20240426-py3-none-win_amd64.whl.zip]
 [2024-04-26 14:41:15] INFO root fetch - main [MainThread]: End processing [bigdl-llm]: success
 [2024-04-26 14:41:15] INFO root fetch - main [MainThread]: Store serial: [22947513]
+[2024-04-26 14:43:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22947513]
+[2024-04-26 14:43:24] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-26 14:43:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cybrid-api-bank-python
+[2024-04-26 14:43:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: static-analysis-script
+[2024-04-26 14:43:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sema-toolchain-scdg
+[2024-04-26 14:43:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: burst-waveform
+[2024-04-26 14:43:24] WARNING root fetch - processPackages [static-analysis-script]: Skipping, unable to determine old version
+[2024-04-26 14:43:24] INFO root fetch - main [MainThread]: End processing [static-analysis-script] error
+[2024-04-26 14:43:24] INFO root fetch - processPackages [cybrid-api-bank-python]: New version: [0.99.0] Old Version: [0.98.2]
+[2024-04-26 14:43:24] INFO root fetch - processPackages [burst-waveform]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-26 14:43:24] WARNING root fetch - processPackages [sema-toolchain-scdg]: Skipping, unable to determine old version
+[2024-04-26 14:43:24] INFO root fetch - main [MainThread]: End processing [sema-toolchain-scdg] error
+[2024-04-26 14:43:24] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/da/dd/e8ea2fc7e8f671e18adae35333d00fdc692f7637860f9e361fba5fe3b85a/cybrid-api-bank-python-0.98.2.tar.gz
+[2024-04-26 14:43:25] INFO root fetch - processPackages [burst-waveform]: Downloading https://files.pythonhosted.org/packages/8f/f7/72b71a7db284d9bc9873939c93b33f69c33e2b643594bc2dca2ef369ef3e/burst_waveform-0.2.2.tar.gz
+[2024-04-26 14:43:25] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/a1/e6/1c6a95191a8826ea0636949d5bfdb7d34a65b1f81b3cb27e1863a88a1552/cybrid-api-bank-python-0.99.0.tar.gz
+[2024-04-26 14:43:25] INFO root fetch - processPackages [cybrid-api-bank-python]: executing diffoscope
+[2024-04-26 14:43:25] INFO root fetch - processPackages [cybrid-api-bank-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-bank-python-0.98.2.tar.gz tmp/cybrid-api-bank-python-0.99.0.tar.gz --markdown 20240426/c/cybrid-api-bank-python/0.98.2-0.99.0/README.md --exclude *.pyd
+[2024-04-26 14:43:25] INFO root fetch - processPackages [burst-waveform]: Downloading https://files.pythonhosted.org/packages/a8/06/6f6ecad773372df671dad83c906dfd4cd5a335854409220b45b3e5d65f5f/burst_waveform-0.2.3.tar.gz
+[2024-04-26 14:43:25] INFO root fetch - processPackages [burst-waveform]: executing diffoscope
+[2024-04-26 14:43:25] INFO root fetch - processPackages [burst-waveform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/burst_waveform-0.2.2.tar.gz tmp/burst_waveform-0.2.3.tar.gz --markdown 20240426/b/burst-waveform/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-04-26 14:43:26] INFO root fetch - processPackages [burst-waveform]: Remove: archive file [/home/abi/fetcher/tmp/burst_waveform-0.2.2.tar.gz]
+[2024-04-26 14:43:26] INFO root fetch - processPackages [burst-waveform]: Remove: archive file [/home/abi/fetcher/tmp/burst_waveform-0.2.3.tar.gz]
+[2024-04-26 14:43:26] INFO root fetch - main [MainThread]: End processing [burst-waveform]: success
+[2024-04-26 14:43:27] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.98.2.tar.gz]
+[2024-04-26 14:43:27] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.99.0.tar.gz]
+[2024-04-26 14:43:27] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
+[2024-04-26 14:43:27] INFO root fetch - main [MainThread]: Store serial: [22947531]
