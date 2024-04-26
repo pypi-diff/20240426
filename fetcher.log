@@ -8374,3 +8374,18 @@
 [2024-04-26 05:37:51] INFO root fetch - processPackages [unifi-tracker]: Remove: archive file [/home/abi/fetcher/tmp/unifi_tracker-0.1.1.tar.gz]
 [2024-04-26 05:37:51] INFO root fetch - main [MainThread]: End processing [unifi-tracker]: success
 [2024-04-26 05:37:51] INFO root fetch - main [MainThread]: Store serial: [22942331]
+[2024-04-26 05:39:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22942331]
+[2024-04-26 05:40:00] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-26 05:40:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pypsg
+[2024-04-26 05:40:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: napam
+[2024-04-26 05:40:01] INFO root fetch - processPackages [pypsg]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-26 05:40:01] WARNING root fetch - processPackages [napam]: Skipping, unable to determine old version
+[2024-04-26 05:40:01] INFO root fetch - main [MainThread]: End processing [napam] error
+[2024-04-26 05:40:01] INFO root fetch - processPackages [pypsg]: Downloading https://files.pythonhosted.org/packages/1a/d6/2bd44a80931f7f81fb337c196cdff02116784fec60458772ebffeb4d80bc/pypsg-0.3.0.tar.gz
+[2024-04-26 05:40:01] INFO root fetch - processPackages [pypsg]: Downloading https://files.pythonhosted.org/packages/e2/3d/be2a983e70c50f84fec01d6982f78244432c8c40ccb71d4956fe9552a157/pypsg-0.3.1.tar.gz
+[2024-04-26 05:40:01] INFO root fetch - processPackages [pypsg]: executing diffoscope
+[2024-04-26 05:40:01] INFO root fetch - processPackages [pypsg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypsg-0.3.0.tar.gz tmp/pypsg-0.3.1.tar.gz --markdown 20240426/p/pypsg/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-04-26 05:40:02] INFO root fetch - processPackages [pypsg]: Remove: archive file [/home/abi/fetcher/tmp/pypsg-0.3.0.tar.gz]
+[2024-04-26 05:40:02] INFO root fetch - processPackages [pypsg]: Remove: archive file [/home/abi/fetcher/tmp/pypsg-0.3.1.tar.gz]
+[2024-04-26 05:40:02] INFO root fetch - main [MainThread]: End processing [pypsg]: success
+[2024-04-26 05:40:02] INFO root fetch - main [MainThread]: Store serial: [22942343]
