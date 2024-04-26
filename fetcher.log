@@ -19608,3 +19608,23 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 14:04:30] INFO root fetch - processPackages [hera-workflows]: Remove: archive file [/home/abi/fetcher/tmp/hera_workflows-5.9.0.tar.gz]
 [2024-04-26 14:04:30] INFO root fetch - main [MainThread]: End processing [hera-workflows]: success
 [2024-04-26 14:04:30] INFO root fetch - main [MainThread]: Store serial: [22947191]
+[2024-04-26 14:06:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22947191]
+[2024-04-26 14:06:39] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-26 14:06:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lib-holdings-simplified
+[2024-04-26 14:06:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sqlrepo
+[2024-04-26 14:06:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pretix
+[2024-04-26 14:06:40] INFO root fetch - processPackages [sqlrepo]: New version: [1.4.1] Old Version: [1.4.0]
+[2024-04-26 14:06:40] WARNING root fetch - processPackages [lib-holdings-simplified]: Skipping, unable to determine old version
+[2024-04-26 14:06:40] INFO root fetch - main [MainThread]: End processing [lib-holdings-simplified] error
+[2024-04-26 14:06:40] INFO root fetch - processPackages [pretix]: New version: [4.9.1] Old Version: [4.9.0]
+[2024-04-26 14:06:40] INFO root fetch - processPackages [sqlrepo]: Downloading https://files.pythonhosted.org/packages/2f/1f/587a825c75d3c321e6c409862b0f26735cb5fe3020283f11b77b05817d97/sqlrepo-1.4.0.tar.gz
+[2024-04-26 14:06:40] INFO root fetch - processPackages [pretix]: Downloading https://files.pythonhosted.org/packages/1b/b2/e715cdf9a4d7da127ada5a36979183ae7f1e051153b886f3b1c5a9a82883/pretix-4.9.0.tar.gz
+[2024-04-26 14:06:40] INFO root fetch - processPackages [sqlrepo]: Downloading https://files.pythonhosted.org/packages/ac/b5/eae4aef547cd69f4c329ad4495977c89446567d80cdee9ad0540a03ff6f8/sqlrepo-1.4.1.tar.gz
+[2024-04-26 14:06:40] INFO root fetch - processPackages [sqlrepo]: executing diffoscope
+[2024-04-26 14:06:40] INFO root fetch - processPackages [sqlrepo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlrepo-1.4.0.tar.gz tmp/sqlrepo-1.4.1.tar.gz --markdown 20240426/s/sqlrepo/1.4.0-1.4.1/README.md --exclude *.pyd
+[2024-04-26 14:06:41] INFO root fetch - processPackages [sqlrepo]: Remove: archive file [/home/abi/fetcher/tmp/sqlrepo-1.4.0.tar.gz]
+[2024-04-26 14:06:41] INFO root fetch - processPackages [sqlrepo]: Remove: archive file [/home/abi/fetcher/tmp/sqlrepo-1.4.1.tar.gz]
+[2024-04-26 14:06:41] INFO root fetch - main [MainThread]: End processing [sqlrepo]: success
+[2024-04-26 14:06:41] WARNING root fetch - processPackages [pretix]: Skipping package: exceeds size limit 30788431>=10485760
+[2024-04-26 14:06:41] INFO root fetch - main [MainThread]: End processing [pretix] error
+[2024-04-26 14:06:41] INFO root fetch - main [MainThread]: Store serial: [22947202]
