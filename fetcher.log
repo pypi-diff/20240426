@@ -9447,3 +9447,47 @@
 [2024-04-26 07:03:01] INFO root fetch - processPackages [pygitpub]: Remove: archive file [/home/abi/fetcher/tmp/pygitpub-0.0.9.tar.gz]
 [2024-04-26 07:03:01] INFO root fetch - main [MainThread]: End processing [pygitpub]: success
 [2024-04-26 07:03:01] INFO root fetch - main [MainThread]: Store serial: [22942786]
+[2024-04-26 07:05:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22942786]
+[2024-04-26 07:05:10] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-26 07:05:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mtdata
+[2024-04-26 07:05:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PerplexiPy
+[2024-04-26 07:05:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: airbyte-source-newsdata
+[2024-04-26 07:05:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addons-oca-partner-contact
+[2024-04-26 07:05:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: redhat-assisted-installer
+[2024-04-26 07:05:10] INFO root fetch - processPackages [redhat-assisted-installer]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-26 07:05:10] INFO root fetch - processPackages [airbyte-source-newsdata]: New version: [0.1.3] Old Version: [0.1.0]
+[2024-04-26 07:05:10] INFO root fetch - processPackages [redhat-assisted-installer]: Downloading https://files.pythonhosted.org/packages/7b/0f/419772667112af029fc92038d194a98f92db5eec6aafe26fbeb6462b1df6/redhat_assisted_installer-0.0.4.tar.gz
+[2024-04-26 07:05:10] INFO root fetch - processPackages [mtdata]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-04-26 07:05:10] INFO root fetch - processPackages [PerplexiPy]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-26 07:05:10] INFO root fetch - processPackages [odoo14-addons-oca-partner-contact]: New version: [14.0.20240425.0] Old Version: [14.0.20240222.0]
+[2024-04-26 07:05:11] INFO root fetch - processPackages [PerplexiPy]: Downloading https://files.pythonhosted.org/packages/d4/47/646987c6644e00577e339d84b4cd3c190e0e20f9e58f0c8ca907cfe4bd6f/PerplexiPy-1.0.3-py3-none-any.whl
+[2024-04-26 07:05:11] INFO root fetch - processPackages [mtdata]: Downloading https://files.pythonhosted.org/packages/3d/65/74cdae0fa46987680409cc6aec8f8163d32e5d4702f5a5d7ca32382eaebd/mtdata-0.4.0.tar.gz
+[2024-04-26 07:05:11] INFO root fetch - processPackages [airbyte-source-newsdata]: Downloading https://files.pythonhosted.org/packages/fb/64/3cd54982e5e563e1b645467cbd0b7058d2cbd389921c65852381ed4ea87f/airbyte-source-newsdata-0.1.0.tar.gz
+[2024-04-26 07:05:11] INFO root fetch - processPackages [odoo14-addons-oca-partner-contact]: Downloading https://files.pythonhosted.org/packages/d9/32/a1b5e25d750e504cfb7eeec4377d41c7d16273382534b35b88584ad2a69a/odoo14_addons_oca_partner_contact-14.0.20240222.0-py3-none-any.whl
+[2024-04-26 07:05:11] INFO root fetch - processPackages [redhat-assisted-installer]: Downloading https://files.pythonhosted.org/packages/06/52/2a12f01358c5ff3c197bc2e76f9349260ce01147d2070e0f52d4e847bde6/redhat_assisted_installer-0.0.5.tar.gz
+[2024-04-26 07:05:11] ERROR root fetch - processPackages [airbyte-source-newsdata]: Unable to fetch info: No such project/version 'airbyte-source-newsdata' 0.1.3
+[2024-04-26 07:05:11] INFO root fetch - main [MainThread]: End processing [airbyte-source-newsdata] error
+[2024-04-26 07:05:11] INFO root fetch - processPackages [redhat-assisted-installer]: executing diffoscope
+[2024-04-26 07:05:11] INFO root fetch - processPackages [redhat-assisted-installer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redhat_assisted_installer-0.0.4.tar.gz tmp/redhat_assisted_installer-0.0.5.tar.gz --markdown 20240426/r/redhat-assisted-installer/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-26 07:05:11] INFO root fetch - processPackages [mtdata]: Downloading https://files.pythonhosted.org/packages/4f/72/1e309e94a5b7126c36b888a434768f5e368b8046af01f12738324e5d767b/mtdata-0.4.1.tar.gz
+[2024-04-26 07:05:11] INFO root fetch - processPackages [PerplexiPy]: Downloading https://files.pythonhosted.org/packages/a9/84/1564565b76f91232568459ce58f51a82a49c1b4525c8547745caf6e15f28/PerplexiPy-1.0.4-py3-none-any.whl
+[2024-04-26 07:05:11] INFO root fetch - processPackages [odoo14-addons-oca-partner-contact]: Downloading https://files.pythonhosted.org/packages/7e/d5/6ed8722613f0550b4dee0237312e8d1df6f281ab3a8a06bb4da381292a73/odoo14_addons_oca_partner_contact-14.0.20240425.0-py3-none-any.whl
+[2024-04-26 07:05:11] INFO root fetch - processPackages [mtdata]: executing diffoscope
+[2024-04-26 07:05:11] INFO root fetch - processPackages [mtdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mtdata-0.4.0.tar.gz tmp/mtdata-0.4.1.tar.gz --markdown 20240426/m/mtdata/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-04-26 07:05:11] INFO root fetch - processPackages [PerplexiPy]: executing diffoscope
+[2024-04-26 07:05:11] INFO root fetch - processPackages [PerplexiPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PerplexiPy-1.0.3-py3-none-any.whl.zip tmp/PerplexiPy-1.0.4-py3-none-any.whl.zip --markdown 20240426/P/PerplexiPy/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-04-26 07:05:11] INFO root fetch - processPackages [odoo14-addons-oca-partner-contact]: executing diffoscope
+[2024-04-26 07:05:11] INFO root fetch - processPackages [odoo14-addons-oca-partner-contact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addons_oca_partner_contact-14.0.20240222.0-py3-none-any.whl.zip tmp/odoo14_addons_oca_partner_contact-14.0.20240425.0-py3-none-any.whl.zip --markdown 20240426/o/odoo14-addons-oca-partner-contact/14.0.20240222.0-14.0.20240425.0/README.md --exclude *.pyd
+[2024-04-26 07:05:11] INFO root fetch - processPackages [redhat-assisted-installer]: Remove: archive file [/home/abi/fetcher/tmp/redhat_assisted_installer-0.0.4.tar.gz]
+[2024-04-26 07:05:11] INFO root fetch - processPackages [redhat-assisted-installer]: Remove: archive file [/home/abi/fetcher/tmp/redhat_assisted_installer-0.0.5.tar.gz]
+[2024-04-26 07:05:11] INFO root fetch - main [MainThread]: End processing [redhat-assisted-installer]: success
+[2024-04-26 07:05:12] INFO root fetch - processPackages [odoo14-addons-oca-partner-contact]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_partner_contact-14.0.20240222.0-py3-none-any.whl.zip]
+[2024-04-26 07:05:12] INFO root fetch - processPackages [odoo14-addons-oca-partner-contact]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_partner_contact-14.0.20240425.0-py3-none-any.whl.zip]
+[2024-04-26 07:05:12] INFO root fetch - main [MainThread]: End processing [odoo14-addons-oca-partner-contact]: success
+[2024-04-26 07:05:12] INFO root fetch - processPackages [PerplexiPy]: Remove: archive file [/home/abi/fetcher/tmp/PerplexiPy-1.0.3-py3-none-any.whl.zip]
+[2024-04-26 07:05:12] INFO root fetch - processPackages [PerplexiPy]: Remove: archive file [/home/abi/fetcher/tmp/PerplexiPy-1.0.4-py3-none-any.whl.zip]
+[2024-04-26 07:05:12] INFO root fetch - main [MainThread]: End processing [PerplexiPy]: success
+[2024-04-26 07:05:14] INFO root fetch - processPackages [mtdata]: Remove: archive file [/home/abi/fetcher/tmp/mtdata-0.4.0.tar.gz]
+[2024-04-26 07:05:14] INFO root fetch - processPackages [mtdata]: Remove: archive file [/home/abi/fetcher/tmp/mtdata-0.4.1.tar.gz]
+[2024-04-26 07:05:14] INFO root fetch - main [MainThread]: End processing [mtdata]: success
+[2024-04-26 07:05:14] INFO root fetch - main [MainThread]: Store serial: [22942802]
