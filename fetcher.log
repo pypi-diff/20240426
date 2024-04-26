@@ -12683,3 +12683,59 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 09:20:44] INFO root fetch - processPackages [KratosMetisApplication]: Remove: archive file [/home/abi/fetcher/tmp/KratosMetisApplication-9.5-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-04-26 09:20:44] INFO root fetch - main [MainThread]: End processing [KratosMetisApplication]: success
 [2024-04-26 09:20:44] INFO root fetch - main [MainThread]: Store serial: [22944165]
+[2024-04-26 09:22:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22944165]
+[2024-04-26 09:22:55] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-26 09:22:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: KratosMPMApplication
+[2024-04-26 09:22:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kcli
+[2024-04-26 09:22:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: KratosMultiphysics
+[2024-04-26 09:22:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fosslight-dependency
+[2024-04-26 09:22:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyspartn
+[2024-04-26 09:22:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-rke
+[2024-04-26 09:22:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bgpy-pkg
+[2024-04-26 09:22:55] INFO root fetch - processPackages [kcli]: New version: [99.0.202404251549] Old Version: [99.0.202404251545]
+[2024-04-26 09:22:55] WARNING root fetch - processPackages [KratosMPMApplication]: Skipping, unable to determine old version
+[2024-04-26 09:22:55] INFO root fetch - main [MainThread]: End processing [KratosMPMApplication] error
+[2024-04-26 09:22:55] INFO root fetch - processPackages [pyspartn]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-04-26 09:22:55] INFO root fetch - processPackages [fosslight-dependency]: New version: [3.9.4] Old Version: [3.9.3]
+[2024-04-26 09:22:55] INFO root fetch - processPackages [bgpy-pkg]: New version: [7.1.0] Old Version: [7.0.9]
+[2024-04-26 09:22:55] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/a9/3c/e97a6c8ed1e2a825306155e57fa2a77cac2950095e91674a65b063f0d5a4/kcli-99.0.202404251545.tar.gz
+[2024-04-26 09:22:55] INFO root fetch - processPackages [pulumi-rke]: New version: [3.5.0a1714113569] Old Version: [3.5.0a1714001276]
+[2024-04-26 09:22:55] INFO root fetch - processPackages [KratosMultiphysics]: New version: [9.5] Old Version: [9.4.6]
+[2024-04-26 09:22:55] INFO root fetch - processPackages [pyspartn]: Downloading https://files.pythonhosted.org/packages/07/5b/fc2568a905bce1a49c9ce7648112f2a1745c185cdb2d6aac2a42e9988b5f/pyspartn-0.3.1.tar.gz
+[2024-04-26 09:22:55] INFO root fetch - processPackages [fosslight-dependency]: Downloading https://files.pythonhosted.org/packages/0f/cc/9b5800a44012332c1de79449a5123f244debc77b18c831bd3f63f99c22fc/fosslight_dependency-3.9.3.tar.gz
+[2024-04-26 09:22:55] INFO root fetch - processPackages [bgpy-pkg]: Downloading https://files.pythonhosted.org/packages/d5/dd/6e067a8d0771e80b63f00623b76bc84781e8d1f3ccb3d2a8a86366cdbb77/bgpy_pkg-7.0.9.tar.gz
+[2024-04-26 09:22:55] INFO root fetch - processPackages [KratosMultiphysics]: Downloading https://files.pythonhosted.org/packages/5b/44/e7c93d0b1c0e88c574b439d206f3de2142a9215aea0ee371c496ff13023e/KratosMultiphysics-9.4.6-cp39-cp39-win_amd64.whl
+[2024-04-26 09:22:55] INFO root fetch - processPackages [pulumi-rke]: Downloading https://files.pythonhosted.org/packages/f6/04/65d1e87ddd46c107f7202306d34891172bc981a4b3eaf35a6fa508f70adb/pulumi_rke-3.5.0a1714001276.tar.gz
+[2024-04-26 09:22:55] WARNING root fetch - processPackages [KratosMultiphysics]: Skipping package: exceeds size limit 12609770>=10485760
+[2024-04-26 09:22:55] INFO root fetch - main [MainThread]: End processing [KratosMultiphysics] error
+[2024-04-26 09:22:55] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/ea/1a/49d02757999ad7da0e935fec7594aace8faff471c08757b90590541e1508/kcli-99.0.202404251549.tar.gz
+[2024-04-26 09:22:55] INFO root fetch - processPackages [pyspartn]: Downloading https://files.pythonhosted.org/packages/1b/b9/6417e397e53d39328766d356bc1e40fa38c66b06649dc08b7eb7898ed92a/pyspartn-0.3.2.tar.gz
+[2024-04-26 09:22:55] INFO root fetch - processPackages [bgpy-pkg]: Downloading https://files.pythonhosted.org/packages/4b/fd/bcdb230f441cf028de3f6e28f744a551c2a99fac3e4f3e64e076621f7ea9/bgpy_pkg-7.1.0.tar.gz
+[2024-04-26 09:22:56] INFO root fetch - processPackages [pulumi-rke]: Downloading https://files.pythonhosted.org/packages/ad/0c/e554d0bcef3a729e4d3fdde90af38a02deae3da02f5e1d92b9854e8cf4ed/pulumi_rke-3.5.0a1714113569.tar.gz
+[2024-04-26 09:22:56] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2024-04-26 09:22:56] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202404251545.tar.gz tmp/kcli-99.0.202404251549.tar.gz --markdown 20240426/k/kcli/99.0.202404251545-99.0.202404251549/README.md --exclude *.pyd
+[2024-04-26 09:22:56] INFO root fetch - processPackages [pyspartn]: executing diffoscope
+[2024-04-26 09:22:56] INFO root fetch - processPackages [pyspartn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyspartn-0.3.1.tar.gz tmp/pyspartn-0.3.2.tar.gz --markdown 20240426/p/pyspartn/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-04-26 09:22:56] INFO root fetch - processPackages [fosslight-dependency]: Downloading https://files.pythonhosted.org/packages/64/a0/dd2dd62761eaf4233405b1b03d3de41c2a2bfee2ca24a27417a71ae0569d/fosslight_dependency-3.9.4.tar.gz
+[2024-04-26 09:22:56] INFO root fetch - processPackages [bgpy-pkg]: executing diffoscope
+[2024-04-26 09:22:56] INFO root fetch - processPackages [bgpy-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bgpy_pkg-7.0.9.tar.gz tmp/bgpy_pkg-7.1.0.tar.gz --markdown 20240426/b/bgpy-pkg/7.0.9-7.1.0/README.md --exclude *.pyd
+[2024-04-26 09:22:56] INFO root fetch - processPackages [pulumi-rke]: executing diffoscope
+[2024-04-26 09:22:56] INFO root fetch - processPackages [pulumi-rke]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_rke-3.5.0a1714001276.tar.gz tmp/pulumi_rke-3.5.0a1714113569.tar.gz --markdown 20240426/p/pulumi-rke/3.5.0a1714001276-3.5.0a1714113569/README.md --exclude *.pyd
+[2024-04-26 09:22:56] INFO root fetch - processPackages [fosslight-dependency]: executing diffoscope
+[2024-04-26 09:22:56] INFO root fetch - processPackages [fosslight-dependency]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fosslight_dependency-3.9.3.tar.gz tmp/fosslight_dependency-3.9.4.tar.gz --markdown 20240426/f/fosslight-dependency/3.9.3-3.9.4/README.md --exclude *.pyd
+[2024-04-26 09:22:56] INFO root fetch - processPackages [pyspartn]: Remove: archive file [/home/abi/fetcher/tmp/pyspartn-0.3.1.tar.gz]
+[2024-04-26 09:22:56] INFO root fetch - processPackages [pyspartn]: Remove: archive file [/home/abi/fetcher/tmp/pyspartn-0.3.2.tar.gz]
+[2024-04-26 09:22:56] INFO root fetch - main [MainThread]: End processing [pyspartn]: success
+[2024-04-26 09:22:56] INFO root fetch - processPackages [pulumi-rke]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rke-3.5.0a1714001276.tar.gz]
+[2024-04-26 09:22:56] INFO root fetch - processPackages [pulumi-rke]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rke-3.5.0a1714113569.tar.gz]
+[2024-04-26 09:22:56] INFO root fetch - main [MainThread]: End processing [pulumi-rke]: success
+[2024-04-26 09:22:56] INFO root fetch - processPackages [fosslight-dependency]: Remove: archive file [/home/abi/fetcher/tmp/fosslight_dependency-3.9.3.tar.gz]
+[2024-04-26 09:22:56] INFO root fetch - processPackages [fosslight-dependency]: Remove: archive file [/home/abi/fetcher/tmp/fosslight_dependency-3.9.4.tar.gz]
+[2024-04-26 09:22:56] INFO root fetch - main [MainThread]: End processing [fosslight-dependency]: success
+[2024-04-26 09:22:57] INFO root fetch - processPackages [bgpy-pkg]: Remove: archive file [/home/abi/fetcher/tmp/bgpy_pkg-7.0.9.tar.gz]
+[2024-04-26 09:22:57] INFO root fetch - processPackages [bgpy-pkg]: Remove: archive file [/home/abi/fetcher/tmp/bgpy_pkg-7.1.0.tar.gz]
+[2024-04-26 09:22:57] INFO root fetch - main [MainThread]: End processing [bgpy-pkg]: success
+[2024-04-26 09:22:58] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202404251545.tar.gz]
+[2024-04-26 09:22:58] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202404251549.tar.gz]
+[2024-04-26 09:22:58] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2024-04-26 09:22:58] INFO root fetch - main [MainThread]: Store serial: [22944207]
