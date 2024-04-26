@@ -14378,3 +14378,78 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 10:28:52] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-3.0.3.post454-py3-none-any.whl.zip]
 [2024-04-26 10:28:52] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
 [2024-04-26 10:28:52] INFO root fetch - main [MainThread]: Store serial: [22944908]
+[2024-04-26 10:30:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22944908]
+[2024-04-26 10:31:03] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-26 10:31:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nucliadb-sdk
+[2024-04-26 10:31:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nucliadb-telemetry
+[2024-04-26 10:31:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nucliadb-utils
+[2024-04-26 10:31:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tidypath
+[2024-04-26 10:31:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: GaiaScript
+[2024-04-26 10:31:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kitab
+[2024-04-26 10:31:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mindsdb-sql
+[2024-04-26 10:31:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ctrip-app-ui
+[2024-04-26 10:31:03] INFO root fetch - processPackages [nucliadb-sdk]: New version: [3.0.3.post454] Old Version: [3.0.3.post450]
+[2024-04-26 10:31:03] INFO root fetch - processPackages [GaiaScript]: New version: [0.1.2.1] Old Version: [0.1.2]
+[2024-04-26 10:31:03] INFO root fetch - processPackages [ctrip-app-ui]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-26 10:31:03] INFO root fetch - processPackages [nucliadb-telemetry]: New version: [3.0.3.post454] Old Version: [3.0.3.post450]
+[2024-04-26 10:31:03] INFO root fetch - processPackages [nucliadb-utils]: New version: [3.0.3.post454] Old Version: [3.0.3.post450]
+[2024-04-26 10:31:03] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/29/29/bf0d1f2b7206abc41ed8aaf6d1fa27537fc5bf3e2a5e98aedc641381168f/nucliadb_sdk-3.0.3.post450-py3-none-any.whl
+[2024-04-26 10:31:03] INFO root fetch - processPackages [tidypath]: New version: [1.3.4] Old Version: [1.3.3]
+[2024-04-26 10:31:03] INFO root fetch - processPackages [kitab]: New version: [0.0.20] Old Version: [0.0.19]
+[2024-04-26 10:31:03] INFO root fetch - processPackages [mindsdb-sql]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-04-26 10:31:03] INFO root fetch - processPackages [GaiaScript]: Downloading https://files.pythonhosted.org/packages/40/0f/a037790a91792a9671c87612b8c24e0f73bf2c1fab487a040feaa9fb3567/GaiaScript-0.1.2.tar.gz
+[2024-04-26 10:31:03] INFO root fetch - processPackages [ctrip-app-ui]: Downloading https://files.pythonhosted.org/packages/e3/8b/f182e6c6310bcb8f712af8a06c15afd0761f79169a3371689a46d5f89f99/ctrip-app-ui-0.2.0.tar.gz
+[2024-04-26 10:31:03] INFO root fetch - processPackages [nucliadb-telemetry]: Downloading https://files.pythonhosted.org/packages/6c/58/6bc125296a6ca8d4f06b6baa4e30c14cbc36ed970b7f2491efdb0c778582/nucliadb_telemetry-3.0.3.post450-py3-none-any.whl
+[2024-04-26 10:31:03] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/86/02/bb2d052c8ce9e3617033afdf38a119fe6fe785b0a2da01b3dd20e2a225e5/nucliadb_utils-3.0.3.post450-py3-none-any.whl
+[2024-04-26 10:31:03] INFO root fetch - processPackages [tidypath]: Downloading https://files.pythonhosted.org/packages/2e/e4/39cf712d1666293f21917aba8472eb597430e89ecef4ab73a427162094f1/tidypath-1.3.3.tar.gz
+[2024-04-26 10:31:03] INFO root fetch - processPackages [kitab]: Downloading https://files.pythonhosted.org/packages/2e/a1/36d01099c3242d1d53b7b94e2efeb1f7134e8c7faafb01dc3601dc097354/kitab-0.0.19.tar.gz
+[2024-04-26 10:31:03] INFO root fetch - processPackages [mindsdb-sql]: Downloading https://files.pythonhosted.org/packages/56/2f/83a44d655acc3b1adf5992ec45a80b34b7f56745ddad6605ff256faeb276/mindsdb_sql-0.8.1.tar.gz
+[2024-04-26 10:31:03] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/4b/48/8943e68dd6cab837533c7ac5858faddcb7b3021cef97881af1f75561a0eb/nucliadb_sdk-3.0.3.post454-py3-none-any.whl
+[2024-04-26 10:31:03] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/23/a3/f87df27b187b56ae9edc6090e2c251171f678535ff2e13bd895de30b4666/nucliadb_utils-3.0.3.post454-py3-none-any.whl
+[2024-04-26 10:31:03] INFO root fetch - processPackages [nucliadb-telemetry]: Downloading https://files.pythonhosted.org/packages/87/0d/8eada356a79112c0704fa3b30326f9bbc11b746e114e2f78b422fc2f9c70/nucliadb_telemetry-3.0.3.post454-py3-none-any.whl
+[2024-04-26 10:31:03] INFO root fetch - processPackages [GaiaScript]: Downloading https://files.pythonhosted.org/packages/cb/b5/6b68cf415c26ee779185527af600f5111933e2c64af6f5fe983fff6e3f72/GaiaScript-0.1.2.1.tar.gz
+[2024-04-26 10:31:03] INFO root fetch - processPackages [ctrip-app-ui]: Downloading https://files.pythonhosted.org/packages/f9/c6/c8777ef8116a2c1ffdf098c62db9bceeeae03c748d8f7e7a6e5919b5c36f/ctrip-app-ui-0.2.1.tar.gz
+[2024-04-26 10:31:03] INFO root fetch - processPackages [nucliadb-sdk]: executing diffoscope
+[2024-04-26 10:31:03] INFO root fetch - processPackages [nucliadb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_sdk-3.0.3.post450-py3-none-any.whl.zip tmp/nucliadb_sdk-3.0.3.post454-py3-none-any.whl.zip --markdown 20240426/n/nucliadb-sdk/3.0.3.post450-3.0.3.post454/README.md --exclude *.pyd
+[2024-04-26 10:31:03] INFO root fetch - processPackages [nucliadb-telemetry]: executing diffoscope
+[2024-04-26 10:31:03] INFO root fetch - processPackages [nucliadb-telemetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_telemetry-3.0.3.post450-py3-none-any.whl.zip tmp/nucliadb_telemetry-3.0.3.post454-py3-none-any.whl.zip --markdown 20240426/n/nucliadb-telemetry/3.0.3.post450-3.0.3.post454/README.md --exclude *.pyd
+[2024-04-26 10:31:04] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2024-04-26 10:31:04] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-3.0.3.post450-py3-none-any.whl.zip tmp/nucliadb_utils-3.0.3.post454-py3-none-any.whl.zip --markdown 20240426/n/nucliadb-utils/3.0.3.post450-3.0.3.post454/README.md --exclude *.pyd
+[2024-04-26 10:31:04] INFO root fetch - processPackages [GaiaScript]: executing diffoscope
+[2024-04-26 10:31:04] INFO root fetch - processPackages [GaiaScript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GaiaScript-0.1.2.tar.gz tmp/GaiaScript-0.1.2.1.tar.gz --markdown 20240426/G/GaiaScript/0.1.2-0.1.2.1/README.md --exclude *.pyd
+[2024-04-26 10:31:04] INFO root fetch - processPackages [ctrip-app-ui]: executing diffoscope
+[2024-04-26 10:31:04] INFO root fetch - processPackages [ctrip-app-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctrip-app-ui-0.2.0.tar.gz tmp/ctrip-app-ui-0.2.1.tar.gz --markdown 20240426/c/ctrip-app-ui/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-04-26 10:31:04] INFO root fetch - processPackages [tidypath]: Downloading https://files.pythonhosted.org/packages/0f/af/5167e069d307481096f61e5140810b525692fff852c599b39ee5f7a232cb/tidypath-1.3.4.tar.gz
+[2024-04-26 10:31:04] INFO root fetch - processPackages [kitab]: Downloading https://files.pythonhosted.org/packages/cc/a8/d2fa80514bc14520ed444557593521a6f041a2f3618b04b54b9c2fa4ce6e/kitab-0.0.20.tar.gz
+[2024-04-26 10:31:04] INFO root fetch - processPackages [tidypath]: executing diffoscope
+[2024-04-26 10:31:04] INFO root fetch - processPackages [tidypath]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tidypath-1.3.3.tar.gz tmp/tidypath-1.3.4.tar.gz --markdown 20240426/t/tidypath/1.3.3-1.3.4/README.md --exclude *.pyd
+[2024-04-26 10:31:04] INFO root fetch - processPackages [mindsdb-sql]: Downloading https://files.pythonhosted.org/packages/1a/30/d2ec692ab8426475be27f1632f19f01ecf647be7b17c1349166e60c27602/mindsdb_sql-0.9.0.tar.gz
+[2024-04-26 10:31:04] INFO root fetch - processPackages [kitab]: executing diffoscope
+[2024-04-26 10:31:04] INFO root fetch - processPackages [kitab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kitab-0.0.19.tar.gz tmp/kitab-0.0.20.tar.gz --markdown 20240426/k/kitab/0.0.19-0.0.20/README.md --exclude *.pyd
+[2024-04-26 10:31:04] INFO root fetch - processPackages [mindsdb-sql]: executing diffoscope
+[2024-04-26 10:31:04] INFO root fetch - processPackages [mindsdb-sql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mindsdb_sql-0.8.1.tar.gz tmp/mindsdb_sql-0.9.0.tar.gz --markdown 20240426/m/mindsdb-sql/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-04-26 10:31:04] INFO root fetch - processPackages [GaiaScript]: Remove: archive file [/home/abi/fetcher/tmp/GaiaScript-0.1.2.tar.gz]
+[2024-04-26 10:31:04] INFO root fetch - processPackages [GaiaScript]: Remove: archive file [/home/abi/fetcher/tmp/GaiaScript-0.1.2.1.tar.gz]
+[2024-04-26 10:31:04] INFO root fetch - main [MainThread]: End processing [GaiaScript]: success
+[2024-04-26 10:31:04] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-3.0.3.post450-py3-none-any.whl.zip]
+[2024-04-26 10:31:04] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-3.0.3.post454-py3-none-any.whl.zip]
+[2024-04-26 10:31:04] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
+[2024-04-26 10:31:04] INFO root fetch - processPackages [nucliadb-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_telemetry-3.0.3.post450-py3-none-any.whl.zip]
+[2024-04-26 10:31:04] INFO root fetch - processPackages [nucliadb-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_telemetry-3.0.3.post454-py3-none-any.whl.zip]
+[2024-04-26 10:31:04] INFO root fetch - main [MainThread]: End processing [nucliadb-telemetry]: success
+[2024-04-26 10:31:04] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-3.0.3.post450-py3-none-any.whl.zip]
+[2024-04-26 10:31:04] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-3.0.3.post454-py3-none-any.whl.zip]
+[2024-04-26 10:31:04] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2024-04-26 10:31:05] INFO root fetch - processPackages [ctrip-app-ui]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-app-ui-0.2.0.tar.gz]
+[2024-04-26 10:31:05] INFO root fetch - processPackages [ctrip-app-ui]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-app-ui-0.2.1.tar.gz]
+[2024-04-26 10:31:05] INFO root fetch - main [MainThread]: End processing [ctrip-app-ui]: success
+[2024-04-26 10:31:05] INFO root fetch - processPackages [kitab]: Remove: archive file [/home/abi/fetcher/tmp/kitab-0.0.19.tar.gz]
+[2024-04-26 10:31:05] INFO root fetch - processPackages [kitab]: Remove: archive file [/home/abi/fetcher/tmp/kitab-0.0.20.tar.gz]
+[2024-04-26 10:31:05] INFO root fetch - main [MainThread]: End processing [kitab]: success
+[2024-04-26 10:31:05] INFO root fetch - processPackages [tidypath]: Remove: archive file [/home/abi/fetcher/tmp/tidypath-1.3.3.tar.gz]
+[2024-04-26 10:31:05] INFO root fetch - processPackages [tidypath]: Remove: archive file [/home/abi/fetcher/tmp/tidypath-1.3.4.tar.gz]
+[2024-04-26 10:31:05] INFO root fetch - main [MainThread]: End processing [tidypath]: success
+[2024-04-26 10:31:05] INFO root fetch - processPackages [mindsdb-sql]: Remove: archive file [/home/abi/fetcher/tmp/mindsdb_sql-0.8.1.tar.gz]
+[2024-04-26 10:31:05] INFO root fetch - processPackages [mindsdb-sql]: Remove: archive file [/home/abi/fetcher/tmp/mindsdb_sql-0.9.0.tar.gz]
+[2024-04-26 10:31:05] INFO root fetch - main [MainThread]: End processing [mindsdb-sql]: success
+[2024-04-26 10:31:05] INFO root fetch - main [MainThread]: Store serial: [22944927]
