@@ -9227,3 +9227,15 @@
 [2024-04-26 06:45:18] INFO root fetch - processPackages [kmport]: Remove: archive file [/home/abi/fetcher/tmp/kmport-2.1.9.tar.gz]
 [2024-04-26 06:45:18] INFO root fetch - main [MainThread]: End processing [kmport]: success
 [2024-04-26 06:45:18] INFO root fetch - main [MainThread]: Store serial: [22942683]
+[2024-04-26 06:47:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22942683]
+[2024-04-26 06:47:29] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-26 06:47:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyscinloopsr
+[2024-04-26 06:47:29] INFO root fetch - processPackages [pyscinloopsr]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-26 06:47:29] INFO root fetch - processPackages [pyscinloopsr]: Downloading https://files.pythonhosted.org/packages/c3/50/6f1e7709cda927bcbeca4cac6d2316d5c6e137de0d430fb89ffc1bd239fb/pyscinloopsr-1.0.2.tar.gz
+[2024-04-26 06:47:29] INFO root fetch - processPackages [pyscinloopsr]: Downloading https://files.pythonhosted.org/packages/27/ea/053628aa633648299954c820cf75bc92240b42cf9ba32b100a1dcb0c480c/pyscinloopsr-1.0.3.tar.gz
+[2024-04-26 06:47:29] INFO root fetch - processPackages [pyscinloopsr]: executing diffoscope
+[2024-04-26 06:47:29] INFO root fetch - processPackages [pyscinloopsr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyscinloopsr-1.0.2.tar.gz tmp/pyscinloopsr-1.0.3.tar.gz --markdown 20240426/p/pyscinloopsr/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-04-26 06:47:30] INFO root fetch - processPackages [pyscinloopsr]: Remove: archive file [/home/abi/fetcher/tmp/pyscinloopsr-1.0.2.tar.gz]
+[2024-04-26 06:47:30] INFO root fetch - processPackages [pyscinloopsr]: Remove: archive file [/home/abi/fetcher/tmp/pyscinloopsr-1.0.3.tar.gz]
+[2024-04-26 06:47:30] INFO root fetch - main [MainThread]: End processing [pyscinloopsr]: success
+[2024-04-26 06:47:30] INFO root fetch - main [MainThread]: Store serial: [22942686]
