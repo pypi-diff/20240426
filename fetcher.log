@@ -10139,3 +10139,65 @@
 [2024-04-26 07:40:44] INFO root fetch - processPackages [lute3]: Remove: archive file [/home/abi/fetcher/tmp/lute3-3.3.2b1.tar.gz]
 [2024-04-26 07:40:44] INFO root fetch - main [MainThread]: End processing [lute3]: success
 [2024-04-26 07:40:44] INFO root fetch - main [MainThread]: Store serial: [22943031]
+[2024-04-26 07:42:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22943031]
+[2024-04-26 07:42:54] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-26 07:42:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lute3
+[2024-04-26 07:42:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: comicbox
+[2024-04-26 07:42:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: podonos
+[2024-04-26 07:42:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vadi
+[2024-04-26 07:42:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-cloudinit
+[2024-04-26 07:42:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sqlalchemy-hana
+[2024-04-26 07:42:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-cloudflare
+[2024-04-26 07:42:54] INFO root fetch - processPackages [podonos]: New version: [0.1.0] Old Version: [0.0.12]
+[2024-04-26 07:42:54] INFO root fetch - processPackages [lute3]: New version: [3.3.2b1] Old Version: [3.3.2]
+[2024-04-26 07:42:54] INFO root fetch - processPackages [pulumi-cloudflare]: New version: [5.9.0a1692854882] Old Version: [5.9.0a1692851897]
+[2024-04-26 07:42:54] INFO root fetch - processPackages [comicbox]: New version: [1.1.6] Old Version: [1.1.5]
+[2024-04-26 07:42:54] INFO root fetch - processPackages [podonos]: Downloading https://files.pythonhosted.org/packages/c4/0f/aa6b6aa7de3afbc838ee5adba060a1e3eeb1aab03e9bc2cf1fc473a8f991/podonos-0.0.12.tar.gz
+[2024-04-26 07:42:54] INFO root fetch - processPackages [sqlalchemy-hana]: New version: [2.1.0] Old Version: [2.0.0]
+[2024-04-26 07:42:54] INFO root fetch - processPackages [vadi]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-26 07:42:54] INFO root fetch - processPackages [pulumi-cloudinit]: New version: [1.5.0a1714108936] Old Version: [1.5.0a1713915815]
+[2024-04-26 07:42:54] INFO root fetch - processPackages [lute3]: Downloading https://files.pythonhosted.org/packages/f1/ff/6eb9d0bcbf1f3008272df52da059064c0f81a7a9c1daaca22a1a03919e14/lute3-3.3.2.tar.gz
+[2024-04-26 07:42:54] INFO root fetch - processPackages [comicbox]: Downloading https://files.pythonhosted.org/packages/aa/27/bbe664e81271cc5247742d4daa8fd9acbb19802956977c7976945ef94bc2/comicbox-1.1.5.tar.gz
+[2024-04-26 07:42:54] INFO root fetch - processPackages [pulumi-cloudflare]: Downloading https://files.pythonhosted.org/packages/ce/4c/bbf50ef75d6a6dc70780f846ef13e19b5ec009e8657c5b847defde7a8dd9/pulumi_cloudflare-5.9.0a1692851897.tar.gz
+[2024-04-26 07:42:54] INFO root fetch - processPackages [vadi]: Downloading https://files.pythonhosted.org/packages/8f/7a/127ef40fd369e3fcca2c27b76ca0cfeca4886a66af06b54018d2914f1144/vadi-0.0.4.tar.gz
+[2024-04-26 07:42:54] INFO root fetch - processPackages [podonos]: Downloading https://files.pythonhosted.org/packages/33/a0/42092736b3e3c28f8858f5e717b6efd952fd3c2c2f1f033890479ec169ca/podonos-0.1.0.tar.gz
+[2024-04-26 07:42:54] WARNING root fetch - processPackages [comicbox]: Skipping package: exceeds size limit 81266327>=10485760
+[2024-04-26 07:42:54] INFO root fetch - main [MainThread]: End processing [comicbox] error
+[2024-04-26 07:42:54] INFO root fetch - processPackages [sqlalchemy-hana]: Downloading https://files.pythonhosted.org/packages/4d/18/1e91c7f1f96166d18bf847f5548942185046e6e461ba16f15f9666ec8587/sqlalchemy-hana-2.0.0.tar.gz
+[2024-04-26 07:42:54] INFO root fetch - processPackages [pulumi-cloudinit]: Downloading https://files.pythonhosted.org/packages/1b/4a/73e4380339335bdda3291c2b60e0777327820099896778d36f6b5f1758d5/pulumi_cloudinit-1.5.0a1713915815.tar.gz
+[2024-04-26 07:42:54] INFO root fetch - processPackages [podonos]: executing diffoscope
+[2024-04-26 07:42:54] INFO root fetch - processPackages [podonos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/podonos-0.0.12.tar.gz tmp/podonos-0.1.0.tar.gz --markdown 20240426/p/podonos/0.0.12-0.1.0/README.md --exclude *.pyd
+[2024-04-26 07:42:54] INFO root fetch - processPackages [lute3]: Downloading https://files.pythonhosted.org/packages/92/31/a7cc8b15e977b0c1d4d7af56ad2cc04cf90bec2f628ffe2a4a717d8b9593/lute3-3.3.2b1.tar.gz
+[2024-04-26 07:42:55] INFO root fetch - processPackages [vadi]: Downloading https://files.pythonhosted.org/packages/9f/2c/fb571004b6e0a221ed3e6976f60ae25966b9f3308b101bb7bbb7c9c9ba3d/vadi-0.0.5.tar.gz
+[2024-04-26 07:42:55] INFO root fetch - processPackages [pulumi-cloudinit]: Downloading https://files.pythonhosted.org/packages/55/c2/85b6738d381dc01e2306fecf7276c3b176fa7f2ba46233b8cdf81248954e/pulumi_cloudinit-1.5.0a1714108936.tar.gz
+[2024-04-26 07:42:55] INFO root fetch - processPackages [pulumi-cloudflare]: Downloading https://files.pythonhosted.org/packages/aa/45/e2040e3054cffd9ce633539517dc7f0063c0b789d73bac75a2b832e469de/pulumi_cloudflare-5.9.0a1692854882.tar.gz
+[2024-04-26 07:42:55] INFO root fetch - processPackages [vadi]: executing diffoscope
+[2024-04-26 07:42:55] INFO root fetch - processPackages [sqlalchemy-hana]: Downloading https://files.pythonhosted.org/packages/5f/3b/3baa12735306bb790c73d922a1c6bc7e1cedccb82d043cac4a0a0457a686/sqlalchemy_hana-2.1.0.tar.gz
+[2024-04-26 07:42:55] INFO root fetch - processPackages [vadi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vadi-0.0.4.tar.gz tmp/vadi-0.0.5.tar.gz --markdown 20240426/v/vadi/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-26 07:42:55] INFO root fetch - processPackages [lute3]: executing diffoscope
+[2024-04-26 07:42:55] INFO root fetch - processPackages [lute3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lute3-3.3.2.tar.gz tmp/lute3-3.3.2b1.tar.gz --markdown 20240426/l/lute3/3.3.2-3.3.2b1/README.md --exclude *.pyd
+[2024-04-26 07:42:55] INFO root fetch - processPackages [pulumi-cloudinit]: executing diffoscope
+[2024-04-26 07:42:55] INFO root fetch - processPackages [pulumi-cloudinit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_cloudinit-1.5.0a1713915815.tar.gz tmp/pulumi_cloudinit-1.5.0a1714108936.tar.gz --markdown 20240426/p/pulumi-cloudinit/1.5.0a1713915815-1.5.0a1714108936/README.md --exclude *.pyd
+[2024-04-26 07:42:55] INFO root fetch - processPackages [pulumi-cloudflare]: executing diffoscope
+[2024-04-26 07:42:55] INFO root fetch - processPackages [pulumi-cloudflare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_cloudflare-5.9.0a1692851897.tar.gz tmp/pulumi_cloudflare-5.9.0a1692854882.tar.gz --markdown 20240426/p/pulumi-cloudflare/5.9.0a1692851897-5.9.0a1692854882/README.md --exclude *.pyd
+[2024-04-26 07:42:55] INFO root fetch - processPackages [sqlalchemy-hana]: executing diffoscope
+[2024-04-26 07:42:55] INFO root fetch - processPackages [sqlalchemy-hana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlalchemy-hana-2.0.0.tar.gz tmp/sqlalchemy_hana-2.1.0.tar.gz --markdown 20240426/s/sqlalchemy-hana/2.0.0-2.1.0/README.md --exclude *.pyd
+[2024-04-26 07:42:55] INFO root fetch - processPackages [podonos]: Remove: archive file [/home/abi/fetcher/tmp/podonos-0.0.12.tar.gz]
+[2024-04-26 07:42:55] INFO root fetch - processPackages [podonos]: Remove: archive file [/home/abi/fetcher/tmp/podonos-0.1.0.tar.gz]
+[2024-04-26 07:42:55] INFO root fetch - main [MainThread]: End processing [podonos]: success
+[2024-04-26 07:42:55] INFO root fetch - processPackages [vadi]: Remove: archive file [/home/abi/fetcher/tmp/vadi-0.0.4.tar.gz]
+[2024-04-26 07:42:55] INFO root fetch - processPackages [vadi]: Remove: archive file [/home/abi/fetcher/tmp/vadi-0.0.5.tar.gz]
+[2024-04-26 07:42:55] INFO root fetch - main [MainThread]: End processing [vadi]: success
+[2024-04-26 07:42:55] INFO root fetch - processPackages [pulumi-cloudinit]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudinit-1.5.0a1713915815.tar.gz]
+[2024-04-26 07:42:55] INFO root fetch - processPackages [pulumi-cloudinit]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudinit-1.5.0a1714108936.tar.gz]
+[2024-04-26 07:42:55] INFO root fetch - main [MainThread]: End processing [pulumi-cloudinit]: success
+[2024-04-26 07:42:56] INFO root fetch - processPackages [sqlalchemy-hana]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy-hana-2.0.0.tar.gz]
+[2024-04-26 07:42:56] INFO root fetch - processPackages [sqlalchemy-hana]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy_hana-2.1.0.tar.gz]
+[2024-04-26 07:42:56] INFO root fetch - main [MainThread]: End processing [sqlalchemy-hana]: success
+[2024-04-26 07:42:56] INFO root fetch - processPackages [pulumi-cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudflare-5.9.0a1692851897.tar.gz]
+[2024-04-26 07:42:56] INFO root fetch - processPackages [pulumi-cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudflare-5.9.0a1692854882.tar.gz]
+[2024-04-26 07:42:56] INFO root fetch - main [MainThread]: End processing [pulumi-cloudflare]: success
+[2024-04-26 07:42:57] INFO root fetch - processPackages [lute3]: Remove: archive file [/home/abi/fetcher/tmp/lute3-3.3.2.tar.gz]
+[2024-04-26 07:42:57] INFO root fetch - processPackages [lute3]: Remove: archive file [/home/abi/fetcher/tmp/lute3-3.3.2b1.tar.gz]
+[2024-04-26 07:42:57] INFO root fetch - main [MainThread]: End processing [lute3]: success
+[2024-04-26 07:42:57] INFO root fetch - main [MainThread]: Store serial: [22943052]
