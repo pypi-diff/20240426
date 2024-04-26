@@ -11477,3 +11477,60 @@
 [2024-04-26 08:40:27] INFO root fetch - processPackages [dbt-bytehouse]: Remove: archive file [/home/abi/fetcher/tmp/dbt-bytehouse-1.7.2.tar.gz]
 [2024-04-26 08:40:27] INFO root fetch - main [MainThread]: End processing [dbt-bytehouse]: success
 [2024-04-26 08:40:27] INFO root fetch - main [MainThread]: Store serial: [22943565]
+[2024-04-26 08:42:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22943565]
+[2024-04-26 08:42:36] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-26 08:42:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-onelogin
+[2024-04-26 08:42:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zoltraak
+[2024-04-26 08:42:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mlsauce
+[2024-04-26 08:42:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: thanosql
+[2024-04-26 08:42:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: iscasmodel
+[2024-04-26 08:42:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-openstack
+[2024-04-26 08:42:36] INFO root fetch - processPackages [mlsauce]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-26 08:42:36] INFO root fetch - processPackages [thanosql]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-26 08:42:36] INFO root fetch - processPackages [mlsauce]: Downloading https://files.pythonhosted.org/packages/09/f7/2b520a477f7710396348e4b9d582826758d5b083fe9b79613abe9c1435dd/mlsauce-0.9.0.tar.gz
+[2024-04-26 08:42:36] INFO root fetch - processPackages [pulumi-onelogin]: New version: [0.6.3a1714111717] Old Version: [0.6.3a1713902376]
+[2024-04-26 08:42:36] INFO root fetch - processPackages [zoltraak]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-26 08:42:36] INFO root fetch - processPackages [iscasmodel]: New version: [0.9] Old Version: [0.8]
+[2024-04-26 08:42:36] INFO root fetch - processPackages [pulumi-openstack]: New version: [3.9.0a1659603007] Old Version: [3.9.0a1654086724]
+[2024-04-26 08:42:36] INFO root fetch - processPackages [thanosql]: Downloading https://files.pythonhosted.org/packages/36/14/1f377d48147100fd415e2f074047230e0013eeef478cb3bbb6c750f07b1c/thanosql-0.2.2.tar.gz
+[2024-04-26 08:42:36] INFO root fetch - processPackages [zoltraak]: Downloading https://files.pythonhosted.org/packages/06/9c/d65d421bf6b430d7ac28d3088f268c0039d2b66b6d35800b7531b8f54fbb/zoltraak-0.1.8.tar.gz
+[2024-04-26 08:42:36] INFO root fetch - processPackages [pulumi-onelogin]: Downloading https://files.pythonhosted.org/packages/c7/51/67e1cd1549c54155787b44a7c21f4b116034af1792dd4316a791cb3325f9/pulumi_onelogin-0.6.3a1713902376.tar.gz
+[2024-04-26 08:42:36] INFO root fetch - processPackages [iscasmodel]: Downloading https://files.pythonhosted.org/packages/19/fd/3bfdc33ea889d21a70b23adc7871343826a97f90ea9627c694769bf91799/iscasmodel-0.8.tar.gz
+[2024-04-26 08:42:36] INFO root fetch - processPackages [pulumi-openstack]: Downloading https://files.pythonhosted.org/packages/bb/93/e4acd0fd6ccecb8338145c7929b4f11bbbcda13bd5c5523254ce8f946bd2/pulumi_openstack-3.9.0a1654086724.tar.gz
+[2024-04-26 08:42:36] INFO root fetch - processPackages [mlsauce]: Downloading https://files.pythonhosted.org/packages/34/94/ecad26410f10cd9ffb719f2bc235ed21c44541226f01a963cd37706f4b37/mlsauce-0.9.1.tar.gz
+[2024-04-26 08:42:37] INFO root fetch - processPackages [mlsauce]: executing diffoscope
+[2024-04-26 08:42:37] INFO root fetch - processPackages [mlsauce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlsauce-0.9.0.tar.gz tmp/mlsauce-0.9.1.tar.gz --markdown 20240426/m/mlsauce/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-26 08:42:37] INFO root fetch - processPackages [zoltraak]: Downloading https://files.pythonhosted.org/packages/1f/93/85a56a179b7ebc679c5ad02b221b5954c726a55fc3b490b8ce90a6919ccb/zoltraak-0.1.9.tar.gz
+[2024-04-26 08:42:37] INFO root fetch - processPackages [thanosql]: Downloading https://files.pythonhosted.org/packages/7c/c7/d0764a6ecb0e043467b881ef9036f9576006855c7653b7ee290f75134d3b/thanosql-0.2.3.tar.gz
+[2024-04-26 08:42:37] INFO root fetch - processPackages [pulumi-onelogin]: Downloading https://files.pythonhosted.org/packages/9a/88/5c919441b3086746466872d7a67c1acede3574306c9d8b77144ec23d1601/pulumi_onelogin-0.6.3a1714111717.tar.gz
+[2024-04-26 08:42:37] INFO root fetch - processPackages [zoltraak]: executing diffoscope
+[2024-04-26 08:42:37] INFO root fetch - processPackages [zoltraak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zoltraak-0.1.8.tar.gz tmp/zoltraak-0.1.9.tar.gz --markdown 20240426/z/zoltraak/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-26 08:42:37] INFO root fetch - processPackages [iscasmodel]: Downloading https://files.pythonhosted.org/packages/13/12/355a54f73402f501d8505f078621de0c6e6222dab6f24765d2acfd74f701/iscasmodel-0.9.tar.gz
+[2024-04-26 08:42:37] INFO root fetch - processPackages [thanosql]: executing diffoscope
+[2024-04-26 08:42:37] INFO root fetch - processPackages [thanosql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thanosql-0.2.2.tar.gz tmp/thanosql-0.2.3.tar.gz --markdown 20240426/t/thanosql/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-04-26 08:42:37] INFO root fetch - processPackages [pulumi-onelogin]: executing diffoscope
+[2024-04-26 08:42:37] INFO root fetch - processPackages [pulumi-onelogin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_onelogin-0.6.3a1713902376.tar.gz tmp/pulumi_onelogin-0.6.3a1714111717.tar.gz --markdown 20240426/p/pulumi-onelogin/0.6.3a1713902376-0.6.3a1714111717/README.md --exclude *.pyd
+[2024-04-26 08:42:37] INFO root fetch - processPackages [pulumi-openstack]: Downloading https://files.pythonhosted.org/packages/cf/b9/1f6195a962138e9e532ea6da486cd8eab11855d8b0284a83af9bb290e254/pulumi_openstack-3.9.0a1659603007.tar.gz
+[2024-04-26 08:42:37] INFO root fetch - processPackages [pulumi-openstack]: executing diffoscope
+[2024-04-26 08:42:37] INFO root fetch - processPackages [pulumi-openstack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_openstack-3.9.0a1654086724.tar.gz tmp/pulumi_openstack-3.9.0a1659603007.tar.gz --markdown 20240426/p/pulumi-openstack/3.9.0a1654086724-3.9.0a1659603007/README.md --exclude *.pyd
+[2024-04-26 08:42:37] INFO root fetch - processPackages [iscasmodel]: executing diffoscope
+[2024-04-26 08:42:37] INFO root fetch - processPackages [iscasmodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iscasmodel-0.8.tar.gz tmp/iscasmodel-0.9.tar.gz --markdown 20240426/i/iscasmodel/0.8-0.9/README.md --exclude *.pyd
+[2024-04-26 08:42:37] INFO root fetch - processPackages [mlsauce]: Remove: archive file [/home/abi/fetcher/tmp/mlsauce-0.9.0.tar.gz]
+[2024-04-26 08:42:37] INFO root fetch - processPackages [mlsauce]: Remove: archive file [/home/abi/fetcher/tmp/mlsauce-0.9.1.tar.gz]
+[2024-04-26 08:42:37] INFO root fetch - main [MainThread]: End processing [mlsauce]: success
+[2024-04-26 08:42:37] INFO root fetch - processPackages [zoltraak]: Remove: archive file [/home/abi/fetcher/tmp/zoltraak-0.1.8.tar.gz]
+[2024-04-26 08:42:37] INFO root fetch - processPackages [zoltraak]: Remove: archive file [/home/abi/fetcher/tmp/zoltraak-0.1.9.tar.gz]
+[2024-04-26 08:42:37] INFO root fetch - main [MainThread]: End processing [zoltraak]: success
+[2024-04-26 08:42:38] INFO root fetch - processPackages [thanosql]: Remove: archive file [/home/abi/fetcher/tmp/thanosql-0.2.2.tar.gz]
+[2024-04-26 08:42:38] INFO root fetch - processPackages [thanosql]: Remove: archive file [/home/abi/fetcher/tmp/thanosql-0.2.3.tar.gz]
+[2024-04-26 08:42:38] INFO root fetch - main [MainThread]: End processing [thanosql]: success
+[2024-04-26 08:42:38] INFO root fetch - processPackages [pulumi-onelogin]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_onelogin-0.6.3a1713902376.tar.gz]
+[2024-04-26 08:42:38] INFO root fetch - processPackages [pulumi-onelogin]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_onelogin-0.6.3a1714111717.tar.gz]
+[2024-04-26 08:42:38] INFO root fetch - main [MainThread]: End processing [pulumi-onelogin]: success
+[2024-04-26 08:42:38] INFO root fetch - processPackages [iscasmodel]: Remove: archive file [/home/abi/fetcher/tmp/iscasmodel-0.8.tar.gz]
+[2024-04-26 08:42:38] INFO root fetch - processPackages [iscasmodel]: Remove: archive file [/home/abi/fetcher/tmp/iscasmodel-0.9.tar.gz]
+[2024-04-26 08:42:38] INFO root fetch - main [MainThread]: End processing [iscasmodel]: success
+[2024-04-26 08:42:40] INFO root fetch - processPackages [pulumi-openstack]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_openstack-3.9.0a1654086724.tar.gz]
+[2024-04-26 08:42:40] INFO root fetch - processPackages [pulumi-openstack]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_openstack-3.9.0a1659603007.tar.gz]
+[2024-04-26 08:42:40] INFO root fetch - main [MainThread]: End processing [pulumi-openstack]: success
+[2024-04-26 08:42:40] INFO root fetch - main [MainThread]: Store serial: [22943582]
