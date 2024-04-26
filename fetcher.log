@@ -2208,3 +2208,117 @@
 [2024-04-26 02:18:30] INFO root fetch - processPackages [marimo]: Remove: archive file [/home/abi/fetcher/tmp/marimo-0.4.4.tar.gz]
 [2024-04-26 02:18:30] INFO root fetch - main [MainThread]: End processing [marimo]: success
 [2024-04-26 02:18:30] INFO root fetch - main [MainThread]: Store serial: [22939883]
+[2024-04-26 02:20:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22939883]
+[2024-04-26 02:20:40] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-04-26 02:20:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: focanocodigo
+[2024-04-26 02:20:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ouster-mapping
+[2024-04-26 02:20:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quantconnect-stubs
+[2024-04-26 02:20:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-gitlab-runner
+[2024-04-26 02:20:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Simba-UW-tf-dev
+[2024-04-26 02:20:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-budibase
+[2024-04-26 02:20:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: launchflow
+[2024-04-26 02:20:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: torchao-nightly
+[2024-04-26 02:20:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pulumi-kubernetes-the-hard-way
+[2024-04-26 02:20:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cdklabs.cdk-ethereum-node
+[2024-04-26 02:20:40] INFO root fetch - processPackages [cdk-budibase]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-26 02:20:40] INFO root fetch - processPackages [launchflow]: New version: [0.3.9.dev8] Old Version: [0.3.9.dev7]
+[2024-04-26 02:20:40] INFO root fetch - processPackages [torchao-nightly]: New version: [2024.4.9] Old Version: [2024.4.8]
+[2024-04-26 02:20:40] INFO root fetch - processPackages [quantconnect-stubs]: New version: [9998] Old Version: [9997]
+[2024-04-26 02:20:40] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: New version: [0.0.21a1714054537] Old Version: [0.0.21a1713826115]
+[2024-04-26 02:20:40] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-26 02:20:40] WARNING root fetch - processPackages [focanocodigo]: Skipping, unable to determine old version
+[2024-04-26 02:20:40] INFO root fetch - processPackages [focanocodigo]: Start processing: cdk-aurora-globaldatabase
+[2024-04-26 02:20:40] INFO root fetch - main [MainThread]: End processing [focanocodigo] error
+[2024-04-26 02:20:40] INFO root fetch - processPackages [Simba-UW-tf-dev]: New version: [1.90.6] Old Version: [1.90.5]
+[2024-04-26 02:20:40] INFO root fetch - processPackages [ouster-mapping]: New version: [0.2.0] Old Version: [0.1.1]
+[2024-04-26 02:20:40] INFO root fetch - processPackages [cdk-budibase]: Downloading https://files.pythonhosted.org/packages/4f/0a/01c6428b0ea2e78dd2dd9e10aba3ba8252b6cd0992b5a90ea9ba90983551/cdk-budibase-0.0.98.tar.gz
+[2024-04-26 02:20:41] INFO root fetch - processPackages [cdk-gitlab-runner]: New version: [2.2.99] Old Version: [2.2.98]
+[2024-04-26 02:20:41] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Downloading https://files.pythonhosted.org/packages/d8/1a/417af84315b2d52f6063ccf2072677259777d28fb73cab91e17879faaa26/cdklabs.cdk-ethereum-node-0.0.98.tar.gz
+[2024-04-26 02:20:41] INFO root fetch - processPackages [launchflow]: Downloading https://files.pythonhosted.org/packages/48/58/dc4bcb9a1d74952a08d0cfc5e24c45d961d331cb7a4434c9059bab154c72/launchflow-0.3.9.dev7.tar.gz
+[2024-04-26 02:20:41] INFO root fetch - processPackages [torchao-nightly]: Downloading https://files.pythonhosted.org/packages/5f/75/fa2f35d39cfd048a42fe784f2a57da5743e7983bb669c3e4d8eb5aa83710/torchao-nightly-2024.4.8.tar.gz
+[2024-04-26 02:20:41] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/b3/86/9ebd52bb16b0480f23e9d14d1659a88c706b02395aff273c568eb40dd286/pulumi_kubernetes_the_hard_way-0.0.21a1713826115.tar.gz
+[2024-04-26 02:20:41] INFO root fetch - processPackages [quantconnect-stubs]: Downloading https://files.pythonhosted.org/packages/c1/05/f15c16a3f852decfd032ce1688dfdf02fd7289f1780742453533e8c55209/quantconnect-stubs-9997.tar.gz
+[2024-04-26 02:20:41] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: New version: [2.3.99] Old Version: [2.3.98]
+[2024-04-26 02:20:41] INFO root fetch - processPackages [Simba-UW-tf-dev]: Downloading https://files.pythonhosted.org/packages/a2/6f/e3ea433ba701d4f34384e4465874f977196e19617658ccb28d63d8550bb9/Simba-UW-tf-dev-1.90.5.tar.gz
+[2024-04-26 02:20:41] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/e4/39/e997b5acac972df8d777c4a4ad6dfd9f51e03e75fc8e23c973a7772267d5/cdk-aurora-globaldatabase-2.3.98.tar.gz
+[2024-04-26 02:20:41] INFO root fetch - processPackages [ouster-mapping]: Downloading https://files.pythonhosted.org/packages/7f/8c/ad1ea151e7ffbc3bab520a518f6d97a7aa40e495c123ab7a9df81e93713e/ouster_mapping-0.1.1.tar.gz
+[2024-04-26 02:20:41] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/07/29/9f2cc8590770873b6073743e94ff15a2a7913eb0de3e6a4d2fc133008f62/cdk-gitlab-runner-2.2.98.tar.gz
+[2024-04-26 02:20:41] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Downloading https://files.pythonhosted.org/packages/2d/d8/3fd98f927d9988f7c189f488b1829ac7aa7f855bf93f6030e3bed9af9a97/cdklabs.cdk-ethereum-node-0.0.99.tar.gz
+[2024-04-26 02:20:41] INFO root fetch - processPackages [launchflow]: Downloading https://files.pythonhosted.org/packages/8c/d2/f0544d4c3383370934bcc7b31fa0449e89fcfa2edeeac48bd86ada84b492/launchflow-0.3.9.dev8.tar.gz
+[2024-04-26 02:20:41] INFO root fetch - processPackages [cdk-budibase]: Downloading https://files.pythonhosted.org/packages/3d/b1/10d1c8f0601959fd0771f3dc7b94b15e702b81729d74397e80ca3dd66c88/cdk-budibase-0.0.99.tar.gz
+[2024-04-26 02:20:41] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/b3/09/bc5cd75203baa57e4796e68e406d484c9b67fdc009bf8b8783e6731294f9/pulumi_kubernetes_the_hard_way-0.0.21a1714054537.tar.gz
+[2024-04-26 02:20:41] INFO root fetch - processPackages [torchao-nightly]: Downloading https://files.pythonhosted.org/packages/4b/d5/e0ae6447ebc2fc27b71391c55653c89c441bbe6a6a8a7b37aa28dc13014e/torchao-nightly-2024.4.9.tar.gz
+[2024-04-26 02:20:41] INFO root fetch - processPackages [quantconnect-stubs]: Downloading https://files.pythonhosted.org/packages/b7/4c/71e6bb724f14efcd8865f2aa692528a4c45877c58f5cf8c964a8e0fc0e74/quantconnect-stubs-9998.tar.gz
+[2024-04-26 02:20:41] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: executing diffoscope
+[2024-04-26 02:20:41] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-ethereum-node-0.0.98.tar.gz tmp/cdklabs.cdk-ethereum-node-0.0.99.tar.gz --markdown 20240426/c/cdklabs.cdk-ethereum-node/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-04-26 02:20:41] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/51/53/0158facaec2becec86707148eb931de78a7ad1c2b63f80b9911a53e4c17b/cdk-aurora-globaldatabase-2.3.99.tar.gz
+[2024-04-26 02:20:41] INFO root fetch - processPackages [launchflow]: executing diffoscope
+[2024-04-26 02:20:41] INFO root fetch - processPackages [launchflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/launchflow-0.3.9.dev7.tar.gz tmp/launchflow-0.3.9.dev8.tar.gz --markdown 20240426/l/launchflow/0.3.9.dev7-0.3.9.dev8/README.md --exclude *.pyd
+[2024-04-26 02:20:41] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: executing diffoscope
+[2024-04-26 02:20:41] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kubernetes_the_hard_way-0.0.21a1713826115.tar.gz tmp/pulumi_kubernetes_the_hard_way-0.0.21a1714054537.tar.gz --markdown 20240426/p/pulumi-kubernetes-the-hard-way/0.0.21a1713826115-0.0.21a1714054537/README.md --exclude *.pyd
+[2024-04-26 02:20:41] INFO root fetch - processPackages [cdk-budibase]: executing diffoscope
+[2024-04-26 02:20:41] INFO root fetch - processPackages [cdk-budibase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-budibase-0.0.98.tar.gz tmp/cdk-budibase-0.0.99.tar.gz --markdown 20240426/c/cdk-budibase/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-04-26 02:20:41] INFO root fetch - processPackages [torchao-nightly]: executing diffoscope
+[2024-04-26 02:20:41] INFO root fetch - processPackages [torchao-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchao-nightly-2024.4.8.tar.gz tmp/torchao-nightly-2024.4.9.tar.gz --markdown 20240426/t/torchao-nightly/2024.4.8-2024.4.9/README.md --exclude *.pyd
+[2024-04-26 02:20:41] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/16/61/e9f00b4e877a6352bd641de360f7577c27548fbcedc3aab19b1cf3852b9a/cdk-gitlab-runner-2.2.99.tar.gz
+[2024-04-26 02:20:41] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: executing diffoscope
+[2024-04-26 02:20:41] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz --markdown 20240426/c/cdk-aurora-globaldatabase/2.3.98-2.3.99/README.md --exclude *.pyd
+[2024-04-26 02:20:41] INFO root fetch - processPackages [quantconnect-stubs]: executing diffoscope
+[2024-04-26 02:20:41] INFO root fetch - processPackages [quantconnect-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantconnect-stubs-9997.tar.gz tmp/quantconnect-stubs-9998.tar.gz --markdown 20240426/q/quantconnect-stubs/9997-9998/README.md --exclude *.pyd
+[2024-04-26 02:20:41] INFO root fetch - processPackages [ouster-mapping]: Downloading https://files.pythonhosted.org/packages/ce/c2/15ffb9f379462d01bbd7e02ae13871c57453bf75449af477267fab71b7c7/ouster_mapping-0.2.0-py3-none-any.whl
+[2024-04-26 02:20:41] INFO root fetch - processPackages [Simba-UW-tf-dev]: Downloading https://files.pythonhosted.org/packages/37/e2/0e1d77e4db2cbdd2172a5028f5a73779377a9d5adf2e5529467de1cf11f1/Simba-UW-tf-dev-1.90.6.tar.gz
+[2024-04-26 02:20:41] INFO root fetch - processPackages [cdk-gitlab-runner]: executing diffoscope
+[2024-04-26 02:20:41] INFO root fetch - processPackages [cdk-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-gitlab-runner-2.2.98.tar.gz tmp/cdk-gitlab-runner-2.2.99.tar.gz --markdown 20240426/c/cdk-gitlab-runner/2.2.98-2.2.99/README.md --exclude *.pyd
+[2024-04-26 02:20:41] INFO root fetch - processPackages [ouster-mapping]: executing diffoscope
+[2024-04-26 02:20:41] INFO root fetch - processPackages [ouster-mapping]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ouster_mapping-0.1.1.tar.gz tmp/ouster_mapping-0.2.0-py3-none-any.whl.zip --markdown 20240426/o/ouster-mapping/0.1.1-0.2.0/README.md --exclude *.pyd
+[2024-04-26 02:20:42] INFO root fetch - processPackages [Simba-UW-tf-dev]: executing diffoscope
+[2024-04-26 02:20:42] INFO root fetch - processPackages [Simba-UW-tf-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Simba-UW-tf-dev-1.90.5.tar.gz tmp/Simba-UW-tf-dev-1.90.6.tar.gz --markdown 20240426/S/Simba-UW-tf-dev/1.90.5-1.90.6/README.md --exclude *.pyd
+[2024-04-26 02:20:42] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-ethereum-node-0.0.98.tar.gz]
+[2024-04-26 02:20:42] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-ethereum-node-0.0.99.tar.gz]
+[2024-04-26 02:20:42] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Start processing: QuackOSM
+[2024-04-26 02:20:42] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-ethereum-node]: success
+[2024-04-26 02:20:42] INFO root fetch - processPackages [QuackOSM]: New version: [0.7.0] Old Version: [0.6.1]
+[2024-04-26 02:20:42] INFO root fetch - processPackages [QuackOSM]: Downloading https://files.pythonhosted.org/packages/5e/dc/77799b5f8e1a29a54f9c6d3a11f00822b2e20f63a572d825e5dcb1141e8c/quackosm-0.6.1.tar.gz
+[2024-04-26 02:20:42] INFO root fetch - processPackages [torchao-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchao-nightly-2024.4.8.tar.gz]
+[2024-04-26 02:20:42] INFO root fetch - processPackages [torchao-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchao-nightly-2024.4.9.tar.gz]
+[2024-04-26 02:20:42] INFO root fetch - processPackages [torchao-nightly]: Start processing: abacusai
+[2024-04-26 02:20:42] INFO root fetch - main [MainThread]: End processing [torchao-nightly]: success
+[2024-04-26 02:20:42] INFO root fetch - processPackages [cdk-budibase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-budibase-0.0.98.tar.gz]
+[2024-04-26 02:20:42] INFO root fetch - processPackages [cdk-budibase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-budibase-0.0.99.tar.gz]
+[2024-04-26 02:20:42] INFO root fetch - main [MainThread]: End processing [cdk-budibase]: success
+[2024-04-26 02:20:42] INFO root fetch - processPackages [ouster-mapping]: Remove: archive file [/home/abi/fetcher/tmp/ouster_mapping-0.1.1.tar.gz]
+[2024-04-26 02:20:42] INFO root fetch - processPackages [ouster-mapping]: Remove: archive file [/home/abi/fetcher/tmp/ouster_mapping-0.2.0-py3-none-any.whl.zip]
+[2024-04-26 02:20:42] INFO root fetch - main [MainThread]: End processing [ouster-mapping]: success
+[2024-04-26 02:20:42] INFO root fetch - processPackages [abacusai]: New version: [1.2.4] Old Version: [1.2.3]
+[2024-04-26 02:20:42] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.2.98.tar.gz]
+[2024-04-26 02:20:42] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.2.99.tar.gz]
+[2024-04-26 02:20:42] INFO root fetch - main [MainThread]: End processing [cdk-gitlab-runner]: success
+[2024-04-26 02:20:42] INFO root fetch - processPackages [launchflow]: Remove: archive file [/home/abi/fetcher/tmp/launchflow-0.3.9.dev7.tar.gz]
+[2024-04-26 02:20:42] INFO root fetch - processPackages [launchflow]: Remove: archive file [/home/abi/fetcher/tmp/launchflow-0.3.9.dev8.tar.gz]
+[2024-04-26 02:20:42] INFO root fetch - main [MainThread]: End processing [launchflow]: success
+[2024-04-26 02:20:42] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.21a1713826115.tar.gz]
+[2024-04-26 02:20:42] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.21a1714054537.tar.gz]
+[2024-04-26 02:20:42] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes-the-hard-way]: success
+[2024-04-26 02:20:42] INFO root fetch - processPackages [QuackOSM]: Downloading https://files.pythonhosted.org/packages/83/ad/a7f0f5f872c88aa1ee69733911086834bd4ea1790f7cabbd065fa50961f7/quackosm-0.7.0.tar.gz
+[2024-04-26 02:20:42] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz]
+[2024-04-26 02:20:42] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz]
+[2024-04-26 02:20:42] INFO root fetch - main [MainThread]: End processing [cdk-aurora-globaldatabase]: success
+[2024-04-26 02:20:42] INFO root fetch - processPackages [abacusai]: Downloading https://files.pythonhosted.org/packages/e6/11/4701d9238d3c798c550071c5c193a005549b0be3451c8294c2f1f69b521b/abacusai-1.2.3.tar.gz
+[2024-04-26 02:20:43] INFO root fetch - processPackages [QuackOSM]: executing diffoscope
+[2024-04-26 02:20:43] INFO root fetch - processPackages [QuackOSM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quackosm-0.6.1.tar.gz tmp/quackosm-0.7.0.tar.gz --markdown 20240426/Q/QuackOSM/0.6.1-0.7.0/README.md --exclude *.pyd
+[2024-04-26 02:20:43] INFO root fetch - processPackages [abacusai]: Downloading https://files.pythonhosted.org/packages/8c/16/77465319e22c391afc6be15ece7534cb2a02edd5f17f019b686e19e5f5b1/abacusai-1.2.4.tar.gz
+[2024-04-26 02:20:43] INFO root fetch - processPackages [QuackOSM]: Remove: archive file [/home/abi/fetcher/tmp/quackosm-0.6.1.tar.gz]
+[2024-04-26 02:20:43] INFO root fetch - processPackages [QuackOSM]: Remove: archive file [/home/abi/fetcher/tmp/quackosm-0.7.0.tar.gz]
+[2024-04-26 02:20:43] INFO root fetch - main [MainThread]: End processing [QuackOSM]: success
+[2024-04-26 02:20:44] INFO root fetch - processPackages [abacusai]: executing diffoscope
+[2024-04-26 02:20:44] INFO root fetch - processPackages [abacusai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abacusai-1.2.3.tar.gz tmp/abacusai-1.2.4.tar.gz --markdown 20240426/a/abacusai/1.2.3-1.2.4/README.md --exclude *.pyd
+[2024-04-26 02:20:44] INFO root fetch - processPackages [quantconnect-stubs]: Remove: archive file [/home/abi/fetcher/tmp/quantconnect-stubs-9997.tar.gz]
+[2024-04-26 02:20:44] INFO root fetch - processPackages [quantconnect-stubs]: Remove: archive file [/home/abi/fetcher/tmp/quantconnect-stubs-9998.tar.gz]
+[2024-04-26 02:20:44] INFO root fetch - main [MainThread]: End processing [quantconnect-stubs]: success
+[2024-04-26 02:20:45] INFO root fetch - processPackages [Simba-UW-tf-dev]: Remove: archive file [/home/abi/fetcher/tmp/Simba-UW-tf-dev-1.90.5.tar.gz]
+[2024-04-26 02:20:45] INFO root fetch - processPackages [Simba-UW-tf-dev]: Remove: archive file [/home/abi/fetcher/tmp/Simba-UW-tf-dev-1.90.6.tar.gz]
+[2024-04-26 02:20:45] INFO root fetch - main [MainThread]: End processing [Simba-UW-tf-dev]: success
+[2024-04-26 02:20:49] INFO root fetch - processPackages [abacusai]: Remove: archive file [/home/abi/fetcher/tmp/abacusai-1.2.3.tar.gz]
+[2024-04-26 02:20:49] INFO root fetch - processPackages [abacusai]: Remove: archive file [/home/abi/fetcher/tmp/abacusai-1.2.4.tar.gz]
+[2024-04-26 02:20:49] INFO root fetch - main [MainThread]: End processing [abacusai]: success
+[2024-04-26 02:20:49] INFO root fetch - main [MainThread]: Store serial: [22939922]
