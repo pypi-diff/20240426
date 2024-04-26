@@ -17498,3 +17498,45 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 12:27:42] INFO root fetch - processPackages [edumfa]: Remove: archive file [/home/abi/fetcher/tmp/edumfa-2.0.2.tar.gz]
 [2024-04-26 12:27:42] INFO root fetch - main [MainThread]: End processing [edumfa]: success
 [2024-04-26 12:27:42] INFO root fetch - main [MainThread]: Store serial: [22946269]
+[2024-04-26 12:29:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22946269]
+[2024-04-26 12:29:51] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-26 12:29:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cg
+[2024-04-26 12:29:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alipay-faas-server-sdk
+[2024-04-26 12:29:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: shopware-api-client
+[2024-04-26 12:29:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wonder-diffusion-sdk
+[2024-04-26 12:29:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pipez
+[2024-04-26 12:29:51] WARNING root fetch - processPackages [alipay-faas-server-sdk]: Skipping, unable to determine old version
+[2024-04-26 12:29:51] INFO root fetch - main [MainThread]: End processing [alipay-faas-server-sdk] error
+[2024-04-26 12:29:51] INFO root fetch - processPackages [pipez]: New version: [0.0.98] Old Version: [0.0.97]
+[2024-04-26 12:29:51] INFO root fetch - processPackages [cg]: New version: [60.4.4] Old Version: [60.4.3]
+[2024-04-26 12:29:51] INFO root fetch - processPackages [shopware-api-client]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-26 12:29:51] INFO root fetch - processPackages [wonder-diffusion-sdk]: New version: [0.0.4.dev3] Old Version: [0.0.4.dev2]
+[2024-04-26 12:29:51] INFO root fetch - processPackages [pipez]: Downloading https://files.pythonhosted.org/packages/dd/3c/3b68f86331de61ec917eb6caea857c951281310583639d7ed6e62f81d7f6/pipez-0.0.97.tar.gz
+[2024-04-26 12:29:51] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/6c/03/bd558087f584029c31206ed8d48fb3c151c8bd80eeaae66e7291f11abe15/cg-60.4.3.tar.gz
+[2024-04-26 12:29:51] INFO root fetch - processPackages [wonder-diffusion-sdk]: Downloading https://files.pythonhosted.org/packages/ba/fd/c2e3775349ee397c87a468086f382719abd2226caed4ae0d0ee6011c32db/wonder-diffusion-sdk-0.0.4.dev2.tar.gz
+[2024-04-26 12:29:51] INFO root fetch - processPackages [shopware-api-client]: Downloading https://files.pythonhosted.org/packages/b7/0f/6c9dc02510fb7785f1be2822ab641b54bf44cf6cb4df1763cdba560cc69b/shopware_api_client-1.0.8.tar.gz
+[2024-04-26 12:29:52] INFO root fetch - processPackages [pipez]: Downloading https://files.pythonhosted.org/packages/c8/62/5b717f40c0fa19b721b0c32e9704e07e3efc6ef66d9e9235e125637ee655/pipez-0.0.98.tar.gz
+[2024-04-26 12:29:52] INFO root fetch - processPackages [shopware-api-client]: Downloading https://files.pythonhosted.org/packages/71/6c/c42b67ee3d6f04c8e4203f50b963d759982a0c08ac17865980b8cf805393/shopware_api_client-1.0.9.tar.gz
+[2024-04-26 12:29:52] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/f4/d9/4385ba2b2be49af0740cc769ff801f73be63348720ae33b857f854774cea/cg-60.4.4.tar.gz
+[2024-04-26 12:29:52] INFO root fetch - processPackages [wonder-diffusion-sdk]: Downloading https://files.pythonhosted.org/packages/14/53/c796f81cdea7a1f4aa49c07bf670c25d456a7904721850bf1de54701fc43/wonder-diffusion-sdk-0.0.4.dev3.tar.gz
+[2024-04-26 12:29:52] INFO root fetch - processPackages [pipez]: executing diffoscope
+[2024-04-26 12:29:52] INFO root fetch - processPackages [pipez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipez-0.0.97.tar.gz tmp/pipez-0.0.98.tar.gz --markdown 20240426/p/pipez/0.0.97-0.0.98/README.md --exclude *.pyd
+[2024-04-26 12:29:52] INFO root fetch - processPackages [wonder-diffusion-sdk]: executing diffoscope
+[2024-04-26 12:29:52] INFO root fetch - processPackages [wonder-diffusion-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wonder-diffusion-sdk-0.0.4.dev2.tar.gz tmp/wonder-diffusion-sdk-0.0.4.dev3.tar.gz --markdown 20240426/w/wonder-diffusion-sdk/0.0.4.dev2-0.0.4.dev3/README.md --exclude *.pyd
+[2024-04-26 12:29:52] INFO root fetch - processPackages [shopware-api-client]: executing diffoscope
+[2024-04-26 12:29:52] INFO root fetch - processPackages [shopware-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shopware_api_client-1.0.8.tar.gz tmp/shopware_api_client-1.0.9.tar.gz --markdown 20240426/s/shopware-api-client/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-26 12:29:52] INFO root fetch - processPackages [cg]: executing diffoscope
+[2024-04-26 12:29:52] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-60.4.3.tar.gz tmp/cg-60.4.4.tar.gz --markdown 20240426/c/cg/60.4.3-60.4.4/README.md --exclude *.pyd
+[2024-04-26 12:29:53] INFO root fetch - processPackages [wonder-diffusion-sdk]: Remove: archive file [/home/abi/fetcher/tmp/wonder-diffusion-sdk-0.0.4.dev2.tar.gz]
+[2024-04-26 12:29:53] INFO root fetch - processPackages [wonder-diffusion-sdk]: Remove: archive file [/home/abi/fetcher/tmp/wonder-diffusion-sdk-0.0.4.dev3.tar.gz]
+[2024-04-26 12:29:53] INFO root fetch - main [MainThread]: End processing [wonder-diffusion-sdk]: success
+[2024-04-26 12:29:53] INFO root fetch - processPackages [shopware-api-client]: Remove: archive file [/home/abi/fetcher/tmp/shopware_api_client-1.0.8.tar.gz]
+[2024-04-26 12:29:53] INFO root fetch - processPackages [shopware-api-client]: Remove: archive file [/home/abi/fetcher/tmp/shopware_api_client-1.0.9.tar.gz]
+[2024-04-26 12:29:53] INFO root fetch - main [MainThread]: End processing [shopware-api-client]: success
+[2024-04-26 12:29:53] INFO root fetch - processPackages [pipez]: Remove: archive file [/home/abi/fetcher/tmp/pipez-0.0.97.tar.gz]
+[2024-04-26 12:29:53] INFO root fetch - processPackages [pipez]: Remove: archive file [/home/abi/fetcher/tmp/pipez-0.0.98.tar.gz]
+[2024-04-26 12:29:53] INFO root fetch - main [MainThread]: End processing [pipez]: success
+[2024-04-26 12:29:56] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.4.3.tar.gz]
+[2024-04-26 12:29:56] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.4.4.tar.gz]
+[2024-04-26 12:29:56] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2024-04-26 12:29:56] INFO root fetch - main [MainThread]: Store serial: [22946285]
