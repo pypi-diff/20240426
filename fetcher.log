@@ -13558,3 +13558,81 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 10:02:14] INFO root fetch - processPackages [aiida-workgraph]: Remove: archive file [/home/abi/fetcher/tmp/aiida_workgraph-0.2.1.tar.gz]
 [2024-04-26 10:02:14] INFO root fetch - main [MainThread]: End processing [aiida-workgraph]: success
 [2024-04-26 10:02:14] INFO root fetch - main [MainThread]: Store serial: [22944601]
+[2024-04-26 10:04:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22944601]
+[2024-04-26 10:04:30] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-26 10:04:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: splix
+[2024-04-26 10:04:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: metaphor-connectors
+[2024-04-26 10:04:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cg
+[2024-04-26 10:04:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: remotion-lambda
+[2024-04-26 10:04:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: leadguru-jobs
+[2024-04-26 10:04:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: foss-flame
+[2024-04-26 10:04:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: etos-environment-provider
+[2024-04-26 10:04:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: langfun
+[2024-04-26 10:04:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cognite-neat
+[2024-04-26 10:04:31] INFO root fetch - processPackages [langfun]: New version: [0.0.2.dev20240425] Old Version: [0.0.2.dev20240424]
+[2024-04-26 10:04:31] INFO root fetch - processPackages [metaphor-connectors]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-04-26 10:04:31] INFO root fetch - processPackages [leadguru-jobs]: New version: [0.99.0] Old Version: [0.98.0]
+[2024-04-26 10:04:31] INFO root fetch - processPackages [cg]: New version: [60.4.3] Old Version: [60.4.2]
+[2024-04-26 10:04:31] INFO root fetch - processPackages [langfun]: Downloading https://files.pythonhosted.org/packages/fb/9e/7159067638e6df33d79e1ed19b9ea4b0f39cfdcea53eabcaedc3a85d2905/langfun-0.0.2.dev20240424.tar.gz
+[2024-04-26 10:04:31] WARNING root fetch - processPackages [splix]: Skipping, unable to determine old version
+[2024-04-26 10:04:31] INFO root fetch - main [MainThread]: End processing [splix] error
+[2024-04-26 10:04:31] INFO root fetch - processPackages [etos-environment-provider]: New version: [4.1.0] Old Version: [4.0.0]
+[2024-04-26 10:04:31] INFO root fetch - processPackages [foss-flame]: New version: [0.20.0] Old Version: [0.19.9]
+[2024-04-26 10:04:31] INFO root fetch - processPackages [remotion-lambda]: New version: [4.1.0a12] Old Version: [4.0.98]
+[2024-04-26 10:04:31] INFO root fetch - processPackages [metaphor-connectors]: Downloading https://files.pythonhosted.org/packages/92/c2/f775488949e85740917971e97fbd1e7187de61421ac7fbbc9d5485275473/metaphor-connectors-0.9.3.tar.gz
+[2024-04-26 10:04:31] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/58/0a/904c1f8e92c5b6adf3bf97a755cae87648f67ca82bb52bc30055558e0ce3/leadguru_jobs-0.98.0.tar.gz
+[2024-04-26 10:04:31] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/9a/9d/07389dbe83214de40de55fc0b25bc9be067d5afab6779e17b4ad832ac855/cg-60.4.2.tar.gz
+[2024-04-26 10:04:31] INFO root fetch - processPackages [cognite-neat]: New version: [0.75.6] Old Version: [0.75.5]
+[2024-04-26 10:04:31] INFO root fetch - processPackages [etos-environment-provider]: Downloading https://files.pythonhosted.org/packages/e9/1b/94390a9db16a6e5660acbbec6d62c2501a8279e7ca36b8dce9621ec663f3/etos_environment_provider-4.0.0.tar.gz
+[2024-04-26 10:04:31] INFO root fetch - processPackages [foss-flame]: Downloading https://files.pythonhosted.org/packages/c4/16/fd0ba022d708570c30f87f3771ced43ef0dda7112ca80acb1dc3b3566fa1/foss-flame-0.19.9.tar.gz
+[2024-04-26 10:04:31] INFO root fetch - processPackages [remotion-lambda]: Downloading https://files.pythonhosted.org/packages/3f/c5/94eff7677b9dca598bdba065311eeb371512d0bb7b2ded018d2bffb1597a/remotion_lambda-4.0.98.tar.gz
+[2024-04-26 10:04:31] INFO root fetch - processPackages [metaphor-connectors]: Downloading https://files.pythonhosted.org/packages/7e/f3/fd51e0c2498f7340487d8eba1ee24a716e8056cce2a496a20f5da0cc11de/metaphor-connectors-0.9.4.tar.gz
+[2024-04-26 10:04:31] INFO root fetch - processPackages [langfun]: Downloading https://files.pythonhosted.org/packages/5b/c7/3efc0aba0a63b996e05059246dbe34fe6c1d87ec4e0ed7c52c8598918111/langfun-0.0.2.dev20240425.tar.gz
+[2024-04-26 10:04:31] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/e4/7f/189fe7a4dc1256297dd1956413531652ee35cd4ee527f02aa7f2d608775a/leadguru_jobs-0.99.0.tar.gz
+[2024-04-26 10:04:31] INFO root fetch - processPackages [cognite-neat]: Downloading https://files.pythonhosted.org/packages/e3/19/9f3d99e6cb1b471cd5fc7cbeb1061c42d5aa126d8382bd4df6b9c384d898/cognite_neat-0.75.5.tar.gz
+[2024-04-26 10:04:31] INFO root fetch - processPackages [langfun]: executing diffoscope
+[2024-04-26 10:04:31] INFO root fetch - processPackages [langfun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langfun-0.0.2.dev20240424.tar.gz tmp/langfun-0.0.2.dev20240425.tar.gz --markdown 20240426/l/langfun/0.0.2.dev20240424-0.0.2.dev20240425/README.md --exclude *.pyd
+[2024-04-26 10:04:31] INFO root fetch - processPackages [leadguru-jobs]: executing diffoscope
+[2024-04-26 10:04:31] INFO root fetch - processPackages [leadguru-jobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_jobs-0.98.0.tar.gz tmp/leadguru_jobs-0.99.0.tar.gz --markdown 20240426/l/leadguru-jobs/0.98.0-0.99.0/README.md --exclude *.pyd
+[2024-04-26 10:04:31] INFO root fetch - processPackages [metaphor-connectors]: executing diffoscope
+[2024-04-26 10:04:31] INFO root fetch - processPackages [metaphor-connectors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metaphor-connectors-0.9.3.tar.gz tmp/metaphor-connectors-0.9.4.tar.gz --markdown 20240426/m/metaphor-connectors/0.9.3-0.9.4/README.md --exclude *.pyd
+[2024-04-26 10:04:31] INFO root fetch - processPackages [etos-environment-provider]: Downloading https://files.pythonhosted.org/packages/db/34/d82672353bc8866483b63d294d85330d3a092d13bf46991bc1ec585074b9/etos_environment_provider-4.1.0.tar.gz
+[2024-04-26 10:04:31] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/6c/03/bd558087f584029c31206ed8d48fb3c151c8bd80eeaae66e7291f11abe15/cg-60.4.3.tar.gz
+[2024-04-26 10:04:31] INFO root fetch - processPackages [remotion-lambda]: Downloading https://files.pythonhosted.org/packages/e2/46/7d3e726fcba2427f51b340f14b65270f6df2b6123085c439b9855a0ab1cd/remotion_lambda-4.1.0a12.tar.gz
+[2024-04-26 10:04:32] INFO root fetch - processPackages [foss-flame]: Downloading https://files.pythonhosted.org/packages/f5/4e/5bb24318e8aa1c709872f2c9c2e03ddf6145c4b82a0658ffec924e00037a/foss-flame-0.20.0.tar.gz
+[2024-04-26 10:04:32] INFO root fetch - processPackages [etos-environment-provider]: executing diffoscope
+[2024-04-26 10:04:32] INFO root fetch - processPackages [etos-environment-provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/etos_environment_provider-4.0.0.tar.gz tmp/etos_environment_provider-4.1.0.tar.gz --markdown 20240426/e/etos-environment-provider/4.0.0-4.1.0/README.md --exclude *.pyd
+[2024-04-26 10:04:32] INFO root fetch - processPackages [remotion-lambda]: executing diffoscope
+[2024-04-26 10:04:32] INFO root fetch - processPackages [remotion-lambda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remotion_lambda-4.0.98.tar.gz tmp/remotion_lambda-4.1.0a12.tar.gz --markdown 20240426/r/remotion-lambda/4.0.98-4.1.0a12/README.md --exclude *.pyd
+[2024-04-26 10:04:32] INFO root fetch - processPackages [foss-flame]: executing diffoscope
+[2024-04-26 10:04:32] INFO root fetch - processPackages [foss-flame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foss-flame-0.19.9.tar.gz tmp/foss-flame-0.20.0.tar.gz --markdown 20240426/f/foss-flame/0.19.9-0.20.0/README.md --exclude *.pyd
+[2024-04-26 10:04:32] INFO root fetch - processPackages [cognite-neat]: Downloading https://files.pythonhosted.org/packages/71/f1/891bbd1089830da32dfa79049f7c88fb670df436394ece548178a4493171/cognite_neat-0.75.6.tar.gz
+[2024-04-26 10:04:32] INFO root fetch - processPackages [cg]: executing diffoscope
+[2024-04-26 10:04:32] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-60.4.2.tar.gz tmp/cg-60.4.3.tar.gz --markdown 20240426/c/cg/60.4.2-60.4.3/README.md --exclude *.pyd
+[2024-04-26 10:04:32] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.98.0.tar.gz]
+[2024-04-26 10:04:32] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.99.0.tar.gz]
+[2024-04-26 10:04:32] INFO root fetch - main [MainThread]: End processing [leadguru-jobs]: success
+[2024-04-26 10:04:32] INFO root fetch - processPackages [remotion-lambda]: Remove: archive file [/home/abi/fetcher/tmp/remotion_lambda-4.0.98.tar.gz]
+[2024-04-26 10:04:32] INFO root fetch - processPackages [remotion-lambda]: Remove: archive file [/home/abi/fetcher/tmp/remotion_lambda-4.1.0a12.tar.gz]
+[2024-04-26 10:04:32] INFO root fetch - main [MainThread]: End processing [remotion-lambda]: success
+[2024-04-26 10:04:32] INFO root fetch - processPackages [metaphor-connectors]: Remove: archive file [/home/abi/fetcher/tmp/metaphor-connectors-0.9.3.tar.gz]
+[2024-04-26 10:04:32] INFO root fetch - processPackages [metaphor-connectors]: Remove: archive file [/home/abi/fetcher/tmp/metaphor-connectors-0.9.4.tar.gz]
+[2024-04-26 10:04:32] INFO root fetch - main [MainThread]: End processing [metaphor-connectors]: success
+[2024-04-26 10:04:33] INFO root fetch - processPackages [langfun]: Remove: archive file [/home/abi/fetcher/tmp/langfun-0.0.2.dev20240424.tar.gz]
+[2024-04-26 10:04:33] INFO root fetch - processPackages [langfun]: Remove: archive file [/home/abi/fetcher/tmp/langfun-0.0.2.dev20240425.tar.gz]
+[2024-04-26 10:04:33] INFO root fetch - main [MainThread]: End processing [langfun]: success
+[2024-04-26 10:04:33] INFO root fetch - processPackages [etos-environment-provider]: Remove: archive file [/home/abi/fetcher/tmp/etos_environment_provider-4.0.0.tar.gz]
+[2024-04-26 10:04:33] INFO root fetch - processPackages [etos-environment-provider]: Remove: archive file [/home/abi/fetcher/tmp/etos_environment_provider-4.1.0.tar.gz]
+[2024-04-26 10:04:33] INFO root fetch - main [MainThread]: End processing [etos-environment-provider]: success
+[2024-04-26 10:04:33] INFO root fetch - processPackages [cognite-neat]: executing diffoscope
+[2024-04-26 10:04:33] INFO root fetch - processPackages [cognite-neat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_neat-0.75.5.tar.gz tmp/cognite_neat-0.75.6.tar.gz --markdown 20240426/c/cognite-neat/0.75.5-0.75.6/README.md --exclude *.pyd
+[2024-04-26 10:04:33] INFO root fetch - processPackages [foss-flame]: Remove: archive file [/home/abi/fetcher/tmp/foss-flame-0.19.9.tar.gz]
+[2024-04-26 10:04:33] INFO root fetch - processPackages [foss-flame]: Remove: archive file [/home/abi/fetcher/tmp/foss-flame-0.20.0.tar.gz]
+[2024-04-26 10:04:33] INFO root fetch - main [MainThread]: End processing [foss-flame]: success
+[2024-04-26 10:04:36] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.4.2.tar.gz]
+[2024-04-26 10:04:36] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.4.3.tar.gz]
+[2024-04-26 10:04:36] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2024-04-26 10:04:37] INFO root fetch - processPackages [cognite-neat]: Remove: archive file [/home/abi/fetcher/tmp/cognite_neat-0.75.5.tar.gz]
+[2024-04-26 10:04:37] INFO root fetch - processPackages [cognite-neat]: Remove: archive file [/home/abi/fetcher/tmp/cognite_neat-0.75.6.tar.gz]
+[2024-04-26 10:04:37] INFO root fetch - main [MainThread]: End processing [cognite-neat]: success
+[2024-04-26 10:04:37] INFO root fetch - main [MainThread]: Store serial: [22944630]
