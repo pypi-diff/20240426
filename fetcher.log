@@ -7952,3 +7952,54 @@
 [2024-04-26 05:11:12] INFO root fetch - processPackages [YaraForge]: Remove: archive file [/home/abi/fetcher/tmp/YaraForge-0.1.6b1.tar.gz]
 [2024-04-26 05:11:12] INFO root fetch - main [MainThread]: End processing [YaraForge]: success
 [2024-04-26 05:11:12] INFO root fetch - main [MainThread]: Store serial: [22942167]
+[2024-04-26 05:13:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22942167]
+[2024-04-26 05:13:20] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-26 05:13:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spkdevtools
+[2024-04-26 05:13:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rel
+[2024-04-26 05:13:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdktf-cdktf-provider-digitalocean
+[2024-04-26 05:13:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-aws
+[2024-04-26 05:13:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdktf-cdktf-provider-newrelic
+[2024-04-26 05:13:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: taskara
+[2024-04-26 05:13:20] INFO root fetch - processPackages [taskara]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-26 05:13:20] INFO root fetch - processPackages [rel]: New version: [0.4.9.9] Old Version: [0.4.9.8]
+[2024-04-26 05:13:20] INFO root fetch - processPackages [taskara]: Downloading https://files.pythonhosted.org/packages/d6/1e/172ae85d48722a1e28b9526c0bb34465bd7920d0c8e6858e25a3f8c528a9/taskara-0.1.7.tar.gz
+[2024-04-26 05:13:20] INFO root fetch - processPackages [rel]: Downloading https://files.pythonhosted.org/packages/e4/e3/10318da1c90cf22ae6b178342946d3e614a0f467dce98225a6ca78f84c39/rel-0.4.9.8-py3-none-any.whl
+[2024-04-26 05:13:20] INFO root fetch - processPackages [pulumi-aws]: New version: [6.9.0a1700084435] Old Version: [6.9.0a1699991594]
+[2024-04-26 05:13:20] WARNING root fetch - processPackages [spkdevtools]: Skipping, unable to determine old version
+[2024-04-26 05:13:20] INFO root fetch - main [MainThread]: End processing [spkdevtools] error
+[2024-04-26 05:13:20] INFO root fetch - processPackages [cdktf-cdktf-provider-digitalocean]: New version: [9.0.1] Old Version: [9.0.0]
+[2024-04-26 05:13:20] INFO root fetch - processPackages [cdktf-cdktf-provider-newrelic]: New version: [9.0.3] Old Version: [9.0.2]
+[2024-04-26 05:13:20] INFO root fetch - processPackages [rel]: Downloading https://files.pythonhosted.org/packages/9e/20/2e43dfac115c1784bfbb18a0f141215d27e937046a4115b2d3988d889c19/rel-0.4.9.9-py3-none-any.whl
+[2024-04-26 05:13:20] INFO root fetch - processPackages [taskara]: Downloading https://files.pythonhosted.org/packages/c0/4f/e9467a6dd755091e2fe2294b58569b289c5252fd70463791829fd99fbfd7/taskara-0.1.8.tar.gz
+[2024-04-26 05:13:20] INFO root fetch - processPackages [cdktf-cdktf-provider-digitalocean]: Downloading https://files.pythonhosted.org/packages/2e/6c/a7df4c4ad7f38f74d32540e1217748e42244e347a42bae8c2279fbd344bd/cdktf-cdktf-provider-digitalocean-9.0.0.tar.gz
+[2024-04-26 05:13:20] INFO root fetch - processPackages [cdktf-cdktf-provider-newrelic]: Downloading https://files.pythonhosted.org/packages/55/6c/13147eb9dc112527bf0b1655b4fe6d422b316473a9b1bba53a578fefe783/cdktf-cdktf-provider-newrelic-9.0.2.tar.gz
+[2024-04-26 05:13:20] INFO root fetch - processPackages [pulumi-aws]: Downloading https://files.pythonhosted.org/packages/e1/df/14b748e40340692e18bd19ad3631916881c3bfc6ab8cc9db1f79ca1fb86a/pulumi_aws-6.9.0a1699991594.tar.gz
+[2024-04-26 05:13:21] INFO root fetch - processPackages [rel]: executing diffoscope
+[2024-04-26 05:13:21] INFO root fetch - processPackages [rel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rel-0.4.9.8-py3-none-any.whl.zip tmp/rel-0.4.9.9-py3-none-any.whl.zip --markdown 20240426/r/rel/0.4.9.8-0.4.9.9/README.md --exclude *.pyd
+[2024-04-26 05:13:21] INFO root fetch - processPackages [taskara]: executing diffoscope
+[2024-04-26 05:13:21] INFO root fetch - processPackages [taskara]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taskara-0.1.7.tar.gz tmp/taskara-0.1.8.tar.gz --markdown 20240426/t/taskara/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-26 05:13:21] INFO root fetch - processPackages [cdktf-cdktf-provider-digitalocean]: Downloading https://files.pythonhosted.org/packages/37/54/0c54d24323faaeb7a81b959a3875d565f3f927309e36279e4db1165fee68/cdktf-cdktf-provider-digitalocean-9.0.1.tar.gz
+[2024-04-26 05:13:21] INFO root fetch - processPackages [cdktf-cdktf-provider-newrelic]: Downloading https://files.pythonhosted.org/packages/88/f8/83dfce55259c0d4cd856368434e57e65d27ab17a9f11f751221db52666a7/cdktf-cdktf-provider-newrelic-9.0.3.tar.gz
+[2024-04-26 05:13:21] INFO root fetch - processPackages [rel]: Remove: archive file [/home/abi/fetcher/tmp/rel-0.4.9.8-py3-none-any.whl.zip]
+[2024-04-26 05:13:21] INFO root fetch - processPackages [rel]: Remove: archive file [/home/abi/fetcher/tmp/rel-0.4.9.9-py3-none-any.whl.zip]
+[2024-04-26 05:13:21] INFO root fetch - main [MainThread]: End processing [rel]: success
+[2024-04-26 05:13:21] INFO root fetch - processPackages [pulumi-aws]: Downloading https://files.pythonhosted.org/packages/f3/70/32e3669ea3bb0042d4f4aac12c2584c3217ddc25b9e1646f05b9a9e1a24f/pulumi_aws-6.9.0a1700084435.tar.gz
+[2024-04-26 05:13:21] INFO root fetch - processPackages [taskara]: Remove: archive file [/home/abi/fetcher/tmp/taskara-0.1.7.tar.gz]
+[2024-04-26 05:13:21] INFO root fetch - processPackages [taskara]: Remove: archive file [/home/abi/fetcher/tmp/taskara-0.1.8.tar.gz]
+[2024-04-26 05:13:21] INFO root fetch - main [MainThread]: End processing [taskara]: success
+[2024-04-26 05:13:21] INFO root fetch - processPackages [cdktf-cdktf-provider-digitalocean]: executing diffoscope
+[2024-04-26 05:13:21] INFO root fetch - processPackages [cdktf-cdktf-provider-digitalocean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-digitalocean-9.0.0.tar.gz tmp/cdktf-cdktf-provider-digitalocean-9.0.1.tar.gz --markdown 20240426/c/cdktf-cdktf-provider-digitalocean/9.0.0-9.0.1/README.md --exclude *.pyd
+[2024-04-26 05:13:21] INFO root fetch - processPackages [cdktf-cdktf-provider-newrelic]: executing diffoscope
+[2024-04-26 05:13:21] INFO root fetch - processPackages [cdktf-cdktf-provider-newrelic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-newrelic-9.0.2.tar.gz tmp/cdktf-cdktf-provider-newrelic-9.0.3.tar.gz --markdown 20240426/c/cdktf-cdktf-provider-newrelic/9.0.2-9.0.3/README.md --exclude *.pyd
+[2024-04-26 05:13:21] INFO root fetch - processPackages [pulumi-aws]: executing diffoscope
+[2024-04-26 05:13:21] INFO root fetch - processPackages [pulumi-aws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aws-6.9.0a1699991594.tar.gz tmp/pulumi_aws-6.9.0a1700084435.tar.gz --markdown 20240426/p/pulumi-aws/6.9.0a1699991594-6.9.0a1700084435/README.md --exclude *.pyd
+[2024-04-26 05:13:24] INFO root fetch - processPackages [cdktf-cdktf-provider-newrelic]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-newrelic-9.0.2.tar.gz]
+[2024-04-26 05:13:24] INFO root fetch - processPackages [cdktf-cdktf-provider-newrelic]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-newrelic-9.0.3.tar.gz]
+[2024-04-26 05:13:24] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-newrelic]: success
+[2024-04-26 05:13:24] INFO root fetch - processPackages [cdktf-cdktf-provider-digitalocean]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-digitalocean-9.0.0.tar.gz]
+[2024-04-26 05:13:24] INFO root fetch - processPackages [cdktf-cdktf-provider-digitalocean]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-digitalocean-9.0.1.tar.gz]
+[2024-04-26 05:13:24] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-digitalocean]: success
+[2024-04-26 05:13:38] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-6.9.0a1699991594.tar.gz]
+[2024-04-26 05:13:38] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-6.9.0a1700084435.tar.gz]
+[2024-04-26 05:13:38] INFO root fetch - main [MainThread]: End processing [pulumi-aws]: success
+[2024-04-26 05:13:38] INFO root fetch - main [MainThread]: Store serial: [22942186]
