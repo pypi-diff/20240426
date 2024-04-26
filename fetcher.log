@@ -19311,3 +19311,47 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 13:46:49] INFO root fetch - processPackages [fgo-api-types]: Remove: archive file [/home/abi/fetcher/tmp/fgo_api_types-2024.4.6.2.22.3.tar.gz]
 [2024-04-26 13:46:49] INFO root fetch - main [MainThread]: End processing [fgo-api-types]: success
 [2024-04-26 13:46:49] INFO root fetch - main [MainThread]: Store serial: [22947064]
+[2024-04-26 13:48:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22947064]
+[2024-04-26 13:48:58] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-26 13:48:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tinymovr
+[2024-04-26 13:48:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mxcubecore
+[2024-04-26 13:48:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: autoviz
+[2024-04-26 13:48:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mxcubeweb
+[2024-04-26 13:48:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tinybird-cdk
+[2024-04-26 13:48:58] INFO root fetch - processPackages [tinybird-cdk]: New version: [0.17.9] Old Version: [0.17.7]
+[2024-04-26 13:48:58] INFO root fetch - processPackages [mxcubecore]: New version: [1.97.0] Old Version: [1.96.0]
+[2024-04-26 13:48:58] INFO root fetch - processPackages [tinybird-cdk]: Downloading https://files.pythonhosted.org/packages/f3/81/f30f9f528ee749955097b3b30e9e4a3bda7150fe0f441e292388e5b3538f/tinybird_cdk-0.17.7.tar.gz
+[2024-04-26 13:48:58] INFO root fetch - processPackages [autoviz]: New version: [0.1.902] Old Version: [0.1.901]
+[2024-04-26 13:48:58] INFO root fetch - processPackages [mxcubecore]: Downloading https://files.pythonhosted.org/packages/aa/91/fce228bbe3daca7cdd461ceda994d422a29aa99dc4f8e6eaa9292357b554/mxcubecore-1.96.0.tar.gz
+[2024-04-26 13:48:58] INFO root fetch - processPackages [tinymovr]: New version: [2.0.0a2] Old Version: [2.0.0a1]
+[2024-04-26 13:48:58] INFO root fetch - processPackages [mxcubeweb]: New version: [4.9.0] Old Version: [4.8.0]
+[2024-04-26 13:48:58] WARNING root fetch - processPackages [mxcubecore]: Skipping package: exceeds size limit 30978545>=10485760
+[2024-04-26 13:48:58] INFO root fetch - main [MainThread]: End processing [mxcubecore] error
+[2024-04-26 13:48:58] INFO root fetch - processPackages [autoviz]: Downloading https://files.pythonhosted.org/packages/78/f2/ea4d0d103e5c520da5a247c27e715d3b6e1ef028006bfe22c37f01e03d67/autoviz-0.1.901.tar.gz
+[2024-04-26 13:48:58] INFO root fetch - processPackages [tinybird-cdk]: Downloading https://files.pythonhosted.org/packages/c0/52/ca33789ac475a5f5a554bfa9bed5120e1b89730afac4d6adf74847cf8839/tinybird_cdk-0.17.9.tar.gz
+[2024-04-26 13:48:58] INFO root fetch - processPackages [mxcubeweb]: Downloading https://files.pythonhosted.org/packages/e9/9e/c4f610f4b2e24f0448292119c5697d9e6dfdefa4d71a8b7089d4a6953107/mxcubeweb-4.8.0.tar.gz
+[2024-04-26 13:48:58] INFO root fetch - processPackages [tinymovr]: Downloading https://files.pythonhosted.org/packages/81/ff/b514baeb40ee3577f1fbb7a30e84dba86084cf6dc9f80b85dc2596f3314e/tinymovr-2.0.0a1.tar.gz
+[2024-04-26 13:48:58] INFO root fetch - processPackages [tinybird-cdk]: executing diffoscope
+[2024-04-26 13:48:58] INFO root fetch - processPackages [tinybird-cdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinybird_cdk-0.17.7.tar.gz tmp/tinybird_cdk-0.17.9.tar.gz --markdown 20240426/t/tinybird-cdk/0.17.7-0.17.9/README.md --exclude *.pyd
+[2024-04-26 13:48:58] INFO root fetch - processPackages [autoviz]: Downloading https://files.pythonhosted.org/packages/1c/31/2ff5730016765c775a211f6287933d00f07fee481fbe1729d8fc38f376a7/autoviz-0.1.902.tar.gz
+[2024-04-26 13:48:58] INFO root fetch - processPackages [mxcubeweb]: Downloading https://files.pythonhosted.org/packages/70/0a/11c323a9a6ce9c93c1b0707df775fe6f1e768b7bab1fef02a49855813397/mxcubeweb-4.9.0.tar.gz
+[2024-04-26 13:48:58] INFO root fetch - processPackages [tinymovr]: Downloading https://files.pythonhosted.org/packages/be/a0/527d72cbc1bad0247d4e1822a84bf841d2be69d81747fe7b3dde7d0d5a3e/tinymovr-2.0.0a2.tar.gz
+[2024-04-26 13:48:58] INFO root fetch - processPackages [autoviz]: executing diffoscope
+[2024-04-26 13:48:58] INFO root fetch - processPackages [autoviz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoviz-0.1.901.tar.gz tmp/autoviz-0.1.902.tar.gz --markdown 20240426/a/autoviz/0.1.901-0.1.902/README.md --exclude *.pyd
+[2024-04-26 13:48:59] INFO root fetch - processPackages [tinymovr]: executing diffoscope
+[2024-04-26 13:48:59] INFO root fetch - processPackages [tinymovr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinymovr-2.0.0a1.tar.gz tmp/tinymovr-2.0.0a2.tar.gz --markdown 20240426/t/tinymovr/2.0.0a1-2.0.0a2/README.md --exclude *.pyd
+[2024-04-26 13:48:59] INFO root fetch - processPackages [mxcubeweb]: executing diffoscope
+[2024-04-26 13:48:59] INFO root fetch - processPackages [mxcubeweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mxcubeweb-4.8.0.tar.gz tmp/mxcubeweb-4.9.0.tar.gz --markdown 20240426/m/mxcubeweb/4.8.0-4.9.0/README.md --exclude *.pyd
+[2024-04-26 13:48:59] INFO root fetch - processPackages [tinybird-cdk]: Remove: archive file [/home/abi/fetcher/tmp/tinybird_cdk-0.17.7.tar.gz]
+[2024-04-26 13:48:59] INFO root fetch - processPackages [tinybird-cdk]: Remove: archive file [/home/abi/fetcher/tmp/tinybird_cdk-0.17.9.tar.gz]
+[2024-04-26 13:48:59] INFO root fetch - main [MainThread]: End processing [tinybird-cdk]: success
+[2024-04-26 13:48:59] INFO root fetch - processPackages [autoviz]: Remove: archive file [/home/abi/fetcher/tmp/autoviz-0.1.901.tar.gz]
+[2024-04-26 13:48:59] INFO root fetch - processPackages [autoviz]: Remove: archive file [/home/abi/fetcher/tmp/autoviz-0.1.902.tar.gz]
+[2024-04-26 13:48:59] INFO root fetch - main [MainThread]: End processing [autoviz]: success
+[2024-04-26 13:48:59] INFO root fetch - processPackages [tinymovr]: Remove: archive file [/home/abi/fetcher/tmp/tinymovr-2.0.0a1.tar.gz]
+[2024-04-26 13:48:59] INFO root fetch - processPackages [tinymovr]: Remove: archive file [/home/abi/fetcher/tmp/tinymovr-2.0.0a2.tar.gz]
+[2024-04-26 13:48:59] INFO root fetch - main [MainThread]: End processing [tinymovr]: success
+[2024-04-26 13:48:59] INFO root fetch - processPackages [mxcubeweb]: Remove: archive file [/home/abi/fetcher/tmp/mxcubeweb-4.8.0.tar.gz]
+[2024-04-26 13:48:59] INFO root fetch - processPackages [mxcubeweb]: Remove: archive file [/home/abi/fetcher/tmp/mxcubeweb-4.9.0.tar.gz]
+[2024-04-26 13:48:59] INFO root fetch - main [MainThread]: End processing [mxcubeweb]: success
+[2024-04-26 13:48:59] INFO root fetch - main [MainThread]: Store serial: [22947080]
