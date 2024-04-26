@@ -17778,3 +17778,69 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 12:38:46] INFO root fetch - processPackages [megaradrp]: Remove: archive file [/home/abi/fetcher/tmp/megaradrp-0.9.3.tar.gz]
 [2024-04-26 12:38:46] INFO root fetch - main [MainThread]: End processing [megaradrp]: success
 [2024-04-26 12:38:46] INFO root fetch - main [MainThread]: Store serial: [22946406]
+[2024-04-26 12:40:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22946406]
+[2024-04-26 12:40:55] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-26 12:40:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flyerapi
+[2024-04-26 12:40:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: skypilot-nightly
+[2024-04-26 12:40:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pymemgpt-nightly
+[2024-04-26 12:40:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jax-tqdm
+[2024-04-26 12:40:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mongodb-orm
+[2024-04-26 12:40:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: uodm
+[2024-04-26 12:40:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ascend-deployer
+[2024-04-26 12:40:55] INFO root fetch - processPackages [mongodb-orm]: New version: [0.0.120] Old Version: [0.0.119]
+[2024-04-26 12:40:55] INFO root fetch - processPackages [uodm]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-26 12:40:55] INFO root fetch - processPackages [pymemgpt-nightly]: New version: [0.3.9.dev20240412103904] Old Version: [0.3.9.dev20240411103902]
+[2024-04-26 12:40:55] INFO root fetch - processPackages [skypilot-nightly]: New version: [1.0.0.dev20240425] Old Version: [1.0.0.dev20240424]
+[2024-04-26 12:40:55] INFO root fetch - processPackages [flyerapi]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-04-26 12:40:55] INFO root fetch - processPackages [mongodb-orm]: Downloading https://files.pythonhosted.org/packages/ca/38/a78711fbdac161ee9c2757f458f55b935166fc0709b20f2de25a6a25c473/mongodb_orm-0.0.119.tar.gz
+[2024-04-26 12:40:55] INFO root fetch - processPackages [uodm]: Downloading https://files.pythonhosted.org/packages/87/4b/b9b777c4ce06bddfad7e4afa2d308d69a7bfdd90155341ec37e490eb925b/uodm-0.1.2.tar.gz
+[2024-04-26 12:40:55] INFO root fetch - processPackages [jax-tqdm]: New version: [0.2.0] Old Version: [0.1.2]
+[2024-04-26 12:40:55] INFO root fetch - processPackages [pymemgpt-nightly]: Downloading https://files.pythonhosted.org/packages/28/e7/e8c0c970c21e3670e810627cef085bbbbac1f9e994540354838d7781a0ac/pymemgpt_nightly-0.3.9.dev20240411103902.tar.gz
+[2024-04-26 12:40:55] INFO root fetch - processPackages [ascend-deployer]: New version: [6.0.0b1] Old Version: [5.0.6]
+[2024-04-26 12:40:55] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/81/0f/c3511ebf4b14bdeb3dde21638a56814ea5254364230ad82ca3383242774f/skypilot_nightly-1.0.0.dev20240424.tar.gz
+[2024-04-26 12:40:55] INFO root fetch - processPackages [flyerapi]: Downloading https://files.pythonhosted.org/packages/54/e8/6688c914c58ab2097d4cd0d9eda302c2f58b6c19b1df9b7f8748518a84ee/flyerapi-1.0.7.tar.gz
+[2024-04-26 12:40:56] INFO root fetch - processPackages [jax-tqdm]: Downloading https://files.pythonhosted.org/packages/9e/a6/91d8c684cde9afe32b53ffaf23aaa5e1a2d013bf418dcbe49f5b697ad182/jax_tqdm-0.1.2.tar.gz
+[2024-04-26 12:40:56] INFO root fetch - processPackages [uodm]: Downloading https://files.pythonhosted.org/packages/a4/ff/5d05d66c715808362d84ff57752694f5d4dfd72369d518ee6b1f3988e4e6/uodm-0.1.3.tar.gz
+[2024-04-26 12:40:56] INFO root fetch - processPackages [ascend-deployer]: Downloading https://files.pythonhosted.org/packages/ff/72/9588dca49b8f9393240fc44dd457c29a52b26397f255f2df83adf3e81525/ascend_deployer-5.0.6-py3-none-any.whl
+[2024-04-26 12:40:56] INFO root fetch - processPackages [pymemgpt-nightly]: Downloading https://files.pythonhosted.org/packages/50/4a/4c9c1fb70a7ee971f3c8697cc6dedb251e3b10cafdd23be4d035ece0f2ec/pymemgpt_nightly-0.3.9.dev20240412103904.tar.gz
+[2024-04-26 12:40:56] INFO root fetch - processPackages [mongodb-orm]: Downloading https://files.pythonhosted.org/packages/91/d7/2b9fade2055dcc127d71b25b474b65ce6de4fcc2dbdb95d19fb1c137aa96/mongodb_orm-0.0.120.tar.gz
+[2024-04-26 12:40:56] INFO root fetch - processPackages [uodm]: executing diffoscope
+[2024-04-26 12:40:56] INFO root fetch - processPackages [uodm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uodm-0.1.2.tar.gz tmp/uodm-0.1.3.tar.gz --markdown 20240426/u/uodm/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-26 12:40:56] INFO root fetch - processPackages [flyerapi]: Downloading https://files.pythonhosted.org/packages/2c/13/f5db033bfbcf077d98669774b745a3d66060eb80e57d6196e0959c0bf6ea/flyerapi-1.0.8.tar.gz
+[2024-04-26 12:40:56] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/79/1b/6796430919fc9feb55550365cdf675c34480da9f4adabe0832978dc10bb2/skypilot_nightly-1.0.0.dev20240425.tar.gz
+[2024-04-26 12:40:56] INFO root fetch - processPackages [mongodb-orm]: executing diffoscope
+[2024-04-26 12:40:56] INFO root fetch - processPackages [mongodb-orm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mongodb_orm-0.0.119.tar.gz tmp/mongodb_orm-0.0.120.tar.gz --markdown 20240426/m/mongodb-orm/0.0.119-0.0.120/README.md --exclude *.pyd
+[2024-04-26 12:40:56] INFO root fetch - processPackages [pymemgpt-nightly]: executing diffoscope
+[2024-04-26 12:40:56] INFO root fetch - processPackages [pymemgpt-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymemgpt_nightly-0.3.9.dev20240411103902.tar.gz tmp/pymemgpt_nightly-0.3.9.dev20240412103904.tar.gz --markdown 20240426/p/pymemgpt-nightly/0.3.9.dev20240411103902-0.3.9.dev20240412103904/README.md --exclude *.pyd
+[2024-04-26 12:40:56] INFO root fetch - processPackages [flyerapi]: executing diffoscope
+[2024-04-26 12:40:56] INFO root fetch - processPackages [flyerapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flyerapi-1.0.7.tar.gz tmp/flyerapi-1.0.8.tar.gz --markdown 20240426/f/flyerapi/1.0.7-1.0.8/README.md --exclude *.pyd
+[2024-04-26 12:40:56] INFO root fetch - processPackages [jax-tqdm]: Downloading https://files.pythonhosted.org/packages/b1/7a/4700283b547ccdf8ea4e9d0aa3fc8d0fc436fdb2816dc9135dd40966d39e/jax_tqdm-0.2.0.tar.gz
+[2024-04-26 12:40:56] INFO root fetch - processPackages [skypilot-nightly]: executing diffoscope
+[2024-04-26 12:40:56] INFO root fetch - processPackages [skypilot-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skypilot_nightly-1.0.0.dev20240424.tar.gz tmp/skypilot_nightly-1.0.0.dev20240425.tar.gz --markdown 20240426/s/skypilot-nightly/1.0.0.dev20240424-1.0.0.dev20240425/README.md --exclude *.pyd
+[2024-04-26 12:40:56] INFO root fetch - processPackages [ascend-deployer]: Downloading https://files.pythonhosted.org/packages/a5/c9/d396b23a2e61a7fc06da2e8b130ea57a7954f364616053b9d218c374aaa4/ascend_deployer-6.0.0b1-py3-none-any.whl
+[2024-04-26 12:40:56] INFO root fetch - processPackages [jax-tqdm]: executing diffoscope
+[2024-04-26 12:40:56] INFO root fetch - processPackages [jax-tqdm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jax_tqdm-0.1.2.tar.gz tmp/jax_tqdm-0.2.0.tar.gz --markdown 20240426/j/jax-tqdm/0.1.2-0.2.0/README.md --exclude *.pyd
+[2024-04-26 12:40:56] INFO root fetch - processPackages [ascend-deployer]: executing diffoscope
+[2024-04-26 12:40:56] INFO root fetch - processPackages [ascend-deployer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ascend_deployer-5.0.6-py3-none-any.whl.zip tmp/ascend_deployer-6.0.0b1-py3-none-any.whl.zip --markdown 20240426/a/ascend-deployer/5.0.6-6.0.0b1/README.md --exclude *.pyd
+[2024-04-26 12:40:57] INFO root fetch - processPackages [mongodb-orm]: Remove: archive file [/home/abi/fetcher/tmp/mongodb_orm-0.0.119.tar.gz]
+[2024-04-26 12:40:57] INFO root fetch - processPackages [uodm]: Remove: archive file [/home/abi/fetcher/tmp/uodm-0.1.2.tar.gz]
+[2024-04-26 12:40:57] INFO root fetch - processPackages [mongodb-orm]: Remove: archive file [/home/abi/fetcher/tmp/mongodb_orm-0.0.120.tar.gz]
+[2024-04-26 12:40:57] INFO root fetch - processPackages [uodm]: Remove: archive file [/home/abi/fetcher/tmp/uodm-0.1.3.tar.gz]
+[2024-04-26 12:40:57] INFO root fetch - main [MainThread]: End processing [mongodb-orm]: success
+[2024-04-26 12:40:57] INFO root fetch - main [MainThread]: End processing [uodm]: success
+[2024-04-26 12:40:57] INFO root fetch - processPackages [flyerapi]: Remove: archive file [/home/abi/fetcher/tmp/flyerapi-1.0.7.tar.gz]
+[2024-04-26 12:40:57] INFO root fetch - processPackages [flyerapi]: Remove: archive file [/home/abi/fetcher/tmp/flyerapi-1.0.8.tar.gz]
+[2024-04-26 12:40:57] INFO root fetch - main [MainThread]: End processing [flyerapi]: success
+[2024-04-26 12:40:57] INFO root fetch - processPackages [jax-tqdm]: Remove: archive file [/home/abi/fetcher/tmp/jax_tqdm-0.1.2.tar.gz]
+[2024-04-26 12:40:57] INFO root fetch - processPackages [jax-tqdm]: Remove: archive file [/home/abi/fetcher/tmp/jax_tqdm-0.2.0.tar.gz]
+[2024-04-26 12:40:57] INFO root fetch - main [MainThread]: End processing [jax-tqdm]: success
+[2024-04-26 12:40:57] INFO root fetch - processPackages [pymemgpt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pymemgpt_nightly-0.3.9.dev20240411103902.tar.gz]
+[2024-04-26 12:40:57] INFO root fetch - processPackages [pymemgpt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pymemgpt_nightly-0.3.9.dev20240412103904.tar.gz]
+[2024-04-26 12:40:57] INFO root fetch - main [MainThread]: End processing [pymemgpt-nightly]: success
+[2024-04-26 12:40:58] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot_nightly-1.0.0.dev20240424.tar.gz]
+[2024-04-26 12:40:58] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot_nightly-1.0.0.dev20240425.tar.gz]
+[2024-04-26 12:40:58] INFO root fetch - main [MainThread]: End processing [skypilot-nightly]: success
+[2024-04-26 12:41:00] INFO root fetch - processPackages [ascend-deployer]: Remove: archive file [/home/abi/fetcher/tmp/ascend_deployer-5.0.6-py3-none-any.whl.zip]
+[2024-04-26 12:41:00] INFO root fetch - processPackages [ascend-deployer]: Remove: archive file [/home/abi/fetcher/tmp/ascend_deployer-6.0.0b1-py3-none-any.whl.zip]
+[2024-04-26 12:41:00] INFO root fetch - main [MainThread]: End processing [ascend-deployer]: success
+[2024-04-26 12:41:00] INFO root fetch - main [MainThread]: Store serial: [22946427]
