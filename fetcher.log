@@ -7361,3 +7361,42 @@
 [2024-04-26 04:18:39] INFO root fetch - processPackages [types-pyinstaller]: Remove: archive file [/home/abi/fetcher/tmp/types-pyinstaller-6.6.0.20240426.tar.gz]
 [2024-04-26 04:18:39] INFO root fetch - main [MainThread]: End processing [types-pyinstaller]: success
 [2024-04-26 04:18:39] INFO root fetch - main [MainThread]: Store serial: [22941882]
+[2024-04-26 04:20:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22941882]
+[2024-04-26 04:20:48] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-26 04:20:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: moonblade
+[2024-04-26 04:20:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flet-iconoir
+[2024-04-26 04:20:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lfdfiles
+[2024-04-26 04:20:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scarcc
+[2024-04-26 04:20:48] INFO root fetch - processPackages [flet-iconoir]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-26 04:20:48] INFO root fetch - processPackages [scarcc]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-26 04:20:48] INFO root fetch - processPackages [flet-iconoir]: Downloading https://files.pythonhosted.org/packages/74/e5/1d7a1e039b854a0b90cb15182bd4c6f06ca04ed43727250d498b1fb3d329/flet_iconoir-0.1.4.tar.gz
+[2024-04-26 04:20:48] INFO root fetch - processPackages [moonblade]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-26 04:20:48] INFO root fetch - processPackages [scarcc]: Downloading https://files.pythonhosted.org/packages/2d/0e/416bb45c9e0f28ee2e58ab634e4fb66d3fb571ea74d5d0ce539f914f1525/scarcc-0.1.5.tar.gz
+[2024-04-26 04:20:48] INFO root fetch - processPackages [lfdfiles]: New version: [2024.4.24] Old Version: [2024.3.4]
+[2024-04-26 04:20:48] INFO root fetch - processPackages [moonblade]: Downloading https://files.pythonhosted.org/packages/83/3e/c05a409ce735ff5b3b8d0e0e285421bba587aada98e235711a37d5acff88/moonblade-1.0.3.tar.gz
+[2024-04-26 04:20:48] INFO root fetch - processPackages [lfdfiles]: Downloading https://files.pythonhosted.org/packages/2a/cc/7ca1a9352569ae48fa7e4c0d8a5fd8f0afd69a94603227b695c333440268/lfdfiles-2024.3.4.tar.gz
+[2024-04-26 04:20:48] INFO root fetch - processPackages [flet-iconoir]: Downloading https://files.pythonhosted.org/packages/7c/d2/116244a0bdb3e928bbb8a658807e62e7086b9789a4395897b9c4dd5331ac/flet_iconoir-0.1.5.tar.gz
+[2024-04-26 04:20:48] INFO root fetch - processPackages [scarcc]: Downloading https://files.pythonhosted.org/packages/2d/c7/6ce183543306ec89af5950062a8d2cc76020936a02e73ba45f92a7723b2a/scarcc-0.1.6-py3-none-any.whl
+[2024-04-26 04:20:49] INFO root fetch - processPackages [scarcc]: executing diffoscope
+[2024-04-26 04:20:49] INFO root fetch - processPackages [scarcc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scarcc-0.1.5.tar.gz tmp/scarcc-0.1.6-py3-none-any.whl.zip --markdown 20240426/s/scarcc/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-04-26 04:20:49] INFO root fetch - processPackages [flet-iconoir]: executing diffoscope
+[2024-04-26 04:20:49] INFO root fetch - processPackages [flet-iconoir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_iconoir-0.1.4.tar.gz tmp/flet_iconoir-0.1.5.tar.gz --markdown 20240426/f/flet-iconoir/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-26 04:20:49] INFO root fetch - processPackages [moonblade]: Downloading https://files.pythonhosted.org/packages/f8/f9/6ddbc9946e6d2cc76fcc510c06f72a0e6246a53073e4fa674b4f47174b19/moonblade-1.0.4.tar.gz
+[2024-04-26 04:20:49] INFO root fetch - processPackages [lfdfiles]: Downloading https://files.pythonhosted.org/packages/53/bd/b3a41ba81c19abffe243c06542ced7db4b90f851ecf7a809d1554177d804/lfdfiles-2024.4.24.tar.gz
+[2024-04-26 04:20:49] INFO root fetch - processPackages [moonblade]: executing diffoscope
+[2024-04-26 04:20:49] INFO root fetch - processPackages [moonblade]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moonblade-1.0.3.tar.gz tmp/moonblade-1.0.4.tar.gz --markdown 20240426/m/moonblade/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-04-26 04:20:49] INFO root fetch - processPackages [lfdfiles]: executing diffoscope
+[2024-04-26 04:20:49] INFO root fetch - processPackages [lfdfiles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lfdfiles-2024.3.4.tar.gz tmp/lfdfiles-2024.4.24.tar.gz --markdown 20240426/l/lfdfiles/2024.3.4-2024.4.24/README.md --exclude *.pyd
+[2024-04-26 04:20:49] INFO root fetch - processPackages [scarcc]: Remove: archive file [/home/abi/fetcher/tmp/scarcc-0.1.5.tar.gz]
+[2024-04-26 04:20:49] INFO root fetch - processPackages [scarcc]: Remove: archive file [/home/abi/fetcher/tmp/scarcc-0.1.6-py3-none-any.whl.zip]
+[2024-04-26 04:20:49] INFO root fetch - main [MainThread]: End processing [scarcc]: success
+[2024-04-26 04:20:49] INFO root fetch - processPackages [moonblade]: Remove: archive file [/home/abi/fetcher/tmp/moonblade-1.0.3.tar.gz]
+[2024-04-26 04:20:49] INFO root fetch - processPackages [moonblade]: Remove: archive file [/home/abi/fetcher/tmp/moonblade-1.0.4.tar.gz]
+[2024-04-26 04:20:49] INFO root fetch - main [MainThread]: End processing [moonblade]: success
+[2024-04-26 04:20:51] INFO root fetch - processPackages [lfdfiles]: Remove: archive file [/home/abi/fetcher/tmp/lfdfiles-2024.3.4.tar.gz]
+[2024-04-26 04:20:51] INFO root fetch - processPackages [lfdfiles]: Remove: archive file [/home/abi/fetcher/tmp/lfdfiles-2024.4.24.tar.gz]
+[2024-04-26 04:20:51] INFO root fetch - main [MainThread]: End processing [lfdfiles]: success
+[2024-04-26 04:20:55] INFO root fetch - processPackages [flet-iconoir]: Remove: archive file [/home/abi/fetcher/tmp/flet_iconoir-0.1.4.tar.gz]
+[2024-04-26 04:20:55] INFO root fetch - processPackages [flet-iconoir]: Remove: archive file [/home/abi/fetcher/tmp/flet_iconoir-0.1.5.tar.gz]
+[2024-04-26 04:20:55] INFO root fetch - main [MainThread]: End processing [flet-iconoir]: success
+[2024-04-26 04:20:55] INFO root fetch - main [MainThread]: Store serial: [22941918]
