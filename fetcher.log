@@ -10240,3 +10240,24 @@
 [2024-04-26 07:45:07] INFO root fetch - processPackages [bbo-labelgui]: Remove: archive file [/home/abi/fetcher/tmp/bbo-labelgui-0.15.2.tar.gz]
 [2024-04-26 07:45:07] INFO root fetch - main [MainThread]: End processing [bbo-labelgui]: success
 [2024-04-26 07:45:07] INFO root fetch - main [MainThread]: Store serial: [22943064]
+[2024-04-26 07:47:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22943064]
+[2024-04-26 07:47:16] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-26 07:47:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-consul
+[2024-04-26 07:47:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bbo-calibcam
+[2024-04-26 07:47:16] INFO root fetch - processPackages [bbo-calibcam]: New version: [2.4.1] Old Version: [2.3.1]
+[2024-04-26 07:47:16] INFO root fetch - processPackages [pulumi-consul]: New version: [3.9.0a1687670569] Old Version: [3.9.0a1687054376]
+[2024-04-26 07:47:16] INFO root fetch - processPackages [pulumi-consul]: Downloading https://files.pythonhosted.org/packages/b2/0b/a9aea9bd557425d918ea238feabf49fb698d827f1dfeaf4613d70eae31a2/pulumi_consul-3.9.0a1687054376.tar.gz
+[2024-04-26 07:47:16] INFO root fetch - processPackages [bbo-calibcam]: Downloading https://files.pythonhosted.org/packages/3d/12/3f17f8e51e5fa08a7e0fd69a08cd02d601c31bc01a1334b30aa098460416/bbo-calibcam-2.3.1.tar.gz
+[2024-04-26 07:47:17] INFO root fetch - processPackages [pulumi-consul]: Downloading https://files.pythonhosted.org/packages/aa/10/eaf50f0d8ecb4103cac140429d33cf0fbed0a84ade857f6a5d9e9dda5e71/pulumi_consul-3.9.0a1687670569.tar.gz
+[2024-04-26 07:47:17] INFO root fetch - processPackages [bbo-calibcam]: Downloading https://files.pythonhosted.org/packages/da/7a/29730ba2491790690eddd42c2461d21822b786186203b0904c6b2b2a6ca3/bbo-calibcam-2.4.1.tar.gz
+[2024-04-26 07:47:17] INFO root fetch - processPackages [pulumi-consul]: executing diffoscope
+[2024-04-26 07:47:17] INFO root fetch - processPackages [pulumi-consul]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_consul-3.9.0a1687054376.tar.gz tmp/pulumi_consul-3.9.0a1687670569.tar.gz --markdown 20240426/p/pulumi-consul/3.9.0a1687054376-3.9.0a1687670569/README.md --exclude *.pyd
+[2024-04-26 07:47:17] INFO root fetch - processPackages [bbo-calibcam]: executing diffoscope
+[2024-04-26 07:47:17] INFO root fetch - processPackages [bbo-calibcam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bbo-calibcam-2.3.1.tar.gz tmp/bbo-calibcam-2.4.1.tar.gz --markdown 20240426/b/bbo-calibcam/2.3.1-2.4.1/README.md --exclude *.pyd
+[2024-04-26 07:47:17] INFO root fetch - processPackages [bbo-calibcam]: Remove: archive file [/home/abi/fetcher/tmp/bbo-calibcam-2.3.1.tar.gz]
+[2024-04-26 07:47:17] INFO root fetch - processPackages [bbo-calibcam]: Remove: archive file [/home/abi/fetcher/tmp/bbo-calibcam-2.4.1.tar.gz]
+[2024-04-26 07:47:17] INFO root fetch - main [MainThread]: End processing [bbo-calibcam]: success
+[2024-04-26 07:47:18] INFO root fetch - processPackages [pulumi-consul]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_consul-3.9.0a1687054376.tar.gz]
+[2024-04-26 07:47:18] INFO root fetch - processPackages [pulumi-consul]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_consul-3.9.0a1687670569.tar.gz]
+[2024-04-26 07:47:18] INFO root fetch - main [MainThread]: End processing [pulumi-consul]: success
+[2024-04-26 07:47:18] INFO root fetch - main [MainThread]: Store serial: [22943070]
