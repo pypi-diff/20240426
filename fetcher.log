@@ -7020,3 +7020,9 @@
 [2024-04-26 03:43:17] INFO root fetch - processPackages [abi3info]: Remove: archive file [/home/abi/fetcher/tmp/abi3info-2024.4.25.tar.gz]
 [2024-04-26 03:43:17] INFO root fetch - main [MainThread]: End processing [abi3info]: success
 [2024-04-26 03:43:17] INFO root fetch - main [MainThread]: Store serial: [22941722]
+[2024-04-26 03:45:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22941722]
+[2024-04-26 03:45:26] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-26 03:45:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyrnnoise
+[2024-04-26 03:45:26] WARNING root fetch - processPackages [pyrnnoise]: Skipping, unable to determine old version
+[2024-04-26 03:45:26] INFO root fetch - main [MainThread]: End processing [pyrnnoise] error
+[2024-04-26 03:45:26] INFO root fetch - main [MainThread]: Store serial: [22941726]
