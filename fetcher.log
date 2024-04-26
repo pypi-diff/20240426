@@ -17844,3 +17844,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 12:41:00] INFO root fetch - processPackages [ascend-deployer]: Remove: archive file [/home/abi/fetcher/tmp/ascend_deployer-6.0.0b1-py3-none-any.whl.zip]
 [2024-04-26 12:41:00] INFO root fetch - main [MainThread]: End processing [ascend-deployer]: success
 [2024-04-26 12:41:00] INFO root fetch - main [MainThread]: Store serial: [22946427]
+[2024-04-26 12:43:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22946427]
+[2024-04-26 12:43:09] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-26 12:43:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: CTK-Desert
+[2024-04-26 12:43:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hotsos
+[2024-04-26 12:43:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: neo4j-driver
+[2024-04-26 12:43:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: neo4j
+[2024-04-26 12:43:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tird
+[2024-04-26 12:43:09] INFO root fetch - processPackages [neo4j-driver]: New version: [5.9.0] Old Version: [5.8.1]
+[2024-04-26 12:43:09] INFO root fetch - processPackages [CTK-Desert]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-26 12:43:09] INFO root fetch - processPackages [hotsos]: New version: [1.17.0.post9] Old Version: [1.17.0.post8]
+[2024-04-26 12:43:09] INFO root fetch - processPackages [tird]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-26 12:43:09] INFO root fetch - processPackages [neo4j]: New version: [5.9.0] Old Version: [5.8.1]
+[2024-04-26 12:43:09] INFO root fetch - processPackages [CTK-Desert]: Downloading https://files.pythonhosted.org/packages/9a/73/c7239044a3b6edf571c3f5feded6aab241cff792f7acd98dd42652e44c95/CTK_Desert-0.0.8.tar.gz
+[2024-04-26 12:43:09] INFO root fetch - processPackages [hotsos]: Downloading https://files.pythonhosted.org/packages/a7/57/15e4fe4e4dbc4381d9bf00a81267a7c13df4ca3f2dc3b2afa7db65518860/hotsos-1.17.0.post8.tar.gz
+[2024-04-26 12:43:09] INFO root fetch - processPackages [neo4j-driver]: Downloading https://files.pythonhosted.org/packages/ee/b7/871ed94df9f20f81b87dc6ed0be9e4820ce99103bd15080ec1cc7c514009/neo4j-driver-5.8.1.tar.gz
+[2024-04-26 12:43:09] INFO root fetch - processPackages [neo4j]: Downloading https://files.pythonhosted.org/packages/97/9f/8f04fe1e04c832d87283ede166290cc29c1c3aa0d274946f88361d42a9d3/neo4j-5.8.1.tar.gz
+[2024-04-26 12:43:09] INFO root fetch - processPackages [tird]: Downloading https://files.pythonhosted.org/packages/df/91/51a967d7b62728d869dbfff078fee12c0ccd96436038a159e9be77488430/tird-0.8.0.tar.gz
+[2024-04-26 12:43:09] INFO root fetch - processPackages [CTK-Desert]: Downloading https://files.pythonhosted.org/packages/6d/b4/d3af97e7bf9ae492dceb1aad8191e260b603096af0a9755ffd707156f69f/CTK_Desert-0.0.9.tar.gz
+[2024-04-26 12:43:09] INFO root fetch - processPackages [hotsos]: Downloading https://files.pythonhosted.org/packages/7f/57/f6a4fc3900f977e567bcf108bd2787ce8624445d42b84c26b710b18c7c3d/hotsos-1.17.0.post9.tar.gz
+[2024-04-26 12:43:09] INFO root fetch - processPackages [CTK-Desert]: executing diffoscope
+[2024-04-26 12:43:09] INFO root fetch - processPackages [CTK-Desert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CTK_Desert-0.0.8.tar.gz tmp/CTK_Desert-0.0.9.tar.gz --markdown 20240426/C/CTK-Desert/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-26 12:43:09] INFO root fetch - processPackages [neo4j-driver]: Downloading https://files.pythonhosted.org/packages/c9/1e/14751507bec61648b83204fc90b3840d616876294276092a7ebf4dd51a59/neo4j-driver-5.9.0.tar.gz
+[2024-04-26 12:43:09] INFO root fetch - processPackages [hotsos]: executing diffoscope
+[2024-04-26 12:43:09] INFO root fetch - processPackages [hotsos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hotsos-1.17.0.post8.tar.gz tmp/hotsos-1.17.0.post9.tar.gz --markdown 20240426/h/hotsos/1.17.0.post8-1.17.0.post9/README.md --exclude *.pyd
+[2024-04-26 12:43:10] INFO root fetch - processPackages [neo4j]: Downloading https://files.pythonhosted.org/packages/e9/b7/faa4628ea379f9e43772ca4448356a35e58ce44306a91117f2892487e187/neo4j-5.9.0.tar.gz
+[2024-04-26 12:43:10] INFO root fetch - processPackages [neo4j-driver]: executing diffoscope
+[2024-04-26 12:43:10] INFO root fetch - processPackages [neo4j-driver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neo4j-driver-5.8.1.tar.gz tmp/neo4j-driver-5.9.0.tar.gz --markdown 20240426/n/neo4j-driver/5.8.1-5.9.0/README.md --exclude *.pyd
+[2024-04-26 12:43:10] INFO root fetch - processPackages [neo4j]: executing diffoscope
+[2024-04-26 12:43:10] INFO root fetch - processPackages [neo4j]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neo4j-5.8.1.tar.gz tmp/neo4j-5.9.0.tar.gz --markdown 20240426/n/neo4j/5.8.1-5.9.0/README.md --exclude *.pyd
+[2024-04-26 12:43:10] INFO root fetch - processPackages [tird]: Downloading https://files.pythonhosted.org/packages/a4/94/84b7c9759ddc323ace346741a9f1356157fb1c0b9cc4ee798d0444de03fe/tird-0.9.0.tar.gz
+[2024-04-26 12:43:10] INFO root fetch - processPackages [tird]: executing diffoscope
+[2024-04-26 12:43:10] INFO root fetch - processPackages [tird]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tird-0.8.0.tar.gz tmp/tird-0.9.0.tar.gz --markdown 20240426/t/tird/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-26 12:43:10] INFO root fetch - processPackages [CTK-Desert]: Remove: archive file [/home/abi/fetcher/tmp/CTK_Desert-0.0.8.tar.gz]
+[2024-04-26 12:43:10] INFO root fetch - processPackages [CTK-Desert]: Remove: archive file [/home/abi/fetcher/tmp/CTK_Desert-0.0.9.tar.gz]
+[2024-04-26 12:43:10] INFO root fetch - main [MainThread]: End processing [CTK-Desert]: success
+[2024-04-26 12:43:11] INFO root fetch - processPackages [neo4j-driver]: Remove: archive file [/home/abi/fetcher/tmp/neo4j-driver-5.8.1.tar.gz]
+[2024-04-26 12:43:11] INFO root fetch - processPackages [neo4j-driver]: Remove: archive file [/home/abi/fetcher/tmp/neo4j-driver-5.9.0.tar.gz]
+[2024-04-26 12:43:11] INFO root fetch - main [MainThread]: End processing [neo4j-driver]: success
+[2024-04-26 12:43:11] INFO root fetch - processPackages [tird]: Remove: archive file [/home/abi/fetcher/tmp/tird-0.8.0.tar.gz]
+[2024-04-26 12:43:11] INFO root fetch - processPackages [tird]: Remove: archive file [/home/abi/fetcher/tmp/tird-0.9.0.tar.gz]
+[2024-04-26 12:43:11] INFO root fetch - main [MainThread]: End processing [tird]: success
+[2024-04-26 12:43:11] INFO root fetch - processPackages [neo4j]: Remove: archive file [/home/abi/fetcher/tmp/neo4j-5.8.1.tar.gz]
+[2024-04-26 12:43:11] INFO root fetch - processPackages [neo4j]: Remove: archive file [/home/abi/fetcher/tmp/neo4j-5.9.0.tar.gz]
+[2024-04-26 12:43:11] INFO root fetch - main [MainThread]: End processing [neo4j]: success
+[2024-04-26 12:43:11] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.17.0.post8.tar.gz]
+[2024-04-26 12:43:11] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.17.0.post9.tar.gz]
+[2024-04-26 12:43:11] INFO root fetch - main [MainThread]: End processing [hotsos]: success
+[2024-04-26 12:43:11] INFO root fetch - main [MainThread]: Store serial: [22946440]
