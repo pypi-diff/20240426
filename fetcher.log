@@ -17892,3 +17892,45 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 12:43:11] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.17.0.post9.tar.gz]
 [2024-04-26 12:43:11] INFO root fetch - main [MainThread]: End processing [hotsos]: success
 [2024-04-26 12:43:11] INFO root fetch - main [MainThread]: Store serial: [22946440]
+[2024-04-26 12:45:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22946440]
+[2024-04-26 12:45:21] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-26 12:45:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: inoopa_utils
+[2024-04-26 12:45:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: napari-SMLMLAB
+[2024-04-26 12:45:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gov-uk-dashboards
+[2024-04-26 12:45:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sparkautomapper
+[2024-04-26 12:45:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: clocking
+[2024-04-26 12:45:21] WARNING root fetch - processPackages [napari-SMLMLAB]: Skipping, unable to determine old version
+[2024-04-26 12:45:21] INFO root fetch - main [MainThread]: End processing [napari-SMLMLAB] error
+[2024-04-26 12:45:21] INFO root fetch - processPackages [gov-uk-dashboards]: New version: [9.9.0] Old Version: [9.8.0]
+[2024-04-26 12:45:21] INFO root fetch - processPackages [inoopa_utils]: New version: [2.9.4] Old Version: [2.9.3]
+[2024-04-26 12:45:21] INFO root fetch - processPackages [gov-uk-dashboards]: Downloading https://files.pythonhosted.org/packages/28/15/aa038ec0161f510bba1e81208b6b8fb48174839d812f78343601edd00197/gov_uk_dashboards-9.8.0.tar.gz
+[2024-04-26 12:45:21] INFO root fetch - processPackages [inoopa_utils]: Downloading https://files.pythonhosted.org/packages/cc/fd/34e50c53ffe1880bde2dbcb3b33c6621aa3f859ad3d72d0b324290e539b3/inoopa_utils-2.9.3.tar.gz
+[2024-04-26 12:45:21] INFO root fetch - processPackages [sparkautomapper]: New version: [2.0.7] Old Version: [2.0.6]
+[2024-04-26 12:45:21] INFO root fetch - processPackages [clocking]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-26 12:45:22] INFO root fetch - processPackages [inoopa_utils]: Downloading https://files.pythonhosted.org/packages/4e/b2/eca5fa94257b712329d89437a541ffd991ee17d437cdc765cfe5587ae6d6/inoopa_utils-2.9.4.tar.gz
+[2024-04-26 12:45:22] INFO root fetch - processPackages [sparkautomapper]: Downloading https://files.pythonhosted.org/packages/ad/04/d3e8fd6f369fb911910a8d4aeb4dee7918da595c66f3327a0309cc2b47c1/sparkautomapper-2.0.6.tar.gz
+[2024-04-26 12:45:22] INFO root fetch - processPackages [clocking]: Downloading https://files.pythonhosted.org/packages/22/15/ad0d1a1f7570e73e93c718fa686ad19f5e4c8e7063f19848fecac5022652/clocking-0.1.1.tar.gz
+[2024-04-26 12:45:22] INFO root fetch - processPackages [gov-uk-dashboards]: Downloading https://files.pythonhosted.org/packages/28/ea/814247833cc4320a4963bc9588f46cb3725c05f6064d14ac066bbc574e6d/gov_uk_dashboards-9.9.0.tar.gz
+[2024-04-26 12:45:22] INFO root fetch - processPackages [inoopa_utils]: executing diffoscope
+[2024-04-26 12:45:22] INFO root fetch - processPackages [inoopa_utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inoopa_utils-2.9.3.tar.gz tmp/inoopa_utils-2.9.4.tar.gz --markdown 20240426/i/inoopa_utils/2.9.3-2.9.4/README.md --exclude *.pyd
+[2024-04-26 12:45:22] INFO root fetch - processPackages [gov-uk-dashboards]: executing diffoscope
+[2024-04-26 12:45:22] INFO root fetch - processPackages [gov-uk-dashboards]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gov_uk_dashboards-9.8.0.tar.gz tmp/gov_uk_dashboards-9.9.0.tar.gz --markdown 20240426/g/gov-uk-dashboards/9.8.0-9.9.0/README.md --exclude *.pyd
+[2024-04-26 12:45:22] INFO root fetch - processPackages [sparkautomapper]: Downloading https://files.pythonhosted.org/packages/b6/02/7baf5745520c2c90023d5bedf31f965e69f9fbfe24c5e9e2025a0b7a3029/sparkautomapper-2.0.7.tar.gz
+[2024-04-26 12:45:22] INFO root fetch - processPackages [clocking]: Downloading https://files.pythonhosted.org/packages/85/30/f370e00687b51b10bc223164923278e49beff04f5f8bc47131b3444a2dad/clocking-0.1.2.tar.gz
+[2024-04-26 12:45:22] INFO root fetch - processPackages [sparkautomapper]: executing diffoscope
+[2024-04-26 12:45:22] INFO root fetch - processPackages [sparkautomapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparkautomapper-2.0.6.tar.gz tmp/sparkautomapper-2.0.7.tar.gz --markdown 20240426/s/sparkautomapper/2.0.6-2.0.7/README.md --exclude *.pyd
+[2024-04-26 12:45:22] INFO root fetch - processPackages [inoopa_utils]: Remove: archive file [/home/abi/fetcher/tmp/inoopa_utils-2.9.3.tar.gz]
+[2024-04-26 12:45:22] INFO root fetch - processPackages [inoopa_utils]: Remove: archive file [/home/abi/fetcher/tmp/inoopa_utils-2.9.4.tar.gz]
+[2024-04-26 12:45:22] INFO root fetch - main [MainThread]: End processing [inoopa_utils]: success
+[2024-04-26 12:45:23] INFO root fetch - processPackages [gov-uk-dashboards]: Remove: archive file [/home/abi/fetcher/tmp/gov_uk_dashboards-9.8.0.tar.gz]
+[2024-04-26 12:45:23] INFO root fetch - processPackages [gov-uk-dashboards]: Remove: archive file [/home/abi/fetcher/tmp/gov_uk_dashboards-9.9.0.tar.gz]
+[2024-04-26 12:45:23] INFO root fetch - main [MainThread]: End processing [gov-uk-dashboards]: success
+[2024-04-26 12:45:23] INFO root fetch - processPackages [clocking]: executing diffoscope
+[2024-04-26 12:45:23] INFO root fetch - processPackages [clocking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clocking-0.1.1.tar.gz tmp/clocking-0.1.2.tar.gz --markdown 20240426/c/clocking/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-26 12:45:23] INFO root fetch - processPackages [clocking]: Remove: archive file [/home/abi/fetcher/tmp/clocking-0.1.1.tar.gz]
+[2024-04-26 12:45:23] INFO root fetch - processPackages [clocking]: Remove: archive file [/home/abi/fetcher/tmp/clocking-0.1.2.tar.gz]
+[2024-04-26 12:45:23] INFO root fetch - main [MainThread]: End processing [clocking]: success
+[2024-04-26 12:45:23] INFO root fetch - processPackages [sparkautomapper]: Remove: archive file [/home/abi/fetcher/tmp/sparkautomapper-2.0.6.tar.gz]
+[2024-04-26 12:45:23] INFO root fetch - processPackages [sparkautomapper]: Remove: archive file [/home/abi/fetcher/tmp/sparkautomapper-2.0.7.tar.gz]
+[2024-04-26 12:45:23] INFO root fetch - main [MainThread]: End processing [sparkautomapper]: success
+[2024-04-26 12:45:23] INFO root fetch - main [MainThread]: Store serial: [22946455]
