@@ -19408,3 +19408,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 13:51:14] INFO root fetch - processPackages [capellambse]: Remove: archive file [/home/abi/fetcher/tmp/capellambse-0.5.9.dev5.tar.gz]
 [2024-04-26 13:51:14] INFO root fetch - main [MainThread]: End processing [capellambse]: success
 [2024-04-26 13:51:14] INFO root fetch - main [MainThread]: Store serial: [22947096]
+[2024-04-26 13:53:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22947096]
+[2024-04-26 13:53:24] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-26 13:53:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dtai-veritas
+[2024-04-26 13:53:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: quickstart-vdk
+[2024-04-26 13:53:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vdk-core
+[2024-04-26 13:53:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: esdbclient
+[2024-04-26 13:53:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pretix-cashpayment
+[2024-04-26 13:53:24] INFO root fetch - processPackages [vdk-core]: New version: [0.3.989149860] Old Version: [0.3.988984323]
+[2024-04-26 13:53:24] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.999091100.dev13356] Old Version: [0.2.998635022.dev13355]
+[2024-04-26 13:53:24] INFO root fetch - processPackages [esdbclient]: New version: [1.0b4] Old Version: [1.0b3]
+[2024-04-26 13:53:25] INFO root fetch - processPackages [vdk-core]: Downloading https://files.pythonhosted.org/packages/3f/fe/4cb3eeeee48426c4e1ae980622aa89c7626afc7fb6da428386545e548407/vdk-core-0.3.988984323.tar.gz
+[2024-04-26 13:53:25] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/e3/a6/b7424a3be777980068df32f41ef9085422b79289fef725cba5cabf2b502e/quickstart-vdk-0.2.998635022.dev13355.tar.gz
+[2024-04-26 13:53:25] INFO root fetch - processPackages [pretix-cashpayment]: New version: [2.1.0] Old Version: [2.0.3]
+[2024-04-26 13:53:25] INFO root fetch - processPackages [dtai-veritas]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-26 13:53:25] INFO root fetch - processPackages [esdbclient]: Downloading https://files.pythonhosted.org/packages/93/30/573ab738ea9798ed8d6ce6c943047922a3706e9dd85661fd8c246f37859c/esdbclient-1.0b3.tar.gz
+[2024-04-26 13:53:25] INFO root fetch - processPackages [dtai-veritas]: Downloading https://files.pythonhosted.org/packages/6b/a8/85eb32c2b0b2adc36e79c436f3e30c1647fe2a5ffe4eb67da2b8b1b9f30a/dtai-veritas-0.2.1.tar.gz
+[2024-04-26 13:53:25] INFO root fetch - processPackages [vdk-core]: Downloading https://files.pythonhosted.org/packages/71/91/d065ea63564ea0325874226e68ffbf93cae09192010dc6ea272193ac705e/vdk-core-0.3.989149860.tar.gz
+[2024-04-26 13:53:25] INFO root fetch - processPackages [pretix-cashpayment]: Downloading https://files.pythonhosted.org/packages/ed/bb/dd4ba7a6dd27f7984ab4973fbd5ff37e7cf15f2ed59d7ce36fdfa8e5fa4b/pretix-cashpayment-2.0.3.tar.gz
+[2024-04-26 13:53:25] INFO root fetch - processPackages [esdbclient]: Downloading https://files.pythonhosted.org/packages/00/e6/2c6c9d30544b5bffbf82f0bba485a240220d8d5daa8b72c19905b1ccddaf/esdbclient-1.0b4.tar.gz
+[2024-04-26 13:53:25] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/fa/72/2a48eb94b876fa0c01eda0450a3e80c80101dd5fdfe10124d5474b64f5fd/quickstart-vdk-0.2.999091100.dev13356.tar.gz
+[2024-04-26 13:53:25] INFO root fetch - processPackages [vdk-core]: executing diffoscope
+[2024-04-26 13:53:25] INFO root fetch - processPackages [vdk-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vdk-core-0.3.988984323.tar.gz tmp/vdk-core-0.3.989149860.tar.gz --markdown 20240426/v/vdk-core/0.3.988984323-0.3.989149860/README.md --exclude *.pyd
+[2024-04-26 13:53:25] INFO root fetch - processPackages [esdbclient]: executing diffoscope
+[2024-04-26 13:53:25] INFO root fetch - processPackages [esdbclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esdbclient-1.0b3.tar.gz tmp/esdbclient-1.0b4.tar.gz --markdown 20240426/e/esdbclient/1.0b3-1.0b4/README.md --exclude *.pyd
+[2024-04-26 13:53:25] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2024-04-26 13:53:25] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz --markdown 20240426/q/quickstart-vdk/0.2.998635022.dev13355-0.2.999091100.dev13356/README.md --exclude *.pyd
+[2024-04-26 13:53:25] INFO root fetch - processPackages [pretix-cashpayment]: Downloading https://files.pythonhosted.org/packages/2d/d4/860817c980f50bf22dcb2da6d9a29190e602823b0b1eb97808028454be18/pretix_cashpayment-2.1.0.tar.gz
+[2024-04-26 13:53:25] INFO root fetch - processPackages [dtai-veritas]: Downloading https://files.pythonhosted.org/packages/ac/d2/a8c1c4a3bfa8f03e47217a947f62c6e42f5730aa2cf48ab4cab45d8c8829/dtai_veritas-0.2.2.tar.gz
+[2024-04-26 13:53:25] INFO root fetch - processPackages [pretix-cashpayment]: executing diffoscope
+[2024-04-26 13:53:25] INFO root fetch - processPackages [pretix-cashpayment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pretix-cashpayment-2.0.3.tar.gz tmp/pretix_cashpayment-2.1.0.tar.gz --markdown 20240426/p/pretix-cashpayment/2.0.3-2.1.0/README.md --exclude *.pyd
+[2024-04-26 13:53:26] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz]
+[2024-04-26 13:53:26] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz]
+[2024-04-26 13:53:26] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2024-04-26 13:53:26] INFO root fetch - processPackages [dtai-veritas]: executing diffoscope
+[2024-04-26 13:53:26] INFO root fetch - processPackages [dtai-veritas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dtai-veritas-0.2.1.tar.gz tmp/dtai_veritas-0.2.2.tar.gz --markdown 20240426/d/dtai-veritas/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-04-26 13:53:26] INFO root fetch - processPackages [vdk-core]: Remove: archive file [/home/abi/fetcher/tmp/vdk-core-0.3.988984323.tar.gz]
+[2024-04-26 13:53:26] INFO root fetch - processPackages [vdk-core]: Remove: archive file [/home/abi/fetcher/tmp/vdk-core-0.3.989149860.tar.gz]
+[2024-04-26 13:53:26] INFO root fetch - main [MainThread]: End processing [vdk-core]: success
+[2024-04-26 13:53:26] INFO root fetch - processPackages [esdbclient]: Remove: archive file [/home/abi/fetcher/tmp/esdbclient-1.0b3.tar.gz]
+[2024-04-26 13:53:26] INFO root fetch - processPackages [esdbclient]: Remove: archive file [/home/abi/fetcher/tmp/esdbclient-1.0b4.tar.gz]
+[2024-04-26 13:53:26] INFO root fetch - main [MainThread]: End processing [esdbclient]: success
+[2024-04-26 13:53:26] INFO root fetch - processPackages [pretix-cashpayment]: Remove: archive file [/home/abi/fetcher/tmp/pretix-cashpayment-2.0.3.tar.gz]
+[2024-04-26 13:53:26] INFO root fetch - processPackages [pretix-cashpayment]: Remove: archive file [/home/abi/fetcher/tmp/pretix_cashpayment-2.1.0.tar.gz]
+[2024-04-26 13:53:26] INFO root fetch - main [MainThread]: End processing [pretix-cashpayment]: success
+[2024-04-26 13:53:27] INFO root fetch - processPackages [dtai-veritas]: Remove: archive file [/home/abi/fetcher/tmp/dtai-veritas-0.2.1.tar.gz]
+[2024-04-26 13:53:27] INFO root fetch - processPackages [dtai-veritas]: Remove: archive file [/home/abi/fetcher/tmp/dtai_veritas-0.2.2.tar.gz]
+[2024-04-26 13:53:27] INFO root fetch - main [MainThread]: End processing [dtai-veritas]: success
+[2024-04-26 13:53:27] INFO root fetch - main [MainThread]: Store serial: [22947141]
