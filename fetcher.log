@@ -19456,3 +19456,42 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 13:53:27] INFO root fetch - processPackages [dtai-veritas]: Remove: archive file [/home/abi/fetcher/tmp/dtai_veritas-0.2.2.tar.gz]
 [2024-04-26 13:53:27] INFO root fetch - main [MainThread]: End processing [dtai-veritas]: success
 [2024-04-26 13:53:27] INFO root fetch - main [MainThread]: Store serial: [22947141]
+[2024-04-26 13:55:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22947141]
+[2024-04-26 13:55:35] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-26 13:55:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: HeraData
+[2024-04-26 13:55:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tvb-widgets
+[2024-04-26 13:55:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: text_lloom
+[2024-04-26 13:55:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: shii-study
+[2024-04-26 13:55:35] INFO root fetch - processPackages [shii-study]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-26 13:55:35] INFO root fetch - processPackages [HeraData]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-26 13:55:35] INFO root fetch - processPackages [text_lloom]: New version: [0.7.2] Old Version: [0.7.1]
+[2024-04-26 13:55:35] INFO root fetch - processPackages [tvb-widgets]: New version: [2.0.0] Old Version: [1.6.0]
+[2024-04-26 13:55:35] INFO root fetch - processPackages [HeraData]: Downloading https://files.pythonhosted.org/packages/a5/e3/7a4f4349012a88bd4e5b66ffaa352f5ff527ed7d36361d4c064a45189ad3/HeraData-0.1.2.tar.gz
+[2024-04-26 13:55:36] INFO root fetch - processPackages [shii-study]: Downloading https://files.pythonhosted.org/packages/ff/d7/b04878827dc282a11cdb4b8e6ef50274e141a03bdab529dfce99b41e2123/shii_study-1.0.1-py2.py3-none-any.whl
+[2024-04-26 13:55:36] INFO root fetch - processPackages [tvb-widgets]: Downloading https://files.pythonhosted.org/packages/df/ae/96eebb221e1ebad53eb9ef59e64b5eeba9eacb493e64e588ce4e84d6ff2a/tvb-widgets-1.6.0.tar.gz
+[2024-04-26 13:55:36] INFO root fetch - processPackages [text_lloom]: Downloading https://files.pythonhosted.org/packages/6d/a7/4c650df09ac28ddc4cc657dd5912d47375db2b69a9c2f17214f10231ff2a/text_lloom-0.7.1.tar.gz
+[2024-04-26 13:55:36] INFO root fetch - processPackages [HeraData]: Downloading https://files.pythonhosted.org/packages/a8/ed/2661cd73361af63516848d84cbd22f7ea7a96feb04ebf635296d9397c38b/HeraData-0.1.3.tar.gz
+[2024-04-26 13:55:36] INFO root fetch - processPackages [shii-study]: Downloading https://files.pythonhosted.org/packages/6c/81/154a4c13989306897c6a75641553dc82467000050ae48c8a4d04ecea0fe0/shii_study-1.0.2-py2.py3-none-any.whl
+[2024-04-26 13:55:36] INFO root fetch - processPackages [tvb-widgets]: Downloading https://files.pythonhosted.org/packages/e3/aa/bb9f0a48be673bb2808fea0409cc0be2c753f432c4b7dbdb36efd2650a0d/tvb-widgets-2.0.0.tar.gz
+[2024-04-26 13:55:36] INFO root fetch - processPackages [HeraData]: executing diffoscope
+[2024-04-26 13:55:36] INFO root fetch - processPackages [HeraData]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HeraData-0.1.2.tar.gz tmp/HeraData-0.1.3.tar.gz --markdown 20240426/H/HeraData/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-26 13:55:36] INFO root fetch - processPackages [text_lloom]: Downloading https://files.pythonhosted.org/packages/43/cd/dd428fbf3f53f6cbc54ce1602a6f925c91b5568fe35963285bd882397872/text_lloom-0.7.2.tar.gz
+[2024-04-26 13:55:36] INFO root fetch - processPackages [tvb-widgets]: executing diffoscope
+[2024-04-26 13:55:36] INFO root fetch - processPackages [tvb-widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tvb-widgets-1.6.0.tar.gz tmp/tvb-widgets-2.0.0.tar.gz --markdown 20240426/t/tvb-widgets/1.6.0-2.0.0/README.md --exclude *.pyd
+[2024-04-26 13:55:36] INFO root fetch - processPackages [shii-study]: executing diffoscope
+[2024-04-26 13:55:36] INFO root fetch - processPackages [shii-study]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shii_study-1.0.1-py2.py3-none-any.whl.zip tmp/shii_study-1.0.2-py2.py3-none-any.whl.zip --markdown 20240426/s/shii-study/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-26 13:55:36] INFO root fetch - processPackages [text_lloom]: executing diffoscope
+[2024-04-26 13:55:36] INFO root fetch - processPackages [text_lloom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text_lloom-0.7.1.tar.gz tmp/text_lloom-0.7.2.tar.gz --markdown 20240426/t/text_lloom/0.7.1-0.7.2/README.md --exclude *.pyd
+[2024-04-26 13:55:36] INFO root fetch - processPackages [HeraData]: Remove: archive file [/home/abi/fetcher/tmp/HeraData-0.1.2.tar.gz]
+[2024-04-26 13:55:36] INFO root fetch - processPackages [HeraData]: Remove: archive file [/home/abi/fetcher/tmp/HeraData-0.1.3.tar.gz]
+[2024-04-26 13:55:36] INFO root fetch - main [MainThread]: End processing [HeraData]: success
+[2024-04-26 13:55:37] INFO root fetch - processPackages [shii-study]: Remove: archive file [/home/abi/fetcher/tmp/shii_study-1.0.1-py2.py3-none-any.whl.zip]
+[2024-04-26 13:55:37] INFO root fetch - processPackages [shii-study]: Remove: archive file [/home/abi/fetcher/tmp/shii_study-1.0.2-py2.py3-none-any.whl.zip]
+[2024-04-26 13:55:37] INFO root fetch - main [MainThread]: End processing [shii-study]: success
+[2024-04-26 13:55:37] INFO root fetch - processPackages [text_lloom]: Remove: archive file [/home/abi/fetcher/tmp/text_lloom-0.7.1.tar.gz]
+[2024-04-26 13:55:37] INFO root fetch - processPackages [text_lloom]: Remove: archive file [/home/abi/fetcher/tmp/text_lloom-0.7.2.tar.gz]
+[2024-04-26 13:55:37] INFO root fetch - main [MainThread]: End processing [text_lloom]: success
+[2024-04-26 13:55:37] INFO root fetch - processPackages [tvb-widgets]: Remove: archive file [/home/abi/fetcher/tmp/tvb-widgets-1.6.0.tar.gz]
+[2024-04-26 13:55:37] INFO root fetch - processPackages [tvb-widgets]: Remove: archive file [/home/abi/fetcher/tmp/tvb-widgets-2.0.0.tar.gz]
+[2024-04-26 13:55:37] INFO root fetch - main [MainThread]: End processing [tvb-widgets]: success
+[2024-04-26 13:55:37] INFO root fetch - main [MainThread]: Store serial: [22947154]
