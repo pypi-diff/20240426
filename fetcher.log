@@ -13747,3 +13747,27 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 10:06:49] INFO root fetch - processPackages [odoo-addon-l10n-ro-dvi]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_dvi-16.0.1.7.0-py3-none-any.whl.zip]
 [2024-04-26 10:06:49] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-ro-dvi]: success
 [2024-04-26 10:06:49] INFO root fetch - main [MainThread]: Store serial: [22944670]
+[2024-04-26 10:08:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22944670]
+[2024-04-26 10:09:00] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-26 10:09:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hello-world-suraj-test
+[2024-04-26 10:09:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ANTConnect
+[2024-04-26 10:09:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyglove
+[2024-04-26 10:09:00] WARNING root fetch - processPackages [hello-world-suraj-test]: Skipping, unable to determine old version
+[2024-04-26 10:09:00] INFO root fetch - main [MainThread]: End processing [hello-world-suraj-test] error
+[2024-04-26 10:09:00] INFO root fetch - processPackages [pyglove]: New version: [0.4.5.dev20240425] Old Version: [0.4.5.dev20240424]
+[2024-04-26 10:09:00] INFO root fetch - processPackages [ANTConnect]: New version: [2023.9.9] Old Version: [2023.9.8rc1]
+[2024-04-26 10:09:00] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/1b/75/244286d43253fd0938d5a967731e9e1cc8ae3f1023ed53d308b4b23698cf/pyglove-0.4.5.dev20240424.tar.gz
+[2024-04-26 10:09:00] INFO root fetch - processPackages [ANTConnect]: Downloading https://files.pythonhosted.org/packages/bf/d2/03a351661f7c2aa8c63415b4c151d81562d81e4f4d4b1d5a612f9575ea8d/ANTConnect-2023.9.8rc1.tar.gz
+[2024-04-26 10:09:00] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/62/b6/7401fa5ba5cd88a228a84ca189dfe9561cec8d78e3c52036550ac3ae1323/pyglove-0.4.5.dev20240425.tar.gz
+[2024-04-26 10:09:00] INFO root fetch - processPackages [ANTConnect]: Downloading https://files.pythonhosted.org/packages/25/3b/0c2b38c4af90b8da37162d7abc993adfee42ec327696062002bf5532b73d/ANTConnect-2023.9.9.tar.gz
+[2024-04-26 10:09:00] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2024-04-26 10:09:00] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.4.5.dev20240424.tar.gz tmp/pyglove-0.4.5.dev20240425.tar.gz --markdown 20240426/p/pyglove/0.4.5.dev20240424-0.4.5.dev20240425/README.md --exclude *.pyd
+[2024-04-26 10:09:01] INFO root fetch - processPackages [ANTConnect]: executing diffoscope
+[2024-04-26 10:09:01] INFO root fetch - processPackages [ANTConnect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ANTConnect-2023.9.8rc1.tar.gz tmp/ANTConnect-2023.9.9.tar.gz --markdown 20240426/A/ANTConnect/2023.9.8rc1-2023.9.9/README.md --exclude *.pyd
+[2024-04-26 10:09:01] INFO root fetch - processPackages [ANTConnect]: Remove: archive file [/home/abi/fetcher/tmp/ANTConnect-2023.9.8rc1.tar.gz]
+[2024-04-26 10:09:01] INFO root fetch - processPackages [ANTConnect]: Remove: archive file [/home/abi/fetcher/tmp/ANTConnect-2023.9.9.tar.gz]
+[2024-04-26 10:09:01] INFO root fetch - main [MainThread]: End processing [ANTConnect]: success
+[2024-04-26 10:09:02] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.5.dev20240424.tar.gz]
+[2024-04-26 10:09:02] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.5.dev20240425.tar.gz]
+[2024-04-26 10:09:02] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2024-04-26 10:09:02] INFO root fetch - main [MainThread]: Store serial: [22944679]
