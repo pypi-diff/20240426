@@ -18328,3 +18328,101 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 13:07:26] INFO root fetch - processPackages [capellambse]: Remove: archive file [/home/abi/fetcher/tmp/capellambse-0.5.9.dev5.tar.gz]
 [2024-04-26 13:07:26] INFO root fetch - main [MainThread]: End processing [capellambse]: success
 [2024-04-26 13:07:26] INFO root fetch - main [MainThread]: Store serial: [22946634]
+[2024-04-26 13:09:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22946634]
+[2024-04-26 13:09:35] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-04-26 13:09:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chatllm
+[2024-04-26 13:09:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qstd-core
+[2024-04-26 13:09:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bigdl-core-xe-esimd-21
+[2024-04-26 13:09:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: capellambse
+[2024-04-26 13:09:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyap2
+[2024-04-26 13:09:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bigdl-core-xe-esimd
+[2024-04-26 13:09:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gai-lib
+[2024-04-26 13:09:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: grizzly-loadtester
+[2024-04-26 13:09:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: quickstart-vdk
+[2024-04-26 13:09:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: terminaltexteffects
+[2024-04-26 13:09:35] INFO root fetch - processPackages [chatllm]: New version: [2024.4.3.18.28.17] Old Version: [2024.4.26.18.51.34]
+[2024-04-26 13:09:35] INFO root fetch - processPackages [qstd-core]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-04-26 13:09:35] INFO root fetch - processPackages [grizzly-loadtester]: New version: [2.9.3] Old Version: [2.9.2]
+[2024-04-26 13:09:35] INFO root fetch - processPackages [capellambse]: New version: [0.5.9.dev5] Old Version: [0.5.9]
+[2024-04-26 13:09:35] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.999091100.dev13356] Old Version: [0.2.998635022.dev13355]
+[2024-04-26 13:09:35] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: New version: [2.5.0b20240426] Old Version: [2.5.0b20240425]
+[2024-04-26 13:09:35] INFO root fetch - processPackages [pyap2]: New version: [0.1.0] Old Version: [0.0.1]
+[2024-04-26 13:09:35] INFO root fetch - processPackages [gai-lib]: New version: [0.99] Old Version: [0.98]
+[2024-04-26 13:09:35] INFO root fetch - processPackages [terminaltexteffects]: New version: [0.8.0] Old Version: [0.7.0]
+[2024-04-26 13:09:35] INFO root fetch - processPackages [bigdl-core-xe-esimd]: New version: [2.5.0b20240426] Old Version: [2.5.0b20240425]
+[2024-04-26 13:09:35] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/82/af/2874a79c661badbfb81e54e715c697a1e85b38f426b60083dea0031a2cfb/chatllm-2024.4.26.18.51.34.tar.gz
+[2024-04-26 13:09:35] INFO root fetch - processPackages [qstd-core]: Downloading https://files.pythonhosted.org/packages/95/40/cad6e61e9aeb2ad4592b7568c8879f5980d5a26c51fe79aeb374afb0d7de/qstd_core-0.2.4.tar.gz
+[2024-04-26 13:09:35] INFO root fetch - processPackages [grizzly-loadtester]: Downloading https://files.pythonhosted.org/packages/2b/50/694e2756c5321fad1437a40079fcfe3b18e0aa8e707c330e3695c8473295/grizzly-loadtester-2.9.2.tar.gz
+[2024-04-26 13:09:35] INFO root fetch - processPackages [capellambse]: Downloading https://files.pythonhosted.org/packages/0a/bb/e7974d92c6a3d93dbf30730a6d9302f37f52093b4985246d97e22939147d/capellambse-0.5.9.tar.gz
+[2024-04-26 13:09:35] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/e3/a6/b7424a3be777980068df32f41ef9085422b79289fef725cba5cabf2b502e/quickstart-vdk-0.2.998635022.dev13355.tar.gz
+[2024-04-26 13:09:35] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: Downloading https://files.pythonhosted.org/packages/6b/fb/2510ecd1bbacdeb43804469992bef452b85f20f0224c620bcd8025605d4f/bigdl_core_xe_esimd_21-2.5.0b20240425-cp39-cp39-win_amd64.whl
+[2024-04-26 13:09:35] INFO root fetch - processPackages [pyap2]: Downloading https://files.pythonhosted.org/packages/eb/bb/ba1a3b99692b94cf563bfac59bd444a037abd120903e530f85b9cead61f5/pyap2-0.0.1.tar.gz
+[2024-04-26 13:09:35] INFO root fetch - processPackages [gai-lib]: Downloading https://files.pythonhosted.org/packages/d7/ec/73324c4782c5a7d475e0473a63a34aefe2a50c28e3e95e74572ba8e24319/gai-lib-0.98.tar.gz
+[2024-04-26 13:09:35] INFO root fetch - processPackages [bigdl-core-xe-esimd]: Downloading https://files.pythonhosted.org/packages/df/b9/5369b9a680784701bbcd84baf388edc8cfe9f17968d9885a6dd86ccee715/bigdl_core_xe_esimd-2.5.0b20240425-cp39-cp39-manylinux2010_x86_64.whl
+[2024-04-26 13:09:35] INFO root fetch - processPackages [terminaltexteffects]: Downloading https://files.pythonhosted.org/packages/20/49/7f3fc0d8d47a44cc1633a8012a7c56747ee847007e818c42a3fde3b3e5a4/terminaltexteffects-0.7.0.tar.gz
+[2024-04-26 13:09:35] WARNING root fetch - processPackages [bigdl-core-xe-esimd]: Skipping package: exceeds size limit 61871660>=10485760
+[2024-04-26 13:09:35] INFO root fetch - processPackages [bigdl-core-xe-esimd]: Start processing: xlrd-2024
+[2024-04-26 13:09:35] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe-esimd] error
+[2024-04-26 13:09:35] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/c0/66/70e97afa791a99fbb0077079ce0d33cf70c9260e0f42babeedaeba346800/chatllm-2024.4.3.18.28.17.tar.gz
+[2024-04-26 13:09:35] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/fa/72/2a48eb94b876fa0c01eda0450a3e80c80101dd5fdfe10124d5474b64f5fd/quickstart-vdk-0.2.999091100.dev13356.tar.gz
+[2024-04-26 13:09:35] INFO root fetch - processPackages [qstd-core]: Downloading https://files.pythonhosted.org/packages/9d/99/b228bd9dd20b493fa62d069417b62114983934beff25a468ffb5b34afcdb/qstd_core-0.2.5.tar.gz
+[2024-04-26 13:09:35] INFO root fetch - processPackages [grizzly-loadtester]: Downloading https://files.pythonhosted.org/packages/08/d4/7c29a994dd1c9c43a167b3e85a2ca5a792b5b7dd0fbe7c9be76cd088391e/grizzly-loadtester-2.9.3.tar.gz
+[2024-04-26 13:09:35] WARNING root fetch - processPackages [xlrd-2024]: Skipping, unable to determine old version
+[2024-04-26 13:09:35] INFO root fetch - processPackages [xlrd-2024]: Start processing: sts-libs
+[2024-04-26 13:09:35] INFO root fetch - main [MainThread]: End processing [xlrd-2024] error
+[2024-04-26 13:09:36] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2024-04-26 13:09:36] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz --markdown 20240426/q/quickstart-vdk/0.2.998635022.dev13355-0.2.999091100.dev13356/README.md --exclude *.pyd
+[2024-04-26 13:09:36] INFO root fetch - processPackages [qstd-core]: executing diffoscope
+[2024-04-26 13:09:36] INFO root fetch - processPackages [qstd-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qstd_core-0.2.4.tar.gz tmp/qstd_core-0.2.5.tar.gz --markdown 20240426/q/qstd-core/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-04-26 13:09:36] INFO root fetch - processPackages [gai-lib]: Downloading https://files.pythonhosted.org/packages/fd/52/02eb2fe55760540c73b1796ab0f903f7b077179fa1269206b0ff8d4909cf/gai-lib-0.99.tar.gz
+[2024-04-26 13:09:36] INFO root fetch - processPackages [capellambse]: Downloading https://files.pythonhosted.org/packages/31/3c/3a68e2e4cc3165b37471f5302bc500647962d3db54edea8081d0ced76387/capellambse-0.5.9.dev5.tar.gz
+[2024-04-26 13:09:36] INFO root fetch - processPackages [grizzly-loadtester]: executing diffoscope
+[2024-04-26 13:09:36] INFO root fetch - processPackages [grizzly-loadtester]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grizzly-loadtester-2.9.2.tar.gz tmp/grizzly-loadtester-2.9.3.tar.gz --markdown 20240426/g/grizzly-loadtester/2.9.2-2.9.3/README.md --exclude *.pyd
+[2024-04-26 13:09:36] INFO root fetch - processPackages [pyap2]: Downloading https://files.pythonhosted.org/packages/3f/87/9cd66b68e57b5da6951aa0a5f85ea61b375afb21533e95beafb36e2886cf/pyap2-0.1.0.tar.gz
+[2024-04-26 13:09:36] INFO root fetch - processPackages [sts-libs]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-26 13:09:36] INFO root fetch - processPackages [terminaltexteffects]: Downloading https://files.pythonhosted.org/packages/b8/00/d64ab46e5e81a0b4936e103ee5f3d757077743639ae71b434bf3ed8a06a5/terminaltexteffects-0.8.0.tar.gz
+[2024-04-26 13:09:36] INFO root fetch - processPackages [gai-lib]: executing diffoscope
+[2024-04-26 13:09:36] INFO root fetch - processPackages [gai-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gai-lib-0.98.tar.gz tmp/gai-lib-0.99.tar.gz --markdown 20240426/g/gai-lib/0.98-0.99/README.md --exclude *.pyd
+[2024-04-26 13:09:36] INFO root fetch - processPackages [chatllm]: executing diffoscope
+[2024-04-26 13:09:36] INFO root fetch - processPackages [chatllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatllm-2024.4.26.18.51.34.tar.gz tmp/chatllm-2024.4.3.18.28.17.tar.gz --markdown 20240426/c/chatllm/2024.4.26.18.51.34-2024.4.3.18.28.17/README.md --exclude *.pyd
+[2024-04-26 13:09:36] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: Downloading https://files.pythonhosted.org/packages/ac/9a/52480cc3635c649472b44bf37d03d7943069fe33522f9e699de7b26ba476/bigdl_core_xe_esimd_21-2.5.0b20240426-cp310-cp310-manylinux2010_x86_64.whl
+[2024-04-26 13:09:36] WARNING root fetch - processPackages [bigdl-core-xe-esimd-21]: Skipping package: exceeds size limit 46710727>=10485760
+[2024-04-26 13:09:36] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe-esimd-21] error
+[2024-04-26 13:09:36] INFO root fetch - processPackages [pyap2]: executing diffoscope
+[2024-04-26 13:09:36] INFO root fetch - processPackages [pyap2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyap2-0.0.1.tar.gz tmp/pyap2-0.1.0.tar.gz --markdown 20240426/p/pyap2/0.0.1-0.1.0/README.md --exclude *.pyd
+[2024-04-26 13:09:36] INFO root fetch - processPackages [sts-libs]: Downloading https://files.pythonhosted.org/packages/0f/c9/7bed227dccd321addee4748876f890bf5dd07e73925dc00aee73b0d2e456/sts_libs-0.1.7.tar.gz
+[2024-04-26 13:09:36] INFO root fetch - processPackages [terminaltexteffects]: executing diffoscope
+[2024-04-26 13:09:36] INFO root fetch - processPackages [terminaltexteffects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terminaltexteffects-0.7.0.tar.gz tmp/terminaltexteffects-0.8.0.tar.gz --markdown 20240426/t/terminaltexteffects/0.7.0-0.8.0/README.md --exclude *.pyd
+[2024-04-26 13:09:36] INFO root fetch - processPackages [capellambse]: executing diffoscope
+[2024-04-26 13:09:36] INFO root fetch - processPackages [capellambse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capellambse-0.5.9.tar.gz tmp/capellambse-0.5.9.dev5.tar.gz --markdown 20240426/c/capellambse/0.5.9-0.5.9.dev5/README.md --exclude *.pyd
+[2024-04-26 13:09:36] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz]
+[2024-04-26 13:09:36] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz]
+[2024-04-26 13:09:36] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2024-04-26 13:09:36] INFO root fetch - processPackages [sts-libs]: Downloading https://files.pythonhosted.org/packages/d0/53/48dfc749a284fbab0c25a97aaa1eebc3393ed33d09069a256dc0d7410b7f/sts_libs-0.1.8.tar.gz
+[2024-04-26 13:09:36] INFO root fetch - processPackages [qstd-core]: Remove: archive file [/home/abi/fetcher/tmp/qstd_core-0.2.4.tar.gz]
+[2024-04-26 13:09:36] INFO root fetch - processPackages [qstd-core]: Remove: archive file [/home/abi/fetcher/tmp/qstd_core-0.2.5.tar.gz]
+[2024-04-26 13:09:36] INFO root fetch - main [MainThread]: End processing [qstd-core]: success
+[2024-04-26 13:09:37] INFO root fetch - processPackages [gai-lib]: Remove: archive file [/home/abi/fetcher/tmp/gai-lib-0.98.tar.gz]
+[2024-04-26 13:09:37] INFO root fetch - processPackages [gai-lib]: Remove: archive file [/home/abi/fetcher/tmp/gai-lib-0.99.tar.gz]
+[2024-04-26 13:09:37] INFO root fetch - main [MainThread]: End processing [gai-lib]: success
+[2024-04-26 13:09:37] INFO root fetch - processPackages [pyap2]: Remove: archive file [/home/abi/fetcher/tmp/pyap2-0.0.1.tar.gz]
+[2024-04-26 13:09:37] INFO root fetch - processPackages [pyap2]: Remove: archive file [/home/abi/fetcher/tmp/pyap2-0.1.0.tar.gz]
+[2024-04-26 13:09:37] INFO root fetch - main [MainThread]: End processing [pyap2]: success
+[2024-04-26 13:09:37] INFO root fetch - processPackages [sts-libs]: executing diffoscope
+[2024-04-26 13:09:37] INFO root fetch - processPackages [sts-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sts_libs-0.1.7.tar.gz tmp/sts_libs-0.1.8.tar.gz --markdown 20240426/s/sts-libs/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-26 13:09:37] INFO root fetch - processPackages [terminaltexteffects]: Remove: archive file [/home/abi/fetcher/tmp/terminaltexteffects-0.7.0.tar.gz]
+[2024-04-26 13:09:37] INFO root fetch - processPackages [terminaltexteffects]: Remove: archive file [/home/abi/fetcher/tmp/terminaltexteffects-0.8.0.tar.gz]
+[2024-04-26 13:09:37] INFO root fetch - main [MainThread]: End processing [terminaltexteffects]: success
+[2024-04-26 13:09:37] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.4.26.18.51.34.tar.gz]
+[2024-04-26 13:09:37] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.4.3.18.28.17.tar.gz]
+[2024-04-26 13:09:37] INFO root fetch - main [MainThread]: End processing [chatllm]: success
+[2024-04-26 13:09:37] INFO root fetch - processPackages [grizzly-loadtester]: Remove: archive file [/home/abi/fetcher/tmp/grizzly-loadtester-2.9.2.tar.gz]
+[2024-04-26 13:09:37] INFO root fetch - processPackages [grizzly-loadtester]: Remove: archive file [/home/abi/fetcher/tmp/grizzly-loadtester-2.9.3.tar.gz]
+[2024-04-26 13:09:37] INFO root fetch - main [MainThread]: End processing [grizzly-loadtester]: success
+[2024-04-26 13:09:38] INFO root fetch - processPackages [sts-libs]: Remove: archive file [/home/abi/fetcher/tmp/sts_libs-0.1.7.tar.gz]
+[2024-04-26 13:09:38] INFO root fetch - processPackages [sts-libs]: Remove: archive file [/home/abi/fetcher/tmp/sts_libs-0.1.8.tar.gz]
+[2024-04-26 13:09:38] INFO root fetch - main [MainThread]: End processing [sts-libs]: success
+[2024-04-26 13:09:41] INFO root fetch - processPackages [capellambse]: Remove: archive file [/home/abi/fetcher/tmp/capellambse-0.5.9.tar.gz]
+[2024-04-26 13:09:41] INFO root fetch - processPackages [capellambse]: Remove: archive file [/home/abi/fetcher/tmp/capellambse-0.5.9.dev5.tar.gz]
+[2024-04-26 13:09:41] INFO root fetch - main [MainThread]: End processing [capellambse]: success
+[2024-04-26 13:09:41] INFO root fetch - main [MainThread]: Store serial: [22946665]
