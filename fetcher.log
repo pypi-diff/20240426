@@ -17630,3 +17630,65 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 12:34:21] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.7.9.tar.gz]
 [2024-04-26 12:34:21] INFO root fetch - main [MainThread]: End processing [power-grid-model]: success
 [2024-04-26 12:34:21] INFO root fetch - main [MainThread]: Store serial: [22946334]
+[2024-04-26 12:36:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22946334]
+[2024-04-26 12:36:30] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-26 12:36:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: inoopa_utils
+[2024-04-26 12:36:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alphaz-next
+[2024-04-26 12:36:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi
+[2024-04-26 12:36:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cybsi-sdk
+[2024-04-26 12:36:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cnlitellm
+[2024-04-26 12:36:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: neutron
+[2024-04-26 12:36:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: flowty
+[2024-04-26 12:36:30] INFO root fetch - processPackages [cnlitellm]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-26 12:36:30] INFO root fetch - processPackages [alphaz-next]: New version: [0.5.8] Old Version: [0.5.7]
+[2024-04-26 12:36:30] INFO root fetch - processPackages [pulumi]: New version: [3.99.0] Old Version: [3.98.0]
+[2024-04-26 12:36:30] INFO root fetch - processPackages [cnlitellm]: Downloading https://files.pythonhosted.org/packages/4d/67/2d2a839cf8197aacd08abbf7e3ac4e46de02bd0bf390a584ce85664cba28/cnlitellm-0.2.1.tar.gz
+[2024-04-26 12:36:30] INFO root fetch - processPackages [flowty]: New version: [2.0a8] Old Version: [2.0a7]
+[2024-04-26 12:36:30] INFO root fetch - processPackages [cybsi-sdk]: New version: [2.12.1] Old Version: [2.12.0a6]
+[2024-04-26 12:36:30] INFO root fetch - processPackages [inoopa_utils]: New version: [2.9.4] Old Version: [2.9.3]
+[2024-04-26 12:36:30] INFO root fetch - processPackages [alphaz-next]: Downloading https://files.pythonhosted.org/packages/81/9f/d9cb60da04b42916313b9eae62a847902171c9f8066c36fec7228d2a48d6/alphaz-next-0.5.7.tar.gz
+[2024-04-26 12:36:30] INFO root fetch - processPackages [neutron]: New version: [24.0.0.0rc2] Old Version: [24.0.0.0rc1]
+[2024-04-26 12:36:30] INFO root fetch - processPackages [pulumi]: Downloading https://files.pythonhosted.org/packages/c1/38/8ac5a8420c7a95ad63a48e5881ef08233e7ce3dbe95751bfcc7746f0c383/pulumi-3.98.0-py3-none-any.whl
+[2024-04-26 12:36:30] INFO root fetch - processPackages [flowty]: Downloading https://files.pythonhosted.org/packages/db/d3/6b5529e604422aab235cee45c8c556a1b93417d5e870551584986f3e2d4b/flowty-2.0a7-cp39-cp39-win_amd64.whl
+[2024-04-26 12:36:30] INFO root fetch - processPackages [cnlitellm]: Downloading https://files.pythonhosted.org/packages/29/9d/5a8d25de541390bfb6f590bcffb5f06497f3bff2d68eba94030105a675be/cnlitellm-0.2.2.tar.gz
+[2024-04-26 12:36:30] INFO root fetch - processPackages [cybsi-sdk]: Downloading https://files.pythonhosted.org/packages/e2/b9/dd7c3bed836fd64e8a8f1bf8f04af737ae2d9589c35f8f6a0132b1743d01/cybsi_sdk-2.12.0a6.tar.gz
+[2024-04-26 12:36:30] INFO root fetch - processPackages [inoopa_utils]: Downloading https://files.pythonhosted.org/packages/cc/fd/34e50c53ffe1880bde2dbcb3b33c6621aa3f859ad3d72d0b324290e539b3/inoopa_utils-2.9.3.tar.gz
+[2024-04-26 12:36:30] INFO root fetch - processPackages [neutron]: Downloading https://files.pythonhosted.org/packages/a9/28/dc54efa5a3bb310d39a684dfb8cf8ec890c5ef915a2922f69f512abf42c9/neutron-24.0.0.0rc1.tar.gz
+[2024-04-26 12:36:30] INFO root fetch - processPackages [alphaz-next]: Downloading https://files.pythonhosted.org/packages/e6/e6/7a4622de728066dabee091925d2d468f0162e085d8ac81d1386db32e66f0/alphaz-next-0.5.8.tar.gz
+[2024-04-26 12:36:30] INFO root fetch - processPackages [pulumi]: Downloading https://files.pythonhosted.org/packages/17/49/ac369781e6bea40b4e15ca66620d1815ffa59727e6dab5e543a8971e8cd9/pulumi-3.99.0-py3-none-any.whl
+[2024-04-26 12:36:30] INFO root fetch - processPackages [cnlitellm]: executing diffoscope
+[2024-04-26 12:36:30] INFO root fetch - processPackages [cnlitellm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cnlitellm-0.2.1.tar.gz tmp/cnlitellm-0.2.2.tar.gz --markdown 20240426/c/cnlitellm/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-04-26 12:36:31] INFO root fetch - processPackages [alphaz-next]: executing diffoscope
+[2024-04-26 12:36:31] INFO root fetch - processPackages [alphaz-next]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alphaz-next-0.5.7.tar.gz tmp/alphaz-next-0.5.8.tar.gz --markdown 20240426/a/alphaz-next/0.5.7-0.5.8/README.md --exclude *.pyd
+[2024-04-26 12:36:31] INFO root fetch - processPackages [pulumi]: executing diffoscope
+[2024-04-26 12:36:31] INFO root fetch - processPackages [pulumi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi-3.98.0-py3-none-any.whl.zip tmp/pulumi-3.99.0-py3-none-any.whl.zip --markdown 20240426/p/pulumi/3.98.0-3.99.0/README.md --exclude *.pyd
+[2024-04-26 12:36:31] WARNING root fetch - processPackages [neutron]: Skipping package: exceeds size limit 14338748>=10485760
+[2024-04-26 12:36:31] INFO root fetch - main [MainThread]: End processing [neutron] error
+[2024-04-26 12:36:31] INFO root fetch - processPackages [inoopa_utils]: Downloading https://files.pythonhosted.org/packages/4e/b2/eca5fa94257b712329d89437a541ffd991ee17d437cdc765cfe5587ae6d6/inoopa_utils-2.9.4.tar.gz
+[2024-04-26 12:36:31] INFO root fetch - processPackages [cybsi-sdk]: Downloading https://files.pythonhosted.org/packages/63/49/4ee40f3eb18113f0157a01f5573d52f49fa2bca2966cf89f64c16de0fc2b/cybsi_sdk-2.12.1.tar.gz
+[2024-04-26 12:36:31] INFO root fetch - processPackages [inoopa_utils]: executing diffoscope
+[2024-04-26 12:36:31] INFO root fetch - processPackages [inoopa_utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inoopa_utils-2.9.3.tar.gz tmp/inoopa_utils-2.9.4.tar.gz --markdown 20240426/i/inoopa_utils/2.9.3-2.9.4/README.md --exclude *.pyd
+[2024-04-26 12:36:31] INFO root fetch - processPackages [cybsi-sdk]: executing diffoscope
+[2024-04-26 12:36:31] INFO root fetch - processPackages [cybsi-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybsi_sdk-2.12.0a6.tar.gz tmp/cybsi_sdk-2.12.1.tar.gz --markdown 20240426/c/cybsi-sdk/2.12.0a6-2.12.1/README.md --exclude *.pyd
+[2024-04-26 12:36:31] INFO root fetch - processPackages [flowty]: Downloading https://files.pythonhosted.org/packages/01/f8/3edcfb8543178022ef745d4c6758f265d6ccda35eeb3471c28256a8791bf/flowty-2.0a8-cp39-cp39-manylinux_2_35_aarch64.whl
+[2024-04-26 12:36:31] INFO root fetch - processPackages [alphaz-next]: Remove: archive file [/home/abi/fetcher/tmp/alphaz-next-0.5.7.tar.gz]
+[2024-04-26 12:36:31] INFO root fetch - processPackages [alphaz-next]: Remove: archive file [/home/abi/fetcher/tmp/alphaz-next-0.5.8.tar.gz]
+[2024-04-26 12:36:31] INFO root fetch - main [MainThread]: End processing [alphaz-next]: success
+[2024-04-26 12:36:31] INFO root fetch - processPackages [cnlitellm]: Remove: archive file [/home/abi/fetcher/tmp/cnlitellm-0.2.1.tar.gz]
+[2024-04-26 12:36:31] INFO root fetch - processPackages [cnlitellm]: Remove: archive file [/home/abi/fetcher/tmp/cnlitellm-0.2.2.tar.gz]
+[2024-04-26 12:36:31] INFO root fetch - main [MainThread]: End processing [cnlitellm]: success
+[2024-04-26 12:36:31] INFO root fetch - processPackages [inoopa_utils]: Remove: archive file [/home/abi/fetcher/tmp/inoopa_utils-2.9.3.tar.gz]
+[2024-04-26 12:36:31] INFO root fetch - processPackages [inoopa_utils]: Remove: archive file [/home/abi/fetcher/tmp/inoopa_utils-2.9.4.tar.gz]
+[2024-04-26 12:36:31] INFO root fetch - main [MainThread]: End processing [inoopa_utils]: success
+[2024-04-26 12:36:31] INFO root fetch - processPackages [pulumi]: Remove: archive file [/home/abi/fetcher/tmp/pulumi-3.98.0-py3-none-any.whl.zip]
+[2024-04-26 12:36:31] INFO root fetch - processPackages [pulumi]: Remove: archive file [/home/abi/fetcher/tmp/pulumi-3.99.0-py3-none-any.whl.zip]
+[2024-04-26 12:36:31] INFO root fetch - main [MainThread]: End processing [pulumi]: success
+[2024-04-26 12:36:32] INFO root fetch - processPackages [cybsi-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cybsi_sdk-2.12.0a6.tar.gz]
+[2024-04-26 12:36:32] INFO root fetch - processPackages [cybsi-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cybsi_sdk-2.12.1.tar.gz]
+[2024-04-26 12:36:32] INFO root fetch - main [MainThread]: End processing [cybsi-sdk]: success
+[2024-04-26 12:36:32] INFO root fetch - processPackages [flowty]: executing diffoscope
+[2024-04-26 12:36:32] INFO root fetch - processPackages [flowty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowty-2.0a7-cp39-cp39-win_amd64.whl.zip tmp/flowty-2.0a8-cp39-cp39-manylinux_2_35_aarch64.whl.zip --markdown 20240426/f/flowty/2.0a7-2.0a8/README.md --exclude *.pyd
+[2024-04-26 12:36:33] INFO root fetch - processPackages [flowty]: Remove: archive file [/home/abi/fetcher/tmp/flowty-2.0a7-cp39-cp39-win_amd64.whl.zip]
+[2024-04-26 12:36:33] INFO root fetch - processPackages [flowty]: Remove: archive file [/home/abi/fetcher/tmp/flowty-2.0a8-cp39-cp39-manylinux_2_35_aarch64.whl.zip]
+[2024-04-26 12:36:33] INFO root fetch - main [MainThread]: End processing [flowty]: success
+[2024-04-26 12:36:33] INFO root fetch - main [MainThread]: Store serial: [22946361]
