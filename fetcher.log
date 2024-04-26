@@ -20177,3 +20177,54 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 14:34:38] INFO root fetch - processPackages [framelib]: Remove: archive file [/home/abi/fetcher/tmp/framelib-0.0.4b0.tar.gz]
 [2024-04-26 14:34:38] INFO root fetch - main [MainThread]: End processing [framelib]: success
 [2024-04-26 14:34:38] INFO root fetch - main [MainThread]: Store serial: [22947415]
+[2024-04-26 14:36:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22947415]
+[2024-04-26 14:36:47] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-26 14:36:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gllogger
+[2024-04-26 14:36:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: osc-transformer-presteps
+[2024-04-26 14:36:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ifes-apt-tc-data-modeling
+[2024-04-26 14:36:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: polars-qt
+[2024-04-26 14:36:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyjoulescope-driver
+[2024-04-26 14:36:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sqlalchemy-crud-plus
+[2024-04-26 14:36:47] INFO root fetch - processPackages [gllogger]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-26 14:36:47] INFO root fetch - processPackages [polars-qt]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-26 14:36:47] INFO root fetch - processPackages [ifes-apt-tc-data-modeling]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-26 14:36:47] WARNING root fetch - processPackages [sqlalchemy-crud-plus]: Skipping, unable to determine old version
+[2024-04-26 14:36:47] INFO root fetch - main [MainThread]: End processing [sqlalchemy-crud-plus] error
+[2024-04-26 14:36:47] INFO root fetch - processPackages [osc-transformer-presteps]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-26 14:36:47] INFO root fetch - processPackages [gllogger]: Downloading https://files.pythonhosted.org/packages/9d/6c/dc4b61360172fbf81ee4d41d82d15b15feb3757d4e1ccc612ea160f9510e/gllogger-0.0.6.tar.gz
+[2024-04-26 14:36:47] INFO root fetch - processPackages [polars-qt]: Downloading https://files.pythonhosted.org/packages/33/43/450220390ea6f8586f9c178bc66f7372999013a60708134cfe6acf5db821/polars_qt-0.1.7.tar.gz
+[2024-04-26 14:36:47] INFO root fetch - processPackages [ifes-apt-tc-data-modeling]: Downloading https://files.pythonhosted.org/packages/83/df/acecb54e95bb0ce1305f1d936d05e1d21245ec8cfbba15669d21fd9e8599/ifes_apt_tc_data_modeling-0.2.1.tar.gz
+[2024-04-26 14:36:47] INFO root fetch - processPackages [osc-transformer-presteps]: Downloading https://files.pythonhosted.org/packages/da/f9/6c7abd7b2df54d60d0ae77543346e80f16db77799f018e654af707daca38/osc_transformer_presteps-0.1.0.tar.gz
+[2024-04-26 14:36:47] INFO root fetch - processPackages [pyjoulescope-driver]: New version: [1.5.1] Old Version: [1.5.0]
+[2024-04-26 14:36:47] INFO root fetch - processPackages [polars-qt]: Downloading https://files.pythonhosted.org/packages/ee/bc/4973f1e5557e28230eab9637758c3c632dc8c3510d8715540c6e927b7f81/polars_qt-0.1.8.tar.gz
+[2024-04-26 14:36:47] INFO root fetch - processPackages [pyjoulescope-driver]: Downloading https://files.pythonhosted.org/packages/a7/92/52a81bed4f87e7191988daef186942c341ee272a4f54880351c89c003128/pyjoulescope_driver-1.5.0.tar.gz
+[2024-04-26 14:36:47] INFO root fetch - processPackages [polars-qt]: executing diffoscope
+[2024-04-26 14:36:47] INFO root fetch - processPackages [polars-qt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polars_qt-0.1.7.tar.gz tmp/polars_qt-0.1.8.tar.gz --markdown 20240426/p/polars-qt/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-26 14:36:47] INFO root fetch - processPackages [gllogger]: Downloading https://files.pythonhosted.org/packages/cb/8e/d7e8f11ac81068640f9a732ee42843413cdc4ef01518e81c0b8b3e92c775/gllogger-0.0.7.tar.gz
+[2024-04-26 14:36:47] INFO root fetch - processPackages [osc-transformer-presteps]: Downloading https://files.pythonhosted.org/packages/16/4a/5434918000577a71f71c68ea1a704b56f28224cf25a10a3b837863d89e65/osc_transformer_presteps-0.1.1.tar.gz
+[2024-04-26 14:36:47] INFO root fetch - processPackages [ifes-apt-tc-data-modeling]: Downloading https://files.pythonhosted.org/packages/58/60/0db654404d1fa552da4113069bb26181040b806f3418865e235dd2746ebe/ifes_apt_tc_data_modeling-0.2.2.tar.gz
+[2024-04-26 14:36:47] INFO root fetch - processPackages [gllogger]: executing diffoscope
+[2024-04-26 14:36:47] INFO root fetch - processPackages [gllogger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gllogger-0.0.6.tar.gz tmp/gllogger-0.0.7.tar.gz --markdown 20240426/g/gllogger/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-26 14:36:48] INFO root fetch - processPackages [ifes-apt-tc-data-modeling]: executing diffoscope
+[2024-04-26 14:36:48] INFO root fetch - processPackages [ifes-apt-tc-data-modeling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ifes_apt_tc_data_modeling-0.2.1.tar.gz tmp/ifes_apt_tc_data_modeling-0.2.2.tar.gz --markdown 20240426/i/ifes-apt-tc-data-modeling/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-04-26 14:36:48] INFO root fetch - processPackages [osc-transformer-presteps]: executing diffoscope
+[2024-04-26 14:36:48] INFO root fetch - processPackages [osc-transformer-presteps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osc_transformer_presteps-0.1.0.tar.gz tmp/osc_transformer_presteps-0.1.1.tar.gz --markdown 20240426/o/osc-transformer-presteps/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-26 14:36:48] INFO root fetch - processPackages [pyjoulescope-driver]: Downloading https://files.pythonhosted.org/packages/8b/24/5cd41cbd48c6e927d6707cf428c83314a16460917419c9d658ad0225f60e/pyjoulescope_driver-1.5.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-26 14:36:48] INFO root fetch - processPackages [gllogger]: Remove: archive file [/home/abi/fetcher/tmp/gllogger-0.0.6.tar.gz]
+[2024-04-26 14:36:48] INFO root fetch - processPackages [gllogger]: Remove: archive file [/home/abi/fetcher/tmp/gllogger-0.0.7.tar.gz]
+[2024-04-26 14:36:48] INFO root fetch - main [MainThread]: End processing [gllogger]: success
+[2024-04-26 14:36:48] INFO root fetch - processPackages [polars-qt]: Remove: archive file [/home/abi/fetcher/tmp/polars_qt-0.1.7.tar.gz]
+[2024-04-26 14:36:48] INFO root fetch - processPackages [polars-qt]: Remove: archive file [/home/abi/fetcher/tmp/polars_qt-0.1.8.tar.gz]
+[2024-04-26 14:36:48] INFO root fetch - main [MainThread]: End processing [polars-qt]: success
+[2024-04-26 14:36:48] INFO root fetch - processPackages [ifes-apt-tc-data-modeling]: Remove: archive file [/home/abi/fetcher/tmp/ifes_apt_tc_data_modeling-0.2.1.tar.gz]
+[2024-04-26 14:36:48] INFO root fetch - processPackages [ifes-apt-tc-data-modeling]: Remove: archive file [/home/abi/fetcher/tmp/ifes_apt_tc_data_modeling-0.2.2.tar.gz]
+[2024-04-26 14:36:48] INFO root fetch - main [MainThread]: End processing [ifes-apt-tc-data-modeling]: success
+[2024-04-26 14:36:48] INFO root fetch - processPackages [osc-transformer-presteps]: Remove: archive file [/home/abi/fetcher/tmp/osc_transformer_presteps-0.1.0.tar.gz]
+[2024-04-26 14:36:48] INFO root fetch - processPackages [osc-transformer-presteps]: Remove: archive file [/home/abi/fetcher/tmp/osc_transformer_presteps-0.1.1.tar.gz]
+[2024-04-26 14:36:48] INFO root fetch - main [MainThread]: End processing [osc-transformer-presteps]: success
+[2024-04-26 14:36:51] INFO root fetch - processPackages [pyjoulescope-driver]: executing diffoscope
+[2024-04-26 14:36:51] INFO root fetch - processPackages [pyjoulescope-driver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyjoulescope_driver-1.5.0.tar.gz tmp/pyjoulescope_driver-1.5.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240426/p/pyjoulescope-driver/1.5.0-1.5.1/README.md --exclude *.pyd
+[2024-04-26 14:36:52] INFO root fetch - processPackages [pyjoulescope-driver]: Remove: archive file [/home/abi/fetcher/tmp/pyjoulescope_driver-1.5.0.tar.gz]
+[2024-04-26 14:36:52] INFO root fetch - processPackages [pyjoulescope-driver]: Remove: archive file [/home/abi/fetcher/tmp/pyjoulescope_driver-1.5.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-26 14:36:52] INFO root fetch - main [MainThread]: End processing [pyjoulescope-driver]: success
+[2024-04-26 14:36:52] INFO root fetch - main [MainThread]: Store serial: [22947451]
