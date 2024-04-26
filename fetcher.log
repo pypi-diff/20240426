@@ -20141,3 +20141,39 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 14:32:26] INFO root fetch - processPackages [CTADIRAC]: Remove: archive file [/home/abi/fetcher/tmp/CTADIRAC-2.2a3.tar.gz]
 [2024-04-26 14:32:26] INFO root fetch - main [MainThread]: End processing [CTADIRAC]: success
 [2024-04-26 14:32:26] INFO root fetch - main [MainThread]: Store serial: [22947395]
+[2024-04-26 14:34:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22947395]
+[2024-04-26 14:34:36] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-26 14:34:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gbnf
+[2024-04-26 14:34:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sarus
+[2024-04-26 14:34:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: framelib
+[2024-04-26 14:34:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yflog
+[2024-04-26 14:34:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: airflow-dremio-provider
+[2024-04-26 14:34:36] INFO root fetch - processPackages [framelib]: New version: [0.0.4b0] Old Version: [0.0.3b2]
+[2024-04-26 14:34:36] INFO root fetch - processPackages [gbnf]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-26 14:34:36] WARNING root fetch - processPackages [airflow-dremio-provider]: Skipping, unable to determine old version
+[2024-04-26 14:34:36] INFO root fetch - main [MainThread]: End processing [airflow-dremio-provider] error
+[2024-04-26 14:34:36] WARNING root fetch - processPackages [yflog]: Skipping, unable to determine old version
+[2024-04-26 14:34:36] INFO root fetch - main [MainThread]: End processing [yflog] error
+[2024-04-26 14:34:36] INFO root fetch - processPackages [sarus]: New version: [0.9.7.dev0] Old Version: [0.9.6]
+[2024-04-26 14:34:36] INFO root fetch - processPackages [gbnf]: Downloading https://files.pythonhosted.org/packages/9e/ff/c6450c557d1a522deaecff302b747ed23dc647e981ee33bedf1556bf8652/gbnf-0.0.4.tar.gz
+[2024-04-26 14:34:36] INFO root fetch - processPackages [framelib]: Downloading https://files.pythonhosted.org/packages/3b/51/b0eba864dd152406acc042994d714eb4a20b8d7c280d4bc5f1b7ddaedbbe/framelib-0.0.3b2.tar.gz
+[2024-04-26 14:34:36] INFO root fetch - processPackages [sarus]: Downloading https://files.pythonhosted.org/packages/6b/cb/1dad4459189addcc61b72a6313921fff56da6601789caa3d2a43bae1f915/sarus-0.9.6.tar.gz
+[2024-04-26 14:34:37] INFO root fetch - processPackages [gbnf]: Downloading https://files.pythonhosted.org/packages/65/83/7449f472f469da7c5b92009db4c403152eb3977b526775075a0f416cbaab/gbnf-0.0.5.tar.gz
+[2024-04-26 14:34:37] INFO root fetch - processPackages [sarus]: Downloading https://files.pythonhosted.org/packages/f8/3c/b3f2addd944556b4ddddb360340e6d5062d0f06c790636f204a0d69a8e04/sarus-0.9.7.dev0.tar.gz
+[2024-04-26 14:34:37] INFO root fetch - processPackages [framelib]: Downloading https://files.pythonhosted.org/packages/df/a0/fbc3c7858a849bef6561c72061d19e7e35af39e244b2c4962a3958f30572/framelib-0.0.4b0.tar.gz
+[2024-04-26 14:34:37] INFO root fetch - processPackages [gbnf]: executing diffoscope
+[2024-04-26 14:34:37] INFO root fetch - processPackages [gbnf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gbnf-0.0.4.tar.gz tmp/gbnf-0.0.5.tar.gz --markdown 20240426/g/gbnf/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-26 14:34:37] INFO root fetch - processPackages [sarus]: executing diffoscope
+[2024-04-26 14:34:37] INFO root fetch - processPackages [sarus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sarus-0.9.6.tar.gz tmp/sarus-0.9.7.dev0.tar.gz --markdown 20240426/s/sarus/0.9.6-0.9.7.dev0/README.md --exclude *.pyd
+[2024-04-26 14:34:37] INFO root fetch - processPackages [framelib]: executing diffoscope
+[2024-04-26 14:34:37] INFO root fetch - processPackages [framelib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/framelib-0.0.3b2.tar.gz tmp/framelib-0.0.4b0.tar.gz --markdown 20240426/f/framelib/0.0.3b2-0.0.4b0/README.md --exclude *.pyd
+[2024-04-26 14:34:37] INFO root fetch - processPackages [gbnf]: Remove: archive file [/home/abi/fetcher/tmp/gbnf-0.0.4.tar.gz]
+[2024-04-26 14:34:37] INFO root fetch - processPackages [gbnf]: Remove: archive file [/home/abi/fetcher/tmp/gbnf-0.0.5.tar.gz]
+[2024-04-26 14:34:37] INFO root fetch - main [MainThread]: End processing [gbnf]: success
+[2024-04-26 14:34:38] INFO root fetch - processPackages [sarus]: Remove: archive file [/home/abi/fetcher/tmp/sarus-0.9.6.tar.gz]
+[2024-04-26 14:34:38] INFO root fetch - processPackages [sarus]: Remove: archive file [/home/abi/fetcher/tmp/sarus-0.9.7.dev0.tar.gz]
+[2024-04-26 14:34:38] INFO root fetch - main [MainThread]: End processing [sarus]: success
+[2024-04-26 14:34:38] INFO root fetch - processPackages [framelib]: Remove: archive file [/home/abi/fetcher/tmp/framelib-0.0.3b2.tar.gz]
+[2024-04-26 14:34:38] INFO root fetch - processPackages [framelib]: Remove: archive file [/home/abi/fetcher/tmp/framelib-0.0.4b0.tar.gz]
+[2024-04-26 14:34:38] INFO root fetch - main [MainThread]: End processing [framelib]: success
+[2024-04-26 14:34:38] INFO root fetch - main [MainThread]: Store serial: [22947415]
