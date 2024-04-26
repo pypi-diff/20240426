@@ -9149,3 +9149,9 @@
 [2024-04-26 06:34:28] INFO root fetch - processPackages [sherpa-ai]: Remove: archive file [/home/abi/fetcher/tmp/sherpa_ai-0.2.1.tar.gz]
 [2024-04-26 06:34:28] INFO root fetch - main [MainThread]: End processing [sherpa-ai]: success
 [2024-04-26 06:34:28] INFO root fetch - main [MainThread]: Store serial: [22942652]
+[2024-04-26 06:36:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22942652]
+[2024-04-26 06:36:36] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-26 06:36:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py-essl-contact
+[2024-04-26 06:36:37] WARNING root fetch - processPackages [py-essl-contact]: Skipping, unable to determine old version
+[2024-04-26 06:36:37] INFO root fetch - main [MainThread]: End processing [py-essl-contact] error
+[2024-04-26 06:36:37] INFO root fetch - main [MainThread]: Store serial: [22942659]
