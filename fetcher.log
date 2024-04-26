@@ -9625,3 +9625,42 @@
 [2024-04-26 07:13:55] INFO root fetch - processPackages [screcode]: Remove: archive file [/home/abi/fetcher/tmp/screcode-1.0.0.tar.gz]
 [2024-04-26 07:13:55] INFO root fetch - main [MainThread]: End processing [screcode]: success
 [2024-04-26 07:13:55] INFO root fetch - main [MainThread]: Store serial: [22942852]
+[2024-04-26 07:16:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22942852]
+[2024-04-26 07:16:05] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-26 07:16:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyscinloopsr
+[2024-04-26 07:16:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rule-based-retrieval
+[2024-04-26 07:16:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyastroweatherio
+[2024-04-26 07:16:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: diffbot-kg
+[2024-04-26 07:16:05] INFO root fetch - processPackages [pyscinloopsr]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-26 07:16:05] INFO root fetch - processPackages [pyastroweatherio]: New version: [0.43.1.dev9] Old Version: [0.43.1.dev8]
+[2024-04-26 07:16:05] INFO root fetch - processPackages [pyscinloopsr]: Downloading https://files.pythonhosted.org/packages/27/ea/053628aa633648299954c820cf75bc92240b42cf9ba32b100a1dcb0c480c/pyscinloopsr-1.0.3.tar.gz
+[2024-04-26 07:16:05] INFO root fetch - processPackages [diffbot-kg]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-26 07:16:05] INFO root fetch - processPackages [rule-based-retrieval]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-26 07:16:05] INFO root fetch - processPackages [pyastroweatherio]: Downloading https://files.pythonhosted.org/packages/52/24/2c570e0e19bb51a136edaf868d693f0156fca6c66aca91674ec5e7973a2c/pyastroweatherio-0.43.1.dev8.tar.gz
+[2024-04-26 07:16:05] INFO root fetch - processPackages [rule-based-retrieval]: Downloading https://files.pythonhosted.org/packages/87/61/d1d56aa0004a04cd5f66ad36f8d54321610602aa44b0ae9033a69abcfcfb/rule-based-retrieval-0.1.3.tar.gz
+[2024-04-26 07:16:05] INFO root fetch - processPackages [pyastroweatherio]: Downloading https://files.pythonhosted.org/packages/75/07/e7eb1179d1b5db7e5e45ea03766c9c39fee7686fa1e316830827643977ac/pyastroweatherio-0.43.1.dev9.tar.gz
+[2024-04-26 07:16:05] INFO root fetch - processPackages [diffbot-kg]: Downloading https://files.pythonhosted.org/packages/8b/61/fddaa10b77d737fe5edbb489662e62b8c55c2e5588c3979c3af3a6a192d9/diffbot_kg-0.2.0.tar.gz
+[2024-04-26 07:16:05] INFO root fetch - processPackages [pyscinloopsr]: Downloading https://files.pythonhosted.org/packages/8c/c2/d6434af412026ddb01e4c1f0bf2ead31afe39cfce6e9ea75efb2fd22b878/pyscinloopsr-1.0.4.tar.gz
+[2024-04-26 07:16:05] INFO root fetch - processPackages [pyastroweatherio]: executing diffoscope
+[2024-04-26 07:16:05] INFO root fetch - processPackages [pyastroweatherio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyastroweatherio-0.43.1.dev8.tar.gz tmp/pyastroweatherio-0.43.1.dev9.tar.gz --markdown 20240426/p/pyastroweatherio/0.43.1.dev8-0.43.1.dev9/README.md --exclude *.pyd
+[2024-04-26 07:16:05] INFO root fetch - processPackages [pyscinloopsr]: executing diffoscope
+[2024-04-26 07:16:05] INFO root fetch - processPackages [pyscinloopsr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyscinloopsr-1.0.3.tar.gz tmp/pyscinloopsr-1.0.4.tar.gz --markdown 20240426/p/pyscinloopsr/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-04-26 07:16:05] INFO root fetch - processPackages [rule-based-retrieval]: Downloading https://files.pythonhosted.org/packages/78/c0/45823280b95606fec95b5979c8f8e6a07423f3cd6afae89376ae536a1d1d/rule_based_retrieval-0.1.4.tar.gz
+[2024-04-26 07:16:06] INFO root fetch - processPackages [rule-based-retrieval]: executing diffoscope
+[2024-04-26 07:16:06] INFO root fetch - processPackages [rule-based-retrieval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rule-based-retrieval-0.1.3.tar.gz tmp/rule_based_retrieval-0.1.4.tar.gz --markdown 20240426/r/rule-based-retrieval/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-26 07:16:06] INFO root fetch - processPackages [diffbot-kg]: Downloading https://files.pythonhosted.org/packages/bb/d6/d35b3751bd4aad52b82effd8d40b49a90015b0a9ac5b6de583d25c6de98c/diffbot_kg-0.2.1.tar.gz
+[2024-04-26 07:16:06] INFO root fetch - processPackages [diffbot-kg]: executing diffoscope
+[2024-04-26 07:16:06] INFO root fetch - processPackages [diffbot-kg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diffbot_kg-0.2.0.tar.gz tmp/diffbot_kg-0.2.1.tar.gz --markdown 20240426/d/diffbot-kg/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-04-26 07:16:06] INFO root fetch - processPackages [pyastroweatherio]: Remove: archive file [/home/abi/fetcher/tmp/pyastroweatherio-0.43.1.dev8.tar.gz]
+[2024-04-26 07:16:06] INFO root fetch - processPackages [pyastroweatherio]: Remove: archive file [/home/abi/fetcher/tmp/pyastroweatherio-0.43.1.dev9.tar.gz]
+[2024-04-26 07:16:06] INFO root fetch - main [MainThread]: End processing [pyastroweatherio]: success
+[2024-04-26 07:16:06] INFO root fetch - processPackages [pyscinloopsr]: Remove: archive file [/home/abi/fetcher/tmp/pyscinloopsr-1.0.3.tar.gz]
+[2024-04-26 07:16:06] INFO root fetch - processPackages [pyscinloopsr]: Remove: archive file [/home/abi/fetcher/tmp/pyscinloopsr-1.0.4.tar.gz]
+[2024-04-26 07:16:06] INFO root fetch - main [MainThread]: End processing [pyscinloopsr]: success
+[2024-04-26 07:16:06] INFO root fetch - processPackages [rule-based-retrieval]: Remove: archive file [/home/abi/fetcher/tmp/rule-based-retrieval-0.1.3.tar.gz]
+[2024-04-26 07:16:06] INFO root fetch - processPackages [rule-based-retrieval]: Remove: archive file [/home/abi/fetcher/tmp/rule_based_retrieval-0.1.4.tar.gz]
+[2024-04-26 07:16:06] INFO root fetch - main [MainThread]: End processing [rule-based-retrieval]: success
+[2024-04-26 07:16:06] INFO root fetch - processPackages [diffbot-kg]: Remove: archive file [/home/abi/fetcher/tmp/diffbot_kg-0.2.0.tar.gz]
+[2024-04-26 07:16:06] INFO root fetch - processPackages [diffbot-kg]: Remove: archive file [/home/abi/fetcher/tmp/diffbot_kg-0.2.1.tar.gz]
+[2024-04-26 07:16:06] INFO root fetch - main [MainThread]: End processing [diffbot-kg]: success
+[2024-04-26 07:16:06] INFO root fetch - main [MainThread]: Store serial: [22942863]
