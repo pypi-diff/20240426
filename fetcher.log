@@ -11068,3 +11068,96 @@
 [2024-04-26 08:22:56] INFO root fetch - processPackages [synthemol]: Remove: archive file [/home/abi/fetcher/tmp/synthemol-1.0.3.tar.gz]
 [2024-04-26 08:22:56] INFO root fetch - main [MainThread]: End processing [synthemol]: success
 [2024-04-26 08:22:56] INFO root fetch - main [MainThread]: Store serial: [22943413]
+[2024-04-26 08:25:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22943413]
+[2024-04-26 08:25:05] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-26 08:25:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bert4keras3
+[2024-04-26 08:25:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-fs-file-demo
+[2024-04-26 08:25:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: layrz-sdk
+[2024-04-26 08:25:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aioecopanel
+[2024-04-26 08:25:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-nomad
+[2024-04-26 08:25:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyreportgen
+[2024-04-26 08:25:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: machineroom
+[2024-04-26 08:25:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gingerai
+[2024-04-26 08:25:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rcds-umdcsec
+[2024-04-26 08:25:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ascript-tip
+[2024-04-26 08:25:05] INFO root fetch - processPackages [gingerai]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-26 08:25:05] INFO root fetch - processPackages [bert4keras3]: New version: [1.3.1] Old Version: [1.3]
+[2024-04-26 08:25:05] INFO root fetch - processPackages [rcds-umdcsec]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-26 08:25:05] INFO root fetch - processPackages [pyreportgen]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-26 08:25:05] INFO root fetch - processPackages [machineroom]: New version: [0.46.9] Old Version: [0.46.8]
+[2024-04-26 08:25:05] INFO root fetch - processPackages [layrz-sdk]: New version: [3.0.0] Old Version: [2.2.4]
+[2024-04-26 08:25:05] INFO root fetch - processPackages [aioecopanel]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-26 08:25:06] INFO root fetch - processPackages [odoo-addon-fs-file-demo]: New version: [17.0.1.0.0.3] Old Version: [17.0.1.0.0.2]
+[2024-04-26 08:25:06] INFO root fetch - processPackages [ascript-tip]: New version: [0.0.3.40] Old Version: [0.0.3.39]
+[2024-04-26 08:25:06] INFO root fetch - processPackages [bert4keras3]: Downloading https://files.pythonhosted.org/packages/f2/80/73f9b3db714831dc7b41712802d6b74614b26b9a98effa79701bafeb824c/bert4keras3-1.3-py3-none-any.whl
+[2024-04-26 08:25:06] INFO root fetch - processPackages [gingerai]: Downloading https://files.pythonhosted.org/packages/93/63/5f4a6d2549870026eff659d1fc9aac0f6c9532ea741f07ac2083cd3a1cfe/gingerai-0.1.8.tar.gz
+[2024-04-26 08:25:06] INFO root fetch - processPackages [pulumi-nomad]: New version: [2.3.0a1714110946] Old Version: [2.3.0a1713899842]
+[2024-04-26 08:25:06] INFO root fetch - processPackages [machineroom]: Downloading https://files.pythonhosted.org/packages/c8/1b/2f7b2d39d2cfc4d0bc2d463e16eca75f153a5fe246d8c99271633f4207b3/machineroom-0.46.8.tar.gz
+[2024-04-26 08:25:06] INFO root fetch - processPackages [odoo-addon-fs-file-demo]: Downloading https://files.pythonhosted.org/packages/9b/5c/bcc1d66487dc0a69750d61e0032c5ce367401d72181277f77df00d8e7045/odoo_addon_fs_file_demo-17.0.1.0.0.2-py3-none-any.whl
+[2024-04-26 08:25:06] INFO root fetch - processPackages [rcds-umdcsec]: Downloading https://files.pythonhosted.org/packages/39/87/63516597a53e955e5d72a2a57ff53367ee2ff3dbb5f563ac79847c86c608/rcds_umdcsec-0.1.4.tar.gz
+[2024-04-26 08:25:06] INFO root fetch - processPackages [layrz-sdk]: Downloading https://files.pythonhosted.org/packages/4c/d7/be4c504ad1dd37017b760c650f05060db411d002e9f1ce02fef44a9f9a15/layrz-sdk-2.2.4.tar.gz
+[2024-04-26 08:25:06] INFO root fetch - processPackages [aioecopanel]: Downloading https://files.pythonhosted.org/packages/70/41/2e3cbeb4e4ebbb919e2808d31063987a5c00477d0b8274017b11d4517b5f/aioecopanel-0.0.8.tar.gz
+[2024-04-26 08:25:06] INFO root fetch - processPackages [pyreportgen]: Downloading https://files.pythonhosted.org/packages/41/55/41b9cd919542a8ee1bb643dec77e70a54ffd1c27ce4666366c30c482c88c/pyreportgen-0.1.8.tar.gz
+[2024-04-26 08:25:06] INFO root fetch - processPackages [ascript-tip]: Downloading https://files.pythonhosted.org/packages/a9/45/f34b03ac76678ff48d60bd9ede5ef0c3b923194ab23de95a675b6e73a9fb/ascript-tip-0.0.3.39.tar.gz
+[2024-04-26 08:25:06] INFO root fetch - processPackages [pulumi-nomad]: Downloading https://files.pythonhosted.org/packages/88/fa/8f198f692e44fd9194db25dd97d8032035c88bf459282250bcbd29d33877/pulumi_nomad-2.3.0a1713899842.tar.gz
+[2024-04-26 08:25:06] INFO root fetch - processPackages [gingerai]: Downloading https://files.pythonhosted.org/packages/33/65/a59be7a360a71da6fb875287e72120e252018dc037eef33b15ac50759b89/gingerai-0.1.9.tar.gz
+[2024-04-26 08:25:06] INFO root fetch - processPackages [bert4keras3]: Downloading https://files.pythonhosted.org/packages/d6/bc/a71f8adb44f91e4c995157450de5b408e29c67cfae3af1f6fd10c25f0e24/bert4keras3-1.3.1-py3-none-any.whl
+[2024-04-26 08:25:06] INFO root fetch - processPackages [machineroom]: Downloading https://files.pythonhosted.org/packages/25/dd/a9d6ab603bb81b2910216f89acdf53190f131266a2f872e93c7be8bfbb89/machineroom-0.46.9.tar.gz
+[2024-04-26 08:25:06] INFO root fetch - processPackages [gingerai]: executing diffoscope
+[2024-04-26 08:25:06] INFO root fetch - processPackages [gingerai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gingerai-0.1.8.tar.gz tmp/gingerai-0.1.9.tar.gz --markdown 20240426/g/gingerai/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-26 08:25:06] INFO root fetch - processPackages [odoo-addon-fs-file-demo]: Downloading https://files.pythonhosted.org/packages/88/0d/b54bd3cdea1a2bbd0fe8db681da4bf7387d49fca7a43ecb33da0222a1826/odoo_addon_fs_file_demo-17.0.1.0.0.3-py3-none-any.whl
+[2024-04-26 08:25:06] INFO root fetch - processPackages [layrz-sdk]: Downloading https://files.pythonhosted.org/packages/a6/5e/38687c2a5c85d181d5d50cc5590656d39d9b047097cdf6e2432aa2e678ba/layrz_sdk-3.0.0.tar.gz
+[2024-04-26 08:25:06] INFO root fetch - processPackages [aioecopanel]: Downloading https://files.pythonhosted.org/packages/f7/62/8fce3fa77805410a51eb082b823bc360df8aadacd46762b58f823582c1c7/aioecopanel-0.0.9.tar.gz
+[2024-04-26 08:25:06] INFO root fetch - processPackages [bert4keras3]: executing diffoscope
+[2024-04-26 08:25:06] INFO root fetch - processPackages [bert4keras3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bert4keras3-1.3-py3-none-any.whl.zip tmp/bert4keras3-1.3.1-py3-none-any.whl.zip --markdown 20240426/b/bert4keras3/1.3-1.3.1/README.md --exclude *.pyd
+[2024-04-26 08:25:06] INFO root fetch - processPackages [rcds-umdcsec]: Downloading https://files.pythonhosted.org/packages/b1/a7/ede8e5ea31aed2801521420ebf5ae0f2e28b30b3072fc2573cb093f22c6c/rcds_umdcsec-0.1.5.tar.gz
+[2024-04-26 08:25:06] INFO root fetch - processPackages [machineroom]: executing diffoscope
+[2024-04-26 08:25:06] INFO root fetch - processPackages [machineroom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/machineroom-0.46.8.tar.gz tmp/machineroom-0.46.9.tar.gz --markdown 20240426/m/machineroom/0.46.8-0.46.9/README.md --exclude *.pyd
+[2024-04-26 08:25:06] INFO root fetch - processPackages [pyreportgen]: Downloading https://files.pythonhosted.org/packages/5d/4e/ddffa816b5cbe5a6ed8d4de11b441ba3e7568fc7b0df8d026a875f979b11/pyreportgen-0.1.9.tar.gz
+[2024-04-26 08:25:06] INFO root fetch - processPackages [odoo-addon-fs-file-demo]: executing diffoscope
+[2024-04-26 08:25:06] INFO root fetch - processPackages [odoo-addon-fs-file-demo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_fs_file_demo-17.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_fs_file_demo-17.0.1.0.0.3-py3-none-any.whl.zip --markdown 20240426/o/odoo-addon-fs-file-demo/17.0.1.0.0.2-17.0.1.0.0.3/README.md --exclude *.pyd
+[2024-04-26 08:25:06] INFO root fetch - processPackages [pulumi-nomad]: Downloading https://files.pythonhosted.org/packages/64/a4/6e25b2147d106e0e5c77ad13c691bd9136fec4387b8aa431380126c0a3d6/pulumi_nomad-2.3.0a1714110946.tar.gz
+[2024-04-26 08:25:06] INFO root fetch - processPackages [layrz-sdk]: executing diffoscope
+[2024-04-26 08:25:06] INFO root fetch - processPackages [layrz-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/layrz-sdk-2.2.4.tar.gz tmp/layrz_sdk-3.0.0.tar.gz --markdown 20240426/l/layrz-sdk/2.2.4-3.0.0/README.md --exclude *.pyd
+[2024-04-26 08:25:06] INFO root fetch - processPackages [aioecopanel]: executing diffoscope
+[2024-04-26 08:25:06] INFO root fetch - processPackages [aioecopanel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioecopanel-0.0.8.tar.gz tmp/aioecopanel-0.0.9.tar.gz --markdown 20240426/a/aioecopanel/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-26 08:25:06] INFO root fetch - processPackages [rcds-umdcsec]: executing diffoscope
+[2024-04-26 08:25:06] INFO root fetch - processPackages [rcds-umdcsec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rcds_umdcsec-0.1.4.tar.gz tmp/rcds_umdcsec-0.1.5.tar.gz --markdown 20240426/r/rcds-umdcsec/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-26 08:25:06] INFO root fetch - processPackages [pyreportgen]: executing diffoscope
+[2024-04-26 08:25:06] INFO root fetch - processPackages [pyreportgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyreportgen-0.1.8.tar.gz tmp/pyreportgen-0.1.9.tar.gz --markdown 20240426/p/pyreportgen/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-26 08:25:06] INFO root fetch - processPackages [ascript-tip]: Downloading https://files.pythonhosted.org/packages/78/37/de99716ef30158d7c351c787dc41598a4b84a24b2dde08e919f3d435e1a8/ascript-tip-0.0.3.40.tar.gz
+[2024-04-26 08:25:06] INFO root fetch - processPackages [pulumi-nomad]: executing diffoscope
+[2024-04-26 08:25:06] INFO root fetch - processPackages [pulumi-nomad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_nomad-2.3.0a1713899842.tar.gz tmp/pulumi_nomad-2.3.0a1714110946.tar.gz --markdown 20240426/p/pulumi-nomad/2.3.0a1713899842-2.3.0a1714110946/README.md --exclude *.pyd
+[2024-04-26 08:25:07] INFO root fetch - processPackages [gingerai]: Remove: archive file [/home/abi/fetcher/tmp/gingerai-0.1.8.tar.gz]
+[2024-04-26 08:25:07] INFO root fetch - processPackages [gingerai]: Remove: archive file [/home/abi/fetcher/tmp/gingerai-0.1.9.tar.gz]
+[2024-04-26 08:25:07] INFO root fetch - main [MainThread]: End processing [gingerai]: success
+[2024-04-26 08:25:07] INFO root fetch - processPackages [odoo-addon-fs-file-demo]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fs_file_demo-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-26 08:25:07] INFO root fetch - processPackages [odoo-addon-fs-file-demo]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fs_file_demo-17.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-04-26 08:25:07] INFO root fetch - processPackages [machineroom]: Remove: archive file [/home/abi/fetcher/tmp/machineroom-0.46.8.tar.gz]
+[2024-04-26 08:25:07] INFO root fetch - main [MainThread]: End processing [odoo-addon-fs-file-demo]: success
+[2024-04-26 08:25:07] INFO root fetch - processPackages [machineroom]: Remove: archive file [/home/abi/fetcher/tmp/machineroom-0.46.9.tar.gz]
+[2024-04-26 08:25:07] INFO root fetch - processPackages [rcds-umdcsec]: Remove: archive file [/home/abi/fetcher/tmp/rcds_umdcsec-0.1.4.tar.gz]
+[2024-04-26 08:25:07] INFO root fetch - processPackages [rcds-umdcsec]: Remove: archive file [/home/abi/fetcher/tmp/rcds_umdcsec-0.1.5.tar.gz]
+[2024-04-26 08:25:07] INFO root fetch - main [MainThread]: End processing [machineroom]: success
+[2024-04-26 08:25:07] INFO root fetch - main [MainThread]: End processing [rcds-umdcsec]: success
+[2024-04-26 08:25:07] INFO root fetch - processPackages [bert4keras3]: Remove: archive file [/home/abi/fetcher/tmp/bert4keras3-1.3-py3-none-any.whl.zip]
+[2024-04-26 08:25:07] INFO root fetch - processPackages [bert4keras3]: Remove: archive file [/home/abi/fetcher/tmp/bert4keras3-1.3.1-py3-none-any.whl.zip]
+[2024-04-26 08:25:07] INFO root fetch - main [MainThread]: End processing [bert4keras3]: success
+[2024-04-26 08:25:07] INFO root fetch - processPackages [aioecopanel]: Remove: archive file [/home/abi/fetcher/tmp/aioecopanel-0.0.8.tar.gz]
+[2024-04-26 08:25:07] INFO root fetch - processPackages [aioecopanel]: Remove: archive file [/home/abi/fetcher/tmp/aioecopanel-0.0.9.tar.gz]
+[2024-04-26 08:25:07] INFO root fetch - main [MainThread]: End processing [aioecopanel]: success
+[2024-04-26 08:25:07] INFO root fetch - processPackages [layrz-sdk]: Remove: archive file [/home/abi/fetcher/tmp/layrz-sdk-2.2.4.tar.gz]
+[2024-04-26 08:25:07] INFO root fetch - processPackages [layrz-sdk]: Remove: archive file [/home/abi/fetcher/tmp/layrz_sdk-3.0.0.tar.gz]
+[2024-04-26 08:25:07] INFO root fetch - main [MainThread]: End processing [layrz-sdk]: success
+[2024-04-26 08:25:07] INFO root fetch - processPackages [pyreportgen]: Remove: archive file [/home/abi/fetcher/tmp/pyreportgen-0.1.8.tar.gz]
+[2024-04-26 08:25:07] INFO root fetch - processPackages [pyreportgen]: Remove: archive file [/home/abi/fetcher/tmp/pyreportgen-0.1.9.tar.gz]
+[2024-04-26 08:25:07] INFO root fetch - main [MainThread]: End processing [pyreportgen]: success
+[2024-04-26 08:25:07] INFO root fetch - processPackages [pulumi-nomad]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_nomad-2.3.0a1713899842.tar.gz]
+[2024-04-26 08:25:07] INFO root fetch - processPackages [pulumi-nomad]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_nomad-2.3.0a1714110946.tar.gz]
+[2024-04-26 08:25:07] INFO root fetch - main [MainThread]: End processing [pulumi-nomad]: success
+[2024-04-26 08:25:08] INFO root fetch - processPackages [ascript-tip]: executing diffoscope
+[2024-04-26 08:25:08] INFO root fetch - processPackages [ascript-tip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ascript-tip-0.0.3.39.tar.gz tmp/ascript-tip-0.0.3.40.tar.gz --markdown 20240426/a/ascript-tip/0.0.3.39-0.0.3.40/README.md --exclude *.pyd
+[2024-04-26 08:25:09] INFO root fetch - processPackages [ascript-tip]: Remove: archive file [/home/abi/fetcher/tmp/ascript-tip-0.0.3.39.tar.gz]
+[2024-04-26 08:25:09] INFO root fetch - processPackages [ascript-tip]: Remove: archive file [/home/abi/fetcher/tmp/ascript-tip-0.0.3.40.tar.gz]
+[2024-04-26 08:25:09] INFO root fetch - main [MainThread]: End processing [ascript-tip]: success
+[2024-04-26 08:25:09] INFO root fetch - main [MainThread]: Store serial: [22943440]
