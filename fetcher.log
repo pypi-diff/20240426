@@ -18740,3 +18740,124 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 13:22:55] INFO root fetch - processPackages [libreflow]: Remove: archive file [/home/abi/fetcher/tmp/libreflow-2.3.2.tar.gz]
 [2024-04-26 13:22:55] INFO root fetch - main [MainThread]: End processing [libreflow]: success
 [2024-04-26 13:22:55] INFO root fetch - main [MainThread]: Store serial: [22946800]
+[2024-04-26 13:24:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22946800]
+[2024-04-26 13:25:04] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2024-04-26 13:25:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mecord-cli
+[2024-04-26 13:25:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: composabl-cli-dev
+[2024-04-26 13:25:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: composabl-core-dev
+[2024-04-26 13:25:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: composabl-train-dev
+[2024-04-26 13:25:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: composabl-dev
+[2024-04-26 13:25:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: yamlscript
+[2024-04-26 13:25:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: promptflow-tracing
+[2024-04-26 13:25:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: particleannotation
+[2024-04-26 13:25:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: torchrl-nightly
+[2024-04-26 13:25:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: promptflow-core
+[2024-04-26 13:25:05] INFO root fetch - processPackages [composabl-dev]: New version: [0.8.0.dev9] Old Version: [0.8.0.dev6]
+[2024-04-26 13:25:05] INFO root fetch - processPackages [particleannotation]: New version: [0.3.7] Old Version: [0.3.6]
+[2024-04-26 13:25:05] INFO root fetch - processPackages [composabl-train-dev]: New version: [0.8.0.dev9] Old Version: [0.8.0.dev6]
+[2024-04-26 13:25:05] INFO root fetch - processPackages [composabl-dev]: Downloading https://files.pythonhosted.org/packages/3f/87/aeed0c05640a655a9f7a9651405c023e800537ac5400c580f59a119cd1bf/composabl_dev-0.8.0.dev6-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-26 13:25:05] INFO root fetch - processPackages [composabl-train-dev]: Downloading https://files.pythonhosted.org/packages/19/92/d2cc81d1932bc78afddf0cf92c75659eee58d38d34d9e8471d60b63233f7/composabl_train_dev-0.8.0.dev6-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-26 13:25:05] INFO root fetch - processPackages [promptflow-core]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-26 13:25:05] INFO root fetch - processPackages [yamlscript]: New version: [0.1.58] Old Version: [0.1.57]
+[2024-04-26 13:25:05] INFO root fetch - processPackages [promptflow-tracing]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-26 13:25:05] INFO root fetch - processPackages [mecord-cli]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-04-26 13:25:05] INFO root fetch - processPackages [composabl-core-dev]: New version: [0.8.0.dev9] Old Version: [0.8.0.dev6]
+[2024-04-26 13:25:05] INFO root fetch - processPackages [composabl-cli-dev]: New version: [0.8.0.dev9] Old Version: [0.8.0.dev6]
+[2024-04-26 13:25:05] INFO root fetch - processPackages [torchrl-nightly]: New version: [2024.4.3] Old Version: [2024.4.26]
+[2024-04-26 13:25:05] INFO root fetch - processPackages [particleannotation]: Downloading https://files.pythonhosted.org/packages/c9/e6/d0953ee1fe2ab7944ba192a060c6f1e07370d652047aa4e55507fc8102a3/particleannotation-0.3.6.tar.gz
+[2024-04-26 13:25:05] INFO root fetch - processPackages [yamlscript]: Downloading https://files.pythonhosted.org/packages/c2/78/a2ee5ff2b7d7e679b4ce8d7d7b3415ffa3d719d4dd35ffc3b8d3a844f080/yamlscript-0.1.57.tar.gz
+[2024-04-26 13:25:05] WARNING root fetch - processPackages [particleannotation]: Skipping package: exceeds size limit 49907249>=10485760
+[2024-04-26 13:25:05] INFO root fetch - processPackages [particleannotation]: Start processing: promptflow-devkit
+[2024-04-26 13:25:05] INFO root fetch - main [MainThread]: End processing [particleannotation] error
+[2024-04-26 13:25:05] INFO root fetch - processPackages [mecord-cli]: Downloading https://files.pythonhosted.org/packages/7c/bf/66e6ad83ca0dd75592f8185e3bd1a6f8c9965bb170b7b3b18b4228228ff9/mecord-cli-0.7.8.tar.gz
+[2024-04-26 13:25:05] INFO root fetch - processPackages [promptflow-tracing]: Downloading https://files.pythonhosted.org/packages/49/14/dbc959af05f0dfaebeb90ad196ce4d9f95f03555385ad4f68e402357d929/promptflow_tracing-1.8.0-py3-none-any.whl
+[2024-04-26 13:25:05] INFO root fetch - processPackages [promptflow-devkit]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-26 13:25:05] INFO root fetch - processPackages [composabl-dev]: Downloading https://files.pythonhosted.org/packages/a1/f2/4e1924d1039233c3b0c2448b4add74067504cd2e888b319ad5a03135216f/composabl_dev-0.8.0.dev9-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-26 13:25:05] INFO root fetch - processPackages [composabl-cli-dev]: Downloading https://files.pythonhosted.org/packages/d5/b9/11fd9112091b8548d9b8fcbf58f48a6d09c00d9bd49b1c25636873971c2b/composabl_cli_dev-0.8.0.dev6-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-26 13:25:05] INFO root fetch - processPackages [promptflow-core]: Downloading https://files.pythonhosted.org/packages/25/4d/3b703134fd3c50f59bb1c3fea4210db6b74f9f4694cd97b5bbfc941ffa83/promptflow_core-1.8.0-py3-none-any.whl
+[2024-04-26 13:25:05] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/57/db/5c0f100d0ca2cc7f6980c391700222addafdcb84913b3f4b2015b6734646/torchrl_nightly-2024.4.26-cp39-cp39-manylinux1_x86_64.whl
+[2024-04-26 13:25:05] INFO root fetch - processPackages [composabl-core-dev]: Downloading https://files.pythonhosted.org/packages/4a/a0/fae4202dc7e27017437fbafdfdb9257b93f97fc3d65b2bca67f173871cab/composabl_core_dev-0.8.0.dev6-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-26 13:25:05] INFO root fetch - processPackages [composabl-train-dev]: Downloading https://files.pythonhosted.org/packages/95/20/8e2aca4bfa5f684869b85085faa073c8a53504bf7d60833952d33bbdf05a/composabl_train_dev-0.8.0.dev9-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-26 13:25:05] INFO root fetch - processPackages [composabl-dev]: executing diffoscope
+[2024-04-26 13:25:05] INFO root fetch - processPackages [composabl-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_dev-0.8.0.dev6-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/composabl_dev-0.8.0.dev9-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240426/c/composabl-dev/0.8.0.dev6-0.8.0.dev9/README.md --exclude *.pyd
+[2024-04-26 13:25:05] WARNING root fetch - processPackages [composabl-core-dev]: Skipping package: exceeds size limit 21365442>=10485760
+[2024-04-26 13:25:05] INFO root fetch - processPackages [composabl-core-dev]: Start processing: promptflow-azure
+[2024-04-26 13:25:05] INFO root fetch - main [MainThread]: End processing [composabl-core-dev] error
+[2024-04-26 13:25:05] INFO root fetch - processPackages [yamlscript]: Downloading https://files.pythonhosted.org/packages/47/c4/a368bc6838abdca709ac3d50c33ce0159da18e6c8bc45543de5acd599370/yamlscript-0.1.58.tar.gz
+[2024-04-26 13:25:05] INFO root fetch - processPackages [promptflow-devkit]: Downloading https://files.pythonhosted.org/packages/a7/80/a42998ec0e0d7a76bcd3a43d1f267fad31864cde8300a116126c2d5669fb/promptflow_devkit-1.8.0-py3-none-any.whl
+[2024-04-26 13:25:05] INFO root fetch - processPackages [mecord-cli]: Downloading https://files.pythonhosted.org/packages/70/13/191f5410fea42e233e3d24471a04404a7d4f46b99c28a29c24913449788b/mecord-cli-0.7.9.tar.gz
+[2024-04-26 13:25:05] INFO root fetch - processPackages [promptflow-azure]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-26 13:25:05] INFO root fetch - processPackages [yamlscript]: executing diffoscope
+[2024-04-26 13:25:05] INFO root fetch - processPackages [yamlscript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yamlscript-0.1.57.tar.gz tmp/yamlscript-0.1.58.tar.gz --markdown 20240426/y/yamlscript/0.1.57-0.1.58/README.md --exclude *.pyd
+[2024-04-26 13:25:05] INFO root fetch - processPackages [promptflow-tracing]: Downloading https://files.pythonhosted.org/packages/89/f6/ceefcf4302f79a1f1d9df02ed0266df362bf7d7c01b08f56e1ca8f3347bb/promptflow_tracing-1.9.0-py3-none-any.whl
+[2024-04-26 13:25:06] INFO root fetch - processPackages [composabl-train-dev]: executing diffoscope
+[2024-04-26 13:25:06] INFO root fetch - processPackages [composabl-train-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_train_dev-0.8.0.dev6-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/composabl_train_dev-0.8.0.dev9-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240426/c/composabl-train-dev/0.8.0.dev6-0.8.0.dev9/README.md --exclude *.pyd
+[2024-04-26 13:25:06] INFO root fetch - processPackages [mecord-cli]: executing diffoscope
+[2024-04-26 13:25:06] INFO root fetch - processPackages [mecord-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mecord-cli-0.7.8.tar.gz tmp/mecord-cli-0.7.9.tar.gz --markdown 20240426/m/mecord-cli/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-04-26 13:25:06] INFO root fetch - processPackages [promptflow-core]: Downloading https://files.pythonhosted.org/packages/b9/6b/1cb0f975e7cde850d15e6259f87d53caa3e79bd4120c3f476e341adb29ad/promptflow_core-1.9.0-py3-none-any.whl
+[2024-04-26 13:25:06] INFO root fetch - processPackages [promptflow-tracing]: executing diffoscope
+[2024-04-26 13:25:06] INFO root fetch - processPackages [promptflow-tracing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptflow_tracing-1.8.0-py3-none-any.whl.zip tmp/promptflow_tracing-1.9.0-py3-none-any.whl.zip --markdown 20240426/p/promptflow-tracing/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-04-26 13:25:06] INFO root fetch - processPackages [promptflow-azure]: Downloading https://files.pythonhosted.org/packages/36/ea/080a767769525e5743710e7a54e425b2aae998dc9e2f711689a2efc5e291/promptflow_azure-1.8.0-py3-none-any.whl
+[2024-04-26 13:25:06] INFO root fetch - processPackages [composabl-cli-dev]: Downloading https://files.pythonhosted.org/packages/7a/63/cb2a64c643c2bf337f7f624895969ab1444fad77d056db19bebd8ab5a022/composabl_cli_dev-0.8.0.dev9-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-26 13:25:06] INFO root fetch - processPackages [promptflow-core]: executing diffoscope
+[2024-04-26 13:25:06] INFO root fetch - processPackages [promptflow-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptflow_core-1.8.0-py3-none-any.whl.zip tmp/promptflow_core-1.9.0-py3-none-any.whl.zip --markdown 20240426/p/promptflow-core/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-04-26 13:25:06] INFO root fetch - processPackages [composabl-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_dev-0.8.0.dev6-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-26 13:25:06] INFO root fetch - processPackages [composabl-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_dev-0.8.0.dev9-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-26 13:25:06] INFO root fetch - processPackages [composabl-dev]: Start processing: promptflow
+[2024-04-26 13:25:06] INFO root fetch - main [MainThread]: End processing [composabl-dev]: success
+[2024-04-26 13:25:06] INFO root fetch - processPackages [promptflow-devkit]: Downloading https://files.pythonhosted.org/packages/e4/f8/fdd16738d6d12c1a789acd81c40c3bc37795f33919a608f44e37a08e22e0/promptflow_devkit-1.9.0-py3-none-any.whl
+[2024-04-26 13:25:06] INFO root fetch - processPackages [promptflow]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-26 13:25:06] INFO root fetch - processPackages [composabl-cli-dev]: executing diffoscope
+[2024-04-26 13:25:06] INFO root fetch - processPackages [composabl-cli-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_cli_dev-0.8.0.dev6-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/composabl_cli_dev-0.8.0.dev9-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240426/c/composabl-cli-dev/0.8.0.dev6-0.8.0.dev9/README.md --exclude *.pyd
+[2024-04-26 13:25:06] INFO root fetch - processPackages [promptflow-azure]: Downloading https://files.pythonhosted.org/packages/62/87/641981f0ea8dbe256baa83a45e12e5c38b68f597813b5c496db878bad92a/promptflow_azure-1.9.0-py3-none-any.whl
+[2024-04-26 13:25:06] INFO root fetch - processPackages [promptflow-devkit]: executing diffoscope
+[2024-04-26 13:25:06] INFO root fetch - processPackages [promptflow-devkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptflow_devkit-1.8.0-py3-none-any.whl.zip tmp/promptflow_devkit-1.9.0-py3-none-any.whl.zip --markdown 20240426/p/promptflow-devkit/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-04-26 13:25:06] INFO root fetch - processPackages [yamlscript]: Remove: archive file [/home/abi/fetcher/tmp/yamlscript-0.1.57.tar.gz]
+[2024-04-26 13:25:06] INFO root fetch - processPackages [yamlscript]: Remove: archive file [/home/abi/fetcher/tmp/yamlscript-0.1.58.tar.gz]
+[2024-04-26 13:25:06] INFO root fetch - processPackages [yamlscript]: Start processing: pyslth
+[2024-04-26 13:25:06] INFO root fetch - main [MainThread]: End processing [yamlscript]: success
+[2024-04-26 13:25:06] INFO root fetch - processPackages [pyslth]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-26 13:25:06] INFO root fetch - processPackages [promptflow]: Downloading https://files.pythonhosted.org/packages/f0/6f/51cb0283b12115e724744081fdb4d93250bebda5ec967df66d7d854482d5/promptflow-1.8.0-py3-none-any.whl
+[2024-04-26 13:25:06] INFO root fetch - processPackages [pyslth]: Downloading https://files.pythonhosted.org/packages/11/ee/253de112dc8b7fc8850539a1a730c7cd34f3b17b488fdc49181c8fc42ce9/pyslth-0.1.2.tar.gz
+[2024-04-26 13:25:06] INFO root fetch - processPackages [promptflow-azure]: executing diffoscope
+[2024-04-26 13:25:06] INFO root fetch - processPackages [promptflow-azure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptflow_azure-1.8.0-py3-none-any.whl.zip tmp/promptflow_azure-1.9.0-py3-none-any.whl.zip --markdown 20240426/p/promptflow-azure/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-04-26 13:25:06] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/0a/bc/2c07e7175cc502c87c076a48a470ce3f477b2d7db9811311b3cedcc2e17b/torchrl_nightly-2024.4.3-cp39-cp39-win_amd64.whl
+[2024-04-26 13:25:07] INFO root fetch - processPackages [promptflow]: Downloading https://files.pythonhosted.org/packages/54/f1/131d0ea16e3b4d8203def8bb39dfc821716ed4fad106d3fa0516adcff1c7/promptflow-1.9.0-py3-none-any.whl
+[2024-04-26 13:25:07] INFO root fetch - processPackages [mecord-cli]: Remove: archive file [/home/abi/fetcher/tmp/mecord-cli-0.7.8.tar.gz]
+[2024-04-26 13:25:07] INFO root fetch - processPackages [mecord-cli]: Remove: archive file [/home/abi/fetcher/tmp/mecord-cli-0.7.9.tar.gz]
+[2024-04-26 13:25:07] INFO root fetch - main [MainThread]: End processing [mecord-cli]: success
+[2024-04-26 13:25:07] INFO root fetch - processPackages [promptflow-tracing]: Remove: archive file [/home/abi/fetcher/tmp/promptflow_tracing-1.8.0-py3-none-any.whl.zip]
+[2024-04-26 13:25:07] INFO root fetch - processPackages [promptflow-tracing]: Remove: archive file [/home/abi/fetcher/tmp/promptflow_tracing-1.9.0-py3-none-any.whl.zip]
+[2024-04-26 13:25:07] INFO root fetch - main [MainThread]: End processing [promptflow-tracing]: success
+[2024-04-26 13:25:07] INFO root fetch - processPackages [composabl-train-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_train_dev-0.8.0.dev6-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-26 13:25:07] INFO root fetch - processPackages [composabl-train-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_train_dev-0.8.0.dev9-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-26 13:25:07] INFO root fetch - main [MainThread]: End processing [composabl-train-dev]: success
+[2024-04-26 13:25:07] INFO root fetch - processPackages [pyslth]: Downloading https://files.pythonhosted.org/packages/1b/75/33f163137d3bdeabb4836c10e84b7a227e4c2eff3123041ca79751cb02d4/pyslth-0.1.3.tar.gz
+[2024-04-26 13:25:07] INFO root fetch - processPackages [promptflow]: executing diffoscope
+[2024-04-26 13:25:07] INFO root fetch - processPackages [promptflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptflow-1.8.0-py3-none-any.whl.zip tmp/promptflow-1.9.0-py3-none-any.whl.zip --markdown 20240426/p/promptflow/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-04-26 13:25:07] INFO root fetch - processPackages [torchrl-nightly]: executing diffoscope
+[2024-04-26 13:25:07] INFO root fetch - processPackages [torchrl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchrl_nightly-2024.4.26-cp39-cp39-manylinux1_x86_64.whl.zip tmp/torchrl_nightly-2024.4.3-cp39-cp39-win_amd64.whl.zip --markdown 20240426/t/torchrl-nightly/2024.4.26-2024.4.3/README.md --exclude *.pyd
+[2024-04-26 13:25:07] INFO root fetch - processPackages [pyslth]: executing diffoscope
+[2024-04-26 13:25:07] INFO root fetch - processPackages [pyslth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyslth-0.1.2.tar.gz tmp/pyslth-0.1.3.tar.gz --markdown 20240426/p/pyslth/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-26 13:25:07] INFO root fetch - processPackages [promptflow]: Remove: archive file [/home/abi/fetcher/tmp/promptflow-1.8.0-py3-none-any.whl.zip]
+[2024-04-26 13:25:07] INFO root fetch - processPackages [promptflow]: Remove: archive file [/home/abi/fetcher/tmp/promptflow-1.9.0-py3-none-any.whl.zip]
+[2024-04-26 13:25:07] INFO root fetch - main [MainThread]: End processing [promptflow]: success
+[2024-04-26 13:25:08] INFO root fetch - processPackages [pyslth]: Remove: archive file [/home/abi/fetcher/tmp/pyslth-0.1.2.tar.gz]
+[2024-04-26 13:25:08] INFO root fetch - processPackages [pyslth]: Remove: archive file [/home/abi/fetcher/tmp/pyslth-0.1.3.tar.gz]
+[2024-04-26 13:25:08] INFO root fetch - main [MainThread]: End processing [pyslth]: success
+[2024-04-26 13:25:09] INFO root fetch - processPackages [promptflow-core]: Remove: archive file [/home/abi/fetcher/tmp/promptflow_core-1.8.0-py3-none-any.whl.zip]
+[2024-04-26 13:25:09] INFO root fetch - processPackages [promptflow-core]: Remove: archive file [/home/abi/fetcher/tmp/promptflow_core-1.9.0-py3-none-any.whl.zip]
+[2024-04-26 13:25:09] INFO root fetch - main [MainThread]: End processing [promptflow-core]: success
+[2024-04-26 13:25:10] INFO root fetch - processPackages [composabl-cli-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_cli_dev-0.8.0.dev6-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-26 13:25:10] INFO root fetch - processPackages [composabl-cli-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_cli_dev-0.8.0.dev9-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-26 13:25:10] INFO root fetch - main [MainThread]: End processing [composabl-cli-dev]: success
+[2024-04-26 13:25:10] INFO root fetch - processPackages [promptflow-azure]: Remove: archive file [/home/abi/fetcher/tmp/promptflow_azure-1.8.0-py3-none-any.whl.zip]
+[2024-04-26 13:25:10] INFO root fetch - processPackages [promptflow-azure]: Remove: archive file [/home/abi/fetcher/tmp/promptflow_azure-1.9.0-py3-none-any.whl.zip]
+[2024-04-26 13:25:10] INFO root fetch - main [MainThread]: End processing [promptflow-azure]: success
+[2024-04-26 13:25:11] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2024.4.26-cp39-cp39-manylinux1_x86_64.whl.zip]
+[2024-04-26 13:25:11] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2024.4.3-cp39-cp39-win_amd64.whl.zip]
+[2024-04-26 13:25:11] INFO root fetch - main [MainThread]: End processing [torchrl-nightly]: success
+[2024-04-26 13:25:32] INFO root fetch - processPackages [promptflow-devkit]: Remove: archive file [/home/abi/fetcher/tmp/promptflow_devkit-1.8.0-py3-none-any.whl.zip]
+[2024-04-26 13:25:32] INFO root fetch - processPackages [promptflow-devkit]: Remove: archive file [/home/abi/fetcher/tmp/promptflow_devkit-1.9.0-py3-none-any.whl.zip]
+[2024-04-26 13:25:32] INFO root fetch - main [MainThread]: End processing [promptflow-devkit]: success
+[2024-04-26 13:25:32] INFO root fetch - main [MainThread]: Store serial: [22946870]
