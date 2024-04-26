@@ -8861,3 +8861,24 @@
 [2024-04-26 06:08:20] INFO root fetch - processPackages [odoo14-addon-l10n-br-repair]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_repair-14.0.1.1.6.dev9-py3-none-any.whl.zip]
 [2024-04-26 06:08:20] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-repair]: success
 [2024-04-26 06:08:20] INFO root fetch - main [MainThread]: Store serial: [22942539]
+[2024-04-26 06:10:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22942539]
+[2024-04-26 06:10:29] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-26 06:10:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pypomes-http
+[2024-04-26 06:10:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: htmltagparse
+[2024-04-26 06:10:30] INFO root fetch - processPackages [pypomes-http]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-26 06:10:30] INFO root fetch - processPackages [pypomes-http]: Downloading https://files.pythonhosted.org/packages/ab/29/df8b63fee8ca94e6dc308a05c410f4633608b089149f129ab6cff89c2e57/pypomes_http-0.1.3.tar.gz
+[2024-04-26 06:10:30] INFO root fetch - processPackages [htmltagparse]: New version: [3.0] Old Version: [2.0]
+[2024-04-26 06:10:30] INFO root fetch - processPackages [pypomes-http]: Downloading https://files.pythonhosted.org/packages/24/04/8131529ad063ac204f629516e20a6cde4026921835cb1d53731fe41ceff7/pypomes_http-0.1.4.tar.gz
+[2024-04-26 06:10:30] INFO root fetch - processPackages [htmltagparse]: Downloading https://files.pythonhosted.org/packages/27/cc/7183d5c4644e650b238a70eb2da11179a8fe49636b133075fb51860e30db/htmltagparse-2.0.tar.gz
+[2024-04-26 06:10:30] INFO root fetch - processPackages [pypomes-http]: executing diffoscope
+[2024-04-26 06:10:30] INFO root fetch - processPackages [pypomes-http]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypomes_http-0.1.3.tar.gz tmp/pypomes_http-0.1.4.tar.gz --markdown 20240426/p/pypomes-http/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-26 06:10:30] INFO root fetch - processPackages [htmltagparse]: Downloading https://files.pythonhosted.org/packages/12/1e/f7bc8c5657a01c4762d060597f05607cd058886d7460fb0f3a3962260eba/htmltagparse-3.0.tar.gz
+[2024-04-26 06:10:30] INFO root fetch - processPackages [pypomes-http]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_http-0.1.3.tar.gz]
+[2024-04-26 06:10:30] INFO root fetch - processPackages [pypomes-http]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_http-0.1.4.tar.gz]
+[2024-04-26 06:10:30] INFO root fetch - main [MainThread]: End processing [pypomes-http]: success
+[2024-04-26 06:10:30] INFO root fetch - processPackages [htmltagparse]: executing diffoscope
+[2024-04-26 06:10:30] INFO root fetch - processPackages [htmltagparse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/htmltagparse-2.0.tar.gz tmp/htmltagparse-3.0.tar.gz --markdown 20240426/h/htmltagparse/2.0-3.0/README.md --exclude *.pyd
+[2024-04-26 06:10:31] INFO root fetch - processPackages [htmltagparse]: Remove: archive file [/home/abi/fetcher/tmp/htmltagparse-2.0.tar.gz]
+[2024-04-26 06:10:31] INFO root fetch - processPackages [htmltagparse]: Remove: archive file [/home/abi/fetcher/tmp/htmltagparse-3.0.tar.gz]
+[2024-04-26 06:10:31] INFO root fetch - main [MainThread]: End processing [htmltagparse]: success
+[2024-04-26 06:10:31] INFO root fetch - main [MainThread]: Store serial: [22942546]
