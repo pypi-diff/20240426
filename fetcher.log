@@ -17934,3 +17934,36 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 12:45:23] INFO root fetch - processPackages [sparkautomapper]: Remove: archive file [/home/abi/fetcher/tmp/sparkautomapper-2.0.7.tar.gz]
 [2024-04-26 12:45:23] INFO root fetch - main [MainThread]: End processing [sparkautomapper]: success
 [2024-04-26 12:45:23] INFO root fetch - main [MainThread]: Store serial: [22946455]
+[2024-04-26 12:47:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22946455]
+[2024-04-26 12:47:33] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-26 12:47:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: clocking
+[2024-04-26 12:47:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cofutils
+[2024-04-26 12:47:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: expanse
+[2024-04-26 12:47:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mongodb-orm
+[2024-04-26 12:47:34] INFO root fetch - processPackages [clocking]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-26 12:47:34] INFO root fetch - processPackages [mongodb-orm]: New version: [0.0.121] Old Version: [0.0.120]
+[2024-04-26 12:47:34] INFO root fetch - processPackages [mongodb-orm]: Downloading https://files.pythonhosted.org/packages/91/d7/2b9fade2055dcc127d71b25b474b65ce6de4fcc2dbdb95d19fb1c137aa96/mongodb_orm-0.0.120.tar.gz
+[2024-04-26 12:47:34] WARNING root fetch - processPackages [expanse]: Skipping, unable to determine old version
+[2024-04-26 12:47:34] INFO root fetch - main [MainThread]: End processing [expanse] error
+[2024-04-26 12:47:34] INFO root fetch - processPackages [cofutils]: New version: [1.1.5] Old Version: [1.1.4]
+[2024-04-26 12:47:34] INFO root fetch - processPackages [clocking]: Downloading https://files.pythonhosted.org/packages/22/15/ad0d1a1f7570e73e93c718fa686ad19f5e4c8e7063f19848fecac5022652/clocking-0.1.1.tar.gz
+[2024-04-26 12:47:34] INFO root fetch - processPackages [cofutils]: Downloading https://files.pythonhosted.org/packages/9a/5e/c34a0ec235899235bd3b16057825087d46cbb3c03aebd31db30ac3fe2f2a/cofutils-1.1.4.tar.gz
+[2024-04-26 12:47:34] INFO root fetch - processPackages [clocking]: Downloading https://files.pythonhosted.org/packages/85/30/f370e00687b51b10bc223164923278e49beff04f5f8bc47131b3444a2dad/clocking-0.1.2.tar.gz
+[2024-04-26 12:47:34] INFO root fetch - processPackages [mongodb-orm]: Downloading https://files.pythonhosted.org/packages/eb/7e/2688788aeaa589e208e05dcc9307ee1c4d1f35b698f2f228b71268493349/mongodb_orm-0.0.121.tar.gz
+[2024-04-26 12:47:34] INFO root fetch - processPackages [clocking]: executing diffoscope
+[2024-04-26 12:47:34] INFO root fetch - processPackages [clocking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clocking-0.1.1.tar.gz tmp/clocking-0.1.2.tar.gz --markdown 20240426/c/clocking/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-26 12:47:34] INFO root fetch - processPackages [mongodb-orm]: executing diffoscope
+[2024-04-26 12:47:34] INFO root fetch - processPackages [mongodb-orm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mongodb_orm-0.0.120.tar.gz tmp/mongodb_orm-0.0.121.tar.gz --markdown 20240426/m/mongodb-orm/0.0.120-0.0.121/README.md --exclude *.pyd
+[2024-04-26 12:47:34] INFO root fetch - processPackages [cofutils]: Downloading https://files.pythonhosted.org/packages/67/ae/73724b723f2a83dc0cee62c7464008c8db2a81776f0c91030b41a43e30e5/cofutils-1.1.5.tar.gz
+[2024-04-26 12:47:34] INFO root fetch - processPackages [cofutils]: executing diffoscope
+[2024-04-26 12:47:34] INFO root fetch - processPackages [cofutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cofutils-1.1.4.tar.gz tmp/cofutils-1.1.5.tar.gz --markdown 20240426/c/cofutils/1.1.4-1.1.5/README.md --exclude *.pyd
+[2024-04-26 12:47:35] INFO root fetch - processPackages [mongodb-orm]: Remove: archive file [/home/abi/fetcher/tmp/mongodb_orm-0.0.120.tar.gz]
+[2024-04-26 12:47:35] INFO root fetch - processPackages [mongodb-orm]: Remove: archive file [/home/abi/fetcher/tmp/mongodb_orm-0.0.121.tar.gz]
+[2024-04-26 12:47:35] INFO root fetch - main [MainThread]: End processing [mongodb-orm]: success
+[2024-04-26 12:47:35] INFO root fetch - processPackages [clocking]: Remove: archive file [/home/abi/fetcher/tmp/clocking-0.1.1.tar.gz]
+[2024-04-26 12:47:35] INFO root fetch - processPackages [clocking]: Remove: archive file [/home/abi/fetcher/tmp/clocking-0.1.2.tar.gz]
+[2024-04-26 12:47:35] INFO root fetch - main [MainThread]: End processing [clocking]: success
+[2024-04-26 12:47:35] INFO root fetch - processPackages [cofutils]: Remove: archive file [/home/abi/fetcher/tmp/cofutils-1.1.4.tar.gz]
+[2024-04-26 12:47:35] INFO root fetch - processPackages [cofutils]: Remove: archive file [/home/abi/fetcher/tmp/cofutils-1.1.5.tar.gz]
+[2024-04-26 12:47:35] INFO root fetch - main [MainThread]: End processing [cofutils]: success
+[2024-04-26 12:47:35] INFO root fetch - main [MainThread]: Store serial: [22946469]
