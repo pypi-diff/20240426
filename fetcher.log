@@ -9412,3 +9412,38 @@
 [2024-04-26 07:00:49] INFO root fetch - processPackages [vegan]: Remove: archive file [/home/abi/fetcher/tmp/vegan-2.0.0.tar.gz]
 [2024-04-26 07:00:49] INFO root fetch - main [MainThread]: End processing [vegan]: success
 [2024-04-26 07:00:49] INFO root fetch - main [MainThread]: Store serial: [22942760]
+[2024-04-26 07:02:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22942760]
+[2024-04-26 07:02:59] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-26 07:02:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vehicle-lang
+[2024-04-26 07:02:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kfre
+[2024-04-26 07:02:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pygitpub
+[2024-04-26 07:02:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jy_lib
+[2024-04-26 07:02:59] INFO root fetch - processPackages [kfre]: New version: [0.1.0a2] Old Version: [0.1.0a1]
+[2024-04-26 07:02:59] INFO root fetch - processPackages [vehicle-lang]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-26 07:02:59] INFO root fetch - processPackages [jy_lib]: New version: [0.6.6] Old Version: [0.6.5]
+[2024-04-26 07:02:59] INFO root fetch - processPackages [kfre]: Downloading https://files.pythonhosted.org/packages/7b/64/e8175d5273df5d0aa97c6ad72ac18c027458991396e8d7fff1544e1f000a/kfre-0.1.0a1.tar.gz
+[2024-04-26 07:03:00] INFO root fetch - processPackages [pygitpub]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-26 07:03:00] INFO root fetch - processPackages [vehicle-lang]: Downloading https://files.pythonhosted.org/packages/c2/1b/52b636efacd4e6afd6c6236685895ca935bfd2a35997f052ec125a95e762/vehicle_lang-0.8.0-cp39-cp39-win_amd64.whl
+[2024-04-26 07:03:00] INFO root fetch - processPackages [jy_lib]: Downloading https://files.pythonhosted.org/packages/95/83/cb0b4e6d58ef89c717cfd024400c1cfdfbbf57b76683cef7efb434d5ea62/jy_lib-0.6.5.tar.gz
+[2024-04-26 07:03:00] WARNING root fetch - processPackages [vehicle-lang]: Skipping package: exceeds size limit 12112368>=10485760
+[2024-04-26 07:03:00] INFO root fetch - main [MainThread]: End processing [vehicle-lang] error
+[2024-04-26 07:03:00] INFO root fetch - processPackages [pygitpub]: Downloading https://files.pythonhosted.org/packages/2d/0b/63751894c06acce591148ead54ef22ff96409f4f173321132a4d03c56405/pygitpub-0.0.8.tar.gz
+[2024-04-26 07:03:00] INFO root fetch - processPackages [kfre]: Downloading https://files.pythonhosted.org/packages/63/a3/057305288da2fb87bd9e85701d8f9be92a9ae288d80a9a2b8c8f28a6e083/kfre-0.1.0a2.tar.gz
+[2024-04-26 07:03:00] INFO root fetch - processPackages [jy_lib]: Downloading https://files.pythonhosted.org/packages/21/3b/54299b56bfe807536a16cb0f94d2d46b0c93ad8c33070f222af614bf294d/jy_lib-0.6.6.tar.gz
+[2024-04-26 07:03:00] INFO root fetch - processPackages [kfre]: executing diffoscope
+[2024-04-26 07:03:00] INFO root fetch - processPackages [kfre]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfre-0.1.0a1.tar.gz tmp/kfre-0.1.0a2.tar.gz --markdown 20240426/k/kfre/0.1.0a1-0.1.0a2/README.md --exclude *.pyd
+[2024-04-26 07:03:00] INFO root fetch - processPackages [jy_lib]: executing diffoscope
+[2024-04-26 07:03:00] INFO root fetch - processPackages [jy_lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jy_lib-0.6.5.tar.gz tmp/jy_lib-0.6.6.tar.gz --markdown 20240426/j/jy_lib/0.6.5-0.6.6/README.md --exclude *.pyd
+[2024-04-26 07:03:00] INFO root fetch - processPackages [pygitpub]: Downloading https://files.pythonhosted.org/packages/14/96/752057f31b33b1fd8411d1912dff98141e2c829e9579f5a5e6111740820f/pygitpub-0.0.9.tar.gz
+[2024-04-26 07:03:00] INFO root fetch - processPackages [pygitpub]: executing diffoscope
+[2024-04-26 07:03:00] INFO root fetch - processPackages [pygitpub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygitpub-0.0.8.tar.gz tmp/pygitpub-0.0.9.tar.gz --markdown 20240426/p/pygitpub/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-26 07:03:00] INFO root fetch - processPackages [kfre]: Remove: archive file [/home/abi/fetcher/tmp/kfre-0.1.0a1.tar.gz]
+[2024-04-26 07:03:00] INFO root fetch - processPackages [kfre]: Remove: archive file [/home/abi/fetcher/tmp/kfre-0.1.0a2.tar.gz]
+[2024-04-26 07:03:00] INFO root fetch - main [MainThread]: End processing [kfre]: success
+[2024-04-26 07:03:01] INFO root fetch - processPackages [jy_lib]: Remove: archive file [/home/abi/fetcher/tmp/jy_lib-0.6.5.tar.gz]
+[2024-04-26 07:03:01] INFO root fetch - processPackages [jy_lib]: Remove: archive file [/home/abi/fetcher/tmp/jy_lib-0.6.6.tar.gz]
+[2024-04-26 07:03:01] INFO root fetch - main [MainThread]: End processing [jy_lib]: success
+[2024-04-26 07:03:01] INFO root fetch - processPackages [pygitpub]: Remove: archive file [/home/abi/fetcher/tmp/pygitpub-0.0.8.tar.gz]
+[2024-04-26 07:03:01] INFO root fetch - processPackages [pygitpub]: Remove: archive file [/home/abi/fetcher/tmp/pygitpub-0.0.9.tar.gz]
+[2024-04-26 07:03:01] INFO root fetch - main [MainThread]: End processing [pygitpub]: success
+[2024-04-26 07:03:01] INFO root fetch - main [MainThread]: Store serial: [22942786]
