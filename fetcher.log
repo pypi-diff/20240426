@@ -7717,3 +7717,18 @@
 [2024-04-26 04:49:21] INFO root fetch - processPackages [auto-coder]: Remove: archive file [/home/abi/fetcher/tmp/auto-coder-0.1.9.tar.gz]
 [2024-04-26 04:49:21] INFO root fetch - main [MainThread]: End processing [auto-coder]: success
 [2024-04-26 04:49:21] INFO root fetch - main [MainThread]: Store serial: [22942040]
+[2024-04-26 04:51:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22942040]
+[2024-04-26 04:51:30] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-26 04:51:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wled2graph
+[2024-04-26 04:51:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tmart
+[2024-04-26 04:51:30] INFO root fetch - processPackages [tmart]: New version: [2.3.2] Old Version: [2.3.1]
+[2024-04-26 04:51:31] INFO root fetch - processPackages [tmart]: Downloading https://files.pythonhosted.org/packages/88/75/6806acd28776a31b09e034069ae0802e33bac86ae1d5c313f8828bc1ba49/tmart-2.3.1.tar.gz
+[2024-04-26 04:51:31] INFO root fetch - processPackages [tmart]: Downloading https://files.pythonhosted.org/packages/82/e9/c5b14c179f9c907d8107c8f6657329c4bfe2f4a455a8ddac98db1c08aa5c/tmart-2.3.2.tar.gz
+[2024-04-26 04:51:31] WARNING root fetch - processPackages [wled2graph]: Skipping, unable to determine old version
+[2024-04-26 04:51:31] INFO root fetch - main [MainThread]: End processing [wled2graph] error
+[2024-04-26 04:51:31] INFO root fetch - processPackages [tmart]: executing diffoscope
+[2024-04-26 04:51:31] INFO root fetch - processPackages [tmart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmart-2.3.1.tar.gz tmp/tmart-2.3.2.tar.gz --markdown 20240426/t/tmart/2.3.1-2.3.2/README.md --exclude *.pyd
+[2024-04-26 04:51:32] INFO root fetch - processPackages [tmart]: Remove: archive file [/home/abi/fetcher/tmp/tmart-2.3.1.tar.gz]
+[2024-04-26 04:51:32] INFO root fetch - processPackages [tmart]: Remove: archive file [/home/abi/fetcher/tmp/tmart-2.3.2.tar.gz]
+[2024-04-26 04:51:32] INFO root fetch - main [MainThread]: End processing [tmart]: success
+[2024-04-26 04:51:32] INFO root fetch - main [MainThread]: Store serial: [22942048]
