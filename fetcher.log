@@ -19752,3 +19752,42 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 14:13:19] INFO root fetch - processPackages [pytme]: Remove: archive file [/home/abi/fetcher/tmp/pytme-0.2.0b0.tar.gz]
 [2024-04-26 14:13:19] INFO root fetch - main [MainThread]: End processing [pytme]: success
 [2024-04-26 14:13:19] INFO root fetch - main [MainThread]: Store serial: [22947253]
+[2024-04-26 14:15:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22947253]
+[2024-04-26 14:15:27] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-26 14:15:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dslog
+[2024-04-26 14:15:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: BicycleParameters
+[2024-04-26 14:15:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tiffwrite
+[2024-04-26 14:15:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cast-bootstrap5
+[2024-04-26 14:15:28] INFO root fetch - processPackages [dslog]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-26 14:15:28] INFO root fetch - processPackages [BicycleParameters]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-04-26 14:15:28] INFO root fetch - processPackages [tiffwrite]: New version: [2024.4.0] Old Version: [2024.3.0]
+[2024-04-26 14:15:28] INFO root fetch - processPackages [cast-bootstrap5]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-26 14:15:28] INFO root fetch - processPackages [dslog]: Downloading https://files.pythonhosted.org/packages/a1/06/67998b1553f3dd616df26080d9b05bd722d8b76de3338a3df431412079cc/dslog-0.1.0.tar.gz
+[2024-04-26 14:15:28] INFO root fetch - processPackages [tiffwrite]: Downloading https://files.pythonhosted.org/packages/9d/e3/e67f38c73754958780b47b21e657dbc9e01f21b439127852d90f2a22f158/tiffwrite-2024.3.0.tar.gz
+[2024-04-26 14:15:28] INFO root fetch - processPackages [BicycleParameters]: Downloading https://files.pythonhosted.org/packages/60/dd/46265bfe27954e77d49b0b0a6d9c0765f9f1bc195a389691987f30f07cfc/BicycleParameters-1.0.0.tar.gz
+[2024-04-26 14:15:28] INFO root fetch - processPackages [cast-bootstrap5]: Downloading https://files.pythonhosted.org/packages/a9/9b/db053c0c1d19540d1bda453cb759360dffb45faa565215b2913bf8c69866/cast_bootstrap5-0.0.8.tar.gz
+[2024-04-26 14:15:28] INFO root fetch - processPackages [dslog]: Downloading https://files.pythonhosted.org/packages/30/f7/2ada033dc9faaa4316fc855cd1b2d0a66f1a4f3da5febbf6d38d332335d3/dslog-0.1.1.tar.gz
+[2024-04-26 14:15:28] INFO root fetch - processPackages [tiffwrite]: Downloading https://files.pythonhosted.org/packages/a0/91/ef36ac26a7a2bf801b7fdde1aa85f2c724f6929a04a44002f5465317c13e/tiffwrite-2024.4.0.tar.gz
+[2024-04-26 14:15:28] INFO root fetch - processPackages [BicycleParameters]: Downloading https://files.pythonhosted.org/packages/92/eb/4f91c351cdbd25634f0ff97d5d1952ae96b6943fd47fe4f2fc3ffeeeefcd/bicycleparameters-1.1.0.tar.gz
+[2024-04-26 14:15:28] INFO root fetch - processPackages [dslog]: executing diffoscope
+[2024-04-26 14:15:28] INFO root fetch - processPackages [dslog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dslog-0.1.0.tar.gz tmp/dslog-0.1.1.tar.gz --markdown 20240426/d/dslog/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-26 14:15:28] INFO root fetch - processPackages [cast-bootstrap5]: Downloading https://files.pythonhosted.org/packages/79/19/f879af1e3882921129d87c91ae930e17e1bc45d698b0931de934c28b1d8b/cast_bootstrap5-0.0.9.tar.gz
+[2024-04-26 14:15:28] INFO root fetch - processPackages [BicycleParameters]: executing diffoscope
+[2024-04-26 14:15:28] INFO root fetch - processPackages [BicycleParameters]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BicycleParameters-1.0.0.tar.gz tmp/bicycleparameters-1.1.0.tar.gz --markdown 20240426/B/BicycleParameters/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-04-26 14:15:29] INFO root fetch - processPackages [tiffwrite]: executing diffoscope
+[2024-04-26 14:15:29] INFO root fetch - processPackages [tiffwrite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tiffwrite-2024.3.0.tar.gz tmp/tiffwrite-2024.4.0.tar.gz --markdown 20240426/t/tiffwrite/2024.3.0-2024.4.0/README.md --exclude *.pyd
+[2024-04-26 14:15:29] INFO root fetch - processPackages [cast-bootstrap5]: executing diffoscope
+[2024-04-26 14:15:29] INFO root fetch - processPackages [cast-bootstrap5]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cast_bootstrap5-0.0.8.tar.gz tmp/cast_bootstrap5-0.0.9.tar.gz --markdown 20240426/c/cast-bootstrap5/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-26 14:15:29] INFO root fetch - processPackages [dslog]: Remove: archive file [/home/abi/fetcher/tmp/dslog-0.1.0.tar.gz]
+[2024-04-26 14:15:29] INFO root fetch - processPackages [dslog]: Remove: archive file [/home/abi/fetcher/tmp/dslog-0.1.1.tar.gz]
+[2024-04-26 14:15:29] INFO root fetch - main [MainThread]: End processing [dslog]: success
+[2024-04-26 14:15:29] INFO root fetch - processPackages [tiffwrite]: Remove: archive file [/home/abi/fetcher/tmp/tiffwrite-2024.3.0.tar.gz]
+[2024-04-26 14:15:29] INFO root fetch - processPackages [tiffwrite]: Remove: archive file [/home/abi/fetcher/tmp/tiffwrite-2024.4.0.tar.gz]
+[2024-04-26 14:15:29] INFO root fetch - main [MainThread]: End processing [tiffwrite]: success
+[2024-04-26 14:15:29] INFO root fetch - processPackages [BicycleParameters]: Remove: archive file [/home/abi/fetcher/tmp/BicycleParameters-1.0.0.tar.gz]
+[2024-04-26 14:15:29] INFO root fetch - processPackages [BicycleParameters]: Remove: archive file [/home/abi/fetcher/tmp/bicycleparameters-1.1.0.tar.gz]
+[2024-04-26 14:15:29] INFO root fetch - main [MainThread]: End processing [BicycleParameters]: success
+[2024-04-26 14:15:29] INFO root fetch - processPackages [cast-bootstrap5]: Remove: archive file [/home/abi/fetcher/tmp/cast_bootstrap5-0.0.8.tar.gz]
+[2024-04-26 14:15:29] INFO root fetch - processPackages [cast-bootstrap5]: Remove: archive file [/home/abi/fetcher/tmp/cast_bootstrap5-0.0.9.tar.gz]
+[2024-04-26 14:15:29] INFO root fetch - main [MainThread]: End processing [cast-bootstrap5]: success
+[2024-04-26 14:15:29] INFO root fetch - main [MainThread]: Store serial: [22947265]
