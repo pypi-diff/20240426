@@ -8505,3 +8505,47 @@
 [2024-04-26 05:53:00] INFO root fetch - processPackages [tomata]: Remove: archive file [/home/abi/fetcher/tmp/tomata-1.1.0.tar.gz]
 [2024-04-26 05:53:00] INFO root fetch - main [MainThread]: End processing [tomata]: success
 [2024-04-26 05:53:00] INFO root fetch - main [MainThread]: Store serial: [22942389]
+[2024-04-26 05:55:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22942389]
+[2024-04-26 05:55:08] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-26 05:55:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-hr-course
+[2024-04-26 05:55:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: retell-sdk
+[2024-04-26 05:55:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyfuzzylite
+[2024-04-26 05:55:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdktf-cdktf-provider-aws
+[2024-04-26 05:55:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tensorcat
+[2024-04-26 05:55:09] INFO root fetch - processPackages [retell-sdk]: New version: [3.9.0] Old Version: [3.8.0]
+[2024-04-26 05:55:09] INFO root fetch - processPackages [tensorcat]: New version: [0.1.1] Old Version: [0.1]
+[2024-04-26 05:55:09] INFO root fetch - processPackages [odoo-addon-hr-course]: New version: [16.0.1.1.1.9] Old Version: [16.0.1.1.1.8]
+[2024-04-26 05:55:09] INFO root fetch - processPackages [pyfuzzylite]: New version: [8.0.2] Old Version: [8.0.1]
+[2024-04-26 05:55:09] INFO root fetch - processPackages [cdktf-cdktf-provider-aws]: New version: [9.0.9] Old Version: [9.0.8]
+[2024-04-26 05:55:09] INFO root fetch - processPackages [tensorcat]: Downloading https://files.pythonhosted.org/packages/8f/5a/b74f3654839db7406ed844f1924611355b470c31e4b04fc805e7cfec095e/tensorcat-0.1.tar.gz
+[2024-04-26 05:55:09] INFO root fetch - processPackages [retell-sdk]: Downloading https://files.pythonhosted.org/packages/e1/53/f375ee017875b3c24fc03d377dc5f55fc4f3759c3ecd37e3c7fcb29192ff/retell_sdk-3.8.0.tar.gz
+[2024-04-26 05:55:09] INFO root fetch - processPackages [pyfuzzylite]: Downloading https://files.pythonhosted.org/packages/cc/18/0682331bccf1d8e121e6670a0291cfccfe65739a0b407f6985a4ff402891/pyfuzzylite-8.0.1.tar.gz
+[2024-04-26 05:55:09] INFO root fetch - processPackages [odoo-addon-hr-course]: Downloading https://files.pythonhosted.org/packages/a0/ec/2c4e44e721bdf15328cade0691d810ac82785f70b5c8be3ae7de6fee523f/odoo_addon_hr_course-16.0.1.1.1.8-py3-none-any.whl
+[2024-04-26 05:55:09] INFO root fetch - processPackages [cdktf-cdktf-provider-aws]: Downloading https://files.pythonhosted.org/packages/aa/2e/834bb9d56f903b34743b3b8d5766864ad4e2a039b6c88e65b6d835c946e4/cdktf-cdktf-provider-aws-9.0.8.tar.gz
+[2024-04-26 05:55:09] INFO root fetch - processPackages [retell-sdk]: Downloading https://files.pythonhosted.org/packages/75/b5/15a8ee4ce52c9f786d1bcf55ee0681a2f4e137e3c72085347dd5733e6ff0/retell_sdk-3.9.0.tar.gz
+[2024-04-26 05:55:09] INFO root fetch - processPackages [pyfuzzylite]: Downloading https://files.pythonhosted.org/packages/3b/ff/59181d92947a61d8e93e684b566b9d569da264af869b56d6abdd6b8a4a1a/pyfuzzylite-8.0.2.tar.gz
+[2024-04-26 05:55:09] INFO root fetch - processPackages [tensorcat]: Downloading https://files.pythonhosted.org/packages/d6/be/071943e8174c5d0f4a8db65e71b20fb62d67eeff64af4196b869208a433d/tensorcat-0.1.1.tar.gz
+[2024-04-26 05:55:09] INFO root fetch - processPackages [pyfuzzylite]: executing diffoscope
+[2024-04-26 05:55:09] INFO root fetch - processPackages [pyfuzzylite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfuzzylite-8.0.1.tar.gz tmp/pyfuzzylite-8.0.2.tar.gz --markdown 20240426/p/pyfuzzylite/8.0.1-8.0.2/README.md --exclude *.pyd
+[2024-04-26 05:55:09] INFO root fetch - processPackages [retell-sdk]: executing diffoscope
+[2024-04-26 05:55:09] INFO root fetch - processPackages [retell-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/retell_sdk-3.8.0.tar.gz tmp/retell_sdk-3.9.0.tar.gz --markdown 20240426/r/retell-sdk/3.8.0-3.9.0/README.md --exclude *.pyd
+[2024-04-26 05:55:09] WARNING root fetch - processPackages [cdktf-cdktf-provider-aws]: Skipping package: exceeds size limit 23814479>=10485760
+[2024-04-26 05:55:09] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-aws] error
+[2024-04-26 05:55:10] INFO root fetch - processPackages [tensorcat]: executing diffoscope
+[2024-04-26 05:55:10] INFO root fetch - processPackages [tensorcat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorcat-0.1.tar.gz tmp/tensorcat-0.1.1.tar.gz --markdown 20240426/t/tensorcat/0.1-0.1.1/README.md --exclude *.pyd
+[2024-04-26 05:55:10] INFO root fetch - processPackages [odoo-addon-hr-course]: Downloading https://files.pythonhosted.org/packages/06/51/e6d89e837a93f831edf25040442c2fc050660cb0afe98413705c1fe5a26d/odoo_addon_hr_course-16.0.1.1.1.9-py3-none-any.whl
+[2024-04-26 05:55:10] INFO root fetch - processPackages [odoo-addon-hr-course]: executing diffoscope
+[2024-04-26 05:55:10] INFO root fetch - processPackages [odoo-addon-hr-course]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_hr_course-16.0.1.1.1.8-py3-none-any.whl.zip tmp/odoo_addon_hr_course-16.0.1.1.1.9-py3-none-any.whl.zip --markdown 20240426/o/odoo-addon-hr-course/16.0.1.1.1.8-16.0.1.1.1.9/README.md --exclude *.pyd
+[2024-04-26 05:55:10] INFO root fetch - processPackages [tensorcat]: Remove: archive file [/home/abi/fetcher/tmp/tensorcat-0.1.tar.gz]
+[2024-04-26 05:55:10] INFO root fetch - processPackages [tensorcat]: Remove: archive file [/home/abi/fetcher/tmp/tensorcat-0.1.1.tar.gz]
+[2024-04-26 05:55:10] INFO root fetch - main [MainThread]: End processing [tensorcat]: success
+[2024-04-26 05:55:10] INFO root fetch - processPackages [retell-sdk]: Remove: archive file [/home/abi/fetcher/tmp/retell_sdk-3.8.0.tar.gz]
+[2024-04-26 05:55:10] INFO root fetch - processPackages [retell-sdk]: Remove: archive file [/home/abi/fetcher/tmp/retell_sdk-3.9.0.tar.gz]
+[2024-04-26 05:55:10] INFO root fetch - main [MainThread]: End processing [retell-sdk]: success
+[2024-04-26 05:55:10] INFO root fetch - processPackages [odoo-addon-hr-course]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_hr_course-16.0.1.1.1.8-py3-none-any.whl.zip]
+[2024-04-26 05:55:10] INFO root fetch - processPackages [odoo-addon-hr-course]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_hr_course-16.0.1.1.1.9-py3-none-any.whl.zip]
+[2024-04-26 05:55:10] INFO root fetch - main [MainThread]: End processing [odoo-addon-hr-course]: success
+[2024-04-26 05:55:11] INFO root fetch - processPackages [pyfuzzylite]: Remove: archive file [/home/abi/fetcher/tmp/pyfuzzylite-8.0.1.tar.gz]
+[2024-04-26 05:55:11] INFO root fetch - processPackages [pyfuzzylite]: Remove: archive file [/home/abi/fetcher/tmp/pyfuzzylite-8.0.2.tar.gz]
+[2024-04-26 05:55:11] INFO root fetch - main [MainThread]: End processing [pyfuzzylite]: success
+[2024-04-26 05:55:11] INFO root fetch - main [MainThread]: Store serial: [22942403]
