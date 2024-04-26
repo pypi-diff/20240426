@@ -2705,3 +2705,29 @@
 [2024-04-26 02:44:46] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.4.dev202404250044.tar.gz]
 [2024-04-26 02:44:46] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
 [2024-04-26 02:44:46] INFO root fetch - main [MainThread]: Store serial: [22940163]
+[2024-04-26 02:46:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22940163]
+[2024-04-26 02:46:54] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-26 02:46:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: translator-testing-model
+[2024-04-26 02:46:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: policyengine-us
+[2024-04-26 02:46:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nm-magic-wand-nightly
+[2024-04-26 02:46:55] INFO root fetch - processPackages [policyengine-us]: New version: [0.752.0] Old Version: [0.751.0]
+[2024-04-26 02:46:55] INFO root fetch - processPackages [translator-testing-model]: New version: [2.3.0] Old Version: [0.3.1]
+[2024-04-26 02:46:55] INFO root fetch - processPackages [nm-magic-wand-nightly]: New version: [0.2.2.20240426] Old Version: [0.2.2.20240425]
+[2024-04-26 02:46:55] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/09/35/0737a101ed472430bcea6e90f451fd42c6efc14b9544fb87d32af38e79bd/policyengine-us-0.751.0.tar.gz
+[2024-04-26 02:46:55] INFO root fetch - processPackages [translator-testing-model]: Downloading https://files.pythonhosted.org/packages/f9/77/a83e61949d9698fbc765273b5f0b04fe330c1a81ba2f17eb8893b4354839/translator_testing_model-0.3.1.tar.gz
+[2024-04-26 02:46:55] INFO root fetch - processPackages [nm-magic-wand-nightly]: Downloading https://files.pythonhosted.org/packages/9a/ff/cbc98a6c17eac0a639928ae314fd8e269658b4419e13c9bfb61913671270/nm_magic_wand_nightly-0.2.2.20240425-cp39-cp39-manylinux_2_17_x86_64.whl
+[2024-04-26 02:46:55] WARNING root fetch - processPackages [nm-magic-wand-nightly]: Skipping package: exceeds size limit 76590692>=10485760
+[2024-04-26 02:46:55] INFO root fetch - main [MainThread]: End processing [nm-magic-wand-nightly] error
+[2024-04-26 02:46:55] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/37/de/5297b6548baad0b08629156e590f81a1fc3f30b92f3faf4dfa2edea2995e/policyengine-us-0.752.0.tar.gz
+[2024-04-26 02:46:55] INFO root fetch - processPackages [translator-testing-model]: Downloading https://files.pythonhosted.org/packages/fd/9b/5839615dc4f9a8232d4e0ea61c408c1feabfe0f57b6f45c4a5a37a71cceb/translator_testing_model-2.3.0.tar.gz
+[2024-04-26 02:46:55] INFO root fetch - processPackages [translator-testing-model]: executing diffoscope
+[2024-04-26 02:46:55] INFO root fetch - processPackages [translator-testing-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/translator_testing_model-0.3.1.tar.gz tmp/translator_testing_model-2.3.0.tar.gz --markdown 20240426/t/translator-testing-model/0.3.1-2.3.0/README.md --exclude *.pyd
+[2024-04-26 02:46:55] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2024-04-26 02:46:55] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.751.0.tar.gz tmp/policyengine-us-0.752.0.tar.gz --markdown 20240426/p/policyengine-us/0.751.0-0.752.0/README.md --exclude *.pyd
+[2024-04-26 02:46:56] INFO root fetch - processPackages [translator-testing-model]: Remove: archive file [/home/abi/fetcher/tmp/translator_testing_model-0.3.1.tar.gz]
+[2024-04-26 02:46:56] INFO root fetch - processPackages [translator-testing-model]: Remove: archive file [/home/abi/fetcher/tmp/translator_testing_model-2.3.0.tar.gz]
+[2024-04-26 02:46:56] INFO root fetch - main [MainThread]: End processing [translator-testing-model]: success
+[2024-04-26 02:47:28] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.751.0.tar.gz]
+[2024-04-26 02:47:28] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.752.0.tar.gz]
+[2024-04-26 02:47:28] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2024-04-26 02:47:28] INFO root fetch - main [MainThread]: Store serial: [22940182]
