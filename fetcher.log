@@ -7330,3 +7330,34 @@
 [2024-04-26 04:14:24] INFO root fetch - processPackages [dcm-classifier]: Remove: archive file [/home/abi/fetcher/tmp/dcm_classifier-0.9.1.tar.gz]
 [2024-04-26 04:14:24] INFO root fetch - main [MainThread]: End processing [dcm-classifier]: success
 [2024-04-26 04:14:24] INFO root fetch - main [MainThread]: Store serial: [22941865]
+[2024-04-26 04:16:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22941865]
+[2024-04-26 04:16:32] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-26 04:18:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22941869]
+[2024-04-26 04:18:38] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-26 04:18:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: khoj-cli
+[2024-04-26 04:18:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gingerai
+[2024-04-26 04:18:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Spire.Doc
+[2024-04-26 04:18:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: types-pyinstaller
+[2024-04-26 04:18:38] INFO root fetch - processPackages [gingerai]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-26 04:18:38] INFO root fetch - processPackages [gingerai]: Downloading https://files.pythonhosted.org/packages/93/63/5f4a6d2549870026eff659d1fc9aac0f6c9532ea741f07ac2083cd3a1cfe/gingerai-0.1.8.tar.gz
+[2024-04-26 04:18:38] WARNING root fetch - processPackages [khoj-cli]: Skipping, unable to determine old version
+[2024-04-26 04:18:38] INFO root fetch - main [MainThread]: End processing [khoj-cli] error
+[2024-04-26 04:18:38] INFO root fetch - processPackages [types-pyinstaller]: New version: [6.6.0.20240426] Old Version: [6.6.0.20240417]
+[2024-04-26 04:18:38] INFO root fetch - processPackages [Spire.Doc]: New version: [12.4.0] Old Version: [12.3.2]
+[2024-04-26 04:18:38] INFO root fetch - processPackages [gingerai]: Downloading https://files.pythonhosted.org/packages/33/65/a59be7a360a71da6fb875287e72120e252018dc037eef33b15ac50759b89/gingerai-0.1.9.tar.gz
+[2024-04-26 04:18:38] INFO root fetch - processPackages [Spire.Doc]: Downloading https://files.pythonhosted.org/packages/98/e9/3cb1ac49644d72b525739740da8f67d2f4308d312354b4bb4abee8bdee98/Spire.Doc-12.3.2-py3-none-win_amd64.whl
+[2024-04-26 04:18:38] INFO root fetch - processPackages [types-pyinstaller]: Downloading https://files.pythonhosted.org/packages/0b/0b/53b9018db7071fe5038d2f2cb8c8579dc2fe983f98ec73fd796ad4ed5112/types-pyinstaller-6.6.0.20240417.tar.gz
+[2024-04-26 04:18:38] WARNING root fetch - processPackages [Spire.Doc]: Skipping package: exceeds size limit 26678537>=10485760
+[2024-04-26 04:18:38] INFO root fetch - main [MainThread]: End processing [Spire.Doc] error
+[2024-04-26 04:18:38] INFO root fetch - processPackages [gingerai]: executing diffoscope
+[2024-04-26 04:18:38] INFO root fetch - processPackages [gingerai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gingerai-0.1.8.tar.gz tmp/gingerai-0.1.9.tar.gz --markdown 20240426/g/gingerai/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-26 04:18:38] INFO root fetch - processPackages [types-pyinstaller]: Downloading https://files.pythonhosted.org/packages/17/d1/b82a6417bc014feb12b4862b37aab96e87e7b4aceb6dd544e8b3825c8f99/types-pyinstaller-6.6.0.20240426.tar.gz
+[2024-04-26 04:18:39] INFO root fetch - processPackages [types-pyinstaller]: executing diffoscope
+[2024-04-26 04:18:39] INFO root fetch - processPackages [types-pyinstaller]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-pyinstaller-6.6.0.20240417.tar.gz tmp/types-pyinstaller-6.6.0.20240426.tar.gz --markdown 20240426/t/types-pyinstaller/6.6.0.20240417-6.6.0.20240426/README.md --exclude *.pyd
+[2024-04-26 04:18:39] INFO root fetch - processPackages [gingerai]: Remove: archive file [/home/abi/fetcher/tmp/gingerai-0.1.8.tar.gz]
+[2024-04-26 04:18:39] INFO root fetch - processPackages [gingerai]: Remove: archive file [/home/abi/fetcher/tmp/gingerai-0.1.9.tar.gz]
+[2024-04-26 04:18:39] INFO root fetch - main [MainThread]: End processing [gingerai]: success
+[2024-04-26 04:18:39] INFO root fetch - processPackages [types-pyinstaller]: Remove: archive file [/home/abi/fetcher/tmp/types-pyinstaller-6.6.0.20240417.tar.gz]
+[2024-04-26 04:18:39] INFO root fetch - processPackages [types-pyinstaller]: Remove: archive file [/home/abi/fetcher/tmp/types-pyinstaller-6.6.0.20240426.tar.gz]
+[2024-04-26 04:18:39] INFO root fetch - main [MainThread]: End processing [types-pyinstaller]: success
+[2024-04-26 04:18:39] INFO root fetch - main [MainThread]: Store serial: [22941882]
