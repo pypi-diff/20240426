@@ -21293,3 +21293,36 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 15:20:52] INFO root fetch - processPackages [shadow4]: Remove: archive file [/home/abi/fetcher/tmp/shadow4-0.1.8.tar.gz]
 [2024-04-26 15:20:52] INFO root fetch - main [MainThread]: End processing [shadow4]: success
 [2024-04-26 15:20:52] INFO root fetch - main [MainThread]: Store serial: [22947936]
+[2024-04-26 15:22:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22947936]
+[2024-04-26 15:23:01] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-26 15:23:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bblib
+[2024-04-26 15:23:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: test-package-ju-2024-04-17
+[2024-04-26 15:23:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dcaspt2-input-generator
+[2024-04-26 15:23:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rich-split
+[2024-04-26 15:23:01] INFO root fetch - processPackages [rich-split]: New version: [0.1.0] Old Version: [0.0.1]
+[2024-04-26 15:23:01] INFO root fetch - processPackages [rich-split]: Downloading https://files.pythonhosted.org/packages/ac/f6/6df5e31127bb6e06c4cd3917c06ad7e03aa125978d08068c74cadf28796c/rich_split-0.0.1.tar.gz
+[2024-04-26 15:23:01] INFO root fetch - processPackages [dcaspt2-input-generator]: New version: [0.6.1] Old Version: [0.6.0]
+[2024-04-26 15:23:01] INFO root fetch - processPackages [bblib]: New version: [2.0.0] Old Version: [1.2.1]
+[2024-04-26 15:23:01] WARNING root fetch - processPackages [test-package-ju-2024-04-17]: Skipping, unable to determine old version
+[2024-04-26 15:23:01] INFO root fetch - main [MainThread]: End processing [test-package-ju-2024-04-17] error
+[2024-04-26 15:23:01] INFO root fetch - processPackages [dcaspt2-input-generator]: Downloading https://files.pythonhosted.org/packages/ec/af/bd0fd88f4c750136bf64c531d16625c8e959a0e6480adbf9585c3ea592d5/dcaspt2_input_generator-0.6.0.tar.gz
+[2024-04-26 15:23:01] INFO root fetch - processPackages [bblib]: Downloading https://files.pythonhosted.org/packages/88/a6/1c64b62c2042af23fe0dda728f466acad7d8f435d0a32a8ade8e251ccac2/bblib-1.2.1.tar.gz
+[2024-04-26 15:23:01] INFO root fetch - processPackages [rich-split]: Downloading https://files.pythonhosted.org/packages/25/bb/2065ed8ced4a9a1b1fafafb5fe061c6b0bcdb4d50629f84a9cea4b3f89db/rich_split-0.1.0.tar.gz
+[2024-04-26 15:23:02] INFO root fetch - processPackages [rich-split]: executing diffoscope
+[2024-04-26 15:23:02] INFO root fetch - processPackages [rich-split]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rich_split-0.0.1.tar.gz tmp/rich_split-0.1.0.tar.gz --markdown 20240426/r/rich-split/0.0.1-0.1.0/README.md --exclude *.pyd
+[2024-04-26 15:23:02] INFO root fetch - processPackages [dcaspt2-input-generator]: Downloading https://files.pythonhosted.org/packages/00/82/a2fc805d136fffe1245cece60c2ecb7e166c520040e0dd6b0c6ad4fa4e4b/dcaspt2_input_generator-0.6.1.tar.gz
+[2024-04-26 15:23:02] INFO root fetch - processPackages [bblib]: Downloading https://files.pythonhosted.org/packages/c9/4f/46294187fc3b5785f000f5587287813acb722c384a69df31464368b780be/bblib-2.0.0.tar.gz
+[2024-04-26 15:23:02] INFO root fetch - processPackages [dcaspt2-input-generator]: executing diffoscope
+[2024-04-26 15:23:02] INFO root fetch - processPackages [dcaspt2-input-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcaspt2_input_generator-0.6.0.tar.gz tmp/dcaspt2_input_generator-0.6.1.tar.gz --markdown 20240426/d/dcaspt2-input-generator/0.6.0-0.6.1/README.md --exclude *.pyd
+[2024-04-26 15:23:02] INFO root fetch - processPackages [bblib]: executing diffoscope
+[2024-04-26 15:23:02] INFO root fetch - processPackages [bblib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bblib-1.2.1.tar.gz tmp/bblib-2.0.0.tar.gz --markdown 20240426/b/bblib/1.2.1-2.0.0/README.md --exclude *.pyd
+[2024-04-26 15:23:02] INFO root fetch - processPackages [rich-split]: Remove: archive file [/home/abi/fetcher/tmp/rich_split-0.0.1.tar.gz]
+[2024-04-26 15:23:02] INFO root fetch - processPackages [rich-split]: Remove: archive file [/home/abi/fetcher/tmp/rich_split-0.1.0.tar.gz]
+[2024-04-26 15:23:02] INFO root fetch - main [MainThread]: End processing [rich-split]: success
+[2024-04-26 15:23:02] INFO root fetch - processPackages [bblib]: Remove: archive file [/home/abi/fetcher/tmp/bblib-1.2.1.tar.gz]
+[2024-04-26 15:23:02] INFO root fetch - processPackages [bblib]: Remove: archive file [/home/abi/fetcher/tmp/bblib-2.0.0.tar.gz]
+[2024-04-26 15:23:02] INFO root fetch - main [MainThread]: End processing [bblib]: success
+[2024-04-26 15:23:02] INFO root fetch - processPackages [dcaspt2-input-generator]: Remove: archive file [/home/abi/fetcher/tmp/dcaspt2_input_generator-0.6.0.tar.gz]
+[2024-04-26 15:23:02] INFO root fetch - processPackages [dcaspt2-input-generator]: Remove: archive file [/home/abi/fetcher/tmp/dcaspt2_input_generator-0.6.1.tar.gz]
+[2024-04-26 15:23:02] INFO root fetch - main [MainThread]: End processing [dcaspt2-input-generator]: success
+[2024-04-26 15:23:02] INFO root fetch - main [MainThread]: Store serial: [22947953]
