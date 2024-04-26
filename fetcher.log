@@ -7910,3 +7910,24 @@
 [2024-04-26 05:06:49] INFO root fetch - processPackages [daml]: Remove: archive file [/home/abi/fetcher/tmp/daml-0.51.0.tar.gz]
 [2024-04-26 05:06:49] INFO root fetch - main [MainThread]: End processing [daml]: success
 [2024-04-26 05:06:49] INFO root fetch - main [MainThread]: Store serial: [22942152]
+[2024-04-26 05:08:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22942152]
+[2024-04-26 05:08:58] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-26 05:08:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-sayoroll
+[2024-04-26 05:08:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pywindmill
+[2024-04-26 05:08:58] INFO root fetch - processPackages [nonebot-plugin-sayoroll]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-26 05:08:58] INFO root fetch - processPackages [pywindmill]: New version: [1.0.0.2] Old Version: [1.0.0.1]
+[2024-04-26 05:08:58] INFO root fetch - processPackages [nonebot-plugin-sayoroll]: Downloading https://files.pythonhosted.org/packages/4e/89/a38cd2ae5feab04d625d6c31af65ed9abf34bed8e34d7c4d1c3d6af3403c/nonebot-plugin-sayoroll-1.0.3.tar.gz
+[2024-04-26 05:08:58] INFO root fetch - processPackages [pywindmill]: Downloading https://files.pythonhosted.org/packages/cb/ec/e9a97b087bee6f10d43692db8f7d9fd6a8c1b0239fd4e5456f630e7d3412/pywindmill-1.0.0.1-py3-none-any.whl
+[2024-04-26 05:08:59] INFO root fetch - processPackages [pywindmill]: Downloading https://files.pythonhosted.org/packages/9c/81/871a2697f77d78534cda775bac87e81b9140aea199b001f70945c023a4b9/pywindmill-1.0.0.2-py3-none-any.whl
+[2024-04-26 05:08:59] INFO root fetch - processPackages [nonebot-plugin-sayoroll]: Downloading https://files.pythonhosted.org/packages/c3/72/bbd176bf54aadfebcf74f9e399879cfef2f283403eab46825b8cf22d1815/nonebot_plugin_sayoroll-1.0.4.tar.gz
+[2024-04-26 05:08:59] INFO root fetch - processPackages [nonebot-plugin-sayoroll]: executing diffoscope
+[2024-04-26 05:08:59] INFO root fetch - processPackages [nonebot-plugin-sayoroll]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-sayoroll-1.0.3.tar.gz tmp/nonebot_plugin_sayoroll-1.0.4.tar.gz --markdown 20240426/n/nonebot-plugin-sayoroll/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-04-26 05:08:59] INFO root fetch - processPackages [pywindmill]: executing diffoscope
+[2024-04-26 05:08:59] INFO root fetch - processPackages [pywindmill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywindmill-1.0.0.1-py3-none-any.whl.zip tmp/pywindmill-1.0.0.2-py3-none-any.whl.zip --markdown 20240426/p/pywindmill/1.0.0.1-1.0.0.2/README.md --exclude *.pyd
+[2024-04-26 05:09:00] INFO root fetch - processPackages [pywindmill]: Remove: archive file [/home/abi/fetcher/tmp/pywindmill-1.0.0.1-py3-none-any.whl.zip]
+[2024-04-26 05:09:00] INFO root fetch - processPackages [pywindmill]: Remove: archive file [/home/abi/fetcher/tmp/pywindmill-1.0.0.2-py3-none-any.whl.zip]
+[2024-04-26 05:09:00] INFO root fetch - main [MainThread]: End processing [pywindmill]: success
+[2024-04-26 05:09:00] INFO root fetch - processPackages [nonebot-plugin-sayoroll]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-sayoroll-1.0.3.tar.gz]
+[2024-04-26 05:09:00] INFO root fetch - processPackages [nonebot-plugin-sayoroll]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_sayoroll-1.0.4.tar.gz]
+[2024-04-26 05:09:00] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-sayoroll]: success
+[2024-04-26 05:09:00] INFO root fetch - main [MainThread]: Store serial: [22942159]
