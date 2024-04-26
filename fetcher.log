@@ -12821,3 +12821,108 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-26 09:25:11] INFO root fetch - processPackages [KratosShallowWaterApplication]: Remove: archive file [/home/abi/fetcher/tmp/KratosShallowWaterApplication-9.5-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-04-26 09:25:11] INFO root fetch - main [MainThread]: End processing [KratosShallowWaterApplication]: success
 [2024-04-26 09:25:11] INFO root fetch - main [MainThread]: Store serial: [22944274]
+[2024-04-26 09:27:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22944274]
+[2024-04-26 09:27:21] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-04-26 09:27:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: KratosShapeOptimizationApplication
+[2024-04-26 09:27:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-adapter-satori
+[2024-04-26 09:27:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nonebot-plugin-hx-yinying
+[2024-04-26 09:27:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bcmd
+[2024-04-26 09:27:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: KratosStatisticsApplication
+[2024-04-26 09:27:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: KratosStructuralMechanicsApplication
+[2024-04-26 09:27:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: m9s-nereid-cart-b2c
+[2024-04-26 09:27:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ragutils
+[2024-04-26 09:27:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bezalel
+[2024-04-26 09:27:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: vbao-MVVM
+[2024-04-26 09:27:21] INFO root fetch - processPackages [m9s-nereid-cart-b2c]: New version: [7.0.2] Old Version: [7.0.1]
+[2024-04-26 09:27:21] INFO root fetch - processPackages [nonebot-plugin-hx-yinying]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-04-26 09:27:21] INFO root fetch - processPackages [vbao-MVVM]: New version: [0.3a1] Old Version: [0.2.1]
+[2024-04-26 09:27:21] WARNING root fetch - processPackages [ragutils]: Skipping, unable to determine old version
+[2024-04-26 09:27:21] INFO root fetch - processPackages [ragutils]: Start processing: hestia-earth-models
+[2024-04-26 09:27:21] INFO root fetch - main [MainThread]: End processing [ragutils] error
+[2024-04-26 09:27:21] INFO root fetch - processPackages [bcmd]: New version: [0.0.72] Old Version: [0.0.71]
+[2024-04-26 09:27:21] INFO root fetch - processPackages [m9s-nereid-cart-b2c]: Downloading https://files.pythonhosted.org/packages/c1/c7/931244154a6fdd897923fe8891ecd1137e8dc14023d597778a8ef6bb111f/m9s_nereid_cart_b2c-7.0.1.tar.gz
+[2024-04-26 09:27:21] INFO root fetch - processPackages [bezalel]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-26 09:27:21] INFO root fetch - processPackages [nonebot-plugin-hx-yinying]: Downloading https://files.pythonhosted.org/packages/16/eb/0d4fbb0b3090faa36da977372fc6eb8a53b3ec418392dde54f5a649c60a4/nonebot-plugin-hx-yinying-1.0.7.tar.gz
+[2024-04-26 09:27:21] INFO root fetch - processPackages [vbao-MVVM]: Downloading https://files.pythonhosted.org/packages/8e/d6/dc479c9392f66bbae901d5723af16eb2e1cff63a6707a5350e7584394022/vbao_MVVM-0.2.1.tar.gz
+[2024-04-26 09:27:21] INFO root fetch - processPackages [nonebot-adapter-satori]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-04-26 09:27:21] INFO root fetch - processPackages [KratosStructuralMechanicsApplication]: New version: [9.5] Old Version: [9.4.6]
+[2024-04-26 09:27:21] INFO root fetch - processPackages [KratosShapeOptimizationApplication]: New version: [9.5] Old Version: [9.4.6]
+[2024-04-26 09:27:21] INFO root fetch - processPackages [KratosStatisticsApplication]: New version: [9.5] Old Version: [9.4.5]
+[2024-04-26 09:27:21] INFO root fetch - processPackages [hestia-earth-models]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-26 09:27:21] INFO root fetch - processPackages [nonebot-adapter-satori]: Downloading https://files.pythonhosted.org/packages/38/9e/332ff095f0a58b1f2f01a556c59f3eb43d514cbd5de0e528f6566e765f8d/nonebot_adapter_satori-0.9.2.tar.gz
+[2024-04-26 09:27:21] INFO root fetch - processPackages [bcmd]: Downloading https://files.pythonhosted.org/packages/0c/3d/ad45af58e6121463717ae3ec8ac6fff9bc0115548395a350b533d31d0362/bcmd-0.0.71.tar.gz
+[2024-04-26 09:27:21] INFO root fetch - processPackages [bezalel]: Downloading https://files.pythonhosted.org/packages/cd/d8/c2961ee01e3521e0be4b92061e703be489a2e80e63a7dd2b7b93de967c9f/bezalel-0.0.8.tar.gz
+[2024-04-26 09:27:21] INFO root fetch - processPackages [m9s-nereid-cart-b2c]: Downloading https://files.pythonhosted.org/packages/75/d1/008e356d16e25e2a0c97432330ad0b0f63c68b7b532528eb3bc59f32171e/m9s_nereid_cart_b2c-7.0.2.tar.gz
+[2024-04-26 09:27:21] INFO root fetch - processPackages [KratosShapeOptimizationApplication]: Downloading https://files.pythonhosted.org/packages/35/9f/d3d9884ed56448fafd65475fe37c9930e70057aa0fbec9c980ac65fcfcd3/KratosShapeOptimizationApplication-9.4.6-cp39-cp39-win_amd64.whl
+[2024-04-26 09:27:21] INFO root fetch - processPackages [KratosStatisticsApplication]: Downloading https://files.pythonhosted.org/packages/20/1f/4c2b2d7c6c57562761342519627e25c92cc00931ba67fb46edc776fb2614/KratosStatisticsApplication-9.4.5-cp39-cp39-win_amd64.whl
+[2024-04-26 09:27:21] INFO root fetch - processPackages [nonebot-plugin-hx-yinying]: Downloading https://files.pythonhosted.org/packages/58/f8/ad4bc6d25ba795a944795457a7304c32dc93c60d8975ed7ceefb13a552a1/nonebot-plugin-hx-yinying-1.0.8.tar.gz
+[2024-04-26 09:27:21] INFO root fetch - processPackages [vbao-MVVM]: Downloading https://files.pythonhosted.org/packages/f0/3e/523a76788930699fe59cfbe5b6a994b683d6a919d23ba825b045f2b81c21/vbao_mvvm-0.3a1.tar.gz
+[2024-04-26 09:27:21] INFO root fetch - processPackages [KratosStructuralMechanicsApplication]: Downloading https://files.pythonhosted.org/packages/9c/c8/d8851efb680d69ea2dcf65f3b069f4ff4a472d3d605bf36f02d5c980be95/KratosStructuralMechanicsApplication-9.4.6-cp39-cp39-win_amd64.whl
+[2024-04-26 09:27:21] INFO root fetch - processPackages [hestia-earth-models]: Downloading https://files.pythonhosted.org/packages/a2/61/d19a2d7e01e8a5e0035eea49d6f5bdd2e224d17d89fe9ef0012f7ff05723/hestia-earth-models-0.9.0.tar.gz
+[2024-04-26 09:27:22] INFO root fetch - processPackages [m9s-nereid-cart-b2c]: executing diffoscope
+[2024-04-26 09:27:22] INFO root fetch - processPackages [m9s-nereid-cart-b2c]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m9s_nereid_cart_b2c-7.0.1.tar.gz tmp/m9s_nereid_cart_b2c-7.0.2.tar.gz --markdown 20240426/m/m9s-nereid-cart-b2c/7.0.1-7.0.2/README.md --exclude *.pyd
+[2024-04-26 09:27:22] INFO root fetch - processPackages [nonebot-plugin-hx-yinying]: executing diffoscope
+[2024-04-26 09:27:22] INFO root fetch - processPackages [nonebot-plugin-hx-yinying]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-hx-yinying-1.0.7.tar.gz tmp/nonebot-plugin-hx-yinying-1.0.8.tar.gz --markdown 20240426/n/nonebot-plugin-hx-yinying/1.0.7-1.0.8/README.md --exclude *.pyd
+[2024-04-26 09:27:22] INFO root fetch - processPackages [vbao-MVVM]: executing diffoscope
+[2024-04-26 09:27:22] INFO root fetch - processPackages [vbao-MVVM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vbao_MVVM-0.2.1.tar.gz tmp/vbao_mvvm-0.3a1.tar.gz --markdown 20240426/v/vbao-MVVM/0.2.1-0.3a1/README.md --exclude *.pyd
+[2024-04-26 09:27:22] INFO root fetch - processPackages [nonebot-adapter-satori]: Downloading https://files.pythonhosted.org/packages/b4/63/45cf90e98509d6081103ac32e520e3fd73306f9f2d7ead8be5ece0680e16/nonebot_adapter_satori-0.9.3.tar.gz
+[2024-04-26 09:27:22] INFO root fetch - processPackages [bezalel]: Downloading https://files.pythonhosted.org/packages/df/7a/30436464e3a604ede3f44d1108298e9895a247d528be848fc51459eaf948/bezalel-0.0.9.tar.gz
+[2024-04-26 09:27:22] INFO root fetch - processPackages [bcmd]: Downloading https://files.pythonhosted.org/packages/8b/64/9534f12d050c8621737e531d245904a96edf22cb5c7b2b7cf7cefe3e4861/bcmd-0.0.72.tar.gz
+[2024-04-26 09:27:22] INFO root fetch - processPackages [KratosShapeOptimizationApplication]: Downloading https://files.pythonhosted.org/packages/01/16/930d6ae2246f801742818a55bf650f2924008f863cc76390511fe7d67a41/KratosShapeOptimizationApplication-9.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-26 09:27:22] INFO root fetch - processPackages [KratosStatisticsApplication]: Downloading https://files.pythonhosted.org/packages/59/0c/ebfd0a6a43be57df1b18f8f6b12f459367986332389e05a3bfa10e3cee7b/KratosStatisticsApplication-9.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-26 09:27:22] INFO root fetch - processPackages [hestia-earth-models]: Downloading https://files.pythonhosted.org/packages/59/94/5b9b4317f8ae747ccffceb5debddd5d4f68a8aac6d6d53afb2ade6dbdfdb/hestia-earth-models-0.9.1.tar.gz
+[2024-04-26 09:27:22] INFO root fetch - processPackages [nonebot-adapter-satori]: executing diffoscope
+[2024-04-26 09:27:22] INFO root fetch - processPackages [nonebot-adapter-satori]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_adapter_satori-0.9.2.tar.gz tmp/nonebot_adapter_satori-0.9.3.tar.gz --markdown 20240426/n/nonebot-adapter-satori/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-04-26 09:27:22] INFO root fetch - processPackages [bezalel]: executing diffoscope
+[2024-04-26 09:27:22] INFO root fetch - processPackages [bcmd]: executing diffoscope
+[2024-04-26 09:27:22] INFO root fetch - processPackages [bcmd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bcmd-0.0.71.tar.gz tmp/bcmd-0.0.72.tar.gz --markdown 20240426/b/bcmd/0.0.71-0.0.72/README.md --exclude *.pyd
+[2024-04-26 09:27:22] INFO root fetch - processPackages [bezalel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bezalel-0.0.8.tar.gz tmp/bezalel-0.0.9.tar.gz --markdown 20240426/b/bezalel/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-26 09:27:22] INFO root fetch - processPackages [KratosStructuralMechanicsApplication]: Downloading https://files.pythonhosted.org/packages/89/9f/ab5ac44fcc1f840092fbe1c882f0ae620a21093dc7616d9a30cf1c0b2f19/KratosStructuralMechanicsApplication-9.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-26 09:27:22] INFO root fetch - processPackages [hestia-earth-models]: executing diffoscope
+[2024-04-26 09:27:22] INFO root fetch - processPackages [hestia-earth-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hestia-earth-models-0.9.0.tar.gz tmp/hestia-earth-models-0.9.1.tar.gz --markdown 20240426/h/hestia-earth-models/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-26 09:27:22] INFO root fetch - processPackages [m9s-nereid-cart-b2c]: Remove: archive file [/home/abi/fetcher/tmp/m9s_nereid_cart_b2c-7.0.1.tar.gz]
+[2024-04-26 09:27:22] INFO root fetch - processPackages [m9s-nereid-cart-b2c]: Remove: archive file [/home/abi/fetcher/tmp/m9s_nereid_cart_b2c-7.0.2.tar.gz]
+[2024-04-26 09:27:22] INFO root fetch - processPackages [m9s-nereid-cart-b2c]: Start processing: pulumi-oci
+[2024-04-26 09:27:22] INFO root fetch - main [MainThread]: End processing [m9s-nereid-cart-b2c]: success
+[2024-04-26 09:27:22] INFO root fetch - processPackages [KratosStatisticsApplication]: executing diffoscope
+[2024-04-26 09:27:22] INFO root fetch - processPackages [KratosStatisticsApplication]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KratosStatisticsApplication-9.4.5-cp39-cp39-win_amd64.whl.zip tmp/KratosStatisticsApplication-9.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240426/K/KratosStatisticsApplication/9.4.5-9.5/README.md --exclude *.pyd
+[2024-04-26 09:27:23] INFO root fetch - processPackages [nonebot-plugin-hx-yinying]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-hx-yinying-1.0.7.tar.gz]
+[2024-04-26 09:27:23] INFO root fetch - processPackages [vbao-MVVM]: Remove: archive file [/home/abi/fetcher/tmp/vbao_MVVM-0.2.1.tar.gz]
+[2024-04-26 09:27:23] INFO root fetch - processPackages [vbao-MVVM]: Remove: archive file [/home/abi/fetcher/tmp/vbao_mvvm-0.3a1.tar.gz]
+[2024-04-26 09:27:23] INFO root fetch - processPackages [nonebot-plugin-hx-yinying]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-hx-yinying-1.0.8.tar.gz]
+[2024-04-26 09:27:23] INFO root fetch - main [MainThread]: End processing [vbao-MVVM]: success
+[2024-04-26 09:27:23] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-hx-yinying]: success
+[2024-04-26 09:27:23] INFO root fetch - processPackages [pulumi-oci]: New version: [1.9.0a1693981063] Old Version: [1.9.0a1693634572]
+[2024-04-26 09:27:23] INFO root fetch - processPackages [pulumi-oci]: Downloading https://files.pythonhosted.org/packages/02/f8/59b31ede3416e4e37062af605ed2293a67d7cfe3eec867258c58481c638d/pulumi_oci-1.9.0a1693634572.tar.gz
+[2024-04-26 09:27:23] INFO root fetch - processPackages [KratosShapeOptimizationApplication]: executing diffoscope
+[2024-04-26 09:27:23] INFO root fetch - processPackages [KratosShapeOptimizationApplication]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KratosShapeOptimizationApplication-9.4.6-cp39-cp39-win_amd64.whl.zip tmp/KratosShapeOptimizationApplication-9.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240426/K/KratosShapeOptimizationApplication/9.4.6-9.5/README.md --exclude *.pyd
+[2024-04-26 09:27:23] INFO root fetch - processPackages [bezalel]: Remove: archive file [/home/abi/fetcher/tmp/bezalel-0.0.8.tar.gz]
+[2024-04-26 09:27:23] INFO root fetch - processPackages [bezalel]: Remove: archive file [/home/abi/fetcher/tmp/bezalel-0.0.9.tar.gz]
+[2024-04-26 09:27:23] INFO root fetch - main [MainThread]: End processing [bezalel]: success
+[2024-04-26 09:27:23] INFO root fetch - processPackages [bcmd]: Remove: archive file [/home/abi/fetcher/tmp/bcmd-0.0.71.tar.gz]
+[2024-04-26 09:27:23] INFO root fetch - processPackages [bcmd]: Remove: archive file [/home/abi/fetcher/tmp/bcmd-0.0.72.tar.gz]
+[2024-04-26 09:27:23] INFO root fetch - main [MainThread]: End processing [bcmd]: success
+[2024-04-26 09:27:23] INFO root fetch - processPackages [nonebot-adapter-satori]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_adapter_satori-0.9.2.tar.gz]
+[2024-04-26 09:27:23] INFO root fetch - processPackages [nonebot-adapter-satori]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_adapter_satori-0.9.3.tar.gz]
+[2024-04-26 09:27:23] INFO root fetch - main [MainThread]: End processing [nonebot-adapter-satori]: success
+[2024-04-26 09:27:23] INFO root fetch - processPackages [pulumi-oci]: Downloading https://files.pythonhosted.org/packages/77/93/cd3384a9ca236f6aa79a6f6fa7c94647e0588bdaf8a86d173cca47e31e21/pulumi_oci-1.9.0a1693981063.tar.gz
+[2024-04-26 09:27:23] INFO root fetch - processPackages [KratosStatisticsApplication]: Remove: archive file [/home/abi/fetcher/tmp/KratosStatisticsApplication-9.4.5-cp39-cp39-win_amd64.whl.zip]
+[2024-04-26 09:27:23] INFO root fetch - processPackages [KratosStatisticsApplication]: Remove: archive file [/home/abi/fetcher/tmp/KratosStatisticsApplication-9.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-26 09:27:23] INFO root fetch - main [MainThread]: End processing [KratosStatisticsApplication]: success
+[2024-04-26 09:27:23] INFO root fetch - processPackages [KratosStructuralMechanicsApplication]: executing diffoscope
+[2024-04-26 09:27:23] INFO root fetch - processPackages [KratosStructuralMechanicsApplication]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KratosStructuralMechanicsApplication-9.4.6-cp39-cp39-win_amd64.whl.zip tmp/KratosStructuralMechanicsApplication-9.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240426/K/KratosStructuralMechanicsApplication/9.4.6-9.5/README.md --exclude *.pyd
+[2024-04-26 09:27:24] INFO root fetch - processPackages [pulumi-oci]: executing diffoscope
+[2024-04-26 09:27:24] INFO root fetch - processPackages [pulumi-oci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240426:/home/abi/fetcher/20240426:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_oci-1.9.0a1693634572.tar.gz tmp/pulumi_oci-1.9.0a1693981063.tar.gz --markdown 20240426/p/pulumi-oci/1.9.0a1693634572-1.9.0a1693981063/README.md --exclude *.pyd
+[2024-04-26 09:27:24] INFO root fetch - processPackages [hestia-earth-models]: Remove: archive file [/home/abi/fetcher/tmp/hestia-earth-models-0.9.0.tar.gz]
+[2024-04-26 09:27:24] INFO root fetch - processPackages [hestia-earth-models]: Remove: archive file [/home/abi/fetcher/tmp/hestia-earth-models-0.9.1.tar.gz]
+[2024-04-26 09:27:24] INFO root fetch - main [MainThread]: End processing [hestia-earth-models]: success
+[2024-04-26 09:27:24] INFO root fetch - processPackages [KratosShapeOptimizationApplication]: Remove: archive file [/home/abi/fetcher/tmp/KratosShapeOptimizationApplication-9.4.6-cp39-cp39-win_amd64.whl.zip]
+[2024-04-26 09:27:24] INFO root fetch - processPackages [KratosShapeOptimizationApplication]: Remove: archive file [/home/abi/fetcher/tmp/KratosShapeOptimizationApplication-9.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-26 09:27:24] INFO root fetch - main [MainThread]: End processing [KratosShapeOptimizationApplication]: success
+[2024-04-26 09:27:25] INFO root fetch - processPackages [KratosStructuralMechanicsApplication]: Remove: archive file [/home/abi/fetcher/tmp/KratosStructuralMechanicsApplication-9.4.6-cp39-cp39-win_amd64.whl.zip]
+[2024-04-26 09:27:25] INFO root fetch - processPackages [KratosStructuralMechanicsApplication]: Remove: archive file [/home/abi/fetcher/tmp/KratosStructuralMechanicsApplication-9.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-26 09:27:25] INFO root fetch - main [MainThread]: End processing [KratosStructuralMechanicsApplication]: success
+[2024-04-26 09:27:38] INFO root fetch - processPackages [pulumi-oci]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_oci-1.9.0a1693634572.tar.gz]
+[2024-04-26 09:27:38] INFO root fetch - processPackages [pulumi-oci]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_oci-1.9.0a1693981063.tar.gz]
+[2024-04-26 09:27:38] INFO root fetch - main [MainThread]: End processing [pulumi-oci]: success
+[2024-04-26 09:27:38] INFO root fetch - main [MainThread]: Store serial: [22944344]
